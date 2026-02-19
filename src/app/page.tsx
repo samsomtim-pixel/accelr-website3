@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 import Marquee from "@/components/Marquee";
+import ScrollWordmark from "@/components/ScrollWordmark";
 import {
   ArrowRight,
   Search,
@@ -312,50 +313,37 @@ export default function HomePage() {
     <>
       <Navbar />
       <main className="pt-[72px]">
-        {/* ═══ SECTIE 1 — HERO (LICHT) ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-36 relative overflow-hidden">
+        {/* ═══ SECTIE 1 — HERO: Scroll wordmark animation ═══ */}
+        <ScrollWordmark />
+
+        {/* ═══ SECTIE 1b — HERO TEXT (appears after scroll animation) ═══ */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32 relative overflow-hidden">
           <div className="container-wide">
-            <div className="grid items-center gap-12 lg:grid-cols-2">
-              {/* Left: H1 + description + buttons */}
-              <FadeIn direction="none">
-                <div>
-                  <h1 className="font-display text-5xl font-bold leading-[1.05] tracking-tight text-text-dark sm:text-6xl lg:text-[80px]">
-                    Salesystemen
-                    <br />
-                    Voor Ambitieuze
-                    <br />
-                    B2B-Bedrijven.
-                  </h1>
+            <FadeIn direction="up">
+              <div className="mx-auto max-w-3xl text-center">
+                <h1 className="font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl lg:text-6xl">
+                  Salesystemen voor ambitieuze B2B-bedrijven.
+                </h1>
 
-                  <p className="mt-8 max-w-lg text-lg text-text-dark-secondary leading-relaxed">
-                    Accelr helpt B2B tech-founders van ad-hoc sales naar een
-                    schaalbaar, AI-gedreven commercieel systeem. Diagnose,
-                    implementatie en leadership.
-                  </p>
+                <p className="mt-8 text-lg text-text-dark-secondary leading-relaxed">
+                  Accelr helpt B2B tech-founders van ad-hoc sales naar een
+                  schaalbaar, AI-gedreven commercieel systeem. Diagnose,
+                  implementatie en leadership.
+                </p>
 
-                  <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                    <Link href="/contact" className="btn-primary">
-                      <span className="btn-label">Plan een gesprek</span>
-                      <span className="btn-arrow">
-                        <ArrowRight size={16} />
-                      </span>
-                    </Link>
-                    <Link href="/methode" className="btn-secondary-dark">
-                      De Accelr Methode&trade;
-                    </Link>
-                  </div>
+                <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+                  <Link href="/contact" className="btn-primary">
+                    <span className="btn-label">Plan een gesprek</span>
+                    <span className="btn-arrow">
+                      <ArrowRight size={16} />
+                    </span>
+                  </Link>
+                  <Link href="/methode" className="btn-secondary-dark">
+                    De Accelr Methode&trade;
+                  </Link>
                 </div>
-              </FadeIn>
-
-              {/* Right: Large wordmark */}
-              <FadeIn direction="right" delay={0.2}>
-                <div className="flex items-center justify-center">
-                  <p className="font-display text-[120px] font-bold leading-none tracking-tight text-text-dark sm:text-[160px] lg:text-[200px] dark:text-white">
-                    accelr<span className="text-accent-teal">.</span>
-                  </p>
-                </div>
-              </FadeIn>
-            </div>
+              </div>
+            </FadeIn>
           </div>
         </section>
 
