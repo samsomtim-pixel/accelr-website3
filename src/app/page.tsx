@@ -347,33 +347,12 @@ export default function HomePage() {
                 </div>
               </FadeIn>
 
-              {/* Right: A. logo mark */}
+              {/* Right: Large wordmark */}
               <FadeIn direction="right" delay={0.2}>
-                <div className="relative flex items-center justify-center">
-                  <svg
-                    viewBox="0 0 480 480"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-full max-w-[420px]"
-                    aria-label="Accelr logo mark"
-                  >
-                    {/* Subtle background circle */}
-                    <circle cx="240" cy="240" r="230" className="fill-bg-light dark:fill-[#111111]" />
-
-                    {/* The A — geometric, bold, modern */}
-                    <path
-                      d="M240 80 L148 360 L180 360 L200 300 L280 300 L300 360 L332 360 Z"
-                      className="fill-text-dark dark:fill-white"
-                    />
-                    {/* Crossbar cutout (negative space) */}
-                    <path
-                      d="M210 272 L240 180 L270 272 Z"
-                      className="fill-bg-light dark:fill-[#111111]"
-                    />
-
-                    {/* The dot — accent green */}
-                    <circle cx="364" cy="348" r="24" className="fill-accent-teal" />
-                  </svg>
+                <div className="flex items-center justify-center">
+                  <p className="font-display text-[120px] font-bold leading-none tracking-tight text-text-dark sm:text-[160px] lg:text-[200px] dark:text-white">
+                    accelr<span className="text-accent-teal">.</span>
+                  </p>
                 </div>
               </FadeIn>
             </div>
