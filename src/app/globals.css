@@ -1,0 +1,232 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-bg-primary: #0A0A0A;
+  --color-bg-secondary: #111111;
+  --color-bg-card: #161616;
+  --color-bg-card-hover: #1C1C1C;
+  --color-bg-light: #F9FAFB;
+  --color-bg-white: #FFFFFF;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #9CA3AF;
+  --color-text-muted: #52525B;
+  --color-text-dark: #0A0A0A;
+  --color-text-dark-secondary: #4B5563;
+  --color-text-dark-muted: #6B7280;
+  --color-accent-teal: #10B981;
+  --color-accent-teal-hover: #059669;
+  --color-accent-teal-dim: #10B98133;
+  --color-accent-teal-dark: #047857;
+  --color-border: #1E1E1E;
+  --color-border-light: #2A2A2A;
+  --color-border-light-mode: rgba(0, 0, 0, 0.10);
+  --color-warning: #F59E0B;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: var(--color-text-dark);
+    font-family: var(--font-sans);
+  }
+
+  .dark body,
+  .dark {
+    --color-bg-light: #111111;
+    --color-bg-white: #0A0A0A;
+    --color-text-dark: #FFFFFF;
+    --color-text-dark-secondary: #9CA3AF;
+    --color-text-dark-muted: #6B7280;
+    --color-border-light-mode: #2A2A2A;
+    --color-accent-teal: #2DD4BF;
+    --color-accent-teal-hover: #14B8A6;
+    --color-accent-teal-dark: #2DD4BF;
+    --color-accent-teal-dim: #2DD4BF33;
+  }
+
+  ::selection {
+    background-color: var(--color-accent-teal);
+    color: var(--color-bg-primary);
+  }
+}
+
+@layer components {
+  .container-wide {
+    @apply mx-auto max-w-6xl px-6 sm:px-8 lg:px-10;
+  }
+
+  .section-padding {
+    @apply py-24 sm:py-28 lg:py-32;
+  }
+
+  .section-label {
+    font-family: var(--font-mono);
+    @apply text-xs font-medium uppercase tracking-[0.2em] text-text-muted;
+  }
+
+  .section-label-dark {
+    font-family: var(--font-mono);
+    @apply text-xs font-medium uppercase tracking-[0.2em] text-text-dark-muted dark:text-gray-500;
+  }
+
+  /* ─── Triad-style button: text + arrow in separate color block ─── */
+  .btn-primary {
+    @apply inline-flex items-center gap-0 text-sm font-semibold transition-all duration-300 hover:-translate-y-0.5;
+  }
+  .btn-primary .btn-label {
+    @apply rounded-l-full bg-accent-teal px-6 py-3.5 text-bg-primary;
+  }
+  .btn-primary .btn-arrow {
+    @apply flex items-center justify-center rounded-r-full bg-accent-teal-hover px-4 py-3.5 text-bg-primary;
+  }
+  .btn-primary:hover .btn-label {
+    @apply bg-accent-teal-hover;
+  }
+  .btn-primary:hover .btn-arrow {
+    @apply bg-[#047857];
+  }
+
+  /* Simple inline primary (for CTA links without arrow block) */
+  .btn-primary-simple {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent-teal px-7 py-3.5 text-sm font-semibold text-bg-primary transition-all duration-300 hover:bg-accent-teal-hover hover:shadow-lg hover:shadow-accent-teal/25 hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-border-light px-7 py-3.5 text-sm font-semibold text-text-primary transition-all duration-300 hover:border-accent-teal hover:text-accent-teal;
+  }
+
+  .btn-secondary-dark {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-text-dark/20 px-7 py-3.5 text-sm font-semibold text-text-dark transition-all duration-300 hover:border-accent-teal-dark hover:text-accent-teal-dark dark:border-[#2A2A2A] dark:text-white dark:hover:border-[#2DD4BF] dark:hover:text-[#2DD4BF];
+  }
+
+  .card {
+    @apply rounded-2xl border border-border bg-bg-card p-6 sm:p-8 transition-all duration-300 hover:border-border-light hover:bg-bg-card-hover;
+  }
+
+  .card-light {
+    @apply rounded-2xl border border-border-light-mode bg-bg-white p-6 sm:p-8 transition-all duration-300 hover:shadow-lg hover:shadow-black/5 dark:bg-[#1A1A1A] dark:border-[#2A2A2A] dark:hover:shadow-white/5;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent-teal to-[#34d399] bg-clip-text text-transparent;
+  }
+
+  .divider {
+    @apply h-px w-full bg-border;
+  }
+
+  .divider-light {
+    @apply h-px w-full bg-border-light-mode;
+  }
+
+  /* Pain point pill */
+  .pill {
+    @apply rounded-xl bg-bg-light px-5 py-4 text-base font-medium text-text-dark sm:text-lg dark:bg-[#1A1A1A];
+  }
+}
+
+/* ─── Dark mode global overrides ─── */
+.dark section.bg-white {
+  background-color: #0A0A0A;
+}
+
+.dark .bg-white {
+  background-color: #0A0A0A;
+}
+
+.dark .bg-bg-light {
+  background-color: #111111;
+}
+
+.dark .border-border-light-mode {
+  border-color: #2A2A2A;
+}
+
+.dark .border-border-light-mode\/50 {
+  border-color: rgba(42, 42, 42, 0.5);
+}
+
+.dark .border-border-light-mode\/60 {
+  border-color: rgba(42, 42, 42, 0.6);
+}
+
+.dark .text-text-dark {
+  color: #FFFFFF;
+}
+
+.dark .text-text-dark-secondary {
+  color: #9CA3AF;
+}
+
+.dark .text-text-dark-muted {
+  color: #6B7280;
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Score slider */
+.score-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  background: var(--color-border-light-mode);
+  outline: none;
+  cursor: pointer;
+}
+
+.score-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-accent-teal);
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.score-slider::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 6px var(--color-accent-teal-dim);
+}
+
+.score-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-accent-teal);
+  border: none;
+  cursor: pointer;
+}
+
+.score-slider::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 6px var(--color-accent-teal-dim);
+}
