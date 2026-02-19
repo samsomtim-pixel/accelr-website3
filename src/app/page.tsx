@@ -313,37 +313,42 @@ export default function HomePage() {
     <>
       <Navbar />
       <main className="pt-[72px]">
-        {/* ═══ SECTIE 1 — HERO: Scroll wordmark animation ═══ */}
-        <ScrollWordmark />
+        {/* ═══ SECTIE 1 — HERO (2-column: text left, animated wordmark right) ═══ */}
+        <section className="relative min-h-[90vh] bg-white overflow-hidden">
+          <div className="container-wide flex min-h-[90vh] items-center py-20 sm:py-28 lg:py-32">
+            <div className="grid w-full items-center gap-12 lg:grid-cols-[1fr_auto]">
+              {/* Left: text */}
+              <FadeIn direction="up">
+                <div className="max-w-xl">
+                  <h1 className="font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl lg:text-6xl">
+                    Salesystemen voor ambitieuze B2B-bedrijven.
+                  </h1>
 
-        {/* ═══ SECTIE 1b — HERO TEXT (appears after scroll animation) ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32 relative overflow-hidden">
-          <div className="container-wide">
-            <FadeIn direction="up">
-              <div className="mx-auto max-w-3xl text-center">
-                <h1 className="font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl lg:text-6xl">
-                  Salesystemen voor ambitieuze B2B-bedrijven.
-                </h1>
+                  <p className="mt-8 text-lg text-text-dark-secondary leading-relaxed">
+                    Accelr helpt B2B tech-founders van ad-hoc sales naar een
+                    schaalbaar, AI-gedreven commercieel systeem. Diagnose,
+                    implementatie en leadership.
+                  </p>
 
-                <p className="mt-8 text-lg text-text-dark-secondary leading-relaxed">
-                  Accelr helpt B2B tech-founders van ad-hoc sales naar een
-                  schaalbaar, AI-gedreven commercieel systeem. Diagnose,
-                  implementatie en leadership.
-                </p>
-
-                <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-                  <Link href="/contact" className="btn-primary">
-                    <span className="btn-label">Plan een gesprek</span>
-                    <span className="btn-arrow">
-                      <ArrowRight size={16} />
-                    </span>
-                  </Link>
-                  <Link href="/methode" className="btn-secondary-dark">
-                    De Accelr Methode&trade;
-                  </Link>
+                  <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
+                    <Link href="/contact" className="btn-primary">
+                      <span className="btn-label">Plan een gesprek</span>
+                      <span className="btn-arrow">
+                        <ArrowRight size={16} />
+                      </span>
+                    </Link>
+                    <Link href="/methode" className="btn-secondary-dark">
+                      De Accelr Methode&trade;
+                    </Link>
+                  </div>
                 </div>
+              </FadeIn>
+
+              {/* Right: animated wordmark */}
+              <div className="hidden lg:flex items-center justify-end">
+                <ScrollWordmark />
               </div>
-            </FadeIn>
+            </div>
           </div>
         </section>
 
