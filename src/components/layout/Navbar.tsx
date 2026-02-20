@@ -87,10 +87,16 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Right side: Language + Theme + CTA */}
+        {/* Right side: Language + Theme + Score + CTA */}
         <div className="hidden items-center gap-4 md:flex">
           <LanguageSwitch />
           <ThemeToggle />
+          <Link
+            href="/score"
+            className="text-[13px] font-medium text-text-dark-secondary transition-colors duration-200 hover:text-accent-teal-dark dark:text-gray-400 dark:hover:text-accent-teal"
+          >
+            Score
+          </Link>
           <Link href="/contact" className="btn-primary">
             <span className="btn-label text-[13px]">Plan een gesprek</span>
             <span className="btn-arrow">
@@ -127,6 +133,13 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
+            <Link
+              href="/score"
+              onClick={() => setOpen(false)}
+              className="text-lg font-medium text-text-dark-secondary transition-colors hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
+            >
+              Score
+            </Link>
             <Link
               href="/contact"
               onClick={() => setOpen(false)}

@@ -109,7 +109,6 @@ const aanpakSteps = [
     num: "/01",
     title: "Scannen",
     icon: Search,
-    desc: "Ik begin met diepgaand onderzoek. Interviews met founder, sales en marketing. CRM-doorlichting, pipeline-analyse, AI readiness check. In 2 weken weet je precies waar je staat op 10 dimensies \u2014 en waar het geld ligt.",
     deliverables: [
       "Sales Maturity Score (10 dimensies, 1-10)",
       "Top 3-5 kansen met geschatte euro-waarde",
@@ -122,7 +121,6 @@ const aanpakSteps = [
     num: "/02",
     title: "Plannen",
     icon: ClipboardList,
-    desc: "Op basis van de Scan maken we een concreet implementatieplan. Welke systemen, in welke volgorde, met welke resources. Geen vage roadmap \u2014 een gedetailleerd bouwplan met milestones, verantwoordelijkheden en een helder budget.",
     deliverables: [
       "Gedetailleerd implementatieplan met fases",
       "Toolselectie en architectuur",
@@ -135,7 +133,6 @@ const aanpakSteps = [
     num: "/03",
     title: "Bouwen",
     icon: Hammer,
-    desc: "Ik bouw wat het plan aanwijst. Geen standaardpakketten \u2014 alleen wat de diagnose aanwijst. CRM inrichting, outbound engines, AI-tooling, processen, playbooks. Werkende systemen die van jou zijn.",
     deliverables: [
       "CRM-basis + salesproces \u2192 3-4 weken",
       "+ Outbound engine + AI-tooling \u2192 4-6 weken",
@@ -147,7 +144,6 @@ const aanpakSteps = [
     num: "/04",
     title: "Runnen & Opschalen",
     icon: Play,
-    desc: "Een systeem zonder leiderschap verwatert binnen 3 maanden. Ik blijf als fractional Head of Sales \u2014 niet adviseren, maar aansturen. Wekelijkse pipeline reviews, sales coaching, doorlopende optimalisatie. En als het draait: opschalen met je eerste sales hire.",
     deliverables: [
       "Wekelijkse pipeline reviews & coaching",
       "Maandrapportages met heldere KPI\u2019s",
@@ -284,6 +280,11 @@ const faqs = [
     q: "Wat kost het?",
     a: "De Scan kost \u20ac3.500 vast. De Bouw varieert van \u20ac5.000-\u20ac20.000 afhankelijk van scope. Het Partnerschap is maandelijks op basis van beschikbaarheid. Alles wordt vooraf afgesproken \u2014 geen verrassingen.",
   },
+  {
+    q: "Kan ik eerst zelf inschatten waar ik sta?",
+    a: "Ja. De gratis Sales Maturity Score geeft je in 3 minuten inzicht op 10 dimensies. Geen email nodig.",
+    cta: { label: "Check je score", href: "/score" },
+  },
 ];
 
 /* ─── Blog Previews ─── */
@@ -392,6 +393,20 @@ export default function HomePage() {
                   </div>
                 </FadeIn>
               ))}
+
+              <FadeIn delay={painPoints.length * 0.08 + 0.1}>
+                <div className="mt-8 text-center">
+                  <Link
+                    href="/score"
+                    className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
+                  >
+                    Check je Sales Maturity Score <ArrowRight size={14} />
+                  </Link>
+                  <p className="mt-2 text-xs text-text-dark-muted">
+                    Gratis &middot; 3 minuten &middot; Direct inzicht
+                  </p>
+                </div>
+              </FadeIn>
             </div>
           </div>
         </section>
@@ -446,9 +461,39 @@ export default function HomePage() {
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
                 De Accelr Methode&trade;
               </h2>
-              <p className="mt-4 max-w-2xl text-text-dark-secondary">
-                Scannen &rarr; Plannen &rarr; Bouwen &rarr; Runnen &amp;
-                Opschalen. In die volgorde. Altijd.
+            </FadeIn>
+
+            {/* Formula pills */}
+            <FadeIn delay={0.15}>
+              <div className="mt-10 flex flex-wrap items-center justify-start gap-3 sm:gap-4">
+                {["Proces", "Pipeline", "People", "AI"].map((item, i) => (
+                  <div
+                    key={item}
+                    className="flex items-center gap-3 sm:gap-4"
+                  >
+                    <div className="rounded-full border border-accent-teal-dark/30 bg-accent-teal/10 px-5 py-3 font-display text-lg font-semibold text-accent-teal-dark sm:px-6 sm:text-xl">
+                      {item}
+                    </div>
+                    {i < 3 && (
+                      <span className="text-2xl font-light text-text-dark-muted">
+                        &times;
+                      </span>
+                    )}
+                  </div>
+                ))}
+                <span className="text-2xl font-light text-text-dark-muted">
+                  =
+                </span>
+                <div className="rounded-full bg-accent-teal px-5 py-3 font-display text-lg font-semibold text-white sm:px-6 sm:text-xl">
+                  exponenti&euml;le groei
+                </div>
+              </div>
+
+              <p className="mt-6 max-w-2xl text-text-dark-secondary">
+                Vier pijlers die elkaar versterken. Het effect is
+                multiplicatief. Verbeter elk met 20% en je totale output groeit
+                met minimaal{" "}
+                <span className="font-semibold text-text-dark">100%</span>.
               </p>
             </FadeIn>
 
@@ -480,10 +525,7 @@ export default function HomePage() {
                       <h3 className="font-display text-2xl font-bold text-text-dark">
                         {step.title}
                       </h3>
-                      <p className="mt-3 max-w-2xl text-text-dark-secondary leading-relaxed">
-                        {step.desc}
-                      </p>
-                      <ul className="mt-6 grid gap-2 sm:grid-cols-2">
+                      <ul className="mt-4 grid gap-2 sm:grid-cols-2">
                         {step.deliverables.map((item) => (
                           <li
                             key={item}
@@ -494,7 +536,7 @@ export default function HomePage() {
                           </li>
                         ))}
                       </ul>
-                      <p className="mt-6 text-sm font-semibold text-accent-teal-dark">
+                      <p className="mt-4 text-sm font-semibold text-accent-teal-dark">
                         {step.price}
                       </p>
                     </div>
@@ -502,6 +544,18 @@ export default function HomePage() {
                 </FadeIn>
               ))}
             </div>
+
+            {/* Link to methode page */}
+            <FadeIn delay={0.3}>
+              <div className="mt-12 text-center">
+                <Link
+                  href="/methode"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
+                >
+                  Bekijk de volledige methode <ArrowRight size={14} />
+                </Link>
+              </div>
+            </FadeIn>
           </div>
         </section>
 
@@ -922,6 +976,14 @@ export default function HomePage() {
                       <p className="mt-4 text-sm text-text-dark-secondary leading-relaxed">
                         {faq.a}
                       </p>
+                      {"cta" in faq && (
+                        <Link
+                          href={(faq.cta as { href: string; label: string }).href}
+                          className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
+                        >
+                          {(faq.cta as { href: string; label: string }).label} <ArrowRight size={14} />
+                        </Link>
+                      )}
                     </details>
                   </FadeIn>
                 ))}

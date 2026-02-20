@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 /* ─── Compound effect data table ─── */
 const compoundData = [
-  { pijler: "Proces", effect: "+12pp winrate", bron: "CSO Insights" },
+  { pijler: "Proces", effect: "+20% winrate", bron: "CSO Insights" },
   { pijler: "Pipeline", effect: "10-15 meetings/maand", bron: "Bridge Group" },
   { pijler: "People", effect: "2× meer verkooptijd", bron: "Bain & Company" },
   {
@@ -31,8 +31,8 @@ const compoundData = [
   },
   {
     pijler: "Samen",
-    effect: "2× kans op >10% groei",
-    bron: "McKinsey (n=3.800)",
+    effect: "107% totale groei",
+    bron: "Compound effect",
   },
 ];
 
@@ -188,7 +188,7 @@ export default function MethodePage() {
                   <span className="text-2xl font-light text-text-dark-muted">
                     =
                   </span>
-                  <div className="rounded-full border border-accent-teal-dark bg-accent-teal/20 px-5 py-3 font-display text-lg font-semibold text-accent-teal-dark sm:px-6 sm:text-xl">
+                  <div className="rounded-full bg-accent-teal px-5 py-3 font-display text-lg font-semibold text-white sm:px-6 sm:text-xl">
                     exponentiële groei
                   </div>
                 </div>
