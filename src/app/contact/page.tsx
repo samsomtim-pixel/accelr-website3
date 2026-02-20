@@ -5,11 +5,11 @@ import FadeIn from "@/components/FadeIn";
 import { Clock, MessageSquare, Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact — Plan een kennismaking",
+  title: "Contact, Plan een kennismaking",
   description:
     "Plan een vrijblijvend kennismakingsgesprek met Tim. 30 minuten, eerlijk advies.",
   openGraph: {
-    title: "Contact — Plan een kennismaking | Accelr",
+    title: "Contact, Plan een kennismaking | Accelr",
     description:
       "Plan een vrijblijvend kennismakingsgesprek met Tim. 30 minuten, eerlijk advies.",
   },

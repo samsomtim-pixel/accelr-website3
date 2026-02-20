@@ -27,11 +27,11 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Accelr — Salesystemen Voor Ambitieuze B2B-Bedrijven",
+  title: "Accelr, Salesystemen Voor Ambitieuze B2B-Bedrijven",
   description:
     "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem. Diagnose, implementatie en leadership.",
   openGraph: {
-    title: "Accelr — Salesystemen Voor Ambitieuze B2B-Bedrijven",
+    title: "Accelr, Salesystemen Voor Ambitieuze B2B-Bedrijven",
     description:
       "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem. Diagnose, implementatie en leadership.",
   },
@@ -57,7 +57,7 @@ const techTools = [
 const painPoints = [
   "De founder sluit 80% van de deals zelf. Dat schaalt niet.",
   "Leads verdwijnen in spreadsheets zonder opvolging.",
-  "CRM gekocht — maar niemand die het werkend maakt.",
+  "CRM gekocht, maar niemand die het werkend maakt.",
   "Outbound is ad-hoc: geen systeem, geen voorspelbaarheid.",
   "Opschalen vraagt om een systeem, niet om meer uren.",
 ];
@@ -168,7 +168,7 @@ const comparisonRows3 = [
   },
   {
     aspect: "Na het project",
-    accelr: "Systeem blijft draaien — het is van jou",
+    accelr: "Systeem blijft draaien, het is van jou",
     bureau: "Stopt als contract stopt",
     zelf: "Stopt als jij stopt",
   },
@@ -765,7 +765,7 @@ export default function HomePage() {
                     <div className="aspect-[3/4] w-full rounded-2xl bg-bg-primary overflow-hidden">
                       <Image
                         src="/images/tim.jpeg"
-                        alt="Tim — Founder & Sales Growth Partner bij Accelr"
+                        alt="Tim, Founder & Sales Growth Partner bij Accelr"
                         width={560}
                         height={747}
                         className="h-full w-full object-cover object-top"
@@ -802,8 +802,8 @@ export default function HomePage() {
                     </p>
                     <p className="mt-4 text-text-dark-secondary leading-relaxed">
                       Nu bouw ik de systemen die ik zelf had willen hebben.
-                      Gespecialiseerd in AI-gedreven sales infrastructuur —
-                      powered by tools als n8n, Clay, en Make — die bedrijven
+                      Gespecialiseerd in AI-gedreven sales infrastructuur,
+                      powered by tools als n8n, Clay, en Make, die bedrijven
                       zelf kunnen runnen.
                     </p>
                     <blockquote className="mt-6 border-l-4 border-accent-teal pl-5 py-1">

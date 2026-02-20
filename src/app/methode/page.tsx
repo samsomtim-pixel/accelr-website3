@@ -7,11 +7,11 @@ import FadeIn from "@/components/FadeIn";
 import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "De Accelr Methode™ — Diagnose → Build → Run",
+  title: "De Accelr Methode™, Diagnose → Build → Run",
   description:
     "Van ad-hoc sales naar een schaalbaar systeem. 10 dimensies, 4 fases, werkende systemen die van jou zijn.",
   openGraph: {
-    title: "De Accelr Methode™ — Diagnose → Build → Run",
+    title: "De Accelr Methode™, Diagnose → Build → Run",
     description:
       "Van ad-hoc sales naar een schaalbaar systeem. 10 dimensies, 4 fases, werkende systemen die van jou zijn.",
     images: ["/og-methode.png"],
@@ -255,7 +255,7 @@ export default function MethodePage() {
                 {
                   num: "/01",
                   title: "Sales Maturity Score op 10 dimensies",
-                  desc: "Een volledige doorlichting van je salesoperatie. Geen meningen — meetbare scores per dimensie met concrete verbeterpunten.",
+                  desc: "Een volledige doorlichting van je salesoperatie. Geen meningen, meetbare scores per dimensie met concrete verbeterpunten.",
                 },
                 {
                   num: "/02",
@@ -265,7 +265,7 @@ export default function MethodePage() {
                 {
                   num: "/03",
                   title: "Werkende systemen die van jou zijn",
-                  desc: "Alles wat ik bouw — CRM, automations, playbooks, campagnes — is volledig van jou. Geen lock-in, geen afhankelijkheid, geen licentiekosten.",
+                  desc: "Alles wat ik bouw, CRM, automations, playbooks, campagnes, is volledig van jou. Geen lock-in, geen afhankelijkheid, geen licentiekosten.",
                 },
               ].map((item, i) => (
                 <FadeIn key={item.num} delay={i * 0.1}>
@@ -389,7 +389,7 @@ export default function MethodePage() {
                   <p className="text-lg text-text-dark-secondary leading-relaxed">
                     De meeste B2B-bedrijven doen aan sales zoals ze altijd
                     hebben gedaan: de founder belt, mailt en networkt. Het
-                    werkt — tot het niet meer schaalt. Je mist deals omdat er
+                    werkt, tot het niet meer schaalt. Je mist deals omdat er
                     geen opvolging is. Je hebt tools maar niemand die ze
                     werkend maakt. Je wilt je eerste salesperson aannemen maar
                     je hebt geen proces om te overdragen.
@@ -400,7 +400,7 @@ export default function MethodePage() {
                     het daadwerkelijk te bouwen. CRM&apos;s worden ingericht,
                     outbound engines draaien, AI-tools zijn geïntegreerd,
                     processen zijn gedocumenteerd. Het resultaat: een
-                    salesmotor die draait — ook als jij er niet bent.
+                    salesmotor die draait, ook als jij er niet bent.
                   </p>
 
                   <div className="mt-8">
@@ -451,7 +451,7 @@ export default function MethodePage() {
                         Resultaat:
                       </span>{" "}
                       Sales Maturity Score op 10 dimensies. Een helder beeld
-                      van waar je staat — en waar het geld ligt.
+                      van waar je staat, en waar het geld ligt.
                     </p>
                     <p className="mt-6 text-sm font-semibold text-accent-teal-dark">
                       €3.500 vast · Niet tevreden? Geld terug. Geen
@@ -488,7 +488,7 @@ export default function MethodePage() {
                     </p>
                     <p className="mt-4 text-text-dark-secondary leading-relaxed">
                       Het plan integreert met je bestaande tools en is zo
-                      gestructureerd dat ik het kan bouwen — of je het zelf
+                      gestructureerd dat ik het kan bouwen, of je het zelf
                       kunt oppakken.
                     </p>
                   </div>
@@ -515,7 +515,7 @@ export default function MethodePage() {
                       Week 3-10: Bouwen
                     </h4>
                     <p className="mt-4 text-text-dark-secondary leading-relaxed">
-                      Ik bouw wat het plan aanwijst. Geen standaardpakketten —
+                      Ik bouw wat het plan aanwijst. Geen standaardpakketten,
                       alleen wat jij nodig hebt.
                     </p>
                     <div className="mt-4">
@@ -571,7 +571,7 @@ export default function MethodePage() {
                     </h4>
                     <p className="mt-4 text-text-dark-secondary leading-relaxed">
                       Een systeem zonder leiderschap verwatert binnen 3
-                      maanden. Ik blijf als je fractional Head of Sales — niet
+                      maanden. Ik blijf als je fractional Head of Sales, niet
                       adviseren, maar aansturen.
                     </p>
                     <ul className="mt-4 space-y-2">
@@ -597,7 +597,7 @@ export default function MethodePage() {
                     </p>
                     <p className="mt-3 text-sm italic text-text-dark-secondary">
                       Het doel is dat je me niet meer nodig hebt. Dat is geen
-                      falen — dat is het plan.
+                      falen, dat is het plan.
                     </p>
                   </div>
                   <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden">
@@ -625,8 +625,8 @@ export default function MethodePage() {
                 </h3>
                 <p className="mt-6 text-lg text-text-dark-secondary leading-relaxed">
                   De meeste klanten gaan direct van Scan naar Bouw. Elk
-                  onderdeel wordt tot in detail uitgewerkt — welke tools, welke
-                  data, welke processen — voordat er iets gebouwd wordt.
+                  onderdeel wordt tot in detail uitgewerkt, welke tools, welke
+                  data, welke processen, voordat er iets gebouwd wordt.
                 </p>
                 <p className="mt-4 text-lg text-text-dark-secondary leading-relaxed">
                   Ik ontwerp en implementeer de systemen die in het plan staan:
@@ -704,7 +704,7 @@ export default function MethodePage() {
 
                 <FadeIn delay={0.6}>
                   <p className="mt-6 text-sm text-text-dark-secondary">
-                    Elke score wordt onderbouwd met concrete observaties — geen
+                    Elke score wordt onderbouwd met concrete observaties, geen
                     vage indrukken, maar meetbare feiten.
                   </p>
                   <div className="mt-6">

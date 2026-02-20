@@ -7,11 +7,11 @@ import FadeIn from "@/components/FadeIn";
 import { Search, Hammer, Cpu, Unlock, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Over Tim — Sales Growth Partner",
+  title: "Over Tim, Sales Growth Partner",
   description:
     "8+ jaar B2B sales bij adtech en SaaS scale-ups. Van ShowHeroes naar Accelr. Hands-on, AI-native.",
   openGraph: {
-    title: "Over Tim — Sales Growth Partner | Accelr",
+    title: "Over Tim, Sales Growth Partner | Accelr",
     description:
       "8+ jaar B2B sales bij adtech en SaaS scale-ups. Van ShowHeroes naar Accelr. Hands-on, AI-native.",
   },
@@ -31,7 +31,7 @@ const approachCards = [
   {
     icon: Cpu,
     title: "AI als gereedschap",
-    text: "Clay, Make, n8n, ChatGPT — structureel geïntegreerd.",
+    text: "Clay, Make, n8n, ChatGPT, structureel geïntegreerd.",
   },
   {
     icon: Unlock,
@@ -58,7 +58,7 @@ export default function OverTimPage() {
                   </h1>
 
                   <p className="mt-6 text-lg text-text-dark-secondary sm:text-xl">
-                    Ik ben Tim — founder van Accelr en Sales Growth Partner voor B2B
+                    Ik ben Tim, founder van Accelr en Sales Growth Partner voor B2B
                     tech-bedrijven in Nederland. Ik help founders van ad-hoc sales
                     naar een werkend systeem.
                   </p>
@@ -70,7 +70,7 @@ export default function OverTimPage() {
                   <div className="aspect-[3/4] w-full rounded-2xl bg-bg-primary overflow-hidden">
                     <Image
                       src="/images/tim.jpeg"
-                      alt="Tim — Founder & Sales Growth Partner bij Accelr"
+                      alt="Tim, Founder & Sales Growth Partner bij Accelr"
                       width={560}
                       height={747}
                       className="h-full w-full object-cover object-top"
@@ -99,7 +99,7 @@ export default function OverTimPage() {
                 <div className="mt-6 space-y-4 text-text-dark-secondary">
                   <p>
                     Voordat ik Accelr startte, was ik Country Manager Nederland
-                    bij ShowHeroes — een Europese adtech scale-up. Daar bouwde ik
+                    bij ShowHeroes, een Europese adtech scale-up. Daar bouwde ik
                     de Nederlandse operatie op: van eerste klant tot winstgevende
                     markt.
                   </p>
@@ -136,7 +136,7 @@ export default function OverTimPage() {
                   <p>
                     Daarom startte ik Accelr. Ik combineer de strategische blik
                     van een commercieel directeur met de hands-on aanpak van een
-                    implementatie-specialist. En ik zet AI in als gereedschap —
+                    implementatie-specialist. En ik zet AI in als gereedschap,
                     niet als gimmick.
                   </p>
                 </div>

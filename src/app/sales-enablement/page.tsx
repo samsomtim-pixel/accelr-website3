@@ -21,7 +21,7 @@ const deliverables = [
   {
     num: "/01",
     title: "Sales Playbook",
-    desc: "Het complete draaiboek voor je salesproces. Van eerste contact tot close. Stappen, templates, scripts en best practices — zodat nieuwe reps sneller productief zijn en ervaren reps consistenter.",
+    desc: "Het complete draaiboek voor je salesproces. Van eerste contact tot close. Stappen, templates, scripts en best practices, zodat nieuwe reps sneller productief zijn en ervaren reps consistenter.",
   },
   {
     num: "/02",
@@ -36,7 +36,7 @@ const deliverables = [
   {
     num: "/04",
     title: "Training & Coaching",
-    desc: "Hands-on training voor je team op de nieuwe tools en frameworks. Geen eenmalige workshop — een trainingsprogramma dat beklijft.",
+    desc: "Hands-on training voor je team op de nieuwe tools en frameworks. Geen eenmalige workshop, een trainingsprogramma dat beklijft.",
   },
 ];
 
@@ -59,7 +59,7 @@ const voorJou = [
 const faqs = [
   {
     q: "Werkt dit ook voor kleine teams (2-3 reps)?",
-    a: "Juist. Bij kleine teams is consistentie extra belangrijk. Een playbook zorgt ervoor dat iedereen op dezelfde manier verkoopt — en dat kennis niet verloren gaat als iemand vertrekt.",
+    a: "Juist. Bij kleine teams is consistentie extra belangrijk. Een playbook zorgt ervoor dat iedereen op dezelfde manier verkoopt, en dat kennis niet verloren gaat als iemand vertrekt.",
   },
   {
     q: "Hoe verschilt dit van een standaard salestraining?",
@@ -127,7 +127,7 @@ export default function SalesEnablementPage() {
                     op snelheid te komen.
                   </p>
                   <p>
-                    Het probleem is niet talent — het is gebrek aan structuur.
+                    Het probleem is niet talent, het is gebrek aan structuur.
                     Zonder playbook, zonder framework, zonder gedeelde aanpak is
                     elke deal een individueel experiment.
                   </p>
@@ -299,7 +299,7 @@ export default function SalesEnablementPage() {
                 <div className="mt-10">
                   <Link href="/de-scan" className="btn-primary">
                     <span className="btn-label">
-                      Start met De Scan &mdash; &euro;3.500
+                      Start met De Scan, &euro;3.500
                     </span>
                     <span className="btn-arrow">
                       <ArrowRight size={16} />

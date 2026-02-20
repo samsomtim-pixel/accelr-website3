@@ -21,7 +21,7 @@ const deliverables = [
   {
     num: "/01",
     title: "ICP & Buyer Persona",
-    desc: "Wie zijn je best-fit klanten? Welke bedrijven, welke rollen, welke pijnpunten? Geen vage persona-posters — een scherp profiel waar je targeting, messaging en hele salesproces op bouwt.",
+    desc: "Wie zijn je best-fit klanten? Welke bedrijven, welke rollen, welke pijnpunten? Geen vage persona-posters, een scherp profiel waar je targeting, messaging en hele salesproces op bouwt.",
   },
   {
     num: "/02",
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "Wat als ik al een ICP heb?",
-    a: "Dan valideren we die. In mijn ervaring klopt het ICP van de meeste bedrijven niet — of is het te breed. We scherpen aan op basis van data.",
+    a: "Dan valideren we die. In mijn ervaring klopt het ICP van de meeste bedrijven niet, of is het te breed. We scherpen aan op basis van data.",
   },
 ];
 
@@ -133,7 +133,7 @@ export default function SalesStrategiePage() {
                     pipeline zit vol met deals die niet bewegen.
                   </p>
                   <p>
-                    Sales strategie is geen luxe — het is de basis. Zonder
+                    Sales strategie is geen luxe, het is de basis. Zonder
                     scherpe targeting en positionering is alles wat je daarna
                     bouwt minder effectief.
                   </p>
@@ -293,14 +293,14 @@ export default function SalesStrategiePage() {
                   Eerst de basis. Dan bouwen.
                 </h2>
                 <p className="mt-6 text-lg text-text-dark-secondary">
-                  De Scan brengt in kaart of je strategie klopt — en waar de
+                  De Scan brengt in kaart of je strategie klopt, en waar de
                   grootste kansen liggen om scherper te verkopen.
                 </p>
 
                 <div className="mt-10">
                   <Link href="/de-scan" className="btn-primary">
                     <span className="btn-label">
-                      Start met De Scan &mdash; &euro;3.500
+                      Start met De Scan, &euro;3.500
                     </span>
                     <span className="btn-arrow">
                       <ArrowRight size={16} />

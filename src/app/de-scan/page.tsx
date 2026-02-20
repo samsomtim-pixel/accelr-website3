@@ -6,11 +6,11 @@ import FadeIn from "@/components/FadeIn";
 import { ArrowRight, ShieldCheck, ChevronDown } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "De Scan — Weet waar je geld laat liggen",
+  title: "De Scan, Weet waar je geld laat liggen",
   description:
     "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. €3.500 vast. Niet tevreden? Geld terug.",
   openGraph: {
-    title: "De Scan — Weet waar je geld laat liggen | Accelr",
+    title: "De Scan, Weet waar je geld laat liggen | Accelr",
     description:
       "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. €3.500 vast. Niet tevreden? Geld terug.",
   },
@@ -30,7 +30,7 @@ const dimensionsDetailed = [
 ];
 
 const deliverables = [
-  "Sales Maturity Score — score op 10 dimensies (1-10)",
+  "Sales Maturity Score, score op 10 dimensies (1-10)",
   "2-3 diepte-interviews (founder, sales, marketing)",
   "CRM & pipeline doorlichting (of gap-analyse als er geen CRM is)",
   "AI & tech readiness check",
@@ -53,7 +53,7 @@ export default function DeScanPage() {
                 <p className="section-label-dark">/ Altijd stap 1</p>
 
                 <h1 className="mt-8 font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl lg:text-6xl">
-                  De Scan: weet waar je geld laat liggen —{" "}
+                  De Scan: weet waar je geld laat liggen,{" "}
                   <span className="gradient-text">en hoeveel.</span>
                 </h1>
 
@@ -102,7 +102,7 @@ export default function DeScanPage() {
                     is, maar waar begin je?
                   </p>
                   <p className="font-semibold text-text-dark">
-                    De Scan geeft antwoord. Niet met meningen — met data.
+                    De Scan geeft antwoord. Niet met meningen, met data.
                   </p>
                 </div>
               </div>
@@ -261,7 +261,7 @@ export default function DeScanPage() {
                 <p className="mt-4 text-text-dark-secondary">
                   Gratis diagnostiek = belangenconflict. Een arts rekent voor een
                   MRI. Een accountant voor een audit. Ik reken voor een
-                  professionele diagnose. Het deliverable heeft standalone waarde —
+                  professionele diagnose. Het deliverable heeft standalone waarde,
                   je kunt er direct mee aan de slag, ook zonder vervolg.
                 </p>
               </div>

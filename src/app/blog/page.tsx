@@ -4,11 +4,11 @@ import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 
 export const metadata: Metadata = {
-  title: "Blog — Inzichten over B2B sales, AI en groei",
+  title: "Blog, Inzichten over B2B sales, AI en groei",
   description:
     "Artikelen over B2B sales, CRM, AI-tools, outbound en salesstrategie voor tech-founders.",
   openGraph: {
-    title: "Blog — Inzichten over B2B sales, AI en groei | Accelr",
+    title: "Blog, Inzichten over B2B sales, AI en groei | Accelr",
     description:
       "Artikelen over B2B sales, CRM, AI-tools, outbound en salesstrategie voor tech-founders.",
   },

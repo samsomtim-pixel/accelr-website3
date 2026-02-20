@@ -21,7 +21,7 @@ const deliverables = [
   {
     num: "/01",
     title: "CRM Selectie",
-    desc: "HubSpot, Pipedrive of Salesforce — afhankelijk van je fase, budget en complexiteit. Onafhankelijk advies, geen partnerships.",
+    desc: "HubSpot, Pipedrive of Salesforce, afhankelijk van je fase, budget en complexiteit. Onafhankelijk advies, geen partnerships.",
   },
   {
     num: "/02",
@@ -132,7 +132,7 @@ export default function CrmImplementatiePage() {
                   </p>
                   <p>
                     Ik richt je CRM in zodat het werkt voor hoe jouw team verkoopt
-                    — niet andersom.
+                    , niet andersom.
                   </p>
                 </div>
               </div>
@@ -290,14 +290,14 @@ export default function CrmImplementatiePage() {
                   Van spreadsheet naar werkend systeem.
                 </h2>
                 <p className="mt-6 text-lg text-text-dark-secondary">
-                  De Scan brengt in kaart wat je nodig hebt — CRM selectie,
+                  De Scan brengt in kaart wat je nodig hebt, CRM selectie,
                   inrichting, of optimalisatie van wat je al hebt.
                 </p>
 
                 <div className="mt-10">
                   <Link href="/de-scan" className="btn-primary">
                     <span className="btn-label">
-                      Start met De Scan &mdash; &euro;3.500
+                      Start met De Scan, &euro;3.500
                     </span>
                     <span className="btn-arrow">
                       <ArrowRight size={16} />

@@ -8,7 +8,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 export const metadata: Metadata = {
   title: "AI Sales Automation voor B2B | Accelr",
   description:
-    "AI structureel geïntegreerd in je salesproces. Clay, Make, n8n, Apollo. Geen experimenten — werkende systemen.",
+    "AI structureel geïntegreerd in je salesproces. Clay, Make, n8n, Apollo. Geen experimenten, werkende systemen.",
   openGraph: {
     title: "AI Sales Automation voor B2B | Accelr",
     description:
@@ -21,7 +21,7 @@ const deliverables = [
   {
     num: "/01",
     title: "AI Prospecting Engine",
-    desc: "Automatisch je ideale klanten vinden en verrijken met Clay en Apollo. Bedrijfsdata, contactgegevens, technographics en intent signals — zonder handmatig zoeken.",
+    desc: "Automatisch je ideale klanten vinden en verrijken met Clay en Apollo. Bedrijfsdata, contactgegevens, technographics en intent signals, zonder handmatig zoeken.",
   },
   {
     num: "/02",
@@ -123,7 +123,7 @@ export default function AiSalesAutomationPage() {
                     die &eacute;&eacute;n keer draait en dan breekt.
                   </p>
                   <p>
-                    Het probleem is niet de technologie — het is de implementatie.
+                    Het probleem is niet de technologie, het is de implementatie.
                     AI werkt alleen als het structureel is ingebed in je
                     salesproces: van prospecting tot personalisatie tot opvolging.
                     Niet als losse tool, maar als onderdeel van een werkend
@@ -296,7 +296,7 @@ export default function AiSalesAutomationPage() {
                 <div className="mt-10">
                   <Link href="/de-scan" className="btn-primary">
                     <span className="btn-label">
-                      Start met De Scan &mdash; &euro;3.500
+                      Start met De Scan, &euro;3.500
                     </span>
                     <span className="btn-arrow">
                       <ArrowRight size={16} />

@@ -36,7 +36,7 @@ const deliverables = [
   {
     num: "/04",
     title: "Targeting & Messaging",
-    desc: "ICP-gebaseerde lijsten via Clay/Apollo. Messaging die resoneert met jouw buyers — getest, geoptimaliseerd, AI-gepersonaliseerd.",
+    desc: "ICP-gebaseerde lijsten via Clay/Apollo. Messaging die resoneert met jouw buyers, getest, geoptimaliseerd, AI-gepersonaliseerd.",
   },
 ];
 
@@ -59,7 +59,7 @@ const voorJou = [
 const faqs = [
   {
     q: "Hoeveel meetings kan ik verwachten?",
-    a: "Afhankelijk van je markt en aanbod. Typisch 5-15 gekwalificeerde meetings per maand na de eerste optimalisatieronde. Geen loze beloftes — ik geef een realistische inschatting na De Scan.",
+    a: "Afhankelijk van je markt en aanbod. Typisch 5-15 gekwalificeerde meetings per maand na de eerste optimalisatieronde. Geen loze beloftes, ik geef een realistische inschatting na De Scan.",
   },
   {
     q: "Is cold outbound niet spam?",
@@ -122,7 +122,7 @@ export default function OutboundLeadgeneratiePage() {
                 <div className="mt-8 space-y-4 text-lg text-text-dark-secondary leading-relaxed">
                   <p>
                     De eerste klanten kwamen via je netwerk. Referrals. Een intro
-                    via een oud-collega. Dat werkte — tot het niet meer genoeg was.
+                    via een oud-collega. Dat werkte, tot het niet meer genoeg was.
                   </p>
                   <p>
                     Nu heb je voorspelbare instroom nodig. Maar cold outbound voelt
@@ -298,7 +298,7 @@ export default function OutboundLeadgeneratiePage() {
                 <div className="mt-10">
                   <Link href="/de-scan" className="btn-primary">
                     <span className="btn-label">
-                      Start met De Scan &mdash; &euro;3.500
+                      Start met De Scan, &euro;3.500
                     </span>
                     <span className="btn-arrow">
                       <ArrowRight size={16} />
