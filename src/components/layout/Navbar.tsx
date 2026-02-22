@@ -6,8 +6,9 @@ import { useTheme } from "next-themes";
 import { Menu, X, ArrowRight, Moon, Sun } from "lucide-react";
 
 const navItems = [
-  { href: "/#expertise", label: "Expertise" },
-  { href: "/methode", label: "De Methode" },
+  { href: "/#bouwblokken", label: "Expertise" },
+  { href: "/methode", label: "Aanpak" },
+  { href: "/expertise/fractional-head-of-sales", label: "Fractional" },
   { href: "/over-tim", label: "Over Tim" },
   { href: "/blog", label: "Blog" },
 ];
@@ -87,15 +88,15 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Right side: Language + Theme + Score + CTA */}
-        <div className="hidden items-center gap-4 md:flex">
+        {/* Right side: Language + Theme + De Scan + CTA */}
+        <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitch />
           <ThemeToggle />
           <Link
-            href="/score"
-            className="text-[13px] font-medium text-text-dark-secondary transition-colors duration-200 hover:text-accent-teal-dark dark:text-gray-400 dark:hover:text-accent-teal"
+            href="/de-scan"
+            className="rounded-full border border-accent-teal px-4 py-2 text-[13px] font-semibold text-accent-teal-dark transition-colors duration-200 hover:bg-accent-teal/10 dark:border-accent-teal dark:text-accent-teal dark:hover:bg-accent-teal/10"
           >
-            Score
+            De Scan
           </Link>
           <Link href="/contact" className="btn-primary">
             <span className="btn-label text-[13px]">Plan een gesprek</span>
@@ -134,16 +135,16 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/score"
+              href="/de-scan"
               onClick={() => setOpen(false)}
-              className="text-lg font-medium text-text-dark-secondary transition-colors hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
+              className="mt-2 w-full justify-center rounded-full border border-accent-teal px-4 py-3 text-center text-base font-semibold text-accent-teal-dark transition-colors hover:bg-accent-teal/10 dark:text-accent-teal"
             >
-              Score
+              De Scan
             </Link>
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="btn-primary mt-2 w-full justify-center"
+              className="btn-primary w-full justify-center"
             >
               <span className="btn-label flex-1 text-center">Plan een gesprek</span>
               <span className="btn-arrow">

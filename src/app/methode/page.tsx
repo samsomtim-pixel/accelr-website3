@@ -4,14 +4,19 @@ import Image from "next/image";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
+import FrameworkArchitecture from "@/components/FrameworkArchitecture";
+import ExpertiseMapping from "@/components/ExpertiseMapping";
 import { ArrowRight, MapPin } from "lucide-react";
+import { PILLAR_COLORS } from "@/lib/constants";
+
+const P = PILLAR_COLORS;
 
 export const metadata: Metadata = {
-  title: "De Accelr Methode™, Diagnose → Build → Run",
+  title: "De Accelr Methode\u2122, Diagnose \u2192 Build \u2192 Run",
   description:
     "Van ad-hoc sales naar een schaalbaar systeem. 10 dimensies, 4 fases, werkende systemen die van jou zijn.",
   openGraph: {
-    title: "De Accelr Methode™, Diagnose → Build → Run",
+    title: "De Accelr Methode\u2122, Diagnose \u2192 Build \u2192 Run",
     description:
       "Van ad-hoc sales naar een schaalbaar systeem. 10 dimensies, 4 fases, werkende systemen die van jou zijn.",
     images: ["/og-methode.png"],
@@ -19,75 +24,27 @@ export const metadata: Metadata = {
   },
 };
 
-/* ─── Compound effect data table ─── */
+/* \u2500\u2500\u2500 Compound effect data table (V6) \u2500\u2500\u2500 */
 const compoundData = [
-  { pijler: "Proces", effect: "+20% winrate", bron: "CSO Insights" },
-  { pijler: "Pipeline", effect: "10-15 meetings/maand", bron: "Bridge Group" },
-  { pijler: "People", effect: "2× meer verkooptijd", bron: "Bain & Company" },
-  {
-    pijler: "AI",
-    effect: "1.3× meer omzetgroei",
-    bron: "Salesforce (n=5.500)",
-  },
-  {
-    pijler: "Samen",
-    effect: "107% totale groei",
-    bron: "Compound effect",
-  },
+  { pijler: "Strategie", effect: "Fundament voor alles", bron: "\u2014" },
+  { pijler: "Proces", effect: "+12pp winrate", bron: "CSO Insights (12+ jaar, 1.000+ bedrijven)" },
+  { pijler: "People", effect: "2\u00d7 meer verkooptijd", bron: "Bain & Company, 2025" },
+  { pijler: "AI", effect: "1.3\u00d7 meer omzetgroei", bron: "Salesforce (n=5.500)" },
+  { pijler: "Samen", effect: "107% totale groei", bron: "Compound effect" },
 ];
 
-/* ─── 10 dimensies ─── */
+/* \u2500\u2500\u2500 10 dimensies \u2500\u2500\u2500 */
 const dimensies = [
-  {
-    num: "/01",
-    name: "Strategy",
-    desc: "Heb je een helder ICP, positionering en go-to-market plan?",
-  },
-  {
-    num: "/02",
-    name: "Process",
-    desc: "Is je salesproces gedocumenteerd en herhaalbaar?",
-  },
-  {
-    num: "/03",
-    name: "Pipeline",
-    desc: "Heb je een voorspelbare instroom van gekwalificeerde leads?",
-  },
-  {
-    num: "/04",
-    name: "CRM",
-    desc: "Wordt je CRM actief gebruikt en levert het bruikbare data?",
-  },
-  {
-    num: "/05",
-    name: "Outbound",
-    desc: "Heb je een werkende outbound engine (email, LinkedIn, telefoon)?",
-  },
-  {
-    num: "/06",
-    name: "Enablement",
-    desc: "Heeft je team playbooks, scripts en training?",
-  },
-  {
-    num: "/07",
-    name: "AI & Automation",
-    desc: "Zijn AI-tools structureel geïntegreerd in je salesproces?",
-  },
-  {
-    num: "/08",
-    name: "Team",
-    desc: "Heb je de juiste mensen met de juiste rollen en doelen?",
-  },
-  {
-    num: "/09",
-    name: "Data",
-    desc: "Meet je de juiste KPI's en stuur je op data?",
-  },
-  {
-    num: "/10",
-    name: "Leadership",
-    desc: "Is er dedicated sales leadership en coaching?",
-  },
+  { num: "/01", name: "Strategy", desc: "Heb je een helder ICP, positionering en go-to-market plan?" },
+  { num: "/02", name: "Process", desc: "Is je salesproces gedocumenteerd en herhaalbaar?" },
+  { num: "/03", name: "Pipeline", desc: "Heb je een voorspelbare instroom van gekwalificeerde leads?" },
+  { num: "/04", name: "CRM", desc: "Wordt je CRM actief gebruikt en levert het bruikbare data?" },
+  { num: "/05", name: "Outbound", desc: "Heb je een werkende outbound engine (email, LinkedIn, telefoon)?" },
+  { num: "/06", name: "Enablement", desc: "Heeft je team playbooks, scripts en training?" },
+  { num: "/07", name: "AI & Automation", desc: "Zijn AI-tools structureel ge\u00efntegreerd in je salesproces?" },
+  { num: "/08", name: "Team", desc: "Heb je de juiste mensen met de juiste rollen en doelen?" },
+  { num: "/09", name: "Data", desc: "Meet je de juiste KPI\u2019s en stuur je op data?" },
+  { num: "/10", name: "Leadership", desc: "Is er dedicated sales leadership en coaching?" },
 ];
 
 export default function MethodePage() {
@@ -95,7 +52,7 @@ export default function MethodePage() {
     <>
       <Navbar />
       <main className="pt-[72px]">
-        {/* ═══ SECTIE 1 — HERO ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 1 \u2014 HERO \u2550\u2550\u2550 */}
         <section className="bg-white py-24 sm:py-32 lg:py-40 relative overflow-hidden">
           <div className="container-wide">
             <FadeIn direction="none">
@@ -103,12 +60,15 @@ export default function MethodePage() {
                 <p className="section-label-dark">/ De Accelr Methode&trade;</p>
 
                 <h1 className="mt-8 font-display text-5xl font-bold leading-[1.05] tracking-tight text-text-dark sm:text-6xl lg:text-[80px]">
-                  Bouw een salesmotor
-                  <br />
-                  die zonder jou draait.
+                  De Accelr Methode&trade;
                 </h1>
 
-                <div className="mt-10">
+                <p className="mt-6 max-w-2xl text-lg text-text-dark-secondary leading-relaxed">
+                  Drie pilaren, &eacute;&eacute;n multiplier. E&eacute;n systeem dat je
+                  salesmotor laat draaien &mdash; ook als jij er niet bent.
+                </p>
+
+                <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
                   <Link
                     href="/de-scan"
                     className="inline-flex items-center gap-2 rounded-full bg-accent-teal px-7 py-4 text-sm font-semibold text-bg-primary transition-all duration-300 hover:bg-accent-teal-hover hover:shadow-lg hover:shadow-accent-teal/25 hover:-translate-y-0.5"
@@ -116,13 +76,16 @@ export default function MethodePage() {
                     Start met De Scan
                     <ArrowRight size={16} />
                   </Link>
+                  <Link href="/contact" className="btn-secondary-dark">
+                    Plan een kennismaking
+                  </Link>
                 </div>
               </div>
             </FadeIn>
           </div>
         </section>
 
-        {/* ═══ SECTIE 2 — DE KERN (Methode + formule) ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 2 \u2014 INTRO + FORMULE + TABEL \u2550\u2550\u2550 */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -133,18 +96,19 @@ export default function MethodePage() {
             </FadeIn>
 
             <div className="mt-12 grid items-start gap-12 lg:grid-cols-2">
-              {/* Left: description */}
+              {/* Left: shorter intro */}
               <FadeIn delay={0.1}>
                 <div className="max-w-xl">
                   <p className="text-lg text-text-dark-secondary leading-relaxed">
-                    Alles begint hier, met de Accelr Methode: een gestructureerde
-                    aanpak die laat zien waar je omzet laat liggen en hoe je een
-                    schaalbaar salesysteem bouwt.
+                    Elk B2B-bedrijf dat voorbij founder-led sales wil groeien
+                    heeft een commercieel systeem nodig. Geen standaardadvies.
+                    Geen rapport dat in een la belandt. Een werkend systeem
+                    gebaseerd op drie pilaren die elkaar versterken &mdash;
+                    aangedreven door AI.
                   </p>
                   <p className="mt-4 text-lg text-text-dark-secondary leading-relaxed">
-                    Geen standaardadvies. Geen rapport dat in een la belandt. Een
-                    werkend systeem gebaseerd op vier pijlers die elkaar
-                    versterken.
+                    De Scan diagnosticeert waar het lekt. De formule bepaalt wat
+                    we bouwen.
                   </p>
                 </div>
               </FadeIn>
@@ -163,46 +127,64 @@ export default function MethodePage() {
               </FadeIn>
             </div>
 
-            {/* De formule */}
+            {/* De formule — V6 */}
             <FadeIn delay={0.3}>
               <div className="mt-16 rounded-2xl border border-border-light-mode bg-white p-8 sm:p-10">
                 <p className="font-mono text-xs font-medium uppercase tracking-[0.2em] text-text-dark-muted">
                   De formule
                 </p>
-                <div className="mt-6 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-                  {["Proces", "Pipeline", "People", "AI"].map((item, i) => (
-                    <div
-                      key={item}
-                      className="flex items-center gap-3 sm:gap-4"
-                    >
-                      <div className="rounded-full border border-accent-teal-dark/30 bg-accent-teal/10 px-5 py-3 font-display text-lg font-semibold text-accent-teal-dark sm:px-6 sm:text-xl">
-                        {item}
-                      </div>
-                      {i < 3 && (
-                        <span className="text-2xl font-light text-text-dark-muted">
-                          &times;
-                        </span>
-                      )}
-                    </div>
-                  ))}
-                  <span className="text-2xl font-light text-text-dark-muted">
-                    =
+                <div className="mt-6 flex flex-wrap items-center justify-center gap-2.5 sm:gap-3">
+                  {/* Strategie */}
+                  <span
+                    className="rounded-full px-5 py-2.5 font-display text-base font-medium sm:text-lg"
+                    style={{ color: P.strategy.color, backgroundColor: `${P.strategy.color}15`, border: `1.5px solid ${P.strategy.color}` }}
+                  >
+                    Strategie
                   </span>
-                  <div className="rounded-full bg-accent-teal px-5 py-3 font-display text-lg font-semibold text-white sm:px-6 sm:text-xl">
-                    exponentiële groei
-                  </div>
+                  <span className="text-xl font-light text-text-dark-muted">&rarr;</span>
+                  <span className="text-xl font-light text-text-dark-muted">(</span>
+                  {/* Proces */}
+                  <span
+                    className="rounded-full px-5 py-2.5 font-display text-base font-medium sm:text-lg"
+                    style={{ color: P.process.color, backgroundColor: `${P.process.color}15`, border: `1.5px solid ${P.process.color}` }}
+                  >
+                    Proces
+                  </span>
+                  <span className="text-xl font-light text-text-dark-muted">&times;</span>
+                  {/* People */}
+                  <span
+                    className="rounded-full px-5 py-2.5 font-display text-base font-medium sm:text-lg"
+                    style={{ color: P.people.color, backgroundColor: `${P.people.color}15`, border: `1.5px solid ${P.people.color}` }}
+                  >
+                    People
+                  </span>
+                  <span className="text-xl font-light text-text-dark-muted">)</span>
+                  <span className="text-xl font-light text-text-dark-muted">&times;</span>
+                  {/* AI */}
+                  <span
+                    className="rounded-full px-5 py-2.5 font-display text-base font-medium sm:text-lg"
+                    style={{ color: P.ai.color, backgroundColor: `${P.ai.color}15`, border: `1.5px solid ${P.ai.color}` }}
+                  >
+                    AI
+                  </span>
+                  <span className="text-xl font-light text-text-dark-muted">=</span>
+                  {/* Result */}
+                  <span className="rounded-full bg-accent-teal px-5 py-2.5 font-display text-base font-semibold text-white sm:text-lg">
+                    exponenti&euml;le groei
+                  </span>
                 </div>
 
                 <p className="mt-6 text-center text-text-dark-secondary">
-                  Elke factor versterkt de andere. Het effect is multiplicatief,
-                  niet additief. Verbeter elk element met 20% en je totale output
-                  groeit met{" "}
+                  Strategie is de input die alles aandrijft. Proces en People
+                  zijn de kernpilaren &mdash; ze versterken elkaar multiplicatief.
+                  AI is de multiplier die alles versnelt. Verbeter elk element
+                  met 20% en je totale output groeit met{" "}
                   <span className="font-semibold text-text-dark">107%</span>.
                 </p>
               </div>
             </FadeIn>
 
-            {/* Bron-tabel */}
+            {/* Bron-tabel — V6 */}
             <FadeIn delay={0.4}>
               <div className="mx-auto mt-8 max-w-3xl overflow-x-auto">
                 <table className="w-full text-left text-sm">
@@ -241,7 +223,53 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 3 — IN HET KORT (3 deliverables) ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 3 \u2014 FRAMEWORK ARCHITECTUUR (NIEUW) \u2550\u2550\u2550 */}
+        <FrameworkArchitecture />
+
+        {/* \u2550\u2550\u2550 SECTIE 4 \u2014 EXPERTISE MAPPING (NIEUW) \u2550\u2550\u2550 */}
+        <ExpertiseMapping />
+
+        {/* \u2550\u2550\u2550 SECTIE 4b \u2014 HOE HET FRAMEWORK WORDT TOEGEPAST (V7) \u2550\u2550\u2550 */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
+          <div className="container-wide">
+            <FadeIn>
+              <p className="section-label-dark">/ Toepassing</p>
+              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                Hoe het framework wordt toegepast
+              </h2>
+            </FadeIn>
+
+            <div className="mt-12 grid gap-6 md:grid-cols-3">
+              {[
+                {
+                  title: "De Scan",
+                  desc: "Alle pilaren worden geanalyseerd. Je krijgt per pilaar een score en prioriteitenlijst.",
+                },
+                {
+                  title: "De Bouw",
+                  desc: "Je kiest specifieke pilaren om aan te werken. Projectmatig, afgebakend.",
+                },
+                {
+                  title: "Fractional Head of Sales",
+                  desc: "Alle pilaren, doorlopend, met mij als eigenaar. Continue optimalisatie.",
+                },
+              ].map((card, i) => (
+                <FadeIn key={card.title} delay={i * 0.1}>
+                  <div className="card-light h-full flex flex-col">
+                    <h3 className="font-display text-lg font-semibold text-text-dark">
+                      {card.title}
+                    </h3>
+                    <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
+                      {card.desc}
+                    </p>
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* \u2550\u2550\u2550 SECTIE 5 \u2014 IN HET KORT (3 deliverables) \u2550\u2550\u2550 */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -260,7 +288,7 @@ export default function MethodePage() {
                 {
                   num: "/02",
                   title: "Geprioriteerd actieplan met euro-waarde",
-                  desc: "Elke kans krijgt een geschatte impact in euro's, een tijdsinschatting en een prioriteit. Je weet precies waar je moet beginnen.",
+                  desc: "Elke kans krijgt een geschatte impact in euro\u2019s, een tijdsinschatting en een prioriteit. Je weet precies waar je moet beginnen.",
                 },
                 {
                   num: "/03",
@@ -292,7 +320,7 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 4 — VOOR WIE ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 6 \u2014 VOOR WIE \u2550\u2550\u2550 */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -302,7 +330,6 @@ export default function MethodePage() {
             </FadeIn>
 
             <div className="mt-12 grid items-start gap-12 lg:grid-cols-2">
-              {/* Left: description */}
               <FadeIn delay={0.1}>
                 <div>
                   <p className="text-lg text-text-dark-secondary leading-relaxed">
@@ -318,7 +345,6 @@ export default function MethodePage() {
                     schaalbaar is zonder dat jij elke deal zelf hoeft te sluiten.
                   </p>
 
-                  {/* Typisch profiel */}
                   <div className="mt-10">
                     <p className="font-mono text-xs font-medium uppercase tracking-[0.2em] text-text-dark-muted">
                       Typisch profiel
@@ -326,7 +352,7 @@ export default function MethodePage() {
                     <ul className="mt-4 space-y-2">
                       {[
                         "B2B SaaS, tech of IT-dienstverlening",
-                        "€500K – €20M omzet",
+                        "\u20ac500K \u2013 \u20ac20M omzet",
                         "5-50 medewerkers",
                         "Founder doet 80%+ van de sales",
                         "Bestaande klanten, recurring revenue",
@@ -344,7 +370,6 @@ export default function MethodePage() {
                 </div>
               </FadeIn>
 
-              {/* Right: Founder working photo */}
               <FadeIn delay={0.2} direction="right">
                 <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden">
                   <Image
@@ -360,7 +385,7 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 5 — WAT VERANDERT ER ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 7 \u2014 WAT VERANDERT ER \u2550\u2550\u2550 */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -370,7 +395,6 @@ export default function MethodePage() {
             </FadeIn>
 
             <div className="mt-12 grid items-start gap-12 lg:grid-cols-2">
-              {/* Left: Office planning photo */}
               <FadeIn delay={0.1} direction="left">
                 <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden">
                   <Image
@@ -383,7 +407,6 @@ export default function MethodePage() {
                 </div>
               </FadeIn>
 
-              {/* Right: text */}
               <FadeIn delay={0.2}>
                 <div>
                   <p className="text-lg text-text-dark-secondary leading-relaxed">
@@ -398,7 +421,7 @@ export default function MethodePage() {
                     De Accelr Methode vervangt ad-hoc sales door een systeem.
                     Niet door te adviseren wat je zou moeten doen, maar door
                     het daadwerkelijk te bouwen. CRM&apos;s worden ingericht,
-                    outbound engines draaien, AI-tools zijn geïntegreerd,
+                    outbound engines draaien, AI-tools zijn ge&iuml;ntegreerd,
                     processen zijn gedocumenteerd. Het resultaat: een
                     salesmotor die draait, ook als jij er niet bent.
                   </p>
@@ -418,7 +441,7 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 6 — HOE HET WERKT (4 stappen) ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 8 \u2014 HOE HET WERKT (4 stappen) \u2550\u2550\u2550 */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -454,7 +477,7 @@ export default function MethodePage() {
                       van waar je staat, en waar het geld ligt.
                     </p>
                     <p className="mt-6 text-sm font-semibold text-accent-teal-dark">
-                      €3.500 vast · Niet tevreden? Geld terug. Geen
+                      &euro;3.500 vast &middot; Niet tevreden? Geld terug. Geen
                       voorwaarden.
                     </p>
                   </div>
@@ -524,9 +547,9 @@ export default function MethodePage() {
                       </p>
                       <ul className="mt-3 space-y-2">
                         {[
-                          "CRM-basis + salesproces → 3-4 weken",
-                          "+ Outbound engine + AI-tooling → 4-6 weken",
-                          "+ Team enablement + hiring → 6-8 weken",
+                          "CRM-basis + salesproces \u2192 3-4 weken",
+                          "+ Outbound engine + AI-tooling \u2192 4-6 weken",
+                          "+ Team enablement + hiring \u2192 6-8 weken",
                         ].map((item) => (
                           <li
                             key={item}
@@ -543,7 +566,7 @@ export default function MethodePage() {
                       overgedragen. Het systeem is van jou.
                     </p>
                     <p className="mt-6 text-sm font-semibold text-accent-teal-dark">
-                      Typische investering: €5.000 – €20.000 afhankelijk van
+                      Typische investering: &euro;5.000 &ndash; &euro;20.000 afhankelijk van
                       scope.
                     </p>
                   </div>
@@ -592,7 +615,7 @@ export default function MethodePage() {
                       ))}
                     </ul>
                     <p className="mt-6 text-sm text-text-dark-muted">
-                      1-2 dagen per week · Min. 3 maanden · Daarna maandelijks
+                      1-2 dagen per week &middot; Min. 3 maanden &middot; Daarna maandelijks
                       opzegbaar
                     </p>
                     <p className="mt-3 text-sm italic text-text-dark-secondary">
@@ -615,7 +638,7 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 7 — VAN DIAGNOSE NAAR SYSTEEM ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 9 \u2014 VAN DIAGNOSE NAAR SYSTEEM \u2550\u2550\u2550 */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -653,11 +676,10 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 8 — DE 10 DIMENSIES ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 10 \u2014 DE 10 DIMENSIES \u2550\u2550\u2550 */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <div className="grid items-start gap-12 lg:grid-cols-2">
-              {/* Left: text + grid */}
               <div>
                 <FadeIn>
                   <h3 className="font-display text-3xl font-bold text-text-dark sm:text-4xl">
@@ -719,7 +741,6 @@ export default function MethodePage() {
                 </FadeIn>
               </div>
 
-              {/* Right: Radar / spider chart of 10 dimensions */}
               <FadeIn delay={0.2} direction="right">
                 <div className="aspect-square w-full rounded-2xl overflow-hidden sticky top-24">
                   <Image
@@ -735,7 +756,7 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 9 — CTA FOOTER ═══ */}
+        {/* \u2550\u2550\u2550 SECTIE 11 \u2014 CTA FOOTER \u2550\u2550\u2550 */}
         <section className="bg-bg-secondary py-24 sm:py-32 lg:py-40">
           <div className="container-wide">
             <FadeIn>
@@ -760,6 +781,10 @@ export default function MethodePage() {
                   </Link>
                 </div>
 
+                <p className="mt-6 text-sm text-text-muted">
+                  &euro;3.500 vast &middot; Geld-terug garantie &middot; Resultaat in 2 weken
+                </p>
+
                 <div className="mt-10 flex flex-col items-center gap-3 text-sm text-text-muted">
                   <a
                     href="mailto:tim@accelr.nl"
@@ -779,7 +804,6 @@ export default function MethodePage() {
         </section>
       </main>
 
-      {/* ═══ SECTIE 10 — FOOTER ═══ */}
       <Footer />
     </>
   );

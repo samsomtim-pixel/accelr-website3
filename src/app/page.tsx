@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 import Marquee from "@/components/Marquee";
 import ScrollWordmark from "@/components/ScrollWordmark";
+import { PILLAR_COLORS } from "@/lib/constants";
 import {
   ArrowRight,
   Search,
@@ -14,17 +15,15 @@ import {
   Send,
   Cpu,
   BookOpen,
-  Users,
-  BarChart3,
   Check,
   X as XIcon,
   ChevronDown,
-  Rocket,
   MapPin,
-  ClipboardList,
-  Hammer,
-  Play,
+  Wrench,
+  User,
 } from "lucide-react";
+
+const P = PILLAR_COLORS;
 
 export const metadata: Metadata = {
   title: "Accelr, Salesystemen Voor Ambitieuze B2B-Bedrijven",
@@ -62,175 +61,171 @@ const painPoints = [
   "Opschalen vraagt om een systeem, niet om meer uren.",
 ];
 
-/* ─── Expertise Cards ─── */
-const expertiseCards = [
+/* ─── Keuzeblok cards (V7) ─── */
+const keuzeCards = [
   {
     icon: Search,
     title: "De Scan\u2122",
-    desc: "Gestructureerde doorlichting van je salesoperatie op 10 dimensies. Actieplan met geprioriteerde kansen en euro-waarde.",
-    meta: "\u20ac3.500 vast \u00b7 Niet tevreden? Geld terug.",
+    subtitle: "Eenmalige diagnose",
+    body: "Ik analyseer je complete salesoperatie: proces, team, tooling en data. Je krijgt een rapport met harde cijfers, een prioriteitenlijst en een concrete roadmap.",
+    details: "Doorlooptijd: 2-3 weken",
+    badge: "Altijd de eerste stap",
+    badgeCheck: true,
+    price: "\u20ac 3.500 vast",
+    cta: "Meer over De Scan",
     href: "/de-scan",
   },
   {
-    icon: Compass,
-    title: "Sales Strategie & GTM",
-    desc: "ICP-definitie, go-to-market plan, positionering, kanaalstrategie en pricing. De strategische basis onder alles wat je bouwt.",
-    href: "/sales-strategie",
+    icon: Wrench,
+    title: "De Bouw",
+    subtitle: "Projectmatig bouwen",
+    body: "Ik bouw specifieke onderdelen van je salesinfrastructuur. CRM-inrichting, outbound-machine, playbooks, AI-automations \u2014 afgebakend en resultaatgericht.",
+    details: "Op basis van Scan-resultaten of eigen briefing",
+    badge: "Projectmatig, afgebakend",
+    badgeCheck: false,
+    price: "Vanaf \u20ac 5.000 per project",
+    cta: "Bekijk de bouwblokken",
+    href: "#bouwblokken",
   },
   {
-    icon: Database,
-    title: "CRM & Pipeline",
-    desc: "CRM selectie, inrichting, pipeline design, dashboards, lead scoring en rapportage. Van spreadsheet naar werkend systeem.",
-    href: "/crm-implementatie",
+    icon: User,
+    title: "Fractional Head of Sales",
+    subtitle: "Doorlopend partnerschap",
+    body: "Ik word je parttime commercieel leider. 1-2 dagen per week, minimaal 6 maanden. Inclusief diagnose + alles wat nodig is om je sales structureel te laten groeien.",
+    details: "Vast maandelijks retainer",
+    badge: "Vast maandelijks retainer",
+    badgeCheck: false,
+    price: "Vanaf \u20ac 4.000/maand",
+    cta: "Meer over Fractional",
+    href: "/expertise/fractional-head-of-sales",
+  },
+];
+
+/* ─── Bouwblokken cards (V7) ─── */
+const bouwblokken = [
+  {
+    icon: Search,
+    title: "De Scan\u2122",
+    badge: "DIAGNOSE",
+    desc: "Gestructureerde doorlichting van je salesoperatie op 10 dimensies. Actieplan met geprioriteerde kansen en euro-waarde.",
+    href: "/de-scan",
+    accent: P.strategy.color,
+  },
+  {
+    icon: Compass,
+    title: "Strategie & GTM",
+    badge: "STRATEGIE",
+    desc: "ICP-definitie, go-to-market plan, positionering, kanaalstrategie en pricing. De strategische basis onder alles wat je bouwt.",
+    href: "/sales-strategie",
+    accent: P.strategy.color,
   },
   {
     icon: Send,
-    title: "Outbound & Leadgeneratie",
+    title: "Outbound & Leadgen",
+    badge: "PROCES",
     desc: "Email engine, LinkedIn outreach, multi-channel sequences. Voorspelbare pipeline in plaats van afhankelijkheid van je netwerk.",
     href: "/outbound-leadgeneratie",
+    accent: P.process.color,
   },
   {
-    icon: Cpu,
-    title: "AI & Automation",
-    desc: "AI prospecting (Clay/Apollo), workflow automation (Make/n8n), AI-personalisatie en prompt libraries. Structureel ge\u00efntegreerd.",
-    href: "/ai-sales-automation",
+    icon: Database,
+    title: "CRM & Salesproces",
+    badge: "PROCES",
+    desc: "CRM selectie, inrichting, pipeline design, dashboards, lead scoring en rapportage. Van spreadsheet naar werkend systeem.",
+    href: "/crm-implementatie",
+    accent: P.process.color,
   },
   {
     icon: BookOpen,
     title: "Sales Enablement",
+    badge: "PEOPLE",
     desc: "Playbooks, discovery scripts, objection handling, team training. Zodat je team verkoopt zoals jij dat doet.",
     href: "/sales-enablement",
+    accent: P.people.color,
+  },
+  {
+    icon: Cpu,
+    title: "AI & Automation",
+    badge: "+ AI",
+    desc: "AI prospecting (Clay/Apollo), workflow automation (Make/n8n), AI-personalisatie en prompt libraries. Structureel ge\u00efntegreerd.",
+    href: "/ai-sales-automation",
+    accent: P.ai.color,
   },
 ];
 
-/* ─── Aanpak steps (V4: Scannen, Plannen, Bouwen, Runnen & Opschalen) ─── */
-const aanpakSteps = [
+/* ─── Vergelijkingstabel V7 (Fractional vs Fulltime vs Interim vs Zelf) ─── */
+const comparisonRows = [
   {
-    num: "/01",
-    title: "Scannen",
-    icon: Search,
-    deliverables: [
-      "Sales Maturity Score (10 dimensies, 1-10)",
-      "Top 3-5 kansen met geschatte euro-waarde",
-      "Geprioriteerd 90-dagen actieplan",
-      "Advies per kans: zelf doen, met Accelr, of outsourcen",
-    ],
-    price: "\u20ac3.500 vast \u00b7 Niet tevreden? Geld terug.",
+    aspect: "Kosten/jaar",
+    zelf: "\u20ac0 (+ opportunitykosten)",
+    fulltime: "\u20ac175.000 \u2013 \u20ac250.000",
+    interim: "\u20ac120.000 \u2013 \u20ac200.000",
+    accelr: "\u20ac48.000 \u2013 \u20ac96.000",
   },
   {
-    num: "/02",
-    title: "Plannen",
-    icon: ClipboardList,
-    deliverables: [
-      "Gedetailleerd implementatieplan met fases",
-      "Toolselectie en architectuur",
-      "Budgetoverzicht en timeline",
-      "Go/no-go beslismoment met volledige transparantie",
-    ],
-    price: "Onderdeel van De Scan of separaat af te nemen.",
+    aspect: "Commitment",
+    zelf: "Geen",
+    fulltime: "12+ maanden",
+    interim: "6-12 maanden",
+    accelr: "6 maanden, flexibel",
   },
   {
-    num: "/03",
-    title: "Bouwen",
-    icon: Hammer,
-    deliverables: [
-      "CRM-basis + salesproces \u2192 3-4 weken",
-      "+ Outbound engine + AI-tooling \u2192 4-6 weken",
-      "+ Team enablement + hiring \u2192 6-8 weken",
-    ],
-    price: "Vaste prijs, vooraf afgesproken. Typisch \u20ac5.000 \u2013 \u20ac20.000.",
+    aspect: "Expertise",
+    zelf: "Jouw eigen kennis",
+    fulltime: "1 profiel",
+    interim: "1 profiel",
+    accelr: "Breed: strategie + ops + AI",
   },
   {
-    num: "/04",
-    title: "Runnen & Opschalen",
-    icon: Play,
-    deliverables: [
-      "Wekelijkse pipeline reviews & coaching",
-      "Maandrapportages met heldere KPI\u2019s",
-      "Roldefinitie & onboarding eerste sales hire",
-      "Procesdocumentatie voor overdracht",
-    ],
-    price: "1-2 dagen per week \u00b7 Minimaal 3 maanden, daarna maandelijks opzegbaar.",
+    aspect: "Risico",
+    zelf: "Hoog (bottleneck)",
+    fulltime: "Hoog (mis-hire \u20ac100K+)",
+    interim: "Medium",
+    accelr: "Laag (start met Scan)",
+  },
+  {
+    aspect: "Na 90 dagen",
+    zelf: "Onvoorspelbaar",
+    fulltime: "Onboarding loopt nog",
+    interim: "Operationeel",
+    accelr: "Systeem draait",
   },
 ];
 
-/* ─── Vergelijkingstabel (3 kolommen: Accelr / Bureau / Zelf doen) ─── */
-const comparisonRows3 = [
+/* ─── Investering V7 ─── */
+const investmentModels = [
   {
-    aspect: "Aanpak",
-    accelr: "Systeem bouwen + overdragen",
-    bureau: "Campagnes draaien zolang je betaalt",
-    zelf: "Zelf uitzoeken, 95% faalt",
+    title: "De Scan",
+    price: "\u20ac 3.500",
+    priceSuffix: "vast",
+    duration: "2-3 weken",
+    result: "Diagnose + roadmap + cijfers",
+    garantie: true,
+    scanIncluded: "Dit \u00eds De Scan",
   },
   {
-    aspect: "Na het project",
-    accelr: "Systeem blijft draaien, het is van jou",
-    bureau: "Stopt als contract stopt",
-    zelf: "Stopt als jij stopt",
+    title: "De Bouw",
+    price: "Vanaf \u20ac 5.000",
+    priceSuffix: "per project",
+    duration: "4-12 weken",
+    result: "Werkend onderdeel van je sales systeem",
+    garantie: false,
+    scanIncluded: "Nee (apart of vooraf)",
   },
   {
-    aspect: "AI-expertise",
-    accelr: "Structureel in elk onderdeel",
-    bureau: "Basis tooling, handmatig",
-    zelf: "Trial-and-error",
-  },
-  {
-    aspect: "Kosten",
-    accelr: "Vanaf €3.500 (Scan) + maatwerk Bouw",
-    bureau: "€3K-€8K/maand doorlopend",
-    zelf: "€500-€2K/maand + je eigen tijd",
-  },
-  {
-    aspect: "Eigendom",
-    accelr: "Jouw CRM, jouw data, jouw processen",
-    bureau: "In hun platform",
-    zelf: "Van jou, maar ongeoptimaliseerd",
-  },
-  {
-    aspect: "Resultaat",
-    accelr: "Werkend systeem in 3-8 weken",
-    bureau: "Afhankelijk van scope en budget",
-    zelf: "6-12 maanden experimenteren",
-  },
-  {
-    aspect: "Doorlopend",
-    accelr: "Optioneel: fractional Head of Sales",
-    bureau: "Verplicht: anders stopt alles",
-    zelf: "Jij bent het zelf",
-  },
-];
-
-/* ─── Kostenvergelijking ─── */
-const investmentCards = [
-  {
-    title: "Junior SDR inhuren",
-    traditional: "€65.000",
-    traditionalPer: "/jaar",
-    accelr: "vanaf €18.000",
-    accelrPer: "/jaar (Run)",
-    saving: "tot 72%",
-  },
-  {
-    title: "Sales Manager inhuren",
-    traditional: "€120.000",
-    traditionalPer: "/jaar",
-    accelr: "vanaf €42.000",
-    accelrPer: "/jaar (Partnerschap)",
-    saving: "tot 65%",
-  },
-  {
-    title: "Sales infrastructuur laten bouwen",
-    traditional: "€25.000 – €50.000",
-    traditionalPer: "",
-    accelr: "vanaf €5.000",
-    accelrPer: "(Bouw)",
-    saving: "tot 85%",
+    title: "Fractional Head of Sales",
+    price: "Vanaf \u20ac 4.000",
+    priceSuffix: "/maand",
+    duration: "Min. 6 maanden",
+    result: "Commercieel leiderschap + alle bouwblokken",
+    garantie: false,
+    scanIncluded: "Eerste maand = diagnose",
   },
 ];
 
 /* ─── Voor wie / Niet voor jou ─── */
 const voorJou = [
-  "B2B SaaS-, tech- of IT-bedrijf met €500K-€20M omzet",
+  "B2B SaaS-, tech- of IT-bedrijf met \u20ac500K-\u20ac20M omzet",
   "Je hebt een bewezen product maar sales groeit niet",
   "De founder sluit 80%+ van de deals zelf",
   "Je wilt eigenaar zijn van je sales infrastructuur",
@@ -244,21 +239,7 @@ const nietVoorJou = [
   "Je verwacht resultaat zonder eigen betrokkenheid",
 ];
 
-/* ─── Technologieën (numbered grid) ─── */
-const technologies = [
-  { num: "/01", name: "HubSpot", desc: "CRM & marketing automation" },
-  { num: "/02", name: "Clay", desc: "AI-driven data enrichment" },
-  { num: "/03", name: "Make", desc: "Workflow automation" },
-  { num: "/04", name: "n8n", desc: "Open-source automation" },
-  { num: "/05", name: "Instantly", desc: "Cold email at scale" },
-  { num: "/06", name: "Apollo", desc: "Prospecting & enrichment" },
-  { num: "/07", name: "Lemlist", desc: "Multi-channel outreach" },
-  { num: "/08", name: "LinkedIn Sales Nav", desc: "Social selling" },
-  { num: "/09", name: "ChatGPT / AI", desc: "Content & personalisatie" },
-  { num: "/10", name: "Notion", desc: "Playbooks & documentatie" },
-];
-
-/* ─── FAQ (V4) ─── */
+/* ─── FAQ (V7 = V6) ─── */
 const faqs = [
   {
     q: "Wat als ik nog geen CRM of salesproces heb?",
@@ -266,11 +247,7 @@ const faqs = [
   },
   {
     q: "Hoe snel zie ik resultaat?",
-    a: "De Scan levert binnen 2 weken een actieplan. De Bouw duurt 3-8 weken. De eerste resultaten \u2014 meer meetings, betere pipeline, werkend CRM \u2014 zie je binnen de eerste maand van De Bouw.",
-  },
-  {
-    q: "Kan ik ook alleen De Scan doen?",
-    a: "Absoluut. De Scan heeft standalone waarde. Je krijgt een actieplan waarmee je zelf aan de slag kunt. Geen verplicht vervolg.",
+    a: "De Scan levert binnen 2 weken een actieplan. De Bouw duurt 3-8 weken. De eerste resultaten zie je binnen de eerste maand van De Bouw.",
   },
   {
     q: "Wat maakt jou anders dan een sales consultant?",
@@ -278,12 +255,7 @@ const faqs = [
   },
   {
     q: "Wat kost het?",
-    a: "De Scan kost \u20ac3.500 vast. De Bouw varieert van \u20ac5.000-\u20ac20.000 afhankelijk van scope. Het Partnerschap is maandelijks op basis van beschikbaarheid. Alles wordt vooraf afgesproken \u2014 geen verrassingen.",
-  },
-  {
-    q: "Kan ik eerst zelf inschatten waar ik sta?",
-    a: "Ja. De gratis Sales Maturity Score geeft je in 3 minuten inzicht op 10 dimensies. Geen email nodig.",
-    cta: { label: "Check je score", href: "/score" },
+    a: "De Scan kost \u20ac3.500 vast. De Bouw varieert van \u20ac5.000-\u20ac20.000 afhankelijk van scope. Het Partnerschap is maandelijks. Alles wordt vooraf afgesproken \u2014 geen verrassingen.",
   },
 ];
 
@@ -314,7 +286,7 @@ export default function HomePage() {
     <>
       <Navbar />
       <main className="pt-[72px]">
-        {/* ═══ SECTIE 1 — HERO (2-column: text left, animated wordmark right) ═══ */}
+        {/* ═══ SECTIE 1 — HERO (V7) ═══ */}
         <section className="relative min-h-[90vh] bg-white overflow-hidden">
           <div className="container-wide flex min-h-[90vh] items-center py-20 sm:py-28 lg:py-32">
             <div className="grid w-full items-center gap-12 lg:grid-cols-[1fr_auto]">
@@ -322,13 +294,12 @@ export default function HomePage() {
               <FadeIn direction="up">
                 <div className="max-w-xl">
                   <h1 className="font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl lg:text-6xl">
-                    Salesystemen voor ambitieuze B2B-bedrijven.
+                    Van founder-led sales naar een schaalbaar systeem.
                   </h1>
 
                   <p className="mt-8 text-lg text-text-dark-secondary leading-relaxed">
-                    Accelr helpt B2B tech-founders van ad-hoc sales naar een
-                    schaalbaar, AI-gedreven commercieel systeem. Diagnose,
-                    implementatie en leadership.
+                    Sales Scan &middot; Projectmatig bouwen &middot; Fractional
+                    leiderschap &mdash; je kiest hoe diep ik erbij kom.
                   </p>
 
                   <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
@@ -338,8 +309,8 @@ export default function HomePage() {
                         <ArrowRight size={16} />
                       </span>
                     </Link>
-                    <Link href="/methode" className="btn-secondary-dark">
-                      De Accelr Methode&trade;
+                    <Link href="/de-scan" className="btn-secondary-dark">
+                      Start met De Scan
                     </Link>
                   </div>
                 </div>
@@ -356,7 +327,7 @@ export default function HomePage() {
         {/* ═══ SECTIE 2 — TOOL LOGOS MARQUEE (LICHT) ═══ */}
         <section className="border-y border-border-light-mode bg-bg-light py-6">
           <div className="mb-2 text-center">
-            <p className="section-label-dark">/ Tools & Technologie\u00ebn</p>
+            <p className="section-label-dark">/ Tools & Technologie&euml;n</p>
           </div>
           <Marquee speed={40}>
             {techTools.map((tool) => (
@@ -397,13 +368,13 @@ export default function HomePage() {
               <FadeIn delay={painPoints.length * 0.08 + 0.1}>
                 <div className="mt-8 text-center">
                   <Link
-                    href="/score"
+                    href="/de-scan"
                     className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
                   >
-                    Check je Sales Maturity Score <ArrowRight size={14} />
+                    Doe De Scan &mdash; ontdek waar je salesmotor vastloopt <ArrowRight size={14} />
                   </Link>
                   <p className="mt-2 text-xs text-text-dark-muted">
-                    Gratis &middot; 3 minuten &middot; Direct inzicht
+                    &euro;3.500 vast &middot; Geld-terug garantie &middot; Resultaat in 2 weken
                   </p>
                 </div>
               </FadeIn>
@@ -411,37 +382,185 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 4 — EXPERTISE (LICHT, 6 cards) ═══ */}
-        <section id="expertise" className="bg-bg-light py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 4 — KEUZEBLOK "HOE WERKEN WE SAMEN?" (V7, NIEUW) ═══ */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
-              <p className="section-label-dark">/ Expertise</p>
+              <p className="section-label-dark">/ Samenwerking</p>
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                Wat ik bouw
+                Hoe werken we samen?
               </h2>
               <p className="mt-4 max-w-2xl text-text-dark-secondary">
-                Van diagnose tot draaiend systeem. Elk onderdeel versterkt het
-                geheel.
+                Elk traject begint met De Scan. Daarna bepalen we samen hoe we
+                verder gaan.
+              </p>
+            </FadeIn>
+
+            <div className="mt-12 grid gap-6 md:grid-cols-3">
+              {keuzeCards.map((card, i) => (
+                <FadeIn key={card.title} delay={i * 0.1}>
+                  <div className="card-light h-full flex flex-col">
+                    <div className="flex items-start justify-between gap-3">
+                      <card.icon size={24} className="shrink-0 text-accent-teal" />
+                      {card.badgeCheck ? (
+                        <span className="inline-flex items-center gap-1 rounded-full bg-accent-teal/10 px-3 py-1 text-[11px] font-semibold text-accent-teal-dark">
+                          <Check size={12} strokeWidth={3} />
+                          {card.badge}
+                        </span>
+                      ) : (
+                        <span className="rounded-full bg-bg-light px-3 py-1 text-[11px] font-medium text-text-dark-muted">
+                          {card.badge}
+                        </span>
+                      )}
+                    </div>
+
+                    <h3 className="mt-4 font-display text-lg font-semibold text-text-dark">
+                      {card.title}
+                    </h3>
+                    <p className="mt-1 text-xs font-medium text-text-dark-muted">
+                      {card.subtitle}
+                    </p>
+
+                    <p className="mt-4 flex-1 text-sm text-text-dark-secondary leading-relaxed">
+                      {card.body}
+                    </p>
+
+                    <p className="mt-4 text-xs text-text-dark-muted">
+                      {card.details}
+                    </p>
+
+                    <p className="mt-3 text-base font-bold text-accent-teal-dark">
+                      {card.price}
+                    </p>
+
+                    <Link
+                      href={card.href}
+                      className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
+                    >
+                      {card.cta} <ArrowRight size={14} />
+                    </Link>
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
+
+            <FadeIn delay={0.4}>
+              <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary">
+                Niet zeker wat je nodig hebt? Start met De Scan. Op basis van de
+                diagnose bepalen we samen of je projectmatig verder wilt of dat
+                een doorlopend partnerschap meer oplevert.
+              </p>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* ═══ SECTIE 5 — FORMULE (V7, compact) ═══ */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
+          <div className="container-wide">
+            <FadeIn>
+              <p className="section-label-dark">/ Het framework</p>
+              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                E&eacute;n systeem, vier hefbomen
+              </h2>
+            </FadeIn>
+
+            <FadeIn delay={0.15}>
+              <div className="mt-10 flex flex-wrap items-center gap-2.5 sm:gap-3">
+                {/* Strategie */}
+                <span
+                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
+                  style={{ borderColor: P.strategy.color, backgroundColor: `${P.strategy.color}1A`, color: P.strategy.color }}
+                >
+                  Strategie
+                </span>
+                <span className="text-xl font-light text-text-dark-muted">&rarr;</span>
+                <span className="text-xl font-light text-text-dark-muted">(</span>
+                {/* Proces */}
+                <span
+                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
+                  style={{ borderColor: P.process.color, backgroundColor: `${P.process.color}1A`, color: P.process.color }}
+                >
+                  Proces
+                </span>
+                <span className="text-xl font-light text-text-dark-muted">&times;</span>
+                {/* People */}
+                <span
+                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
+                  style={{ borderColor: P.people.color, backgroundColor: `${P.people.color}1A`, color: P.people.color }}
+                >
+                  People
+                </span>
+                <span className="text-xl font-light text-text-dark-muted">)</span>
+                <span className="text-xl font-light text-text-dark-muted">&times;</span>
+                {/* AI */}
+                <span
+                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
+                  style={{ borderColor: P.ai.color, backgroundColor: `${P.ai.color}1A`, color: P.ai.color }}
+                >
+                  AI
+                </span>
+                <span className="text-xl font-light text-text-dark-muted">=</span>
+                {/* Result */}
+                <span className="rounded-full bg-accent-teal px-5 py-2 font-display text-base font-semibold text-white sm:text-lg">
+                  Schaalbare groei
+                </span>
+              </div>
+
+              <p className="mt-6 max-w-2xl text-text-dark-secondary">
+                Drie pijlers die elkaar versterken. AI is de multiplier. Het
+                effect is niet optelbaar maar multiplicatief.
+              </p>
+
+              <div className="mt-4">
+                <Link
+                  href="/methode"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
+                >
+                  Ontdek de volledige aanpak <ArrowRight size={14} />
+                </Link>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+
+        {/* ═══ SECTIE 6 — BOUWBLOKKEN (V7, was Expertise) ═══ */}
+        <section id="bouwblokken" className="bg-bg-light py-20 sm:py-28 lg:py-32">
+          <div className="container-wide">
+            <FadeIn>
+              <p className="section-label-dark">/ Bouwblokken</p>
+              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                De bouwblokken
+              </h2>
+              <p className="mt-4 max-w-2xl text-text-dark-secondary">
+                Elke opdracht is maatwerk. Dit zijn de onderdelen die ik inzet
+                &mdash; op projectbasis of als onderdeel van een doorlopend
+                partnerschap.
               </p>
             </FadeIn>
 
             <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {expertiseCards.map((card, i) => (
+              {bouwblokken.map((card, i) => (
                 <FadeIn key={card.title} delay={i * 0.08}>
                   <Link href={card.href} className="block h-full">
-                    <div className="card-light h-full flex flex-col">
-                      <card.icon size={24} className="text-accent-teal" />
+                    <div
+                      className="card-light h-full flex flex-col overflow-hidden"
+                      style={{ borderTop: `4px solid ${card.accent}` }}
+                    >
+                      <div className="flex items-center justify-between">
+                        <card.icon size={24} className="text-accent-teal" />
+                        <span
+                          className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
+                          style={{ color: card.accent, backgroundColor: `${card.accent}15` }}
+                        >
+                          {card.badge}
+                        </span>
+                      </div>
                       <h3 className="mt-4 font-display text-lg font-semibold text-text-dark">
                         {card.title}
                       </h3>
                       <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
                         {card.desc}
                       </p>
-                      {card.meta && (
-                        <p className="mt-4 text-xs font-semibold text-accent-teal">
-                          {card.meta}
-                        </p>
-                      )}
                       <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
                         Ontdek meer <ArrowRight size={14} />
                       </span>
@@ -450,142 +569,24 @@ export default function HomePage() {
                 </FadeIn>
               ))}
             </div>
-          </div>
-        </section>
 
-        {/* ═══ SECTIE 5 — AANPAK / DE ACCELR METHODE™ (LICHT, 4 stappen) ═══ */}
-        <section id="aanpak" className="bg-white py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <p className="section-label-dark">/ Aanpak</p>
-              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                De Accelr Methode&trade;
-              </h2>
-            </FadeIn>
-
-            {/* Formula pills */}
-            <FadeIn delay={0.15}>
-              <div className="mt-10 flex flex-wrap items-center justify-start gap-3 sm:gap-4">
-                {["Proces", "Pipeline", "People", "AI"].map((item, i) => (
-                  <div
-                    key={item}
-                    className="flex items-center gap-3 sm:gap-4"
-                  >
-                    <div className="rounded-full border border-accent-teal-dark/30 bg-accent-teal/10 px-5 py-3 font-display text-lg font-semibold text-accent-teal-dark sm:px-6 sm:text-xl">
-                      {item}
-                    </div>
-                    {i < 3 && (
-                      <span className="text-2xl font-light text-text-dark-muted">
-                        &times;
-                      </span>
-                    )}
-                  </div>
-                ))}
-                <span className="text-2xl font-light text-text-dark-muted">
-                  =
-                </span>
-                <div className="rounded-full bg-accent-teal px-5 py-3 font-display text-lg font-semibold text-white sm:px-6 sm:text-xl">
-                  exponenti&euml;le groei
-                </div>
-              </div>
-
-              <p className="mt-6 max-w-2xl text-text-dark-secondary">
-                Vier pijlers die elkaar versterken. Het effect is
-                multiplicatief. Verbeter elk met 20% en je totale output groeit
-                met minimaal{" "}
-                <span className="font-semibold text-text-dark">100%</span>.
+            <FadeIn delay={0.5}>
+              <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary">
+                Bij De Scan analyseer ik alle bouwblokken. Bij De Bouw werk ik
+                aan specifieke onderdelen. Als Fractional Head of Sales bewaak
+                ik alles doorlopend.
               </p>
             </FadeIn>
-
-            <div className="mt-16 space-y-0">
-              {aanpakSteps.map((step, i) => (
-                <FadeIn key={step.num}>
-                  <div
-                    className={`grid items-start gap-8 lg:grid-cols-[140px_1fr] py-12 ${
-                      i < aanpakSteps.length - 1
-                        ? "border-b border-border-light-mode"
-                        : ""
-                    }`}
-                  >
-                    {/* Left: number + icon */}
-                    <div className="flex items-center gap-4 lg:flex-col lg:items-start">
-                      <span className="font-mono text-xs font-medium uppercase tracking-widest text-text-dark-muted">
-                        {step.num}
-                      </span>
-                      <div className="h-12 w-12 rounded-xl bg-accent-teal/10 flex items-center justify-center">
-                        <step.icon
-                          size={24}
-                          className="text-accent-teal-dark"
-                        />
-                      </div>
-                    </div>
-
-                    {/* Right: content */}
-                    <div>
-                      <h3 className="font-display text-2xl font-bold text-text-dark">
-                        {step.title}
-                      </h3>
-                      <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-                        {step.deliverables.map((item) => (
-                          <li
-                            key={item}
-                            className="flex items-start gap-2 text-sm text-text-dark-secondary"
-                          >
-                            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-teal-dark" />
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
-                      <p className="mt-4 text-sm font-semibold text-accent-teal-dark">
-                        {step.price}
-                      </p>
-                    </div>
-                  </div>
-                </FadeIn>
-              ))}
-            </div>
-
-            {/* Link to methode page */}
-            <FadeIn delay={0.3}>
-              <div className="mt-12 text-center">
-                <Link
-                  href="/methode"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
-                >
-                  Bekijk de volledige methode <ArrowRight size={14} />
-                </Link>
-              </div>
-            </FadeIn>
           </div>
         </section>
 
-        {/* ═══ SECTIE 6 — REVIEWS (placeholder, hidden for now) ═══ */}
-        {/* Reviews section — activate when testimonials are available
-        <section className="section-padding bg-bg-light">
-          <div className="container-wide">
-            <p className="section-label-dark">/ Reviews</p>
-            <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-              Wat klanten zeggen
-            </h2>
-            <div className="mt-12 grid gap-6 md:grid-cols-3">
-              {[1, 2, 3].map((i) => (
-                <div key={i} className="card-light">
-                  <p className="text-text-dark-secondary italic">&ldquo;Review placeholder&rdquo;</p>
-                  <p className="mt-4 text-sm font-semibold text-text-dark">— Naam, Bedrijf</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-        */}
-
-        {/* ═══ SECTIE 6 — VERGELIJKINGSTABEL (3 kolommen) ═══ */}
-        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 7 — VERGELIJKINGSTABEL V7 (Fractional vs Fulltime vs Interim vs Zelf) ═══ */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <p className="section-label-dark">/ Het verschil</p>
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                Waarom bedrijven voor Accelr kiezen.
+                Wat kost sales leiderschap?
               </h2>
             </FadeIn>
 
@@ -595,35 +596,47 @@ export default function HomePage() {
                 <table className="w-full text-left text-sm">
                   <thead>
                     <tr className="border-b-2 border-border-light-mode">
-                      <th className="pb-4 pr-4 font-display text-sm font-semibold text-text-dark-muted w-[180px]">
-                        Aspect
+                      <th className="pb-4 pr-4 font-display text-sm font-semibold text-text-dark-muted w-[160px]">
+                        &nbsp;
+                      </th>
+                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
+                        Zelf doen
+                      </th>
+                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
+                        Fulltime Head of Sales
+                      </th>
+                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
+                        Interim (fulltime)
                       </th>
                       <th className="pb-4 px-4 font-display text-sm font-bold text-accent-teal-dark">
                         <span className="flex items-center gap-2">
                           <span className="h-2 w-2 rounded-full bg-accent-teal" />
-                          accelr.
+                          Accelr Fractional
                         </span>
-                      </th>
-                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
-                        Typisch bureau
-                      </th>
-                      <th className="pb-4 pl-4 font-display text-sm font-medium text-text-dark-muted">
-                        Zelf doen
                       </th>
                     </tr>
                   </thead>
                   <tbody>
-                    {comparisonRows3.map((row, i) => (
+                    {comparisonRows.map((row, i) => (
                       <tr
                         key={row.aspect}
                         className={
-                          i < comparisonRows3.length - 1
+                          i < comparisonRows.length - 1
                             ? "border-b border-border-light-mode/50"
                             : ""
                         }
                       >
                         <td className="py-4 pr-4 font-medium text-text-dark">
                           {row.aspect}
+                        </td>
+                        <td className="py-4 px-4 text-text-dark-secondary">
+                          {row.zelf}
+                        </td>
+                        <td className="py-4 px-4 text-text-dark-secondary">
+                          {row.fulltime}
+                        </td>
+                        <td className="py-4 px-4 text-text-dark-secondary">
+                          {row.interim}
                         </td>
                         <td className="py-4 px-4 rounded-lg bg-accent-teal/5 text-text-dark font-medium">
                           <span className="flex items-start gap-2">
@@ -635,12 +648,6 @@ export default function HomePage() {
                             {row.accelr}
                           </span>
                         </td>
-                        <td className="py-4 px-4 text-text-dark-secondary">
-                          {row.bureau}
-                        </td>
-                        <td className="py-4 pl-4 text-text-dark-secondary">
-                          {row.zelf}
-                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -650,9 +657,9 @@ export default function HomePage() {
 
             {/* Mobile stacked cards */}
             <div className="mt-12 space-y-4 lg:hidden">
-              {comparisonRows3.map((row, i) => (
+              {comparisonRows.map((row, i) => (
                 <FadeIn key={row.aspect} delay={i * 0.08}>
-                  <div className="rounded-2xl border border-border-light-mode bg-white p-5">
+                  <div className="rounded-2xl border border-border-light-mode bg-bg-light p-5">
                     <p className="font-display text-sm font-bold text-text-dark">
                       {row.aspect}
                     </p>
@@ -665,93 +672,30 @@ export default function HomePage() {
                         />
                         <div>
                           <p className="text-[10px] font-bold uppercase tracking-wider text-accent-teal-dark">
-                            Accelr
+                            Accelr Fractional
                           </p>
                           <p className="text-sm text-text-dark">
                             {row.accelr}
                           </p>
                         </div>
                       </div>
-                      <div className="flex items-start gap-2 p-2.5">
-                        <span className="mt-0.5 h-3.5 w-3.5 shrink-0" />
-                        <div>
-                          <p className="text-[10px] font-medium uppercase tracking-wider text-text-dark-muted">
-                            Bureau
-                          </p>
-                          <p className="text-sm text-text-dark-secondary">
-                            {row.bureau}
-                          </p>
+                      {[
+                        { label: "Zelf doen", value: row.zelf },
+                        { label: "Fulltime HoS", value: row.fulltime },
+                        { label: "Interim", value: row.interim },
+                      ].map((alt) => (
+                        <div key={alt.label} className="flex items-start gap-2 p-2.5">
+                          <span className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                          <div>
+                            <p className="text-[10px] font-medium uppercase tracking-wider text-text-dark-muted">
+                              {alt.label}
+                            </p>
+                            <p className="text-sm text-text-dark-secondary">
+                              {alt.value}
+                            </p>
+                          </div>
                         </div>
-                      </div>
-                      <div className="flex items-start gap-2 p-2.5">
-                        <span className="mt-0.5 h-3.5 w-3.5 shrink-0" />
-                        <div>
-                          <p className="text-[10px] font-medium uppercase tracking-wider text-text-dark-muted">
-                            Zelf doen
-                          </p>
-                          <p className="text-sm text-text-dark-secondary">
-                            {row.zelf}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </FadeIn>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ═══ SECTIE 7 — KOSTENVERGELIJKING (3 cards) ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <p className="section-label-dark">/ Investering</p>
-              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                Vergelijk je investering.
-              </h2>
-            </FadeIn>
-
-            <div className="mt-12 grid gap-6 sm:grid-cols-3">
-              {investmentCards.map((card, i) => (
-                <FadeIn key={card.title} delay={i * 0.1}>
-                  <div className="card-light h-full flex flex-col">
-                    <h3 className="font-display text-lg font-bold text-text-dark">
-                      {card.title}
-                    </h3>
-
-                    <div className="mt-6 space-y-4 flex-1">
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Traditioneel
-                        </p>
-                        <p className="mt-1 text-xl font-bold text-text-dark-muted line-through decoration-text-dark-muted/40">
-                          {card.traditional}
-                          <span className="text-sm font-normal no-underline">
-                            {" "}
-                            {card.traditionalPer}
-                          </span>
-                        </p>
-                      </div>
-
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Met Accelr
-                        </p>
-                        <p className="mt-1 text-xl font-bold text-accent-teal-dark">
-                          {card.accelr}
-                          <span className="text-sm font-normal text-text-dark-secondary">
-                            {" "}
-                            {card.accelrPer}
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="mt-6">
-                      <span className="inline-block rounded-full bg-accent-teal/10 px-4 py-1.5 text-sm font-bold text-accent-teal-dark">
-                        Besparing: {card.saving}
-                      </span>
+                      ))}
                     </div>
                   </div>
                 </FadeIn>
@@ -760,40 +704,78 @@ export default function HomePage() {
 
             <FadeIn delay={0.4}>
               <p className="mx-auto mt-6 max-w-2xl text-center text-xs text-text-dark-muted">
-                Inclusief werving (€10K-€15K), inwerktijd (5 maanden), en het
-                risico dat het niet werkt.
+                Bronnen: Robert Half Salary Guide NL 2024, Glassdoor Nederland,
+                marktonderzoek B2B sales consultancy.
               </p>
             </FadeIn>
           </div>
         </section>
 
-        {/* ═══ SECTIE 8 — TECHNOLOGIEËN (LICHT, numbered grid) ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 8 — INVESTERING V7 (3 engagement levels) ═══ */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
-              <p className="section-label-dark">/ Technologie\u00ebn</p>
+              <p className="section-label-dark">/ Investering</p>
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                Onze tools
+                De investering
               </h2>
-              <p className="mt-4 max-w-2xl text-text-dark-secondary">
-                Geen tools om de tools. Alleen technologie die bewezen werkt voor
-                B2B sales.
-              </p>
             </FadeIn>
 
-            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-              {technologies.map((tech, i) => (
-                <FadeIn key={tech.name} delay={i * 0.05}>
-                  <div className="rounded-xl border border-border-light-mode bg-bg-light p-5 transition-all duration-300 hover:shadow-md hover:shadow-black/5">
-                    <span className="font-mono text-[10px] font-medium uppercase tracking-widest text-text-dark-muted">
-                      {tech.num}
-                    </span>
-                    <p className="mt-2 font-display text-base font-semibold text-text-dark">
-                      {tech.name}
+            <div className="mt-12 grid gap-6 sm:grid-cols-3">
+              {investmentModels.map((model, i) => (
+                <FadeIn key={model.title} delay={i * 0.1}>
+                  <div className="card-light h-full flex flex-col">
+                    <h3 className="font-display text-lg font-bold text-text-dark">
+                      {model.title}
+                    </h3>
+
+                    <p className="mt-4 text-2xl font-bold text-accent-teal-dark">
+                      {model.price}
+                      <span className="text-sm font-normal text-text-dark-secondary">
+                        {" "}{model.priceSuffix}
+                      </span>
                     </p>
-                    <p className="mt-1 text-xs text-text-dark-muted">
-                      {tech.desc}
-                    </p>
+
+                    <div className="mt-6 space-y-4 flex-1">
+                      <div>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
+                          Doorlooptijd
+                        </p>
+                        <p className="mt-1 text-sm text-text-dark">
+                          {model.duration}
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
+                          Wat je krijgt
+                        </p>
+                        <p className="mt-1 text-sm text-text-dark">
+                          {model.result}
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
+                          Geld-terug garantie
+                        </p>
+                        <p className="mt-1 text-sm text-text-dark">
+                          {model.garantie ? (
+                            <span className="flex items-center gap-1 text-accent-teal-dark font-semibold">
+                              <Check size={14} strokeWidth={3} /> Ja
+                            </span>
+                          ) : (
+                            "\u2014"
+                          )}
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
+                          Inclusief De Scan
+                        </p>
+                        <p className="mt-1 text-sm text-text-dark">
+                          {model.scanIncluded}
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </FadeIn>
               ))}
@@ -801,8 +783,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 9 — OVER TIM (LICHT, Triad team-card style) ═══ */}
-        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 9 — OVER TIM (LICHT, ongewijzigd) ═══ */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <p className="section-label-dark">/ Het team</p>
@@ -889,8 +871,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 10 — VOOR WIE + NIET VOOR JOU ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 10 — VOOR WIE + NIET VOOR JOU (ongewijzigd) ═══ */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <p className="section-label-dark">/ Voor wie</p>
@@ -951,8 +933,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 11 — FAQ (LICHT, accordion) ═══ */}
-        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 11 — FAQ (ongewijzigd) ═══ */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <div className="mx-auto max-w-2xl">
               <FadeIn>
@@ -976,14 +958,6 @@ export default function HomePage() {
                       <p className="mt-4 text-sm text-text-dark-secondary leading-relaxed">
                         {faq.a}
                       </p>
-                      {"cta" in faq && (
-                        <Link
-                          href={(faq.cta as { href: string; label: string }).href}
-                          className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
-                        >
-                          {(faq.cta as { href: string; label: string }).label} <ArrowRight size={14} />
-                        </Link>
-                      )}
                     </details>
                   </FadeIn>
                 ))}
@@ -992,8 +966,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 11 — BLOG PREVIEWS (LICHT, 1 featured + 2 small) ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 12 — BLOG PREVIEWS (ongewijzigd) ═══ */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <div className="flex items-end justify-between">
@@ -1069,7 +1043,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 12 — CTA FOOTER (DONKER, large logo, 2 buttons, contact) ═══ */}
+        {/* ═══ SECTIE 13 — CTA FOOTER (V7) ═══ */}
         <section className="bg-bg-secondary py-24 sm:py-32 lg:py-40">
           <div className="container-wide">
             <FadeIn>
@@ -1088,10 +1062,15 @@ export default function HomePage() {
                       <ArrowRight size={16} />
                     </span>
                   </Link>
-                  <Link href="/score" className="btn-secondary">
-                    Check je Sales Maturity Score
+                  <Link href="/de-scan" className="btn-secondary">
+                    Start met De Scan &rarr;
                   </Link>
                 </div>
+
+                <p className="mt-6 max-w-md text-center text-sm text-text-muted">
+                  Nog niet klaar voor een gesprek? Start met De Scan &mdash; dat
+                  is altijd de eerste stap.
+                </p>
 
                 <div className="mt-10 flex flex-col items-center gap-3 text-sm text-text-muted">
                   <a
