@@ -207,7 +207,7 @@ export default function FrameworkArchitecture() {
                 Strategie
               </h3>
               <span className="text-sm text-text-dark-muted">
-                &mdash; de input die alles aandrijft
+                , de input die alles aandrijft
               </span>
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
@@ -354,7 +354,7 @@ export default function FrameworkArchitecture() {
                 &times; AI Multiplier
               </h3>
               <span className="text-sm text-text-dark-muted">
-                &mdash; versnelt alles van 1&times; naar 3-5&times;
+                , versnelt alles van 1&times; naar 3-5&times;
               </span>
             </div>
 

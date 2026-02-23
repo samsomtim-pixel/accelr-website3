@@ -1,37 +1,37 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog, Inzichten over B2B sales, AI en groei",
+  title: "Blog | Inzichten over B2B sales | Accelr",
   description:
     "Artikelen over B2B sales, CRM, AI-tools, outbound en salesstrategie voor tech-founders.",
   openGraph: {
-    title: "Blog, Inzichten over B2B sales, AI en groei | Accelr",
+    title: "Blog | Inzichten over B2B sales | Accelr",
     description:
       "Artikelen over B2B sales, CRM, AI-tools, outbound en salesstrategie voor tech-founders.",
   },
 };
 
-const upcomingPosts = [
+const publishedPosts = [
   {
-    title: "Waarom founder-led sales niet schaalt (en wat wél werkt)",
+    title: "Waarom je eerste sales hire mislukt (en hoe je het voorkomt)",
     excerpt:
-      "De meeste founders zijn hun eigen beste verkoper. Maar dat is een plafond, geen strategie. Over de transitie van founder-led naar systeem-led sales.",
+      "Je hebt product-market fit, omzet groeit, tijd voor die eerste sales hire. Maar 6 maanden later: geen resultaat, €100K+ uitgegeven. Dit patroon zie ik bij 80% van de founders.",
     tag: "Sales Strategy",
+    href: "/blog/waarom-eerste-sales-hire-mislukt",
+    readTime: "6 min",
   },
   {
-    title: "CRM kiezen als B2B startup: HubSpot vs Pipedrive vs Salesforce",
+    title: "Fractional Head of Sales: wat is het en waarom groeit het in Nederland?",
     excerpt:
-      "Een praktische vergelijking voor bedrijven van 5-50 medewerkers. Welk CRM past bij jouw fase?",
-    tag: "Tools & Tech",
-  },
-  {
-    title: "Hoe Clay + Make je outbound 10x efficiënter maakt",
-    excerpt:
-      "AI-gedreven prospecting setup die je in een middag draait. Met concrete workflows en templates.",
-    tag: "AI & Automation",
+      "In Amerika is het al jaren gangbaar. In Nederland begint het net. Een Fractional Head of Sales is een ervaren commercieel leider die parttime voor jouw bedrijf werkt. Alles wat je moet weten.",
+    tag: "Sales Leadership",
+    href: "/blog/fractional-head-of-sales-nederland",
+    readTime: "8 min",
   },
 ];
 
@@ -57,43 +57,33 @@ export default function BlogPage() {
               </div>
             </FadeIn>
 
-            <div className="mt-16 mx-auto max-w-3xl">
-              <FadeIn delay={0.1}>
-                <div className="card-light text-center py-12">
-                  <p className="text-2xl font-display font-bold text-text-dark">
-                    Binnenkort
-                  </p>
-                  <p className="mt-4 text-text-dark-secondary">
-                    De eerste artikelen worden momenteel geschreven. Wil je een
-                    seintje als ze live staan?
-                  </p>
-                  <a
-                    href="mailto:tim@accelr.nl?subject=Blog%20notificatie"
-                    className="btn-primary mt-6 inline-flex"
-                  >
-                    Stuur me een mail
-                  </a>
-                </div>
-              </FadeIn>
-
-              <div className="mt-12 space-y-6">
-                <h2 className="font-display text-xl font-bold text-text-dark">
-                  Geplande artikelen
-                </h2>
-                {upcomingPosts.map((post, i) => (
-                  <FadeIn key={post.title} delay={i * 0.1}>
-                    <div className="card-light">
-                      <span className="section-label-dark">{post.tag}</span>
-                      <h3 className="mt-3 font-display text-lg font-semibold text-text-dark">
-                        {post.title}
-                      </h3>
-                      <p className="mt-2 text-sm text-text-dark-secondary">
-                        {post.excerpt}
-                      </p>
-                      <p className="mt-3 text-xs font-medium text-text-dark-muted italic">
-                        Binnenkort beschikbaar
-                      </p>
-                    </div>
+            <div className="mt-16 mx-auto max-w-4xl">
+              <div className="grid gap-8 md:grid-cols-2">
+                {publishedPosts.map((post, i) => (
+                  <FadeIn key={post.href} delay={i * 0.1}>
+                    <Link
+                      href={post.href}
+                      className="block group h-full"
+                    >
+                      <article className="card-light h-full flex flex-col hover:shadow-lg transition-shadow duration-200">
+                        <div className="flex items-center justify-between">
+                          <span className="section-label-dark">{post.tag}</span>
+                          <span className="text-xs text-text-dark-secondary">
+                            {post.readTime}
+                          </span>
+                        </div>
+                        <h2 className="mt-4 font-display text-xl font-semibold text-text-dark group-hover:text-accent-teal-dark transition-colors">
+                          {post.title}
+                        </h2>
+                        <p className="mt-3 text-sm text-text-dark-secondary flex-1">
+                          {post.excerpt}
+                        </p>
+                        <div className="mt-6 flex items-center text-sm font-medium text-accent-teal-dark group-hover:gap-2 transition-all">
+                          Lees artikel
+                          <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                        </div>
+                      </article>
+                    </Link>
                   </FadeIn>
                 ))}
               </div>

@@ -1,16 +1,23 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { Menu, X, ArrowRight, Moon, Sun } from "lucide-react";
+import { Menu, X, ArrowRight, Moon, Sun, ChevronDown } from "lucide-react";
+
+const expertiseItems = [
+  { href: "/de-scan", label: "De Scan\u2122" },
+  { href: "/sales-strategie", label: "Strategie & GTM" },
+  { href: "/crm-implementatie", label: "CRM & Salesproces" },
+  { href: "/outbound-leadgeneratie", label: "Outbound & Leadgen" },
+  { href: "/sales-enablement", label: "Sales Enablement" },
+  { href: "/ai-sales-automation", label: "AI & Automation" },
+  { href: "/expertise/fractional-head-of-sales", label: "Fractional Head of Sales" },
+];
 
 const navItems = [
-  { href: "/#bouwblokken", label: "Expertise" },
-  { href: "/methode", label: "Aanpak" },
-  { href: "/expertise/fractional-head-of-sales", label: "Fractional" },
+  { href: "/methode", label: "Methode" },
   { href: "/over-tim", label: "Over Tim" },
-  { href: "/blog", label: "Blog" },
 ];
 
 function ThemeToggle() {
@@ -52,11 +59,24 @@ function LanguageSwitch() {
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [mobileExpertiseOpen, setMobileExpertiseOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   return (
@@ -76,7 +96,36 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop */}
-        <div className="hidden items-center gap-10 md:flex">
+        <div className="hidden items-center gap-8 md:flex">
+          {/* Expertise dropdown */}
+          <div ref={dropdownRef} className="relative">
+            <button
+              onClick={() => setDropdownOpen(!dropdownOpen)}
+              className="flex items-center gap-1 text-[13px] font-medium uppercase tracking-wider text-text-dark-secondary transition-colors duration-200 hover:text-accent-teal-dark dark:text-gray-400 dark:hover:text-accent-teal"
+            >
+              Expertise
+              <ChevronDown
+                size={14}
+                className={`transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`}
+              />
+            </button>
+
+            {dropdownOpen && (
+              <div className="absolute left-0 top-full mt-3 w-64 rounded-xl border border-border-light-mode bg-white p-2 shadow-lg dark:border-[#2A2A2A] dark:bg-[#0A0A0A]">
+                {expertiseItems.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setDropdownOpen(false)}
+                    className="block rounded-lg px-4 py-2.5 text-sm text-text-dark-secondary transition-colors hover:bg-bg-light hover:text-text-dark dark:text-gray-400 dark:hover:bg-[#1A1A1A] dark:hover:text-white"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -88,16 +137,10 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Right side: Language + Theme + De Scan + CTA */}
+        {/* Right side */}
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitch />
           <ThemeToggle />
-          <Link
-            href="/de-scan"
-            className="rounded-full border border-accent-teal px-4 py-2 text-[13px] font-semibold text-accent-teal-dark transition-colors duration-200 hover:bg-accent-teal/10 dark:border-accent-teal dark:text-accent-teal dark:hover:bg-accent-teal/10"
-          >
-            De Scan
-          </Link>
           <Link href="/contact" className="btn-primary">
             <span className="btn-label text-[13px]">Plan een gesprek</span>
             <span className="btn-arrow">
@@ -123,7 +166,33 @@ export default function Navbar() {
       {/* Mobile menu */}
       {open && (
         <div className="border-t border-border-light-mode bg-white md:hidden dark:border-[#2A2A2A] dark:bg-[#0A0A0A]">
-          <div className="container-wide flex flex-col gap-6 py-8">
+          <div className="container-wide flex flex-col gap-4 py-8">
+            {/* Expertise accordion */}
+            <button
+              onClick={() => setMobileExpertiseOpen(!mobileExpertiseOpen)}
+              className="flex items-center justify-between text-lg font-medium text-text-dark-secondary transition-colors hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
+            >
+              Expertise
+              <ChevronDown
+                size={18}
+                className={`transition-transform duration-200 ${mobileExpertiseOpen ? "rotate-180" : ""}`}
+              />
+            </button>
+            {mobileExpertiseOpen && (
+              <div className="flex flex-col gap-3 pl-4 border-l-2 border-accent-teal/20">
+                {expertiseItems.map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setOpen(false)}
+                    className="text-base text-text-dark-secondary transition-colors hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+
             {navItems.map((item) => (
               <Link
                 key={item.href}
@@ -134,17 +203,11 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="/de-scan"
-              onClick={() => setOpen(false)}
-              className="mt-2 w-full justify-center rounded-full border border-accent-teal px-4 py-3 text-center text-base font-semibold text-accent-teal-dark transition-colors hover:bg-accent-teal/10 dark:text-accent-teal"
-            >
-              De Scan
-            </Link>
+
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
-              className="btn-primary w-full justify-center"
+              className="btn-primary mt-4 w-full justify-center"
             >
               <span className="btn-label flex-1 text-center">Plan een gesprek</span>
               <span className="btn-arrow">

@@ -6,13 +6,15 @@ import FadeIn from "@/components/FadeIn";
 import { ArrowRight, ShieldCheck, ChevronDown } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "De Scan, Weet waar je geld laat liggen",
+  title: "De Scan\u2122 | Diagnose van je salesoperatie | Accelr",
   description:
-    "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. €3.500 vast. Niet tevreden? Geld terug.",
+    "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. \u20ac3.500 vast. Niet tevreden? Geld terug.",
   openGraph: {
-    title: "De Scan, Weet waar je geld laat liggen | Accelr",
+    title: "De Scan\u2122 | Diagnose van je salesoperatie | Accelr",
     description:
-      "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. €3.500 vast. Niet tevreden? Geld terug.",
+      "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. \u20ac3.500 vast.",
+    images: ["/images/og-accelr.png"],
+    url: "https://accelr.nl/de-scan",
   },
 };
 

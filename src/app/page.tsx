@@ -21,18 +21,21 @@ import {
   MapPin,
   Wrench,
   User,
+  Linkedin,
 } from "lucide-react";
 
 const P = PILLAR_COLORS;
 
 export const metadata: Metadata = {
-  title: "Accelr, Salesystemen Voor Ambitieuze B2B-Bedrijven",
+  title: "Fractional Head of Sales | Van founder-led naar schaalbare sales | Accelr",
   description:
     "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem. Diagnose, implementatie en leadership.",
   openGraph: {
-    title: "Accelr, Salesystemen Voor Ambitieuze B2B-Bedrijven",
+    title: "Fractional Head of Sales | Van founder-led naar schaalbare sales | Accelr",
     description:
-      "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem. Diagnose, implementatie en leadership.",
+      "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem.",
+    images: ["/images/og-accelr.png"],
+    url: "https://accelr.nl",
   },
 };
 
@@ -52,16 +55,16 @@ const techTools = [
   "Notion",
 ];
 
-/* ─── Pain Points (pills) ─── */
+/* ─── Pain Points V8 (numbered rows, one-liner) ─── */
 const painPoints = [
-  "De founder sluit 80% van de deals zelf. Dat schaalt niet.",
-  "Leads verdwijnen in spreadsheets zonder opvolging.",
-  "CRM gekocht, maar niemand die het werkend maakt.",
-  "Outbound is ad-hoc: geen systeem, geen voorspelbaarheid.",
+  "Ik ben de bottleneck.",
+  "Sales aannemen is een gok.",
+  "Tools en AI zonder proces.",
+  "Onvoorspelbare pipeline.",
   "Opschalen vraagt om een systeem, niet om meer uren.",
 ];
 
-/* ─── Keuzeblok cards (V7) ─── */
+/* ─── Keuzeblok V8 ─── */
 const keuzeCards = [
   {
     icon: Search,
@@ -71,43 +74,46 @@ const keuzeCards = [
     details: "Doorlooptijd: 2-3 weken",
     badge: "Altijd de eerste stap",
     badgeCheck: true,
-    price: "\u20ac 3.500 vast",
+    price: "\u20ac3.500 vast",
+    extra: "Geld-terug-garantie",
     cta: "Meer over De Scan",
     href: "/de-scan",
   },
   {
     icon: Wrench,
     title: "De Bouw",
-    subtitle: "Projectmatig bouwen",
-    body: "Ik bouw specifieke onderdelen van je salesinfrastructuur. CRM-inrichting, outbound-machine, playbooks, AI-automations \u2014 afgebakend en resultaatgericht.",
+    subtitle: "Specifieke onderdelen",
+    body: "Ik bouw specifieke onderdelen van je salesinfrastructuur. CRM-inrichting, outbound-machine, playbooks, AI-automations, afgebakend en resultaatgericht.",
     details: "Op basis van Scan-resultaten of eigen briefing",
     badge: "Projectmatig, afgebakend",
     badgeCheck: false,
-    price: "Vanaf \u20ac 5.000 per project",
+    price: "Vanaf \u20ac7.500 per project",
+    extra: null,
     cta: "Bekijk de bouwblokken",
     href: "#bouwblokken",
   },
   {
     icon: User,
     title: "Fractional Head of Sales",
-    subtitle: "Doorlopend partnerschap",
-    body: "Ik word je parttime commercieel leider. 1-2 dagen per week, minimaal 6 maanden. Inclusief diagnose + alles wat nodig is om je sales structureel te laten groeien.",
-    details: "Vast maandelijks retainer",
+    subtitle: "Parttime commercieel leider",
+    body: "Ik word je parttime commercieel leider. 1-2 dagen per week, minimaal 6 maanden. Inclusief diagnose en alles wat nodig is.",
+    details: "Min. 6 maanden",
     badge: "Vast maandelijks retainer",
     badgeCheck: false,
-    price: "Vanaf \u20ac 4.000/maand",
+    price: "Vanaf \u20ac4.000/maand",
+    extra: null,
     cta: "Meer over Fractional",
     href: "/expertise/fractional-head-of-sales",
   },
 ];
 
-/* ─── Bouwblokken cards (V7) ─── */
+/* ─── Bouwblokken V8 ─── */
 const bouwblokken = [
   {
     icon: Search,
     title: "De Scan\u2122",
     badge: "DIAGNOSE",
-    desc: "Gestructureerde doorlichting van je salesoperatie op 10 dimensies. Actieplan met geprioriteerde kansen en euro-waarde.",
+    desc: "Volledige doorlichting van je salesoperatie",
     href: "/de-scan",
     accent: P.strategy.color,
   },
@@ -115,7 +121,7 @@ const bouwblokken = [
     icon: Compass,
     title: "Strategie & GTM",
     badge: "STRATEGIE",
-    desc: "ICP-definitie, go-to-market plan, positionering, kanaalstrategie en pricing. De strategische basis onder alles wat je bouwt.",
+    desc: "ICP-validatie, go-to-market plan, positionering",
     href: "/sales-strategie",
     accent: P.strategy.color,
   },
@@ -123,7 +129,7 @@ const bouwblokken = [
     icon: Send,
     title: "Outbound & Leadgen",
     badge: "PROCES",
-    desc: "Email engine, LinkedIn outreach, multi-channel sequences. Voorspelbare pipeline in plaats van afhankelijkheid van je netwerk.",
+    desc: "Prospecting-machine die gekwalificeerde meetings genereert",
     href: "/outbound-leadgeneratie",
     accent: P.process.color,
   },
@@ -131,7 +137,7 @@ const bouwblokken = [
     icon: Database,
     title: "CRM & Salesproces",
     badge: "PROCES",
-    desc: "CRM selectie, inrichting, pipeline design, dashboards, lead scoring en rapportage. Van spreadsheet naar werkend systeem.",
+    desc: "CRM-inrichting, pipeline design, verkoopproces",
     href: "/crm-implementatie",
     accent: P.process.color,
   },
@@ -139,7 +145,7 @@ const bouwblokken = [
     icon: BookOpen,
     title: "Sales Enablement",
     badge: "PEOPLE",
-    desc: "Playbooks, discovery scripts, objection handling, team training. Zodat je team verkoopt zoals jij dat doet.",
+    desc: "Playbooks, training, onboarding, coaching",
     href: "/sales-enablement",
     accent: P.people.color,
   },
@@ -147,137 +153,170 @@ const bouwblokken = [
     icon: Cpu,
     title: "AI & Automation",
     badge: "+ AI",
-    desc: "AI prospecting (Clay/Apollo), workflow automation (Make/n8n), AI-personalisatie en prompt libraries. Structureel ge\u00efntegreerd.",
+    desc: "Make, n8n, Clay, automatiseer wat geen mens hoeft te doen",
     href: "/ai-sales-automation",
     accent: P.ai.color,
   },
 ];
 
-/* ─── Vergelijkingstabel V7 (Fractional vs Fulltime vs Interim vs Zelf) ─── */
+/* ─── Resultaten V8 ─── */
+const resultaten = [
+  {
+    name: "Aethogenix",
+    subtitle: "Pharma \u00b7 Medical Cannabis",
+    link: "https://www.aethogenix.com/",
+    deed: "Positionering, ICP, GTM-plan, Fractional Head of Sales",
+    quote: "[quote van Matthieu, wordt later ingevuld]",
+    author: "Matthieu, Aethogenix",
+  },
+  {
+    name: "Anoniem",
+    subtitle: "Media",
+    link: null,
+    deed: "Salesteam opgebouwd, salesproces opgezet, CRM ingericht",
+    quote: null,
+    author: null,
+  },
+  {
+    name: "STABL Agency",
+    subtitle: "Growth Agency",
+    link: "https://stablagency.com/",
+    deed: "GTM-strategie, CRM-inrichting",
+    quote: null,
+    author: null,
+  },
+];
+
+/* ─── Vergelijkingstabel V8 ─── */
 const comparisonRows = [
   {
     aspect: "Kosten/jaar",
-    zelf: "\u20ac0 (+ opportunitykosten)",
-    fulltime: "\u20ac175.000 \u2013 \u20ac250.000",
-    interim: "\u20ac120.000 \u2013 \u20ac200.000",
-    accelr: "\u20ac48.000 \u2013 \u20ac96.000",
+    zelf: "\u20ac0 + opportunity",
+    fulltime: "\u20ac150K-\u20ac220K",
+    interim: "\u20ac120K-\u20ac180K",
+    accelr: "\u20ac48K-\u20ac96K",
   },
   {
     aspect: "Commitment",
     zelf: "Geen",
-    fulltime: "12+ maanden",
-    interim: "6-12 maanden",
-    accelr: "6 maanden, flexibel",
+    fulltime: "12+ mnd",
+    interim: "6-12 mnd",
+    accelr: "6 mnd, flexibel",
+  },
+  {
+    aspect: "Beschikbaarheid",
+    zelf: "Resturen",
+    fulltime: "Fulltime",
+    interim: "Fulltime",
+    accelr: "1-2 dagen/week",
   },
   {
     aspect: "Expertise",
-    zelf: "Jouw eigen kennis",
+    zelf: "Eigen kennis",
     fulltime: "1 profiel",
     interim: "1 profiel",
-    accelr: "Breed: strategie + ops + AI",
+    accelr: "Breed: strategie+ops+AI",
   },
   {
     aspect: "Risico",
-    zelf: "Hoog (bottleneck)",
-    fulltime: "Hoog (mis-hire \u20ac100K+)",
+    zelf: "N.v.t.",
+    fulltime: "Hoog (\u20ac80K+)",
     interim: "Medium",
-    accelr: "Laag (start met Scan)",
+    accelr: "Laag (Scan eerst)",
+  },
+  {
+    aspect: "Kennisoverdracht",
+    zelf: "N.v.t.",
+    fulltime: "\u2014",
+    interim: "\u2014",
+    accelr: "Ingebouwd",
   },
   {
     aspect: "Na 90 dagen",
     zelf: "Onvoorspelbaar",
-    fulltime: "Onboarding loopt nog",
+    fulltime: "Onboarding loopt",
     interim: "Operationeel",
-    accelr: "Systeem draait",
+    accelr: "CRM+proces+pipeline",
+  },
+  {
+    aspect: "Niet beste keuze als...",
+    zelf: "Je het zelf kunt",
+    fulltime: "50+ FTE dagelijks",
+    interim: "Gap vullen",
+    accelr: "Dagelijks nodig",
+    muted: true,
   },
 ];
 
-/* ─── Investering V7 ─── */
+/* ─── Investering V8 ─── */
 const investmentModels = [
   {
-    title: "De Scan",
-    price: "\u20ac 3.500",
+    title: "De Scan\u2122",
+    price: "\u20ac3.500",
     priceSuffix: "vast",
     duration: "2-3 weken",
-    result: "Diagnose + roadmap + cijfers",
+    result: "47-punts diagnose, geprioriteerde roadmap, scan-rapport met harde cijfers",
+    uren: "~8 uur totaal",
     garantie: true,
     scanIncluded: "Dit \u00eds De Scan",
+    highlight: false,
   },
   {
     title: "De Bouw",
-    price: "Vanaf \u20ac 5.000",
+    price: "Vanaf \u20ac7.500",
     priceSuffix: "per project",
     duration: "4-12 weken",
-    result: "Werkend onderdeel van je sales systeem",
+    result: "Werkend onderdeel: ingericht CRM, draaiende outbound, playbook, of AI-automation",
+    uren: "Projectafhankelijk",
     garantie: false,
-    scanIncluded: "Nee (apart of vooraf)",
+    scanIncluded: "Apart (of vooraf gedaan)",
+    highlight: false,
   },
   {
     title: "Fractional Head of Sales",
-    price: "Vanaf \u20ac 4.000",
+    price: "Vanaf \u20ac4.000",
     priceSuffix: "/maand",
     duration: "Min. 6 maanden",
-    result: "Commercieel leiderschap + alle bouwblokken",
+    result: "Commercieel leiderschap + alle bouwblokken + team coaching + wekelijks overleg",
+    uren: "8-16 uur/week (1-2 dagen)",
     garantie: false,
     scanIncluded: "Eerste maand = diagnose",
+    highlight: true,
   },
 ];
 
-/* ─── Voor wie / Niet voor jou ─── */
+/* ─── Voor wie V8 ─── */
 const voorJou = [
-  "B2B SaaS-, tech- of IT-bedrijf met \u20ac500K-\u20ac20M omzet",
-  "Je hebt een bewezen product maar sales groeit niet",
-  "De founder sluit 80%+ van de deals zelf",
-  "Je wilt eigenaar zijn van je sales infrastructuur",
-  "Je wilt AI inzetten maar weet niet waar te beginnen",
+  "B2B SaaS, tech of IT-dienstverlener",
+  "\u20ac1M-\u20ac10M omzet, 10-80 medewerkers",
+  "Technische founder die (nog) zelf verkoopt",
+  "Net eerste sales hire gedaan, of eerste is mislukt",
+  "Wil een systeem, niet een adviseur",
 ];
 const nietVoorJou = [
-  "Je zoekt een magic bullet (die bestaat niet)",
-  "Je wilt alleen \"leads kopen\" zonder systeem",
-  "Je hebt geen tijd om 2 uur per week te investeren",
-  "Je hebt nog geen product-market fit",
-  "Je verwacht resultaat zonder eigen betrokkenheid",
+  "B2C of e-commerce",
+  "<\u20ac500K omzet (focus op product-market fit)",
+  "Zoekt iemand die \"overneemt\" zonder jouw betrokkenheid",
+  "Werkend team van 10+ (je hebt fulltime HoS nodig)",
 ];
 
-/* ─── FAQ (V7 = V6) ─── */
+/* ─── FAQ V8 ─── */
 const faqs = [
   {
-    q: "Wat als ik nog geen CRM of salesproces heb?",
-    a: "Perfect \u2014 daar begint het. De Scan brengt in kaart wat je nodig hebt. De Bouw maakt het werkend.",
+    q: "Wat is een Fractional Head of Sales?",
+    a: "Ervaren commercieel leider, 1-2 dagen/week. Strategisch leiderschap + hands-on execution zonder \u20ac150K+/jaar. In Amerika gangbaar, in Nederland begint het net.",
   },
   {
-    q: "Hoe snel zie ik resultaat?",
-    a: "De Scan levert binnen 2 weken een actieplan. De Bouw duurt 3-8 weken. De eerste resultaten zie je binnen de eerste maand van De Bouw.",
+    q: "Waarom beginnen met De Scan?",
+    a: "80% denkt dat het probleem \"meer leads\" is. Na De Scan: bijna altijd een proces-, CRM- of kwalificatieprobleem. Voorkomt geld uitgeven aan de verkeerde oplossing. Niet eens met de bevindingen? Geld terug.",
   },
   {
-    q: "Wat maakt jou anders dan een sales consultant?",
-    a: "De meeste consultants leveren een rapport. Ik bouw werkende systemen. CRM\u2019s, AI-tools, campagnes, processen \u2014 hands-on. En alles is van jou, niet van mij.",
+    q: "Hoe verschilt Fractional van Interim?",
+    a: "Interim = gat vullen, draaiende houden. Fractional = versnelling, bouwen, team ontwikkelen. 1-2 dagen/week, 60-70% goedkoper. Doel: fundament bouwen zodat je kunt schalen.",
   },
   {
-    q: "Wat kost het?",
-    a: "De Scan kost \u20ac3.500 vast. De Bouw varieert van \u20ac5.000-\u20ac20.000 afhankelijk van scope. Het Partnerschap is maandelijks. Alles wordt vooraf afgesproken \u2014 geen verrassingen.",
-  },
-];
-
-/* ─── Blog Previews ─── */
-const blogPreviews = [
-  {
-    title: "Waarom founder-led sales niet schaalt (en wat w\u00e9l werkt)",
-    excerpt:
-      "De meeste founders zijn hun eigen beste verkoper. Maar dat is een plafond, geen strategie. Over de transitie van founder-led naar systeem-led sales.",
-    tag: "Sales Strategy",
-  },
-  {
-    title: "CRM kiezen als B2B startup: HubSpot vs Pipedrive vs Salesforce",
-    excerpt:
-      "Een praktische vergelijking voor bedrijven van 5-50 medewerkers. Welk CRM past bij jouw fase?",
-    tag: "Tools & Tech",
-  },
-  {
-    title: "Hoe Clay + Make je outbound 10x effici\u00ebnter maakt",
-    excerpt:
-      "AI-gedreven prospecting setup die je in een middag draait. Met concrete workflows en templates.",
-    tag: "AI & Automation",
+    q: "Hoe snel resultaten?",
+    a: "Scan: 2-3 weken \u2192 helder beeld. Bouw: 4-6 weken eerste onderdelen. Fractional: CRM+proces na 90 dagen, pipeline-impact na 3-4 maanden, structurele groei 6+ maanden. Eerlijk: duurzaam kost tijd.",
   },
 ];
 
@@ -286,25 +325,38 @@ export default function HomePage() {
     <>
       <Navbar />
       <main className="pt-[72px]">
-        {/* ═══ SECTIE 1 — HERO (V7) ═══ */}
+        {/* ═══ SECTIE 1 — HERO V8 ═══ */}
         <section className="relative min-h-[90vh] bg-white overflow-hidden">
           <div className="container-wide flex min-h-[90vh] items-center py-20 sm:py-28 lg:py-32">
             <div className="grid w-full items-center gap-12 lg:grid-cols-[1fr_auto]">
-              {/* Left: text */}
               <FadeIn direction="up">
-                <div className="max-w-xl">
+                <div className="max-w-[600px]">
                   <h1 className="font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl lg:text-6xl">
-                    Van founder-led sales naar een schaalbaar systeem.
+                    Je salesgroei hangt af van jou. Dat is het probleem.
                   </h1>
 
-                  <p className="mt-8 text-lg text-text-dark-secondary leading-relaxed">
-                    Sales Scan &middot; Projectmatig bouwen &middot; Fractional
-                    leiderschap &mdash; je kiest hoe diep ik erbij kom.
+                  <p className="mt-8 max-w-[600px] text-lg text-text-dark-secondary leading-relaxed">
+                    Ik bouw het salesfundament, strategie, proces en team, zodat
+                    groei niet meer van jou alleen afhangt. Van diagnose tot
+                    operationeel salesleiderschap.
                   </p>
+
+                  {/* Drieluik */}
+                  <div className="mt-10 flex flex-col gap-3">
+                    <div className="rounded-lg bg-bg-light px-5 py-3">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-text-dark-muted">/ Sales Diagnose</p>
+                    </div>
+                    <div className="rounded-lg bg-bg-light px-5 py-3">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-text-dark-muted">/ Projectmatig bouwen</p>
+                    </div>
+                    <div className="rounded-lg bg-bg-light px-5 py-3">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-text-dark-muted">/ Fractional Head of Sales</p>
+                    </div>
+                  </div>
 
                   <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
                     <Link href="/contact" className="btn-primary">
-                      <span className="btn-label">Plan een gesprek</span>
+                      <span className="btn-label">Plan een kennismaking</span>
                       <span className="btn-arrow">
                         <ArrowRight size={16} />
                       </span>
@@ -313,10 +365,14 @@ export default function HomePage() {
                       Start met De Scan
                     </Link>
                   </div>
+
+                  <p className="mt-4 text-xs text-text-dark-muted">
+                    30 minuten &middot; Geen verplichtingen &middot; Je loopt weg
+                    met 3 concrete actiepunten.
+                  </p>
                 </div>
               </FadeIn>
 
-              {/* Right: animated wordmark */}
               <div className="hidden lg:flex items-center justify-end">
                 <ScrollWordmark />
               </div>
@@ -324,7 +380,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 2 — TOOL LOGOS MARQUEE (LICHT) ═══ */}
+        {/* ═══ SECTIE 2 — TOOL TICKER ═══ */}
         <section className="border-y border-border-light-mode bg-bg-light py-6">
           <div className="mb-2 text-center">
             <p className="section-label-dark">/ Tools & Technologie&euml;n</p>
@@ -341,7 +397,7 @@ export default function HomePage() {
           </Marquee>
         </section>
 
-        {/* ═══ SECTIE 3 — PIJNPUNTEN (LICHT, pills) ═══ */}
+        {/* ═══ SECTIE 3 — HERKENBAAR? V8 (numbered rows) ═══ */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -353,36 +409,32 @@ export default function HomePage() {
               </div>
             </FadeIn>
 
-            <div className="mx-auto mt-12 max-w-3xl space-y-4">
+            <div className="mx-auto mt-12 max-w-3xl flex flex-col gap-0">
               {painPoints.map((point, i) => (
                 <FadeIn key={point} delay={i * 0.08}>
-                  <div className="pill flex items-start gap-3">
-                    <span className="mt-0.5 shrink-0 font-mono text-xs font-medium text-text-dark-muted">
+                  <div className="flex items-center gap-6 rounded-lg bg-bg-light px-6 py-5">
+                    <span className="font-mono text-sm text-text-dark-secondary shrink-0">
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <p>{point}</p>
+                    <p className="font-display text-base font-semibold text-text-dark sm:text-lg">
+                      {point}
+                    </p>
                   </div>
                 </FadeIn>
               ))}
-
-              <FadeIn delay={painPoints.length * 0.08 + 0.1}>
-                <div className="mt-8 text-center">
-                  <Link
-                    href="/de-scan"
-                    className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
-                  >
-                    Doe De Scan &mdash; ontdek waar je salesmotor vastloopt <ArrowRight size={14} />
-                  </Link>
-                  <p className="mt-2 text-xs text-text-dark-muted">
-                    &euro;3.500 vast &middot; Geld-terug garantie &middot; Resultaat in 2 weken
-                  </p>
-                </div>
-              </FadeIn>
             </div>
+
+            <FadeIn delay={0.5}>
+              <div className="mt-10 text-center">
+                <Link href="/de-scan" className="btn-primary">
+                  Start met De Scan
+                </Link>
+              </div>
+            </FadeIn>
           </div>
         </section>
 
-        {/* ═══ SECTIE 4 — KEUZEBLOK "HOE WERKEN WE SAMEN?" (V7, NIEUW) ═══ */}
+        {/* ═══ SECTIE 4 — KEUZEBLOK V8 ═══ */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -391,8 +443,8 @@ export default function HomePage() {
                 Hoe werken we samen?
               </h2>
               <p className="mt-4 max-w-2xl text-text-dark-secondary">
-                Elk traject begint met De Scan. Daarna bepalen we samen hoe we
-                verder gaan.
+                Elk traject begint met diagnose. Daarna bepalen we samen hoe
+                diep ik erbij kom.
               </p>
             </FadeIn>
 
@@ -425,13 +477,17 @@ export default function HomePage() {
                       {card.body}
                     </p>
 
-                    <p className="mt-4 text-xs text-text-dark-muted">
-                      {card.details}
-                    </p>
+                    <p className="mt-4 text-xs text-text-dark-muted">{card.details}</p>
 
                     <p className="mt-3 text-base font-bold text-accent-teal-dark">
                       {card.price}
                     </p>
+
+                    {card.extra && (
+                      <p className="mt-1 flex items-center gap-1 text-xs font-medium text-accent-teal-dark">
+                        <Check size={12} strokeWidth={3} /> {card.extra}
+                      </p>
+                    )}
 
                     <Link
                       href={card.href}
@@ -445,16 +501,16 @@ export default function HomePage() {
             </div>
 
             <FadeIn delay={0.4}>
-              <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary">
-                Niet zeker wat je nodig hebt? Start met De Scan. Op basis van de
-                diagnose bepalen we samen of je projectmatig verder wilt of dat
-                een doorlopend partnerschap meer oplevert.
+              <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary italic">
+                Niet zeker wat je nodig hebt? Start met De Scan. Bij een
+                Fractional traject zit de diagnose in de eerste maand, je
+                betaalt De Scan niet apart.
               </p>
             </FadeIn>
           </div>
         </section>
 
-        {/* ═══ SECTIE 5 — FORMULE (V7, compact) ═══ */}
+        {/* ═══ SECTIE 5 — FORMULE V8 ═══ */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -465,53 +521,36 @@ export default function HomePage() {
             </FadeIn>
 
             <FadeIn delay={0.15}>
-              <div className="mt-10 flex flex-wrap items-center gap-2.5 sm:gap-3">
-                {/* Strategie */}
-                <span
-                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
-                  style={{ borderColor: P.strategy.color, backgroundColor: `${P.strategy.color}1A`, color: P.strategy.color }}
-                >
+              <div className="mt-10 flex flex-wrap items-center justify-center gap-2.5 sm:gap-3">
+                <span className="rounded-full px-5 py-2 font-display text-base font-semibold text-white sm:text-lg" style={{ backgroundColor: P.strategy.color }}>
                   Strategie
                 </span>
                 <span className="text-xl font-light text-text-dark-muted">&rarr;</span>
                 <span className="text-xl font-light text-text-dark-muted">(</span>
-                {/* Proces */}
-                <span
-                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
-                  style={{ borderColor: P.process.color, backgroundColor: `${P.process.color}1A`, color: P.process.color }}
-                >
+                <span className="rounded-full px-5 py-2 font-display text-base font-semibold text-white sm:text-lg" style={{ backgroundColor: P.process.color }}>
                   Proces
                 </span>
                 <span className="text-xl font-light text-text-dark-muted">&times;</span>
-                {/* People */}
-                <span
-                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
-                  style={{ borderColor: P.people.color, backgroundColor: `${P.people.color}1A`, color: P.people.color }}
-                >
+                <span className="rounded-full px-5 py-2 font-display text-base font-semibold text-white sm:text-lg" style={{ backgroundColor: P.people.color }}>
                   People
                 </span>
                 <span className="text-xl font-light text-text-dark-muted">)</span>
                 <span className="text-xl font-light text-text-dark-muted">&times;</span>
-                {/* AI */}
-                <span
-                  className="rounded-full border-[1.5px] px-5 py-2 font-display text-base font-medium sm:text-lg"
-                  style={{ borderColor: P.ai.color, backgroundColor: `${P.ai.color}1A`, color: P.ai.color }}
-                >
+                <span className="rounded-full px-5 py-2 font-display text-base font-semibold text-white sm:text-lg" style={{ backgroundColor: P.ai.color }}>
                   AI
                 </span>
                 <span className="text-xl font-light text-text-dark-muted">=</span>
-                {/* Result */}
-                <span className="rounded-full bg-accent-teal px-5 py-2 font-display text-base font-semibold text-white sm:text-lg">
+                <span className="rounded-full bg-gray-800 px-5 py-2 font-display text-base font-semibold text-white sm:text-lg">
                   Schaalbare groei
                 </span>
               </div>
 
-              <p className="mt-6 max-w-2xl text-text-dark-secondary">
-                Drie pijlers die elkaar versterken. AI is de multiplier. Het
-                effect is niet optelbaar maar multiplicatief.
+              <p className="mt-6 mx-auto max-w-2xl text-center text-text-dark-secondary">
+                Drie pijlers die elkaar versterken. AI is de multiplier. Als
+                &eacute;&eacute;n pijler ontbreekt, vermenigvuldig je nul.
               </p>
 
-              <div className="mt-4">
+              <div className="mt-4 text-center">
                 <Link
                   href="/methode"
                   className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
@@ -523,7 +562,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 6 — BOUWBLOKKEN (V7, was Expertise) ═══ */}
+        {/* ═══ SECTIE 6 — BOUWBLOKKEN V8 ═══ */}
         <section id="bouwblokken" className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -532,9 +571,8 @@ export default function HomePage() {
                 De bouwblokken
               </h2>
               <p className="mt-4 max-w-2xl text-text-dark-secondary">
-                Elke opdracht is maatwerk. Dit zijn de onderdelen die ik inzet
-                &mdash; op projectbasis of als onderdeel van een doorlopend
-                partnerschap.
+                Dit zijn de onderdelen die ik inzet, op projectbasis of
+                doorlopend.
               </p>
             </FadeIn>
 
@@ -574,14 +612,59 @@ export default function HomePage() {
               <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary">
                 Bij De Scan analyseer ik alle bouwblokken. Bij De Bouw werk ik
                 aan specifieke onderdelen. Als Fractional Head of Sales bewaak
-                ik alles doorlopend.
+                ik het geheel doorlopend.
               </p>
             </FadeIn>
           </div>
         </section>
 
-        {/* ═══ SECTIE 7 — VERGELIJKINGSTABEL V7 (Fractional vs Fulltime vs Interim vs Zelf) ═══ */}
+        {/* ═══ SECTIE 7 — RESULTATEN ═══ */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
+          <div className="container-wide">
+            <FadeIn>
+              <p className="section-label-dark">/ Resultaten</p>
+              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                Resultaten
+              </h2>
+              <p className="mt-4 max-w-2xl text-text-dark-secondary">
+                Een greep uit recente trajecten.
+              </p>
+            </FadeIn>
+
+            <div className="mt-12 grid gap-6 md:grid-cols-3">
+              {resultaten.map((r, i) => (
+                <FadeIn key={r.name} delay={i * 0.1}>
+                  <div className="card-light h-full flex flex-col">
+                    <p className="font-display text-lg font-bold text-text-dark">
+                      {r.link ? (
+                        <a href={r.link} target="_blank" rel="noopener noreferrer" className="hover:text-accent-teal-dark transition-colors">
+                          {r.name}
+                        </a>
+                      ) : (
+                        r.name
+                      )}
+                    </p>
+                    <p className="mt-1 text-xs font-medium text-text-dark-muted">{r.subtitle}</p>
+
+                    <p className="mt-4 text-sm text-text-dark-secondary">{r.deed}</p>
+
+                    {r.quote && (
+                      <blockquote className="mt-4 border-l-2 border-accent-teal/30 pl-3 flex-1">
+                        <p className="text-xs italic text-text-dark-secondary">&ldquo;{r.quote}&rdquo;</p>
+                        {r.author && (
+                          <p className="mt-1 text-xs text-text-dark-muted">, {r.author}</p>
+                        )}
+                      </blockquote>
+                    )}
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ═══ SECTIE 8 — VERGELIJKINGSTABEL V8 ═══ */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <p className="section-label-dark">/ Het verschil</p>
@@ -590,24 +673,15 @@ export default function HomePage() {
               </h2>
             </FadeIn>
 
-            {/* Desktop table */}
             <FadeIn delay={0.15}>
               <div className="mt-12 hidden lg:block overflow-x-auto">
                 <table className="w-full text-left text-sm">
                   <thead>
                     <tr className="border-b-2 border-border-light-mode">
-                      <th className="pb-4 pr-4 font-display text-sm font-semibold text-text-dark-muted w-[160px]">
-                        &nbsp;
-                      </th>
-                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
-                        Zelf doen
-                      </th>
-                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
-                        Fulltime Head of Sales
-                      </th>
-                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
-                        Interim (fulltime)
-                      </th>
+                      <th className="pb-4 pr-4 font-display text-sm font-semibold text-text-dark-muted w-[180px]">&nbsp;</th>
+                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">Zelf doen</th>
+                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">Fulltime HoS</th>
+                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">Interim</th>
                       <th className="pb-4 px-4 font-display text-sm font-bold text-accent-teal-dark">
                         <span className="flex items-center gap-2">
                           <span className="h-2 w-2 rounded-full bg-accent-teal" />
@@ -620,33 +694,21 @@ export default function HomePage() {
                     {comparisonRows.map((row, i) => (
                       <tr
                         key={row.aspect}
-                        className={
-                          i < comparisonRows.length - 1
-                            ? "border-b border-border-light-mode/50"
-                            : ""
-                        }
+                        className={`${i < comparisonRows.length - 1 ? "border-b border-border-light-mode/50" : ""} ${row.muted ? "text-text-dark-muted text-xs" : ""}`}
                       >
-                        <td className="py-4 pr-4 font-medium text-text-dark">
-                          {row.aspect}
-                        </td>
-                        <td className="py-4 px-4 text-text-dark-secondary">
-                          {row.zelf}
-                        </td>
-                        <td className="py-4 px-4 text-text-dark-secondary">
-                          {row.fulltime}
-                        </td>
-                        <td className="py-4 px-4 text-text-dark-secondary">
-                          {row.interim}
-                        </td>
+                        <td className={`py-4 pr-4 font-medium ${row.muted ? "text-text-dark-muted" : "text-text-dark"}`}>{row.aspect}</td>
+                        <td className="py-4 px-4 text-text-dark-secondary">{row.zelf}</td>
+                        <td className="py-4 px-4 text-text-dark-secondary">{row.fulltime}</td>
+                        <td className="py-4 px-4 text-text-dark-secondary">{row.interim}</td>
                         <td className="py-4 px-4 rounded-lg bg-accent-teal/5 text-text-dark font-medium">
-                          <span className="flex items-start gap-2">
-                            <Check
-                              size={16}
-                              className="mt-0.5 shrink-0 text-accent-teal-dark"
-                              strokeWidth={3}
-                            />
-                            {row.accelr}
-                          </span>
+                          {!row.muted ? (
+                            <span className="flex items-start gap-2">
+                              <Check size={16} className="mt-0.5 shrink-0 text-accent-teal-dark" strokeWidth={3} />
+                              {row.accelr}
+                            </span>
+                          ) : (
+                            <span className="text-text-dark-muted">{row.accelr}</span>
+                          )}
                         </td>
                       </tr>
                     ))}
@@ -655,28 +717,18 @@ export default function HomePage() {
               </div>
             </FadeIn>
 
-            {/* Mobile stacked cards */}
+            {/* Mobile */}
             <div className="mt-12 space-y-4 lg:hidden">
-              {comparisonRows.map((row, i) => (
+              {comparisonRows.filter((r) => !r.muted).map((row, i) => (
                 <FadeIn key={row.aspect} delay={i * 0.08}>
-                  <div className="rounded-2xl border border-border-light-mode bg-bg-light p-5">
-                    <p className="font-display text-sm font-bold text-text-dark">
-                      {row.aspect}
-                    </p>
+                  <div className="rounded-2xl border border-border-light-mode bg-white p-5">
+                    <p className="font-display text-sm font-bold text-text-dark">{row.aspect}</p>
                     <div className="mt-3 space-y-2">
                       <div className="flex items-start gap-2 rounded-lg bg-accent-teal/5 p-2.5">
-                        <Check
-                          size={14}
-                          className="mt-0.5 shrink-0 text-accent-teal-dark"
-                          strokeWidth={3}
-                        />
+                        <Check size={14} className="mt-0.5 shrink-0 text-accent-teal-dark" strokeWidth={3} />
                         <div>
-                          <p className="text-[10px] font-bold uppercase tracking-wider text-accent-teal-dark">
-                            Accelr Fractional
-                          </p>
-                          <p className="text-sm text-text-dark">
-                            {row.accelr}
-                          </p>
+                          <p className="text-[10px] font-bold uppercase tracking-wider text-accent-teal-dark">Accelr Fractional</p>
+                          <p className="text-sm text-text-dark">{row.accelr}</p>
                         </div>
                       </div>
                       {[
@@ -687,12 +739,8 @@ export default function HomePage() {
                         <div key={alt.label} className="flex items-start gap-2 p-2.5">
                           <span className="mt-0.5 h-3.5 w-3.5 shrink-0" />
                           <div>
-                            <p className="text-[10px] font-medium uppercase tracking-wider text-text-dark-muted">
-                              {alt.label}
-                            </p>
-                            <p className="text-sm text-text-dark-secondary">
-                              {alt.value}
-                            </p>
+                            <p className="text-[10px] font-medium uppercase tracking-wider text-text-dark-muted">{alt.label}</p>
+                            <p className="text-sm text-text-dark-secondary">{alt.value}</p>
                           </div>
                         </div>
                       ))}
@@ -703,16 +751,17 @@ export default function HomePage() {
             </div>
 
             <FadeIn delay={0.4}>
-              <p className="mx-auto mt-6 max-w-2xl text-center text-xs text-text-dark-muted">
-                Bronnen: Robert Half Salary Guide NL 2024, Glassdoor Nederland,
-                marktonderzoek B2B sales consultancy.
+              <p className="mx-auto mt-6 max-w-3xl text-center text-xs text-text-dark-muted">
+                90 dagen = CRM ingericht, proces gedocumenteerd, playbooks live.
+                Voorspelbare pipeline kost 6+ maanden. Bronnen: Robert Half
+                Salary Guide NL 2024, Glassdoor Nederland.
               </p>
             </FadeIn>
           </div>
         </section>
 
-        {/* ═══ SECTIE 8 — INVESTERING V7 (3 engagement levels) ═══ */}
-        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 9 — INVESTERING V8 ═══ */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <p className="section-label-dark">/ Investering</p>
@@ -724,56 +773,40 @@ export default function HomePage() {
             <div className="mt-12 grid gap-6 sm:grid-cols-3">
               {investmentModels.map((model, i) => (
                 <FadeIn key={model.title} delay={i * 0.1}>
-                  <div className="card-light h-full flex flex-col">
-                    <h3 className="font-display text-lg font-bold text-text-dark">
-                      {model.title}
-                    </h3>
+                  <div className={`card-light h-full flex flex-col ${model.highlight ? "ring-2 ring-accent-teal/40" : ""}`}>
+                    <h3 className="font-display text-lg font-bold text-text-dark">{model.title}</h3>
 
                     <p className="mt-4 text-2xl font-bold text-accent-teal-dark">
                       {model.price}
-                      <span className="text-sm font-normal text-text-dark-secondary">
-                        {" "}{model.priceSuffix}
-                      </span>
+                      <span className="text-sm font-normal text-text-dark-secondary"> {model.priceSuffix}</span>
                     </p>
 
                     <div className="mt-6 space-y-4 flex-1">
                       <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Doorlooptijd
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.duration}
-                        </p>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">Doorlooptijd</p>
+                        <p className="mt-1 text-sm text-text-dark">{model.duration}</p>
                       </div>
                       <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Wat je krijgt
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.result}
-                        </p>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">Wat je krijgt</p>
+                        <p className="mt-1 text-sm text-text-dark">{model.result}</p>
                       </div>
                       <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Geld-terug garantie
-                        </p>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">Uren</p>
+                        <p className="mt-1 text-sm text-text-dark">{model.uren}</p>
+                      </div>
+                      <div>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">Geld-terug garantie</p>
                         <p className="mt-1 text-sm text-text-dark">
                           {model.garantie ? (
                             <span className="flex items-center gap-1 text-accent-teal-dark font-semibold">
                               <Check size={14} strokeWidth={3} /> Ja
                             </span>
-                          ) : (
-                            "\u2014"
-                          )}
+                          ) : "\u2014"}
                         </p>
                       </div>
                       <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Inclusief De Scan
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.scanIncluded}
-                        </p>
+                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">Inclusief De Scan</p>
+                        <p className="mt-1 text-sm text-text-dark">{model.scanIncluded}</p>
                       </div>
                     </div>
                   </div>
@@ -783,8 +816,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 9 — OVER TIM (LICHT, ongewijzigd) ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 10 — OVER TIM V8 ═══ */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <p className="section-label-dark">/ Het team</p>
@@ -796,12 +829,11 @@ export default function HomePage() {
             <FadeIn delay={0.15}>
               <div className="mt-12 mx-auto max-w-3xl">
                 <div className="grid items-start gap-8 md:grid-cols-[280px_1fr]">
-                  {/* Photo */}
                   <div className="relative">
                     <div className="aspect-[3/4] w-full rounded-2xl bg-bg-primary overflow-hidden">
                       <Image
                         src="/images/tim.jpeg"
-                        alt="Tim, Founder & Sales Growth Partner bij Accelr"
+                        alt="Tim Samsom, Founder & Fractional Head of Sales bij Accelr"
                         width={560}
                         height={747}
                         className="h-full w-full object-cover object-top"
@@ -809,38 +841,24 @@ export default function HomePage() {
                       />
                     </div>
                     <div className="absolute -bottom-3 -right-3 rounded-lg bg-accent-teal px-3 py-1.5">
-                      <span className="font-mono text-xs font-bold text-bg-primary">
-                        /01
-                      </span>
+                      <span className="font-mono text-xs font-bold text-bg-primary">/01</span>
                     </div>
                   </div>
 
-                  {/* Bio */}
                   <div>
                     <p className="font-mono text-xs font-medium uppercase tracking-widest text-text-dark-muted">
-                      Founder & Sales Growth Partner
+                      Founder &amp; Fractional Head of Sales
                     </p>
                     <h3 className="mt-3 font-display text-2xl font-bold text-text-dark">
-                      Tim
+                      Tim Samsom
                     </h3>
                     <p className="mt-4 text-text-dark-secondary leading-relaxed">
-                      Ik ben Tim. 10+ jaar in adtech en B2B sales bij
-                      snelgroeiende tech-bedrijven. Ik heb salesteams
-                      opgebouwd, strategie&euml;n ge&iuml;mplementeerd, en
-                      outbound flows gebouwd die consistent omzet opleveren.
-                    </p>
-                    <p className="mt-4 text-text-dark-secondary leading-relaxed">
-                      Eerst als koper van sales tools, als
-                      eindverantwoordelijke voor revenue. Ik weet hoe het voelt
-                      om tools te kopen die niet werken. Om freelancers in te
-                      huren die iets bouwen dat kapot gaat zodra ze vertrekken.
-                      Om te groeien op onderbuik in plaats van op data.
-                    </p>
-                    <p className="mt-4 text-text-dark-secondary leading-relaxed">
-                      Nu bouw ik de systemen die ik zelf had willen hebben.
-                      Gespecialiseerd in AI-gedreven sales infrastructuur,
-                      powered by tools als n8n, Clay, en Make, die bedrijven
-                      zelf kunnen runnen.
+                      8+ jaar B2B sales in adtech en tech. Als Country Manager
+                      Nederland bij ShowHeroes bouwde ik de Nederlandse operatie
+                      van scratch, van eerste klant tot structureel
+                      commercieel team. Daarvoor verantwoordelijk voor sales bij
+                      Streamads en commerci&euml;le rollen bij Ematters en
+                      XS4ALL. Alumnus Nyenrode Business Universiteit.
                     </p>
                     <blockquote className="mt-6 border-l-4 border-accent-teal pl-5 py-1">
                       <p className="text-lg italic font-medium text-text-dark leading-relaxed">
@@ -853,15 +871,15 @@ export default function HomePage() {
                         href="/over-tim"
                         className="inline-flex items-center gap-2 text-sm font-semibold text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
                       >
-                        Lees meer over Tim <ArrowRight size={14} />
+                        Lees meer <ArrowRight size={14} />
                       </Link>
                       <a
                         href="https://linkedin.com/in/timsam"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 text-sm font-semibold text-text-dark-muted hover:text-accent-teal-dark transition-colors"
+                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-text-dark-muted hover:text-accent-teal-dark transition-colors"
                       >
-                        LinkedIn <ArrowRight size={14} />
+                        <Linkedin size={16} /> Bekijk mijn LinkedIn
                       </a>
                     </div>
                   </div>
@@ -871,8 +889,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 10 — VOOR WIE + NIET VOOR JOU (ongewijzigd) ═══ */}
-        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 11 — VOOR WIE V8 ═══ */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <p className="section-label-dark">/ Voor wie</p>
@@ -882,23 +900,13 @@ export default function HomePage() {
             </FadeIn>
 
             <div className="mt-12 grid gap-6 md:grid-cols-2">
-              {/* Dit is voor jou */}
               <FadeIn delay={0.1}>
                 <div className="h-full rounded-2xl border border-accent-teal/20 bg-accent-teal/5 p-6 sm:p-8">
-                  <h3 className="font-display text-lg font-bold text-text-dark">
-                    Dit is voor jou als
-                  </h3>
+                  <h3 className="font-display text-lg font-bold text-text-dark">Wel voor jou</h3>
                   <ul className="mt-6 space-y-3">
                     {voorJou.map((item) => (
-                      <li
-                        key={item}
-                        className="flex items-start gap-3 text-sm text-text-dark-secondary"
-                      >
-                        <Check
-                          size={18}
-                          className="mt-0.5 shrink-0 text-accent-teal"
-                          strokeWidth={3}
-                        />
+                      <li key={item} className="flex items-start gap-3 text-sm text-text-dark-secondary">
+                        <Check size={18} className="mt-0.5 shrink-0 text-accent-teal" strokeWidth={3} />
                         {item}
                       </li>
                     ))}
@@ -906,23 +914,13 @@ export default function HomePage() {
                 </div>
               </FadeIn>
 
-              {/* Dit is niet voor jou */}
               <FadeIn delay={0.2}>
                 <div className="h-full rounded-2xl border border-red-200 bg-red-50 p-6 sm:p-8">
-                  <h3 className="font-display text-lg font-bold text-text-dark">
-                    Dit is niet voor jou als
-                  </h3>
+                  <h3 className="font-display text-lg font-bold text-text-dark">Niet voor jou</h3>
                   <ul className="mt-6 space-y-3">
                     {nietVoorJou.map((item) => (
-                      <li
-                        key={item}
-                        className="flex items-start gap-3 text-sm text-text-dark-secondary"
-                      >
-                        <XIcon
-                          size={18}
-                          className="mt-0.5 shrink-0 text-red-400"
-                          strokeWidth={2.5}
-                        />
+                      <li key={item} className="flex items-start gap-3 text-sm text-text-dark-secondary">
+                        <XIcon size={18} className="mt-0.5 shrink-0 text-red-400" strokeWidth={2.5} />
                         {item}
                       </li>
                     ))}
@@ -933,8 +931,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 11 — FAQ (ongewijzigd) ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
+        {/* ═══ SECTIE 12 — FAQ V8 ═══ */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <div className="mx-auto max-w-2xl">
               <FadeIn>
@@ -947,17 +945,12 @@ export default function HomePage() {
               <div className="mt-12 space-y-3">
                 {faqs.map((faq, i) => (
                   <FadeIn key={faq.q} delay={i * 0.08}>
-                    <details className="group rounded-xl border border-border-light-mode bg-bg-light px-6 py-5 cursor-pointer transition-all hover:shadow-sm">
+                    <details className="group rounded-xl border border-border-light-mode bg-white px-6 py-5 cursor-pointer transition-all hover:shadow-sm">
                       <summary className="flex items-center justify-between gap-4 font-display text-base font-semibold text-text-dark [&::-webkit-details-marker]:hidden">
                         {faq.q}
-                        <ChevronDown
-                          size={18}
-                          className="shrink-0 text-text-dark-muted transition-transform duration-300 group-open:rotate-180"
-                        />
+                        <ChevronDown size={18} className="shrink-0 text-text-dark-muted transition-transform duration-300 group-open:rotate-180" />
                       </summary>
-                      <p className="mt-4 text-sm text-text-dark-secondary leading-relaxed">
-                        {faq.a}
-                      </p>
+                      <p className="mt-4 text-sm text-text-dark-secondary leading-relaxed">{faq.a}</p>
                     </details>
                   </FadeIn>
                 ))}
@@ -966,84 +959,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 12 — BLOG PREVIEWS (ongewijzigd) ═══ */}
-        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <div className="flex items-end justify-between">
-                <div>
-                  <p className="section-label-dark">/ Blog</p>
-                  <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                    Inzichten &amp; artikelen
-                  </h2>
-                </div>
-                <Link
-                  href="/blog"
-                  className="hidden sm:inline-flex items-center gap-1 text-sm font-medium text-accent-teal-dark hover:text-accent-teal-hover transition-colors"
-                >
-                  Bekijk alle artikelen <ArrowRight size={14} />
-                </Link>
-              </div>
-            </FadeIn>
-
-            <div className="mt-12 grid gap-6 lg:grid-cols-[1fr_1fr]">
-              {/* Featured (large) */}
-              <FadeIn>
-                <div className="card-light h-full flex flex-col">
-                  <div className="aspect-[16/9] w-full rounded-xl overflow-hidden mb-6">
-                    <Image
-                      src="/images/hero-meeting.jpg"
-                      alt="B2B sales strategie meeting"
-                      width={960}
-                      height={540}
-                      className="h-full w-full object-cover"
-                    />
-                  </div>
-                  <span className="section-label-dark">{blogPreviews[0].tag}</span>
-                  <h3 className="mt-3 font-display text-xl font-semibold text-text-dark">
-                    {blogPreviews[0].title}
-                  </h3>
-                  <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
-                    {blogPreviews[0].excerpt}
-                  </p>
-                  <p className="mt-4 text-xs font-medium text-text-dark-muted italic">
-                    Binnenkort beschikbaar
-                  </p>
-                </div>
-              </FadeIn>
-
-              {/* 2 small stacked */}
-              <div className="flex flex-col gap-6">
-                {blogPreviews.slice(1).map((post, i) => (
-                  <FadeIn key={post.title} delay={(i + 1) * 0.1}>
-                    <div className="card-light flex-1">
-                      <span className="section-label-dark">{post.tag}</span>
-                      <h3 className="mt-3 font-display text-lg font-semibold text-text-dark">
-                        {post.title}
-                      </h3>
-                      <p className="mt-3 text-sm text-text-dark-secondary leading-relaxed">
-                        {post.excerpt}
-                      </p>
-                      <p className="mt-3 text-xs font-medium text-text-dark-muted italic">
-                        Binnenkort beschikbaar
-                      </p>
-                    </div>
-                  </FadeIn>
-                ))}
-              </div>
-            </div>
-
-            <FadeIn delay={0.3}>
-              <div className="mt-8 text-center sm:hidden">
-                <Link href="/blog" className="btn-secondary-dark">
-                  Bekijk alle artikelen &rarr;
-                </Link>
-              </div>
-            </FadeIn>
-          </div>
-        </section>
-
-        {/* ═══ SECTIE 13 — CTA FOOTER (V7) ═══ */}
+        {/* ═══ SECTIE 13 — FOOTER CTA V8 ═══ */}
         <section className="bg-bg-secondary py-24 sm:py-32 lg:py-40">
           <div className="container-wide">
             <FadeIn>
@@ -1051,38 +967,24 @@ export default function HomePage() {
                 <p className="font-display text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
                   accelr.
                 </p>
-                <p className="mt-6 text-lg text-text-secondary">
-                  Benieuwd waar jouw salesmotor vastloopt?
-                </p>
+                <h2 className="mt-6 font-display text-2xl font-bold sm:text-3xl">
+                  Klaar om je sales te professionaliseren?
+                </h2>
 
                 <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                   <Link href="/contact" className="btn-primary">
-                    <span className="btn-label">Plan een gesprek</span>
-                    <span className="btn-arrow">
-                      <ArrowRight size={16} />
-                    </span>
-                  </Link>
-                  <Link href="/de-scan" className="btn-secondary">
-                    Start met De Scan &rarr;
+                    <span className="btn-label">Plan een vrijblijvend gesprek</span>
+                    <span className="btn-arrow"><ArrowRight size={16} /></span>
                   </Link>
                 </div>
 
-                <p className="mt-6 max-w-md text-center text-sm text-text-muted">
-                  Nog niet klaar voor een gesprek? Start met De Scan &mdash; dat
-                  is altijd de eerste stap.
+                <p className="mt-6 text-sm text-text-muted">
+                  Of start met De Scan, &euro;3.500 vast, geld-terug-garantie.
                 </p>
 
                 <div className="mt-10 flex flex-col items-center gap-3 text-sm text-text-muted">
-                  <a
-                    href="mailto:tim@accelr.nl"
-                    className="hover:text-accent-teal transition-colors"
-                  >
-                    tim@accelr.nl
-                  </a>
-                  <span className="flex items-center gap-1">
-                    <MapPin size={14} />
-                    Amsterdam, Nederland
-                  </span>
+                  <a href="mailto:tim@accelr.nl" className="hover:text-accent-teal transition-colors">tim@accelr.nl</a>
+                  <span className="flex items-center gap-1"><MapPin size={14} />Amsterdam, Nederland</span>
                 </div>
               </div>
             </FadeIn>

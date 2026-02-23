@@ -3,76 +3,64 @@ import Link from "next/link";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
-import { ArrowRight, Check, X as XIcon, MapPin } from "lucide-react";
+import { ArrowRight, Check, X as XIcon } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Fractional Head of Sales, Commercieel leiderschap zonder fulltime prijskaartje",
+  title: "Fractional Head of Sales Nederland | Accelr",
   description:
-    "Fractional Head of Sales: jouw commercieel leider, 1-2 dagen per week. Strategie, operatie en AI-gedreven groei. Vanaf \u20ac4.000/maand.",
+    "Ervaren commercieel leiderschap, 1-2 dagen per week. Voor scale-ups die te groot zijn om zonder te groeien, maar te klein voor een fulltime hire.",
   openGraph: {
-    title: "Fractional Head of Sales | Accelr",
+    title: "Fractional Head of Sales Nederland | Accelr",
     description:
-      "Fractional Head of Sales: jouw commercieel leider, 1-2 dagen per week. Strategie, operatie en AI-gedreven groei. Vanaf \u20ac4.000/maand.",
+      "Ervaren commercieel leiderschap, 1-2 dagen per week. Voor scale-ups die te groot zijn om zonder te groeien, maar te klein voor een fulltime hire.",
+    images: ["/images/og-accelr.png"],
+    url: "https://accelr.nl/expertise/fractional-head-of-sales",
   },
 };
 
-/* ─── Vergelijkingstabel (uitgebreid) ─── */
+/* ─── Vergelijkingstabel (3 columns only) ─── */
 const comparisonRows = [
   {
     aspect: "Kosten/jaar",
-    zelf: "\u20ac0 (+ opportunitykosten)",
-    fulltime: "\u20ac175K \u2013 \u20ac250K",
-    interim: "\u20ac120K \u2013 \u20ac200K",
-    accelr: "\u20ac48K \u2013 \u20ac96K",
+    fulltime: "€150K-€220K",
+    interim: "€120K-€180K",
+    accelr: "€48K-€96K",
   },
   {
-    aspect: "Commitment",
-    zelf: "Geen",
-    fulltime: "12+ maanden",
-    interim: "6-12 maanden",
-    accelr: "6 maanden, flexibel",
+    aspect: "Risico bij mis-match",
+    fulltime: "€80K+ (6 mnd salaris + werving)",
+    interim: "Medium (contract)",
+    accelr: "Laag (maandelijks)",
   },
   {
     aspect: "Beschikbaarheid",
-    zelf: "Nvt",
-    fulltime: "Fulltime",
-    interim: "Fulltime",
+    fulltime: "5 dagen/week",
+    interim: "5 dagen/week",
     accelr: "1-2 dagen/week",
   },
   {
-    aspect: "Opstarttijd",
-    zelf: "Nvt",
-    fulltime: "3-6 maanden",
-    interim: "2-4 weken",
-    accelr: "2-4 weken",
-  },
-  {
-    aspect: "Expertise",
-    zelf: "Jouw eigen kennis",
-    fulltime: "1 profiel",
+    aspect: "Expertise breedte",
+    fulltime: "1 profiel, 1 bedrijf",
     interim: "1 profiel",
-    accelr: "Breed: strategie + ops + AI",
-  },
-  {
-    aspect: "Risico",
-    zelf: "Hoog (bottleneck)",
-    fulltime: "Hoog (mis-hire \u20ac100K+)",
-    interim: "Medium",
-    accelr: "Laag (start met Scan)",
+    accelr: "Breed (strategie+ops+AI)",
   },
   {
     aspect: "Kennisoverdracht",
-    zelf: "Nvt",
-    fulltime: "Vertrekt mee",
-    interim: "Vertrekt mee",
-    accelr: "Ingebouwd in proces",
+    fulltime: "❌ Vertrekt met kennis",
+    interim: "❌ Vertrekt",
+    accelr: "✅ Systemen + docs blijven",
   },
   {
-    aspect: "Na 90 dagen",
-    zelf: "Onvoorspelbaar",
-    fulltime: "Onboarding loopt nog",
-    interim: "Operationeel",
-    accelr: "Systeem draait",
+    aspect: "Focus",
+    fulltime: "Langetermijn operatie",
+    interim: "Gat vullen",
+    accelr: "Fundament bouwen + schalen",
+  },
+  {
+    aspect: "Commitment",
+    fulltime: "12+ maanden",
+    interim: "6-12 maanden",
+    accelr: "Min. 6 maanden",
   },
 ];
 
@@ -82,36 +70,54 @@ const timeline = [
     num: "/01",
     period: "Week 1-4",
     title: "Diagnose",
-    desc: "Alle pilaren doorlichten. Dit is De Scan: strategie, proces, team, tooling, data. Je krijgt een Sales Maturity Score op 10 dimensies en een geprioriteerde roadmap.",
+    desc: "Volledige doorlichting via De Scan. Geen extra kosten, zit in eerste maand. Sales Maturity Score op alle pilaren, geprioriteerde roadmap.",
   },
   {
     num: "/02",
     period: "Maand 2-3",
     title: "Bouwen",
-    desc: "Prioriteiten uit de roadmap implementeren. CRM inrichten, outbound engine draaien, playbooks schrijven, AI-tools integreren. Alles hands-on, samen met je team.",
+    desc: "CRM, proces, playbooks, outbound, AI-automations. Hands-on implementatie samen met je team.",
   },
   {
     num: "/03",
     period: "Maand 4+",
     title: "Runnen",
-    desc: "KPI\u2019s bewaken, team coachen, systeem optimaliseren. Wekelijkse pipeline reviews, kwartaal-reviews, doorlopende bijsturing. Het doel: een systeem dat draait zonder mij.",
+    desc: "Pipeline reviews, team coaching, forecast, optimalisatie. Het systeem draait, met doorlopende bijsturing.",
   },
 ];
 
 /* ─── Voor wie / Niet voor wie ─── */
 const voorWie = [
-  "\u20ac2M+ omzet, groeiambitie",
-  "Founder doet sales erbij (of heeft net eerste salesperson aangenomen)",
-  "Minimaal 2 mensen in commercieel team",
-  "Bereid commerci\u00eble autoriteit te delegeren",
-  "Wil niet blind een dure hire doen",
+  "B2B SaaS/tech/IT, €1M-€10M omzet",
+  "Technische founder die nog zelf verkoopt",
+  "Minimaal 2 mensen in sales (of ambitie om team te bouwen)",
+  "Bereid om autoriteit te delegeren",
 ];
 
 const nietVoorWie = [
-  "<\u20ac1M omzet (te vroeg \u2014 start met De Scan)",
-  "Niet bereid data te delen",
-  "Fulltime manager nodig (50+ werknemers)",
-  "Zoekt een bureau dat \"het overneemt\"",
+  "<€500K omzet (te vroeg, focus op PMF)",
+  "Niet bereid data en CRM te delen",
+  "Dagelijkse fulltime aanwezigheid nodig",
+  "Zoekt een bureau dat het \"overneemt\"",
+];
+
+/* ─── Resultaten case studies ─── */
+const caseStudies = [
+  {
+    title: "Bedrijfsnaam A",
+    result: "€1.8M → €2.6M ARR (+44%)",
+    href: "/resultaten/bedrijf-a",
+  },
+  {
+    title: "Bedrijfsnaam B",
+    result: "€600K onbenut, Upsell +262%",
+    href: "/resultaten/bedrijf-b",
+  },
+  {
+    title: "Bedrijfsnaam C",
+    result: "€2.5M → €4.1M ARR (+64%)",
+    href: "/resultaten/bedrijf-c",
+  },
 ];
 
 export default function FractionalPage() {
@@ -124,17 +130,15 @@ export default function FractionalPage() {
           <div className="container-wide">
             <FadeIn>
               <div className="mx-auto max-w-3xl text-center">
-                <p className="section-label-dark">/ Fractional Head of Sales</p>
-
                 <h1 className="mt-8 font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl lg:text-6xl">
                   Een Head of Sales zonder het fulltime{" "}
-                  <span className="gradient-text">prijskaartje.</span>
+                  <span className="gradient-text">prijskaartje</span>
                 </h1>
 
                 <p className="mt-6 text-lg text-text-dark-secondary sm:text-xl">
-                  Fractional Head of Sales: jouw commercieel leider, 1-2 dagen
-                  per week. Alle strategische sturing, zonder de overhead van
-                  een &euro;200K+ hire.
+                  Ervaren commercieel leiderschap, 1-2 dagen per week. Voor
+                  scale-ups die te groot zijn om zonder te groeien, maar te
+                  klein voor een fulltime hire.
                 </p>
 
                 <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -153,7 +157,7 @@ export default function FractionalPage() {
           </div>
         </section>
 
-        {/* ─── Wat is een Fractional Head of Sales? ─── */}
+        {/* ─── Wat is Fractional? ─── */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -164,22 +168,18 @@ export default function FractionalPage() {
                 </h2>
                 <p className="mt-6 text-lg text-text-dark-secondary leading-relaxed">
                   Een Fractional Head of Sales is een ervaren commercieel leider
-                  die parttime voor jouw bedrijf werkt. In Amerika is dit
-                  concept al jaren gangbaar &mdash; in Nederland begint het net
-                  op te komen.
-                </p>
-                <p className="mt-4 text-lg text-text-dark-secondary leading-relaxed">
-                  Vergelijk het met een CFO die je deelt met andere bedrijven,
-                  maar dan voor sales. Je krijgt strategisch leiderschap,
-                  operationele sturing en hands-on execution zonder de kosten
-                  van een fulltime hire.
+                  die parttime (1-2 dagen per week) voor jouw bedrijf werkt. Je
+                  krijgt strategisch leiderschap én hands-on execution, van
+                  CRM-inrichting tot teamcoaching tot pipeline management. In
+                  Amerika is dit model al jaren gangbaar bij meer dan 120.000
+                  bedrijven. In Nederland begint het net.
                 </p>
               </div>
             </FadeIn>
           </div>
         </section>
 
-        {/* ─── Vergelijkingstabel ─── */}
+        {/* ─── Vergelijkingstabel (3 columns) ─── */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -195,11 +195,8 @@ export default function FractionalPage() {
                 <table className="w-full text-left text-sm">
                   <thead>
                     <tr className="border-b-2 border-border-light-mode">
-                      <th className="pb-4 pr-4 font-display text-sm font-semibold text-text-dark-muted w-[160px]">
+                      <th className="pb-4 pr-4 font-display text-sm font-semibold text-text-dark-muted w-[180px]">
                         &nbsp;
-                      </th>
-                      <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
-                        Zelf doen
                       </th>
                       <th className="pb-4 px-4 font-display text-sm font-medium text-text-dark-muted">
                         Fulltime HoS
@@ -227,9 +224,6 @@ export default function FractionalPage() {
                       >
                         <td className="py-4 pr-4 font-medium text-text-dark">
                           {row.aspect}
-                        </td>
-                        <td className="py-4 px-4 text-text-dark-secondary">
-                          {row.zelf}
                         </td>
                         <td className="py-4 px-4 text-text-dark-secondary">
                           {row.fulltime}
@@ -277,7 +271,6 @@ export default function FractionalPage() {
                         </div>
                       </div>
                       {[
-                        { label: "Zelf doen", value: row.zelf },
                         { label: "Fulltime HoS", value: row.fulltime },
                         { label: "Interim", value: row.interim },
                       ].map((alt) => (
@@ -300,9 +293,9 @@ export default function FractionalPage() {
             </div>
 
             <FadeIn delay={0.4}>
-              <p className="mx-auto mt-6 max-w-2xl text-center text-xs text-text-dark-muted">
-                Bronnen: Robert Half Salary Guide NL 2024, Glassdoor Nederland,
-                marktonderzoek B2B sales consultancy.
+              <p className="mx-auto mt-8 max-w-2xl text-center text-sm text-text-dark-secondary">
+                Interim houdt het draaiende. Fractional brengt versnelling,
+                ervaring en richting.
               </p>
             </FadeIn>
           </div>
@@ -355,7 +348,7 @@ export default function FractionalPage() {
             <FadeIn>
               <p className="section-label-dark">/ Fit check</p>
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                Is dit voor jou?
+                Voor wie dit werkt
               </h2>
             </FadeIn>
 
@@ -363,7 +356,7 @@ export default function FractionalPage() {
               <FadeIn delay={0.1}>
                 <div className="h-full rounded-2xl border border-accent-teal/20 bg-accent-teal/5 p-6 sm:p-8">
                   <h3 className="font-display text-lg font-bold text-text-dark">
-                    Dit werkt als
+                    Voor wie dit werkt
                   </h3>
                   <ul className="mt-6 space-y-3">
                     {voorWie.map((item) => (
@@ -386,7 +379,7 @@ export default function FractionalPage() {
               <FadeIn delay={0.2}>
                 <div className="h-full rounded-2xl border border-red-200 bg-red-50 p-6 sm:p-8">
                   <h3 className="font-display text-lg font-bold text-text-dark">
-                    Dit werkt niet als
+                    Wanneer dit NIET werkt
                   </h3>
                   <ul className="mt-6 space-y-3">
                     {nietVoorWie.map((item) => (
@@ -423,37 +416,47 @@ export default function FractionalPage() {
                   <div className="space-y-6">
                     <div className="flex items-baseline gap-3">
                       <span className="font-display text-3xl font-bold text-accent-teal-dark">
-                        Vanaf &euro;4.000
+                        Vanaf €4.000
                       </span>
                       <span className="text-text-dark-muted">/maand</span>
                     </div>
 
-                    <div className="grid gap-4 sm:grid-cols-3">
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Beschikbaarheid
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark font-medium">
-                          1-2 dagen per week (8-16 uur)
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Minimale looptijd
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark font-medium">
-                          6 maanden
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          Eerste maand
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark font-medium">
-                          Diagnostische fase (= De Scan)
-                        </p>
-                      </div>
-                    </div>
+                    <ul className="space-y-3 text-text-dark-secondary">
+                      <li className="flex items-start gap-3">
+                        <Check
+                          size={18}
+                          className="mt-0.5 shrink-0 text-accent-teal-dark"
+                          strokeWidth={3}
+                        />
+                        <span>1-2 dagen per week (8-16 uur)</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check
+                          size={18}
+                          className="mt-0.5 shrink-0 text-accent-teal-dark"
+                          strokeWidth={3}
+                        />
+                        <span>Minimaal 6 maanden commitment</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check
+                          size={18}
+                          className="mt-0.5 shrink-0 text-accent-teal-dark"
+                          strokeWidth={3}
+                        />
+                        <span>
+                          Eerste maand = diagnose (geen aparte Scan-kosten)
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check
+                          size={18}
+                          className="mt-0.5 shrink-0 text-accent-teal-dark"
+                          strokeWidth={3}
+                        />
+                        <span>Maandelijks opzegbaar na minimumperiode</span>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -461,50 +464,61 @@ export default function FractionalPage() {
           </div>
         </section>
 
+        {/* ─── Resultaten ─── */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
+          <div className="container-wide">
+            <FadeIn>
+              <p className="section-label-dark">/ Resultaten</p>
+              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                Wat anderen bereikten
+              </h2>
+            </FadeIn>
+
+            <div className="mt-12 grid gap-6 md:grid-cols-3">
+              {caseStudies.map((study, i) => (
+                <FadeIn key={study.title} delay={i * 0.1}>
+                  <Link
+                    href={study.href}
+                    className="group block h-full rounded-2xl border border-border-light-mode bg-bg-light p-6 transition-all hover:border-accent-teal/40 hover:bg-accent-teal/5"
+                  >
+                    <h3 className="font-display text-lg font-bold text-text-dark">
+                      {study.title}
+                    </h3>
+                    <p className="mt-3 text-2xl font-bold text-accent-teal-dark">
+                      {study.result}
+                    </p>
+                    <div className="mt-4 flex items-center gap-2 text-sm text-accent-teal-dark group-hover:gap-3 transition-all">
+                      <span>Lees meer</span>
+                      <ArrowRight size={14} />
+                    </div>
+                  </Link>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ─── CTA Footer ─── */}
-        <section className="bg-bg-secondary py-24 sm:py-32 lg:py-40">
+        <section className="bg-bg-light py-24 sm:py-32 lg:py-40">
           <div className="container-wide">
             <FadeIn>
               <div className="mx-auto max-w-3xl text-center">
-                <p className="font-display text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
-                  accelr.
-                </p>
-                <h2 className="mt-6 font-display text-2xl font-bold sm:text-3xl">
-                  Klaar om je sales structureel aan te pakken?
+                <h2 className="font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                  Klaar voor commercieel leiderschap zonder fulltime
+                  prijskaartje?
                 </h2>
-                <p className="mt-4 text-text-secondary">
-                  Start met De Scan &mdash; dat is altijd de eerste stap, ook
-                  bij een Fractional traject.
+                <p className="mt-4 text-lg text-text-dark-secondary">
+                  Plan een gesprek om te bespreken of een Fractional Head of
+                  Sales past bij jouw situatie.
                 </p>
 
                 <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-                  <Link href="/de-scan" className="btn-primary">
-                    <span className="btn-label">Start met De Scan</span>
+                  <Link href="/contact" className="btn-primary">
+                    <span className="btn-label">Plan een gesprek</span>
                     <span className="btn-arrow">
                       <ArrowRight size={16} />
                     </span>
                   </Link>
-                  <Link href="/contact" className="btn-secondary">
-                    Plan een gesprek
-                  </Link>
-                </div>
-
-                <p className="mt-6 text-sm text-text-muted">
-                  &euro;3.500 vast &middot; Geld-terug garantie &middot;
-                  Resultaat in 2 weken
-                </p>
-
-                <div className="mt-10 flex flex-col items-center gap-3 text-sm text-text-muted">
-                  <a
-                    href="mailto:tim@accelr.nl"
-                    className="hover:text-accent-teal transition-colors"
-                  >
-                    tim@accelr.nl
-                  </a>
-                  <span className="flex items-center gap-1">
-                    <MapPin size={14} />
-                    Amsterdam, Nederland
-                  </span>
                 </div>
               </div>
             </FadeIn>

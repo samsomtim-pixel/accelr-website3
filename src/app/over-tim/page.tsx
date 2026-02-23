@@ -7,13 +7,15 @@ import FadeIn from "@/components/FadeIn";
 import { Search, Hammer, Cpu, Unlock, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Over Tim, Sales Growth Partner",
+  title: "Over Tim Samsom | Fractional Head of Sales | Accelr",
   description:
-    "8+ jaar B2B sales bij adtech en SaaS scale-ups. Van ShowHeroes naar Accelr. Hands-on, AI-native.",
+    "8+ jaar B2B sales in adtech en tech. Country Manager bij ShowHeroes, nu Fractional Head of Sales. Alumnus Nyenrode.",
   openGraph: {
-    title: "Over Tim, Sales Growth Partner | Accelr",
+    title: "Over Tim Samsom | Fractional Head of Sales | Accelr",
     description:
-      "8+ jaar B2B sales bij adtech en SaaS scale-ups. Van ShowHeroes naar Accelr. Hands-on, AI-native.",
+      "8+ jaar B2B sales in adtech en tech. Country Manager bij ShowHeroes, nu Fractional Head of Sales.",
+    images: ["/images/og-accelr.png"],
+    url: "https://accelr.nl/over-tim",
   },
 };
 
@@ -21,22 +23,22 @@ const approachCards = [
   {
     icon: Search,
     title: "Diagnose eerst",
-    text: "Ik bouw pas als ik weet wat je nodig hebt.",
+    text: "Ik bouw pas als ik weet wat je nodig hebt. Elke samenwerking begint met De Scan.",
   },
   {
     icon: Hammer,
     title: "Ik bouw zelf",
-    text: "Geen team van juniors. Van strategie tot implementatie.",
+    text: "Geen team van juniors. Van strategie tot CRM-inrichting tot outbound-machine, ik doe het zelf.",
   },
   {
     icon: Cpu,
     title: "AI als gereedschap",
-    text: "Clay, Make, n8n, ChatGPT, structureel geïntegreerd.",
+    text: "Clay, Make, n8n, gestructureerd ge\u00efntegreerd in je salesproces. Geen gimmick, geen hype.",
   },
   {
     icon: Unlock,
     title: "Geen afhankelijkheid",
-    text: "Het systeem is van jou, niet van mij.",
+    text: "Alles wat ik bouw is van jou. Geen lock-in, geen licentiekosten, volledige documentatie.",
   },
 ];
 
@@ -58,9 +60,10 @@ export default function OverTimPage() {
                   </h1>
 
                   <p className="mt-6 text-lg text-text-dark-secondary sm:text-xl">
-                    Ik ben Tim, founder van Accelr en Sales Growth Partner voor B2B
-                    tech-bedrijven in Nederland. Ik help founders van ad-hoc sales
-                    naar een werkend systeem.
+                    Ik combineer de strategische blik van een commercieel
+                    directeur met de hands-on aanpak van een
+                    implementatie-specialist. En ik zet AI in als gereedschap,
+                    niet als gimmick.
                   </p>
                 </div>
               </FadeIn>
@@ -100,8 +103,13 @@ export default function OverTimPage() {
                   <p>
                     Voordat ik Accelr startte, was ik Country Manager Nederland
                     bij ShowHeroes, een Europese adtech scale-up. Daar bouwde ik
-                    de Nederlandse operatie op: van eerste klant tot winstgevende
-                    markt.
+                    de Nederlandse operatie op van scratch: van eerste klant tot
+                    winstgevende markt met een structureel commercieel team.
+                  </p>
+
+                  <p>
+                    Daarvoor werkte ik 6+ jaar in B2B sales bij Streamads,
+                    Ematters en XS4ALL. Alumnus Nyenrode Business Universiteit.
                   </p>
 
                   <h3 className="font-display text-lg font-semibold text-text-dark">
@@ -111,7 +119,8 @@ export default function OverTimPage() {
                     {[
                       "Salesprocessen opzetten waar er geen waren",
                       "CRM-implementatie en pipeline management",
-                      "Deals sluiten van €10K tot €500K+ met enterprise klanten",
+                      "Deals sluiten van \u20ac10K tot \u20ac500K+ met enterprise klanten",
+                      "Teams aansturen en commerci\u00eble operaties opbouwen",
                       "De realiteit dat 80% van sales-succes zit in het systeem, niet het talent",
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm">
@@ -122,23 +131,13 @@ export default function OverTimPage() {
                   </ul>
 
                   <p>
-                    Daarvoor werkte ik 6+ jaar in B2B sales bij meerdere tech- en
-                    adtech scale-ups.
+                    Wat ik keer op keer zag bij tech-founders: briljante
+                    producten, maar geen salesmotor. De founder doet alle sales
+                    zelf, er is geen proces, geen CRM, geen strategie. De groei
+                    hangt af van toeval en netwerk.
                   </p>
 
-                  <p>
-                    Wat ik keer op keer zag bij tech-founders: briljante producten,
-                    maar geen salesmotor. De founder doet alle sales zelf, er is
-                    geen proces, geen CRM, geen strategie. De groei hangt af van
-                    toeval en netwerk.
-                  </p>
-
-                  <p>
-                    Daarom startte ik Accelr. Ik combineer de strategische blik
-                    van een commercieel directeur met de hands-on aanpak van een
-                    implementatie-specialist. En ik zet AI in als gereedschap,
-                    niet als gimmick.
-                  </p>
+                  <p>Daarom startte ik Accelr.</p>
                 </div>
               </div>
             </FadeIn>
@@ -186,10 +185,13 @@ export default function OverTimPage() {
                 </h2>
                 <ul className="mt-6 space-y-3">
                   {[
-                    "8+ jaar B2B sales bij adtech en SaaS scale-ups",
-                    "Country Manager bij ShowHeroes (Europese adtech scale-up)",
-                    "Hands-on: van strategie tot CRM-implementatie",
-                    "AI-tools als dagelijks werktuig",
+                    "8+ jaar B2B sales in adtech en tech",
+                    "Country Manager Nederland bij ShowHeroes (Europese adtech scale-up)",
+                    "Commerci\u00eble rollen bij Streamads, Ematters en XS4ALL",
+                    "Van eerste klant tot structureel commercieel team, meerdere keren",
+                    "Hands-on: van strategie tot CRM-implementatie tot teamcoaching",
+                    "AI-tools als dagelijks werktuig, niet als experiment",
+                    "Alumnus Nyenrode Business Universiteit",
                   ].map((item, i) => (
                     <FadeIn key={item} delay={i * 0.1}>
                       <li className="flex items-start gap-2 text-text-dark-secondary">
@@ -204,8 +206,70 @@ export default function OverTimPage() {
           </div>
         </section>
 
-        {/* ─── CTA ─── */}
+        {/* ─── Recente trajecten ─── */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
+          <div className="container-wide">
+            <FadeIn>
+              <div className="mx-auto max-w-3xl">
+                <p className="section-label-dark">/ Resultaten</p>
+                <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                  Recente trajecten
+                </h2>
+              </div>
+            </FadeIn>
+
+            <div className="mx-auto mt-12 max-w-3xl grid gap-6 sm:grid-cols-3">
+              {[
+                {
+                  name: "Aethogenix",
+                  subtitle: "Pharma \u00b7 Medical Cannabis",
+                  deed: "Positionering, ICP, GTM-plan, Fractional Head of Sales",
+                  link: "https://www.aethogenix.com/",
+                },
+                {
+                  name: "Anoniem",
+                  subtitle: "Media",
+                  deed: "Salesteam opgebouwd, salesproces opgezet, CRM ingericht",
+                  link: null,
+                },
+                {
+                  name: "STABL Agency",
+                  subtitle: "Growth Agency",
+                  deed: "GTM-strategie, CRM-inrichting",
+                  link: "https://stablagency.com/",
+                },
+              ].map((r, i) => (
+                <FadeIn key={r.name} delay={i * 0.1}>
+                  <div className="card-light h-full flex flex-col">
+                    <p className="font-display text-lg font-bold text-text-dark">
+                      {r.link ? (
+                        <a
+                          href={r.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-accent-teal-dark transition-colors"
+                        >
+                          {r.name}
+                        </a>
+                      ) : (
+                        r.name
+                      )}
+                    </p>
+                    <p className="mt-1 text-xs font-medium text-text-dark-muted">
+                      {r.subtitle}
+                    </p>
+                    <p className="mt-4 text-sm text-text-dark-secondary">
+                      {r.deed}
+                    </p>
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ─── CTA ─── */}
+        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <div className="mx-auto max-w-2xl text-center">
@@ -216,7 +280,7 @@ export default function OverTimPage() {
                   </span>
                 </Link>
                 <p className="mt-4 text-sm text-text-dark-muted">
-                  30 minuten · Vrijblijvend · Eerlijk advies
+                  30 minuten &middot; Vrijblijvend &middot; Eerlijk advies
                 </p>
               </div>
             </FadeIn>

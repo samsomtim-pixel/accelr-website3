@@ -4,7 +4,6 @@ import Image from "next/image";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
-import FrameworkArchitecture from "@/components/FrameworkArchitecture";
 import ExpertiseMapping from "@/components/ExpertiseMapping";
 import { ArrowRight, MapPin } from "lucide-react";
 import { PILLAR_COLORS } from "@/lib/constants";
@@ -33,20 +32,6 @@ const compoundData = [
   { pijler: "Samen", effect: "107% totale groei", bron: "Compound effect" },
 ];
 
-/* \u2500\u2500\u2500 10 dimensies \u2500\u2500\u2500 */
-const dimensies = [
-  { num: "/01", name: "Strategy", desc: "Heb je een helder ICP, positionering en go-to-market plan?" },
-  { num: "/02", name: "Process", desc: "Is je salesproces gedocumenteerd en herhaalbaar?" },
-  { num: "/03", name: "Pipeline", desc: "Heb je een voorspelbare instroom van gekwalificeerde leads?" },
-  { num: "/04", name: "CRM", desc: "Wordt je CRM actief gebruikt en levert het bruikbare data?" },
-  { num: "/05", name: "Outbound", desc: "Heb je een werkende outbound engine (email, LinkedIn, telefoon)?" },
-  { num: "/06", name: "Enablement", desc: "Heeft je team playbooks, scripts en training?" },
-  { num: "/07", name: "AI & Automation", desc: "Zijn AI-tools structureel ge\u00efntegreerd in je salesproces?" },
-  { num: "/08", name: "Team", desc: "Heb je de juiste mensen met de juiste rollen en doelen?" },
-  { num: "/09", name: "Data", desc: "Meet je de juiste KPI\u2019s en stuur je op data?" },
-  { num: "/10", name: "Leadership", desc: "Is er dedicated sales leadership en coaching?" },
-];
-
 export default function MethodePage() {
   return (
     <>
@@ -65,7 +50,7 @@ export default function MethodePage() {
 
                 <p className="mt-6 max-w-2xl text-lg text-text-dark-secondary leading-relaxed">
                   Drie pilaren, &eacute;&eacute;n multiplier. E&eacute;n systeem dat je
-                  salesmotor laat draaien &mdash; ook als jij er niet bent.
+                  salesmotor laat draaien, ook als jij er niet bent.
                 </p>
 
                 <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
@@ -103,12 +88,12 @@ export default function MethodePage() {
                     Elk B2B-bedrijf dat voorbij founder-led sales wil groeien
                     heeft een commercieel systeem nodig. Geen standaardadvies.
                     Geen rapport dat in een la belandt. Een werkend systeem
-                    gebaseerd op drie pilaren die elkaar versterken &mdash;
+                    gebaseerd op drie pilaren die elkaar versterken,
                     aangedreven door AI.
                   </p>
                   <p className="mt-4 text-lg text-text-dark-secondary leading-relaxed">
                     De Scan diagnosticeert waar het lekt. De formule bepaalt wat
-                    we bouwen.
+                    ik bouw.
                   </p>
                 </div>
               </FadeIn>
@@ -127,7 +112,7 @@ export default function MethodePage() {
               </FadeIn>
             </div>
 
-            {/* De formule — V6 */}
+            {/* De formule \u2014 V6 */}
             <FadeIn delay={0.3}>
               <div className="mt-16 rounded-2xl border border-border-light-mode bg-white p-8 sm:p-10">
                 <p className="font-mono text-xs font-medium uppercase tracking-[0.2em] text-text-dark-muted">
@@ -176,7 +161,7 @@ export default function MethodePage() {
 
                 <p className="mt-6 text-center text-text-dark-secondary">
                   Strategie is de input die alles aandrijft. Proces en People
-                  zijn de kernpilaren &mdash; ze versterken elkaar multiplicatief.
+                  zijn de kernpilaren, ze versterken elkaar multiplicatief.
                   AI is de multiplier die alles versnelt. Verbeter elk element
                   met 20% en je totale output groeit met{" "}
                   <span className="font-semibold text-text-dark">107%</span>.
@@ -184,7 +169,7 @@ export default function MethodePage() {
               </div>
             </FadeIn>
 
-            {/* Bron-tabel — V6 */}
+            {/* Bron-tabel \u2014 V6 */}
             <FadeIn delay={0.4}>
               <div className="mx-auto mt-8 max-w-3xl overflow-x-auto">
                 <table className="w-full text-left text-sm">
@@ -223,13 +208,10 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* \u2550\u2550\u2550 SECTIE 3 \u2014 FRAMEWORK ARCHITECTUUR (NIEUW) \u2550\u2550\u2550 */}
-        <FrameworkArchitecture />
-
-        {/* \u2550\u2550\u2550 SECTIE 4 \u2014 EXPERTISE MAPPING (NIEUW) \u2550\u2550\u2550 */}
+        {/* \u2550\u2550\u2550 SECTIE 3 \u2014 EXPERTISE MAPPING \u2550\u2550\u2550 */}
         <ExpertiseMapping />
 
-        {/* \u2550\u2550\u2550 SECTIE 4b \u2014 HOE HET FRAMEWORK WORDT TOEGEPAST (V7) \u2550\u2550\u2550 */}
+        {/* \u2550\u2550\u2550 SECTIE 4 \u2014 HOE HET FRAMEWORK WORDT TOEGEPAST (V7) \u2550\u2550\u2550 */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -385,63 +367,7 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* \u2550\u2550\u2550 SECTIE 7 \u2014 WAT VERANDERT ER \u2550\u2550\u2550 */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <h3 className="font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                Wat verandert er
-              </h3>
-            </FadeIn>
-
-            <div className="mt-12 grid items-start gap-12 lg:grid-cols-2">
-              <FadeIn delay={0.1} direction="left">
-                <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden">
-                  <Image
-                    src="/images/office-planning.jpg"
-                    alt="Team bespreekt plannen op kantoor"
-                    width={960}
-                    height={720}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              </FadeIn>
-
-              <FadeIn delay={0.2}>
-                <div>
-                  <p className="text-lg text-text-dark-secondary leading-relaxed">
-                    De meeste B2B-bedrijven doen aan sales zoals ze altijd
-                    hebben gedaan: de founder belt, mailt en networkt. Het
-                    werkt, tot het niet meer schaalt. Je mist deals omdat er
-                    geen opvolging is. Je hebt tools maar niemand die ze
-                    werkend maakt. Je wilt je eerste salesperson aannemen maar
-                    je hebt geen proces om te overdragen.
-                  </p>
-                  <p className="mt-6 text-lg text-text-dark-secondary leading-relaxed">
-                    De Accelr Methode vervangt ad-hoc sales door een systeem.
-                    Niet door te adviseren wat je zou moeten doen, maar door
-                    het daadwerkelijk te bouwen. CRM&apos;s worden ingericht,
-                    outbound engines draaien, AI-tools zijn ge&iuml;ntegreerd,
-                    processen zijn gedocumenteerd. Het resultaat: een
-                    salesmotor die draait, ook als jij er niet bent.
-                  </p>
-
-                  <div className="mt-8">
-                    <Link
-                      href="/de-scan"
-                      className="inline-flex items-center gap-2 rounded-full bg-accent-teal px-7 py-4 text-sm font-semibold text-bg-primary transition-all duration-300 hover:bg-accent-teal-hover hover:shadow-lg hover:shadow-accent-teal/25 hover:-translate-y-0.5"
-                    >
-                      Start met De Scan
-                      <ArrowRight size={16} />
-                    </Link>
-                  </div>
-                </div>
-              </FadeIn>
-            </div>
-          </div>
-        </section>
-
-        {/* \u2550\u2550\u2550 SECTIE 8 \u2014 HOE HET WERKT (4 stappen) \u2550\u2550\u2550 */}
+        {/* \u2550\u2550\u2550 SECTIE 7 \u2014 HOE HET WERKT (4 stappen) \u2550\u2550\u2550 */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -462,7 +388,7 @@ export default function MethodePage() {
                       Week 1-2: Scannen
                     </h4>
                     <p className="mt-4 text-text-dark-secondary leading-relaxed">
-                      We beginnen met een kickoff van 60 minuten om doelen,
+                      Ik begin met een kickoff van 60 minuten om doelen,
                       systemen en beperkingen in kaart te brengen. Daarna
                       volgen diepte-interviews met founder, sales en marketing.
                       Ik doorlicht je CRM (of het gebrek daaraan), analyseer je
@@ -638,125 +564,7 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* \u2550\u2550\u2550 SECTIE 9 \u2014 VAN DIAGNOSE NAAR SYSTEEM \u2550\u2550\u2550 */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <div className="mx-auto max-w-3xl">
-                <h3 className="font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                  Van diagnose naar systeem
-                </h3>
-                <p className="mt-6 text-lg text-text-dark-secondary leading-relaxed">
-                  De meeste klanten gaan direct van Scan naar Bouw. Elk
-                  onderdeel wordt tot in detail uitgewerkt, welke tools, welke
-                  data, welke processen, voordat er iets gebouwd wordt.
-                </p>
-                <p className="mt-4 text-lg text-text-dark-secondary leading-relaxed">
-                  Ik ontwerp en implementeer de systemen die in het plan staan:
-                  CRM inrichting, outbound engines, AI-automations, playbooks.
-                  De oplevering is snel, zorgvuldig en volledig gedocumenteerd.
-                </p>
-                <p className="mt-4 text-lg text-text-dark-secondary leading-relaxed">
-                  Als je ervoor kiest om zelf te bouwen, levert De Scan alle
-                  specificaties en prioriteiten waarmee je eigen team met
-                  vertrouwen kan uitvoeren.
-                </p>
-
-                <div className="mt-8">
-                  <Link
-                    href="/de-scan"
-                    className="inline-flex items-center gap-2 rounded-full bg-accent-teal px-7 py-4 text-sm font-semibold text-bg-primary transition-all duration-300 hover:bg-accent-teal-hover hover:shadow-lg hover:shadow-accent-teal/25 hover:-translate-y-0.5"
-                  >
-                    Start met De Scan
-                    <ArrowRight size={16} />
-                  </Link>
-                </div>
-              </div>
-            </FadeIn>
-          </div>
-        </section>
-
-        {/* \u2550\u2550\u2550 SECTIE 10 \u2014 DE 10 DIMENSIES \u2550\u2550\u2550 */}
-        <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <div className="grid items-start gap-12 lg:grid-cols-2">
-              <div>
-                <FadeIn>
-                  <h3 className="font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                    Wat ik meet
-                  </h3>
-                  <p className="mt-6 text-text-dark-secondary leading-relaxed">
-                    Ik maak de onzichtbare gaten in je salesoperatie zichtbaar.
-                    Elke dimensie wordt gescoord op een schaal van 1-10, met
-                    concrete verbeterpunten en geschatte euro-waarde per kans.
-                  </p>
-                </FadeIn>
-
-                <FadeIn delay={0.1}>
-                  <p className="mt-8 font-mono text-xs font-medium uppercase tracking-[0.2em] text-text-dark-muted">
-                    De 10 dimensies
-                  </p>
-                </FadeIn>
-
-                <div className="mt-4 space-y-0">
-                  {dimensies.map((d, i) => (
-                    <FadeIn key={d.num} delay={0.1 + i * 0.04}>
-                      <div
-                        className={`flex items-start gap-4 py-4 ${
-                          i < dimensies.length - 1
-                            ? "border-b border-border-light-mode/60"
-                            : ""
-                        }`}
-                      >
-                        <span className="shrink-0 font-mono text-xs font-medium text-text-dark-muted">
-                          {d.num}
-                        </span>
-                        <div>
-                          <p className="font-display font-semibold text-text-dark">
-                            {d.name}
-                          </p>
-                          <p className="text-sm text-text-dark-secondary">
-                            {d.desc}
-                          </p>
-                        </div>
-                      </div>
-                    </FadeIn>
-                  ))}
-                </div>
-
-                <FadeIn delay={0.6}>
-                  <p className="mt-6 text-sm text-text-dark-secondary">
-                    Elke score wordt onderbouwd met concrete observaties, geen
-                    vage indrukken, maar meetbare feiten.
-                  </p>
-                  <div className="mt-6">
-                    <Link
-                      href="/score"
-                      className="inline-flex items-center gap-2 rounded-full bg-accent-teal px-7 py-4 text-sm font-semibold text-bg-primary transition-all duration-300 hover:bg-accent-teal-hover hover:shadow-lg hover:shadow-accent-teal/25 hover:-translate-y-0.5"
-                    >
-                      Check je Sales Maturity Score
-                      <ArrowRight size={16} />
-                    </Link>
-                  </div>
-                </FadeIn>
-              </div>
-
-              <FadeIn delay={0.2} direction="right">
-                <div className="aspect-square w-full rounded-2xl overflow-hidden sticky top-24">
-                  <Image
-                    src="/images/data-dashboard.jpg"
-                    alt="Data dashboard met sales metrics en KPIs"
-                    width={960}
-                    height={960}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              </FadeIn>
-            </div>
-          </div>
-        </section>
-
-        {/* \u2550\u2550\u2550 SECTIE 11 \u2014 CTA FOOTER \u2550\u2550\u2550 */}
+        {/* \u2550\u2550\u2550 SECTIE 8 \u2014 CTA FOOTER \u2550\u2550\u2550 */}
         <section className="bg-bg-secondary py-24 sm:py-32 lg:py-40">
           <div className="container-wide">
             <FadeIn>

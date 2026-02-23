@@ -43,10 +43,10 @@ export default function Footer() {
             <p className="section-label mb-4">/ Expertise</p>
             <ul className="space-y-3">
               {[
-                { href: "/de-scan", label: "De Scan" },
-                { href: "/methode", label: "CRM & Infrastructuur" },
-                { href: "/methode", label: "Outbound & Leads" },
-                { href: "/methode", label: "AI & Automation" },
+                { href: "/expertise/de-scan", label: "De Scan" },
+                { href: "/expertise/crm-implementatie", label: "CRM & Salesproces" },
+                { href: "/expertise/outbound-leadgeneratie", label: "Outbound & Leadgen" },
+                { href: "/expertise/ai-sales-automation", label: "AI & Automation" },
                 { href: "/score", label: "Sales Maturity Score" },
               ].map((item) => (
                 <li key={item.href + item.label}>
@@ -81,7 +81,7 @@ export default function Footer() {
                   Plan een gesprek
                 </Link>
               </li>
-              <li className="text-text-muted">Amsterdam, Nederland</li>
+              <li className="text-text-muted">Haarlem, Nederland</li>
             </ul>
           </div>
 
