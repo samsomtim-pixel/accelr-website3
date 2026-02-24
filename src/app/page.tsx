@@ -27,11 +27,11 @@ import {
 const P = PILLAR_COLORS;
 
 export const metadata: Metadata = {
-  title: "Fractional Head of Sales | Van founder-led naar schaalbare sales | Accelr",
+  title: "Fractional Head of Sales voor B2B founders | Accelr",
   description:
     "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem. Diagnose, implementatie en leadership.",
   openGraph: {
-    title: "Fractional Head of Sales | Van founder-led naar schaalbare sales | Accelr",
+    title: "Fractional Head of Sales voor B2B founders | Accelr",
     description:
       "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem.",
     images: ["/images/og-accelr.png"],
@@ -165,25 +165,22 @@ const resultaten = [
     name: "Aethogenix",
     subtitle: "Pharma \u00b7 Medical Cannabis",
     link: "https://www.aethogenix.com/",
-    deed: "Positionering, ICP, GTM-plan, Fractional Head of Sales",
-    quote: "[quote van Matthieu, wordt later ingevuld]",
-    author: "Matthieu, Aethogenix",
+    deed: "Positionering, ICP & GTM-plan ontwikkeld. Fractional Head of Sales ingezet om het commerci\u00eble fundament neer te zetten.",
+    ref: null,
   },
   {
     name: "Anoniem",
     subtitle: "Media",
     link: null,
-    deed: "Salesteam opgebouwd, salesproces opgezet, CRM ingericht",
-    quote: null,
-    author: null,
+    deed: "Go-to-market strategie neergezet, twee sales hires begeleid en het volledige salesproces gestroomlijnd.",
+    ref: null,
   },
   {
     name: "STABL Agency",
     subtitle: "Growth Agency",
     link: "https://stablagency.com/",
-    deed: "GTM-strategie, CRM-inrichting",
-    quote: null,
-    author: null,
+    deed: "AI-gedreven outbound systeem ge\u00efmplementeerd voor geautomatiseerde leadgeneratie en pipeline opbouw.",
+    ref: "Ted, STABL Agency",
   },
 ];
 
@@ -304,19 +301,19 @@ const nietVoorJou = [
 const faqs = [
   {
     q: "Wat is een Fractional Head of Sales?",
-    a: "Ervaren commercieel leider, 1-2 dagen/week. Strategisch leiderschap + hands-on execution zonder \u20ac150K+/jaar. In Amerika gangbaar, in Nederland begint het net.",
+    a: "Een Fractional Head of Sales is een ervaren commercieel leider die 1-2 dagen per week meebouwt aan je salesorganisatie. Je krijgt strategisch leiderschap en hands-on execution zonder de kosten van een fulltime hire (\u20ac150K+/jaar). In Amerika is dit model al gangbaar, in Nederland begint het net.",
   },
   {
     q: "Waarom beginnen met De Scan?",
-    a: "80% denkt dat het probleem \"meer leads\" is. Na De Scan: bijna altijd een proces-, CRM- of kwalificatieprobleem. Voorkomt geld uitgeven aan de verkeerde oplossing. Niet eens met de bevindingen? Geld terug.",
+    a: "Van de founders die ik spreek denkt 80% dat het probleem \"meer leads\" is. Na De Scan blijkt het bijna altijd een proces-, CRM- of kwalificatieprobleem te zijn. De Scan voorkomt dat je geld uitgeeft aan de verkeerde oplossing. Ben je het niet eens met de bevindingen? Dan krijg je je geld terug.",
   },
   {
     q: "Hoe verschilt Fractional van Interim?",
-    a: "Interim = gat vullen, draaiende houden. Fractional = versnelling, bouwen, team ontwikkelen. 1-2 dagen/week, 60-70% goedkoper. Doel: fundament bouwen zodat je kunt schalen.",
+    a: "Een interim manager vult een gat en houdt de operatie draaiende. Een Fractional Head of Sales is gericht op versnelling: bouwen, team ontwikkelen en structuur neerzetten. Het kost 60-70% minder dan een fulltime hire, en het doel is een fundament bouwen zodat je kunt schalen.",
   },
   {
     q: "Hoe snel resultaten?",
-    a: "Scan: 2-3 weken \u2192 helder beeld. Bouw: 4-6 weken eerste onderdelen. Fractional: CRM+proces na 90 dagen, pipeline-impact na 3-4 maanden, structurele groei 6+ maanden. Eerlijk: duurzaam kost tijd.",
+    a: "De Scan levert binnen 2-3 weken een helder beeld op. Bij een Bouw-project zijn de eerste onderdelen binnen 4-6 weken operationeel. Bij een Fractional traject heb je na 90 dagen een ingericht CRM en gedocumenteerd proces, na 3-4 maanden zie je pipeline-impact, en structurele groei volgt na 6+ maanden. Eerlijk: duurzame resultaten kosten tijd.",
   },
 ];
 
@@ -406,6 +403,10 @@ export default function HomePage() {
                 <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl lg:text-5xl">
                   Maak ruimte voor groei.
                 </h2>
+                <p className="mt-4 text-text-dark-secondary">
+                  Als je salesgroei afhangt van jou als founder, is dat een structureel probleem.
+                  Herken je deze situaties?
+                </p>
               </div>
             </FadeIn>
 
@@ -466,9 +467,9 @@ export default function HomePage() {
                       )}
                     </div>
 
-                    <h3 className="mt-4 font-display text-lg font-semibold text-text-dark">
+                    <p className="mt-4 font-display text-lg font-semibold text-text-dark">
                       {card.title}
-                    </h3>
+                    </p>
                     <p className="mt-1 text-xs font-medium text-text-dark-muted">
                       {card.subtitle}
                     </p>
@@ -568,7 +569,7 @@ export default function HomePage() {
             <FadeIn>
               <p className="section-label-dark">/ Bouwblokken</p>
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                De bouwblokken
+                Wat ik bouw
               </h2>
               <p className="mt-4 max-w-2xl text-text-dark-secondary">
                 Dit zijn de onderdelen die ik inzet, op projectbasis of
@@ -593,9 +594,9 @@ export default function HomePage() {
                           {card.badge}
                         </span>
                       </div>
-                      <h3 className="mt-4 font-display text-lg font-semibold text-text-dark">
+                      <p className="mt-4 font-display text-lg font-semibold text-text-dark">
                         {card.title}
-                      </h3>
+                      </p>
                       <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
                         {card.desc}
                       </p>
@@ -624,10 +625,10 @@ export default function HomePage() {
             <FadeIn>
               <p className="section-label-dark">/ Resultaten</p>
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                Resultaten
+                Recente trajecten
               </h2>
               <p className="mt-4 max-w-2xl text-text-dark-secondary">
-                Een greep uit recente trajecten.
+                Een greep uit recente samenwerkingen met B2B tech-bedrijven.
               </p>
             </FadeIn>
 
@@ -646,15 +647,10 @@ export default function HomePage() {
                     </p>
                     <p className="mt-1 text-xs font-medium text-text-dark-muted">{r.subtitle}</p>
 
-                    <p className="mt-4 text-sm text-text-dark-secondary">{r.deed}</p>
+                    <p className="mt-4 flex-1 text-sm text-text-dark-secondary">{r.deed}</p>
 
-                    {r.quote && (
-                      <blockquote className="mt-4 border-l-2 border-accent-teal/30 pl-3 flex-1">
-                        <p className="text-xs italic text-text-dark-secondary">&ldquo;{r.quote}&rdquo;</p>
-                        {r.author && (
-                          <p className="mt-1 text-xs text-text-dark-muted">, {r.author}</p>
-                        )}
-                      </blockquote>
+                    {r.ref && (
+                      <p className="mt-4 text-xs font-medium text-text-dark-muted">{r.ref}</p>
                     )}
                   </div>
                 </FadeIn>
@@ -766,7 +762,7 @@ export default function HomePage() {
             <FadeIn>
               <p className="section-label-dark">/ Investering</p>
               <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                De investering
+                Wat kost het?
               </h2>
             </FadeIn>
 
@@ -774,7 +770,7 @@ export default function HomePage() {
               {investmentModels.map((model, i) => (
                 <FadeIn key={model.title} delay={i * 0.1}>
                   <div className={`card-light h-full flex flex-col ${model.highlight ? "ring-2 ring-accent-teal/40" : ""}`}>
-                    <h3 className="font-display text-lg font-bold text-text-dark">{model.title}</h3>
+                    <p className="font-display text-lg font-bold text-text-dark">{model.title}</p>
 
                     <p className="mt-4 text-2xl font-bold text-accent-teal-dark">
                       {model.price}
@@ -849,9 +845,9 @@ export default function HomePage() {
                     <p className="font-mono text-xs font-medium uppercase tracking-widest text-text-dark-muted">
                       Founder &amp; Fractional Head of Sales
                     </p>
-                    <h3 className="mt-3 font-display text-2xl font-bold text-text-dark">
+                    <p className="mt-3 font-display text-2xl font-bold text-text-dark">
                       Tim Samsom
-                    </h3>
+                    </p>
                     <p className="mt-4 text-text-dark-secondary leading-relaxed">
                       8+ jaar B2B sales in adtech en tech. Als Country Manager
                       Nederland bij ShowHeroes bouwde ik de Nederlandse operatie
@@ -902,7 +898,7 @@ export default function HomePage() {
             <div className="mt-12 grid gap-6 md:grid-cols-2">
               <FadeIn delay={0.1}>
                 <div className="h-full rounded-2xl border border-accent-teal/20 bg-accent-teal/5 p-6 sm:p-8">
-                  <h3 className="font-display text-lg font-bold text-text-dark">Wel voor jou</h3>
+                  <p className="font-display text-lg font-bold text-text-dark">Wel voor jou</p>
                   <ul className="mt-6 space-y-3">
                     {voorJou.map((item) => (
                       <li key={item} className="flex items-start gap-3 text-sm text-text-dark-secondary">
@@ -916,7 +912,7 @@ export default function HomePage() {
 
               <FadeIn delay={0.2}>
                 <div className="h-full rounded-2xl border border-red-200 bg-red-50 p-6 sm:p-8">
-                  <h3 className="font-display text-lg font-bold text-text-dark">Niet voor jou</h3>
+                  <p className="font-display text-lg font-bold text-text-dark">Niet voor jou</p>
                   <ul className="mt-6 space-y-3">
                     {nietVoorJou.map((item) => (
                       <li key={item} className="flex items-start gap-3 text-sm text-text-dark-secondary">
@@ -984,7 +980,7 @@ export default function HomePage() {
 
                 <div className="mt-10 flex flex-col items-center gap-3 text-sm text-text-muted">
                   <a href="mailto:tim@accelr.nl" className="hover:text-accent-teal transition-colors">tim@accelr.nl</a>
-                  <span className="flex items-center gap-1"><MapPin size={14} />Amsterdam, Nederland</span>
+                  <span className="flex items-center gap-1"><MapPin size={14} />Haarlem, Nederland</span>
                 </div>
               </div>
             </FadeIn>

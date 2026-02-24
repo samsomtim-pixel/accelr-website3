@@ -161,9 +161,9 @@ export default function OverTimPage() {
                 <FadeIn key={card.title} delay={i * 0.1}>
                   <div className="card-light h-full">
                     <card.icon size={24} className="text-accent-teal" />
-                    <h3 className="mt-4 font-display text-lg font-semibold text-text-dark">
+                    <p className="mt-4 font-display text-lg font-semibold text-text-dark">
                       {card.title}
-                    </h3>
+                    </p>
                     <p className="mt-2 text-sm text-text-dark-secondary">
                       {card.text}
                     </p>
@@ -223,20 +223,23 @@ export default function OverTimPage() {
                 {
                   name: "Aethogenix",
                   subtitle: "Pharma \u00b7 Medical Cannabis",
-                  deed: "Positionering, ICP, GTM-plan, Fractional Head of Sales",
+                  deed: "Positionering, ICP & GTM-plan ontwikkeld. Fractional Head of Sales ingezet om het commerci\u00eble fundament neer te zetten.",
                   link: "https://www.aethogenix.com/",
+                  ref: null,
                 },
                 {
                   name: "Anoniem",
                   subtitle: "Media",
-                  deed: "Salesteam opgebouwd, salesproces opgezet, CRM ingericht",
+                  deed: "Go-to-market strategie neergezet, twee sales hires begeleid en het volledige salesproces gestroomlijnd.",
                   link: null,
+                  ref: null,
                 },
                 {
                   name: "STABL Agency",
                   subtitle: "Growth Agency",
-                  deed: "GTM-strategie, CRM-inrichting",
+                  deed: "AI-gedreven outbound systeem ge\u00efmplementeerd voor geautomatiseerde leadgeneratie en pipeline opbouw.",
                   link: "https://stablagency.com/",
+                  ref: "Ted, STABL Agency",
                 },
               ].map((r, i) => (
                 <FadeIn key={r.name} delay={i * 0.1}>
@@ -258,9 +261,12 @@ export default function OverTimPage() {
                     <p className="mt-1 text-xs font-medium text-text-dark-muted">
                       {r.subtitle}
                     </p>
-                    <p className="mt-4 text-sm text-text-dark-secondary">
+                    <p className="mt-4 flex-1 text-sm text-text-dark-secondary">
                       {r.deed}
                     </p>
+                    {r.ref && (
+                      <p className="mt-4 text-xs font-medium text-text-dark-muted">{r.ref}</p>
+                    )}
                   </div>
                 </FadeIn>
               ))}
