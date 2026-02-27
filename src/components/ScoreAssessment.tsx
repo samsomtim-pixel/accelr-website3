@@ -1,81 +1,9 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-
-const dimensions = [
-  {
-    id: "strategy",
-    name: "Strategy",
-    question: "Hoe scherp is je ICP en positionering?",
-    low: "Je ICP is vaag of te breed. Je probeert iedereen te verkopen.",
-    high: "Scherpe ICP, duidelijke positionering, bewezen product-market fit.",
-  },
-  {
-    id: "process",
-    name: "Process",
-    question: "Heb je een gedocumenteerd salesproces?",
-    low: "Geen vast proces. Elke deal verloopt anders.",
-    high: "Gedocumenteerd proces met duidelijke stages en criteria.",
-  },
-  {
-    id: "pipeline",
-    name: "Pipeline",
-    question: "Hoe voorspelbaar is je pipeline?",
-    low: "De ene maand vier deals, de volgende nul.",
-    high: "Voorspelbare pipeline met consistente flow en accurate forecast.",
-  },
-  {
-    id: "crm",
-    name: "CRM",
-    question: "Hoe goed wordt je CRM gebruikt?",
-    low: "Geen CRM, of een CRM dat niemand gebruikt.",
-    high: "CRM volledig geadopteerd, schone data, bruikbare rapportage.",
-  },
-  {
-    id: "outbound",
-    name: "Outbound",
-    question: "Doe je actief en systematisch outbound?",
-    low: "Alleen inbound of netwerk. Geen systematische acquisitie.",
-    high: "Multi-channel outbound met meetbare resultaten.",
-  },
-  {
-    id: "enablement",
-    name: "Enablement",
-    question: "Heeft je team playbooks en training?",
-    low: "Geen playbooks, scripts of training.",
-    high: "Volledige playbooks, getraind team, snelle onboarding.",
-  },
-  {
-    id: "ai",
-    name: "AI & Automation",
-    question: "Hoe ver ben je met AI en automation?",
-    low: "Geen AI-tools, of tools gekocht maar niet werkend.",
-    high: "AI structureel geïntegreerd in het hele salesproces.",
-  },
-  {
-    id: "team",
-    name: "Team",
-    question: "Heb je de juiste mensen en structuur?",
-    low: "Founder doet alles, of team zonder duidelijke rollen.",
-    high: "Gestructureerd team met heldere rollen en verantwoordelijkheden.",
-  },
-  {
-    id: "data",
-    name: "Data",
-    question: "Track je de juiste KPI's?",
-    low: "Geen KPI-tracking. Beslissingen op gevoel.",
-    high: "Volledige KPI-tracking, accurate forecasts, data-gedreven beslissingen.",
-  },
-  {
-    id: "leadership",
-    name: "Leadership",
-    question: "Wie stuurt de sales aan?",
-    low: "Geen sales management. Geen accountability.",
-    high: "Actief sales management met reviews, coaching en accountability.",
-  },
-];
 
 function getScoreColor(score: number) {
   if (score <= 3) return "text-red-500";
@@ -89,14 +17,17 @@ function getScoreBg(score: number) {
   return "bg-accent-teal-dark";
 }
 
-function getScoreLabel(avg: number) {
-  if (avg <= 3) return { label: "Urgent", color: "text-red-500", desc: "Je salesmotor heeft fundamentele hiaten. Hier laat je significant geld liggen." };
-  if (avg <= 5) return { label: "Opbouwfase", color: "text-orange-500", desc: "Er zijn basiselementen maar het systeem mist structuur en consistentie." };
-  if (avg <= 7) return { label: "Groeipotentieel", color: "text-yellow-500", desc: "Goede basis, maar er is ruimte voor optimalisatie en opschaling." };
-  return { label: "Optimalisatie", color: "text-accent-teal-dark", desc: "Sterke basis. Focus op fine-tuning en het maximaliseren van efficiency." };
-}
-
 export default function ScoreAssessment() {
+  const t = useTranslations("score");
+
+  const dimensions = t.raw("dimensions") as Array<{
+    id: string;
+    name: string;
+    question: string;
+    low: string;
+    high: string;
+  }>;
+
   const [scores, setScores] = useState<Record<string, number>>(
     Object.fromEntries(dimensions.map((d) => [d.id, 5]))
   );
@@ -111,7 +42,33 @@ export default function ScoreAssessment() {
     return [...dimensions]
       .sort((a, b) => scores[a.id] - scores[b.id])
       .slice(0, 3);
-  }, [scores]);
+  }, [scores, dimensions]);
+
+  function getScoreLabel(avg: number) {
+    if (avg <= 3)
+      return {
+        label: t("results.levels.urgent.label"),
+        color: "text-red-500",
+        desc: t("results.levels.urgent.desc"),
+      };
+    if (avg <= 5)
+      return {
+        label: t("results.levels.opbouwfase.label"),
+        color: "text-orange-500",
+        desc: t("results.levels.opbouwfase.desc"),
+      };
+    if (avg <= 7)
+      return {
+        label: t("results.levels.groeipotentieel.label"),
+        color: "text-yellow-500",
+        desc: t("results.levels.groeipotentieel.desc"),
+      };
+    return {
+      label: t("results.levels.optimalisatie.label"),
+      color: "text-accent-teal-dark",
+      desc: t("results.levels.optimalisatie.desc"),
+    };
+  }
 
   const scoreInfo = getScoreLabel(avg);
 
@@ -122,9 +79,9 @@ export default function ScoreAssessment() {
         <section className="bg-white py-24 sm:py-28 lg:py-32">
           <div className="container-wide">
             <div className="mx-auto max-w-3xl">
-              <p className="section-label-dark">/ Jouw resultaat</p>
+              <p className="section-label-dark">{t("results.label")}</p>
               <h1 className="mt-4 font-display text-4xl font-bold text-text-dark sm:text-5xl">
-                Sales Maturity Score
+                {t("results.title")}
               </h1>
 
               {/* Score overview */}
@@ -135,7 +92,9 @@ export default function ScoreAssessment() {
                   </span>
                   <span className="text-2xl text-text-dark-muted"> / 10</span>
                 </p>
-                <p className={`mt-2 text-xl font-semibold ${scoreInfo.color}`}>
+                <p
+                  className={`mt-2 text-xl font-semibold ${scoreInfo.color}`}
+                >
                   {scoreInfo.label}
                 </p>
                 <p className="mt-4 text-text-dark-secondary">
@@ -145,7 +104,9 @@ export default function ScoreAssessment() {
 
               {/* All scores bar chart */}
               <div className="mt-12 space-y-4">
-                <h2 className="font-display text-xl font-bold text-text-dark">Score per dimensie</h2>
+                <h2 className="font-display text-xl font-bold text-text-dark">
+                  {t("results.scorePerDimensie")}
+                </h2>
                 {dimensions.map((d) => (
                   <div key={d.id} className="flex items-center gap-4">
                     <span className="w-32 shrink-0 text-sm font-medium text-text-dark-secondary">
@@ -159,7 +120,9 @@ export default function ScoreAssessment() {
                         transition={{ duration: 0.6, ease: "easeOut" }}
                       />
                     </div>
-                    <span className={`w-8 text-right text-sm font-bold ${getScoreColor(scores[d.id])}`}>
+                    <span
+                      className={`w-8 text-right text-sm font-bold ${getScoreColor(scores[d.id])}`}
+                    >
                       {scores[d.id]}
                     </span>
                   </div>
@@ -169,7 +132,7 @@ export default function ScoreAssessment() {
               {/* Top 3 weakest */}
               <div className="mt-12">
                 <h2 className="font-display text-xl font-bold text-text-dark">
-                  Top 3 aandachtsgebieden
+                  {t("results.top3")}
                 </h2>
                 <div className="mt-6 grid gap-4">
                   {top3Weakest.map((d, i) => (
@@ -181,11 +144,15 @@ export default function ScoreAssessment() {
                         <div>
                           <p className="font-display font-semibold text-text-dark">
                             {d.name}{" "}
-                            <span className={`text-sm ${getScoreColor(scores[d.id])}`}>
+                            <span
+                              className={`text-sm ${getScoreColor(scores[d.id])}`}
+                            >
                               ({scores[d.id]}/10)
                             </span>
                           </p>
-                          <p className="text-sm text-text-dark-secondary">{d.low}</p>
+                          <p className="text-sm text-text-dark-secondary">
+                            {d.low}
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -195,37 +162,41 @@ export default function ScoreAssessment() {
 
               {/* Score legend */}
               <div className="mt-12">
-                <h2 className="font-display text-xl font-bold text-text-dark">Score-legenda</h2>
+                <h2 className="font-display text-xl font-bold text-text-dark">
+                  {t("results.scoreLegenda")}
+                </h2>
                 <div className="mt-6 grid gap-4 sm:grid-cols-3">
                   <div className="card-light text-center">
                     <p className="font-display text-3xl font-bold text-red-500">
-                      &lt;4
+                      {t("results.legendItems.urgent.range")}
                     </p>
-                    <p className="mt-2 font-semibold text-red-500">Urgent</p>
+                    <p className="mt-2 font-semibold text-red-500">
+                      {t("results.legendItems.urgent.label")}
+                    </p>
                     <p className="mt-1 text-sm text-text-dark-secondary">
-                      Hier laat je geld liggen
+                      {t("results.legendItems.urgent.desc")}
                     </p>
                   </div>
                   <div className="card-light text-center">
                     <p className="font-display text-3xl font-bold text-yellow-500">
-                      4-6
+                      {t("results.legendItems.groei.range")}
                     </p>
                     <p className="mt-2 font-semibold text-yellow-500">
-                      Groeipotentieel
+                      {t("results.legendItems.groei.label")}
                     </p>
                     <p className="mt-1 text-sm text-text-dark-secondary">
-                      Ruimte voor verbetering
+                      {t("results.legendItems.groei.desc")}
                     </p>
                   </div>
                   <div className="card-light text-center">
                     <p className="font-display text-3xl font-bold text-accent-teal-dark">
-                      7+
+                      {t("results.legendItems.optim.range")}
                     </p>
                     <p className="mt-2 font-semibold text-accent-teal-dark">
-                      Optimalisatie
+                      {t("results.legendItems.optim.label")}
                     </p>
                     <p className="mt-1 text-sm text-text-dark-secondary">
-                      Fine-tuning en schaling
+                      {t("results.legendItems.optim.desc")}
                     </p>
                   </div>
                 </div>
@@ -234,24 +205,27 @@ export default function ScoreAssessment() {
               {/* CTA */}
               <div className="mt-12 card-light text-center">
                 <p className="text-lg text-text-dark-secondary">
-                  Dit is een quick-scan. De professionele Scan doorlicht alles met
-                  interviews, data-analyse en euro-waarde per kans.
+                  {t("results.cta.desc")}
                 </p>
                 <div className="mt-6 flex items-center justify-center gap-3 text-sm">
                   <span className="font-display text-2xl font-bold text-accent-teal-dark">
-                    €3.500
+                    {t("results.cta.price")}
                   </span>
-                  <span className="text-text-dark-muted">vast · Niet tevreden? Geld terug.</span>
+                  <span className="text-text-dark-muted">
+                    {t("results.cta.priceNote")}
+                  </span>
                 </div>
                 <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                   <Link href="/contact" className="btn-primary">
-                    <span className="btn-label">Plan je Scan</span>
+                    <span className="btn-label">
+                      {t("results.cta.ctaLabel")}
+                    </span>
                   </Link>
                   <button
                     onClick={() => setSubmitted(false)}
                     className="btn-secondary-dark"
                   >
-                    Opnieuw invullen
+                    {t("results.cta.retake")}
                   </button>
                 </div>
               </div>
@@ -268,13 +242,12 @@ export default function ScoreAssessment() {
       <section className="bg-white py-24 sm:py-28 lg:py-32 relative overflow-hidden">
         <div className="container-wide">
           <div className="mx-auto max-w-3xl">
-            <p className="section-label-dark">/ Sales Maturity Score</p>
+            <p className="section-label-dark">{t("form.label")}</p>
             <h1 className="mt-4 font-display text-4xl font-bold leading-[1.1] tracking-tight text-text-dark sm:text-5xl">
-              Waar staat jouw salesmotor?
+              {t("form.title")}
             </h1>
             <p className="mt-6 text-lg text-text-dark-secondary">
-              Scoor jezelf op 10 dimensies. Je krijgt direct inzicht in je
-              sterke punten en aandachtsgebieden.
+              {t("form.subtitle")}
             </p>
 
             <div className="mt-12 space-y-8">
@@ -309,7 +282,9 @@ export default function ScoreAssessment() {
                         />
                         <div className="mt-2 flex items-center justify-between text-xs text-text-dark-muted">
                           <span>{d.low.split(".")[0]}</span>
-                          <span className={`text-lg font-bold ${getScoreColor(scores[d.id])}`}>
+                          <span
+                            className={`text-lg font-bold ${getScoreColor(scores[d.id])}`}
+                          >
                             {scores[d.id]}
                           </span>
                           <span>{d.high.split(".")[0]}</span>
@@ -327,10 +302,10 @@ export default function ScoreAssessment() {
                 onClick={() => setSubmitted(true)}
                 className="btn-primary"
               >
-                <span className="btn-label">Bekijk mijn score</span>
+                <span className="btn-label">{t("form.submit")}</span>
               </button>
               <p className="mt-4 text-sm text-text-dark-muted">
-                Gemiddelde score:{" "}
+                {t("form.averageScore")}{" "}
                 <span className={`font-bold ${getScoreColor(avg)}`}>
                   {avg.toFixed(1)}
                 </span>{" "}

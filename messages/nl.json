@@ -1,0 +1,2025 @@
+{
+  "metadata": {
+    "siteTitle": "Accelr, Your Sales Growth Partner",
+    "siteDescription": "Van founder-led sales naar een schaalbaar, AI-gedreven commercieel systeem."
+  },
+  "nav": {
+    "expertise": "Expertise",
+    "methode": "Methode",
+    "overTim": "Over Tim",
+    "contact": "Plan een gesprek",
+    "expertiseItems": {
+      "deScan": "De Scan\u2122",
+      "strategieGtm": "Strategie & GTM",
+      "crmSalesproces": "CRM & Salesproces",
+      "outboundLeadgen": "Outbound & Leadgen",
+      "salesEnablement": "Sales Enablement",
+      "aiAutomation": "AI & Automation",
+      "fractional": "Fractional Head of Sales"
+    }
+  },
+  "footer": {
+    "tagline": "Van founder-led sales naar een schaalbaar, AI-gedreven commercieel systeem.",
+    "navigation": "Navigatie",
+    "navItems": {
+      "home": "Home",
+      "methode": "De Methode",
+      "overTim": "Over Tim",
+      "blog": "Blog"
+    },
+    "expertise": "Expertise",
+    "expertiseItems": {
+      "deScan": "De Scan",
+      "crmSalesproces": "CRM & Salesproces",
+      "outboundLeadgen": "Outbound & Leadgen",
+      "aiAutomation": "AI & Automation",
+      "salesMaturityScore": "Sales Maturity Score"
+    },
+    "contact": "Contact",
+    "planGesprek": "Plan een gesprek",
+    "location": "Haarlem, Nederland",
+    "legal": "Juridisch",
+    "privacy": "Privacybeleid",
+    "copyright": "Alle rechten voorbehouden.",
+    "slogan": "Your Sales Growth Partner"
+  },
+  "common": {
+    "startMetDeScan": "Start met De Scan",
+    "planKennismaking": "Plan een kennismaking",
+    "planGesprek": "Plan een gesprek",
+    "leesArtikel": "Lees artikel",
+    "leesMeer": "Lees meer",
+    "leescasestudy": "Lees case study",
+    "bekijk": "Bekijk",
+    "ontdekMeer": "Ontdek meer",
+    "veelgesteldeVragen": "Veelgestelde vragen",
+    "watJeKrijgt": "Wat je krijgt",
+    "hoeHetWerkt": "Hoe het werkt",
+    "toolsDieIkGebruik": "Tools die ik gebruik",
+    "ditIsVoorJouAls": "Dit is voor jou als...",
+    "deScanBepaalt": "De Scan bepaalt welke onderdelen voor jou prioriteit hebben.",
+    "ofMailDirect": "Of mail direct:",
+    "minuten": "minuten",
+    "geenVerplichtingen": "Geen verplichtingen",
+    "concrete_actiepunten": "Je loopt weg met 3 concrete actiepunten."
+  },
+  "home": {
+    "metadata": {
+      "title": "Fractional Head of Sales voor B2B founders | Accelr",
+      "description": "Accelr helpt B2B tech-founders van ad-hoc sales naar een schaalbaar, AI-gedreven commercieel systeem. Diagnose, implementatie en leadership."
+    },
+    "hero": {
+      "title": "Je salesgroei hangt af van jou. Dat is het probleem.",
+      "subtitle": "Ik bouw het salesfundament, strategie, proces en team, zodat groei niet meer van jou alleen afhangt. Van diagnose tot operationeel salesleiderschap.",
+      "drieluik1": "/ Sales Diagnose",
+      "drieluik2": "/ Projectmatig bouwen",
+      "drieluik3": "/ Fractional Head of Sales",
+      "cta": "Plan een kennismaking",
+      "ctaSecondary": "Start met De Scan",
+      "ctaSubtext": "30 minuten \u00b7 Geen verplichtingen \u00b7 Je loopt weg met 3 concrete actiepunten."
+    },
+    "toolTicker": {
+      "label": "/ Tools & Technologie\u00ebn"
+    },
+    "painPoints": {
+      "label": "/ Herkenbaar?",
+      "title": "Maak ruimte voor groei.",
+      "subtitle": "Als je salesgroei afhangt van jou als founder, is dat een structureel probleem. Herken je deze situaties?",
+      "items": [
+        "Ik ben de bottleneck.",
+        "Sales aannemen is een gok.",
+        "Tools en AI zonder proces.",
+        "Onvoorspelbare pipeline.",
+        "Opschalen vraagt om een systeem, niet om meer uren."
+      ],
+      "cta": "Start met De Scan"
+    },
+    "keuzeblok": {
+      "label": "/ Samenwerking",
+      "title": "Hoe werken we samen?",
+      "subtitle": "Elk traject begint met diagnose. Daarna bepalen we samen hoe diep ik erbij kom.",
+      "cards": [
+        {
+          "title": "De Scan\u2122",
+          "subtitle": "Eenmalige diagnose",
+          "body": "Ik analyseer je complete salesoperatie: proces, team, tooling en data. Je krijgt een rapport met harde cijfers, een prioriteitenlijst en een concrete roadmap.",
+          "details": "Doorlooptijd: 2-3 weken",
+          "badge": "Altijd de eerste stap",
+          "price": "\u20ac3.500 vast",
+          "extra": "Geld-terug-garantie",
+          "cta": "Meer over De Scan"
+        },
+        {
+          "title": "De Bouw",
+          "subtitle": "Specifieke onderdelen",
+          "body": "Ik bouw specifieke onderdelen van je salesinfrastructuur. CRM-inrichting, outbound-machine, playbooks, AI-automations, afgebakend en resultaatgericht.",
+          "details": "Op basis van Scan-resultaten of eigen briefing",
+          "badge": "Projectmatig, afgebakend",
+          "price": "Vanaf \u20ac7.500 per project",
+          "extra": null,
+          "cta": "Bekijk de bouwblokken"
+        },
+        {
+          "title": "Fractional Head of Sales",
+          "subtitle": "Parttime commercieel leider",
+          "body": "Ik word je parttime commercieel leider. 1-2 dagen per week, minimaal 6 maanden. Inclusief diagnose en alles wat nodig is.",
+          "details": "Min. 6 maanden",
+          "badge": "Vast maandelijks retainer",
+          "price": "Vanaf \u20ac4.000/maand",
+          "extra": null,
+          "cta": "Meer over Fractional"
+        }
+      ],
+      "note": "Niet zeker wat je nodig hebt? Start met De Scan. Bij een Fractional traject zit de diagnose in de eerste maand, je betaalt De Scan niet apart."
+    },
+    "formule": {
+      "label": "/ Het framework",
+      "title": "E\u00e9n systeem, vier hefbomen",
+      "strategie": "Strategie",
+      "proces": "Proces",
+      "people": "People",
+      "ai": "AI",
+      "result": "Schaalbare groei",
+      "desc": "Drie pijlers die elkaar versterken. AI is de multiplier. Als \u00e9\u00e9n pijler ontbreekt, vermenigvuldig je nul.",
+      "cta": "Ontdek de volledige aanpak"
+    },
+    "bouwblokken": {
+      "label": "/ Bouwblokken",
+      "title": "Wat ik bouw",
+      "subtitle": "Dit zijn de onderdelen die ik inzet, op projectbasis of doorlopend.",
+      "cards": [
+        {
+          "title": "De Scan\u2122",
+          "badge": "DIAGNOSE",
+          "desc": "Volledige doorlichting van je salesoperatie"
+        },
+        {
+          "title": "Strategie & GTM",
+          "badge": "STRATEGIE",
+          "desc": "ICP-validatie, go-to-market plan, positionering"
+        },
+        {
+          "title": "Outbound & Leadgen",
+          "badge": "PROCES",
+          "desc": "Prospecting-machine die gekwalificeerde meetings genereert"
+        },
+        {
+          "title": "CRM & Salesproces",
+          "badge": "PROCES",
+          "desc": "CRM-inrichting, pipeline design, verkoopproces"
+        },
+        {
+          "title": "Sales Enablement",
+          "badge": "PEOPLE",
+          "desc": "Playbooks, training, onboarding, coaching"
+        },
+        {
+          "title": "AI & Automation",
+          "badge": "+ AI",
+          "desc": "Make, n8n, Clay, automatiseer wat geen mens hoeft te doen"
+        }
+      ],
+      "note": "Bij De Scan analyseer ik alle bouwblokken. Bij De Bouw werk ik aan specifieke onderdelen. Als Fractional Head of Sales bewaak ik het geheel doorlopend."
+    },
+    "resultaten": {
+      "label": "/ Resultaten",
+      "title": "Recente trajecten",
+      "subtitle": "Een greep uit recente samenwerkingen met B2B tech-bedrijven.",
+      "cards": [
+        {
+          "name": "Aethogenix",
+          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "deed": "Positionering, ICP & GTM-plan ontwikkeld. Fractional Head of Sales ingezet om het commerci\u00eble fundament neer te zetten."
+        },
+        {
+          "name": "Anoniem",
+          "subtitle": "Media / Advertising",
+          "deed": "Go-to-market strategie neergezet, twee sales hires begeleid en het volledige salesproces gestroomlijnd."
+        },
+        {
+          "name": "STABL Agency",
+          "subtitle": "Growth Agency",
+          "deed": "AI-gedreven outbound systeem ge\u00efmplementeerd voor geautomatiseerde leadgeneratie en pipeline opbouw."
+        }
+      ]
+    },
+    "vergelijking": {
+      "label": "/ Het verschil",
+      "title": "Wat kost sales leiderschap?",
+      "headers": {
+        "zelfDoen": "Zelf doen",
+        "fulltimeHos": "Fulltime HoS",
+        "interim": "Interim",
+        "accelrFractional": "Accelr Fractional"
+      },
+      "rows": [
+        {
+          "aspect": "Kosten/jaar",
+          "zelf": "\u20ac0 + opportunity",
+          "fulltime": "\u20ac150K-\u20ac220K",
+          "interim": "\u20ac120K-\u20ac180K",
+          "accelr": "\u20ac48K-\u20ac96K"
+        },
+        {
+          "aspect": "Commitment",
+          "zelf": "Geen",
+          "fulltime": "12+ mnd",
+          "interim": "6-12 mnd",
+          "accelr": "6 mnd, flexibel"
+        },
+        {
+          "aspect": "Beschikbaarheid",
+          "zelf": "Resturen",
+          "fulltime": "Fulltime",
+          "interim": "Fulltime",
+          "accelr": "1-2 dagen/week"
+        },
+        {
+          "aspect": "Expertise",
+          "zelf": "Eigen kennis",
+          "fulltime": "1 profiel",
+          "interim": "1 profiel",
+          "accelr": "Breed: strategie+ops+AI"
+        },
+        {
+          "aspect": "Risico",
+          "zelf": "N.v.t.",
+          "fulltime": "Hoog (\u20ac80K+)",
+          "interim": "Medium",
+          "accelr": "Laag (Scan eerst)"
+        },
+        {
+          "aspect": "Kennisoverdracht",
+          "zelf": "N.v.t.",
+          "fulltime": "\u2014",
+          "interim": "\u2014",
+          "accelr": "Ingebouwd"
+        },
+        {
+          "aspect": "Na 90 dagen",
+          "zelf": "Onvoorspelbaar",
+          "fulltime": "Onboarding loopt",
+          "interim": "Operationeel",
+          "accelr": "CRM+proces+pipeline"
+        },
+        {
+          "aspect": "Niet beste keuze als...",
+          "zelf": "Je het zelf kunt",
+          "fulltime": "50+ FTE dagelijks",
+          "interim": "Gap vullen",
+          "accelr": "Dagelijks nodig"
+        }
+      ],
+      "footnote": "90 dagen = CRM ingericht, proces gedocumenteerd, playbooks live. Voorspelbare pipeline kost 6+ maanden. Bronnen: Robert Half Salary Guide NL 2024, Glassdoor Nederland."
+    },
+    "investering": {
+      "label": "/ Investering",
+      "title": "Wat kost het?",
+      "models": [
+        {
+          "title": "De Scan\u2122",
+          "price": "\u20ac3.500",
+          "priceSuffix": "vast",
+          "duration": "2-3 weken",
+          "result": "47-punts diagnose, geprioriteerde roadmap, scan-rapport met harde cijfers",
+          "uren": "~8 uur totaal",
+          "garantie": true,
+          "scanIncluded": "Dit \u00eds De Scan"
+        },
+        {
+          "title": "De Bouw",
+          "price": "Vanaf \u20ac7.500",
+          "priceSuffix": "per project",
+          "duration": "4-12 weken",
+          "result": "Werkend onderdeel: ingericht CRM, draaiende outbound, playbook, of AI-automation",
+          "uren": "Projectafhankelijk",
+          "garantie": false,
+          "scanIncluded": "Apart (of vooraf gedaan)"
+        },
+        {
+          "title": "Fractional Head of Sales",
+          "price": "Vanaf \u20ac4.000",
+          "priceSuffix": "/maand",
+          "duration": "Min. 6 maanden",
+          "result": "Commercieel leiderschap + alle bouwblokken + team coaching + wekelijks overleg",
+          "uren": "8-16 uur/week (1-2 dagen)",
+          "garantie": false,
+          "scanIncluded": "Eerste maand = diagnose"
+        }
+      ],
+      "labels": {
+        "doorlooptijd": "Doorlooptijd",
+        "watJeKrijgt": "Wat je krijgt",
+        "uren": "Uren",
+        "geldTerugGarantie": "Geld-terug garantie",
+        "ja": "Ja",
+        "inclusiefDeScan": "Inclusief De Scan"
+      }
+    },
+    "overTim": {
+      "label": "/ Het team",
+      "title": "De mens achter Accelr",
+      "role": "Founder & Fractional Head of Sales",
+      "name": "Tim Samsom",
+      "bio": "8+ jaar B2B sales in adtech en tech. Als Country Manager Nederland bij ShowHeroes bouwde ik de Nederlandse operatie van scratch, van eerste klant tot structureel commercieel team. Daarvoor verantwoordelijk voor sales bij Streamads en commerci\u00eble rollen bij Ematters en XS4ALL. Alumnus Nyenrode Business Universiteit.",
+      "quote": "De meeste sales problemen zijn geen mensen-problemen. Het zijn systeem-problemen.",
+      "leesMeer": "Lees meer",
+      "linkedin": "Bekijk mijn LinkedIn"
+    },
+    "voorWie": {
+      "label": "/ Voor wie",
+      "title": "Is dit voor jou?",
+      "welVoorJou": "Wel voor jou",
+      "nietVoorJou": "Niet voor jou",
+      "voorJou": [
+        "B2B SaaS, tech of IT-dienstverlener",
+        "\u20ac1M-\u20ac10M omzet, 10-80 medewerkers",
+        "Technische founder die (nog) zelf verkoopt",
+        "Net eerste sales hire gedaan, of eerste is mislukt",
+        "Wil een systeem, niet een adviseur"
+      ],
+      "nietVoorJouItems": [
+        "B2C of e-commerce",
+        "<\u20ac500K omzet (focus op product-market fit)",
+        "Zoekt iemand die \"overneemt\" zonder jouw betrokkenheid",
+        "Werkend team van 10+ (je hebt fulltime HoS nodig)"
+      ]
+    },
+    "faq": {
+      "label": "/ FAQ",
+      "title": "Veelgestelde vragen",
+      "items": [
+        {
+          "q": "Wat is een Fractional Head of Sales?",
+          "a": "Een Fractional Head of Sales is een ervaren commercieel leider die 1-2 dagen per week meebouwt aan je salesorganisatie. Je krijgt strategisch leiderschap en hands-on execution zonder de kosten van een fulltime hire (\u20ac150K+/jaar). In Amerika is dit model al gangbaar, in Nederland begint het net."
+        },
+        {
+          "q": "Waarom beginnen met De Scan?",
+          "a": "Van de founders die ik spreek denkt 80% dat het probleem \"meer leads\" is. Na De Scan blijkt het bijna altijd een proces-, CRM- of kwalificatieprobleem te zijn. De Scan voorkomt dat je geld uitgeeft aan de verkeerde oplossing. Ben je het niet eens met de bevindingen? Dan krijg je je geld terug."
+        },
+        {
+          "q": "Hoe verschilt Fractional van Interim?",
+          "a": "Een interim manager vult een gat en houdt de operatie draaiende. Een Fractional Head of Sales is gericht op versnelling: bouwen, team ontwikkelen en structuur neerzetten. Het kost 60-70% minder dan een fulltime hire, en het doel is een fundament bouwen zodat je kunt schalen."
+        },
+        {
+          "q": "Hoe snel resultaten?",
+          "a": "De Scan levert binnen 2-3 weken een helder beeld op. Bij een Bouw-project zijn de eerste onderdelen binnen 4-6 weken operationeel. Bij een Fractional traject heb je na 90 dagen een ingericht CRM en gedocumenteerd proces, na 3-4 maanden zie je pipeline-impact, en structurele groei volgt na 6+ maanden. Eerlijk: duurzame resultaten kosten tijd."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Klaar om je sales te professionaliseren?",
+      "cta": "Plan een vrijblijvend gesprek",
+      "scanNote": "Of start met De Scan, \u20ac3.500 vast, geld-terug-garantie.",
+      "location": "Haarlem, Nederland"
+    }
+  },
+  "methode": {
+    "metadata": {
+      "title": "De Accelr Methode\u2122, Diagnose \u2192 Build \u2192 Run",
+      "description": "Van ad-hoc sales naar een schaalbaar systeem. 10 dimensies, 4 fases, werkende systemen die van jou zijn."
+    },
+    "hero": {
+      "label": "/ De Accelr Methode\u2122",
+      "title": "De Accelr Methode\u2122",
+      "subtitle": "Drie pilaren, \u00e9\u00e9n multiplier. E\u00e9n systeem dat je salesmotor laat draaien, ook als jij er niet bent.",
+      "cta": "Start met De Scan",
+      "ctaSecondary": "Plan een kennismaking"
+    },
+    "intro": {
+      "label": "/ Methode",
+      "title": "Elk B2B-bedrijf heeft een commercieel systeem nodig.",
+      "p1": "Elk B2B-bedrijf dat voorbij founder-led sales wil groeien heeft een commercieel systeem nodig. Geen standaardadvies. Geen rapport dat in een la belandt. Een werkend systeem gebaseerd op drie pilaren die elkaar versterken, aangedreven door AI.",
+      "p2": "De Scan diagnosticeert waar het lekt. De formule bepaalt wat ik bouw."
+    },
+    "formule": {
+      "label": "De formule",
+      "strategie": "Strategie",
+      "proces": "Proces",
+      "people": "People",
+      "ai": "AI",
+      "result": "exponenti\u00eble groei",
+      "desc": "Strategie is de input die alles aandrijft. Proces en People zijn de kernpilaren, ze versterken elkaar multiplicatief. AI is de multiplier die alles versnelt. Verbeter elk element met 20% en je totale output groeit met 107%."
+    },
+    "compoundTable": {
+      "headers": {
+        "pijler": "Pijler",
+        "effect": "Effect",
+        "bron": "Bron"
+      },
+      "rows": [
+        { "pijler": "Strategie", "effect": "Fundament voor alles", "bron": "\u2014" },
+        { "pijler": "Proces", "effect": "+12pp winrate", "bron": "CSO Insights (12+ jaar, 1.000+ bedrijven)" },
+        { "pijler": "People", "effect": "2\u00d7 meer verkooptijd", "bron": "Bain & Company, 2025" },
+        { "pijler": "AI", "effect": "1.3\u00d7 meer omzetgroei", "bron": "Salesforce (n=5.500)" },
+        { "pijler": "Samen", "effect": "107% totale groei", "bron": "Compound effect" }
+      ]
+    },
+    "toepassing": {
+      "label": "/ Toepassing",
+      "title": "Hoe het framework wordt toegepast",
+      "cards": [
+        {
+          "title": "De Scan",
+          "desc": "Alle pilaren worden geanalyseerd. Je krijgt per pilaar een score en prioriteitenlijst."
+        },
+        {
+          "title": "De Bouw",
+          "desc": "Je kiest specifieke pilaren om aan te werken. Projectmatig, afgebakend."
+        },
+        {
+          "title": "Fractional Head of Sales",
+          "desc": "Alle pilaren, doorlopend, met mij als eigenaar. Continue optimalisatie."
+        }
+      ]
+    },
+    "inHetKort": {
+      "title": "In het kort",
+      "items": [
+        {
+          "num": "/01",
+          "title": "Sales Maturity Score op 10 dimensies",
+          "desc": "Een volledige doorlichting van je salesoperatie. Geen meningen, meetbare scores per dimensie met concrete verbeterpunten."
+        },
+        {
+          "num": "/02",
+          "title": "Geprioriteerd actieplan met euro-waarde",
+          "desc": "Elke kans krijgt een geschatte impact in euro\u2019s, een tijdsinschatting en een prioriteit. Je weet precies waar je moet beginnen."
+        },
+        {
+          "num": "/03",
+          "title": "Werkende systemen die van jou zijn",
+          "desc": "Alles wat ik bouw, CRM, automations, playbooks, campagnes, is volledig van jou. Geen lock-in, geen afhankelijkheid, geen licentiekosten."
+        }
+      ]
+    },
+    "voorWie": {
+      "title": "Voor wie",
+      "desc1": "Voor founders en commercieel directeuren die het bedrijf hebben gebouwd op hun eigen salestalent. Waar elke deal door dezelfde persoon loopt. Waar er geen CRM is, of eentje dat niemand gebruikt. Waar groei betekent: harder werken, niet slimmer werken.",
+      "desc2": "De Accelr Methode brengt structuur waar chaos is, voorspelbaarheid waar toeval regeert, en een systeem dat schaalbaar is zonder dat jij elke deal zelf hoeft te sluiten.",
+      "typischProfiel": "Typisch profiel",
+      "profielItems": [
+        "B2B SaaS, tech of IT-dienstverlening",
+        "\u20ac500K \u2013 \u20ac20M omzet",
+        "5-50 medewerkers",
+        "Founder doet 80%+ van de sales",
+        "Bestaande klanten, recurring revenue"
+      ]
+    },
+    "hoeHetWerkt": {
+      "title": "Hoe het werkt",
+      "steps": [
+        {
+          "num": "/01",
+          "title": "Week 1-2: Scannen",
+          "desc": "Ik begin met een kickoff van 60 minuten om doelen, systemen en beperkingen in kaart te brengen. Daarna volgen diepte-interviews met founder, sales en marketing. Ik doorlicht je CRM (of het gebrek daaraan), analyseer je pipeline, check je tech stack en beoordeel je AI-readiness.",
+          "result": "Resultaat:",
+          "resultDesc": "Sales Maturity Score op 10 dimensies. Een helder beeld van waar je staat, en waar het geld ligt.",
+          "price": "\u20ac3.500 vast \u00b7 Niet tevreden? Geld terug. Geen voorwaarden."
+        },
+        {
+          "num": "/02",
+          "title": "Week 2: Plannen",
+          "desc1": "Op basis van de Scan stel ik een implementatieplan op. Welke systemen gebouwd moeten worden, in welke volgorde, en wat elke stap oplevert. Vaste prijs per onderdeel, vooraf afgesproken. Geen verrassingen.",
+          "desc2": "Het plan integreert met je bestaande tools en is zo gestructureerd dat ik het kan bouwen, of je het zelf kunt oppakken."
+        },
+        {
+          "num": "/03",
+          "title": "Week 3-10: Bouwen",
+          "desc": "Ik bouw wat het plan aanwijst. Geen standaardpakketten, alleen wat jij nodig hebt.",
+          "typischeTrajecten": "Typische trajecten",
+          "trajectItems": [
+            "CRM-basis + salesproces \u2192 3-4 weken",
+            "+ Outbound engine + AI-tooling \u2192 4-6 weken",
+            "+ Team enablement + hiring \u2192 6-8 weken"
+          ],
+          "overdracht": "Alles wordt werkend opgeleverd, gedocumenteerd en overgedragen. Het systeem is van jou.",
+          "price": "Typische investering: \u20ac5.000 \u2013 \u20ac20.000 afhankelijk van scope."
+        },
+        {
+          "num": "/04",
+          "title": "Doorlopend: Runnen & Opschalen",
+          "desc": "Een systeem zonder leiderschap verwatert binnen 3 maanden. Ik blijf als je fractional Head of Sales, niet adviseren, maar aansturen.",
+          "items": [
+            "Wekelijkse pipeline reviews & forecasting",
+            "Sales coaching & 1-op-1 begeleiding",
+            "Doorlopende optimalisatie campagnes & tools",
+            "Kwartaal-reviews met strategische bijsturing",
+            "Eerste sales hire: roldefinitie, onboarding, coaching"
+          ],
+          "details": "1-2 dagen per week \u00b7 Min. 3 maanden \u00b7 Daarna maandelijks opzegbaar",
+          "note": "Het doel is dat je me niet meer nodig hebt. Dat is geen falen, dat is het plan."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Klaar om je salesmotor te bouwen?",
+      "cta": "Start met De Scan",
+      "ctaSecondary": "Plan een kennismaking",
+      "scanNote": "\u20ac3.500 vast \u00b7 Geld-terug garantie \u00b7 Resultaat in 2 weken",
+      "location": "Amsterdam, Nederland"
+    }
+  },
+  "deScan": {
+    "metadata": {
+      "title": "De Scan\u2122 | Diagnose van je salesoperatie | Accelr",
+      "description": "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. \u20ac3.500 vast. Niet tevreden? Geld terug."
+    },
+    "hero": {
+      "label": "/ Altijd stap 1",
+      "title": "De Scan: weet waar je geld laat liggen,",
+      "titleHighlight": "en hoeveel.",
+      "subtitle": "Een professionele doorlichting van je salesoperatie. In 1-2 weken breng ik alles in kaart en lever ik een actieplan op met geprioriteerde kansen en euro-waarde.",
+      "price": "\u20ac3.500",
+      "priceNote": "vast \u00b7 Geen verrassingen",
+      "cta": "Plan je Scan"
+    },
+    "probleem": {
+      "label": "/ Het probleem",
+      "title": "De meeste founders weten dat er iets mis is met hun sales. Ze weten alleen niet",
+      "titleHighlight": "w\u00e1t.",
+      "desc1": "Je sluit deals, maar het is niet herhaalbaar. Je hebt tools, maar niemand gebruikt ze goed. Je weet dat er structuur nodig is, maar waar begin je?",
+      "desc2": "De Scan geeft antwoord. Niet met meningen, met data."
+    },
+    "dimensies": {
+      "label": "/ 10 Dimensies",
+      "title": "Ik doorlicht je salesoperatie op 10 dimensies",
+      "subtitle": "Elke dimensie scoort 1-10.",
+      "items": [
+        { "num": 1, "name": "Strategy", "question": "Hoe scherp is je ICP? Klopt je positionering?" },
+        { "num": 2, "name": "Process", "question": "Heb je een gedocumenteerd salesproces? Wordt het gevolgd?" },
+        { "num": 3, "name": "Pipeline", "question": "Hoe voorspelbaar is je omzet?" },
+        { "num": 4, "name": "CRM", "question": "Gebruik je een CRM? Hoe is de datakwaliteit?" },
+        { "num": 5, "name": "Outbound", "question": "Doe je actief outbound? Met welk resultaat?" },
+        { "num": 6, "name": "Enablement", "question": "Heeft je team playbooks, scripts, training?" },
+        { "num": 7, "name": "AI & Automation", "question": "Welke tools gebruik je? Wat kan geautomatiseerd?" },
+        { "num": 8, "name": "Team", "question": "Heb je de juiste mensen op de juiste plek?" },
+        { "num": 9, "name": "Data", "question": "Welke KPI's track je? Hoe accuraat is je forecast?" },
+        { "num": 10, "name": "Leadership", "question": "Wie stuurt de sales aan? Is er accountability?" }
+      ]
+    },
+    "deliverables": {
+      "label": "/ Deliverables",
+      "title": "Wat je krijgt",
+      "items": [
+        "Sales Maturity Score, score op 10 dimensies (1-10)",
+        "2-3 diepte-interviews (founder, sales, marketing)",
+        "CRM & pipeline doorlichting (of gap-analyse als er geen CRM is)",
+        "AI & tech readiness check",
+        "Top 3-5 kansen met geschatte euro-waarde",
+        "Geprioriteerd 90-dagen actieplan",
+        "Advies per kans: zelf doen / met Accelr / outsourcen",
+        "Live presentatie van bevindingen (nooit alleen per mail)"
+      ]
+    },
+    "tijdlijn": {
+      "label": "/ Tijdlijn",
+      "title": "Hoe het werkt",
+      "week1": {
+        "label": "/ Week 1",
+        "items": [
+          "Intakegesprek en briefing",
+          "Interviews met founder, sales en marketing",
+          "CRM & data analyse",
+          "Markt- en concurrentie review"
+        ]
+      },
+      "week2": {
+        "label": "/ Week 2",
+        "items": [
+          "Scorecard opbouwen",
+          "Kansen identificeren en euro-waarde schatten",
+          "Actieplan prioriteren",
+          "Live presentatie van bevindingen"
+        ]
+      }
+    },
+    "garantie": {
+      "title": "Mijn garantie",
+      "headline": "Niet tevreden? Geld terug. Geen voorwaarden.",
+      "desc": "Ik kan dit garanderen omdat ik in 8+ jaar nog nooit een bedrijf heb gezien waar niets te verbeteren valt aan het salesproces."
+    },
+    "waaromBetaald": {
+      "label": "/ Eerlijk",
+      "title": "Waarom betaald?",
+      "desc": "Gratis diagnostiek = belangenconflict. Een arts rekent voor een MRI. Een accountant voor een audit. Ik reken voor een professionele diagnose. Het deliverable heeft standalone waarde, je kunt er direct mee aan de slag, ook zonder vervolg."
+    },
+    "faq": {
+      "label": "/ FAQ",
+      "title": "Veelgestelde vragen",
+      "items": [
+        {
+          "q": "Kan ik ook alleen De Scan doen zonder vervolg?",
+          "a": "Ja. De Scan levert een actieplan waarmee je direct zelf aan de slag kunt. Geen verplicht vervolg, geen commitment."
+        },
+        {
+          "q": "Wat als ik al een CRM heb?",
+          "a": "Dan doorlicht ik je huidige setup: datakwaliteit, pipeline-inrichting, rapportage, en adoptie door het team. Een CRM hebben en een CRM goed gebruiken zijn twee verschillende dingen."
+        },
+        {
+          "q": "Hoe bereid ik me voor?",
+          "a": "Minimaal: toegang tot je CRM (als je er een hebt), en beschikbaarheid voor een interview van 60-90 minuten. Ik regel de rest."
+        }
+      ]
+    },
+    "cta": {
+      "cta": "Plan je Scan",
+      "ctaSubtext": "Of mail direct:"
+    }
+  },
+  "overTim": {
+    "metadata": {
+      "title": "Over Tim Samsom | Fractional Head of Sales | Accelr",
+      "description": "8+ jaar B2B sales in adtech en tech. Country Manager bij ShowHeroes, nu Fractional Head of Sales. Alumnus Nyenrode."
+    },
+    "hero": {
+      "label": "/ Over Tim",
+      "title": "De mens achter de salesmotor.",
+      "subtitle": "Ik combineer de strategische blik van een commercieel directeur met de hands-on aanpak van een implementatie-specialist. En ik zet AI in als gereedschap, niet als gimmick."
+    },
+    "verhaal": {
+      "label": "/ Mijn verhaal",
+      "title": "Van scale-up naar Accelr",
+      "paragraphs": [
+        "Voordat ik Accelr startte, was ik Country Manager Nederland bij ShowHeroes, een Europese adtech scale-up. Daar bouwde ik de Nederlandse operatie op van scratch: van eerste klant tot winstgevende markt met een structureel commercieel team.",
+        "Daarvoor werkte ik 6+ jaar in B2B sales bij Streamads, Ematters en XS4ALL. Alumnus Nyenrode Business Universiteit."
+      ],
+      "watIkLeerde": "Wat ik daar leerde:",
+      "learnings": [
+        "Salesprocessen opzetten waar er geen waren",
+        "CRM-implementatie en pipeline management",
+        "Deals sluiten van \u20ac10K tot \u20ac500K+ met enterprise klanten",
+        "Teams aansturen en commerci\u00eble operaties opbouwen",
+        "De realiteit dat 80% van sales-succes zit in het systeem, niet het talent"
+      ],
+      "patroon": "Wat ik keer op keer zag bij tech-founders: briljante producten, maar geen salesmotor. De founder doet alle sales zelf, er is geen proces, geen CRM, geen strategie. De groei hangt af van toeval en netwerk.",
+      "waarom": "Daarom startte ik Accelr."
+    },
+    "aanpak": {
+      "label": "/ Mijn aanpak",
+      "title": "Hoe ik werk",
+      "cards": [
+        {
+          "title": "Diagnose eerst",
+          "text": "Ik bouw pas als ik weet wat je nodig hebt. Elke samenwerking begint met De Scan."
+        },
+        {
+          "title": "Ik bouw zelf",
+          "text": "Geen team van juniors. Van strategie tot CRM-inrichting tot outbound-machine, ik doe het zelf."
+        },
+        {
+          "title": "AI als gereedschap",
+          "text": "Clay, Make, n8n, gestructureerd ge\u00efntegreerd in je salesproces. Geen gimmick, geen hype."
+        },
+        {
+          "title": "Geen afhankelijkheid",
+          "text": "Alles wat ik bouw is van jou. Geen lock-in, geen licentiekosten, volledige documentatie."
+        }
+      ]
+    },
+    "ervaring": {
+      "label": "/ Ervaring",
+      "title": "Track record",
+      "items": [
+        "8+ jaar B2B sales in adtech en tech",
+        "Country Manager Nederland bij ShowHeroes (Europese adtech scale-up)",
+        "Commerci\u00eble rollen bij Streamads, Ematters en XS4ALL",
+        "Van eerste klant tot structureel commercieel team, meerdere keren",
+        "Hands-on: van strategie tot CRM-implementatie tot teamcoaching",
+        "AI-tools als dagelijks werktuig, niet als experiment",
+        "Alumnus Nyenrode Business Universiteit"
+      ]
+    },
+    "trajecten": {
+      "label": "/ Resultaten",
+      "title": "Recente trajecten",
+      "cards": [
+        {
+          "name": "Aethogenix",
+          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "deed": "Positionering, ICP & GTM-plan ontwikkeld. Fractional Head of Sales ingezet om het commerci\u00eble fundament neer te zetten."
+        },
+        {
+          "name": "Anoniem",
+          "subtitle": "Media / Advertising",
+          "deed": "Go-to-market strategie neergezet, twee sales hires begeleid en het volledige salesproces gestroomlijnd."
+        },
+        {
+          "name": "STABL Agency",
+          "subtitle": "Growth Agency",
+          "deed": "AI-gedreven outbound systeem ge\u00efmplementeerd voor geautomatiseerde leadgeneratie en pipeline opbouw."
+        }
+      ]
+    },
+    "cta": {
+      "cta": "Plan een kennismaking",
+      "ctaSubtext": "30 minuten \u00b7 Vrijblijvend \u00b7 Eerlijk advies"
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact, Plan een kennismaking",
+      "description": "Plan een vrijblijvend kennismakingsgesprek met Tim. 30 minuten, eerlijk advies."
+    },
+    "hero": {
+      "label": "/ Contact",
+      "title": "Plan een kennismaking",
+      "subtitle": "30 minuten. Vrijblijvend. Eerlijk advies over waar je salesmotor staat en wat de logische volgende stap is."
+    },
+    "cards": {
+      "duration": "30 minuten",
+      "durationDesc": "Kort en to the point",
+      "noObligation": "Vrijblijvend",
+      "noObligationDesc": "Geen verkooppraatje",
+      "honestAdvice": "Eerlijk advies",
+      "honestAdviceDesc": "Ook als dat is: doe het zelf"
+    },
+    "calendly": {
+      "title": "Plan direct een gesprek",
+      "subtitle": "Kies een moment dat jou uitkomt"
+    },
+    "email": {
+      "text": "Liever direct mailen?"
+    }
+  },
+  "salesStrategie": {
+    "metadata": {
+      "title": "Sales Strategie & GTM voor B2B | Accelr",
+      "description": "ICP, go-to-market plan, positionering en pricing. De basis die ervoor zorgt dat al je sales-activiteiten in de juiste richting werken."
+    },
+    "hero": {
+      "label": "/ Sales Strategie & GTM",
+      "title": "Weten aan wie je verkoopt is het halve werk.",
+      "subtitle": "ICP, go-to-market plan, positionering en pricing. De basis die ervoor zorgt dat al je sales-activiteiten in de juiste richting werken.",
+      "cta": "Start met De Scan"
+    },
+    "probleem": {
+      "title": "De meeste B2B-bedrijven verkopen aan iedereen.",
+      "paragraphs": [
+        "Geen scherp ICP. Geen duidelijke positionering. Pricing die \u201cooit is bedacht\u201d en nooit meer is herzien. En dan verwachten dat outbound, content en sales calls w\u00e9l converteren.",
+        "Het resultaat: je team besteedt 80% van de tijd aan prospects die nooit klant worden. Je messaging is generiek. Je pipeline zit vol met deals die niet bewegen.",
+        "Sales strategie is geen luxe, het is de basis. Zonder scherpe targeting en positionering is alles wat je daarna bouwt minder effectief."
+      ]
+    },
+    "deliverables": {
+      "title": "Wat je krijgt",
+      "items": [
+        {
+          "num": "/01",
+          "title": "ICP & Buyer Persona",
+          "desc": "Wie zijn je best-fit klanten? Welke bedrijven, welke rollen, welke pijnpunten? Geen vage persona-posters, een scherp profiel waar je targeting, messaging en hele salesproces op bouwt."
+        },
+        {
+          "num": "/02",
+          "title": "Go-to-Market Plan",
+          "desc": "Welke marktsegmenten pak je eerst aan? Via welke kanalen? Met welke boodschap? Een concreet plan dat prioriteiten stelt en duidelijk maakt waar je w\u00e9l en niet op inzet."
+        },
+        {
+          "num": "/03",
+          "title": "Positionering & Messaging",
+          "desc": "Hoe positioneer je jezelf ten opzichte van alternatieven? Wat maakt jouw aanbod relevant voor jouw ICP? Messaging frameworks voor je website, outbound, sales calls en proposals."
+        },
+        {
+          "num": "/04",
+          "title": "Pricing & Deal Structuur",
+          "desc": "Wat vraag je, hoe presenteer je het, en hoe structureer je deals? Pricing die past bij je markt, je waardepropositie en je salesproces."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Hoe het werkt",
+      "items": [
+        { "num": "/01", "title": "Analyse", "desc": "Huidige klanten, markt en concurrentie doorlichten" },
+        { "num": "/02", "title": "ICP scherp", "desc": "Best-fit profiel defini\u00ebren op basis van data" },
+        { "num": "/03", "title": "Strategie bouwen", "desc": "GTM plan, positionering, pricing" },
+        { "num": "/04", "title": "Activeren", "desc": "Doorvertalen naar campagnes, content en sales" }
+      ]
+    },
+    "voorJou": [
+      "Je verkoopt aan 'iedereen' en sluit te weinig",
+      "Je hebt geen duidelijk ICP of buyer persona",
+      "Je messaging resoneert niet met je doelgroep",
+      "Je weet niet welke marktsegmenten je moet prioriteren"
+    ],
+    "faq": [
+      {
+        "q": "Is dit niet te strategisch / abstract?",
+        "a": "Nee. Alles wat ik oplever is direct bruikbaar: targeting lijsten, messaging templates, een GTM plan met concrete acties. Geen PowerPoint-strategie."
+      },
+      {
+        "q": "Hoe lang duurt dit traject?",
+        "a": "Typisch 2-3 weken van start tot oplevering, afhankelijk van de scope. De Scan bepaalt wat er nodig is."
+      },
+      {
+        "q": "Wat als ik al een ICP heb?",
+        "a": "Dan valideren we die. In mijn ervaring klopt het ICP van de meeste bedrijven niet, of is het te breed. We scherpen aan op basis van data."
+      }
+    ],
+    "cta": {
+      "title": "Eerst de basis. Dan bouwen.",
+      "desc": "De Scan brengt in kaart of je strategie klopt, en waar de grootste kansen liggen om scherper te verkopen.",
+      "ctaLabel": "Start met De Scan, \u20ac3.500"
+    }
+  },
+  "crmImplementatie": {
+    "metadata": {
+      "title": "CRM Implementatie voor MKB & Scale-ups | Accelr",
+      "description": "CRM selectie, inrichting, pipeline design en dashboards. Van spreadsheet naar werkend systeem in 3-4 weken."
+    },
+    "hero": {
+      "label": "/ CRM & Pipeline",
+      "title": "Een CRM dat je team daadwerkelijk gebruikt.",
+      "subtitle": "Niet n\u00f3g een tool die na 3 maanden een dure database is. Een werkend systeem met pipeline, dashboards en rapportage.",
+      "cta": "Start met De Scan"
+    },
+    "probleem": {
+      "title": "70% van CRM-implementaties faalt.",
+      "paragraphs": [
+        "Niet omdat het CRM slecht is. Maar omdat niemand het goed inricht. De pipeline klopt niet. De velden zijn verwarrend. De dashboards tonen de verkeerde data. En na drie maanden werkt je team er omheen in plaats van erin.",
+        "Het resultaat: je hebt een CRM dat \u20ac500/maand kost en een spreadsheet die je eigenlijk nog steeds gebruikt.",
+        "Ik richt je CRM in zodat het werkt voor hoe jouw team verkoopt, niet andersom."
+      ]
+    },
+    "deliverables": {
+      "title": "Wat je krijgt",
+      "items": [
+        {
+          "num": "/01",
+          "title": "CRM Selectie",
+          "desc": "HubSpot, Pipedrive of Salesforce, afhankelijk van je fase, budget en complexiteit. Onafhankelijk advies, geen partnerships."
+        },
+        {
+          "num": "/02",
+          "title": "Pipeline Design",
+          "desc": "Fases die passen bij jouw salesproces. Lead scoring, deal stages, automatische herinneringen. Geen standaard template."
+        },
+        {
+          "num": "/03",
+          "title": "Dashboards & Rapportage",
+          "desc": "Real-time overzicht van pipeline, conversion rates, forecast en activiteit per rep. Data waar je op kunt sturen."
+        },
+        {
+          "num": "/04",
+          "title": "Integraties",
+          "desc": "Je CRM verbonden met je email, calendar, outbound tools en marketing automation. E\u00e9n bron van waarheid."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Hoe het werkt",
+      "items": [
+        { "num": "/01", "title": "Audit", "desc": "Huidig CRM (of gebrek daaraan) doorlichten" },
+        { "num": "/02", "title": "Ontwerp", "desc": "Pipeline, velden, automations, dashboards" },
+        { "num": "/03", "title": "Migratie", "desc": "Data overzetten en opschonen" },
+        { "num": "/04", "title": "Training", "desc": "Team trainen op het nieuwe systeem" }
+      ]
+    },
+    "voorJou": [
+      "Je hebt geen CRM of werkt nog in spreadsheets",
+      "Je hebt een CRM maar niemand gebruikt het goed",
+      "Je kunt je pipeline niet voorspellen",
+      "Je mist rapportage om op te sturen"
+    ],
+    "faq": [
+      {
+        "q": "Welk CRM raden jullie aan?",
+        "a": "Hangt af van je fase. HubSpot voor de meeste MKB-bedrijven, Pipedrive als je lean wilt starten, Salesforce bij complexere sales cycles. De Scan geeft een onderbouwd advies."
+      },
+      {
+        "q": "Hoe lang duurt een CRM implementatie?",
+        "a": "Typisch 3-4 weken van start tot werkend systeem, inclusief data migratie en team training."
+      },
+      {
+        "q": "Wat als we al een CRM hebben?",
+        "a": "Dan optimaliseer ik wat je hebt. Vaak is het niet het CRM dat het probleem is, maar de inrichting."
+      }
+    ],
+    "cta": {
+      "title": "Van spreadsheet naar werkend systeem.",
+      "desc": "De Scan brengt in kaart wat je nodig hebt, CRM selectie, inrichting, of optimalisatie van wat je al hebt.",
+      "ctaLabel": "Start met De Scan, \u20ac3.500"
+    }
+  },
+  "outbound": {
+    "metadata": {
+      "title": "Outbound Leadgeneratie voor B2B | Accelr",
+      "description": "Outbound email, LinkedIn outreach en multi-channel sequences. Voorspelbare pipeline zonder afhankelijkheid van je netwerk."
+    },
+    "hero": {
+      "label": "/ Outbound & Leadgeneratie",
+      "title": "Een pipeline die niet afhankelijk is van jouw netwerk.",
+      "subtitle": "Outbound email, LinkedIn en multi-channel sequences. Geautomatiseerd, getest, en werkend.",
+      "cta": "Start met De Scan"
+    },
+    "probleem": {
+      "title": "Netwerk-sales heeft een plafond.",
+      "paragraphs": [
+        "De eerste klanten kwamen via je netwerk. Referrals. Een intro via een oud-collega. Dat werkte, tot het niet meer genoeg was.",
+        "Nu heb je voorspelbare instroom nodig. Maar cold outbound voelt als spam, LinkedIn outreach levert niets op, en de ene tool na de andere belooft \u201c10 meetings per week\u201d zonder resultaat.",
+        "Het probleem is niet outbound zelf. Het probleem is dat niemand het goed opzet: juiste targeting, relevante messaging, multi-channel sequencing, en continue optimalisatie."
+      ]
+    },
+    "deliverables": {
+      "title": "Wat je krijgt",
+      "items": [
+        {
+          "num": "/01",
+          "title": "Outbound Email Engine",
+          "desc": "Instantly of Lemlist, volledig geconfigureerd. Domain warmup, DKIM/SPF/DMARC, inbox rotation. Deliverability van dag \u00e9\u00e9n."
+        },
+        {
+          "num": "/02",
+          "title": "LinkedIn Outreach",
+          "desc": "Connectie-strategie, berichtensequences, content-alignment. Handmatig of geautomatiseerd, afhankelijk van je voorkeur."
+        },
+        {
+          "num": "/03",
+          "title": "Multi-Channel Sequences",
+          "desc": "Email + LinkedIn + telefoon in \u00e9\u00e9n geco\u00f6rdineerde flow. Elke stap bouwt voort op de vorige. Geen losse kanalen."
+        },
+        {
+          "num": "/04",
+          "title": "Targeting & Messaging",
+          "desc": "ICP-gebaseerde lijsten via Clay/Apollo. Messaging die resoneert met jouw buyers, getest, geoptimaliseerd, AI-gepersonaliseerd."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Hoe het werkt",
+      "items": [
+        { "num": "/01", "title": "ICP scherp", "desc": "Wie zijn je best-fit klanten, echt?" },
+        { "num": "/02", "title": "Infra opzetten", "desc": "Domeinen, tooling, warmup" },
+        { "num": "/03", "title": "Campagnes bouwen", "desc": "Lijsten, messaging, sequences" },
+        { "num": "/04", "title": "Testen & optimaliseren", "desc": "A/B tests, response tracking, itereren" }
+      ]
+    },
+    "voorJou": [
+      "Je bent afhankelijk van je netwerk voor nieuwe klanten",
+      "Je hebt outbound geprobeerd maar het leverde niets op",
+      "Je wilt een voorspelbare instroom van gekwalificeerde leads",
+      "Je hebt geen tijd om zelf campagnes te bouwen en testen"
+    ],
+    "faq": [
+      {
+        "q": "Hoeveel meetings kan ik verwachten?",
+        "a": "Afhankelijk van je markt en aanbod. Typisch 5-15 gekwalificeerde meetings per maand na de eerste optimalisatieronde. Geen loze beloftes, ik geef een realistische inschatting na De Scan."
+      },
+      {
+        "q": "Is cold outbound niet spam?",
+        "a": "Slecht uitgevoerde outbound is spam. Goed uitgevoerde outbound is relevante waarde aanbieden aan mensen die er baat bij hebben. Het verschil zit in targeting en messaging."
+      },
+      {
+        "q": "Hoe snel draait het?",
+        "a": "Domain warmup duurt 2-3 weken. Eerste resultaten binnen 4-6 weken. Optimalisatie is doorlopend."
+      }
+    ],
+    "cta": {
+      "title": "Van afhankelijk van je netwerk naar voorspelbare pipeline.",
+      "desc": "De Scan brengt in kaart welke outbound-aanpak het meeste oplevert voor jouw markt en aanbod.",
+      "ctaLabel": "Start met De Scan, \u20ac3.500"
+    }
+  },
+  "salesEnablement": {
+    "metadata": {
+      "title": "Sales Enablement voor B2B Teams | Accelr",
+      "description": "Playbooks, discovery frameworks, objection handling en team training. Geef je salesteam de structuur en tools om consistent te presteren."
+    },
+    "hero": {
+      "label": "/ Sales Enablement",
+      "title": "Een salesteam dat weet wat het moet doen.",
+      "subtitle": "Playbooks, discovery frameworks, objection handling en training. Structuur die ervoor zorgt dat je team consistent presteert.",
+      "cta": "Start met De Scan"
+    },
+    "probleem": {
+      "title": "Je team verkoopt op gevoel.",
+      "paragraphs": [
+        "Elke rep doet het anders. Discovery is een checklist. Bezwaren worden ge\u00efmproviseerd. Nieuwe mensen doen er maanden over om op snelheid te komen.",
+        "Het probleem is niet talent, het is gebrek aan structuur. Zonder playbook, zonder framework, zonder gedeelde aanpak is elke deal een individueel experiment.",
+        "Sales enablement geeft je team de tools, kennis en structuur om consistent te presteren. Niet als eenmalige training, maar als werkend systeem."
+      ]
+    },
+    "deliverables": {
+      "title": "Wat je krijgt",
+      "items": [
+        {
+          "num": "/01",
+          "title": "Sales Playbook",
+          "desc": "Het complete draaiboek voor je salesproces. Van eerste contact tot close. Stappen, templates, scripts en best practices, zodat nieuwe reps sneller productief zijn en ervaren reps consistenter."
+        },
+        {
+          "num": "/02",
+          "title": "Discovery Framework",
+          "desc": "Gestructureerde discovery die de juiste informatie boven tafel haalt. Geen checklist-gesprekken, maar een framework dat helpt om echte pijnpunten en koopbereidheid te identificeren."
+        },
+        {
+          "num": "/03",
+          "title": "Objection Handling",
+          "desc": "De 15-20 meest voorkomende bezwaren in jouw markt, met onderbouwde responses. Getest, getraind en klaar voor dagelijks gebruik door je team."
+        },
+        {
+          "num": "/04",
+          "title": "Training & Coaching",
+          "desc": "Hands-on training voor je team op de nieuwe tools en frameworks. Geen eenmalige workshop, een trainingsprogramma dat beklijft."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Hoe het werkt",
+      "items": [
+        { "num": "/01", "title": "Analyse", "desc": "Huidig salesproces en knelpunten in kaart" },
+        { "num": "/02", "title": "Ontwikkelen", "desc": "Playbook, frameworks en materialen bouwen" },
+        { "num": "/03", "title": "Trainen", "desc": "Team trainen op nieuwe aanpak" },
+        { "num": "/04", "title": "Embedden", "desc": "Borgen in dagelijkse praktijk en CRM" }
+      ]
+    },
+    "voorJou": [
+      "Je salesteam presteert inconsistent",
+      "Nieuwe reps doen er te lang over om productief te worden",
+      "Er is geen gestandaardiseerd salesproces",
+      "Je verliest deals door slechte discovery of opvolging"
+    ],
+    "faq": [
+      {
+        "q": "Werkt dit ook voor kleine teams (2-3 reps)?",
+        "a": "Juist. Bij kleine teams is consistentie extra belangrijk. Een playbook zorgt ervoor dat iedereen op dezelfde manier verkoopt, en dat kennis niet verloren gaat als iemand vertrekt."
+      },
+      {
+        "q": "Hoe verschilt dit van een standaard salestraining?",
+        "a": "Ik bouw geen generieke training. Alles is gebaseerd op jouw markt, jouw product en jouw salesproces. Het resultaat is een werkend systeem, niet een map met slides."
+      },
+      {
+        "q": "Hoe lang duurt het voordat het effect heeft?",
+        "a": "De meeste teams zien binnen 4-6 weken verbetering in discovery-kwaliteit en conversion rates. Volledige adoptie kost typisch 2-3 maanden."
+      }
+    ],
+    "cta": {
+      "title": "Geef je team de structuur om te winnen.",
+      "desc": "De Scan brengt in kaart waar je salesproces hapert en welke enablement-onderdelen het meeste impact hebben.",
+      "ctaLabel": "Start met De Scan, \u20ac3.500"
+    }
+  },
+  "aiAutomation": {
+    "metadata": {
+      "title": "AI Sales Automation voor B2B | Accelr",
+      "description": "AI structureel ge\u00efntegreerd in je salesproces. Clay, Make, n8n, Apollo. Geen experimenten, werkende systemen."
+    },
+    "hero": {
+      "label": "/ AI & Automation",
+      "title": "AI die daadwerkelijk verkoopt.",
+      "subtitle": "Geen ChatGPT-experimenten. Structurele AI-integratie in je salesproces die meetbaar meer pipeline en omzet oplevert.",
+      "cta": "Start met De Scan"
+    },
+    "probleem": {
+      "title": "De meeste bedrijven gebruiken AI als speeltje.",
+      "paragraphs": [
+        "Een prompt in ChatGPT. Een lijstje uit Apollo. Een automation die \u00e9\u00e9n keer draait en dan breekt.",
+        "Het probleem is niet de technologie, het is de implementatie. AI werkt alleen als het structureel is ingebed in je salesproces: van prospecting tot personalisatie tot opvolging. Niet als losse tool, maar als onderdeel van een werkend systeem.",
+        "Dat is wat ik bouw. AI-gedreven sales infrastructuur die draait zonder dat jij elke prompt zelf hoeft te schrijven."
+      ]
+    },
+    "deliverables": {
+      "title": "Wat ik bouw",
+      "items": [
+        {
+          "num": "/01",
+          "title": "AI Prospecting Engine",
+          "desc": "Automatisch je ideale klanten vinden en verrijken met Clay en Apollo. Bedrijfsdata, contactgegevens, technographics en intent signals, zonder handmatig zoeken."
+        },
+        {
+          "num": "/02",
+          "title": "Workflow Automation",
+          "desc": "Make en n8n workflows die je CRM, email tools en prospecting met elkaar verbinden. Leads die binnenkomen worden automatisch verrijkt, gescoord en gerouteerd."
+        },
+        {
+          "num": "/03",
+          "title": "AI-Personalisatie",
+          "desc": "Outbound berichten die niet lezen als spam. AI-gegenereerde personalisatie op basis van bedrijfsdata, LinkedIn activiteit en technische stack. Op schaal, in jouw tone of voice."
+        },
+        {
+          "num": "/04",
+          "title": "Prompt Libraries & Templates",
+          "desc": "Een bibliotheek van geteste prompts voor je team: discovery vragen, email varianten, objection handling, lead research. Klaar voor dagelijks gebruik."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Hoe het werkt",
+      "items": [
+        { "num": "/01", "title": "Audit huidige stack", "desc": "Wat heb je, wat mist er, wat werkt niet?" },
+        { "num": "/02", "title": "Architectuur ontwerp", "desc": "Welke tools, welke flows, welke triggers" },
+        { "num": "/03", "title": "Bouwen & testen", "desc": "Ik configureer, integreer en test alles" },
+        { "num": "/04", "title": "Training & overdracht", "desc": "Je team kan het zelf runnen" }
+      ]
+    },
+    "voorJou": [
+      "Je hebt tools gekocht maar niemand maakt ze werkend",
+      "Je wilt AI inzetten maar weet niet waar te beginnen",
+      "Je prospecting is handmatig en kost te veel tijd",
+      "Je outbound berichten zijn generiek en converteren niet"
+    ],
+    "faq": [
+      {
+        "q": "Moet ik al AI tools hebben?",
+        "a": "Nee. Ik selecteer en implementeer de juiste tools voor jouw situatie. De Scan brengt in kaart wat je nodig hebt."
+      },
+      {
+        "q": "Wat kost dit?",
+        "a": "Afhankelijk van scope. Typisch \u20ac3.000-\u20ac8.000 als onderdeel van een groter traject. De Scan bepaalt de exacte scope en prijs."
+      },
+      {
+        "q": "Kan mijn team dit zelf onderhouden?",
+        "a": "Ja, dat is het doel. Ik bouw het, documenteer het, en train je team. Het systeem is van jou."
+      }
+    ],
+    "cta": {
+      "title": "Benieuwd wat AI voor jouw sales kan betekenen?",
+      "desc": "De Scan brengt in kaart waar AI het meeste oplevert in jouw specifieke situatie. Concrete kansen, geen vage beloftes.",
+      "ctaLabel": "Start met De Scan, \u20ac3.500"
+    }
+  },
+  "fractional": {
+    "metadata": {
+      "title": "Fractional Head of Sales Nederland | Accelr",
+      "description": "Ervaren commercieel leiderschap, 1-2 dagen per week. Voor scale-ups die te groot zijn om zonder te groeien, maar te klein voor een fulltime hire."
+    },
+    "hero": {
+      "title": "Een Head of Sales zonder het fulltime",
+      "titleHighlight": "prijskaartje",
+      "subtitle": "Ervaren commercieel leiderschap, 1-2 dagen per week. Voor scale-ups die te groot zijn om zonder te groeien, maar te klein voor een fulltime hire.",
+      "cta": "Start met De Scan",
+      "ctaSecondary": "Plan een gesprek"
+    },
+    "watIsHet": {
+      "label": "/ Wat is het?",
+      "title": "Wat is een Fractional Head of Sales?",
+      "desc": "Een Fractional Head of Sales is een ervaren commercieel leider die parttime (1-2 dagen per week) voor jouw bedrijf werkt. Je krijgt strategisch leiderschap \u00e9n hands-on execution, van CRM-inrichting tot teamcoaching tot pipeline management. In Amerika is dit model al jaren gangbaar bij meer dan 120.000 bedrijven. In Nederland begint het net."
+    },
+    "vergelijking": {
+      "label": "/ Vergelijking",
+      "title": "Wat kost sales leiderschap?",
+      "headers": {
+        "fulltimeHos": "Fulltime HoS",
+        "interim": "Interim",
+        "accelrFractional": "Accelr Fractional"
+      },
+      "rows": [
+        {
+          "aspect": "Kosten/jaar",
+          "fulltime": "\u20ac150K-\u20ac220K",
+          "interim": "\u20ac120K-\u20ac180K",
+          "accelr": "\u20ac48K-\u20ac96K"
+        },
+        {
+          "aspect": "Risico bij mis-match",
+          "fulltime": "\u20ac80K+ (6 mnd salaris + werving)",
+          "interim": "Medium (contract)",
+          "accelr": "Laag (maandelijks)"
+        },
+        {
+          "aspect": "Beschikbaarheid",
+          "fulltime": "5 dagen/week",
+          "interim": "5 dagen/week",
+          "accelr": "1-2 dagen/week"
+        },
+        {
+          "aspect": "Expertise breedte",
+          "fulltime": "1 profiel, 1 bedrijf",
+          "interim": "1 profiel",
+          "accelr": "Breed (strategie+ops+AI)"
+        },
+        {
+          "aspect": "Kennisoverdracht",
+          "fulltime": "Vertrekt met kennis",
+          "interim": "Vertrekt",
+          "accelr": "Systemen + docs blijven"
+        },
+        {
+          "aspect": "Focus",
+          "fulltime": "Langetermijn operatie",
+          "interim": "Gat vullen",
+          "accelr": "Fundament bouwen + schalen"
+        },
+        {
+          "aspect": "Commitment",
+          "fulltime": "12+ maanden",
+          "interim": "6-12 maanden",
+          "accelr": "Min. 6 maanden"
+        }
+      ],
+      "footnote": "Interim houdt het draaiende. Fractional brengt versnelling, ervaring en richting."
+    },
+    "traject": {
+      "label": "/ Het traject",
+      "title": "Wat ik concreet doe",
+      "steps": [
+        {
+          "num": "/01",
+          "period": "Week 1-4",
+          "title": "Diagnose",
+          "desc": "Volledige doorlichting via De Scan. Geen extra kosten, zit in eerste maand. Sales Maturity Score op alle pilaren, geprioriteerde roadmap."
+        },
+        {
+          "num": "/02",
+          "period": "Maand 2-3",
+          "title": "Bouwen",
+          "desc": "CRM, proces, playbooks, outbound, AI-automations. Hands-on implementatie samen met je team."
+        },
+        {
+          "num": "/03",
+          "period": "Maand 4+",
+          "title": "Runnen",
+          "desc": "Pipeline reviews, team coaching, forecast, optimalisatie. Het systeem draait, met doorlopende bijsturing."
+        }
+      ]
+    },
+    "voorWie": {
+      "label": "/ Fit check",
+      "title": "Voor wie dit werkt",
+      "voorWieTitle": "Voor wie dit werkt",
+      "voorWieItems": [
+        "B2B SaaS/tech/IT, \u20ac1M-\u20ac10M omzet",
+        "Technische founder die nog zelf verkoopt",
+        "Minimaal 2 mensen in sales (of ambitie om team te bouwen)",
+        "Bereid om autoriteit te delegeren"
+      ],
+      "nietVoorWieTitle": "Wanneer dit NIET werkt",
+      "nietVoorWieItems": [
+        "<\u20ac500K omzet (te vroeg, focus op PMF)",
+        "Niet bereid data en CRM te delen",
+        "Dagelijkse fulltime aanwezigheid nodig",
+        "Zoekt een bureau dat het \"overneemt\""
+      ]
+    },
+    "investering": {
+      "label": "/ Investering",
+      "title": "De investering",
+      "price": "Vanaf \u20ac4.000",
+      "priceSuffix": "/maand",
+      "features": [
+        "1-2 dagen per week (8-16 uur)",
+        "Minimaal 6 maanden commitment",
+        "Eerste maand = diagnose (geen aparte Scan-kosten)",
+        "Maandelijks opzegbaar na minimumperiode"
+      ]
+    },
+    "resultaten": {
+      "label": "/ Resultaten",
+      "title": "Wat anderen bereikten",
+      "caseStudies": [
+        {
+          "title": "Bedrijfsnaam A",
+          "result": "\u20ac1.8M \u2192 \u20ac2.6M ARR (+44%)"
+        },
+        {
+          "title": "Bedrijfsnaam B",
+          "result": "\u20ac600K onbenut, Upsell +262%"
+        },
+        {
+          "title": "Bedrijfsnaam C",
+          "result": "\u20ac2.5M \u2192 \u20ac4.1M ARR (+64%)"
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Klaar voor commercieel leiderschap zonder fulltime prijskaartje?",
+      "desc": "Plan een gesprek om te bespreken of een Fractional Head of Sales past bij jouw situatie.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blog": {
+    "metadata": {
+      "title": "Blog | Inzichten over B2B sales | Accelr",
+      "description": "Artikelen over B2B sales, CRM, AI-tools, outbound en salesstrategie voor tech-founders."
+    },
+    "hero": {
+      "label": "/ Blog",
+      "title": "Inzichten & artikelen",
+      "subtitle": "Praktische inzichten over B2B sales, CRM, AI-tools, outbound en salesstrategie. Specifiek voor tech-founders."
+    },
+    "posts": [
+      {
+        "title": "Waarom je eerste sales hire mislukt (en hoe je het voorkomt)",
+        "excerpt": "Je hebt product-market fit, omzet groeit, tijd voor die eerste sales hire. Maar 6 maanden later: geen resultaat, \u20ac100K+ uitgegeven. Dit patroon zie ik bij 80% van de founders.",
+        "tag": "Sales Strategy",
+        "readTime": "6 min"
+      },
+      {
+        "title": "Fractional Head of Sales: wat is het en waarom groeit het in Nederland?",
+        "excerpt": "In Amerika is het al jaren gangbaar. In Nederland begint het net. Een Fractional Head of Sales is een ervaren commercieel leider die parttime voor jouw bedrijf werkt. Alles wat je moet weten.",
+        "tag": "Sales Leadership",
+        "readTime": "8 min"
+      }
+    ],
+    "readArticle": "Lees artikel"
+  },
+  "resultaten": {
+    "metadata": {
+      "title": "Resultaten | Case Studies | Accelr",
+      "description": "Geen theorie. Dit is wat er gebeurt als je salesoperatie een systeem wordt."
+    },
+    "hero": {
+      "title": "Resultaten",
+      "subtitle": "Geen theorie. Dit is wat er gebeurt als je salesoperatie een systeem wordt."
+    },
+    "backLink": "Terug naar alle resultaten",
+    "caseStudyA": {
+      "badge": "B2B SaaS \u00b7 HR-tech \u00b7 22 medewerkers",
+      "name": "[Bedrijfsnaam A]",
+      "headline": "\u20ac1.8M \u2192 \u20ac2.6M ARR (+44%) in 9 maanden",
+      "highlights": [
+        "Win rate +55%, deal size +33%, sales cycle -42%",
+        "HubSpot heringericht, 6-staps verkoopproces, outbound engine gebouwd",
+        "Founder van 70% naar 20% betrokkenheid in deals"
+      ],
+      "quote": "Na 6 maanden draaide het zonder mij. Tim heeft ons verkoopproces getransformeerd van chaos naar systeem.",
+      "uitdaging": "De uitdaging",
+      "uitdagingDesc": "De founder deed 70% van alle deals zelf. Twee account executives werkten zonder playbook, zonder gestructureerd CRM-gebruik, en zonder gedefinieerd salesproces. Pipeline-overzicht bestond uit een Google Sheet. Win rate was onbekend. De forecast was het onderbuikgevoel van de founder.",
+      "aanpak": "De aanpak",
+      "opdracht": "Opdracht: Fractional Head of Sales, 2 dagen per week, 9 maanden.",
+      "maand1Title": "Maand 1, De Scan",
+      "maand1Items": [
+        "HubSpot audit: 40% van deals niet gelogd",
+        "Geen gestandaardiseerd verkoopproces",
+        "2 AE's, geen SDR",
+        "Rapport met 47 bevindingen, 12 kritieke gaps"
+      ],
+      "maand2Title": "Maand 2-4, Bouwen",
+      "maand2Items": [
+        "HubSpot heringericht: pipeline stages, deal rotation, dashboards",
+        "6-staps verkoopproces ontwikkeld en gedocumenteerd",
+        "Sales playbook v1.0 geschreven",
+        "Outbound engine gebouwd: Clay + Lemlist, 200 prospects per maand"
+      ],
+      "maand5Title": "Maand 5-9, Runnen",
+      "maand5Items": [
+        "Wekelijkse pipeline reviews ge\u00efnstalleerd",
+        "SDR #1 aangenomen en onboard",
+        "AI-automations: lead scoring, Fireflies \u2192 CRM integratie",
+        "Founder-betrokkenheid: 70% \u2192 20% van deals"
+      ],
+      "resultatenTitle": "Resultaten",
+      "tableHeaders": { "metric": "Metric", "voor": "Voor", "na": "Na", "verschil": "Verschil" },
+      "tableRows": [
+        { "metric": "Pipeline/maand", "voor": "Onbekend", "na": "\u20ac380K", "verschil": "\u2014" },
+        { "metric": "Gemiddelde deal size", "voor": "\u20ac18K", "na": "\u20ac24K", "verschil": "+33%" },
+        { "metric": "Win rate", "voor": "~20%", "na": "31%", "verschil": "+55%" },
+        { "metric": "Lead-to-close tijd", "voor": "90 dagen", "na": "52 dagen", "verschil": "-42%" },
+        { "metric": "Deals per maand", "voor": "2-3", "na": "5-6", "verschil": "+100%" },
+        { "metric": "Founder in deals", "voor": "70%", "na": "20%", "verschil": "-71%" },
+        { "metric": "ARR", "voor": "\u20ac1.8M", "na": "\u20ac2.6M", "verschil": "+44%" }
+      ],
+      "quoteDetailed": "Tim dwong ons eerlijk te kijken naar onze pipeline. Confronterend, 40% van deals stond niet eens in het CRM. Na 3 maanden hadden we voor het eerst echt zicht op onze funnel. Na 6 maanden draaide het zonder mij.",
+      "quoteAuthor": "[Naam]",
+      "quoteRole": "Founder [Bedrijfsnaam A]"
+    },
+    "caseStudyB": {
+      "badge": "IT-dienstverlener \u00b7 35 medewerkers",
+      "name": "[Bedrijfsnaam B]",
+      "headline": "\u20ac600K onbenut potentieel gevonden, Upsell +262%",
+      "highlights": [
+        "Salesforce adoptie van 15% naar 92%, forecast accuracy 78%",
+        "New business engine: \u20ac0 naar \u20ac220K per maand",
+        "Klantportfolio-analyse onthulde \u20ac600K verborgen kansen"
+      ],
+      "quote": "De wake-up call die we nodig hadden. We zaten op \u20ac600K aan potentieel dat we niet zagen.",
+      "uitdaging": "De uitdaging",
+      "uitdagingDesc": "Een IT-dienstverlener met \u20ac3.2M omzet en 35 medewerkers. Sales draaide volledig op bestaande klanten en inbound. Geen actieve new business. Salesforce was aangeschaft maar adoptie lag op 15%. Geen pipeline-overzicht, geen forecasting, geen gestructureerde upsell. De directie wist dat er meer in zat, maar niet hoeveel.",
+      "aanpak": "De aanpak",
+      "scanTitle": "De Scan (6 weken)",
+      "scanItems": [
+        "Salesforce audit: 85% van accounts incompleet, geen opportunity tracking",
+        "Klantportfolio-analyse: \u20ac600K onbenut cross-sell en upsell potentieel ge\u00efdentificeerd",
+        "Geen gedefinieerd salesproces, alles ad-hoc",
+        "Team assessment: 3 account managers, geen pipeline ownership"
+      ],
+      "bouwenTitle": "Bouwen (maand 2-5)",
+      "bouwenItems": [
+        "Salesforce heringericht: pipeline stages, dashboards, deal tracking",
+        "Upsell playbook ontwikkeld per klant-segment",
+        "New business outbound: LinkedIn + email sequences",
+        "Wekelijkse pipeline reviews ingevoerd"
+      ],
+      "resultatenTitle": "Resultaten",
+      "tableRows": [
+        { "metric": "Salesforce adoptie", "voor": "15%", "na": "92%", "verschil": "+513%" },
+        { "metric": "Upsell/cross-sell", "voor": "Ad-hoc", "na": "Gestructureerd", "verschil": "+262%" },
+        { "metric": "New business per maand", "voor": "\u20ac0", "na": "\u20ac220K", "verschil": "\u2014" },
+        { "metric": "Pipeline visibility", "voor": "Geen", "na": "Real-time dashboard", "verschil": "\u2014" },
+        { "metric": "Forecast accuracy", "voor": "0%", "na": "78%", "verschil": "\u2014" }
+      ],
+      "quoteDetailed": "De wake-up call die we nodig hadden. We zaten op \u20ac600K aan potentieel dat we niet zagen. Tim heeft het zichtbaar gemaakt en een systeem gebouwd om het te oogsten.",
+      "quoteAuthor": "[Naam]",
+      "quoteRole": "Directeur [Bedrijfsnaam B]"
+    },
+    "caseStudyC": {
+      "badge": "B2B SaaS \u00b7 Supply chain \u00b7 18 medewerkers",
+      "name": "[Bedrijfsnaam C]",
+      "headline": "\u20ac2.5M \u2192 \u20ac4.1M ARR (+64%) in 12 maanden",
+      "highlights": [
+        "Pipeline +244%, win rate +61%, sales cycle -43%",
+        "Volledige HubSpot implementatie, AI lead scoring, outbound engine",
+        "Fulltime Head of Sales geworven en succesvol onboard"
+      ],
+      "quote": "Het probleem was niet de persoon, maar het systeem. Tim heeft eerst het fundament gebouwd.",
+      "uitdaging": "De uitdaging",
+      "uitdagingDesc": "Een B2B SaaS bedrijf in supply chain met \u20ac2.5M ARR. De founder had net een VP Sales aangenomen die na 4 maanden weer vertrok, \u20ac120K verlies inclusief opportunity cost. Het team van 3 AE's opereerde zonder systeem. Geen CRM-discipline, geen forecasting, geen gestructureerd verkoopproces. De founder overwoog een tweede hire maar wilde eerst het fundament op orde.",
+      "aanpak": "De aanpak",
+      "opdracht": "Fractional Head of Sales, 12 maanden",
+      "maand1Title": "Maand 1, Diagnose",
+      "maand1Items": [
+        "CRM audit: Pipedrive \u2192 HubSpot migratie noodzakelijk",
+        "Geen gestandaardiseerde sales cycle",
+        "Team skills assessment uitgevoerd"
+      ],
+      "maand2Title": "Maand 2-4, Bouwen",
+      "maand2Items": [
+        "HubSpot implementatie en migratie",
+        "7-staps verkoopproces ontwikkeld",
+        "Sales playbook geschreven",
+        "Outbound engine gebouwd: Clay + Apollo",
+        "AI lead scoring ge\u00efmplementeerd"
+      ],
+      "maand5Title": "Maand 5-9, Opschalen",
+      "maand5Items": [
+        "SDR aangenomen en onboard",
+        "Team training programma opgestart",
+        "Wekelijkse pipeline reviews en kwartaal business reviews"
+      ],
+      "maand10Title": "Maand 10-12, Overdracht",
+      "maand10Items": [
+        "Fulltime Head of Sales geworven en onboard",
+        "Alle systemen en processen gedocumenteerd",
+        "Succesvolle overdracht afgerond"
+      ],
+      "resultatenTitle": "Resultaten",
+      "tableRows": [
+        { "metric": "ARR", "voor": "\u20ac2.5M", "na": "\u20ac4.1M", "verschil": "+64%" },
+        { "metric": "Pipeline per maand", "voor": "\u20ac180K", "na": "\u20ac620K", "verschil": "+244%" },
+        { "metric": "Win rate", "voor": "18%", "na": "29%", "verschil": "+61%" },
+        { "metric": "Sales cycle", "voor": "120 dagen", "na": "68 dagen", "verschil": "-43%" },
+        { "metric": "Team grootte", "voor": "3 AE's", "na": "3 AE's + 1 SDR + HoS", "verschil": "\u2014" },
+        { "metric": "Founder in deals", "voor": "60%", "na": "5%", "verschil": "-92%" },
+        { "metric": "Kosten vs fulltime VP", "voor": "\u2014", "na": "\u2014", "verschil": "60% goedkoper" }
+      ],
+      "quoteDetailed": "Het probleem was niet de persoon, maar het systeem. Tim heeft eerst het fundament gebouwd en daarna de juiste HoS gevonden om het over te nemen. Dat had ik zelf nooit kunnen doen.",
+      "quoteAuthor": "[Naam]",
+      "quoteRole": "CTO & Co-founder [Bedrijfsnaam C]"
+    },
+    "cta": {
+      "title": "Herkenbaar? Plan een gesprek.",
+      "desc": "Ontdek wat er mogelijk is voor jouw salesoperatie.",
+      "cta": "Start het gesprek"
+    }
+  },
+  "score": {
+    "metadata": {
+      "title": "Sales Maturity Score, Check je salesmotor",
+      "description": "10 dimensies. E\u00e9n score. Weet waar je salesmotor vastloopt en wat de logische volgende stap is."
+    },
+    "form": {
+      "label": "/ Sales Maturity Score",
+      "title": "Waar staat jouw salesmotor?",
+      "subtitle": "Scoor jezelf op 10 dimensies. Je krijgt direct inzicht in je sterke punten en aandachtsgebieden.",
+      "submit": "Bekijk mijn score",
+      "averageScore": "Gemiddelde score:"
+    },
+    "dimensions": [
+      {
+        "id": "strategy",
+        "name": "Strategy",
+        "question": "Hoe scherp is je ICP en positionering?",
+        "low": "Je ICP is vaag of te breed. Je probeert iedereen te verkopen.",
+        "high": "Scherpe ICP, duidelijke positionering, bewezen product-market fit."
+      },
+      {
+        "id": "process",
+        "name": "Process",
+        "question": "Heb je een gedocumenteerd salesproces?",
+        "low": "Geen vast proces. Elke deal verloopt anders.",
+        "high": "Gedocumenteerd proces met duidelijke stages en criteria."
+      },
+      {
+        "id": "pipeline",
+        "name": "Pipeline",
+        "question": "Hoe voorspelbaar is je pipeline?",
+        "low": "De ene maand vier deals, de volgende nul.",
+        "high": "Voorspelbare pipeline met consistente flow en accurate forecast."
+      },
+      {
+        "id": "crm",
+        "name": "CRM",
+        "question": "Hoe goed wordt je CRM gebruikt?",
+        "low": "Geen CRM, of een CRM dat niemand gebruikt.",
+        "high": "CRM volledig geadopteerd, schone data, bruikbare rapportage."
+      },
+      {
+        "id": "outbound",
+        "name": "Outbound",
+        "question": "Doe je actief en systematisch outbound?",
+        "low": "Alleen inbound of netwerk. Geen systematische acquisitie.",
+        "high": "Multi-channel outbound met meetbare resultaten."
+      },
+      {
+        "id": "enablement",
+        "name": "Enablement",
+        "question": "Heeft je team playbooks en training?",
+        "low": "Geen playbooks, scripts of training.",
+        "high": "Volledige playbooks, getraind team, snelle onboarding."
+      },
+      {
+        "id": "ai",
+        "name": "AI & Automation",
+        "question": "Hoe ver ben je met AI en automation?",
+        "low": "Geen AI-tools, of tools gekocht maar niet werkend.",
+        "high": "AI structureel ge\u00efntegreerd in het hele salesproces."
+      },
+      {
+        "id": "team",
+        "name": "Team",
+        "question": "Heb je de juiste mensen en structuur?",
+        "low": "Founder doet alles, of team zonder duidelijke rollen.",
+        "high": "Gestructureerd team met heldere rollen en verantwoordelijkheden."
+      },
+      {
+        "id": "data",
+        "name": "Data",
+        "question": "Track je de juiste KPI's?",
+        "low": "Geen KPI-tracking. Beslissingen op gevoel.",
+        "high": "Volledige KPI-tracking, accurate forecasts, data-gedreven beslissingen."
+      },
+      {
+        "id": "leadership",
+        "name": "Leadership",
+        "question": "Wie stuurt de sales aan?",
+        "low": "Geen sales management. Geen accountability.",
+        "high": "Actief sales management met reviews, coaching en accountability."
+      }
+    ],
+    "results": {
+      "label": "/ Jouw resultaat",
+      "title": "Sales Maturity Score",
+      "scorePerDimensie": "Score per dimensie",
+      "top3": "Top 3 aandachtsgebieden",
+      "scoreLegenda": "Score-legenda",
+      "levels": {
+        "urgent": { "label": "Urgent", "desc": "Je salesmotor heeft fundamentele hiaten. Hier laat je significant geld liggen." },
+        "opbouwfase": { "label": "Opbouwfase", "desc": "Er zijn basiselementen maar het systeem mist structuur en consistentie." },
+        "groeipotentieel": { "label": "Groeipotentieel", "desc": "Goede basis, maar er is ruimte voor optimalisatie en opschaling." },
+        "optimalisatie": { "label": "Optimalisatie", "desc": "Sterke basis. Focus op fine-tuning en het maximaliseren van efficiency." }
+      },
+      "legendItems": {
+        "urgent": { "range": "<4", "label": "Urgent", "desc": "Hier laat je geld liggen" },
+        "groei": { "range": "4-6", "label": "Groeipotentieel", "desc": "Ruimte voor verbetering" },
+        "optim": { "range": "7+", "label": "Optimalisatie", "desc": "Fine-tuning en schaling" }
+      },
+      "cta": {
+        "desc": "Dit is een quick-scan. De professionele Scan doorlicht alles met interviews, data-analyse en euro-waarde per kans.",
+        "price": "\u20ac3.500",
+        "priceNote": "vast \u00b7 Niet tevreden? Geld terug.",
+        "ctaLabel": "Plan je Scan",
+        "retake": "Opnieuw invullen"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "intro": "Accelr respecteert de privacy van alle gebruikers en zorgt ervoor dat persoonlijke informatie vertrouwelijk wordt behandeld.",
+    "sections": {
+      "backToHome": "Terug naar home",
+      "legalLabel": "/ Juridisch",
+      "lastUpdate": "Laatste update: februari 2026",
+      "whoWeAre": {
+        "title": "1. Wie zijn wij",
+        "desc": "Accelr is een eenmanszaak gevestigd in Haarlem, Nederland, opgericht door Tim Samsom. Wij helpen B2B-bedrijven hun salesprocessen te professionaliseren.",
+        "websiteLabel": "Website",
+        "emailLabel": "E-mail",
+        "kvkLabel": "KvK-nummer",
+        "locationLabel": "Locatie",
+        "location": "Haarlem, Nederland"
+      },
+      "dataCollection": {
+        "title": "2. Welke gegevens verzamelen wij",
+        "providedTitle": "Gegevens die je zelf verstrekt",
+        "providedItems": [
+          "Naam, e-mailadres en telefoonnummer (via contactformulier of Calendly)",
+          "Bedrijfsnaam en functie",
+          "Inhoud van berichten die je ons stuurt"
+        ],
+        "autoTitle": "Gegevens die automatisch worden verzameld",
+        "autoItems": [
+          "IP-adres (geanonimiseerd)",
+          "Browsertype en besturingssysteem",
+          "Bezochte pagina's en tijdstip van bezoek",
+          "Verwijzende website"
+        ]
+      },
+      "purpose": {
+        "title": "3. Waarvoor gebruiken wij je gegevens",
+        "colPurpose": "Doel",
+        "colBasis": "Grondslag (AVG)",
+        "rows": [
+          { "doel": "Beantwoorden van je vraag of aanvraag", "grondslag": "Gerechtvaardigd belang" },
+          { "doel": "Inplannen van een gesprek via Calendly", "grondslag": "Uitvoering overeenkomst" },
+          { "doel": "Verbeteren van onze website", "grondslag": "Gerechtvaardigd belang" },
+          { "doel": "Analyseren van websitegebruik", "grondslag": "Toestemming (cookies)" },
+          { "doel": "Versturen van relevante updates (alleen met toestemming)", "grondslag": "Toestemming" }
+        ],
+        "noSelling": "Wij verkopen je gegevens nooit aan derden."
+      },
+      "cookies": {
+        "title": "4. Cookies",
+        "desc": "Onze website gebruikt cookies. Bij je eerste bezoek vragen wij om toestemming.",
+        "types": [
+          {
+            "title": "Noodzakelijke cookies",
+            "description": "Vereist voor het functioneren van de website (bijv. cookie-voorkeur opslaan). Hiervoor is geen toestemming nodig.",
+            "status": "Altijd actief",
+            "statusColor": "bg-accent-teal/10 text-accent-teal-dark"
+          },
+          {
+            "title": "Analytische cookies",
+            "description": "Wij gebruiken Vercel Analytics om te begrijpen hoe bezoekers onze website gebruiken. IP-adressen worden geanonimiseerd.",
+            "status": "Met toestemming",
+            "statusColor": "bg-warning/10 text-warning"
+          },
+          {
+            "title": "Marketing cookies",
+            "description": "Wij gebruiken momenteel geen marketing cookies.",
+            "status": "Niet actief",
+            "statusColor": "bg-text-dark-muted/10 text-text-dark-muted"
+          }
+        ],
+        "changePrefs": "Je kunt je cookievoorkeuren op elk moment wijzigen via de cookiebanner of door je browserinstellingen aan te passen."
+      },
+      "thirdParties": {
+        "title": "5. Derden en verwerkers",
+        "desc": "Wij delen gegevens met de volgende partijen, uitsluitend voor de genoemde doeleinden:",
+        "colParty": "Partij",
+        "colPurpose": "Doel",
+        "colLocation": "Locatie",
+        "rows": [
+          { "partij": "Calendly", "doel": "Gesprekken inplannen", "locatie": "VS (EU Standard Contractual Clauses)" },
+          { "partij": "Vercel", "doel": "Website hosting & analytics", "locatie": "VS (EU Standard Contractual Clauses)" },
+          { "partij": "HubSpot", "doel": "CRM en contactbeheer", "locatie": "VS (EU Standard Contractual Clauses)" }
+        ],
+        "dpa": "Met alle verwerkers zijn verwerkersovereenkomsten gesloten conform de AVG."
+      },
+      "retention": {
+        "title": "6. Bewaartermijnen",
+        "items": [
+          { "label": "Contactgegevens", "term": "maximaal 2 jaar na laatste contact" },
+          { "label": "Analytische data", "term": "maximaal 26 maanden (geanonimiseerd)" },
+          { "label": "E-mailcorrespondentie", "term": "maximaal 2 jaar" }
+        ]
+      },
+      "rights": {
+        "title": "7. Jouw rechten",
+        "desc": "Op grond van de AVG heb je de volgende rechten:",
+        "items": [
+          { "right": "Inzage", "desc": "Opvragen welke gegevens wij van je hebben" },
+          { "right": "Correctie", "desc": "Onjuiste gegevens laten aanpassen" },
+          { "right": "Verwijdering", "desc": "Je gegevens laten verwijderen" },
+          { "right": "Beperking", "desc": "Verwerking tijdelijk stopzetten" },
+          { "right": "Overdraagbaarheid", "desc": "Je gegevens ontvangen in een gangbaar formaat" },
+          { "right": "Bezwaar", "desc": "Bezwaar maken tegen verwerking op basis van gerechtvaardigd belang" }
+        ],
+        "sendRequest": "Stuur je verzoek naar",
+        "responseTime": "We reageren binnen 30 dagen.",
+        "complaint": "Je hebt ook het recht om een klacht in te dienen bij de",
+        "authority": "Autoriteit Persoonsgegevens"
+      },
+      "security": {
+        "title": "8. Beveiliging",
+        "desc": "Wij nemen passende technische en organisatorische maatregelen om je gegevens te beschermen, waaronder:",
+        "items": [
+          "SSL/TLS-versleuteling op de gehele website",
+          "Toegangsbeperking tot persoonsgegevens",
+          "Regelmatige controle van beveiligingsmaatregelen"
+        ]
+      },
+      "changes": {
+        "title": "9. Wijzigingen",
+        "desc": "Wij kunnen dit privacybeleid wijzigen. De laatste versie is altijd beschikbaar op",
+        "notify": "Bij belangrijke wijzigingen informeren wij je via de website."
+      },
+      "contact": {
+        "title": "10. Contact",
+        "desc": "Vragen over dit privacybeleid? Neem contact op:"
+      }
+    }
+  },
+  "cookieBanner": {
+    "text": "Wij gebruiken cookies om onze website te verbeteren. Noodzakelijke cookies zijn altijd actief. Analytische cookies plaatsen we alleen met jouw toestemming.",
+    "accept": "Accepteren",
+    "necessary": "Alleen noodzakelijk",
+    "privacyLink": "Privacybeleid"
+  },
+  "expertiseMapping": {
+    "label": "/ Expertise",
+    "title": "Hoe dit mapt op wat ik bouw",
+    "cards": {
+      "deScan": {
+        "label": "DIAGNOSE",
+        "title": "De Scan\u2122",
+        "desc": "Diagnosticeert alle pilaren. Output = strategie + actieplan."
+      },
+      "strategie": {
+        "label": "STRATEGIE",
+        "title": "Strategie & GTM",
+        "desc": "ICP, positionering, GTM, pricing. Het fundament."
+      },
+      "outbound": {
+        "label": "PROCES \u00b7 LAAG 1",
+        "title": "Outbound & Leadgen",
+        "desc": "Pipeline Generatie engine"
+      },
+      "crm": {
+        "label": "PROCES \u00b7 LAAG 2+3",
+        "title": "CRM & Salesproces",
+        "desc": "Executie + Meting"
+      },
+      "enablement": {
+        "label": "PEOPLE \u00b7 LAAG 1+2",
+        "title": "Sales Enablement",
+        "desc": "Enablement + Zichtbaarheid"
+      },
+      "ai": {
+        "label": "\u00d7 AI",
+        "title": "AI & Automation",
+        "desc": "Automation + Intelligence + Analytics"
+      }
+    },
+    "overkoepelend": {
+      "label": "Overkoepelend",
+      "title": "Fractional Head of Sales",
+      "desc": "Bewaakt alle pilaren doorlopend. 1-2 dagen/week."
+    }
+  },
+  "frameworkArchitecture": {
+    "label": "/ Framework",
+    "title": "De architectuur",
+    "subtitle": "Drie pilaren, elk met drie lagen. Aangedreven door AI. Dit is wat we diagnosticeren, ontwerpen en bouwen.",
+    "strategie": {
+      "title": "Strategie",
+      "subtitle": "de input die alles aandrijft",
+      "items": [
+        "ICP-definitie & buyer persona's",
+        "Go-to-market plan",
+        "Kanaalstrategie",
+        "Positionering & messaging",
+        "Pricing & packaging",
+        "Kortingsbeleid & dealstructuur",
+        "Competitive positioning",
+        "Marktsegmentatie"
+      ],
+      "cta": "Bekijk Strategie & GTM expertise"
+    },
+    "proces": {
+      "title": "Proces",
+      "subtitle": "Van eerste contact tot getekend contract, en alles wat je meet",
+      "layers": [
+        {
+          "title": "Laag 1: Pipeline Generatie",
+          "items": [
+            "ICP-to-lijst targeting",
+            "Outbound email engine",
+            "LinkedIn sequences",
+            "Call structuur",
+            "Multi-channel orchestratie",
+            "Lead kwalificatie (MQL \u2192 SQL)"
+          ]
+        },
+        {
+          "title": "Laag 2: Sales Executie",
+          "items": [
+            "Salesproces ontwerp",
+            "CRM selectie + inrichting",
+            "Pipeline stages",
+            "Discovery-methodiek",
+            "Proposal structuur",
+            "Objection handling"
+          ]
+        },
+        {
+          "title": "Laag 3: Meting & Optimalisatie",
+          "items": [
+            "KPI dashboards",
+            "Pipeline health metrics",
+            "Forecasting",
+            "Win/loss analyse",
+            "Lead scoring",
+            "Data-hygi\u00ebne"
+          ]
+        }
+      ],
+      "ctaOutbound": "Outbound & Leadgeneratie",
+      "ctaCrm": "CRM & Salesproces"
+    },
+    "people": {
+      "title": "People",
+      "subtitle": "Je team klaar maken, zichtbaar maken, en laten groeien",
+      "layers": [
+        {
+          "title": "Laag 1: Enablement",
+          "items": [
+            "Sales playbooks & scripts",
+            "Discovery frameworks",
+            "Demo-optimalisatie",
+            "Objection handling guides",
+            "Onboarding sales hires"
+          ]
+        },
+        {
+          "title": "Laag 2: Zichtbaarheid",
+          "items": [
+            "LinkedIn strategie team",
+            "Content kalender",
+            "Case studies & social proof",
+            "Events & spreekbeurten",
+            "Thought leadership plan"
+          ]
+        },
+        {
+          "title": "Laag 3: Organisatie & Groei",
+          "items": [
+            "Roldefinitie sales hire",
+            "Belonings- & commissiemodel",
+            "Training & coaching cadans",
+            "Account management playbooks",
+            "QBR-templates",
+            "Expansie/upsell frameworks"
+          ]
+        }
+      ],
+      "cta": "Sales Enablement"
+    },
+    "ai": {
+      "title": "\u00d7 AI Multiplier",
+      "subtitle": "versnelt alles van 1\u00d7 naar 3-5\u00d7",
+      "layers": [
+        {
+          "title": "Laag 1: Automation",
+          "items": [
+            "Workflow automation (Make, n8n)",
+            "CRM automation & triggers",
+            "Email sequence automation",
+            "Data verrijking",
+            "Rapportage automation"
+          ]
+        },
+        {
+          "title": "Laag 2: Intelligence",
+          "items": [
+            "AI prospecting (Clay, Apollo)",
+            "AI-personalisatie",
+            "Prompt libraries",
+            "AI lead scoring",
+            "AI-assisted discovery prep"
+          ]
+        },
+        {
+          "title": "Laag 3: Analytics & Learning",
+          "items": [
+            "AI-driven pipeline forecasting",
+            "Performance pattern recognition",
+            "Automatische alerts bij afwijkingen",
+            "A/B test analyse",
+            "Conversie-optimalisatie insights"
+          ]
+        }
+      ],
+      "cta": "AI & Automation expertise"
+    }
+  },
+  "blogSalesHire": {
+    "metadata": {
+      "title": "Waarom je eerste sales hire mislukt (en hoe je het voorkomt) | Accelr Blog",
+      "description": "\u20ac100K+ verspild aan een sales hire die niet werkt? Dit is waarom het misgaat, en wat je eerst moet bouwen."
+    },
+    "hero": {
+      "tag": "Sales Strategy",
+      "title": "Waarom je eerste sales hire mislukt",
+      "readTime": "6 min leestijd"
+    },
+    "intro": "Je hebt product-market fit. Omzet groeit. Tijd voor die eerste sales hire. Maar 6 maanden later: geen resultaat, \u20ac100K+ uitgegeven, en je zit weer zelf te verkopen. Dit patroon zie ik bij 80% van de founders die ik spreek.",
+    "pattern": {
+      "title": "Het patroon",
+      "p1": "Je hebt product-market fit. Omzet groeit. Je denkt:",
+      "p1em": "\"Ik heb een verkoper nodig.\"",
+      "p2": "Je huurt iemand in. Na 3-6 maanden: geen resultaat.",
+      "p3": "Want:",
+      "items": [
+        { "bold": "Geen CRM-proces", "rest": ", geen pipeline, geen duidelijke stages" },
+        { "bold": "Geen playbook", "rest": ", geen scripts, geen discovery flow" },
+        { "bold": "Geen onboarding", "rest": ", \"Ga maar lekker bellen\"" },
+        { "bold": "Geen gedefinieerde ICP", "rest": ", \"Iedereen die betaalt is een goede klant\"" }
+      ],
+      "conclusion": "De sales hire faalt niet door gebrek aan talent, maar door gebrek aan systeem."
+    },
+    "whatToBuild": {
+      "title": "Wat je eerst moet bouwen",
+      "intro": "Voor je die eerste sales hire doet, moet je dit op orde hebben:",
+      "items": [
+        { "title": "1. Gedefinieerd ICP en buyer persona", "desc": "Wie zijn je beste klanten? Welke titels? Welke bedrijfsgrootte? Welke pijnpunten?" },
+        { "title": "2. CRM ingericht met pipeline stages", "desc": "Welke stappen doorloopt een deal? Van eerste contact tot closed-won. Wat is de definitie van elke stage?" },
+        { "title": "3. Discovery en demo scripts", "desc": "Welke vragen stel je? Wat toon je in je demo? Hoe handle je objecties?" },
+        { "title": "4. Onboarding checklist", "desc": "Wat moet iemand leren in week 1, 2, 3, 4? Welke tools? Welke processen?" },
+        { "title": "5. Eerste 3 maanden KPI's", "desc": "Hoeveel calls? Hoeveel demos? Wat is succes in maand 1, 2, 3?" }
+      ]
+    },
+    "solution": {
+      "title": "De oplossing",
+      "p1": "Bouw eerst het systeem, dan de hire.",
+      "p2": "Als je dat zelf niet kan of wil: laat een Fractional Head of Sales het fundament leggen. In 3-6 maanden bouw je een systeem waar elke sales hire succesvol in kan zijn.",
+      "p3": "Dan hire je niet een persoon die het moet uitzoeken. Dan hire je iemand die een bewezen playbook kan uitvoeren."
+    },
+    "inlineCta": {
+      "title": "Wil je weten waar jij staat?",
+      "desc": "Met De Scan krijg je in 2 uur een compleet overzicht van je sales funnel, tooling en processen. Plus een roadmap wat je moet fixen voor je die eerste hire doet.",
+      "ctaScan": "Bekijk De Scan",
+      "ctaFractional": "Fractional Head of Sales"
+    },
+    "footerCta": {
+      "title": "Wil je dit voorkomen?",
+      "desc": "Plan een gesprek. We kijken samen naar jouw situatie en maken een plan.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogFractional": {
+    "metadata": {
+      "title": "Fractional Head of Sales: wat is het en waarom groeit het in Nederland? | Accelr Blog",
+      "description": "Alles over het Fractional Head of Sales model. Wat het is, wat het kost, en waarom steeds meer B2B bedrijven in Nederland het overwegen."
+    },
+    "hero": {
+      "tag": "Sales Leadership",
+      "title": "Fractional Head of Sales: wat is het?",
+      "readTime": "8 min leestijd"
+    },
+    "intro": "In Amerika is het al jaren gangbaar. In Nederland begint het net. Een Fractional Head of Sales is een ervaren commercieel leider die parttime (1-2 dagen per week) voor jouw bedrijf werkt. Dit artikel legt uit wat het is, wat het kost, en wanneer het slim is.",
+    "whatIsIt": {
+      "title": "Wat is een Fractional Head of Sales?",
+      "p1": "Een Fractional Head of Sales is een ervaren sales leader die parttime (meestal 1-2 dagen per week) jouw commerci\u00eble strategie en organisatie opbouwt en leidt.",
+      "p2": "Vergelijk het met een fractional CFO of CMO: senior expertise, zonder de kosten van een fulltime hire.",
+      "p3": "In de VS werken meer dan 120.000 bedrijven met fractional executives. In Europa groeit het model snel, vooral bij B2B tech-bedrijven tussen de \u20ac1M-\u20ac10M omzet.",
+      "boxTitle": "Wat doet een Fractional Head of Sales?",
+      "boxItems": [
+        "Bouwt je sales funnel en CRM-proces",
+        "Traint je team of eerste sales hire",
+        "Ontwikkelt playbooks, scripts, ICP",
+        "Stuurt op KPI's en pipeline management",
+        "Helpt bij hiring en onboarding van sales talent"
+      ]
+    },
+    "cost": {
+      "title": "Wat kost het?",
+      "intro": "De kostenvergelijking:",
+      "options": [
+        { "title": "Fractional Head of Sales", "price": "\u20ac4.000 - \u20ac8.000/maand", "desc": "1-2 dagen per week, minimaal 6 maanden", "highlight": true },
+        { "title": "Fulltime Head of Sales", "price": "\u20ac150.000 - \u20ac220.000/jaar", "desc": "Salaris + werkgeverslasten + bonus + onboarding", "highlight": false },
+        { "title": "Interim sales manager", "price": "\u20ac120.000 - \u20ac180.000/jaar", "desc": "5 dagen per week, vaak korte termijn focus", "highlight": false }
+      ],
+      "conclusion": "Fractional is **60-70% goedkoper** dan fulltime of interim, maar je krijgt wel senior-level expertise."
+    },
+    "whenSmart": {
+      "title": "Wanneer is het slim?",
+      "intro": "Een Fractional Head of Sales is slim als:",
+      "items": [
+        "Je zit tussen **\u20ac1M-\u20ac10M omzet**",
+        "Je founder verkoopt zelf en wil dat **systematiseren**",
+        "Je hebt net je **eerste sales hire** gedaan (of die is mislukt)",
+        "Je hebt **geen sales systeem**: geen CRM, geen playbook, geen pipeline",
+        "Je wil **groeien naar \u20ac5M-\u20ac20M** maar weet niet hoe"
+      ]
+    },
+    "whenNot": {
+      "title": "Wanneer is het NIET slim?",
+      "intro": "Fractional is niet de juiste keuze als:",
+      "items": [
+        "Je zit onder **\u20ac500K omzet**, focus eerst op product-market fit",
+        "Je hebt al een **sales team van 5+**, dan heb je fulltime leadership nodig",
+        "Je wil iemand die **zelf ook gaat verkopen**, fractional is strategisch, niet executie",
+        "Je bent niet bereid om **autoriteit te delegeren**, een fractional moet kunnen beslissen"
+      ]
+    },
+    "howAccelr": {
+      "title": "Hoe werkt het bij Accelr?",
+      "intro": "Bij Accelr werk ik in fases:",
+      "phases": [
+        { "title": "Maand 1: Diagnose", "desc": "We doen De Scan. Ik breng je funnel, tooling, ICP en processen in kaart. Je krijgt een roadmap met prioriteiten." },
+        { "title": "Maand 2-3: Bouwen", "desc": "We bouwen het fundament: CRM, playbook, scripts, ICP, onboarding, KPI-dashboard. Alles wat je nodig hebt om te schalen." },
+        { "title": "Maand 4+: Runnen & Optimaliseren", "desc": "We trainen je team, sturen op KPI's, optimaliseren de funnel. Ik blijf 1-2 dagen per week beschikbaar voor coaching, strategie en beslissingen." }
+      ],
+      "duration": "Minimale looptijd: **6 maanden**. Je kunt daarna opschalen naar fulltime, afschalen, of blijven met fractional, afhankelijk van wat je nodig hebt."
+    },
+    "inlineCta": {
+      "title": "Is dit iets voor jou?",
+      "desc": "Laten we het uitzoeken. Plan een gesprek, ik stel wat vragen over je situatie, en we kijken of fractional past.",
+      "cta": "Meer over Fractional"
+    },
+    "footerCta": {
+      "title": "Wil je dit verkennen?",
+      "desc": "Plan een gesprek. We kijken samen of fractional bij jouw situatie past.",
+      "cta": "Plan een gesprek"
+    }
+  }
+}

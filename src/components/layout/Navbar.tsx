@@ -1,24 +1,10 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { useTheme } from "next-themes";
 import { Menu, X, ArrowRight, Moon, Sun, ChevronDown } from "lucide-react";
-
-const expertiseItems = [
-  { href: "/de-scan", label: "De Scan\u2122" },
-  { href: "/sales-strategie", label: "Strategie & GTM" },
-  { href: "/crm-implementatie", label: "CRM & Salesproces" },
-  { href: "/outbound-leadgeneratie", label: "Outbound & Leadgen" },
-  { href: "/sales-enablement", label: "Sales Enablement" },
-  { href: "/ai-sales-automation", label: "AI & Automation" },
-  { href: "/expertise/fractional-head-of-sales", label: "Fractional Head of Sales" },
-];
-
-const navItems = [
-  { href: "/methode", label: "Methode" },
-  { href: "/over-tim", label: "Over Tim" },
-];
 
 function ThemeToggle() {
   const { theme, setTheme } = useTheme();
@@ -42,26 +28,65 @@ function ThemeToggle() {
 }
 
 function LanguageSwitch() {
+  const locale = useLocale();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  function switchLocale(newLocale: "nl" | "en") {
+    if (newLocale === locale) return;
+    router.replace(pathname, { locale: newLocale });
+  }
+
   return (
     <div className="flex items-center gap-1 text-[13px]">
-      <span className="font-bold text-text-dark dark:text-white">NL</span>
+      <button
+        onClick={() => switchLocale("nl")}
+        className={`transition-colors ${
+          locale === "nl"
+            ? "font-bold text-text-dark dark:text-white"
+            : "text-text-dark-muted hover:text-text-dark dark:text-gray-500 dark:hover:text-white cursor-pointer"
+        }`}
+      >
+        NL
+      </button>
       <span className="text-text-dark-muted dark:text-gray-500">|</span>
-      <span
-        className="cursor-not-allowed text-text-dark-muted dark:text-gray-500"
-        aria-disabled="true"
+      <button
+        onClick={() => switchLocale("en")}
+        className={`transition-colors ${
+          locale === "en"
+            ? "font-bold text-text-dark dark:text-white"
+            : "text-text-dark-muted hover:text-text-dark dark:text-gray-500 dark:hover:text-white cursor-pointer"
+        }`}
       >
         EN
-      </span>
+      </button>
     </div>
   );
 }
 
 export default function Navbar() {
+  const t = useTranslations("nav");
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileExpertiseOpen, setMobileExpertiseOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const expertiseItems = [
+    { href: "/de-scan" as const, label: t("expertiseItems.deScan") },
+    { href: "/sales-strategie" as const, label: t("expertiseItems.strategieGtm") },
+    { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
+    { href: "/outbound-leadgeneratie" as const, label: t("expertiseItems.outboundLeadgen") },
+    { href: "/sales-enablement" as const, label: t("expertiseItems.salesEnablement") },
+    { href: "/ai-sales-automation" as const, label: t("expertiseItems.aiAutomation") },
+    { href: "/expertise/fractional-head-of-sales" as const, label: t("expertiseItems.fractional") },
+  ];
+
+  const navItems = [
+    { href: "/methode" as const, label: t("methode") },
+    { href: "/over-tim" as const, label: t("overTim") },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
@@ -103,7 +128,7 @@ export default function Navbar() {
               onClick={() => setDropdownOpen(!dropdownOpen)}
               className="flex items-center gap-1 text-[13px] font-medium uppercase tracking-wider text-text-dark-secondary transition-colors duration-200 hover:text-accent-teal-dark dark:text-gray-400 dark:hover:text-accent-teal"
             >
-              Expertise
+              {t("expertise")}
               <ChevronDown
                 size={14}
                 className={`transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`}
@@ -142,7 +167,7 @@ export default function Navbar() {
           <LanguageSwitch />
           <ThemeToggle />
           <Link href="/contact" className="btn-primary">
-            <span className="btn-label text-[13px]">Plan een gesprek</span>
+            <span className="btn-label text-[13px]">{t("contact")}</span>
             <span className="btn-arrow">
               <ArrowRight size={16} />
             </span>
@@ -172,7 +197,7 @@ export default function Navbar() {
               onClick={() => setMobileExpertiseOpen(!mobileExpertiseOpen)}
               className="flex items-center justify-between text-lg font-medium text-text-dark-secondary transition-colors hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
             >
-              Expertise
+              {t("expertise")}
               <ChevronDown
                 size={18}
                 className={`transition-transform duration-200 ${mobileExpertiseOpen ? "rotate-180" : ""}`}
@@ -209,7 +234,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className="btn-primary mt-4 w-full justify-center"
             >
-              <span className="btn-label flex-1 text-center">Plan een gesprek</span>
+              <span className="btn-label flex-1 text-center">{t("contact")}</span>
               <span className="btn-arrow">
                 <ArrowRight size={16} />
               </span>

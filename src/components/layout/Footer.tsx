@@ -1,6 +1,9 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { getTranslations } from "next-intl/server";
 
-export default function Footer() {
+export default async function Footer() {
+  const t = await getTranslations("footer");
+
   return (
     <footer className="border-t border-border bg-bg-primary">
       <div className="container-wide py-20">
@@ -11,20 +14,19 @@ export default function Footer() {
               accelr.
             </Link>
             <p className="mt-4 text-sm text-text-muted max-w-xs">
-              Van founder-led sales naar een schaalbaar, AI-gedreven commercieel
-              systeem.
+              {t("tagline")}
             </p>
           </div>
 
           {/* Navigatie */}
           <div>
-            <p className="section-label mb-4">/ Navigatie</p>
+            <p className="section-label mb-4">/ {t("navigation")}</p>
             <ul className="space-y-3">
               {[
-                { href: "/", label: "Home" },
-                { href: "/methode", label: "De Methode" },
-                { href: "/over-tim", label: "Over Tim" },
-                { href: "/blog", label: "Blog" },
+                { href: "/" as const, label: "Home" },
+                { href: "/methode" as const, label: t("deMethode") },
+                { href: "/over-tim" as const, label: t("overTim") },
+                { href: "/blog" as const, label: "Blog" },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link
@@ -43,11 +45,11 @@ export default function Footer() {
             <p className="section-label mb-4">/ Expertise</p>
             <ul className="space-y-3">
               {[
-                { href: "/expertise/de-scan", label: "De Scan" },
-                { href: "/expertise/crm-implementatie", label: "CRM & Salesproces" },
-                { href: "/expertise/outbound-leadgeneratie", label: "Outbound & Leadgen" },
-                { href: "/expertise/ai-sales-automation", label: "AI & Automation" },
-                { href: "/score", label: "Sales Maturity Score" },
+                { href: "/de-scan" as const, label: t("deScan") },
+                { href: "/crm-implementatie" as const, label: t("crmSalesproces") },
+                { href: "/outbound-leadgeneratie" as const, label: t("outboundLeadgen") },
+                { href: "/ai-sales-automation" as const, label: t("aiAutomation") },
+                { href: "/score" as const, label: "Sales Maturity Score" },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link
@@ -78,7 +80,7 @@ export default function Footer() {
                   href="/contact"
                   className="transition-colors hover:text-accent-teal"
                 >
-                  Plan een gesprek
+                  {t("planEenGesprek")}
                 </Link>
               </li>
               <li className="text-text-muted">Haarlem, Nederland</li>
@@ -87,20 +89,16 @@ export default function Footer() {
 
           {/* Juridisch */}
           <div>
-            <p className="section-label mb-4">/ Juridisch</p>
+            <p className="section-label mb-4">/ {t("juridisch")}</p>
             <ul className="space-y-3">
-              {[
-                { href: "/privacy", label: "Privacybeleid" },
-              ].map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className="text-sm text-text-secondary transition-colors hover:text-accent-teal"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  href="/privacy"
+                  className="text-sm text-text-secondary transition-colors hover:text-accent-teal"
+                >
+                  {t("privacybeleid")}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -109,8 +107,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} Accelr. Alle rechten
-            voorbehouden.
+            &copy; {new Date().getFullYear()} Accelr. {t("alleRechten")}
           </p>
           <p className="text-xs text-text-muted">
             Your Sales Growth Partner

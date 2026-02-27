@@ -1,0 +1,2025 @@
+{
+  "metadata": {
+    "siteTitle": "Accelr | Your Sales Growth Partner",
+    "siteDescription": "From founder-led sales to a scalable, AI-driven commercial system. Diagnosis, implementation and hands-on sales leadership."
+  },
+  "nav": {
+    "expertise": "Expertise",
+    "methode": "Method",
+    "overTim": "About Tim",
+    "contact": "Book a call",
+    "expertiseItems": {
+      "deScan": "De Scan\u2122",
+      "strategieGtm": "Strategy & GTM",
+      "crmSalesproces": "CRM & Sales Process",
+      "outboundLeadgen": "Outbound & Leadgen",
+      "salesEnablement": "Sales Enablement",
+      "aiAutomation": "AI & Automation",
+      "fractional": "Fractional Head of Sales"
+    }
+  },
+  "footer": {
+    "tagline": "From founder-led sales to a scalable, AI-driven commercial system.",
+    "navigation": "Navigation",
+    "navItems": {
+      "home": "Home",
+      "methode": "The Method",
+      "overTim": "About Tim",
+      "blog": "Blog"
+    },
+    "expertise": "Expertise",
+    "expertiseItems": {
+      "deScan": "De Scan",
+      "crmSalesproces": "CRM & Sales Process",
+      "outboundLeadgen": "Outbound & Leadgen",
+      "aiAutomation": "AI & Automation",
+      "salesMaturityScore": "Sales Maturity Score"
+    },
+    "contact": "Contact",
+    "planGesprek": "Book a call",
+    "location": "Haarlem, The Netherlands",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "copyright": "All rights reserved.",
+    "slogan": "Your Sales Growth Partner"
+  },
+  "common": {
+    "startMetDeScan": "Start with De Scan",
+    "planKennismaking": "Book an introductory call",
+    "planGesprek": "Book a call",
+    "leesArtikel": "Read article",
+    "leesMeer": "Read more",
+    "leescasestudy": "Read case study",
+    "bekijk": "View",
+    "ontdekMeer": "Discover more",
+    "veelgesteldeVragen": "Frequently asked questions",
+    "watJeKrijgt": "What you get",
+    "hoeHetWerkt": "How it works",
+    "toolsDieIkGebruik": "Tools I use",
+    "ditIsVoorJouAls": "This is for you if...",
+    "deScanBepaalt": "De Scan determines which areas are your priority.",
+    "ofMailDirect": "Or email directly:",
+    "minuten": "minutes",
+    "geenVerplichtingen": "No obligations",
+    "concrete_actiepunten": "You'll walk away with 3 concrete action points."
+  },
+  "home": {
+    "metadata": {
+      "title": "Fractional Head of Sales for B2B founders | Accelr",
+      "description": "Accelr helps B2B tech-founders go from ad-hoc sales to a scalable, AI-driven commercial system. Diagnosis, implementation and leadership."
+    },
+    "hero": {
+      "title": "Your sales growth depends on you. That's the problem.",
+      "subtitle": "I build the sales foundation, strategy, process and team, so growth no longer depends on you alone. From diagnosis to operational sales leadership.",
+      "drieluik1": "/ Sales Diagnosis",
+      "drieluik2": "/ Project-based building",
+      "drieluik3": "/ Fractional Head of Sales",
+      "cta": "Book an introductory call",
+      "ctaSecondary": "Start with De Scan",
+      "ctaSubtext": "30 minutes \u00b7 No obligations \u00b7 You'll walk away with 3 concrete action points."
+    },
+    "toolTicker": {
+      "label": "/ Tools & Technologies"
+    },
+    "painPoints": {
+      "label": "/ Sound familiar?",
+      "title": "Make room for growth.",
+      "subtitle": "If your sales growth depends on you as a founder, that's a structural problem. Do you recognize these situations?",
+      "items": [
+        "I am the bottleneck.",
+        "Hiring sales is a gamble.",
+        "Tools and AI without process.",
+        "Unpredictable pipeline.",
+        "Scaling requires a system, not more hours."
+      ],
+      "cta": "Start with De Scan"
+    },
+    "keuzeblok": {
+      "label": "/ How we work together",
+      "title": "How do we work together?",
+      "subtitle": "Every engagement starts with diagnosis. Then we decide together how deeply I get involved.",
+      "cards": [
+        {
+          "title": "De Scan\u2122",
+          "subtitle": "One-time diagnosis",
+          "body": "I analyze your complete sales operation: process, team, tooling and data. You receive a report with hard numbers, a priority list and a concrete roadmap.",
+          "details": "Timeline: 2-3 weeks",
+          "badge": "Always the first step",
+          "price": "\u20ac3,500 fixed",
+          "extra": "Money-back guarantee",
+          "cta": "More about De Scan"
+        },
+        {
+          "title": "De Bouw",
+          "subtitle": "Specific building blocks",
+          "body": "I build specific components of your sales infrastructure. CRM setup, outbound engine, playbooks, AI automations, scoped and results-driven.",
+          "details": "Based on Scan results or your own brief",
+          "badge": "Project-based, scoped",
+          "price": "From \u20ac7,500 per project",
+          "extra": null,
+          "cta": "View the building blocks"
+        },
+        {
+          "title": "Fractional Head of Sales",
+          "subtitle": "Part-time commercial leader",
+          "body": "I become your part-time commercial leader. 1-2 days per week, minimum 6 months. Includes diagnosis and everything that's needed.",
+          "details": "Min. 6 months",
+          "badge": "Fixed monthly retainer",
+          "price": "From \u20ac4,000/month",
+          "extra": null,
+          "cta": "More about Fractional"
+        }
+      ],
+      "note": "Not sure what you need? Start with De Scan. For a Fractional engagement, the diagnosis is included in the first month, you don't pay for De Scan separately."
+    },
+    "formule": {
+      "label": "/ The framework",
+      "title": "One system, four levers",
+      "strategie": "Strategy",
+      "proces": "Process",
+      "people": "People",
+      "ai": "AI",
+      "result": "Scalable growth",
+      "desc": "Three pillars that reinforce each other. AI is the multiplier. If one pillar is missing, you're multiplying by zero.",
+      "cta": "Discover the full approach"
+    },
+    "bouwblokken": {
+      "label": "/ Building blocks",
+      "title": "What I build",
+      "subtitle": "These are the components I deploy, on a project basis or ongoing.",
+      "cards": [
+        {
+          "title": "De Scan\u2122",
+          "badge": "DIAGNOSIS",
+          "desc": "Complete audit of your sales operation"
+        },
+        {
+          "title": "Strategy & GTM",
+          "badge": "STRATEGY",
+          "desc": "ICP validation, go-to-market plan, positioning"
+        },
+        {
+          "title": "Outbound & Leadgen",
+          "badge": "PROCESS",
+          "desc": "Prospecting engine that generates qualified meetings"
+        },
+        {
+          "title": "CRM & Sales Process",
+          "badge": "PROCESS",
+          "desc": "CRM setup, pipeline design, sales process"
+        },
+        {
+          "title": "Sales Enablement",
+          "badge": "PEOPLE",
+          "desc": "Playbooks, training, onboarding, coaching"
+        },
+        {
+          "title": "AI & Automation",
+          "badge": "+ AI",
+          "desc": "Make, n8n, Clay, automate what no human needs to do"
+        }
+      ],
+      "note": "During De Scan, I analyze all building blocks. During De Bouw, I work on specific components. As Fractional Head of Sales, I oversee everything on an ongoing basis."
+    },
+    "resultaten": {
+      "label": "/ Results",
+      "title": "Recent engagements",
+      "subtitle": "A selection of recent collaborations with B2B tech companies.",
+      "cards": [
+        {
+          "name": "Aethogenix",
+          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "deed": "Developed positioning, ICP & GTM plan. Deployed as Fractional Head of Sales to establish the commercial foundation."
+        },
+        {
+          "name": "Anonymous",
+          "subtitle": "Media / Advertising",
+          "deed": "Built go-to-market strategy, guided two sales hires and streamlined the entire sales process."
+        },
+        {
+          "name": "STABL Agency",
+          "subtitle": "Growth Agency",
+          "deed": "Implemented AI-driven outbound system for automated lead generation and pipeline building."
+        }
+      ]
+    },
+    "vergelijking": {
+      "label": "/ The difference",
+      "title": "What does sales leadership cost?",
+      "headers": {
+        "zelfDoen": "Do it yourself",
+        "fulltimeHos": "Full-time HoS",
+        "interim": "Interim",
+        "accelrFractional": "Accelr Fractional"
+      },
+      "rows": [
+        {
+          "aspect": "Cost/year",
+          "zelf": "\u20ac0 + opportunity cost",
+          "fulltime": "\u20ac150K-\u20ac220K",
+          "interim": "\u20ac120K-\u20ac180K",
+          "accelr": "\u20ac48K-\u20ac96K"
+        },
+        {
+          "aspect": "Commitment",
+          "zelf": "None",
+          "fulltime": "12+ months",
+          "interim": "6-12 months",
+          "accelr": "6 months, flexible"
+        },
+        {
+          "aspect": "Availability",
+          "zelf": "Spare hours",
+          "fulltime": "Full-time",
+          "interim": "Full-time",
+          "accelr": "1-2 days/week"
+        },
+        {
+          "aspect": "Expertise",
+          "zelf": "Own knowledge",
+          "fulltime": "1 profile",
+          "interim": "1 profile",
+          "accelr": "Broad: strategy+ops+AI"
+        },
+        {
+          "aspect": "Risk",
+          "zelf": "N/A",
+          "fulltime": "High (\u20ac80K+)",
+          "interim": "Medium",
+          "accelr": "Low (Scan first)"
+        },
+        {
+          "aspect": "Knowledge transfer",
+          "zelf": "N/A",
+          "fulltime": "\u2014",
+          "interim": "\u2014",
+          "accelr": "Built-in"
+        },
+        {
+          "aspect": "After 90 days",
+          "zelf": "Unpredictable",
+          "fulltime": "Still onboarding",
+          "interim": "Operational",
+          "accelr": "CRM+process+pipeline"
+        },
+        {
+          "aspect": "Not the best choice if...",
+          "zelf": "You can do it yourself",
+          "fulltime": "50+ FTE daily management",
+          "interim": "Filling a gap",
+          "accelr": "Daily presence needed"
+        }
+      ],
+      "footnote": "90 days = CRM set up, process documented, playbooks live. A predictable pipeline takes 6+ months. Sources: Robert Half Salary Guide NL 2024, Glassdoor Netherlands."
+    },
+    "investering": {
+      "label": "/ Investment",
+      "title": "What does it cost?",
+      "models": [
+        {
+          "title": "De Scan\u2122",
+          "price": "\u20ac3,500",
+          "priceSuffix": "fixed",
+          "duration": "2-3 weeks",
+          "result": "47-point diagnosis, prioritized roadmap, scan report with hard numbers",
+          "uren": "~8 hours total",
+          "garantie": true,
+          "scanIncluded": "This IS De Scan"
+        },
+        {
+          "title": "De Bouw",
+          "price": "From \u20ac7,500",
+          "priceSuffix": "per project",
+          "duration": "4-12 weeks",
+          "result": "Working component: configured CRM, running outbound, playbook, or AI automation",
+          "uren": "Project-dependent",
+          "garantie": false,
+          "scanIncluded": "Separate (or completed beforehand)"
+        },
+        {
+          "title": "Fractional Head of Sales",
+          "price": "From \u20ac4,000",
+          "priceSuffix": "/month",
+          "duration": "Min. 6 months",
+          "result": "Commercial leadership + all building blocks + team coaching + weekly check-ins",
+          "uren": "8-16 hours/week (1-2 days)",
+          "garantie": false,
+          "scanIncluded": "First month = diagnosis"
+        }
+      ],
+      "labels": {
+        "doorlooptijd": "Timeline",
+        "watJeKrijgt": "What you get",
+        "uren": "Hours",
+        "geldTerugGarantie": "Money-back guarantee",
+        "ja": "Yes",
+        "inclusiefDeScan": "Includes De Scan"
+      }
+    },
+    "overTim": {
+      "label": "/ The team",
+      "title": "The person behind Accelr",
+      "role": "Founder & Fractional Head of Sales",
+      "name": "Tim Samsom",
+      "bio": "8+ years B2B sales in adtech and tech. As Country Manager Netherlands at ShowHeroes, I built the Dutch operation from scratch, from first client to a structural commercial team. Previously responsible for sales at Streamads, and commercial roles at Ematters and XS4ALL. Nyenrode Business University alumnus.",
+      "quote": "Most sales problems are not people problems. They're system problems.",
+      "leesMeer": "Read more",
+      "linkedin": "View my LinkedIn"
+    },
+    "voorWie": {
+      "label": "/ Who it's for",
+      "title": "Is this for you?",
+      "welVoorJou": "For you",
+      "nietVoorJou": "Not for you",
+      "voorJou": [
+        "B2B SaaS, tech or IT services company",
+        "\u20ac1M-\u20ac10M revenue, 10-80 employees",
+        "Technical founder who is (still) selling personally",
+        "Just made a first sales hire, or the first one failed",
+        "Looking for a system, not a consultant"
+      ],
+      "nietVoorJouItems": [
+        "B2C or e-commerce",
+        "<\u20ac500K revenue (focus on product-market fit)",
+        "Looking for someone to \"take over\" without your involvement",
+        "Working team of 10+ (you need a full-time HoS)"
+      ]
+    },
+    "faq": {
+      "label": "/ FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "What is a Fractional Head of Sales?",
+          "a": "A Fractional Head of Sales is an experienced commercial leader who works 1-2 days per week to build your sales organization. You get strategic leadership and hands-on execution without the cost of a full-time hire (\u20ac150K+/year). This model has been mainstream in the US for years; in the Netherlands, it's just getting started."
+        },
+        {
+          "q": "Why start with De Scan?",
+          "a": "Of the founders I speak with, 80% think the problem is \"more leads.\" After De Scan, it almost always turns out to be a process, CRM or qualification issue. De Scan prevents you from spending money on the wrong solution. Disagree with the findings? You get your money back."
+        },
+        {
+          "q": "How does Fractional differ from Interim?",
+          "a": "An interim manager fills a gap and keeps operations running. A Fractional Head of Sales focuses on acceleration: building, team development and establishing structure. It costs 60-70% less than a full-time hire, and the goal is to build a foundation so you can scale."
+        },
+        {
+          "q": "How quickly will I see results?",
+          "a": "De Scan delivers a clear picture within 2-3 weeks. With a Build project, the first components are operational within 4-6 weeks. With a Fractional engagement, you'll have a configured CRM and documented process after 90 days, pipeline impact after 3-4 months, and structural growth after 6+ months. Honestly: lasting results take time."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Ready to professionalize your sales?",
+      "cta": "Book a no-obligation call",
+      "scanNote": "Or start with De Scan, \u20ac3,500 fixed, money-back guarantee.",
+      "location": "Haarlem, The Netherlands"
+    }
+  },
+  "methode": {
+    "metadata": {
+      "title": "The Accelr Method\u2122 | Diagnosis \u2192 Build \u2192 Run",
+      "description": "From ad-hoc sales to a scalable system. 10 dimensions, 4 phases, working systems that belong to you."
+    },
+    "hero": {
+      "label": "/ The Accelr Method\u2122",
+      "title": "The Accelr Method\u2122",
+      "subtitle": "Three pillars, one multiplier. One system that keeps your sales engine running, even when you're not there.",
+      "cta": "Start with De Scan",
+      "ctaSecondary": "Book an introductory call"
+    },
+    "intro": {
+      "label": "/ Method",
+      "title": "Every B2B company needs a commercial system.",
+      "p1": "Every B2B company that wants to grow beyond founder-led sales needs a commercial system. Not standard advice. Not a report that ends up in a drawer. A working system built on three pillars that reinforce each other, powered by AI.",
+      "p2": "De Scan diagnoses where it leaks. The formula determines what I build."
+    },
+    "formule": {
+      "label": "The formula",
+      "strategie": "Strategy",
+      "proces": "Process",
+      "people": "People",
+      "ai": "AI",
+      "result": "exponential growth",
+      "desc": "Strategy is the input that drives everything. Process and People are the core pillars, they reinforce each other multiplicatively. AI is the multiplier that accelerates everything. Improve each element by 20% and your total output grows by 107%."
+    },
+    "compoundTable": {
+      "headers": {
+        "pijler": "Pillar",
+        "effect": "Effect",
+        "bron": "Source"
+      },
+      "rows": [
+        { "pijler": "Strategy", "effect": "Foundation for everything", "bron": "\u2014" },
+        { "pijler": "Process", "effect": "+12pp win rate", "bron": "CSO Insights (12+ years, 1,000+ companies)" },
+        { "pijler": "People", "effect": "2\u00d7 more selling time", "bron": "Bain & Company, 2025" },
+        { "pijler": "AI", "effect": "1.3\u00d7 more revenue growth", "bron": "Salesforce (n=5,500)" },
+        { "pijler": "Combined", "effect": "107% total growth", "bron": "Compound effect" }
+      ]
+    },
+    "toepassing": {
+      "label": "/ Application",
+      "title": "How the framework is applied",
+      "cards": [
+        {
+          "title": "De Scan",
+          "desc": "All pillars are analyzed. You receive a score and priority list per pillar."
+        },
+        {
+          "title": "De Bouw",
+          "desc": "You choose specific pillars to work on. Project-based, scoped."
+        },
+        {
+          "title": "Fractional Head of Sales",
+          "desc": "All pillars, ongoing, with me as the owner. Continuous optimization."
+        }
+      ]
+    },
+    "inHetKort": {
+      "title": "In a nutshell",
+      "items": [
+        {
+          "num": "/01",
+          "title": "Sales Maturity Score across 10 dimensions",
+          "desc": "A complete audit of your sales operation. No opinions, measurable scores per dimension with concrete improvement points."
+        },
+        {
+          "num": "/02",
+          "title": "Prioritized action plan with euro value",
+          "desc": "Every opportunity gets an estimated impact in euros, a time estimate and a priority. You know exactly where to start."
+        },
+        {
+          "num": "/03",
+          "title": "Working systems that belong to you",
+          "desc": "Everything I build, CRM, automations, playbooks, campaigns, is fully yours. No lock-in, no dependency, no license fees."
+        }
+      ]
+    },
+    "voorWie": {
+      "title": "Who it's for",
+      "desc1": "For founders and commercial directors who built the company on their own sales talent. Where every deal goes through the same person. Where there's no CRM, or one that nobody uses. Where growth means: working harder, not smarter.",
+      "desc2": "The Accelr Method brings structure where there's chaos, predictability where chance rules, and a system that's scalable without you having to close every deal yourself.",
+      "typischProfiel": "Typical profile",
+      "profielItems": [
+        "B2B SaaS, tech or IT services",
+        "\u20ac500K \u2013 \u20ac20M revenue",
+        "5-50 employees",
+        "Founder does 80%+ of the sales",
+        "Existing clients, recurring revenue"
+      ]
+    },
+    "hoeHetWerkt": {
+      "title": "How it works",
+      "steps": [
+        {
+          "num": "/01",
+          "title": "Week 1-2: Scanning",
+          "desc": "I start with a 60-minute kickoff to map goals, systems and constraints. Then in-depth interviews with founder, sales and marketing follow. I audit your CRM (or lack thereof), analyze your pipeline, check your tech stack and assess your AI readiness.",
+          "result": "Result:",
+          "resultDesc": "Sales Maturity Score across 10 dimensions. A clear picture of where you stand, and where the money is.",
+          "price": "\u20ac3,500 fixed \u00b7 Not satisfied? Money back. No conditions."
+        },
+        {
+          "num": "/02",
+          "title": "Week 2: Planning",
+          "desc1": "Based on the Scan, I create an implementation plan. Which systems need to be built, in what order, and what each step delivers. Fixed price per component, agreed upfront. No surprises.",
+          "desc2": "The plan integrates with your existing tools and is structured so that I can build it, or you can pick it up yourself."
+        },
+        {
+          "num": "/03",
+          "title": "Week 3-10: Building",
+          "desc": "I build what the plan calls for. No standard packages, only what you need.",
+          "typischeTrajecten": "Typical timelines",
+          "trajectItems": [
+            "CRM foundation + sales process \u2192 3-4 weeks",
+            "+ Outbound engine + AI tooling \u2192 4-6 weeks",
+            "+ Team enablement + hiring \u2192 6-8 weeks"
+          ],
+          "overdracht": "Everything is delivered working, documented and handed over. The system is yours.",
+          "price": "Typical investment: \u20ac5,000 \u2013 \u20ac20,000 depending on scope."
+        },
+        {
+          "num": "/04",
+          "title": "Ongoing: Running & Scaling",
+          "desc": "A system without leadership deteriorates within 3 months. I stay on as your Fractional Head of Sales, not advising, but managing.",
+          "items": [
+            "Weekly pipeline reviews & forecasting",
+            "Sales coaching & 1-on-1 guidance",
+            "Ongoing optimization of campaigns & tools",
+            "Quarterly reviews with strategic adjustments",
+            "First sales hire: role definition, onboarding, coaching"
+          ],
+          "details": "1-2 days per week \u00b7 Min. 3 months \u00b7 Monthly cancellable thereafter",
+          "note": "The goal is that you no longer need me. That's not failure, that's the plan."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Ready to build your sales engine?",
+      "cta": "Start with De Scan",
+      "ctaSecondary": "Book an introductory call",
+      "scanNote": "\u20ac3,500 fixed \u00b7 Money-back guarantee \u00b7 Results in 2 weeks",
+      "location": "Amsterdam, The Netherlands"
+    }
+  },
+  "deScan": {
+    "metadata": {
+      "title": "De Scan\u2122 | Sales Operation Diagnosis | Accelr",
+      "description": "Sales diagnosis in 2 weeks. Score across 10 dimensions, opportunities with euro value, action plan. \u20ac3,500 fixed. Not satisfied? Money back."
+    },
+    "hero": {
+      "label": "/ Always step 1",
+      "title": "De Scan: know where you're leaving money on the table,",
+      "titleHighlight": "and how much.",
+      "subtitle": "A professional audit of your sales operation. In 1-2 weeks, I map everything out and deliver an action plan with prioritized opportunities and euro value.",
+      "price": "\u20ac3,500",
+      "priceNote": "fixed \u00b7 No surprises",
+      "cta": "Book your Scan"
+    },
+    "probleem": {
+      "label": "/ The problem",
+      "title": "Most founders know something is wrong with their sales. They just don't know",
+      "titleHighlight": "what.",
+      "desc1": "You close deals, but it's not repeatable. You have tools, but nobody uses them well. You know you need structure, but where do you start?",
+      "desc2": "De Scan provides the answer. Not with opinions, with data."
+    },
+    "dimensies": {
+      "label": "/ 10 Dimensions",
+      "title": "I audit your sales operation across 10 dimensions",
+      "subtitle": "Each dimension scores 1-10.",
+      "items": [
+        { "num": 1, "name": "Strategy", "question": "How sharp is your ICP? Does your positioning hold up?" },
+        { "num": 2, "name": "Process", "question": "Do you have a documented sales process? Is it being followed?" },
+        { "num": 3, "name": "Pipeline", "question": "How predictable is your revenue?" },
+        { "num": 4, "name": "CRM", "question": "Do you use a CRM? How is your data quality?" },
+        { "num": 5, "name": "Outbound", "question": "Do you do active outbound? With what results?" },
+        { "num": 6, "name": "Enablement", "question": "Does your team have playbooks, scripts, training?" },
+        { "num": 7, "name": "AI & Automation", "question": "What tools do you use? What can be automated?" },
+        { "num": 8, "name": "Team", "question": "Do you have the right people in the right roles?" },
+        { "num": 9, "name": "Data", "question": "Which KPIs do you track? How accurate is your forecast?" },
+        { "num": 10, "name": "Leadership", "question": "Who manages sales? Is there accountability?" }
+      ]
+    },
+    "deliverables": {
+      "label": "/ Deliverables",
+      "title": "What you get",
+      "items": [
+        "Sales Maturity Score, score across 10 dimensions (1-10)",
+        "2-3 in-depth interviews (founder, sales, marketing)",
+        "CRM & pipeline audit (or gap analysis if there's no CRM)",
+        "AI & tech readiness check",
+        "Top 3-5 opportunities with estimated euro value",
+        "Prioritized 90-day action plan",
+        "Recommendation per opportunity: DIY / with Accelr / outsource",
+        "Live presentation of findings (never just by email)"
+      ]
+    },
+    "tijdlijn": {
+      "label": "/ Timeline",
+      "title": "How it works",
+      "week1": {
+        "label": "/ Week 1",
+        "items": [
+          "Intake meeting and briefing",
+          "Interviews with founder, sales and marketing",
+          "CRM & data analysis",
+          "Market & competitor review"
+        ]
+      },
+      "week2": {
+        "label": "/ Week 2",
+        "items": [
+          "Building the scorecard",
+          "Identifying opportunities and estimating euro value",
+          "Prioritizing the action plan",
+          "Live presentation of findings"
+        ]
+      }
+    },
+    "garantie": {
+      "title": "My guarantee",
+      "headline": "Not satisfied? Money back. No conditions.",
+      "desc": "I can guarantee this because in 8+ years I've never seen a company where there's nothing to improve in the sales process."
+    },
+    "waaromBetaald": {
+      "label": "/ Honest",
+      "title": "Why paid?",
+      "desc": "Free diagnostics = conflict of interest. A doctor charges for an MRI. An accountant charges for an audit. I charge for a professional diagnosis. The deliverable has standalone value, you can immediately take action, even without a follow-up engagement."
+    },
+    "faq": {
+      "label": "/ FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I just do De Scan without any follow-up?",
+          "a": "Yes. De Scan delivers an action plan you can immediately work with on your own. No mandatory follow-up, no commitment."
+        },
+        {
+          "q": "What if I already have a CRM?",
+          "a": "Then I audit your current setup: data quality, pipeline configuration, reporting, and team adoption. Having a CRM and using a CRM well are two different things."
+        },
+        {
+          "q": "How do I prepare?",
+          "a": "At minimum: access to your CRM (if you have one), and availability for a 60-90 minute interview. I handle the rest."
+        }
+      ]
+    },
+    "cta": {
+      "cta": "Book your Scan",
+      "ctaSubtext": "Or email directly:"
+    }
+  },
+  "overTim": {
+    "metadata": {
+      "title": "About Tim Samsom | Fractional Head of Sales | Accelr",
+      "description": "8+ years B2B sales in adtech and tech. Country Manager at ShowHeroes, now Fractional Head of Sales. Nyenrode alumnus."
+    },
+    "hero": {
+      "label": "/ About Tim",
+      "title": "The person behind the sales engine.",
+      "subtitle": "I combine the strategic perspective of a commercial director with the hands-on approach of an implementation specialist. And I use AI as a tool, not a gimmick."
+    },
+    "verhaal": {
+      "label": "/ My story",
+      "title": "From scale-up to Accelr",
+      "paragraphs": [
+        "Before I started Accelr, I was Country Manager Netherlands at ShowHeroes, a European adtech scale-up. There I built the Dutch operation from scratch: from first client to a profitable market with a structural commercial team.",
+        "Before that, I worked 6+ years in B2B sales at Streamads, Ematters and XS4ALL. Nyenrode Business University alumnus."
+      ],
+      "watIkLeerde": "What I learned there:",
+      "learnings": [
+        "Setting up sales processes where there were none",
+        "CRM implementation and pipeline management",
+        "Closing deals from \u20ac10K to \u20ac500K+ with enterprise clients",
+        "Managing teams and building commercial operations",
+        "The reality that 80% of sales success comes from the system, not the talent"
+      ],
+      "patroon": "What I saw time and time again with tech founders: brilliant products, but no sales engine. The founder does all the sales themselves, there's no process, no CRM, no strategy. Growth depends on chance and network.",
+      "waarom": "That's why I started Accelr."
+    },
+    "aanpak": {
+      "label": "/ My approach",
+      "title": "How I work",
+      "cards": [
+        {
+          "title": "Diagnosis first",
+          "text": "I only build once I know what you need. Every collaboration starts with De Scan."
+        },
+        {
+          "title": "I build it myself",
+          "text": "No team of juniors. From strategy to CRM setup to outbound engine, I do it myself."
+        },
+        {
+          "title": "AI as a tool",
+          "text": "Clay, Make, n8n, structurally integrated into your sales process. No gimmick, no hype."
+        },
+        {
+          "title": "No dependency",
+          "text": "Everything I build is yours. No lock-in, no license fees, full documentation."
+        }
+      ]
+    },
+    "ervaring": {
+      "label": "/ Experience",
+      "title": "Track record",
+      "items": [
+        "8+ years B2B sales in adtech and tech",
+        "Country Manager Netherlands at ShowHeroes (European adtech scale-up)",
+        "Commercial roles at Streamads, Ematters and XS4ALL",
+        "From first client to structural commercial team, multiple times",
+        "Hands-on: from strategy to CRM implementation to team coaching",
+        "AI tools as daily instruments, not experiments",
+        "Nyenrode Business University alumnus"
+      ]
+    },
+    "trajecten": {
+      "label": "/ Results",
+      "title": "Recent engagements",
+      "cards": [
+        {
+          "name": "Aethogenix",
+          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "deed": "Developed positioning, ICP & GTM plan. Deployed as Fractional Head of Sales to establish the commercial foundation."
+        },
+        {
+          "name": "Anonymous",
+          "subtitle": "Media / Advertising",
+          "deed": "Built go-to-market strategy, guided two sales hires and streamlined the entire sales process."
+        },
+        {
+          "name": "STABL Agency",
+          "subtitle": "Growth Agency",
+          "deed": "Implemented AI-driven outbound system for automated lead generation and pipeline building."
+        }
+      ]
+    },
+    "cta": {
+      "cta": "Book an introductory call",
+      "ctaSubtext": "30 minutes \u00b7 No obligation \u00b7 Honest advice"
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "Contact | Book an introductory call",
+      "description": "Book a no-obligation introductory call with Tim. 30 minutes, honest advice."
+    },
+    "hero": {
+      "label": "/ Contact",
+      "title": "Book an introductory call",
+      "subtitle": "30 minutes. No obligation. Honest advice about where your sales engine stands and what the logical next step is."
+    },
+    "cards": {
+      "duration": "30 minutes",
+      "durationDesc": "Short and to the point",
+      "noObligation": "No obligation",
+      "noObligationDesc": "No sales pitch",
+      "honestAdvice": "Honest advice",
+      "honestAdviceDesc": "Even if that means: do it yourself"
+    },
+    "calendly": {
+      "title": "Book a call directly",
+      "subtitle": "Pick a time that works for you"
+    },
+    "email": {
+      "text": "Prefer to email?"
+    }
+  },
+  "salesStrategie": {
+    "metadata": {
+      "title": "Sales Strategy & GTM for B2B | Accelr",
+      "description": "ICP, go-to-market plan, positioning and pricing. The foundation that ensures all your sales activities work in the right direction."
+    },
+    "hero": {
+      "label": "/ Sales Strategy & GTM",
+      "title": "Knowing who you're selling to is half the battle.",
+      "subtitle": "ICP, go-to-market plan, positioning and pricing. The foundation that ensures all your sales activities work in the right direction.",
+      "cta": "Start with De Scan"
+    },
+    "probleem": {
+      "title": "Most B2B companies sell to everyone.",
+      "paragraphs": [
+        "No sharp ICP. No clear positioning. Pricing that was \"decided once\" and never revisited. And then expecting that outbound, content and sales calls will convert.",
+        "The result: your team spends 80% of their time on prospects who will never become customers. Your messaging is generic. Your pipeline is full of deals that don't move.",
+        "Sales strategy isn't a luxury, it's the foundation. Without sharp targeting and positioning, everything you build after that is less effective."
+      ]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "items": [
+        {
+          "num": "/01",
+          "title": "ICP & Buyer Persona",
+          "desc": "Who are your best-fit customers? Which companies, which roles, which pain points? No vague persona posters, a sharp profile that your targeting, messaging and entire sales process is built on."
+        },
+        {
+          "num": "/02",
+          "title": "Go-to-Market Plan",
+          "desc": "Which market segments do you tackle first? Through which channels? With what message? A concrete plan that sets priorities and makes clear where you do and don't invest."
+        },
+        {
+          "num": "/03",
+          "title": "Positioning & Messaging",
+          "desc": "How do you position yourself relative to alternatives? What makes your offering relevant to your ICP? Messaging frameworks for your website, outbound, sales calls and proposals."
+        },
+        {
+          "num": "/04",
+          "title": "Pricing & Deal Structure",
+          "desc": "What do you charge, how do you present it, and how do you structure deals? Pricing that fits your market, your value proposition and your sales process."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        { "num": "/01", "title": "Analysis", "desc": "Audit current clients, market and competition" },
+        { "num": "/02", "title": "Sharpen ICP", "desc": "Define best-fit profile based on data" },
+        { "num": "/03", "title": "Build strategy", "desc": "GTM plan, positioning, pricing" },
+        { "num": "/04", "title": "Activate", "desc": "Translate into campaigns, content and sales" }
+      ]
+    },
+    "voorJou": [
+      "You're selling to 'everyone' and closing too few deals",
+      "You don't have a clear ICP or buyer persona",
+      "Your messaging doesn't resonate with your target audience",
+      "You don't know which market segments to prioritize"
+    ],
+    "faq": [
+      {
+        "q": "Isn't this too strategic / abstract?",
+        "a": "No. Everything I deliver is immediately actionable: targeting lists, messaging templates, a GTM plan with concrete actions. No PowerPoint strategy."
+      },
+      {
+        "q": "How long does this take?",
+        "a": "Typically 2-3 weeks from start to delivery, depending on scope. De Scan determines what's needed."
+      },
+      {
+        "q": "What if I already have an ICP?",
+        "a": "Then we validate it. In my experience, most companies' ICPs are wrong or too broad. We sharpen it based on data."
+      }
+    ],
+    "cta": {
+      "title": "First the foundation. Then build.",
+      "desc": "De Scan maps out whether your strategy holds up, and where the biggest opportunities are to sell more effectively.",
+      "ctaLabel": "Start with De Scan, \u20ac3,500"
+    }
+  },
+  "crmImplementatie": {
+    "metadata": {
+      "title": "CRM Implementation for SMBs & Scale-ups | Accelr",
+      "description": "CRM selection, setup, pipeline design and dashboards. From spreadsheet to working system in 3-4 weeks."
+    },
+    "hero": {
+      "label": "/ CRM & Pipeline",
+      "title": "A CRM your team actually uses.",
+      "subtitle": "Not yet another tool that becomes an expensive database after 3 months. A working system with pipeline, dashboards and reporting.",
+      "cta": "Start with De Scan"
+    },
+    "probleem": {
+      "title": "70% of CRM implementations fail.",
+      "paragraphs": [
+        "Not because the CRM is bad. But because nobody sets it up properly. The pipeline doesn't make sense. The fields are confusing. The dashboards show the wrong data. And after three months, your team works around it instead of in it.",
+        "The result: you have a CRM that costs \u20ac500/month and a spreadsheet you still actually use.",
+        "I set up your CRM so it works for how your team sells, not the other way around."
+      ]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "items": [
+        {
+          "num": "/01",
+          "title": "CRM Selection",
+          "desc": "HubSpot, Pipedrive or Salesforce, depending on your stage, budget and complexity. Independent advice, no partnerships."
+        },
+        {
+          "num": "/02",
+          "title": "Pipeline Design",
+          "desc": "Stages that fit your sales process. Lead scoring, deal stages, automatic reminders. No standard template."
+        },
+        {
+          "num": "/03",
+          "title": "Dashboards & Reporting",
+          "desc": "Real-time overview of pipeline, conversion rates, forecast and activity per rep. Data you can actually act on."
+        },
+        {
+          "num": "/04",
+          "title": "Integrations",
+          "desc": "Your CRM connected to your email, calendar, outbound tools and marketing automation. One source of truth."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        { "num": "/01", "title": "Audit", "desc": "Audit current CRM (or lack thereof)" },
+        { "num": "/02", "title": "Design", "desc": "Pipeline, fields, automations, dashboards" },
+        { "num": "/03", "title": "Migration", "desc": "Transfer and clean up data" },
+        { "num": "/04", "title": "Training", "desc": "Train the team on the new system" }
+      ]
+    },
+    "voorJou": [
+      "You don't have a CRM or still work in spreadsheets",
+      "You have a CRM but nobody uses it properly",
+      "You can't predict your pipeline",
+      "You lack reporting to manage by"
+    ],
+    "faq": [
+      {
+        "q": "Which CRM do you recommend?",
+        "a": "Depends on your stage. HubSpot for most SMBs, Pipedrive if you want to start lean, Salesforce for more complex sales cycles. De Scan provides a substantiated recommendation."
+      },
+      {
+        "q": "How long does a CRM implementation take?",
+        "a": "Typically 3-4 weeks from start to working system, including data migration and team training."
+      },
+      {
+        "q": "What if we already have a CRM?",
+        "a": "Then I optimize what you have. Often it's not the CRM that's the problem, but the setup."
+      }
+    ],
+    "cta": {
+      "title": "From spreadsheet to working system.",
+      "desc": "De Scan maps out what you need: CRM selection, setup, or optimization of what you already have.",
+      "ctaLabel": "Start with De Scan, \u20ac3,500"
+    }
+  },
+  "outbound": {
+    "metadata": {
+      "title": "Outbound Lead Generation for B2B | Accelr",
+      "description": "Outbound email, LinkedIn outreach and multi-channel sequences. Predictable pipeline without depending on your network."
+    },
+    "hero": {
+      "label": "/ Outbound & Lead Generation",
+      "title": "A pipeline that doesn't depend on your network.",
+      "subtitle": "Outbound email, LinkedIn and multi-channel sequences. Automated, tested, and working.",
+      "cta": "Start with De Scan"
+    },
+    "probleem": {
+      "title": "Network-based sales has a ceiling.",
+      "paragraphs": [
+        "The first customers came through your network. Referrals. An intro via a former colleague. That worked, until it wasn't enough anymore.",
+        "Now you need predictable inflow. But cold outbound feels like spam, LinkedIn outreach delivers nothing, and one tool after another promises \"10 meetings per week\" with no results.",
+        "The problem isn't outbound itself. The problem is that nobody sets it up properly: right targeting, relevant messaging, multi-channel sequencing, and continuous optimization."
+      ]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "items": [
+        {
+          "num": "/01",
+          "title": "Outbound Email Engine",
+          "desc": "Instantly or Lemlist, fully configured. Domain warmup, DKIM/SPF/DMARC, inbox rotation. Deliverability from day one."
+        },
+        {
+          "num": "/02",
+          "title": "LinkedIn Outreach",
+          "desc": "Connection strategy, message sequences, content alignment. Manual or automated, depending on your preference."
+        },
+        {
+          "num": "/03",
+          "title": "Multi-Channel Sequences",
+          "desc": "Email + LinkedIn + phone in one coordinated flow. Each step builds on the previous one. No disconnected channels."
+        },
+        {
+          "num": "/04",
+          "title": "Targeting & Messaging",
+          "desc": "ICP-based lists via Clay/Apollo. Messaging that resonates with your buyers, tested, optimized, AI-personalized."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        { "num": "/01", "title": "Sharpen ICP", "desc": "Who are your best-fit customers, really?" },
+        { "num": "/02", "title": "Set up infra", "desc": "Domains, tooling, warmup" },
+        { "num": "/03", "title": "Build campaigns", "desc": "Lists, messaging, sequences" },
+        { "num": "/04", "title": "Test & optimize", "desc": "A/B tests, response tracking, iterate" }
+      ]
+    },
+    "voorJou": [
+      "You depend on your network for new clients",
+      "You've tried outbound but it delivered nothing",
+      "You want a predictable inflow of qualified leads",
+      "You don't have time to build and test campaigns yourself"
+    ],
+    "faq": [
+      {
+        "q": "How many meetings can I expect?",
+        "a": "Depends on your market and offering. Typically 5-15 qualified meetings per month after the first optimization round. No empty promises, I give a realistic estimate after De Scan."
+      },
+      {
+        "q": "Isn't cold outbound just spam?",
+        "a": "Poorly executed outbound is spam. Well-executed outbound is offering relevant value to people who would benefit from it. The difference is in targeting and messaging."
+      },
+      {
+        "q": "How quickly is it up and running?",
+        "a": "Domain warmup takes 2-3 weeks. First results within 4-6 weeks. Optimization is ongoing."
+      }
+    ],
+    "cta": {
+      "title": "From network-dependent to predictable pipeline.",
+      "desc": "De Scan maps out which outbound approach delivers the most for your market and offering.",
+      "ctaLabel": "Start with De Scan, \u20ac3,500"
+    }
+  },
+  "salesEnablement": {
+    "metadata": {
+      "title": "Sales Enablement for B2B Teams | Accelr",
+      "description": "Playbooks, discovery frameworks, objection handling and team training. Give your sales team the structure and tools to perform consistently."
+    },
+    "hero": {
+      "label": "/ Sales Enablement",
+      "title": "A sales team that knows what to do.",
+      "subtitle": "Playbooks, discovery frameworks, objection handling and training. Structure that ensures your team performs consistently.",
+      "cta": "Start with De Scan"
+    },
+    "probleem": {
+      "title": "Your team sells on gut feeling.",
+      "paragraphs": [
+        "Every rep does it differently. Discovery is a checklist. Objections are improvised. New hires take months to get up to speed.",
+        "The problem isn't talent, it's lack of structure. Without a playbook, without a framework, without a shared approach, every deal is an individual experiment.",
+        "Sales enablement gives your team the tools, knowledge and structure to perform consistently. Not as a one-time training, but as a working system."
+      ]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "items": [
+        {
+          "num": "/01",
+          "title": "Sales Playbook",
+          "desc": "The complete playbook for your sales process. From first contact to close. Steps, templates, scripts and best practices, so new reps get productive faster and experienced reps perform more consistently."
+        },
+        {
+          "num": "/02",
+          "title": "Discovery Framework",
+          "desc": "Structured discovery that surfaces the right information. No checklist conversations, but a framework that helps identify real pain points and buying readiness."
+        },
+        {
+          "num": "/03",
+          "title": "Objection Handling",
+          "desc": "The 15-20 most common objections in your market, with substantiated responses. Tested, trained and ready for daily use by your team."
+        },
+        {
+          "num": "/04",
+          "title": "Training & Coaching",
+          "desc": "Hands-on training for your team on the new tools and frameworks. Not a one-time workshop, a training program that sticks."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        { "num": "/01", "title": "Analysis", "desc": "Map current sales process and bottlenecks" },
+        { "num": "/02", "title": "Develop", "desc": "Build playbook, frameworks and materials" },
+        { "num": "/03", "title": "Train", "desc": "Train team on new approach" },
+        { "num": "/04", "title": "Embed", "desc": "Anchor in daily practice and CRM" }
+      ]
+    },
+    "voorJou": [
+      "Your sales team performs inconsistently",
+      "New reps take too long to become productive",
+      "There's no standardized sales process",
+      "You're losing deals due to poor discovery or follow-up"
+    ],
+    "faq": [
+      {
+        "q": "Does this also work for small teams (2-3 reps)?",
+        "a": "Especially. With small teams, consistency is extra important. A playbook ensures everyone sells the same way, and that knowledge isn't lost when someone leaves."
+      },
+      {
+        "q": "How is this different from a standard sales training?",
+        "a": "I don't build generic training. Everything is based on your market, your product and your sales process. The result is a working system, not a binder of slides."
+      },
+      {
+        "q": "How long before it has an effect?",
+        "a": "Most teams see improvement in discovery quality and conversion rates within 4-6 weeks. Full adoption typically takes 2-3 months."
+      }
+    ],
+    "cta": {
+      "title": "Give your team the structure to win.",
+      "desc": "De Scan maps out where your sales process breaks down and which enablement components have the most impact.",
+      "ctaLabel": "Start with De Scan, \u20ac3,500"
+    }
+  },
+  "aiAutomation": {
+    "metadata": {
+      "title": "AI Sales Automation for B2B | Accelr",
+      "description": "AI structurally integrated into your sales process. Clay, Make, n8n, Apollo. No experiments, working systems."
+    },
+    "hero": {
+      "label": "/ AI & Automation",
+      "title": "AI that actually sells.",
+      "subtitle": "No ChatGPT experiments. Structural AI integration into your sales process that measurably generates more pipeline and revenue.",
+      "cta": "Start with De Scan"
+    },
+    "probleem": {
+      "title": "Most companies use AI as a toy.",
+      "paragraphs": [
+        "A prompt in ChatGPT. A list from Apollo. An automation that runs once and then breaks.",
+        "The problem isn't the technology, it's the implementation. AI only works when it's structurally embedded in your sales process: from prospecting to personalization to follow-up. Not as a standalone tool, but as part of a working system.",
+        "That's what I build. AI-driven sales infrastructure that runs without you having to write every prompt yourself."
+      ]
+    },
+    "deliverables": {
+      "title": "What I build",
+      "items": [
+        {
+          "num": "/01",
+          "title": "AI Prospecting Engine",
+          "desc": "Automatically find and enrich your ideal customers with Clay and Apollo. Company data, contact details, technographics and intent signals, without manual searching."
+        },
+        {
+          "num": "/02",
+          "title": "Workflow Automation",
+          "desc": "Make and n8n workflows that connect your CRM, email tools and prospecting. Incoming leads are automatically enriched, scored and routed."
+        },
+        {
+          "num": "/03",
+          "title": "AI Personalization",
+          "desc": "Outbound messages that don't read like spam. AI-generated personalization based on company data, LinkedIn activity and tech stack. At scale, in your tone of voice."
+        },
+        {
+          "num": "/04",
+          "title": "Prompt Libraries & Templates",
+          "desc": "A library of tested prompts for your team: discovery questions, email variants, objection handling, lead research. Ready for daily use."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        { "num": "/01", "title": "Audit current stack", "desc": "What do you have, what's missing, what isn't working?" },
+        { "num": "/02", "title": "Architecture design", "desc": "Which tools, which flows, which triggers" },
+        { "num": "/03", "title": "Build & test", "desc": "I configure, integrate and test everything" },
+        { "num": "/04", "title": "Training & handover", "desc": "Your team can run it themselves" }
+      ]
+    },
+    "voorJou": [
+      "You've bought tools but nobody makes them work",
+      "You want to use AI but don't know where to start",
+      "Your prospecting is manual and takes too much time",
+      "Your outbound messages are generic and don't convert"
+    ],
+    "faq": [
+      {
+        "q": "Do I need to already have AI tools?",
+        "a": "No. I select and implement the right tools for your situation. De Scan maps out what you need."
+      },
+      {
+        "q": "What does this cost?",
+        "a": "Depends on scope. Typically \u20ac3,000-\u20ac8,000 as part of a larger engagement. De Scan determines the exact scope and price."
+      },
+      {
+        "q": "Can my team maintain this themselves?",
+        "a": "Yes, that's the goal. I build it, document it, and train your team. The system is yours."
+      }
+    ],
+    "cta": {
+      "title": "Curious what AI can do for your sales?",
+      "desc": "De Scan maps out where AI delivers the most value in your specific situation. Concrete opportunities, no vague promises.",
+      "ctaLabel": "Start with De Scan, \u20ac3,500"
+    }
+  },
+  "fractional": {
+    "metadata": {
+      "title": "Fractional Head of Sales Netherlands | Accelr",
+      "description": "Experienced commercial leadership, 1-2 days per week. For scale-ups too big to grow without it, but too small for a full-time hire."
+    },
+    "hero": {
+      "title": "A Head of Sales without the full-time",
+      "titleHighlight": "price tag",
+      "subtitle": "Experienced commercial leadership, 1-2 days per week. For scale-ups too big to grow without it, but too small for a full-time hire.",
+      "cta": "Start with De Scan",
+      "ctaSecondary": "Book a call"
+    },
+    "watIsHet": {
+      "label": "/ What is it?",
+      "title": "What is a Fractional Head of Sales?",
+      "desc": "A Fractional Head of Sales is an experienced commercial leader who works part-time (1-2 days per week) for your company. You get strategic leadership and hands-on execution, from CRM setup to team coaching to pipeline management. In the US, this model has been common for years at over 120,000 companies. In the Netherlands, it's just starting."
+    },
+    "vergelijking": {
+      "label": "/ Comparison",
+      "title": "What does sales leadership cost?",
+      "headers": {
+        "fulltimeHos": "Full-time HoS",
+        "interim": "Interim",
+        "accelrFractional": "Accelr Fractional"
+      },
+      "rows": [
+        {
+          "aspect": "Cost/year",
+          "fulltime": "\u20ac150K-\u20ac220K",
+          "interim": "\u20ac120K-\u20ac180K",
+          "accelr": "\u20ac48K-\u20ac96K"
+        },
+        {
+          "aspect": "Mismatch risk",
+          "fulltime": "\u20ac80K+ (6 months salary + recruitment)",
+          "interim": "Medium (contract)",
+          "accelr": "Low (monthly)"
+        },
+        {
+          "aspect": "Availability",
+          "fulltime": "5 days/week",
+          "interim": "5 days/week",
+          "accelr": "1-2 days/week"
+        },
+        {
+          "aspect": "Breadth of expertise",
+          "fulltime": "1 profile, 1 company",
+          "interim": "1 profile",
+          "accelr": "Broad (strategy+ops+AI)"
+        },
+        {
+          "aspect": "Knowledge transfer",
+          "fulltime": "Leaves with knowledge",
+          "interim": "Leaves",
+          "accelr": "Systems + docs stay"
+        },
+        {
+          "aspect": "Focus",
+          "fulltime": "Long-term operations",
+          "interim": "Filling a gap",
+          "accelr": "Building foundation + scaling"
+        },
+        {
+          "aspect": "Commitment",
+          "fulltime": "12+ months",
+          "interim": "6-12 months",
+          "accelr": "Min. 6 months"
+        }
+      ],
+      "footnote": "Interim keeps things running. Fractional brings acceleration, experience and direction."
+    },
+    "traject": {
+      "label": "/ The engagement",
+      "title": "What I concretely do",
+      "steps": [
+        {
+          "num": "/01",
+          "period": "Week 1-4",
+          "title": "Diagnosis",
+          "desc": "Full audit via De Scan. No extra cost, included in the first month. Sales Maturity Score across all pillars, prioritized roadmap."
+        },
+        {
+          "num": "/02",
+          "period": "Month 2-3",
+          "title": "Building",
+          "desc": "CRM, process, playbooks, outbound, AI automations. Hands-on implementation together with your team."
+        },
+        {
+          "num": "/03",
+          "period": "Month 4+",
+          "title": "Running",
+          "desc": "Pipeline reviews, team coaching, forecast, optimization. The system runs, with ongoing fine-tuning."
+        }
+      ]
+    },
+    "voorWie": {
+      "label": "/ Fit check",
+      "title": "Who this works for",
+      "voorWieTitle": "Who this works for",
+      "voorWieItems": [
+        "B2B SaaS/tech/IT, \u20ac1M-\u20ac10M revenue",
+        "Technical founder who still sells personally",
+        "At least 2 people in sales (or ambition to build a team)",
+        "Willing to delegate authority"
+      ],
+      "nietVoorWieTitle": "When this does NOT work",
+      "nietVoorWieItems": [
+        "<\u20ac500K revenue (too early, focus on PMF)",
+        "Not willing to share data and CRM",
+        "Daily full-time presence needed",
+        "Looking for an agency to \"take over\""
+      ]
+    },
+    "investering": {
+      "label": "/ Investment",
+      "title": "The investment",
+      "price": "From \u20ac4,000",
+      "priceSuffix": "/month",
+      "features": [
+        "1-2 days per week (8-16 hours)",
+        "Minimum 6 months commitment",
+        "First month = diagnosis (no separate Scan costs)",
+        "Monthly cancellable after minimum period"
+      ]
+    },
+    "resultaten": {
+      "label": "/ Results",
+      "title": "What others achieved",
+      "caseStudies": [
+        {
+          "title": "Company A",
+          "result": "\u20ac1.8M \u2192 \u20ac2.6M ARR (+44%)"
+        },
+        {
+          "title": "Company B",
+          "result": "\u20ac600K untapped potential, Upsell +262%"
+        },
+        {
+          "title": "Company C",
+          "result": "\u20ac2.5M \u2192 \u20ac4.1M ARR (+64%)"
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Ready for commercial leadership without the full-time price tag?",
+      "desc": "Book a call to discuss whether a Fractional Head of Sales fits your situation.",
+      "cta": "Book a call"
+    }
+  },
+  "blog": {
+    "metadata": {
+      "title": "Blog | B2B Sales Insights | Accelr",
+      "description": "Articles about B2B sales, CRM, AI tools, outbound and sales strategy for tech founders."
+    },
+    "hero": {
+      "label": "/ Blog",
+      "title": "Insights & articles",
+      "subtitle": "Practical insights about B2B sales, CRM, AI tools, outbound and sales strategy. Specifically for tech founders."
+    },
+    "posts": [
+      {
+        "title": "Why your first sales hire fails (and how to prevent it)",
+        "excerpt": "You have product-market fit, revenue is growing, time for that first sales hire. But 6 months later: no results, \u20ac100K+ spent. I see this pattern in 80% of the founders I speak with.",
+        "tag": "Sales Strategy",
+        "readTime": "6 min"
+      },
+      {
+        "title": "Fractional Head of Sales: what is it and why is it growing in the Netherlands?",
+        "excerpt": "In the US, it's been mainstream for years. In the Netherlands, it's just starting. A Fractional Head of Sales is an experienced commercial leader who works part-time for your company. Everything you need to know.",
+        "tag": "Sales Leadership",
+        "readTime": "8 min"
+      }
+    ],
+    "readArticle": "Read article"
+  },
+  "resultaten": {
+    "metadata": {
+      "title": "Results | Case Studies | Accelr",
+      "description": "No theory. This is what happens when your sales operation becomes a system."
+    },
+    "hero": {
+      "title": "Results",
+      "subtitle": "No theory. This is what happens when your sales operation becomes a system."
+    },
+    "backLink": "Back to all results",
+    "caseStudyA": {
+      "badge": "B2B SaaS \u00b7 HR-tech \u00b7 22 employees",
+      "name": "[Company A]",
+      "headline": "\u20ac1.8M \u2192 \u20ac2.6M ARR (+44%) in 9 months",
+      "highlights": [
+        "Win rate +55%, deal size +33%, sales cycle -42%",
+        "HubSpot restructured, 6-step sales process, outbound engine built",
+        "Founder from 70% to 20% involvement in deals"
+      ],
+      "quote": "After 6 months, it ran without me. Tim transformed our sales process from chaos to a system.",
+      "uitdaging": "The challenge",
+      "uitdagingDesc": "The founder did 70% of all deals himself. Two account executives worked without a playbook, without structured CRM usage, and without a defined sales process. Pipeline overview consisted of a Google Sheet. Win rate was unknown. The forecast was the founder's gut feeling.",
+      "aanpak": "The approach",
+      "opdracht": "Assignment: Fractional Head of Sales, 2 days per week, 9 months.",
+      "maand1Title": "Month 1, De Scan",
+      "maand1Items": [
+        "HubSpot audit: 40% of deals not logged",
+        "No standardized sales process",
+        "2 AEs, no SDR",
+        "Report with 47 findings, 12 critical gaps"
+      ],
+      "maand2Title": "Month 2-4, Building",
+      "maand2Items": [
+        "HubSpot restructured: pipeline stages, deal rotation, dashboards",
+        "6-step sales process developed and documented",
+        "Sales playbook v1.0 written",
+        "Outbound engine built: Clay + Lemlist, 200 prospects per month"
+      ],
+      "maand5Title": "Month 5-9, Running",
+      "maand5Items": [
+        "Weekly pipeline reviews installed",
+        "SDR #1 hired and onboarded",
+        "AI automations: lead scoring, Fireflies \u2192 CRM integration",
+        "Founder involvement: 70% \u2192 20% of deals"
+      ],
+      "resultatenTitle": "Results",
+      "tableHeaders": { "metric": "Metric", "voor": "Before", "na": "After", "verschil": "Change" },
+      "tableRows": [
+        { "metric": "Pipeline/month", "voor": "Unknown", "na": "\u20ac380K", "verschil": "\u2014" },
+        { "metric": "Average deal size", "voor": "\u20ac18K", "na": "\u20ac24K", "verschil": "+33%" },
+        { "metric": "Win rate", "voor": "~20%", "na": "31%", "verschil": "+55%" },
+        { "metric": "Lead-to-close time", "voor": "90 days", "na": "52 days", "verschil": "-42%" },
+        { "metric": "Deals per month", "voor": "2-3", "na": "5-6", "verschil": "+100%" },
+        { "metric": "Founder in deals", "voor": "70%", "na": "20%", "verschil": "-71%" },
+        { "metric": "ARR", "voor": "\u20ac1.8M", "na": "\u20ac2.6M", "verschil": "+44%" }
+      ],
+      "quoteDetailed": "Tim forced us to honestly look at our pipeline. Confronting, 40% of deals weren't even in the CRM. After 3 months, we had real visibility into our funnel for the first time. After 6 months, it ran without me.",
+      "quoteAuthor": "[Name]",
+      "quoteRole": "Founder [Company A]"
+    },
+    "caseStudyB": {
+      "badge": "IT services \u00b7 35 employees",
+      "name": "[Company B]",
+      "headline": "\u20ac600K untapped potential found, Upsell +262%",
+      "highlights": [
+        "Salesforce adoption from 15% to 92%, forecast accuracy 78%",
+        "New business engine: \u20ac0 to \u20ac220K per month",
+        "Client portfolio analysis revealed \u20ac600K hidden opportunities"
+      ],
+      "quote": "The wake-up call we needed. We were sitting on \u20ac600K in potential we didn't see.",
+      "uitdaging": "The challenge",
+      "uitdagingDesc": "An IT services company with \u20ac3.2M revenue and 35 employees. Sales ran entirely on existing clients and inbound. No active new business. Salesforce had been purchased but adoption was at 15%. No pipeline overview, no forecasting, no structured upsell. Management knew there was more potential, but not how much.",
+      "aanpak": "The approach",
+      "scanTitle": "De Scan (6 weeks)",
+      "scanItems": [
+        "Salesforce audit: 85% of accounts incomplete, no opportunity tracking",
+        "Client portfolio analysis: \u20ac600K untapped cross-sell and upsell potential identified",
+        "No defined sales process, everything ad-hoc",
+        "Team assessment: 3 account managers, no pipeline ownership"
+      ],
+      "bouwenTitle": "Building (month 2-5)",
+      "bouwenItems": [
+        "Salesforce restructured: pipeline stages, dashboards, deal tracking",
+        "Upsell playbook developed per client segment",
+        "New business outbound: LinkedIn + email sequences",
+        "Weekly pipeline reviews introduced"
+      ],
+      "resultatenTitle": "Results",
+      "tableRows": [
+        { "metric": "Salesforce adoption", "voor": "15%", "na": "92%", "verschil": "+513%" },
+        { "metric": "Upsell/cross-sell", "voor": "Ad-hoc", "na": "Structured", "verschil": "+262%" },
+        { "metric": "New business per month", "voor": "\u20ac0", "na": "\u20ac220K", "verschil": "\u2014" },
+        { "metric": "Pipeline visibility", "voor": "None", "na": "Real-time dashboard", "verschil": "\u2014" },
+        { "metric": "Forecast accuracy", "voor": "0%", "na": "78%", "verschil": "\u2014" }
+      ],
+      "quoteDetailed": "The wake-up call we needed. We were sitting on \u20ac600K in potential we didn't see. Tim made it visible and built a system to harvest it.",
+      "quoteAuthor": "[Name]",
+      "quoteRole": "Director [Company B]"
+    },
+    "caseStudyC": {
+      "badge": "B2B SaaS \u00b7 Supply chain \u00b7 18 employees",
+      "name": "[Company C]",
+      "headline": "\u20ac2.5M \u2192 \u20ac4.1M ARR (+64%) in 12 months",
+      "highlights": [
+        "Pipeline +244%, win rate +61%, sales cycle -43%",
+        "Full HubSpot implementation, AI lead scoring, outbound engine",
+        "Full-time Head of Sales recruited and successfully onboarded"
+      ],
+      "quote": "The problem wasn't the person, it was the system. Tim built the foundation first.",
+      "uitdaging": "The challenge",
+      "uitdagingDesc": "A B2B SaaS company in supply chain with \u20ac2.5M ARR. The founder had just hired a VP Sales who left after 4 months, \u20ac120K loss including opportunity cost. The team of 3 AEs operated without a system. No CRM discipline, no forecasting, no structured sales process. The founder was considering a second hire but wanted to fix the foundation first.",
+      "aanpak": "The approach",
+      "opdracht": "Fractional Head of Sales, 12 months",
+      "maand1Title": "Month 1, Diagnosis",
+      "maand1Items": [
+        "CRM audit: Pipedrive \u2192 HubSpot migration necessary",
+        "No standardized sales cycle",
+        "Team skills assessment conducted"
+      ],
+      "maand2Title": "Month 2-4, Building",
+      "maand2Items": [
+        "HubSpot implementation and migration",
+        "7-step sales process developed",
+        "Sales playbook written",
+        "Outbound engine built: Clay + Apollo",
+        "AI lead scoring implemented"
+      ],
+      "maand5Title": "Month 5-9, Scaling",
+      "maand5Items": [
+        "SDR hired and onboarded",
+        "Team training program launched",
+        "Weekly pipeline reviews and quarterly business reviews"
+      ],
+      "maand10Title": "Month 10-12, Handover",
+      "maand10Items": [
+        "Full-time Head of Sales recruited and onboarded",
+        "All systems and processes documented",
+        "Successful handover completed"
+      ],
+      "resultatenTitle": "Results",
+      "tableRows": [
+        { "metric": "ARR", "voor": "\u20ac2.5M", "na": "\u20ac4.1M", "verschil": "+64%" },
+        { "metric": "Pipeline per month", "voor": "\u20ac180K", "na": "\u20ac620K", "verschil": "+244%" },
+        { "metric": "Win rate", "voor": "18%", "na": "29%", "verschil": "+61%" },
+        { "metric": "Sales cycle", "voor": "120 days", "na": "68 days", "verschil": "-43%" },
+        { "metric": "Team size", "voor": "3 AEs", "na": "3 AEs + 1 SDR + HoS", "verschil": "\u2014" },
+        { "metric": "Founder in deals", "voor": "60%", "na": "5%", "verschil": "-92%" },
+        { "metric": "Cost vs full-time VP", "voor": "\u2014", "na": "\u2014", "verschil": "60% cheaper" }
+      ],
+      "quoteDetailed": "The problem wasn't the person, it was the system. Tim built the foundation first and then found the right HoS to take it over. I could never have done that myself.",
+      "quoteAuthor": "[Name]",
+      "quoteRole": "CTO & Co-founder [Company C]"
+    },
+    "cta": {
+      "title": "Sound familiar? Book a call.",
+      "desc": "Discover what's possible for your sales operation.",
+      "cta": "Start the conversation"
+    }
+  },
+  "score": {
+    "metadata": {
+      "title": "Sales Maturity Score | Check your sales engine",
+      "description": "10 dimensions. One score. Know where your sales engine stalls and what the logical next step is."
+    },
+    "form": {
+      "label": "/ Sales Maturity Score",
+      "title": "Where does your sales engine stand?",
+      "subtitle": "Score yourself across 10 dimensions. You'll get immediate insight into your strengths and areas for improvement.",
+      "submit": "View my score",
+      "averageScore": "Average score:"
+    },
+    "dimensions": [
+      {
+        "id": "strategy",
+        "name": "Strategy",
+        "question": "How sharp is your ICP and positioning?",
+        "low": "Your ICP is vague or too broad. You're trying to sell to everyone.",
+        "high": "Sharp ICP, clear positioning, proven product-market fit."
+      },
+      {
+        "id": "process",
+        "name": "Process",
+        "question": "Do you have a documented sales process?",
+        "low": "No fixed process. Every deal goes differently.",
+        "high": "Documented process with clear stages and criteria."
+      },
+      {
+        "id": "pipeline",
+        "name": "Pipeline",
+        "question": "How predictable is your pipeline?",
+        "low": "Four deals one month, zero the next.",
+        "high": "Predictable pipeline with consistent flow and accurate forecast."
+      },
+      {
+        "id": "crm",
+        "name": "CRM",
+        "question": "How well is your CRM being used?",
+        "low": "No CRM, or a CRM that nobody uses.",
+        "high": "CRM fully adopted, clean data, usable reporting."
+      },
+      {
+        "id": "outbound",
+        "name": "Outbound",
+        "question": "Do you do active and systematic outbound?",
+        "low": "Inbound or network only. No systematic acquisition.",
+        "high": "Multi-channel outbound with measurable results."
+      },
+      {
+        "id": "enablement",
+        "name": "Enablement",
+        "question": "Does your team have playbooks and training?",
+        "low": "No playbooks, scripts or training.",
+        "high": "Complete playbooks, trained team, fast onboarding."
+      },
+      {
+        "id": "ai",
+        "name": "AI & Automation",
+        "question": "How far along are you with AI and automation?",
+        "low": "No AI tools, or tools bought but not working.",
+        "high": "AI structurally integrated across the entire sales process."
+      },
+      {
+        "id": "team",
+        "name": "Team",
+        "question": "Do you have the right people and structure?",
+        "low": "Founder does everything, or team without clear roles.",
+        "high": "Structured team with clear roles and responsibilities."
+      },
+      {
+        "id": "data",
+        "name": "Data",
+        "question": "Do you track the right KPIs?",
+        "low": "No KPI tracking. Decisions made on gut feeling.",
+        "high": "Full KPI tracking, accurate forecasts, data-driven decisions."
+      },
+      {
+        "id": "leadership",
+        "name": "Leadership",
+        "question": "Who manages the sales?",
+        "low": "No sales management. No accountability.",
+        "high": "Active sales management with reviews, coaching and accountability."
+      }
+    ],
+    "results": {
+      "label": "/ Your result",
+      "title": "Sales Maturity Score",
+      "scorePerDimensie": "Score per dimension",
+      "top3": "Top 3 areas of attention",
+      "scoreLegenda": "Score legend",
+      "levels": {
+        "urgent": { "label": "Urgent", "desc": "Your sales engine has fundamental gaps. You're leaving significant money on the table." },
+        "opbouwfase": { "label": "Building phase", "desc": "There are basic elements but the system lacks structure and consistency." },
+        "groeipotentieel": { "label": "Growth potential", "desc": "Good foundation, but there's room for optimization and scaling." },
+        "optimalisatie": { "label": "Optimization", "desc": "Strong foundation. Focus on fine-tuning and maximizing efficiency." }
+      },
+      "legendItems": {
+        "urgent": { "range": "<4", "label": "Urgent", "desc": "You're leaving money on the table" },
+        "groei": { "range": "4-6", "label": "Growth potential", "desc": "Room for improvement" },
+        "optim": { "range": "7+", "label": "Optimization", "desc": "Fine-tuning and scaling" }
+      },
+      "cta": {
+        "desc": "This is a quick scan. The professional Scan audits everything with interviews, data analysis and euro value per opportunity.",
+        "price": "\u20ac3,500",
+        "priceNote": "fixed \u00b7 Not satisfied? Money back.",
+        "ctaLabel": "Book your Scan",
+        "retake": "Fill in again"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "Accelr respects the privacy of all users and ensures that personal information is treated confidentially.",
+    "sections": {
+      "backToHome": "Back to home",
+      "legalLabel": "/ Legal",
+      "lastUpdate": "Last update: February 2026",
+      "whoWeAre": {
+        "title": "1. Who we are",
+        "desc": "Accelr is a sole proprietorship based in Haarlem, the Netherlands, founded by Tim Samsom. We help B2B companies professionalize their sales processes.",
+        "websiteLabel": "Website",
+        "emailLabel": "Email",
+        "kvkLabel": "KvK number",
+        "locationLabel": "Location",
+        "location": "Haarlem, The Netherlands"
+      },
+      "dataCollection": {
+        "title": "2. What data we collect",
+        "providedTitle": "Data you provide yourself",
+        "providedItems": [
+          "Name, email address and phone number (via contact form or Calendly)",
+          "Company name and job title",
+          "Content of messages you send us"
+        ],
+        "autoTitle": "Data collected automatically",
+        "autoItems": [
+          "IP address (anonymized)",
+          "Browser type and operating system",
+          "Pages visited and time of visit",
+          "Referring website"
+        ]
+      },
+      "purpose": {
+        "title": "3. Why we use your data",
+        "colPurpose": "Purpose",
+        "colBasis": "Legal basis (GDPR)",
+        "rows": [
+          { "doel": "Answering your question or request", "grondslag": "Legitimate interest" },
+          { "doel": "Scheduling a meeting via Calendly", "grondslag": "Contract performance" },
+          { "doel": "Improving our website", "grondslag": "Legitimate interest" },
+          { "doel": "Analyzing website usage", "grondslag": "Consent (cookies)" },
+          { "doel": "Sending relevant updates (only with consent)", "grondslag": "Consent" }
+        ],
+        "noSelling": "We never sell your data to third parties."
+      },
+      "cookies": {
+        "title": "4. Cookies",
+        "desc": "Our website uses cookies. On your first visit, we ask for your consent.",
+        "types": [
+          {
+            "title": "Necessary cookies",
+            "description": "Required for the website to function (e.g., saving cookie preference). No consent required.",
+            "status": "Always active",
+            "statusColor": "bg-accent-teal/10 text-accent-teal-dark"
+          },
+          {
+            "title": "Analytical cookies",
+            "description": "We use Vercel Analytics to understand how visitors use our website. IP addresses are anonymized.",
+            "status": "With consent",
+            "statusColor": "bg-warning/10 text-warning"
+          },
+          {
+            "title": "Marketing cookies",
+            "description": "We currently do not use marketing cookies.",
+            "status": "Not active",
+            "statusColor": "bg-text-dark-muted/10 text-text-dark-muted"
+          }
+        ],
+        "changePrefs": "You can change your cookie preferences at any time via the cookie banner or by adjusting your browser settings."
+      },
+      "thirdParties": {
+        "title": "5. Third parties and processors",
+        "desc": "We share data with the following parties, exclusively for the stated purposes:",
+        "colParty": "Party",
+        "colPurpose": "Purpose",
+        "colLocation": "Location",
+        "rows": [
+          { "partij": "Calendly", "doel": "Scheduling meetings", "locatie": "US (EU Standard Contractual Clauses)" },
+          { "partij": "Vercel", "doel": "Website hosting & analytics", "locatie": "US (EU Standard Contractual Clauses)" },
+          { "partij": "HubSpot", "doel": "CRM and contact management", "locatie": "US (EU Standard Contractual Clauses)" }
+        ],
+        "dpa": "Data processing agreements have been concluded with all processors in accordance with the GDPR."
+      },
+      "retention": {
+        "title": "6. Retention periods",
+        "items": [
+          { "label": "Contact details", "term": "maximum 2 years after last contact" },
+          { "label": "Analytical data", "term": "maximum 26 months (anonymized)" },
+          { "label": "Email correspondence", "term": "maximum 2 years" }
+        ]
+      },
+      "rights": {
+        "title": "7. Your rights",
+        "desc": "Under the GDPR, you have the following rights:",
+        "items": [
+          { "right": "Access", "desc": "Request what data we have about you" },
+          { "right": "Correction", "desc": "Have incorrect data corrected" },
+          { "right": "Deletion", "desc": "Have your data deleted" },
+          { "right": "Restriction", "desc": "Temporarily stop processing" },
+          { "right": "Portability", "desc": "Receive your data in a common format" },
+          { "right": "Objection", "desc": "Object to processing based on legitimate interest" }
+        ],
+        "sendRequest": "Send your request to",
+        "responseTime": "We respond within 30 days.",
+        "complaint": "You also have the right to file a complaint with the",
+        "authority": "Dutch Data Protection Authority"
+      },
+      "security": {
+        "title": "8. Security",
+        "desc": "We take appropriate technical and organizational measures to protect your data, including:",
+        "items": [
+          "SSL/TLS encryption on the entire website",
+          "Access restrictions to personal data",
+          "Regular review of security measures"
+        ]
+      },
+      "changes": {
+        "title": "9. Changes",
+        "desc": "We may change this privacy policy. The latest version is always available at",
+        "notify": "In case of significant changes, we will inform you via the website."
+      },
+      "contact": {
+        "title": "10. Contact",
+        "desc": "Questions about this privacy policy? Get in touch:"
+      }
+    }
+  },
+  "cookieBanner": {
+    "text": "We use cookies to improve our website. Necessary cookies are always active. We only place analytical cookies with your consent.",
+    "accept": "Accept",
+    "necessary": "Necessary only",
+    "privacyLink": "Privacy Policy"
+  },
+  "expertiseMapping": {
+    "label": "/ Expertise",
+    "title": "How this maps to what I build",
+    "cards": {
+      "deScan": {
+        "label": "DIAGNOSIS",
+        "title": "De Scan\u2122",
+        "desc": "Diagnoses all pillars. Output = strategy + action plan."
+      },
+      "strategie": {
+        "label": "STRATEGY",
+        "title": "Strategy & GTM",
+        "desc": "ICP, positioning, GTM, pricing. The foundation."
+      },
+      "outbound": {
+        "label": "PROCESS \u00b7 LAYER 1",
+        "title": "Outbound & Leadgen",
+        "desc": "Pipeline generation engine"
+      },
+      "crm": {
+        "label": "PROCESS \u00b7 LAYER 2+3",
+        "title": "CRM & Sales Process",
+        "desc": "Execution + Measurement"
+      },
+      "enablement": {
+        "label": "PEOPLE \u00b7 LAYER 1+2",
+        "title": "Sales Enablement",
+        "desc": "Enablement + Visibility"
+      },
+      "ai": {
+        "label": "\u00d7 AI",
+        "title": "AI & Automation",
+        "desc": "Automation + Intelligence + Analytics"
+      }
+    },
+    "overkoepelend": {
+      "label": "Overarching",
+      "title": "Fractional Head of Sales",
+      "desc": "Oversees all pillars on an ongoing basis. 1-2 days/week."
+    }
+  },
+  "frameworkArchitecture": {
+    "label": "/ Framework",
+    "title": "The architecture",
+    "subtitle": "Three pillars, each with three layers. Powered by AI. This is what we diagnose, design and build.",
+    "strategie": {
+      "title": "Strategy",
+      "subtitle": "the input that drives everything",
+      "items": [
+        "ICP definition & buyer personas",
+        "Go-to-market plan",
+        "Channel strategy",
+        "Positioning & messaging",
+        "Pricing & packaging",
+        "Discount policy & deal structure",
+        "Competitive positioning",
+        "Market segmentation"
+      ],
+      "cta": "View Strategy & GTM expertise"
+    },
+    "proces": {
+      "title": "Process",
+      "subtitle": "From first contact to signed contract, and everything you measure",
+      "layers": [
+        {
+          "title": "Layer 1: Pipeline Generation",
+          "items": [
+            "ICP-to-list targeting",
+            "Outbound email engine",
+            "LinkedIn sequences",
+            "Call structure",
+            "Multi-channel orchestration",
+            "Lead qualification (MQL \u2192 SQL)"
+          ]
+        },
+        {
+          "title": "Layer 2: Sales Execution",
+          "items": [
+            "Sales process design",
+            "CRM selection + setup",
+            "Pipeline stages",
+            "Discovery methodology",
+            "Proposal structure",
+            "Objection handling"
+          ]
+        },
+        {
+          "title": "Layer 3: Measurement & Optimization",
+          "items": [
+            "KPI dashboards",
+            "Pipeline health metrics",
+            "Forecasting",
+            "Win/loss analysis",
+            "Lead scoring",
+            "Data hygiene"
+          ]
+        }
+      ],
+      "ctaOutbound": "Outbound & Lead Generation",
+      "ctaCrm": "CRM & Sales Process"
+    },
+    "people": {
+      "title": "People",
+      "subtitle": "Getting your team ready, visible, and growing",
+      "layers": [
+        {
+          "title": "Layer 1: Enablement",
+          "items": [
+            "Sales playbooks & scripts",
+            "Discovery frameworks",
+            "Demo optimization",
+            "Objection handling guides",
+            "Onboarding sales hires"
+          ]
+        },
+        {
+          "title": "Layer 2: Visibility",
+          "items": [
+            "LinkedIn strategy for the team",
+            "Content calendar",
+            "Case studies & social proof",
+            "Events & speaking engagements",
+            "Thought leadership plan"
+          ]
+        },
+        {
+          "title": "Layer 3: Organization & Growth",
+          "items": [
+            "Sales hire role definition",
+            "Compensation & commission model",
+            "Training & coaching cadence",
+            "Account management playbooks",
+            "QBR templates",
+            "Expansion/upsell frameworks"
+          ]
+        }
+      ],
+      "cta": "Sales Enablement"
+    },
+    "ai": {
+      "title": "\u00d7 AI Multiplier",
+      "subtitle": "accelerates everything from 1\u00d7 to 3-5\u00d7",
+      "layers": [
+        {
+          "title": "Layer 1: Automation",
+          "items": [
+            "Workflow automation (Make, n8n)",
+            "CRM automation & triggers",
+            "Email sequence automation",
+            "Data enrichment",
+            "Reporting automation"
+          ]
+        },
+        {
+          "title": "Layer 2: Intelligence",
+          "items": [
+            "AI prospecting (Clay, Apollo)",
+            "AI personalization",
+            "Prompt libraries",
+            "AI lead scoring",
+            "AI-assisted discovery prep"
+          ]
+        },
+        {
+          "title": "Layer 3: Analytics & Learning",
+          "items": [
+            "AI-driven pipeline forecasting",
+            "Performance pattern recognition",
+            "Automatic alerts on deviations",
+            "A/B test analysis",
+            "Conversion optimization insights"
+          ]
+        }
+      ],
+      "cta": "AI & Automation expertise"
+    }
+  },
+  "blogSalesHire": {
+    "metadata": {
+      "title": "Why your first sales hire fails (and how to prevent it) | Accelr Blog",
+      "description": "Wasted \u20ac100K+ on a sales hire that doesn't work? This is why it goes wrong, and what you need to build first."
+    },
+    "hero": {
+      "tag": "Sales Strategy",
+      "title": "Why your first sales hire fails",
+      "readTime": "6 min read"
+    },
+    "intro": "You have product-market fit. Revenue is growing. Time for that first sales hire. But 6 months later: no results, \u20ac100K+ spent, and you're back to selling yourself. I see this pattern in 80% of the founders I speak with.",
+    "pattern": {
+      "title": "The pattern",
+      "p1": "You have product-market fit. Revenue is growing. You think:",
+      "p1em": "\"I need a salesperson.\"",
+      "p2": "You hire someone. After 3-6 months: no results.",
+      "p3": "Because:",
+      "items": [
+        { "bold": "No CRM process", "rest": ", no pipeline, no clear stages" },
+        { "bold": "No playbook", "rest": ", no scripts, no discovery flow" },
+        { "bold": "No onboarding", "rest": ", \"Just start calling\"" },
+        { "bold": "No defined ICP", "rest": ", \"Anyone who pays is a good customer\"" }
+      ],
+      "conclusion": "The sales hire doesn't fail due to lack of talent, but due to lack of system."
+    },
+    "whatToBuild": {
+      "title": "What you need to build first",
+      "intro": "Before making that first sales hire, you need this in place:",
+      "items": [
+        { "title": "1. Defined ICP and buyer persona", "desc": "Who are your best customers? Which titles? Which company sizes? Which pain points?" },
+        { "title": "2. CRM set up with pipeline stages", "desc": "What steps does a deal go through? From first contact to closed-won. What is the definition of each stage?" },
+        { "title": "3. Discovery and demo scripts", "desc": "What questions do you ask? What do you show in your demo? How do you handle objections?" },
+        { "title": "4. Onboarding checklist", "desc": "What does someone need to learn in week 1, 2, 3, 4? Which tools? Which processes?" },
+        { "title": "5. First 3 months KPIs", "desc": "How many calls? How many demos? What is success in month 1, 2, 3?" }
+      ]
+    },
+    "solution": {
+      "title": "The solution",
+      "p1": "Build the system first, then the hire.",
+      "p2": "If you can't or don't want to do that yourself: let a Fractional Head of Sales lay the foundation. In 3-6 months you build a system where any sales hire can be successful.",
+      "p3": "Then you're not hiring a person who needs to figure it out. You're hiring someone who can execute a proven playbook."
+    },
+    "inlineCta": {
+      "title": "Want to know where you stand?",
+      "desc": "With De Scan you get a complete overview of your sales funnel, tooling and processes in 2 hours. Plus a roadmap for what you need to fix before making that first hire.",
+      "ctaScan": "View De Scan",
+      "ctaFractional": "Fractional Head of Sales"
+    },
+    "footerCta": {
+      "title": "Want to prevent this?",
+      "desc": "Book a call. We'll look at your situation together and make a plan.",
+      "cta": "Book a call"
+    }
+  },
+  "blogFractional": {
+    "metadata": {
+      "title": "Fractional Head of Sales: what is it and why is it growing in the Netherlands? | Accelr Blog",
+      "description": "Everything about the Fractional Head of Sales model. What it is, what it costs, and why more and more B2B companies in the Netherlands are considering it."
+    },
+    "hero": {
+      "tag": "Sales Leadership",
+      "title": "Fractional Head of Sales: what is it?",
+      "readTime": "8 min read"
+    },
+    "intro": "In the US, it's been mainstream for years. In the Netherlands, it's just starting. A Fractional Head of Sales is an experienced commercial leader who works part-time (1-2 days per week) for your company. This article explains what it is, what it costs, and when it's smart.",
+    "whatIsIt": {
+      "title": "What is a Fractional Head of Sales?",
+      "p1": "A Fractional Head of Sales is an experienced sales leader who works part-time (usually 1-2 days per week) to build and lead your commercial strategy and organization.",
+      "p2": "Compare it to a fractional CFO or CMO: senior expertise, without the cost of a full-time hire.",
+      "p3": "In the US, more than 120,000 companies work with fractional executives. In Europe, the model is growing fast, especially at B2B tech companies between \u20ac1M-\u20ac10M revenue.",
+      "boxTitle": "What does a Fractional Head of Sales do?",
+      "boxItems": [
+        "Builds your sales funnel and CRM process",
+        "Trains your team or first sales hire",
+        "Develops playbooks, scripts, ICP",
+        "Manages KPIs and pipeline management",
+        "Helps with hiring and onboarding sales talent"
+      ]
+    },
+    "cost": {
+      "title": "What does it cost?",
+      "intro": "The cost comparison:",
+      "options": [
+        { "title": "Fractional Head of Sales", "price": "\u20ac4,000 - \u20ac8,000/month", "desc": "1-2 days per week, minimum 6 months", "highlight": true },
+        { "title": "Full-time Head of Sales", "price": "\u20ac150,000 - \u20ac220,000/year", "desc": "Salary + employer costs + bonus + onboarding", "highlight": false },
+        { "title": "Interim sales manager", "price": "\u20ac120,000 - \u20ac180,000/year", "desc": "5 days per week, often short-term focus", "highlight": false }
+      ],
+      "conclusion": "Fractional is **60-70% cheaper** than full-time or interim, but you still get senior-level expertise."
+    },
+    "whenSmart": {
+      "title": "When is it smart?",
+      "intro": "A Fractional Head of Sales is smart if:",
+      "items": [
+        "You're between **\u20ac1M-\u20ac10M revenue**",
+        "Your founder sells personally and wants to **systematize** it",
+        "You've just made your **first sales hire** (or that one failed)",
+        "You have **no sales system**: no CRM, no playbook, no pipeline",
+        "You want to **grow to \u20ac5M-\u20ac20M** but don't know how"
+      ]
+    },
+    "whenNot": {
+      "title": "When is it NOT smart?",
+      "intro": "Fractional is not the right choice if:",
+      "items": [
+        "You're under **\u20ac500K revenue**, focus on product-market fit first",
+        "You already have a **sales team of 5+**, then you need full-time leadership",
+        "You want someone who **will also sell**, fractional is strategic, not execution",
+        "You're not willing to **delegate authority**, a fractional needs to be able to decide"
+      ]
+    },
+    "howAccelr": {
+      "title": "How does it work at Accelr?",
+      "intro": "At Accelr, I work in phases:",
+      "phases": [
+        { "title": "Month 1: Diagnosis", "desc": "We do De Scan. I map your funnel, tooling, ICP and processes. You get a roadmap with priorities." },
+        { "title": "Month 2-3: Building", "desc": "We build the foundation: CRM, playbook, scripts, ICP, onboarding, KPI dashboard. Everything you need to scale." },
+        { "title": "Month 4+: Running & Optimizing", "desc": "We train your team, manage KPIs, optimize the funnel. I stay available 1-2 days per week for coaching, strategy and decisions." }
+      ],
+      "duration": "Minimum duration: **6 months**. After that you can scale up to full-time, scale down, or continue with fractional, depending on what you need."
+    },
+    "inlineCta": {
+      "title": "Is this for you?",
+      "desc": "Let's find out. Book a call, I'll ask some questions about your situation, and we'll see if fractional fits.",
+      "cta": "More about Fractional"
+    },
+    "footerCta": {
+      "title": "Want to explore this?",
+      "desc": "Book a call. We'll look together at whether fractional fits your situation.",
+      "cta": "Book a call"
+    }
+  }
+}
