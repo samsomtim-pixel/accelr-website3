@@ -23,10 +23,10 @@ export default async function Footer() {
             <p className="section-label mb-4">/ {t("navigation")}</p>
             <ul className="space-y-3">
               {[
-                { href: "/" as const, label: "Home" },
-                { href: "/methode" as const, label: t("deMethode") },
-                { href: "/over-tim" as const, label: t("overTim") },
-                { href: "/blog" as const, label: "Blog" },
+                { href: "/" as const, label: t("navItems.home") },
+                { href: "/methode" as const, label: t("navItems.methode") },
+                { href: "/over-tim" as const, label: t("navItems.overTim") },
+                { href: "/blog" as const, label: t("navItems.blog") },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link
@@ -45,11 +45,11 @@ export default async function Footer() {
             <p className="section-label mb-4">/ Expertise</p>
             <ul className="space-y-3">
               {[
-                { href: "/de-scan" as const, label: t("deScan") },
-                { href: "/crm-implementatie" as const, label: t("crmSalesproces") },
-                { href: "/outbound-leadgeneratie" as const, label: t("outboundLeadgen") },
-                { href: "/ai-sales-automation" as const, label: t("aiAutomation") },
-                { href: "/score" as const, label: "Sales Maturity Score" },
+                { href: "/de-scan" as const, label: t("expertiseItems.deScan") },
+                { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
+                { href: "/outbound-leadgeneratie" as const, label: t("expertiseItems.outboundLeadgen") },
+                { href: "/ai-sales-automation" as const, label: t("expertiseItems.aiAutomation") },
+                { href: "/score" as const, label: t("expertiseItems.salesMaturityScore") },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link
@@ -80,23 +80,23 @@ export default async function Footer() {
                   href="/contact"
                   className="transition-colors hover:text-accent-teal"
                 >
-                  {t("planEenGesprek")}
+                  {t("planGesprek")}
                 </Link>
               </li>
-              <li className="text-text-muted">Haarlem, Nederland</li>
+              <li className="text-text-muted">{t("location")}</li>
             </ul>
           </div>
 
           {/* Juridisch */}
           <div>
-            <p className="section-label mb-4">/ {t("juridisch")}</p>
+            <p className="section-label mb-4">/ {t("legal")}</p>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="/privacy"
                   className="text-sm text-text-secondary transition-colors hover:text-accent-teal"
                 >
-                  {t("privacybeleid")}
+                  {t("privacy")}
                 </Link>
               </li>
             </ul>
@@ -107,7 +107,7 @@ export default async function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-xs text-text-muted">
-            &copy; {new Date().getFullYear()} Accelr. {t("alleRechten")}
+            &copy; {new Date().getFullYear()} Accelr. {t("copyright")}
           </p>
           <p className="text-xs text-text-muted">
             Your Sales Growth Partner
