@@ -820,7 +820,7 @@ export default async function HomePage() {
               </FadeIn>
 
               <FadeIn delay={0.2}>
-                <div className="h-full rounded-2xl border border-red-200 bg-red-50 p-6 sm:p-8">
+                <div className="h-full rounded-2xl border border-red-200 bg-red-50 dark:border-red-500/20 dark:bg-red-500/5 p-6 sm:p-8">
                   <p className="font-display text-lg font-bold text-text-dark">
                     {t("voorWie.nietVoorJou")}
                   </p>
