@@ -57,6 +57,71 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://accelr.nl/#organization",
+                  name: "Accelr",
+                  url: "https://accelr.nl",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: "https://accelr.nl/images/og-accelr.png",
+                  },
+                  founder: {
+                    "@type": "Person",
+                    name: "Tim Samsom",
+                    jobTitle: "Fractional Head of Sales",
+                  },
+                  contactPoint: {
+                    "@type": "ContactPoint",
+                    email: "tim@accelr.nl",
+                    contactType: "sales",
+                    availableLanguage: ["Dutch", "English"],
+                  },
+                  sameAs: [
+                    "https://www.linkedin.com/company/accelr-nl",
+                  ],
+                },
+                {
+                  "@type": "LocalBusiness",
+                  "@id": "https://accelr.nl/#localbusiness",
+                  name: "Accelr",
+                  description:
+                    locale === "nl"
+                      ? "B2B sales consultancy en fractional Head of Sales voor tech-founders. Sales infrastructuur, CRM implementatie, B2B leadgeneratie en sales uitbesteden in Nederland."
+                      : "B2B sales consultancy and fractional Head of Sales for tech founders. Sales infrastructure, CRM implementation, B2B lead generation in the Netherlands.",
+                  url: "https://accelr.nl",
+                  email: "tim@accelr.nl",
+                  address: {
+                    "@type": "PostalAddress",
+                    addressLocality: "Haarlem",
+                    addressCountry: "NL",
+                  },
+                  areaServed: {
+                    "@type": "Country",
+                    name: "Netherlands",
+                  },
+                  priceRange: "$$",
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://accelr.nl/#website",
+                  url: "https://accelr.nl",
+                  name: "Accelr",
+                  publisher: {
+                    "@id": "https://accelr.nl/#organization",
+                  },
+                  inLanguage: ["nl-NL", "en-US"],
+                },
+              ],
+            }),
+          }}
+        />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
         <link
           rel="icon"

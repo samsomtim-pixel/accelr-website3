@@ -80,9 +80,9 @@ export default function ScoreAssessment() {
           <div className="container-wide">
             <div className="mx-auto max-w-3xl">
               <p className="section-label-dark">{t("results.label")}</p>
-              <h1 className="mt-4 font-display text-4xl font-bold text-text-dark sm:text-5xl">
+              <h2 className="mt-4 font-display text-4xl font-bold text-text-dark sm:text-5xl">
                 {t("results.title")}
-              </h1>
+              </h2>
 
               {/* Score overview */}
               <div className="mt-12 card-light text-center">
