@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import AiHighlights from "@/components/AiHighlights";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("outbound");
@@ -19,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const tools = ["Instantly", "Lemlist", "Clay", "Apollo", "LinkedIn Sales Nav", "HubSpot"];
+const tools = ["Clay", "Apollo", "LinkedIn Sales Nav", "Instantly", "Lemlist", "Leadinfo", "HubSpot"];
 
 export default async function OutboundLeadgeneratiePage() {
   const t = await getTranslations("outbound");
@@ -37,6 +38,7 @@ export default async function OutboundLeadgeneratiePage() {
   }>;
   const voorJouItems = t.raw("voorJou") as string[];
   const faqItems = t.raw("faq") as Array<{ q: string; a: string }>;
+  const aiItems = t.raw("aiHighlights.items") as Array<{ title: string; desc: string }>;
 
   return (
     <>
@@ -130,6 +132,13 @@ export default async function OutboundLeadgeneratiePage() {
             </div>
           </div>
         </section>
+
+        {/* ─── AI HIGHLIGHTS ─── */}
+        <AiHighlights
+          label={t("aiHighlights.label")}
+          title={t("aiHighlights.title")}
+          items={aiItems}
+        />
 
         {/* ─── SECTIE 4: HOE HET WERKT ─── */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">

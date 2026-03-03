@@ -7,6 +7,7 @@
     "expertise": "Expertise",
     "methode": "Method",
     "overTim": "About Tim",
+    "blog": "Blog",
     "contact": "Book a call",
     "expertiseItems": {
       "deScan": "De Scan\u2122",
@@ -30,10 +31,11 @@
     "expertise": "Expertise",
     "expertiseItems": {
       "deScan": "De Scan",
-      "crmSalesproces": "CRM & Sales Process",
+      "strategieGtm": "Strategy & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
-      "aiAutomation": "AI & Automation",
-      "salesMaturityScore": "Sales Maturity Score"
+      "crmSalesproces": "CRM & Sales Process",
+      "salesEnablement": "Sales Enablement",
+      "fractional": "Fractional Head of Sales"
     },
     "contact": "Contact",
     "planGesprek": "Book a call",
@@ -147,39 +149,46 @@
       "label": "/ Building blocks",
       "title": "What I build",
       "subtitle": "These are the components I deploy, on a project basis or ongoing.",
+      "layerLabels": ["FOUNDATION", "BUILD", "OPTIMIZE"],
       "cards": [
         {
           "title": "De Scan\u2122",
           "badge": "DIAGNOSIS",
-          "desc": "Complete audit of your sales operation"
+          "desc": "Complete audit of your sales operation. Scores across 10 dimensions, prioritized roadmap, hard numbers.",
+          "aiText": "AI-powered: data analysis and benchmarking"
         },
         {
           "title": "Strategy & GTM",
           "badge": "STRATEGY",
-          "desc": "ICP validation, go-to-market plan, positioning"
+          "desc": "ICP, positioning, go-to-market plan, pricing. Strategic foundation based on data, not gut feeling.",
+          "aiText": "AI-powered: ICP modeling and market analysis"
         },
         {
           "title": "Outbound & Leadgen",
           "badge": "PROCESS",
-          "desc": "Prospecting engine that generates qualified meetings"
+          "desc": "Signal-based prospecting that reaches the right prospects at the right moment. LinkedIn, email, and phone in one system.",
+          "aiText": "AI-powered: detect, enrich and convert buying signals"
         },
         {
           "title": "CRM & Sales Process",
           "badge": "PROCESS",
-          "desc": "CRM setup, pipeline design, sales process"
+          "desc": "CRM your team actually uses. Pipeline dashboards, automatic updates, lead scoring. No more manual data entry.",
+          "aiText": "AI-powered: enrichment, scoring, and automation"
         },
         {
           "title": "Sales Enablement",
           "badge": "PEOPLE",
-          "desc": "Playbooks, training, onboarding, coaching"
-        },
-        {
-          "title": "AI & Automation",
-          "badge": "+ AI",
-          "desc": "Make, n8n, Clay, automate what no human needs to do"
+          "desc": "Playbooks based on what works, call analysis, coaching, and onboarding. Your team gets better every week.",
+          "aiText": "AI-powered: conversation intelligence and automatic playbook updates"
         }
       ],
-      "note": "During De Scan, I analyze all building blocks. During De Bouw, I work on specific components. As Fractional Head of Sales, I oversee everything on an ongoing basis."
+      "ontdekMeer": "Discover more",
+      "fractional": {
+        "label": "OVERARCHING",
+        "title": "Fractional Head of Sales",
+        "desc": "Oversees all layers on an ongoing basis. 1-2 days/week."
+      },
+      "note": "During De Scan, I analyze all layers. During De Bouw, I work on specific components. As Fractional Head of Sales, I oversee everything on an ongoing basis."
     },
     "resultaten": {
       "label": "/ Results",
@@ -398,7 +407,7 @@
       "proces": "Process",
       "people": "People",
       "ai": "AI",
-      "result": "exponential growth",
+      "result": "scalable growth",
       "desc": "Strategy is the input that drives everything. Process and People are the core pillars, they reinforce each other multiplicatively. AI is the multiplier that accelerates everything. Improve each element by 20% and your total output grows by 107%."
     },
     "compoundTable": {
@@ -517,12 +526,12 @@
       "cta": "Start with De Scan",
       "ctaSecondary": "Book an introductory call",
       "scanNote": "\u20ac3,500 fixed \u00b7 Money-back guarantee \u00b7 Results in 2 weeks",
-      "location": "Amsterdam, The Netherlands"
+      "location": "Haarlem, The Netherlands"
     }
   },
   "deScan": {
     "metadata": {
-      "title": "De Scan\u2122 | Sales Operation Diagnosis | Accelr",
+      "title": "De Scan\u2122 | Sales Operation Diagnosis",
       "description": "Sales diagnosis in 2 weeks. Score across 10 dimensions, opportunities with euro value, action plan. \u20ac3,500 fixed. Not satisfied? Money back."
     },
     "hero": {
@@ -552,7 +561,7 @@
         { "num": 4, "name": "CRM", "question": "Do you use a CRM? How is your data quality?" },
         { "num": 5, "name": "Outbound", "question": "Do you do active outbound? With what results?" },
         { "num": 6, "name": "Enablement", "question": "Does your team have playbooks, scripts, training?" },
-        { "num": 7, "name": "AI & Automation", "question": "What tools do you use? What can be automated?" },
+        { "num": 7, "name": "AI & Tech Readiness", "question": "What tools do you use? How ready are you to deploy AI?" },
         { "num": 8, "name": "Team", "question": "Do you have the right people in the right roles?" },
         { "num": 9, "name": "Data", "question": "Which KPIs do you track? How accurate is your forecast?" },
         { "num": 10, "name": "Leadership", "question": "Who manages sales? Is there accountability?" }
@@ -570,6 +579,15 @@
         "Prioritized 90-day action plan",
         "Recommendation per opportunity: DIY / with Accelr / outsource",
         "Live presentation of findings (never just by email)"
+      ]
+    },
+    "aiHighlights": {
+      "label": "/ AI in De Scan",
+      "title": "How AI enhances this",
+      "items": [
+        { "title": "Data analysis", "desc": "AI analyzes your CRM data, website metrics and pipeline to identify patterns you'd miss manually." },
+        { "title": "Benchmarking", "desc": "Compare your scores across all 10 dimensions against industry averages using AI-driven models." },
+        { "title": "Opportunity detection", "desc": "AI calculates the euro value of each optimization opportunity, so you prioritize based on impact." }
       ]
     },
     "tijdlijn": {
@@ -629,7 +647,7 @@
   },
   "overTim": {
     "metadata": {
-      "title": "About Tim Samsom | Fractional Head of Sales | Accelr",
+      "title": "About Tim Samsom | Fractional Head of Sales",
       "description": "8+ years B2B sales in adtech and tech. Country Manager at ShowHeroes, now Fractional Head of Sales. Nyenrode alumnus."
     },
     "hero": {
@@ -744,7 +762,7 @@
   },
   "salesStrategie": {
     "metadata": {
-      "title": "Sales Strategy & GTM for B2B | Accelr",
+      "title": "Sales Strategy & GTM for B2B",
       "description": "ICP, go-to-market plan, positioning and pricing. The foundation that ensures all your sales activities work in the right direction."
     },
     "hero": {
@@ -815,6 +833,15 @@
         "a": "Then we validate it. In my experience, most companies' ICPs are wrong or too broad. We sharpen it based on data."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in Strategy",
+      "title": "How AI enhances this",
+      "items": [
+        { "title": "ICP modeling", "desc": "AI analyzes your existing customer data to find patterns in your best-fit clients. No gut feeling — data." },
+        { "title": "Market analysis", "desc": "AI-driven competitive and market research at scale. Faster and deeper than what's possible manually." },
+        { "title": "Messaging optimization", "desc": "Test and optimize your positioning with AI-generated variants based on proven frameworks." }
+      ]
+    },
     "cta": {
       "title": "First the foundation. Then build.",
       "desc": "De Scan maps out whether your strategy holds up, and where the biggest opportunities are to sell more effectively.",
@@ -823,7 +850,7 @@
   },
   "crmImplementatie": {
     "metadata": {
-      "title": "CRM Implementation for SMBs & Scale-ups | Accelr",
+      "title": "CRM Implementation for SMBs & Scale-ups",
       "description": "CRM selection, setup, pipeline design and dashboards. From spreadsheet to working system in 3-4 weeks."
     },
     "hero": {
@@ -894,6 +921,15 @@
         "a": "Then I optimize what you have. Often it's not the CRM that's the problem, but the setup."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in CRM",
+      "title": "How AI enhances this",
+      "items": [
+        { "title": "Data enrichment", "desc": "AI automatically enriches contacts with firmographic and technographic data via Clay and Apollo. Always up to date." },
+        { "title": "Automatic scoring", "desc": "AI scores and prioritizes leads based on behavior, engagement and ICP fit. Your team always calls the right lead." },
+        { "title": "Pipeline forecasting", "desc": "AI-driven forecasting that's more accurate than spreadsheets. Know what your pipeline is worth and when deals will close." }
+      ]
+    },
     "cta": {
       "title": "From spreadsheet to working system.",
       "desc": "De Scan maps out what you need: CRM selection, setup, or optimization of what you already have.",
@@ -902,21 +938,21 @@
   },
   "outbound": {
     "metadata": {
-      "title": "Outbound Lead Generation for B2B | Accelr",
-      "description": "Outbound email, LinkedIn outreach and multi-channel sequences. Predictable pipeline without depending on your network."
+      "title": "B2B Lead Generation: Signal-Based Outbound",
+      "description": "Signal-based outbound: reach prospects based on buying signals, not cold lists. LinkedIn, email and phone in one automated system."
     },
     "hero": {
       "label": "/ Outbound & Lead Generation",
-      "title": "A pipeline that doesn't depend on your network.",
-      "subtitle": "Outbound email, LinkedIn and multi-channel sequences. Automated, tested, and working.",
+      "title": "Reach the right prospect, at the right moment.",
+      "subtitle": "Signal-based outbound: reach prospects based on buying signals, not cold lists. Automated, personalized, and working.",
       "cta": "Start with De Scan"
     },
     "probleem": {
-      "title": "Network-based sales has a ceiling.",
+      "title": "Cold outbound is dead. Smart outbound isn't.",
       "paragraphs": [
-        "The first customers came through your network. Referrals. An intro via a former colleague. That worked, until it wasn't enough anymore.",
-        "Now you need predictable inflow. But cold outbound feels like spam, LinkedIn outreach delivers nothing, and one tool after another promises \"10 meetings per week\" with no results.",
-        "The problem isn't outbound itself. The problem is that nobody sets it up properly: right targeting, relevant messaging, multi-channel sequencing, and continuous optimization."
+        "The first customers came through your network. That worked, until it wasn't enough anymore. So you tried outbound: a list of 1,000 companies, generic emails, low response. It felt like spam \u2014 because it was. 95% of that list had no need at that moment.",
+        "The problem isn't outbound. The problem is timing and relevance. The companies that do grow with outbound do it differently: they reach prospects at the moment they show a buying signal. A new funding round. A sales hire. A technology switch. A visit to your website.",
+        "This is called signal-based outbound, and it's the difference between a 2% and 8% reply rate."
       ]
     },
     "deliverables": {
@@ -924,64 +960,82 @@
       "items": [
         {
           "num": "/01",
-          "title": "Outbound Email Engine",
-          "desc": "Instantly or Lemlist, fully configured. Domain warmup, DKIM/SPF/DMARC, inbox rotation. Deliverability from day one."
+          "title": "Signal Monitoring & Triggers",
+          "desc": "Automatic tracking of buying signals: funding rounds, new hires, technology adoption, website visits and LinkedIn engagement. You only reach prospects who are signaling a need right now."
         },
         {
           "num": "/02",
-          "title": "LinkedIn Outreach",
-          "desc": "Connection strategy, message sequences, content alignment. Manual or automated, depending on your preference."
+          "title": "Outbound Email Engine",
+          "desc": "Instantly or Lemlist, fully configured. Domain warmup, DKIM/SPF/DMARC, inbox rotation. Deliverability from day one. Every message triggered by a concrete buying signal."
         },
         {
           "num": "/03",
-          "title": "Multi-Channel Sequences",
-          "desc": "Email + LinkedIn + phone in one coordinated flow. Each step builds on the previous one. No disconnected channels."
+          "title": "LinkedIn Outreach",
+          "desc": "Connection strategy and message sequences based on signals. Prospect just posted about a sales challenge? That's your opening \u2014 not a generic pitch."
         },
         {
           "num": "/04",
-          "title": "Targeting & Messaging",
-          "desc": "ICP-based lists via Clay/Apollo. Messaging that resonates with your buyers, tested, optimized, AI-personalized."
+          "title": "Multi-Channel Sequences",
+          "desc": "Email + LinkedIn + phone in one coordinated flow. Each step builds on the signal that triggered the sequence. No disconnected channels, one coordinated narrative."
+        },
+        {
+          "num": "/05",
+          "title": "AI Targeting & Personalization",
+          "desc": "ICP-based lists via Clay and Apollo. AI enrichment combines 6+ data sources per prospect. Every outreach is personalized based on the specific signal \u2014 not based on a template."
         }
       ]
     },
     "steps": {
       "title": "How it works",
       "items": [
-        { "num": "/01", "title": "Sharpen ICP", "desc": "Who are your best-fit customers, really?" },
-        { "num": "/02", "title": "Set up infra", "desc": "Domains, tooling, warmup" },
-        { "num": "/03", "title": "Build campaigns", "desc": "Lists, messaging, sequences" },
-        { "num": "/04", "title": "Test & optimize", "desc": "A/B tests, response tracking, iterate" }
+        { "num": "/01", "title": "Define ICP & signals", "desc": "Who are your best-fit customers? Which buying signals are relevant? We define your ICP and the triggers." },
+        { "num": "/02", "title": "Set up infra & monitoring", "desc": "Domains, tooling, warmup. Plus: Clay workflows that monitor funding, hiring and tech changes." },
+        { "num": "/03", "title": "Build campaigns", "desc": "A campaign per signal type: different messaging for funding than for a sales hire. Relevance is everything." },
+        { "num": "/04", "title": "Test, measure, optimize", "desc": "A/B tests on messaging and timing. Which signals convert best? Data-driven iteration." }
       ]
     },
     "voorJou": [
       "You depend on your network for new clients",
-      "You've tried outbound but it delivered nothing",
-      "You want a predictable inflow of qualified leads",
-      "You don't have time to build and test campaigns yourself"
+      "You've tried outbound but it felt like spam",
+      "You want to reach prospects when they actually have a need",
+      "You want a predictable inflow of qualified leads"
     ],
     "faq": [
       {
-        "q": "How many meetings can I expect?",
-        "a": "Depends on your market and offering. Typically 5-15 qualified meetings per month after the first optimization round. No empty promises, I give a realistic estimate after De Scan."
+        "q": "What is signal-based outbound?",
+        "a": "Instead of a cold list of 1,000 companies, you only reach prospects who show a buying signal: a funding round, a new sales hire, a technology switch, or engagement with your content. The result: higher reply rates, more meetings, less spam."
       },
       {
-        "q": "Isn't cold outbound just spam?",
-        "a": "Poorly executed outbound is spam. Well-executed outbound is offering relevant value to people who would benefit from it. The difference is in targeting and messaging."
+        "q": "How many meetings can I expect?",
+        "a": "Depends on your market and offering. Typically 5-15 qualified meetings per month after the first optimization round. Signal-based outbound delivers on average 3-4x higher reply rates than traditional cold outbound."
+      },
+      {
+        "q": "Isn't this just cold outbound with a different name?",
+        "a": "No. Cold outbound reaches everyone on a list. Signal-based outbound only reaches prospects who are signaling a need right now. The difference is in timing and relevance \u2014 and you see it directly in the results."
       },
       {
         "q": "How quickly is it up and running?",
-        "a": "Domain warmup takes 2-3 weeks. First results within 4-6 weeks. Optimization is ongoing."
+        "a": "Domain warmup takes 2-3 weeks. Signal monitoring can be running within a week. First results within 4-6 weeks. Optimization is ongoing."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in Outbound",
+      "title": "How AI enhances this",
+      "items": [
+        { "title": "Signal monitoring", "desc": "Clay automatically monitors funding rounds, hiring, tech changes and website visits. You know who's open right now, without manual searching." },
+        { "title": "AI personalization per signal", "desc": "Every message is written based on the specific buying signal. Prospect raised funding? Different messaging than someone hiring a sales manager." },
+        { "title": "Lead scoring on signal strength", "desc": "AI combines all signal types into one score. Multiple signals at once? That prospect goes to the top of your list." }
+      ]
+    },
     "cta": {
-      "title": "From network-dependent to predictable pipeline.",
-      "desc": "De Scan maps out which outbound approach delivers the most for your market and offering.",
+      "title": "From cold lists to signal-based pipeline.",
+      "desc": "De Scan maps out which signals and channels deliver the most for your market.",
       "ctaLabel": "Start with De Scan, \u20ac3,500"
     }
   },
   "salesEnablement": {
     "metadata": {
-      "title": "Sales Enablement for B2B Teams | Accelr",
+      "title": "Sales Enablement for B2B Teams",
       "description": "Playbooks, discovery frameworks, objection handling and team training. Give your sales team the structure and tools to perform consistently."
     },
     "hero": {
@@ -1052,6 +1106,15 @@
         "a": "Most teams see improvement in discovery quality and conversion rates within 4-6 weeks. Full adoption typically takes 2-3 months."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in Enablement",
+      "title": "How AI enhances this",
+      "items": [
+        { "title": "Conversation intelligence", "desc": "AI analyzes calls and identifies winning patterns, objections and coaching moments. Automatically, after every call." },
+        { "title": "Playbook updates", "desc": "Playbooks that update themselves based on what works. New objections, winning talk tracks and best practices are automatically added." },
+        { "title": "Real-time coaching", "desc": "AI provides coaching suggestions based on call analysis. Your reps improve every week without extra management time." }
+      ]
+    },
     "cta": {
       "title": "Give your team the structure to win.",
       "desc": "De Scan maps out where your sales process breaks down and which enablement components have the most impact.",
@@ -1060,7 +1123,7 @@
   },
   "aiAutomation": {
     "metadata": {
-      "title": "AI Sales Automation for B2B | Accelr",
+      "title": "AI Sales Automation for B2B",
       "description": "AI structurally integrated into your sales process. Clay, Make, n8n, Apollo. No experiments, working systems."
     },
     "hero": {
@@ -1139,7 +1202,7 @@
   },
   "fractional": {
     "metadata": {
-      "title": "Fractional Head of Sales Netherlands | Accelr",
+      "title": "Fractional Head of Sales Netherlands",
       "description": "Experienced commercial leadership, 1-2 days per week. For scale-ups too big to grow without it, but too small for a full-time hire."
     },
     "hero": {
@@ -1222,7 +1285,7 @@
           "num": "/02",
           "period": "Month 2-3",
           "title": "Building",
-          "desc": "CRM, process, playbooks, outbound, AI automations. Hands-on implementation together with your team."
+          "desc": "CRM, process, playbooks, outbound and AI automations that save your team 5-10 hours per week. Hands-on implementation together with your team."
         },
         {
           "num": "/03",
@@ -1288,7 +1351,7 @@
   },
   "blog": {
     "metadata": {
-      "title": "Blog | B2B Sales Insights | Accelr",
+      "title": "Blog | B2B Sales Insights",
       "description": "Articles about B2B sales, CRM, AI tools, outbound and sales strategy for tech founders."
     },
     "hero": {
@@ -1297,6 +1360,36 @@
       "subtitle": "Practical insights about B2B sales, CRM, AI tools, outbound and sales strategy. Specifically for tech founders."
     },
     "posts": [
+      {
+        "title": "What is signal-based outbound? The complete guide for B2B",
+        "excerpt": "Everything about signal-based selling: what it is, which buying signals exist, how to set it up, and why it's the logical next step for B2B companies.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "title": "From cold outreach to signal-based outbound in 5 steps",
+        "excerpt": "Cold outreach delivers less and less. Time for a different approach. In 5 concrete steps from cold outbound to signal-based selling.",
+        "tag": "Outbound Strategy",
+        "readTime": "9 min"
+      },
+      {
+        "title": "10 buying signals you can use tomorrow",
+        "excerpt": "The 10 most powerful buyer signals for B2B outbound, with detection method and example opening line per signal.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "title": "Clay, Apollo, Leadinfo: the tools behind signal-based outbound",
+        "excerpt": "Comparison of sales tools per category: signal detection, prospecting, website visitor identification and outbound. With current pricing.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      },
+      {
+        "title": "Intent data for Dutch SMBs: what actually works?",
+        "excerpt": "Honest overview of intent data tools. What works for Dutch SMBs and what doesn't. Bombora and 6sense vs. Leadinfo, Clay and LinkedIn.",
+        "tag": "Intent Data",
+        "readTime": "7 min"
+      },
       {
         "title": "Why your first sales hire fails (and how to prevent it)",
         "excerpt": "You have product-market fit, revenue is growing, time for that first sales hire. But 6 months later: no results, \u20ac100K+ spent. I see this pattern in 80% of the founders I speak with.",
@@ -1314,7 +1407,7 @@
   },
   "resultaten": {
     "metadata": {
-      "title": "Results | Case Studies | Accelr",
+      "title": "Results | Case Studies",
       "description": "No theory. This is what happens when your sales operation becomes a system."
     },
     "hero": {
@@ -1893,7 +1986,7 @@
   },
   "blogSalesHire": {
     "metadata": {
-      "title": "Why your first sales hire fails (and how to prevent it) | Accelr Blog",
+      "title": "Why your first sales hire fails (and how to prevent it)",
       "description": "Wasted \u20ac100K+ on a sales hire that doesn't work? This is why it goes wrong, and what you need to build first."
     },
     "hero": {
@@ -1947,7 +2040,7 @@
   },
   "blogFractional": {
     "metadata": {
-      "title": "Fractional Head of Sales: what is it and why is it growing in the Netherlands? | Accelr Blog",
+      "title": "Fractional Head of Sales: what is it and why is it growing in the Netherlands?",
       "description": "Everything about the Fractional Head of Sales model. What it is, what it costs, and why more and more B2B companies in the Netherlands are considering it."
     },
     "hero": {
@@ -2019,6 +2112,731 @@
     "footerCta": {
       "title": "Want to explore this?",
       "desc": "Book a call. We'll look together at whether fractional fits your situation.",
+      "cta": "Book a call"
+    }
+  },
+  "blogSignalBased": {
+    "metadata": {
+      "title": "What is signal-based outbound? The complete guide for B2B",
+      "description": "Everything about signal-based selling: what it is, which buying signals exist, how to set it up, and why it's the logical next step for B2B companies."
+    },
+    "hero": {
+      "tag": "Signal-Based Outbound",
+      "title": "What is signal-based outbound? The complete guide for B2B companies",
+      "subtitle": "Everything about signal-based selling: what it is, which buying signals exist, how to set it up, and why it's the logical next step for B2B companies.",
+      "readTime": "12 min read"
+    },
+    "intro": {
+      "p1": "You have a solid ICP. You have the tooling. You send hundreds of emails every week. And yet: 2% reply rate, a handful of meetings, and the feeling that you're spamming.",
+      "p2": "The problem isn't outbound. The problem is that you're reaching the wrong people at the wrong time. Signal-based outbound solves this. Instead of working through a cold list, you only approach prospects who show a buying signal \u2014 a sign that they're now open to what you offer.",
+      "p3": "The result: higher response rates, better conversations, and a pipeline that doesn't depend on luck. In this guide, I explain what signal-based outbound is, which signals exist, how to set it up, and why it's the logical next step for B2B companies."
+    },
+    "traditional": {
+      "title": "Why traditional outbound keeps getting worse",
+      "p1": "The traditional approach: build a list, write an email, start a sequence, and hope that a few of those 500-1,000 contacts respond. The problem is that of those 1,000 companies, maybe 3-5% have a relevant need at that moment.",
+      "p2": "Decision-makers receive an average of 15 cold emails per week. 71% are ignored due to irrelevance. Google has lowered the spam threshold to 0.1% \u2014 meaning 1-2 complaints per 1,000 emails can damage your domain.",
+      "p3": "The average reply rate on B2B cold emails has dropped to 4-5%. But the top 10% of outbound campaigns still achieve 8-12%. The difference? Timing and relevance. And that's exactly what signal-based outbound is about."
+    },
+    "whatIs": {
+      "title": "What is signal-based outbound?",
+      "p1": "Instead of reaching everyone and hoping the timing is right, you monitor buying signals and only approach prospects who indicate they're open. A buying signal is any observable behavior or event that suggests a company currently has a need you can fill.",
+      "p2": "You go from 'cold calling 500 companies' to 'warm approaching 20 companies that are ready now.' That sounds like less volume, but it delivers more results \u2014 because every conversation is relevant.",
+      "compareTitle": "The difference in the opening:",
+      "coldExample": "Hi, I'm Tim from Accelr. We help B2B companies with their sales process. Would you be open to a quick chat?",
+      "signalExample": "I noticed you're looking for a Sales Manager. In my experience, that's often the moment when companies also review their sales process and tooling. Sound familiar?",
+      "compareConclusion": "That's the difference between a 2% and 8% reply rate."
+    },
+    "signalTypes": {
+      "title": "The three types of buying signals",
+      "intro": "Not all signals are equal. There are three categories, each with their own strength and reliability.",
+      "triggersTitle": "1. Trigger signals \u2014 events that create a need",
+      "triggersDesc": "These are concrete, observable events that indicate a company is in motion. They're the strongest because they represent a factual change.",
+      "triggers": [
+        { "signal": "Funding round raised", "source": "Crunchbase, Clay" },
+        { "signal": "New sales or marketing hire", "source": "LinkedIn, Clay" },
+        { "signal": "New management (CEO, CRO)", "source": "LinkedIn, Clay" },
+        { "signal": "Technology switch", "source": "BuiltWith via Clay" },
+        { "signal": "New market or office", "source": "Chamber of Commerce, LinkedIn" }
+      ],
+      "intentTitle": "2. Intent signals \u2014 behavior suggesting buying intent",
+      "intentDesc": "These signals show that a company is actively exploring. Less concrete than triggers, but they provide a strong directional sense.",
+      "intent": [
+        { "signal": "Website visits (your site)", "source": "Leadinfo, Leadfeeder" },
+        { "signal": "LinkedIn engagement", "source": "Sales Navigator" },
+        { "signal": "Search behavior on relevant topics", "source": "Bombora, G2 (US-focused)" }
+      ],
+      "engagementTitle": "3. Engagement signals \u2014 interaction with your outreach",
+      "engagementDesc": "These are reactions to your own communication. They confirm interest and indicate the right moment for a follow-up.",
+      "engagement": [
+        { "signal": "Email opens and clicks", "source": "Instantly, HubSpot" },
+        { "signal": "LinkedIn profile visits after outreach", "source": "Sales Navigator" },
+        { "signal": "Content downloads", "source": "HubSpot" }
+      ]
+    },
+    "practice": {
+      "title": "What signal-based outbound looks like in practice",
+      "intro": "Let's make it concrete. This is what a typical signal-based workflow looks like:",
+      "steps": [
+        { "step": "Step 1: Define ICP", "desc": "You sharply define which companies you want to reach \u2014 not just firmographically (industry, size) but also on behavior (growth stage, tech stack, hiring patterns)." },
+        { "step": "Step 2: Set up monitoring", "desc": "You configure Clay to automatically monitor triggers: new hires, funding rounds, tech switches. Leadinfo captures website visits. Sales Navigator tracks LinkedIn engagement." },
+        { "step": "Step 3: Signal arrives", "desc": "A company in your ICP hires a new Head of Sales. Clay detects this automatically and enriches the contact with email, phone number and company data." },
+        { "step": "Step 4: Automatic enrichment", "desc": "Clay's waterfall enrichment tries multiple data sources to find the best contact details. The result: a fully enriched profile, ready for outreach." },
+        { "step": "Step 5: Personalized outreach", "desc": "The enriched contact automatically goes to your outbound tool (Instantly, Lemlist) with a personalized message referencing the signal. Timing and relevance in one." }
+      ]
+    },
+    "stack": {
+      "title": "The tech stack behind signal-based outbound",
+      "intro": "You don't need an enterprise budget. With the right combination of tools, you can set up signal-based outbound for less than \u20ac500 per month.",
+      "colFunction": "Function",
+      "colPrice": "From",
+      "tools": [
+        { "name": "Clay", "function": "Signal detection + enrichment", "price": "\u20ac290/mo" },
+        { "name": "Apollo", "function": "Contact data + prospecting", "price": "Free" },
+        { "name": "LinkedIn Sales Nav", "function": "Engagement + intent", "price": "\u20ac80/mo" },
+        { "name": "Instantly / Lemlist", "function": "Email outbound", "price": "\u20ac43/mo" },
+        { "name": "Leadinfo", "function": "Website visitor identification", "price": "\u20ac69/mo" },
+        { "name": "n8n / Make", "function": "Orchestration", "price": "Free/\u20ac10/mo" },
+        { "name": "HubSpot", "function": "CRM", "price": "Free" }
+      ],
+      "conclusion": "Total investment for a minimal stack: under \u20ac500 per month. That's a fraction of what traditional intent data providers like Bombora charge \u2014 and more relevant for the Dutch market."
+    },
+    "whyNow": {
+      "title": "Why this is relevant now for B2B companies",
+      "p1": "Three developments make signal-based outbound accessible now. First: the tooling has become affordable. Clay, Apollo and Instantly were either unavailable or enterprise-only two years ago. Now you can run a complete stack for less than \u20ac500 per month.",
+      "p2": "Second: buyers expect relevance. B2B buyers do 70% of their research before they want to talk to sales. A generic message about 'having a quick chat' no longer works. Signal-based outbound gives you the context to be relevant from the first touchpoint.",
+      "p3": "Third: AI makes it scalable. Tools like Clay use AI to detect signals, enrich data and personalize messages. What used to require a team of 5 SDRs, you can now set up with 1-2 people \u2014 provided you have the right tools and processes."
+    },
+    "pitfalls": {
+      "title": "The pitfalls of signal-based outbound",
+      "intro": "Signal-based outbound is not a magic bullet. These are the most common mistakes:",
+      "items": [
+        { "title": "Monitoring too many signals at once", "desc": "Start with 2-3 signals most relevant to your ICP. Only expand when you know which signals convert. More signals means more noise \u2014 not more results." },
+        { "title": "Using the signal as an excuse for a bad message", "desc": "A signal gives you the right to approach someone, but your message still needs to be relevant and valuable. 'I saw you raised funding, want a demo?' is not signal-based outbound \u2014 that's spam with an excuse." },
+        { "title": "Ignoring your own data", "desc": "Most companies sit on a mountain of first-party intent data they don't use. Who opens your emails? Who visits your website? Start there before investing in third-party tools." },
+        { "title": "Not building a feedback loop", "desc": "If you don't measure which signals actually lead to meetings and deals, you're optimizing on gut feeling. Build simple tracking per signal type: reply rate, meeting rate, pipeline value." }
+      ]
+    },
+    "howToStart": {
+      "title": "How to get started",
+      "intro": "You don't need to set up everything at once. Here's a realistic timeline:",
+      "timeline": [
+        { "period": "Week 1-2", "desc": "Define your ICP sharply (firmographic + behavioral). Choose 2-3 signals. Create a Clay account and configure your first triggers." },
+        { "period": "Week 3-4", "desc": "Build your first campaigns per signal type. Start with one channel (email). Measure opens, replies and meetings." },
+        { "period": "Month 2-3", "desc": "Analyze which signals convert. Stop what doesn't work. Add a second channel (LinkedIn). Refine your messages based on data." },
+        { "period": "Month 4+", "desc": "Automate what works. Add Leadinfo for website visits. Connect everything to your CRM. Scale with the signals that deliver proven results." }
+      ]
+    },
+    "core": {
+      "title": "The core",
+      "p1": "Signal-based outbound is about one fundamental shift: from 'who fits my ICP?' to 'who has a need right now?' That shift changes everything \u2014 your timing, your message, your conversion rate, and ultimately your pipeline.",
+      "p2": "The technology is here. The tools are affordable. The only question is whether you're willing to stop volume-blasting and start listening to signals."
+    },
+    "inlineCta": {
+      "title": "Want to set up signal-based outbound?",
+      "desc": "We help B2B companies build a signal-based outbound engine. From ICP definition to Clay configuration to campaign setup.",
+      "ctaPrimary": "View Outbound & Leadgen",
+      "ctaSecondary": "Start with De Scan"
+    },
+    "relatedLabel": "/ Related articles",
+    "related": [
+      {
+        "href": "/blog/koude-acquisitie-naar-signal-based-outbound",
+        "title": "From cold outreach to signal-based outbound in 5 steps",
+        "excerpt": "In 5 concrete steps from cold outbound to signal-based selling.",
+        "tag": "Outbound Strategy",
+        "readTime": "9 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 buying signals you can use tomorrow",
+        "excerpt": "The 10 most powerful buyer signals with detection method and opening line.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/tools-signal-based-outbound",
+        "title": "Clay, Apollo, Leadinfo: the tools behind signal-based outbound",
+        "excerpt": "Comparison of sales tools per category with current pricing.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Ready to transform your outbound?",
+      "desc": "Book a call. Let's look together at how signal-based outbound fits your situation.",
+      "cta": "Book a call"
+    }
+  },
+  "blogKoudeAcquisitie": {
+    "metadata": {
+      "title": "From cold outreach to signal-based outbound in 5 steps",
+      "description": "How to switch from cold outreach to signal-based outbound in 5 concrete steps. With ICP framework, buying signals and campaign setup."
+    },
+    "hero": {
+      "tag": "Outbound Strategy",
+      "title": "From cold outreach to signal-based outbound in 5 steps",
+      "readTime": "9 min read"
+    },
+    "intro": "Cold outreach delivers less and less. The average reply rate on cold emails has dropped to 4-5% \u2014 and that number drops every year. Time for a different approach. In this article, I show you in 5 concrete steps how to switch to signal-based outbound.",
+    "whyWorse": {
+      "title": "Why cold outreach keeps getting worse",
+      "p1": "The numbers don't lie. The average reply rate on B2B cold emails dropped from 8.5% in 2019 to 7% in 2023 and further to about 4-5% in 2025. Every year it gets worse, and there are three hard reasons.",
+      "p2": "**Overflowing inboxes.** Decision-makers receive an average of 15 cold emails per week. 71% are ignored due to irrelevance. Your competitor sends the same template to the same list \u2014 and you're drowning together in the inbox.",
+      "p3": "**Stricter spam filters.** Google has lowered the spam threshold to 0.1%. That means: 1-2 complaints per 1,000 emails and your domain is in trouble. Apple's Mail Privacy Protection and Outlook's new filtering don't help either.",
+      "p4": "**Buyer behavior has changed.** B2B buyers do 70% of their research before they want to talk to sales. They expect relevance. A generic message about 'having a quick chat' no longer works \u2014 it irritates.",
+      "p5": "The top 10% of outbound campaigns still achieve 8-12% reply rates. The difference? Timing and relevance. And that's exactly what signal-based outbound is about."
+    },
+    "whatIs": {
+      "title": "What is signal-based outbound?",
+      "p1": "Instead of buying a list and sending everyone the same message, you flip it: you wait for a signal indicating someone is open to your solution, and only then do you reach out.",
+      "p2": "Those signals \u2014 also called buying signals or buyer signals \u2014 are concrete, observable events: a company raises funding, hires a new sales manager, visits your website, or switches technology. When you respond to something that just happened, your outreach doesn't feel like spam but like relevant help."
+    },
+    "step1": {
+      "title": "Step 1: Define your ICP more sharply",
+      "intro": "Most companies have an ICP that's too broad. 'B2B SaaS companies with 50-500 employees' is not an ICP \u2014 it's a market. For signal-based outbound you need to be sharper, because you'll build campaigns per signal type.",
+      "firmographic": "**Firmographic:** revenue, number of employees, industry, location, growth stage. This is the foundation you probably already have.",
+      "behavioral": "**Behavioral:** this is where most companies fall short. Add: what technology do they use? Are they growing? Are they investing in sales and marketing?",
+      "items": [
+        "**IT service providers:** look for companies migrating to cloud, implementing new security tooling, or expanding their IT team",
+        "**SaaS companies:** focus on companies that just raised Series A/B, are appointing a new CRO, or doubling their sales team",
+        "**Consultancy:** target companies with a new strategic project (merger, new market, digital transformation)"
+      ],
+      "tip": "Write out your ICP in maximum 5 sentences. If you can't describe it in 5 sentences, it's too broad.",
+      "example": "Example: 'We help Dutch B2B SaaS companies between 20-100 employees that just raised Series A, are actively expanding their sales team, and use HubSpot as CRM.'"
+    },
+    "step2": {
+      "title": "Step 2: Choose 3-5 relevant buying signals",
+      "intro": "You don't need to monitor all signals at once. Start with 3-5 signals most relevant to your business.",
+      "signals": [
+        {
+          "category": "For IT and SaaS:",
+          "items": [
+            "New sales or marketing hire (signals growth ambition)",
+            "Technology adoption or switch (they're evaluating alternatives)",
+            "Funding round raised (there's budget)"
+          ]
+        },
+        {
+          "category": "For consultancy and services:",
+          "items": [
+            "New CEO or CRO appointed (new leadership = new priorities)",
+            "Company visits your website (active interest)",
+            "New market or office opened (they need help scaling)"
+          ]
+        },
+        {
+          "category": "Universally strong:",
+          "items": [
+            "Prospect opens your emails repeatedly (warm interest)",
+            "LinkedIn engagement with your content (they already know you)"
+          ]
+        }
+      ],
+      "tip": "The rule of thumb: choose signals where you can actually attach a relevant opening line."
+    },
+    "step3": {
+      "title": "Step 3: Set up your monitoring",
+      "intro": "Now it gets technical \u2014 but not complicated. You need three layers.",
+      "layer1": "**Layer 1: Signal detection with Clay**",
+      "layer1Desc": "Clay is the hub of your signal-based setup. You build 'tables' that automatically monitor triggers: new hires on LinkedIn, funding rounds via Crunchbase, technology changes via BuiltWith. Clay checks 150+ data sources and automatically enriches with company and contact data.",
+      "layer2": "**Layer 2: Website visits with Leadinfo**",
+      "layer2Desc": "Leadinfo (Dutch, GDPR-compliant) shows which companies visit your website. Not who exactly, but which company, which pages, how often. Connect this to your ICP filter and you have a daily list of warm leads.",
+      "layer3": "**Layer 3: LinkedIn engagement with Sales Navigator**",
+      "layer3Desc": "LinkedIn Sales Navigator (Advanced edition) has buyer intent built in. You see which contacts at your saved accounts visit your company page, like your posts, or accept your InMails.",
+      "conclusion": "The combination of these three \u2014 Clay for events, Leadinfo for website visits, Sales Nav for LinkedIn engagement \u2014 gives you a complete picture of which companies are ready now."
+    },
+    "step4": {
+      "title": "Step 4: Build campaigns per signal type",
+      "intro": "This is where most teams make a mistake: they capture all signals in one generic outbound campaign. Don't do that. Each signal type deserves its own message and cadence.",
+      "examples": [
+        {
+          "signal": "Funding signal",
+          "timing": "Within 1-2 weeks of the announcement",
+          "channel": "Email + LinkedIn",
+          "opening": "Saw that you just raised funding \u2014 congratulations. At similar scale-ups in your industry, we see that the sales process is often the first bottleneck when scaling.",
+          "cadence": "1 email, 1 LinkedIn message, 1 follow-up after 5 days"
+        },
+        {
+          "signal": "Website visit signal",
+          "timing": "Same day or next morning",
+          "channel": "Email (personal, not 'I saw you were on our site')",
+          "opening": "We help B2B companies in your industry set up a scalable sales process. Is this something that's on your radar right now?",
+          "cadence": "1 email, 1 follow-up after 3 days"
+        },
+        {
+          "signal": "New hire signal",
+          "timing": "2-4 weeks after start date (let them settle in)",
+          "channel": "LinkedIn connection + email",
+          "opening": "Congratulations on your new role. Other sales leaders in your industry use signal-based outbound to deliver results faster \u2014 sound familiar?",
+          "cadence": "LinkedIn connection, after acceptance 1 message, 1 follow-up email"
+        }
+      ],
+      "tip": "Use a tool like Instantly or Lemlist for execution. Both integrate with Clay, so you can load enriched data directly into your campaigns."
+    },
+    "step5": {
+      "title": "Step 5: Measure and optimize",
+      "intro": "Signal-based outbound is not 'set and forget.' You need to measure which signals actually convert \u2014 not just to replies, but to meetings and deals.",
+      "metricsLabel": "Measure per signal type:",
+      "metrics": [
+        "Reply rate (target: >10%)",
+        "Positive reply rate (target: >5%)",
+        "Meeting-booked rate",
+        "Pipeline value per signal"
+      ],
+      "discoveriesLabel": "What you'll probably discover:",
+      "discoveries": [
+        "1-2 of your 5 signals deliver 80% of results",
+        "Timing makes more difference than copy",
+        "The combination of signals (e.g., website visit + new hire) is stronger than individual signals"
+      ],
+      "optimizeLabel": "Optimize in this order:",
+      "optimize": [
+        "**Signal selection:** stop with signals that don't convert",
+        "**Timing:** test whether responding faster makes a difference",
+        "**Copy:** A/B test opening lines per signal type",
+        "**Channel:** test email vs. LinkedIn vs. multichannel per signal"
+      ],
+      "reviewTip": "Review your data every 2 weeks. After 3 months you have enough data to streamline your setup to the 2-3 signals that truly work for your business.",
+      "compareTip": "Always compare with your old approach. If your cold outbound had a 3% reply rate and your signal-based campaign is at 12%, you know the extra monitoring time is worth it."
+    },
+    "conclusion": {
+      "title": "Conclusion: start with 1 signal type",
+      "intro": "You don't need to set up everything at once. The best way to start:",
+      "steps": [
+        "**Choose 1 signal** that's most logical for your ICP",
+        "**Set up monitoring** via Clay or Leadinfo",
+        "**Build 1 campaign** with a specific opening line",
+        "**Measure for 4 weeks** and evaluate",
+        "**Only then add signal 2 and 3**"
+      ],
+      "closing": "The difference between cold outreach and signal-based outbound isn't the technology \u2014 it's the mindset. You stop sending to everyone and start listening to who is ready."
+    },
+    "inlineCta": {
+      "title": "Want to set up signal-based outbound?",
+      "desc": "We help B2B companies build a complete outbound engine \u2014 from ICP to campaign setup.",
+      "ctaPrimary": "View Outbound & Leadgen",
+      "ctaSecondary": "Start with De Scan"
+    },
+    "relatedLabel": "/ Related articles",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "What is signal-based outbound? The complete guide",
+        "excerpt": "Everything about signal-based selling: what it is, which signals exist, and how to set it up.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 buying signals you can use tomorrow",
+        "excerpt": "The 10 most powerful buyer signals with detection method and opening line.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/tools-signal-based-outbound",
+        "title": "Clay, Apollo, Leadinfo: the tools behind signal-based outbound",
+        "excerpt": "Comparison of sales tools per category with current pricing.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Ready to transform your outbound?",
+      "desc": "Book a call. Let's look together at how signal-based outbound fits your situation.",
+      "cta": "Book a call"
+    }
+  },
+  "blogKoopsignalen": {
+    "metadata": {
+      "title": "10 buying signals you can use tomorrow",
+      "description": "The 10 most powerful buyer signals for B2B outbound, with detection method and example opening line per signal."
+    },
+    "hero": {
+      "tag": "Buyer Signals",
+      "title": "10 buying signals you can use tomorrow for B2B outbound",
+      "readTime": "10 min read"
+    },
+    "intro": "You don't have to guess who's ready to buy. Buying signals tell you exactly which companies are now open to a conversation. In this article: 10 concrete buyer signals, how to detect them, and an example opening line per signal.",
+    "why": {
+      "title": "Why buying signals change your outbound",
+      "p1": "The difference between a cold email with 3% reply rate and one with 15%? Timing and relevance. Buying signals give you both. Instead of blindly working through a list, you respond to something concrete that just happened.",
+      "p2": "Below are the 10 most powerful signals, each with: what it is, why it works, how to detect it, and a ready-to-use opening line."
+    },
+    "signals": [
+      { "number": "1", "title": "Funding round raised", "what": "A company raises seed, Series A, B or growth capital.", "why": "There's fresh budget, they're scaling up, and decisions need to be made quickly. Companies that just raised funding actively invest in tooling, processes and people.", "how": "Clay automatically monitors funding rounds via Crunchbase integration. Set a trigger for companies in your ICP that raised funding in the past 30 days.", "opening": "Congratulations on the funding round. At similar scale-ups in your industry, we see that the sales process becomes the first bottleneck when scaling \u2014 does that sound familiar?" },
+      { "number": "2", "title": "New sales or marketing hire", "what": "A company hires a new sales or marketing manager, director or VP.", "why": "New hires want to prove themselves quickly. They evaluate existing tooling, bring new ideas, and have budget to invest. The first 90 days are the window when they're most open.", "how": "Clay tracks new hires via LinkedIn data. Filter on job titles like 'Head of Sales', 'Marketing Manager', 'VP Revenue' at companies in your ICP.", "opening": "Saw that you just started as [title] at [company] \u2014 congratulations. Other sales leaders in your industry use signal-based outbound to deliver results faster." },
+      { "number": "3", "title": "New CEO or CRO appointed", "what": "There's a C-level change, specifically CEO, CRO or COO.", "why": "New leadership means new strategy. A new CEO or CRO re-evaluates existing vendors, processes and priorities. This is when budgets shift.", "how": "LinkedIn (manually or via Clay). Set alerts on companies in your ICP for C-level changes.", "opening": "With a new CRO at the helm, a lot often changes in a short time. At similar companies, we helped the new leadership team streamline their sales process within 6 months." },
+      { "number": "4", "title": "Company visits your website", "what": "A company visits your website \u2014 specifically pages like pricing, case studies or product pages.", "why": "They're actively exploring. This is first-party intent data \u2014 the strongest signal there is, because they're already looking for you.", "how": "Leadinfo is the go-to for Dutch companies. It identifies 35-40% of B2B traffic in the Benelux. Cookieless, GDPR-compliant, and from \u20ac69/month.", "opening": "We help B2B companies set up a scalable sales process. Given your focus on growth \u2014 is this something that's on your radar right now?", "note": "Note: never refer to the website visit itself in your message. That feels creepy. Use the signal to determine your timing, not as a conversation opener." },
+      { "number": "5", "title": "Technology adoption or switch", "what": "A company implements new software or switches from one tool to another.", "why": "Technology switches mean active evaluation is happening. If a company switches from tool A to tool B, there's a good chance they're also reconsidering adjacent tools.", "how": "Clay integrates with BuiltWith for technographic data. You can set triggers on specific technology adoptions or switches.", "opening": "Noticed you recently started using a new tool. Companies making this move often run into specific challenges \u2014 we help solve those." },
+      { "number": "6", "title": "LinkedIn engagement with your content", "what": "A prospect likes, shares or comments on your LinkedIn posts or company page.", "why": "They already know you. There's brand awareness and an initial form of trust. A connection request or DM therefore doesn't feel cold but like a logical next step.", "how": "LinkedIn Sales Navigator (Advanced) shows engagement with your content per saved lead and account.", "opening": "Thanks for your reaction on my post about signal-based outbound. I'm curious \u2014 is this something that's relevant at your company?" },
+      { "number": "7", "title": "Searching relevant keywords (intent data)", "what": "A company actively searches for topics related to your solution.", "why": "They're actively in an exploration phase. This is classic third-party intent data.", "how": "Bombora is the market leader but costs $30,000-$100,000 per year and is primarily US-focused. For Dutch SMBs, use Google Search Console + Leadinfo as a free alternative.", "opening": "I noticed this topic is high on your agenda. At similar companies, we helped streamline their sales process \u2014 would it be worth a quick chat?" },
+      { "number": "8", "title": "Negative reviews about internal culture", "what": "A company gets negative Glassdoor reviews about sales culture, high turnover, or lack of tooling.", "why": "This signals internal problems that your solution might address. High sales turnover? Maybe proper tooling or training is missing.", "how": "Manually monitor Glassdoor at companies in your ICP. Clay can scrape Glassdoor data and filter on relevant keywords.", "opening": "I work a lot with sales teams in your industry that struggle with structuring their sales process. Sound familiar?", "note": "Note: never refer to the Glassdoor reviews themselves. Use the insight, not the source." },
+      { "number": "9", "title": "New market or office", "what": "A company opens a new office, enters a new market, or launches in a new country.", "why": "Growth into new markets creates direct needs: local lead generation, new processes, partnerships, and market knowledge.", "how": "Chamber of Commerce mutations for Dutch companies. LinkedIn company pages for international expansion. Clay can monitor company updates.", "opening": "Congratulations on the move to the new market. Other companies in your industry that made the same move ran into specific sales challenges \u2014 something you're dealing with too?" },
+      { "number": "10", "title": "Prospect opens your emails repeatedly", "what": "A prospect opens the same email 3+ times, or opens multiple emails in your sequence.", "why": "Repeated opening means interest. They're hesitating, sharing internally, or waiting for the right moment.", "how": "Email tools like Instantly, Lemlist or HubSpot track opens. Filter on prospects who open 3+ times but don't respond.", "opening": "I wanted to check if my previous email was relevant \u2014 I understand the timing isn't always right. Is the sales process something that's relevant now or later?" }
+    ],
+    "howToStart": {
+      "title": "How to get started",
+      "p1": "You don't need to monitor all 10 signals at once. Choose 2-3 that are most relevant to your ICP and industry, and build campaigns around them.",
+      "p2": "The easiest start: **signal 4 (website visits via Leadinfo)** and **signal 2 (new hires via Clay)**. Both are affordable, easy to set up, and deliver immediate results."
+    },
+    "inlineCta": {
+      "title": "Want to know how to set this up?",
+      "desc": "Read how to switch to signal-based outbound in 5 steps, or see which tools you need.",
+      "ctaPrimary": "The 5 steps",
+      "ctaSecondary": "Compare tools"
+    },
+    "relatedLabel": "/ Related articles",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "What is signal-based outbound? The complete guide",
+        "excerpt": "Everything about signal-based selling: what it is, which signals exist, and how to set it up.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koude-acquisitie-naar-signal-based-outbound",
+        "title": "From cold outreach to signal-based outbound in 5 steps",
+        "excerpt": "In 5 concrete steps from cold outbound to signal-based selling.",
+        "tag": "Outbound Strategy",
+        "readTime": "9 min"
+      },
+      {
+        "href": "/blog/intent-data-nederland-mkb",
+        "title": "Intent data for Dutch SMBs: what actually works?",
+        "excerpt": "Honest overview: what works for Dutch SMBs and what doesn't.",
+        "tag": "Intent Data",
+        "readTime": "7 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Ready to transform your outbound?",
+      "desc": "Book a call. Let's look together at how signal-based outbound fits your situation.",
+      "cta": "Book a call"
+    }
+  },
+  "blogTools": {
+    "metadata": {
+      "title": "Clay, Apollo, Leadinfo: the tools behind signal-based outbound",
+      "description": "Comparison of sales tools per category: signal detection, prospecting, website visitor identification and outbound. With current pricing."
+    },
+    "hero": {
+      "tag": "Sales Tools",
+      "title": "Clay, Apollo, Leadinfo: the tools behind signal-based outbound",
+      "readTime": "11 min read"
+    },
+    "intro": "You know what signal-based outbound is and which buying signals you can use. But which tools do you need? In this article, I compare the most important tools per category \u2014 with current pricing, tips and pitfalls.",
+    "categoriesTitle": "The 5 categories you need",
+    "categoriesIntro": "Signal-based outbound isn't about one tool but a stack. You need five layers: signal detection, prospecting data, website visitor identification, outbound execution and orchestration.",
+    "tools": [
+      {
+        "category": "1. Signal monitoring & enrichment",
+        "categoryDesc": "The hub of your signal-based setup. This is where you detect buying signals and enrich contact data.",
+        "entries": [
+          {
+            "name": "Clay",
+            "what": "Clay monitors buying signals (new hires, funding, tech switches), enriches contact data via 150+ data sources, and routes that data to your outbound tools. Clay's 'waterfall enrichment' automatically tries multiple data sources if the first one doesn't return results.",
+            "pricing": ["Starter: $134/month (24,000 credits/year)", "Explorer: $314/month (120,000 credits/year) \u2014 most popular", "Pro: $720/month \u2014 for larger teams"],
+            "forWho": "B2B teams serious about scaling with signal-based outbound. Clay requires a 1-2 week learning curve, but is a force multiplier after that.",
+            "tip": "Start with the Explorer tier. The Starter doesn't have the AI formula generator, which you need for custom enrichments.",
+            "pitfall": "Credits run out fast if you filter too broadly. Start with a specific ICP segment and only expand when you know which signals convert."
+          }
+        ]
+      },
+      {
+        "category": "2. Prospecting & data",
+        "categoryDesc": "Contact data and LinkedIn intelligence. The foundation for your outreach.",
+        "entries": [
+          {
+            "name": "Apollo",
+            "what": "Apollo combines a database of 275+ million contacts with built-in sequencing. You can search, filter, enrich and email directly from one platform.",
+            "pricing": ["Free: 10,000 email credits/month, 5 mobile credits", "Basic: $49/user/month (annual) \u2014 unlimited sequences", "Professional: $79/user/month \u2014 built-in dialer", "Organization: $119/user/month (min. 3 users)"],
+            "forWho": "Founders and small sales teams wanting an all-in-one for prospecting + outreach. Apollo's free tier is the best free option on the market.",
+            "tip": "Use Apollo for data and combine it with Clay for signal detection. Apollo's built-in sequencing is fine for starters.",
+            "pitfall": "Mobile numbers and export credits are separately limited. Check how many you need monthly before choosing a tier."
+          },
+          {
+            "name": "LinkedIn Sales Navigator",
+            "what": "Advanced search in LinkedIn's database, saved leads with alerts, and (in the Advanced edition) buyer intent signals.",
+            "pricing": ["Core: $99.99/month (or $79.99 with annual billing)", "Advanced: $179.99/month (or $139.99 annual) \u2014 buyer intent, TeamLink", "Advanced Plus: custom pricing, from ~$1,600/year per seat"],
+            "forWho": "Everyone doing B2B outbound. Sales Nav isn't optional \u2014 it's essential. The Core edition suffices for most.",
+            "tip": "Combine Sales Nav with Clay. Clay can pull and enrich LinkedIn data, giving you the best of both worlds.",
+            "pitfall": "Watch out for VAT \u2014 it's on top of the listed prices and can be 21% extra. InMail credits (50/month on Core) run out fast."
+          }
+        ]
+      },
+      {
+        "category": "3. Website visitor identification",
+        "categoryDesc": "Who visits your website? This is first-party intent data in its purest form.",
+        "entries": [
+          {
+            "name": "Leadinfo",
+            "what": "Identifies which companies visit your website. Dutch, GDPR-compliant, cookieless. Identifies 35-40% of B2B traffic in the Benelux \u2014 the highest in the EU market.",
+            "pricing": ["From \u20ac69/month", "ISO 27001 certified", "70+ integrations, live within 5 minutes"],
+            "forWho": "Dutch and Benelux-focused B2B companies.",
+            "tip": "Connect Leadinfo directly to your CRM (HubSpot, Salesforce) so website visits automatically land at the right account.",
+            "pitfall": "Leadinfo shows companies, not individuals. You need to find the right contact person yourself \u2014 that's where Clay or Apollo comes in."
+          },
+          {
+            "name": "Leadfeeder (via Dealfront)",
+            "what": "Similar to Leadinfo, but with broader international coverage via Dealfront's data ecosystem.",
+            "pricing": ["From \u20ac139/month", "Free tier: 100 companies/month, 7 days history"],
+            "forWho": "Teams with international clients outside the Benelux.",
+            "tip": "For NL focus \u2192 Leadinfo. For international \u2192 Leadfeeder. Running both simultaneously is rarely needed.",
+            "pitfall": "Website visit data is only valuable when you have enough traffic. Below 500 unique visitors per month, it yields too few usable leads."
+          }
+        ]
+      },
+      {
+        "category": "4. Outbound execution",
+        "categoryDesc": "The tools for sending your messages. Email, LinkedIn, multichannel.",
+        "entries": [
+          {
+            "name": "Instantly",
+            "what": "Cold email at scale with unlimited mailboxes and built-in warmup. The best value for pure email outbound.",
+            "pricing": ["Growth: $47/month \u2014 5,000 emails/month, unlimited accounts", "Hypergrowth: $97/month \u2014 100,000 emails/month, A/B testing"],
+            "forWho": "Teams running volume via email.",
+            "tip": "Instantly is NOT a prospecting tool. Connect it to Clay or Apollo for your data. Instantly does one thing well: sending emails with high deliverability.",
+            "pitfall": "Lead credits for the built-in database cost extra. Use Apollo or Clay for data, Instantly only for sending."
+          },
+          {
+            "name": "Lemlist",
+            "what": "Multichannel outreach: email + LinkedIn + calls, with AI personalization.",
+            "pricing": ["Email Pro: $69/user/month", "Multichannel Expert: $79-99/user/month \u2014 LinkedIn automation, calls, AI"],
+            "forWho": "Teams wanting multichannel from one tool. Lemlist's LinkedIn automation is a plus compared to Instantly.",
+            "tip": "Lemlist is strong in multichannel. If you only need email, Instantly is cheaper.",
+            "pitfall": "Per-user pricing adds up with larger teams. Credits expire monthly without rollover."
+          },
+          {
+            "name": "La Growth Machine (LGM)",
+            "what": "Multichannel sequences via LinkedIn, email and X (Twitter), with visual workflow builder. Popular in the European market.",
+            "pricing": ["Basic: \u20ac60/month per identity \u2014 LinkedIn + email, 3 campaigns", "Pro: \u20ac120/month per identity \u2014 + calls, A/B testing", "Ultimate: \u20ac180/month per identity \u2014 unlimited campaigns"],
+            "forWho": "Teams wanting visual workflows and X as a channel.",
+            "tip": "LGM is strong in visual campaign builders. Good for teams wanting to build processes visually.",
+            "pitfall": "LGM charges per 'identity' (1 LinkedIn + 1 email). With multiple SDRs, that adds up quickly."
+          }
+        ]
+      },
+      {
+        "category": "5. Orchestration",
+        "categoryDesc": "The glue between your tools. Connects Clay, your CRM, your outbound tool and your signal monitoring into one workflow.",
+        "entries": [
+          {
+            "name": "n8n",
+            "what": "Open-source workflow automation. Self-hosted or cloud. Powerful but more technical than Make.",
+            "pricing": ["Self-hosted: free", "Cloud: from $24/month"],
+            "forWho": "Technical teams wanting maximum flexibility.",
+            "tip": "n8n is the most powerful option if you can self-host. Full control over your data and workflows.",
+            "pitfall": "Requires technical knowledge. Not suitable if you don't have a developer on the team."
+          },
+          {
+            "name": "Make (formerly Integromat)",
+            "what": "Visual workflow builder. More user-friendly than n8n, with a large ecosystem of integrations.",
+            "pricing": ["Free tier available", "Paid from $10.59/month"],
+            "forWho": "Non-technical teams needing to connect tools without coding.",
+            "tip": "Start with Make if you need to connect tools that don't have native integrations. The visual builder is intuitive.",
+            "pitfall": "Complex workflows can quickly consume credits. Monitor your usage."
+          },
+          {
+            "name": "HubSpot (Free CRM)",
+            "what": "Free CRM with workflows, contact management and basic automation. The free tier is surprisingly complete for small teams.",
+            "pricing": ["Free CRM: \u20ac0", "Starter: from \u20ac20/month", "Professional: from \u20ac890/month"],
+            "forWho": "Everyone. HubSpot Free is the best free CRM for B2B.",
+            "tip": "Start with HubSpot Free as CRM. Add Make if you need to connect tools without native integrations.",
+            "pitfall": "The jump from Free to Professional is large (\u20ac0 \u2192 \u20ac890/month). Plan ahead which features you truly need."
+          }
+        ]
+      }
+    ],
+    "minimalStack": {
+      "title": "The minimal stack: under \u20ac500/month",
+      "intro": "For a founder or small team wanting to start with signal-based outbound:",
+      "rows": [
+        { "tool": "Clay (Explorer)", "function": "Signal detection + enrichment", "cost": "~\u20ac290/month" },
+        { "tool": "Apollo (Free)", "function": "Prospecting data", "cost": "\u20ac0" },
+        { "tool": "Instantly (Growth)", "function": "Email sending", "cost": "~\u20ac43/month" },
+        { "tool": "HubSpot (Free)", "function": "CRM", "cost": "\u20ac0" },
+        { "tool": "Total", "function": "", "cost": "~\u20ac333/month" }
+      ],
+      "conclusion": "This gives you signal detection, data enrichment, email outbound and a CRM. Enough to start and validate which signals work."
+    },
+    "premiumStack": {
+      "title": "The premium stack: under \u20ac1,000/month",
+      "intro": "When you know signal-based outbound works and want to scale:",
+      "rows": [
+        { "tool": "Clay (Explorer)", "function": "Signal detection + enrichment", "cost": "~\u20ac290/month" },
+        { "tool": "Apollo (Basic)", "function": "Prospecting data + sequences", "cost": "~\u20ac45/month" },
+        { "tool": "Leadinfo", "function": "Website visitor identification", "cost": "~\u20ac69/month" },
+        { "tool": "Sales Nav (Core)", "function": "LinkedIn intelligence", "cost": "~\u20ac92/month" },
+        { "tool": "Instantly (Hypergrowth)", "function": "Email at scale", "cost": "~\u20ac89/month" },
+        { "tool": "Make (paid)", "function": "Orchestration", "cost": "~\u20ac10/month" },
+        { "tool": "HubSpot (Free)", "function": "CRM", "cost": "\u20ac0" },
+        { "tool": "Total", "function": "", "cost": "~\u20ac595/month" }
+      ],
+      "conclusion": "Well under \u20ac1,000, and you have a complete stack for signal detection, prospecting, website visits, multichannel outreach and automation."
+    },
+    "dontStartAll": {
+      "title": "Don't start with everything at once",
+      "p1": "The pitfall is buying all tools at once and then using 20% of them. Start with the minimal stack, validate your first signal type, and only add tools when you know what works.",
+      "p2": "The most successful signal-based teams I know started with Clay + one outbound tool. After 2-3 months they knew which signals converted, and only then did they expand. That order saves you hundreds of euros on tools you don't need yet."
+    },
+    "inlineCta": {
+      "title": "Which signals should you monitor?",
+      "desc": "Discover which buying signals are most relevant for your ICP, or read the complete guide on signal-based outbound.",
+      "ctaPrimary": "10 buying signals",
+      "ctaSecondary": "The complete guide"
+    },
+    "relatedLabel": "/ Related articles",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "What is signal-based outbound? The complete guide",
+        "excerpt": "Everything about signal-based selling: what it is, which signals exist, and how to set it up.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 buying signals you can use tomorrow",
+        "excerpt": "The 10 most powerful buyer signals with detection method and opening line.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/intent-data-nederland-mkb",
+        "title": "Intent data for Dutch SMBs: what actually works?",
+        "excerpt": "Honest overview: what works for Dutch SMBs and what doesn't.",
+        "tag": "Intent Data",
+        "readTime": "7 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Ready to transform your outbound?",
+      "desc": "Book a call. Let's look together at which tools fit your situation and budget.",
+      "cta": "Book a call"
+    }
+  },
+  "blogIntentData": {
+    "metadata": {
+      "title": "Intent data for Dutch SMBs: what actually works?",
+      "description": "Honest overview of intent data tools: what works for Dutch SMBs and what doesn't. Bombora, 6sense, G2 vs. Leadinfo, Clay, LinkedIn."
+    },
+    "hero": {
+      "tag": "Intent Data",
+      "title": "Intent data for Dutch SMBs: what actually works?",
+      "readTime": "7 min read"
+    },
+    "intro": "Most content about intent data is written for American enterprise companies with six- to seven-figure marketing budgets. Not this article. Here you'll read what intent data does and doesn't deliver for Dutch SMBs \u2014 honestly, without a sales pitch.",
+    "whatIs": {
+      "title": "What is intent data?",
+      "p1": "Intent data is information indicating that a company is actively interested in a specific topic, product or solution. The idea: if you know a company is exploring your category, you can approach them before they end up at the competitor.",
+      "p2": "There are two types:",
+      "firstPartyTitle": "First-party intent data",
+      "firstPartyDesc": "Behavior you measure yourself: website visits, email opens, content downloads, demo requests. This is data you already have (or can easily collect) via your own website and tools.",
+      "thirdPartyTitle": "Third-party intent data",
+      "thirdPartyDesc": "Behavior that external parties measure: which topics a company researches on the broader web, which reviews they read, which comparison pages they visit. Providers like Bombora, 6sense and G2 sell this data.",
+      "p3": "The reliability difference is large. First-party data is concrete \u2014 someone visits your pricing page, that's a hard signal. Third-party data is a proxy \u2014 a company reads an article about 'CRM implementation' somewhere, and that gets translated into an intent score."
+    },
+    "doesntWork": {
+      "title": "What DOESN'T work for Dutch SMBs",
+      "intro": "Here it gets uncomfortable. The three biggest names in intent data are simply not relevant for most Dutch SMBs.",
+      "items": [
+        {
+          "name": "Bombora",
+          "desc": "Market leader in third-party intent data. Monitors content consumption on 5,000+ B2B websites and translates that into 'Company Surge' scores per topic.",
+          "problem": "Starts at $30,000/year, average contract ~$58,000/year. Annual contract required. The network is primarily American \u2014 overlap with Dutch B2B websites is minimal."
+        },
+        {
+          "name": "6sense",
+          "desc": "Combines intent data with predictive analytics and account-based marketing. Powerful platform \u2014 for enterprise.",
+          "problem": "Median customer pays $55,000/year. Enterprise up to $250,000-$400,000/year excluding implementation costs ($10,000-$50,000). Requires a dedicated RevOps person."
+        },
+        {
+          "name": "G2 intent data",
+          "desc": "Buyer intent data based on who views your product page, reviews and comparisons on G2.com.",
+          "problem": "Dutch B2B buyers barely use G2. The platform is dominant in North America. Signal volumes from the Netherlands are too low for usable data."
+        }
+      ]
+    },
+    "doesWork": {
+      "title": "What DOES work for Dutch SMBs",
+      "intro": "The good news: there are alternatives that better fit the Dutch market, and they cost a fraction of the above options.",
+      "items": [
+        {
+          "name": "Leadinfo: website visits as first-party intent",
+          "desc": "Leadinfo identifies which companies visit your website \u2014 and that's the most direct form of intent data there is. Dutch, GDPR-compliant, cookieless, 35-40% identification of B2B traffic in the Benelux. From \u20ac69/month, no annual contract.",
+          "why": "You see which company, which pages, how often, and how long. Filter on your ICP and you have a daily list of warm leads."
+        },
+        {
+          "name": "LinkedIn Sales Navigator: buyer intent built in",
+          "desc": "Sales Navigator Advanced contains buyer intent signals: which contacts at your saved accounts visit your company page, like your content, or accept InMails. With 180+ signals it builds an intent score per account. From $139.99/month (annual).",
+          "why": "Since virtually every Dutch B2B company is active on LinkedIn, the data sample here IS large enough."
+        },
+        {
+          "name": "Clay triggers: event-based intent",
+          "desc": "Clay monitors concrete events that signal intent: new hires, funding rounds, technology switches, press releases. This isn't a statistical intent score but an observable fact. Clay Explorer costs $314/month.",
+          "why": "You don't need to interpret a score. There's no 'medium intent' label \u2014 you see that company X hired a VP Sales last week. Concrete, verifiable, and immediately actionable."
+        },
+        {
+          "name": "Own first-party data via HubSpot",
+          "desc": "HubSpot (free CRM) tracks who opens your emails, which pages they visit (with tracking code), and how they move through your funnel. This is first-party intent data you already have but probably don't use enough.",
+          "why": "Combine HubSpot data with Leadinfo and you have a complete picture: which companies visit your site (Leadinfo) and what do known contacts do (HubSpot). Cost: \u20ac69/month + \u20ac0."
+        }
+      ]
+    },
+    "truth": {
+      "title": "The honest truth",
+      "p1": "The intent data industry is built on the promise that you can know who's ready to buy. For American enterprise companies with huge target markets and six-figure budgets, that model works. For Dutch SMBs, the reality is different.",
+      "highlight": "First-party data + event-based triggers > expensive third-party intent data.",
+      "p2": "Your own website visit data (Leadinfo) tells you more than a Bombora Company Surge score ever will for the Dutch market. LinkedIn engagement from your target audience is a stronger signal than a G2 comparison page your prospect never visited.",
+      "p3": "The companies performing best with signal-based outbound in the Netherlands don't use Bombora or 6sense. They combine Leadinfo + Clay + LinkedIn Sales Nav + their own HubSpot data. Total cost: \u20ac400-600/month. That's 10x cheaper than Bombora's entry price \u2014 and more relevant for the Dutch market."
+    },
+    "startWith": {
+      "title": "Start with what you have",
+      "intro": "Before you invest in any intent data tool, do this:",
+      "conclusion": "Most SMBs discover they're already sitting on a mountain of intent data they're not using. Start there.",
+      "closing": "And when you notice that foundation works \u2014 that website visit data actually leads to meetings, that email engagement correlates with deals \u2014 only then is it time to invest in Clay for scale and automation. Not sooner."
+    },
+    "startSteps": [
+      "**Check your HubSpot** (or other CRM): who opens your emails, who visits your site, who's in your pipeline but has gone quiet?",
+      "**Install Leadinfo** (30-day free trial): see how many companies visit your website that fit your ICP",
+      "**Use LinkedIn Sales Nav** to see who's engaged with your content",
+      "**Only then** consider Clay for automated signal detection"
+    ],
+    "inlineCta": {
+      "title": "Want to learn more about signal-based outbound?",
+      "desc": "Read the complete guide on signal-based outbound, or see which tools you need.",
+      "ctaPrimary": "The complete guide",
+      "ctaSecondary": "Compare tools"
+    },
+    "relatedLabel": "/ Related articles",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "What is signal-based outbound? The complete guide",
+        "excerpt": "Everything about signal-based selling: what it is, which signals exist, and how to set it up.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 buying signals you can use tomorrow",
+        "excerpt": "The 10 most powerful buyer signals with detection method and opening line.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/tools-signal-based-outbound",
+        "title": "Clay, Apollo, Leadinfo: the tools behind signal-based outbound",
+        "excerpt": "Comparison of sales tools per category with current pricing.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Ready to transform your outbound?",
+      "desc": "Book a call. Let's look together at which intent data strategy fits your situation.",
       "cta": "Book a call"
     }
   }

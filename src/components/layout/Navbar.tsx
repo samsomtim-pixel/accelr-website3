@@ -76,16 +76,16 @@ export default function Navbar() {
   const expertiseItems = [
     { href: "/de-scan" as const, label: t("expertiseItems.deScan") },
     { href: "/sales-strategie" as const, label: t("expertiseItems.strategieGtm") },
-    { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
     { href: "/outbound-leadgeneratie" as const, label: t("expertiseItems.outboundLeadgen") },
+    { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
     { href: "/sales-enablement" as const, label: t("expertiseItems.salesEnablement") },
-    { href: "/ai-sales-automation" as const, label: t("expertiseItems.aiAutomation") },
     { href: "/expertise/fractional-head-of-sales" as const, label: t("expertiseItems.fractional") },
   ];
 
   const navItems = [
     { href: "/methode" as const, label: t("methode") },
     { href: "/over-tim" as const, label: t("overTim") },
+    { href: "/blog" as const, label: t("blog") },
   ];
 
   useEffect(() => {

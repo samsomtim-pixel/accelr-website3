@@ -1,163 +1,147 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import FadeIn from "@/components/FadeIn";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 import { PILLAR_COLORS } from "@/lib/constants";
 
 const P = PILLAR_COLORS;
 
-const mappingCards = [
+const layers = [
   {
-    label: "DIAGNOSE",
-    title: "De Scan\u2122",
-    desc: "Diagnosticeert alle pilaren. Output = strategie + actieplan.",
-    href: "/de-scan",
-    color: P.result.color,
-    bg: P.result.bg,
-    border: P.result.border,
-    wide: true,
+    label: "FUNDAMENT",
+    cards: [
+      {
+        badge: "DIAGNOSE",
+        title: "De Scan\u2122",
+        desc: "Volledige doorlichting van je salesoperatie. Scores op 10 dimensies, geprioriteerde roadmap, harde cijfers.",
+        aiText: "AI-powered: data-analyse en benchmarking",
+        framework: "Framework: Diagnose van alle pijlers",
+        href: "/de-scan" as const,
+        color: P.strategy.color,
+        bg: P.strategy.bg,
+        border: P.strategy.border,
+      },
+      {
+        badge: "STRATEGIE",
+        title: "Strategie & GTM",
+        desc: "ICP, positionering, go-to-market plan, pricing. Het strategisch fundament op basis van data, niet onderbuikgevoel.",
+        aiText: "AI-powered: ICP-modellering en marktanalyse",
+        framework: "Framework: Strategie-pijler",
+        href: "/sales-strategie" as const,
+        color: P.strategy.color,
+        bg: P.strategy.bg,
+        border: P.strategy.border,
+      },
+    ],
   },
   {
-    label: "STRATEGIE",
-    title: "Strategie & GTM",
-    desc: "ICP, positionering, GTM, pricing. Het fundament.",
-    href: "/sales-strategie",
-    color: P.strategy.color,
-    bg: P.strategy.bg,
-    border: P.strategy.border,
-    wide: true,
+    label: "BOUWEN",
+    cards: [
+      {
+        badge: "PROCES",
+        title: "Outbound & Leadgen",
+        desc: "Signal-based prospecting die de juiste prospects benadert op het juiste moment. LinkedIn, e-mail en telefoon in \u00e9\u00e9n systeem.",
+        aiText: "AI-powered: koopsignalen detecteren, verrijken en converteren",
+        framework: "Framework: Proces-pijler, laag 1",
+        href: "/outbound-leadgeneratie" as const,
+        color: P.process.color,
+        bg: P.process.bg,
+        border: P.process.border,
+      },
+      {
+        badge: "PROCES",
+        title: "CRM & Salesproces",
+        desc: "CRM dat je team echt gebruikt. Pipeline-dashboards, automatische updates, lead scoring. Geen data-invoer meer.",
+        aiText: "AI-powered: enrichment, scoring en automatisering",
+        framework: "Framework: Proces-pijler, laag 2+3",
+        href: "/crm-implementatie" as const,
+        color: P.process.color,
+        bg: P.process.bg,
+        border: P.process.border,
+      },
+    ],
   },
   {
-    label: "PROCES \u00b7 LAAG 1",
-    title: "Outbound & Leadgen",
-    desc: "Pipeline Generatie engine",
-    href: "/outbound-leadgeneratie",
-    color: P.process.color,
-    bg: P.process.bg,
-    border: P.process.border,
-    wide: false,
-  },
-  {
-    label: "PROCES \u00b7 LAAG 2+3",
-    title: "CRM & Salesproces",
-    desc: "Executie + Meting",
-    href: "/crm-implementatie",
-    color: P.process.color,
-    bg: P.process.bg,
-    border: P.process.border,
-    wide: false,
-  },
-  {
-    label: "PEOPLE \u00b7 LAAG 1+2",
-    title: "Sales Enablement",
-    desc: "Enablement + Zichtbaarheid",
-    href: "/sales-enablement",
-    color: P.people.color,
-    bg: P.people.bg,
-    border: P.people.border,
-    wide: false,
-  },
-  {
-    label: "\u00d7 AI",
-    title: "AI & Automation",
-    desc: "Automation + Intelligence + Analytics",
-    href: "/ai-sales-automation",
-    color: P.ai.color,
-    bg: P.ai.bg,
-    border: P.ai.border,
-    wide: false,
+    label: "OPTIMALISEREN",
+    cards: [
+      {
+        badge: "PEOPLE",
+        title: "Sales Enablement",
+        desc: "Playbooks op basis van wat werkt, call-analyse, coaching en onboarding. Je team wordt elke week beter.",
+        aiText: "AI-powered: conversation intelligence en automatische playbook-updates",
+        framework: "Framework: People-pijler",
+        href: "/sales-enablement" as const,
+        color: P.people.color,
+        bg: P.people.bg,
+        border: P.people.border,
+      },
+    ],
   },
 ];
 
 export default function ExpertiseMapping() {
-  const wideCards = mappingCards.filter((c) => c.wide);
-  const gridCards = mappingCards.filter((c) => !c.wide);
-
   return (
     <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
       <div className="container-wide">
         <FadeIn>
           <p className="section-label-dark">/ Expertise</p>
           <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-            Hoe dit mapt op wat ik bouw
+            De bouwblokken
           </h2>
+          <p className="mt-4 max-w-2xl text-text-dark-secondary">
+            Vijf onderdelen, drie lagen. AI is de rode draad door alles heen.
+          </p>
         </FadeIn>
 
-        {/* Wide cards (Diagnose + Strategie) */}
-        <div className="mt-12 grid gap-4 sm:grid-cols-2">
-          {wideCards.map((card, i) => (
-            <FadeIn key={card.title} delay={i * 0.08}>
-              <Link href={card.href} className="block h-full">
-                <div
-                  className="h-full rounded-2xl p-6 transition-all duration-300 hover:shadow-md"
-                  style={{
-                    backgroundColor: card.bg,
-                    border: `1px solid ${card.border}`,
-                  }}
-                >
-                  <p
-                    className="text-[10px] font-bold uppercase tracking-wider"
-                    style={{ color: card.color }}
-                  >
-                    {card.label}
-                  </p>
-                  <h3 className="mt-2 font-display text-lg font-bold text-text-dark">
-                    {card.title}
-                  </h3>
-                  <p className="mt-1 text-sm text-text-dark-secondary">
-                    {card.desc}
-                  </p>
-                  <span
-                    className="mt-3 inline-flex items-center gap-1 text-sm font-medium"
-                    style={{ color: card.color }}
-                  >
-                    Bekijk <ArrowRight size={14} />
-                  </span>
-                </div>
-              </Link>
-            </FadeIn>
-          ))}
-        </div>
-
-        {/* Grid cards (4 expertise areas) */}
-        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {gridCards.map((card, i) => (
-            <FadeIn key={card.title} delay={0.16 + i * 0.06}>
-              <Link href={card.href} className="block h-full">
-                <div
-                  className="h-full rounded-2xl p-6 transition-all duration-300 hover:shadow-md"
-                  style={{
-                    backgroundColor: card.bg,
-                    border: `1px solid ${card.border}`,
-                  }}
-                >
-                  <p
-                    className="text-[10px] font-bold uppercase tracking-wider"
-                    style={{ color: card.color }}
-                  >
-                    {card.label}
-                  </p>
-                  <h3 className="mt-2 font-display text-base font-bold text-text-dark">
-                    {card.title}
-                  </h3>
-                  <p className="mt-1 text-xs text-text-dark-secondary">
-                    {card.desc}
-                  </p>
-                  <span
-                    className="mt-3 inline-flex items-center gap-1 text-xs font-medium"
-                    style={{ color: card.color }}
-                  >
-                    Bekijk <ArrowRight size={12} />
-                  </span>
-                </div>
-              </Link>
-            </FadeIn>
-          ))}
-        </div>
+        {layers.map((layer, layerIdx) => (
+          <div key={layer.label} className="mt-12">
+            <p className="text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4">
+              {layer.label}
+            </p>
+            <div className={`grid gap-6 grid-cols-1 ${layer.cards.length > 1 ? "md:grid-cols-2" : ""}`}>
+              {layer.cards.map((card, cardIdx) => (
+                <FadeIn key={card.title} delay={(layerIdx * 2 + cardIdx) * 0.08}>
+                  <Link href={card.href} className="block h-full">
+                    <div
+                      className="card-light h-full flex flex-col overflow-hidden"
+                      style={{ borderTop: `4px solid ${card.color}` }}
+                    >
+                      <span
+                        className="self-start rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
+                        style={{
+                          color: card.color,
+                          backgroundColor: `${card.color}15`,
+                        }}
+                      >
+                        {card.badge}
+                      </span>
+                      <h3 className="mt-3 font-display text-lg font-semibold text-text-dark">
+                        {card.title}
+                      </h3>
+                      <p className="mt-2 flex-1 text-sm text-text-dark-secondary leading-relaxed">
+                        {card.desc}
+                      </p>
+                      <p className="mt-2 flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
+                        <Sparkles size={14} className="shrink-0" />
+                        {card.aiText}
+                      </p>
+                      <p className="mt-2 text-xs font-medium text-gray-400 dark:text-gray-500 italic">
+                        {card.framework}
+                      </p>
+                      <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
+                        Ontdek meer <ArrowRight size={14} />
+                      </span>
+                    </div>
+                  </Link>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        ))}
 
         {/* Overkoepelend: Fractional Head of Sales */}
-        <FadeIn delay={0.4}>
+        <FadeIn delay={0.5}>
           <div
-            className="mt-4 rounded-2xl p-6 text-center"
+            className="mt-12 rounded-2xl p-6 text-center"
             style={{
               backgroundColor: P.result.bg,
               border: `1px solid ${P.result.border}`,
@@ -173,7 +157,7 @@ export default function ExpertiseMapping() {
               Fractional Head of Sales
             </h3>
             <p className="mt-1 text-sm text-text-dark-secondary">
-              Bewaakt alle pilaren doorlopend. 1-2 dagen/week.
+              Bewaakt alle lagen doorlopend. 1-2 dagen/week.
             </p>
           </div>
         </FadeIn>

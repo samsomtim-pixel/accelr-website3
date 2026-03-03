@@ -25,6 +25,14 @@ export async function generateMetadata({
       type: "website",
       locale: locale === "nl" ? "nl_NL" : "en_US",
       siteName: "Accelr",
+      images: [
+        {
+          url: "https://accelr.nl/images/og-default.png",
+          width: 1200,
+          height: 630,
+          alt: "Accelr - Your Sales Growth Partner",
+        },
+      ],
     },
     robots: {
       index: true,

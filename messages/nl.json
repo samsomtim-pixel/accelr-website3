@@ -7,6 +7,7 @@
     "expertise": "Expertise",
     "methode": "Methode",
     "overTim": "Over Tim",
+    "blog": "Blog",
     "contact": "Plan een gesprek",
     "expertiseItems": {
       "deScan": "De Scan\u2122",
@@ -30,10 +31,11 @@
     "expertise": "Expertise",
     "expertiseItems": {
       "deScan": "De Scan",
-      "crmSalesproces": "CRM & Salesproces",
+      "strategieGtm": "Strategie & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
-      "aiAutomation": "AI & Automation",
-      "salesMaturityScore": "Sales Maturity Score"
+      "crmSalesproces": "CRM & Salesproces",
+      "salesEnablement": "Sales Enablement",
+      "fractional": "Fractional Head of Sales"
     },
     "contact": "Contact",
     "planGesprek": "Plan een gesprek",
@@ -147,39 +149,46 @@
       "label": "/ Bouwblokken",
       "title": "Wat ik bouw",
       "subtitle": "Dit zijn de onderdelen die ik inzet, op projectbasis of doorlopend.",
+      "layerLabels": ["FUNDAMENT", "BOUWEN", "OPTIMALISEREN"],
       "cards": [
         {
           "title": "De Scan\u2122",
           "badge": "DIAGNOSE",
-          "desc": "Volledige doorlichting van je salesoperatie"
+          "desc": "Volledige doorlichting van je salesoperatie. Scores op 10 dimensies, geprioriteerde roadmap, harde cijfers.",
+          "aiText": "AI-powered: data-analyse en benchmarking"
         },
         {
           "title": "Strategie & GTM",
           "badge": "STRATEGIE",
-          "desc": "ICP-validatie, go-to-market plan, positionering"
+          "desc": "ICP, positionering, go-to-market plan, pricing. Het strategisch fundament op basis van data, niet onderbuikgevoel.",
+          "aiText": "AI-powered: ICP-modellering en marktanalyse"
         },
         {
           "title": "Outbound & Leadgen",
           "badge": "PROCES",
-          "desc": "Prospecting-machine die gekwalificeerde meetings genereert"
+          "desc": "Signal-based prospecting die de juiste prospects benadert op het juiste moment. LinkedIn, e-mail en telefoon in \u00e9\u00e9n systeem.",
+          "aiText": "AI-powered: koopsignalen detecteren, verrijken en converteren"
         },
         {
           "title": "CRM & Salesproces",
           "badge": "PROCES",
-          "desc": "CRM-inrichting, pipeline design, verkoopproces"
+          "desc": "CRM dat je team echt gebruikt. Pipeline-dashboards, automatische updates, lead scoring. Geen data-invoer meer.",
+          "aiText": "AI-powered: enrichment, scoring en automatisering"
         },
         {
           "title": "Sales Enablement",
           "badge": "PEOPLE",
-          "desc": "Playbooks, training, onboarding, coaching"
-        },
-        {
-          "title": "AI & Automation",
-          "badge": "+ AI",
-          "desc": "Make, n8n, Clay, automatiseer wat geen mens hoeft te doen"
+          "desc": "Playbooks op basis van wat werkt, call-analyse, coaching en onboarding. Je team wordt elke week beter.",
+          "aiText": "AI-powered: conversation intelligence en automatische playbook-updates"
         }
       ],
-      "note": "Bij De Scan analyseer ik alle bouwblokken. Bij De Bouw werk ik aan specifieke onderdelen. Als Fractional Head of Sales bewaak ik het geheel doorlopend."
+      "ontdekMeer": "Ontdek meer",
+      "fractional": {
+        "label": "OVERKOEPELEND",
+        "title": "Fractional Head of Sales",
+        "desc": "Bewaakt alle lagen doorlopend. 1-2 dagen/week."
+      },
+      "note": "Bij De Scan analyseer ik alle lagen. Bij De Bouw werk ik aan specifieke onderdelen. Als Fractional Head of Sales bewaak ik het geheel doorlopend."
     },
     "resultaten": {
       "label": "/ Resultaten",
@@ -398,7 +407,7 @@
       "proces": "Proces",
       "people": "People",
       "ai": "AI",
-      "result": "exponenti\u00eble groei",
+      "result": "schaalbare groei",
       "desc": "Strategie is de input die alles aandrijft. Proces en People zijn de kernpilaren, ze versterken elkaar multiplicatief. AI is de multiplier die alles versnelt. Verbeter elk element met 20% en je totale output groeit met 107%."
     },
     "compoundTable": {
@@ -517,12 +526,12 @@
       "cta": "Start met De Scan",
       "ctaSecondary": "Plan een kennismaking",
       "scanNote": "\u20ac3.500 vast \u00b7 Geld-terug garantie \u00b7 Resultaat in 2 weken",
-      "location": "Amsterdam, Nederland"
+      "location": "Haarlem, Nederland"
     }
   },
   "deScan": {
     "metadata": {
-      "title": "De Scan\u2122 | Diagnose van je salesoperatie | Accelr",
+      "title": "De Scan\u2122 | Diagnose van je salesoperatie",
       "description": "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. \u20ac3.500 vast. Niet tevreden? Geld terug."
     },
     "hero": {
@@ -552,7 +561,7 @@
         { "num": 4, "name": "CRM", "question": "Gebruik je een CRM? Hoe is de datakwaliteit?" },
         { "num": 5, "name": "Outbound", "question": "Doe je actief outbound? Met welk resultaat?" },
         { "num": 6, "name": "Enablement", "question": "Heeft je team playbooks, scripts, training?" },
-        { "num": 7, "name": "AI & Automation", "question": "Welke tools gebruik je? Wat kan geautomatiseerd?" },
+        { "num": 7, "name": "AI & Tech Readiness", "question": "Welke tools gebruik je? Hoe klaar ben je om AI in te zetten?" },
         { "num": 8, "name": "Team", "question": "Heb je de juiste mensen op de juiste plek?" },
         { "num": 9, "name": "Data", "question": "Welke KPI's track je? Hoe accuraat is je forecast?" },
         { "num": 10, "name": "Leadership", "question": "Wie stuurt de sales aan? Is er accountability?" }
@@ -570,6 +579,15 @@
         "Geprioriteerd 90-dagen actieplan",
         "Advies per kans: zelf doen / met Accelr / outsourcen",
         "Live presentatie van bevindingen (nooit alleen per mail)"
+      ]
+    },
+    "aiHighlights": {
+      "label": "/ AI in De Scan",
+      "title": "Hoe AI dit versterkt",
+      "items": [
+        { "title": "Data-analyse", "desc": "AI analyseert je CRM-data, website-metrics en pipeline en identificeert patronen die je handmatig mist." },
+        { "title": "Benchmarking", "desc": "Vergelijk je scores op alle 10 dimensies met branchegemiddelden via AI-gedreven modellen." },
+        { "title": "Kansen-detectie", "desc": "AI berekent de euro-waarde van elke optimalisatiekans, zodat je prioriteert op impact." }
       ]
     },
     "tijdlijn": {
@@ -629,7 +647,7 @@
   },
   "overTim": {
     "metadata": {
-      "title": "Over Tim Samsom | Fractional Head of Sales | Accelr",
+      "title": "Over Tim Samsom | Fractional Head of Sales",
       "description": "8+ jaar B2B sales in adtech en tech. Country Manager bij ShowHeroes, nu Fractional Head of Sales. Alumnus Nyenrode."
     },
     "hero": {
@@ -744,7 +762,7 @@
   },
   "salesStrategie": {
     "metadata": {
-      "title": "Sales Strategie & GTM voor B2B | Accelr",
+      "title": "Sales Strategie & GTM voor B2B",
       "description": "ICP, go-to-market plan, positionering en pricing. De basis die ervoor zorgt dat al je sales-activiteiten in de juiste richting werken."
     },
     "hero": {
@@ -815,6 +833,15 @@
         "a": "Dan valideren we die. In mijn ervaring klopt het ICP van de meeste bedrijven niet, of is het te breed. We scherpen aan op basis van data."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in Strategie",
+      "title": "Hoe AI dit versterkt",
+      "items": [
+        { "title": "ICP-modellering", "desc": "AI analyseert je bestaande klantdata om patronen te vinden in je best-fit klanten. Geen buikgevoel, data." },
+        { "title": "Marktanalyse", "desc": "AI-gedreven concurrentie- en marktonderzoek op schaal. Sneller en dieper dan handmatig mogelijk is." },
+        { "title": "Messaging-optimalisatie", "desc": "Test en optimaliseer je positionering met AI-gegenereerde varianten op basis van bewezen frameworks." }
+      ]
+    },
     "cta": {
       "title": "Eerst de basis. Dan bouwen.",
       "desc": "De Scan brengt in kaart of je strategie klopt, en waar de grootste kansen liggen om scherper te verkopen.",
@@ -823,7 +850,7 @@
   },
   "crmImplementatie": {
     "metadata": {
-      "title": "CRM Implementatie voor MKB & Scale-ups | Accelr",
+      "title": "CRM Implementatie voor MKB & Scale-ups",
       "description": "CRM selectie, inrichting, pipeline design en dashboards. Van spreadsheet naar werkend systeem in 3-4 weken."
     },
     "hero": {
@@ -894,6 +921,15 @@
         "a": "Dan optimaliseer ik wat je hebt. Vaak is het niet het CRM dat het probleem is, maar de inrichting."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in CRM",
+      "title": "Hoe AI dit versterkt",
+      "items": [
+        { "title": "Data-enrichment", "desc": "AI verrijkt contacten automatisch met firmographic en technographic data via Clay en Apollo. Altijd actueel." },
+        { "title": "Automatische scoring", "desc": "AI scoort en prioriteert leads op basis van gedrag, engagement en ICP-fit. Je team belt altijd de juiste lead." },
+        { "title": "Pipeline-voorspelling", "desc": "AI-gedreven forecasting die accurater is dan spreadsheets. Weet wat je pipeline waard is en wanneer deals closen." }
+      ]
+    },
     "cta": {
       "title": "Van spreadsheet naar werkend systeem.",
       "desc": "De Scan brengt in kaart wat je nodig hebt, CRM selectie, inrichting, of optimalisatie van wat je al hebt.",
@@ -902,21 +938,21 @@
   },
   "outbound": {
     "metadata": {
-      "title": "B2B Leadgeneratie Nederland: Outbound Sales uitbesteden | Accelr",
-      "description": "B2B leadgeneratie in Nederland. Outbound email, LinkedIn outreach en multi-channel sequences. Sales uitbesteden voor een voorspelbare pipeline zonder afhankelijkheid van je netwerk."
+      "title": "B2B Leadgeneratie Nederland: Signal-Based Outbound",
+      "description": "Signal-based outbound: prospects benaderen op basis van koopsignalen, niet koude lijsten. LinkedIn, e-mail en telefoon in \u00e9\u00e9n geautomatiseerd systeem."
     },
     "hero": {
       "label": "/ Outbound & Leadgeneratie",
-      "title": "Een pipeline die niet afhankelijk is van jouw netwerk.",
-      "subtitle": "Outbound email, LinkedIn en multi-channel sequences. Geautomatiseerd, getest, en werkend.",
+      "title": "Benader de juiste prospect, op het juiste moment.",
+      "subtitle": "Signal-based outbound: prospects benaderen op basis van koopsignalen, niet koude lijsten. Geautomatiseerd, gepersonaliseerd, en werkend.",
       "cta": "Start met De Scan"
     },
     "probleem": {
-      "title": "Netwerk-sales heeft een plafond.",
+      "title": "Koude outbound is dood. Slimme outbound niet.",
       "paragraphs": [
-        "De eerste klanten kwamen via je netwerk. Referrals. Een intro via een oud-collega. Dat werkte, tot het niet meer genoeg was.",
-        "Nu heb je voorspelbare instroom nodig. Maar cold outbound voelt als spam, LinkedIn outreach levert niets op, en de ene tool na de andere belooft \u201c10 meetings per week\u201d zonder resultaat.",
-        "Het probleem is niet outbound zelf. Het probleem is dat niemand het goed opzet: juiste targeting, relevante messaging, multi-channel sequencing, en continue optimalisatie."
+        "De eerste klanten kwamen via je netwerk. Dat werkte, tot het niet meer genoeg was. Dus je probeerde outbound: een lijst van 1.000 bedrijven, generieke mails, lage response. Het voelde als spam \u2014 want dat was het ook. 95% van die lijst had op dat moment geen behoefte.",
+        "Het probleem is niet outbound. Het probleem is timing en relevantie. De bedrijven die w\u00e9l groeien met outbound doen het anders: ze benaderen prospects op het moment dat ze een koopsignaal afgeven. Een nieuwe funding-ronde. Een sales hire. Een technologie-wissel. Een bezoek aan je website.",
+        "Dit heet signal-based outbound, en het is het verschil tussen 2% en 8% reply rate."
       ]
     },
     "deliverables": {
@@ -924,64 +960,82 @@
       "items": [
         {
           "num": "/01",
-          "title": "Outbound Email Engine",
-          "desc": "Instantly of Lemlist, volledig geconfigureerd. Domain warmup, DKIM/SPF/DMARC, inbox rotation. Deliverability van dag \u00e9\u00e9n."
+          "title": "Signal Monitoring & Triggers",
+          "desc": "Automatische tracking van koopsignalen: funding-rondes, nieuwe hires, technologie-adoptie, websitebezoeken en LinkedIn-engagement. Je benadert alleen prospects die n\u00fa een behoefte signaleren."
         },
         {
           "num": "/02",
-          "title": "LinkedIn Outreach",
-          "desc": "Connectie-strategie, berichtensequences, content-alignment. Handmatig of geautomatiseerd, afhankelijk van je voorkeur."
+          "title": "Outbound Email Engine",
+          "desc": "Instantly of Lemlist, volledig geconfigureerd. Domain warmup, DKIM/SPF/DMARC, inbox rotation. Deliverability van dag \u00e9\u00e9n. Elk bericht getriggerd door een concreet koopsignaal."
         },
         {
           "num": "/03",
-          "title": "Multi-Channel Sequences",
-          "desc": "Email + LinkedIn + telefoon in \u00e9\u00e9n geco\u00f6rdineerde flow. Elke stap bouwt voort op de vorige. Geen losse kanalen."
+          "title": "LinkedIn Outreach",
+          "desc": "Connectie-strategie en berichtensequences gebaseerd op signalen. Prospect heeft net gepost over een sales-uitdaging? Dan is dat je opening \u2014 niet een generieke pitch."
         },
         {
           "num": "/04",
-          "title": "Targeting & Messaging",
-          "desc": "ICP-gebaseerde lijsten via Clay/Apollo. Messaging die resoneert met jouw buyers, getest, geoptimaliseerd, AI-gepersonaliseerd."
+          "title": "Multi-Channel Sequences",
+          "desc": "Email + LinkedIn + telefoon in \u00e9\u00e9n geco\u00f6rdineerde flow. Elke stap bouwt voort op het signaal dat de sequence heeft getriggerd. Geen losse kanalen, \u00e9\u00e9n geco\u00f6rdineerd verhaal."
+        },
+        {
+          "num": "/05",
+          "title": "AI-Targeting & Personalisatie",
+          "desc": "ICP-gebaseerde lijsten via Clay en Apollo. AI-enrichment combineert 6+ databronnen per prospect. Elke outreach is gepersonaliseerd op basis van het specifieke signaal \u2014 niet op basis van een template."
         }
       ]
     },
     "steps": {
       "title": "Hoe het werkt",
       "items": [
-        { "num": "/01", "title": "ICP scherp", "desc": "Wie zijn je best-fit klanten, echt?" },
-        { "num": "/02", "title": "Infra opzetten", "desc": "Domeinen, tooling, warmup" },
-        { "num": "/03", "title": "Campagnes bouwen", "desc": "Lijsten, messaging, sequences" },
-        { "num": "/04", "title": "Testen & optimaliseren", "desc": "A/B tests, response tracking, itereren" }
+        { "num": "/01", "title": "ICP & signalen defini\u00ebren", "desc": "Wie zijn je best-fit klanten? Welke koopsignalen zijn relevant? We defini\u00ebren je ICP \u00e9n de triggers." },
+        { "num": "/02", "title": "Infra & monitoring opzetten", "desc": "Domeinen, tooling, warmup. Plus: Clay workflows die funding, hiring en tech-changes monitoren." },
+        { "num": "/03", "title": "Campagnes bouwen", "desc": "Per signaaltype een campagne: andere messaging voor funding dan voor een sales hire. Relevantie is alles." },
+        { "num": "/04", "title": "Testen, meten, optimaliseren", "desc": "A/B tests op messaging en timing. Welke signalen converteren het best? Data-driven iteratie." }
       ]
     },
     "voorJou": [
       "Je bent afhankelijk van je netwerk voor nieuwe klanten",
-      "Je hebt outbound geprobeerd maar het leverde niets op",
-      "Je wilt een voorspelbare instroom van gekwalificeerde leads",
-      "Je hebt geen tijd om zelf campagnes te bouwen en testen"
+      "Je hebt outbound geprobeerd maar het voelde als spam",
+      "Je wilt prospects benaderen op het moment dat ze een behoefte hebben",
+      "Je wilt een voorspelbare instroom van gekwalificeerde leads"
     ],
     "faq": [
       {
-        "q": "Hoeveel meetings kan ik verwachten?",
-        "a": "Afhankelijk van je markt en aanbod. Typisch 5-15 gekwalificeerde meetings per maand na de eerste optimalisatieronde. Geen loze beloftes, ik geef een realistische inschatting na De Scan."
+        "q": "Wat is signal-based outbound?",
+        "a": "In plaats van een koude lijst van 1.000 bedrijven benader je alleen prospects die een koopsignaal afgeven: een funding-ronde, een nieuwe sales hire, een technologie-wissel, of engagement met je content. Het resultaat: hogere reply rates, meer meetings, minder spam."
       },
       {
-        "q": "Is cold outbound niet spam?",
-        "a": "Slecht uitgevoerde outbound is spam. Goed uitgevoerde outbound is relevante waarde aanbieden aan mensen die er baat bij hebben. Het verschil zit in targeting en messaging."
+        "q": "Hoeveel meetings kan ik verwachten?",
+        "a": "Afhankelijk van je markt en aanbod. Typisch 5-15 gekwalificeerde meetings per maand na de eerste optimalisatieronde. Signal-based outbound levert gemiddeld 3-4x hogere reply rates dan traditionele cold outbound."
+      },
+      {
+        "q": "Is dit niet gewoon cold outbound met een andere naam?",
+        "a": "Nee. Cold outbound benadert iedereen op een lijst. Signal-based outbound benadert alleen prospects die n\u00fa een behoefte signaleren. Het verschil zit in timing en relevantie \u2014 en dat zie je direct terug in de resultaten."
       },
       {
         "q": "Hoe snel draait het?",
-        "a": "Domain warmup duurt 2-3 weken. Eerste resultaten binnen 4-6 weken. Optimalisatie is doorlopend."
+        "a": "Domain warmup duurt 2-3 weken. Signal monitoring kan binnen een week draaien. Eerste resultaten binnen 4-6 weken. Optimalisatie is doorlopend."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in Outbound",
+      "title": "Hoe AI dit versterkt",
+      "items": [
+        { "title": "Signal monitoring", "desc": "Clay monitort automatisch funding-rondes, hiring, tech-changes en websitebezoeken. Je weet wie er n\u00fa openstaat, zonder handmatig zoeken." },
+        { "title": "AI-personalisatie per signaal", "desc": "Elk bericht wordt geschreven op basis van het specifieke koopsignaal. Prospect haalt funding op? Andere messaging dan iemand die een sales manager zoekt." },
+        { "title": "Lead scoring op signaalsterkte", "desc": "AI combineert alle signaaltypen tot \u00e9\u00e9n score. Meerdere signalen tegelijk? Die prospect gaat naar de top van je lijst." }
+      ]
+    },
     "cta": {
-      "title": "Van afhankelijk van je netwerk naar voorspelbare pipeline.",
-      "desc": "De Scan brengt in kaart welke outbound-aanpak het meeste oplevert voor jouw markt en aanbod.",
+      "title": "Van koude lijsten naar signal-based pipeline.",
+      "desc": "De Scan brengt in kaart welke signalen en kanalen het meeste opleveren voor jouw markt.",
       "ctaLabel": "Start met De Scan, \u20ac3.500"
     }
   },
   "salesEnablement": {
     "metadata": {
-      "title": "Sales Enablement voor B2B Teams | Accelr",
+      "title": "Sales Enablement voor B2B Teams",
       "description": "Playbooks, discovery frameworks, objection handling en team training. Geef je salesteam de structuur en tools om consistent te presteren."
     },
     "hero": {
@@ -1052,6 +1106,15 @@
         "a": "De meeste teams zien binnen 4-6 weken verbetering in discovery-kwaliteit en conversion rates. Volledige adoptie kost typisch 2-3 maanden."
       }
     ],
+    "aiHighlights": {
+      "label": "/ AI in Enablement",
+      "title": "Hoe AI dit versterkt",
+      "items": [
+        { "title": "Conversation intelligence", "desc": "AI analyseert calls en identificeert winnende patronen, bezwaren en coaching-momenten. Automatisch, na elke call." },
+        { "title": "Playbook-updates", "desc": "Playbooks die zichzelf updaten op basis van wat werkt. Nieuwe bezwaren, winning talk tracks en best practices worden automatisch toegevoegd." },
+        { "title": "Real-time coaching", "desc": "AI geeft coaching-suggesties op basis van call-analyse. Je reps worden elke week beter zonder extra managementtijd." }
+      ]
+    },
     "cta": {
       "title": "Geef je team de structuur om te winnen.",
       "desc": "De Scan brengt in kaart waar je salesproces hapert en welke enablement-onderdelen het meeste impact hebben.",
@@ -1060,7 +1123,7 @@
   },
   "aiAutomation": {
     "metadata": {
-      "title": "AI Sales Automation voor B2B | Accelr",
+      "title": "AI Sales Automation voor B2B",
       "description": "AI structureel ge\u00efntegreerd in je salesproces. Clay, Make, n8n, Apollo. Geen experimenten, werkende systemen."
     },
     "hero": {
@@ -1139,7 +1202,7 @@
   },
   "fractional": {
     "metadata": {
-      "title": "Fractional Head of Sales Nederland | Accelr",
+      "title": "Fractional Head of Sales Nederland",
       "description": "Ervaren commercieel leiderschap, 1-2 dagen per week. Voor scale-ups die te groot zijn om zonder te groeien, maar te klein voor een fulltime hire."
     },
     "hero": {
@@ -1222,7 +1285,7 @@
           "num": "/02",
           "period": "Maand 2-3",
           "title": "Bouwen",
-          "desc": "CRM, proces, playbooks, outbound, AI-automations. Hands-on implementatie samen met je team."
+          "desc": "CRM, proces, playbooks, outbound en AI-automations die je team 5-10 uur per week besparen. Hands-on implementatie samen met je team."
         },
         {
           "num": "/03",
@@ -1288,7 +1351,7 @@
   },
   "blog": {
     "metadata": {
-      "title": "Blog | Inzichten over B2B sales | Accelr",
+      "title": "Blog | Inzichten over B2B sales",
       "description": "Artikelen over B2B sales, CRM, AI-tools, outbound en salesstrategie voor tech-founders."
     },
     "hero": {
@@ -1297,6 +1360,36 @@
       "subtitle": "Praktische inzichten over B2B sales, CRM, AI-tools, outbound en salesstrategie. Specifiek voor tech-founders."
     },
     "posts": [
+      {
+        "title": "Wat is signal-based outbound? De complete gids voor B2B",
+        "excerpt": "Alles over signal-based selling: wat het is, welke koopsignalen er zijn, hoe je het opzet, en waarom het voor B2B-bedrijven in Nederland de logische volgende stap is.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "title": "Van koude acquisitie naar signal-based outbound in 5 stappen",
+        "excerpt": "Koude acquisitie levert steeds minder op. Tijd voor een andere aanpak. In 5 concrete stappen van cold outbound naar signal-based selling.",
+        "tag": "Outbound Strategy",
+        "readTime": "9 min"
+      },
+      {
+        "title": "10 koopsignalen die je morgen kunt gebruiken",
+        "excerpt": "De 10 krachtigste buyer signals voor B2B outbound, met detectiemethode en voorbeeld-openingszin per signaal.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "title": "Clay, Apollo, Leadinfo: de tools achter signal-based outbound",
+        "excerpt": "Vergelijking van sales tools per categorie: signaaldetectie, prospecting, websitebezoek-identificatie en outbound. Met actuele prijzen.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      },
+      {
+        "title": "Intent data voor het Nederlandse MKB: wat werkt echt?",
+        "excerpt": "Eerlijk overzicht van intent data tools. Wat werkt voor het Nederlandse MKB en wat niet. Bombora en 6sense vs. Leadinfo, Clay en LinkedIn.",
+        "tag": "Intent Data",
+        "readTime": "7 min"
+      },
       {
         "title": "Waarom je eerste sales hire mislukt (en hoe je het voorkomt)",
         "excerpt": "Je hebt product-market fit, omzet groeit, tijd voor die eerste sales hire. Maar 6 maanden later: geen resultaat, \u20ac100K+ uitgegeven. Dit patroon zie ik bij 80% van de founders.",
@@ -1314,7 +1407,7 @@
   },
   "resultaten": {
     "metadata": {
-      "title": "Resultaten | Case Studies | Accelr",
+      "title": "Resultaten | Case Studies",
       "description": "Geen theorie. Dit is wat er gebeurt als je salesoperatie een systeem wordt."
     },
     "hero": {
@@ -1893,7 +1986,7 @@
   },
   "blogSalesHire": {
     "metadata": {
-      "title": "Waarom je eerste sales hire mislukt (en hoe je het voorkomt) | Accelr Blog",
+      "title": "Waarom je eerste sales hire mislukt (en hoe je het voorkomt)",
       "description": "\u20ac100K+ verspild aan een sales hire die niet werkt? Dit is waarom het misgaat, en wat je eerst moet bouwen."
     },
     "hero": {
@@ -1947,7 +2040,7 @@
   },
   "blogFractional": {
     "metadata": {
-      "title": "Fractional Head of Sales: wat is het en waarom groeit het in Nederland? | Accelr Blog",
+      "title": "Fractional Head of Sales: wat is het en waarom groeit het in Nederland?",
       "description": "Alles over het Fractional Head of Sales model. Wat het is, wat het kost, en waarom steeds meer B2B bedrijven in Nederland het overwegen."
     },
     "hero": {
@@ -2019,6 +2112,843 @@
     "footerCta": {
       "title": "Wil je dit verkennen?",
       "desc": "Plan een gesprek. We kijken samen of fractional bij jouw situatie past.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogSignalBased": {
+    "metadata": {
+      "title": "Wat is signal-based outbound? De complete gids voor B2B",
+      "description": "Alles over signal-based selling: wat het is, welke koopsignalen er zijn, hoe je het opzet, en waarom het voor B2B-bedrijven in Nederland de logische volgende stap is."
+    },
+    "hero": {
+      "tag": "Signal-Based Outbound",
+      "title": "Wat is signal-based outbound? De complete gids voor B2B-bedrijven",
+      "subtitle": "Alles over signal-based selling: wat het is, welke koopsignalen er zijn, hoe je het opzet, en waarom het voor B2B-bedrijven in Nederland de logische volgende stap is.",
+      "readTime": "12 min leestijd"
+    },
+    "intro": {
+      "p1": "Je hebt een goede ICP. Je hebt de tooling. Je stuurt elke week honderden mails. En toch: 2% reply rate, een handvol meetings, en het gevoel dat je aan het spammen bent.",
+      "p2": "Het probleem is niet outbound. Het probleem is dat je de verkeerde mensen benadert op het verkeerde moment. Signal-based outbound lost dit op. In plaats van een koude lijst afwerken, benader je alleen prospects die een koopsignaal afgeven \u2014 een teken dat ze nu openstaan voor wat je aanbiedt.",
+      "p3": "Het resultaat: hogere response rates, betere gesprekken, en een pipeline die niet afhankelijk is van geluk. In deze gids leg ik uit wat signal-based outbound is, welke signalen er zijn, hoe je het opzet, en waarom het voor B2B-bedrijven in Nederland de logische volgende stap is."
+    },
+    "traditional": {
+      "title": "Waarom traditionele outbound steeds slechter werkt",
+      "p1": "De traditionele aanpak kennen we allemaal: lijst bouwen, mail schrijven, sequence starten, en hopen dat een paar van die 500-1.000 contacten reageren. Het probleem is dat van die 1.000 bedrijven misschien 3-5% op dat moment een relevante behoefte heeft. Je bericht is technisch relevant maar qua timing verkeerd.",
+      "p2": "En timing is alles in B2B sales. Decision-makers ontvangen gemiddeld 15 cold emails per week. 71% daarvan wordt genegeerd vanwege irrelevantie. Google heeft de spam-drempel verlaagd naar 0,1% \u2014 dat betekent dat 1-2 klachten per 1.000 mails je domein in de problemen brengen.",
+      "p3": "De gemiddelde reply rate op B2B cold emails is gedaald naar 4-5%. Maar de top 10% van outbound-campagnes haalt nog steeds 8-12%. Het verschil? Timing en relevantie. En precies dat is waar signal-based outbound om draait."
+    },
+    "whatIs": {
+      "title": "Wat is signal-based outbound?",
+      "p1": "In plaats van iedereen benaderen en hopen dat de timing klopt, monitor je koopsignalen en benader je alleen prospects die aangeven dat ze openstaan. Een koopsignaal is elk observeerbaar gedrag of event dat suggereert dat een bedrijf nu een behoefte heeft die jij kunt invullen.",
+      "p2": "Je gaat van 'koud bellen naar 500 bedrijven' naar 'warm benaderen van 20 bedrijven die er nu klaar voor zijn.' Dat klinkt als minder volume, maar het levert meer resultaat op \u2014 omdat elk gesprek relevant is.",
+      "compareTitle": "Het verschil in de opening:",
+      "coldExample": "Hoi, ik ben Tim van Accelr. Wij helpen B2B-bedrijven met hun salesproces. Zou je openstaan voor een kort gesprek?",
+      "signalExample": "Ik zag dat jullie een Sales Manager zoeken. In mijn ervaring is dat vaak het moment waarop bedrijven ook hun salesproces en tooling onder de loep nemen. Herkenbaar?",
+      "compareConclusion": "Dat is het verschil tussen 2% en 8% reply rate."
+    },
+    "signalTypes": {
+      "title": "De drie typen koopsignalen",
+      "intro": "Niet alle signalen zijn gelijk. Er zijn drie categorie\u00ebn, elk met hun eigen kracht en betrouwbaarheid.",
+      "triggersTitle": "1. Trigger signals \u2014 events die een behoefte cre\u00ebren",
+      "triggersDesc": "Dit zijn concrete, observeerbare gebeurtenissen die aangeven dat een bedrijf in beweging is. Ze zijn het sterkst omdat ze een feitelijke verandering representeren.",
+      "triggers": [
+        { "signal": "Funding-ronde opgehaald", "source": "Crunchbase, Clay" },
+        { "signal": "Nieuwe sales- of marketinghire", "source": "LinkedIn, Clay" },
+        { "signal": "Nieuw management (CEO, CRO)", "source": "LinkedIn, Clay" },
+        { "signal": "Technologie-wissel", "source": "BuiltWith via Clay" },
+        { "signal": "Nieuwe markt of vestiging", "source": "KvK, LinkedIn" }
+      ],
+      "intentTitle": "2. Intent signals \u2014 gedrag dat koopintentie suggereert",
+      "intentDesc": "Deze signalen laten zien dat een bedrijf actief aan het ori\u00ebnteren is. Ze zijn minder concreet dan triggers, maar geven een sterk richtingsgevoel.",
+      "intent": [
+        { "signal": "Websitebezoek (jouw site)", "source": "Leadinfo, Leadfeeder" },
+        { "signal": "LinkedIn-engagement", "source": "Sales Navigator" },
+        { "signal": "Zoekgedrag op relevante topics", "source": "Bombora, G2 (VS-focus)" }
+      ],
+      "engagementTitle": "3. Engagement signals \u2014 interactie met jouw outreach",
+      "engagementDesc": "Dit zijn reacties op jouw eigen communicatie. Ze bevestigen interesse en geven het juiste moment aan voor een follow-up.",
+      "engagement": [
+        { "signal": "E-mail opens en clicks", "source": "Instantly, HubSpot" },
+        { "signal": "LinkedIn-profielbezoeken na outreach", "source": "Sales Navigator" },
+        { "signal": "Content downloads", "source": "HubSpot" }
+      ]
+    },
+    "practice": {
+      "title": "Hoe signal-based outbound eruitziet in de praktijk",
+      "intro": "Laten we het concreet maken. Zo ziet een typische signal-based workflow eruit:",
+      "steps": [
+        { "step": "Stap 1: ICP defini\u00ebren", "desc": "Je definieert scherp welke bedrijven je wilt bereiken \u2014 niet alleen firmografisch (branche, omvang) maar ook op gedrag (groeifase, tech stack, hiring patterns)." },
+        { "step": "Stap 2: Monitoring opzetten", "desc": "Je configureert Clay om automatisch triggers te monitoren: nieuwe hires, funding-rondes, tech-wisselingen. Leadinfo vangt websitebezoek op. Sales Navigator trackt LinkedIn-engagement." },
+        { "step": "Stap 3: Signaal binnenkomt", "desc": "Een bedrijf in je ICP neemt een nieuwe Head of Sales aan. Clay detecteert dit automatisch en verrijkt het contact met e-mailadres, telefoonnummer en bedrijfsdata." },
+        { "step": "Stap 4: Automatische verrijking", "desc": "Clay's waterfall enrichment probeert meerdere databronnen om het beste contactgegeven te vinden. Het resultaat: een volledig verrijkt profiel, klaar voor outreach." },
+        { "step": "Stap 5: Gepersonaliseerde outreach", "desc": "Het verrijkte contact gaat automatisch naar je outbound-tool (Instantly, Lemlist) met een gepersonaliseerd bericht dat refereert aan het signaal. Timing en relevantie in \u00e9\u00e9n." }
+      ]
+    },
+    "stack": {
+      "title": "De tech stack achter signal-based outbound",
+      "intro": "Je hebt geen enterprise-budget nodig. Met de juiste combinatie van tools kun je signal-based outbound opzetten voor minder dan \u20ac500 per maand.",
+      "colFunction": "Functie",
+      "colPrice": "Vanaf",
+      "tools": [
+        { "name": "Clay", "function": "Signaaldetectie + verrijking", "price": "\u20ac290/mnd" },
+        { "name": "Apollo", "function": "Contactdata + prospecting", "price": "Gratis" },
+        { "name": "LinkedIn Sales Nav", "function": "Engagement + intent", "price": "\u20ac80/mnd" },
+        { "name": "Instantly / Lemlist", "function": "E-mail outbound", "price": "\u20ac43/mnd" },
+        { "name": "Leadinfo", "function": "Websitebezoek-identificatie", "price": "\u20ac69/mnd" },
+        { "name": "n8n / Make", "function": "Orchestratie", "price": "Gratis/\u20ac10/mnd" },
+        { "name": "HubSpot", "function": "CRM", "price": "Gratis" }
+      ],
+      "conclusion": "Totale investering voor een minimale stack: onder de \u20ac500 per maand. Dat is een fractie van wat traditionele intent data-providers als Bombora kosten \u2014 en relevanter voor de Nederlandse markt."
+    },
+    "whyNow": {
+      "title": "Waarom dit nu relevant is voor Nederlandse B2B-bedrijven",
+      "p1": "Drie ontwikkelingen maken signal-based outbound nu toegankelijk voor het Nederlandse MKB. Ten eerste: de tooling is betaalbaar geworden. Clay, Apollo en Instantly waren twee jaar geleden of niet beschikbaar of alleen voor enterprise. Nu kun je voor minder dan \u20ac500 per maand een complete stack draaien.",
+      "p2": "Ten tweede: buyers verwachten relevantie. B2B-kopers doen 70% van hun research zelf voordat ze met sales willen praten. Een generiek bericht over 'even sparren' werkt niet meer. Signal-based outbound geeft je de context om relevant te zijn vanaf het eerste contactmoment.",
+      "p3": "Ten derde: AI maakt het schaalbaar. Tools als Clay gebruiken AI om signalen te detecteren, data te verrijken en berichten te personaliseren. Wat vroeger een team van 5 SDR's vereiste, kun je nu met 1-2 mensen opzetten \u2014 mits je de juiste tools en processen hebt."
+    },
+    "pitfalls": {
+      "title": "De valkuilen van signal-based outbound",
+      "intro": "Signal-based outbound is geen magic bullet. Dit zijn de meest voorkomende fouten:",
+      "items": [
+        { "title": "Te veel signalen tegelijk monitoren", "desc": "Start met 2-3 signalen die het meest relevant zijn voor jouw ICP. Breid pas uit als je weet welke signalen converteren. Meer signalen betekent meer ruis \u2014 niet meer resultaat." },
+        { "title": "Het signaal als excuus voor een slecht bericht", "desc": "Een signaal geeft je het recht om iemand te benaderen, maar je bericht moet nog steeds relevant en waardevol zijn. 'Ik zag dat jullie funding ophaalden, wil je een demo?' is geen signal-based outbound \u2014 dat is spam met een excuus." },
+        { "title": "Je eigen data negeren", "desc": "De meeste bedrijven zitten op een berg first-party intent data die ze niet gebruiken. Wie opent je emails? Wie bezoekt je website? Wie zit er in je pipeline maar is stil gevallen? Begin daar voordat je investeert in third-party tools." },
+        { "title": "Geen feedback loop bouwen", "desc": "Als je niet meet welke signalen daadwerkelijk leiden tot meetings en deals, optimaliseer je op gevoel. Bouw een simpele tracking op per signaaltype: reply rate, meeting rate, pipeline-waarde." }
+      ]
+    },
+    "howToStart": {
+      "title": "Hoe begin je?",
+      "intro": "Je hoeft niet alles tegelijk op te zetten. Dit is een realistisch tijdpad:",
+      "timeline": [
+        { "period": "Week 1-2", "desc": "Definieer je ICP scherp (firmografisch + gedrag). Kies 2-3 signalen. Maak een Clay-account aan en configureer je eerste triggers." },
+        { "period": "Week 3-4", "desc": "Bouw je eerste campagnes per signaaltype. Start met \u00e9\u00e9n kanaal (email). Meet opens, replies en meetings." },
+        { "period": "Maand 2-3", "desc": "Analyseer welke signalen converteren. Stop met wat niet werkt. Voeg een tweede kanaal toe (LinkedIn). Verfijn je berichten op basis van data." },
+        { "period": "Maand 4+", "desc": "Automatiseer wat werkt. Voeg Leadinfo toe voor websitebezoek. Koppel alles aan je CRM. Schaal op met de signalen die bewezen resultaat opleveren." }
+      ]
+    },
+    "core": {
+      "title": "De kern",
+      "p1": "Signal-based outbound draait om \u00e9\u00e9n fundamentele verschuiving: van 'wie past bij mijn ICP?' naar 'wie heeft nu een behoefte?' Die verschuiving verandert alles \u2014 je timing, je bericht, je conversieratio, en uiteindelijk je pipeline.",
+      "p2": "De technologie is er. De tools zijn betaalbaar. De enige vraag is of je bereid bent om te stoppen met volume draaien en te beginnen met luisteren naar signalen."
+    },
+    "inlineCta": {
+      "title": "Wil je signal-based outbound opzetten?",
+      "desc": "We helpen B2B-bedrijven met het bouwen van een signal-based outbound engine. Van ICP-definitie tot Clay-configuratie tot campagne-opzet.",
+      "ctaPrimary": "Bekijk Outbound & Leadgen",
+      "ctaSecondary": "Start met De Scan"
+    },
+    "relatedLabel": "/ Gerelateerde artikelen",
+    "related": [
+      {
+        "href": "/blog/koude-acquisitie-naar-signal-based-outbound",
+        "title": "Van koude acquisitie naar signal-based outbound in 5 stappen",
+        "excerpt": "In 5 concrete stappen van cold outbound naar signal-based selling.",
+        "tag": "Outbound Strategy",
+        "readTime": "9 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 koopsignalen die je morgen kunt gebruiken",
+        "excerpt": "De 10 krachtigste buyer signals met detectiemethode en openingszin.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/tools-signal-based-outbound",
+        "title": "Clay, Apollo, Leadinfo: de tools achter signal-based outbound",
+        "excerpt": "Vergelijking van sales tools per categorie met actuele prijzen.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Klaar om je outbound te transformeren?",
+      "desc": "Plan een gesprek. We kijken samen hoe signal-based outbound past bij jouw situatie.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogKoudeAcquisitie": {
+    "metadata": {
+      "title": "Van koude acquisitie naar signal-based outbound in 5 stappen",
+      "description": "Hoe je in 5 concrete stappen overstapt van koude acquisitie naar signal-based outbound. Met ICP-framework, koopsignalen en campagne-opzet."
+    },
+    "hero": {
+      "tag": "Outbound Strategy",
+      "title": "Van koude acquisitie naar signal-based outbound in 5 stappen",
+      "readTime": "9 min leestijd"
+    },
+    "intro": "Koude acquisitie levert steeds minder op. De gemiddelde reply rate op cold emails is gedaald naar 4-5% \u2014 en dat cijfer daalt elk jaar verder. Tijd voor een andere aanpak. In dit artikel laat ik je in 5 concrete stappen zien hoe je overstapt naar signal-based outbound.",
+    "whyWorse": {
+      "title": "Waarom koude acquisitie steeds slechter werkt",
+      "p1": "De cijfers liegen niet. De gemiddelde reply rate op B2B cold emails daalde van 8,5% in 2019 naar 7% in 2023 en verder naar zo'n 4-5% in 2025. Elk jaar wordt het slechter, en er zijn drie harde redenen voor.",
+      "p2": "**Overvolle inboxen.** Decision-makers ontvangen gemiddeld 15 cold emails per week. 71% daarvan wordt genegeerd vanwege irrelevantie. Je concurrent stuurt dezelfde template naar dezelfde lijst \u2014 en jullie verdrinken samen in de inbox.",
+      "p3": "**Strengere spamfilters.** Google heeft de spam-drempel verlaagd naar 0,1%. Dat betekent: 1-2 klachten per 1.000 mails en je domein zit in de problemen. Apple's Mail Privacy Protection en Outlook's nieuwe filtering maken het er niet beter op.",
+      "p4": "**Kopersgedrag is veranderd.** B2B-kopers doen 70% van hun research zelf voordat ze met sales willen praten. Ze verwachten relevantie. Een generiek bericht over 'even sparren' werkt niet meer \u2014 het irriteert.",
+      "p5": "De top 10% van outbound-campagnes haalt nog steeds 8-12% reply rates. Het verschil? Timing en relevantie. En precies dat is waar signal-based outbound om draait."
+    },
+    "whatIs": {
+      "title": "Wat is signal-based outbound?",
+      "p1": "In plaats van een lijst kopen en iedereen hetzelfde bericht sturen, draai je het om: je wacht op een signaal dat aangeeft dat iemand openstaat voor jouw oplossing, en dan pas neem je contact op.",
+      "p2": "Die signalen \u2014 ook wel koopsignalen of buyer signals \u2014 zijn concrete, observeerbare events: een bedrijf haalt funding op, neemt een nieuwe salesmanager aan, bezoekt je website, of switcht van technologie. Als je reageert op iets dat net is gebeurd, voelt jouw outreach niet als spam maar als relevante hulp."
+    },
+    "step1": {
+      "title": "Stap 1: Definieer je ICP scherper",
+      "intro": "De meeste bedrijven hebben een ICP dat te breed is. 'B2B SaaS-bedrijven met 50-500 medewerkers' is geen ICP \u2014 het is een markt. Voor signal-based outbound moet je scherper zijn, want je gaat campagnes bouwen per signaaltype.",
+      "firmographic": "**Firmografisch:** omzet, aantal medewerkers, branche, locatie, groeifase. Dit is de basis die je waarschijnlijk al hebt.",
+      "behavioral": "**Gedrag:** dit is waar de meeste bedrijven te kort schieten. Voeg toe: welke technologie gebruiken ze? Zijn ze aan het groeien? Investeren ze in sales en marketing?",
+      "items": [
+        "**IT-dienstverleners:** zoek bedrijven die migreren naar cloud, nieuwe security-tooling implementeren, of hun IT-team uitbreiden",
+        "**SaaS-bedrijven:** focus op bedrijven die net Series A/B hebben opgehaald, een nieuwe CRO aanstellen, of hun salesteam verdubbelen",
+        "**Consultancy:** richt je op bedrijven met een nieuw strategisch project (fusie, nieuwe markt, digitale transformatie)"
+      ],
+      "tip": "Schrijf je ICP uit in maximaal 5 zinnen. Als je het niet in 5 zinnen kunt omschrijven, is het te breed.",
+      "example": "Voorbeeld: 'Wij helpen Nederlandse B2B SaaS-bedrijven tussen 20-100 medewerkers die net Series A hebben opgehaald, actief hun salesteam uitbreiden, en HubSpot als CRM gebruiken.'"
+    },
+    "step2": {
+      "title": "Stap 2: Kies 3-5 relevante koopsignalen",
+      "intro": "Je hoeft niet alle signalen tegelijk te monitoren. Start met 3-5 signalen die het meest relevant zijn voor jouw business.",
+      "signals": [
+        {
+          "category": "Voor IT en SaaS:",
+          "items": [
+            "Nieuwe sales- of marketinghire (signaleert groeiambitie)",
+            "Technologie-adoptie of -wissel (ze evalueren alternatieven)",
+            "Funding-ronde opgehaald (er is budget)"
+          ]
+        },
+        {
+          "category": "Voor consultancy en dienstverlening:",
+          "items": [
+            "Nieuwe CEO of CRO aangesteld (nieuw leiderschap = nieuwe prioriteiten)",
+            "Bedrijf bezoekt je website (actieve interesse)",
+            "Nieuwe markt of vestiging geopend (ze hebben hulp nodig bij schaalvergroting)"
+          ]
+        },
+        {
+          "category": "Universeel sterk:",
+          "items": [
+            "Prospect opent je emails herhaaldelijk (warme interesse)",
+            "LinkedIn-engagement met je content (ze kennen je al)"
+          ]
+        }
+      ],
+      "tip": "De vuistregel: kies signalen waar je daadwerkelijk een relevante openingszin aan kunt koppelen."
+    },
+    "step3": {
+      "title": "Stap 3: Zet je monitoring op",
+      "intro": "Nu wordt het technisch \u2014 maar niet ingewikkeld. Je hebt drie lagen nodig.",
+      "layer1": "**Laag 1: Signaaldetectie met Clay**",
+      "layer1Desc": "Clay is de spil van je signal-based setup. Je bouwt er 'tables' in die automatisch triggers monitoren: nieuwe hires op LinkedIn, funding-rondes via Crunchbase, technologie-veranderingen via BuiltWith. Clay checkt tot 150+ databronnen en verrijkt automatisch met bedrijfs- en contactdata.",
+      "layer2": "**Laag 2: Websitebezoek met Leadinfo**",
+      "layer2Desc": "Leadinfo (Nederlands, AVG-proof) laat zien welke bedrijven je website bezoeken. Niet wie precies, maar welk bedrijf, welke pagina's, hoe vaak. Koppel dit aan je ICP-filter en je hebt een dagelijkse lijst van warme leads.",
+      "layer3": "**Laag 3: LinkedIn-engagement met Sales Navigator**",
+      "layer3Desc": "LinkedIn Sales Navigator (Advanced-editie) heeft buyer intent ingebouwd. Je ziet welke contacten bij je saved accounts je bedrijfspagina bezoeken, je posts liken, of je InMails accepteren.",
+      "conclusion": "De combinatie van deze drie \u2014 Clay voor events, Leadinfo voor websitebezoek, Sales Nav voor LinkedIn-engagement \u2014 geeft je een compleet beeld van welke bedrijven er nu klaar voor zijn."
+    },
+    "step4": {
+      "title": "Stap 4: Bouw campagnes per signaaltype",
+      "intro": "Hier maken de meeste teams een fout: ze vangen alle signalen op in \u00e9\u00e9n generieke outbound-campagne. Doe dat niet. Elk signaaltype verdient zijn eigen bericht en cadans.",
+      "examples": [
+        {
+          "signal": "Funding-signaal",
+          "timing": "Binnen 1-2 weken na de aankondiging",
+          "channel": "E-mail + LinkedIn",
+          "opening": "Zag dat jullie net funding hebben opgehaald \u2014 gefeliciteerd. Bij vergelijkbare scale-ups in jullie branche zien we dat het salesproces vaak het eerste knelpunt wordt bij opschalen.",
+          "cadence": "1 e-mail, 1 LinkedIn-bericht, 1 follow-up na 5 dagen"
+        },
+        {
+          "signal": "Websitebezoek-signaal",
+          "timing": "Dezelfde dag of volgende ochtend",
+          "channel": "E-mail (persoonlijk, niet 'ik zag dat je op onze site was')",
+          "opening": "We helpen B2B-bedrijven in jullie branche met het opzetten van een schaalbaar salesproces. Is dit iets dat nu speelt?",
+          "cadence": "1 e-mail, 1 follow-up na 3 dagen"
+        },
+        {
+          "signal": "Nieuwe hire-signaal",
+          "timing": "2-4 weken na startdatum (laat ze landen)",
+          "channel": "LinkedIn-connectie + e-mail",
+          "opening": "Gefeliciteerd met je nieuwe rol. Andere sales leaders in jullie branche gebruiken signal-based outbound om sneller resultaat te boeken \u2014 herkenbaar?",
+          "cadence": "LinkedIn-connectie, na acceptatie 1 bericht, 1 follow-up e-mail"
+        }
+      ],
+      "tip": "Gebruik voor de uitvoering een tool als Instantly of Lemlist. Beide integreren met Clay, zodat je verrijkte data direct in je campagnes kunt laden."
+    },
+    "step5": {
+      "title": "Stap 5: Meet en optimaliseer",
+      "intro": "Signal-based outbound is geen 'set and forget.' Je moet meten welke signalen daadwerkelijk converteren \u2014 niet alleen naar replies, maar naar meetings en deals.",
+      "metricsLabel": "Meet per signaaltype:",
+      "metrics": [
+        "Reply rate (doel: >10%)",
+        "Positive reply rate (doel: >5%)",
+        "Meeting-booked rate",
+        "Pipeline-waarde per signaal"
+      ],
+      "discoveriesLabel": "Wat je waarschijnlijk ontdekt:",
+      "discoveries": [
+        "1-2 van je 5 signalen leveren 80% van de resultaten",
+        "Timing maakt meer verschil dan copy",
+        "De combinatie van signalen (bijv. websitebezoek + nieuwe hire) is sterker dan individuele signalen"
+      ],
+      "optimizeLabel": "Optimaliseer in deze volgorde:",
+      "optimize": [
+        "**Signaal-selectie:** stop met signalen die niet converteren",
+        "**Timing:** test of sneller reageren verschil maakt",
+        "**Copy:** A/B-test openingszinnen per signaaltype",
+        "**Kanaal:** test e-mail vs. LinkedIn vs. multichannel per signaal"
+      ],
+      "reviewTip": "Review je data elke 2 weken. Na 3 maanden heb je genoeg data om je setup te stroomlijnen naar de 2-3 signalen die echt werken voor jouw business.",
+      "compareTip": "Vergelijk altijd met je oude aanpak. Als je koude outbound een reply rate van 3% had en je signal-based campagne zit op 12%, dan weet je dat de extra tijd voor monitoring het waard is."
+    },
+    "conclusion": {
+      "title": "Conclusie: begin met 1 signaaltype",
+      "intro": "Je hoeft niet alles tegelijk op te zetten. De beste manier om te starten:",
+      "steps": [
+        "**Kies 1 signaal** dat het meest logisch is voor jouw ICP",
+        "**Zet monitoring op** via Clay of Leadinfo",
+        "**Bouw 1 campagne** met een specifieke openingszin",
+        "**Meet 4 weken lang** en evalueer",
+        "**Voeg dan pas signaal 2 en 3 toe**"
+      ],
+      "closing": "Het verschil tussen koude acquisitie en signal-based outbound is niet de technologie \u2014 het is de mindset. Je stopt met zenden naar iedereen en begint met luisteren naar wie er klaar voor is."
+    },
+    "inlineCta": {
+      "title": "Wil je signal-based outbound opzetten?",
+      "desc": "We helpen B2B-bedrijven met het bouwen van een complete outbound engine \u2014 van ICP tot campagne-opzet.",
+      "ctaPrimary": "Bekijk Outbound & Leadgen",
+      "ctaSecondary": "Start met De Scan"
+    },
+    "relatedLabel": "/ Gerelateerde artikelen",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "Wat is signal-based outbound? De complete gids",
+        "excerpt": "Alles over signal-based selling: wat het is, welke signalen er zijn, en hoe je het opzet.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 koopsignalen die je morgen kunt gebruiken",
+        "excerpt": "De 10 krachtigste buyer signals met detectiemethode en openingszin.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/tools-signal-based-outbound",
+        "title": "Clay, Apollo, Leadinfo: de tools achter signal-based outbound",
+        "excerpt": "Vergelijking van sales tools per categorie met actuele prijzen.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Klaar om je outbound te transformeren?",
+      "desc": "Plan een gesprek. We kijken samen hoe signal-based outbound past bij jouw situatie.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogKoopsignalen": {
+    "metadata": {
+      "title": "10 koopsignalen die je morgen kunt gebruiken",
+      "description": "De 10 krachtigste buyer signals voor B2B outbound, met detectiemethode en voorbeeld-openingszin per signaal."
+    },
+    "hero": {
+      "tag": "Buyer Signals",
+      "title": "10 koopsignalen die je morgen kunt gebruiken voor B2B outbound",
+      "readTime": "10 min leestijd"
+    },
+    "intro": "Je hoeft niet te gokken wie er klaar is om te kopen. Koopsignalen vertellen je precies welke bedrijven nu openstaan voor een gesprek. In dit artikel: 10 concrete buyer signals, hoe je ze detecteert, en een voorbeeld-openingszin per signaal.",
+    "why": {
+      "title": "Waarom koopsignalen je outbound veranderen",
+      "p1": "Het verschil tussen een cold email met 3% reply rate en eentje met 15%? Timing en relevantie. Koopsignalen geven je allebei. In plaats van blind een lijst afbellen, reageer je op iets concreets dat net is gebeurd.",
+      "p2": "Hieronder de 10 krachtigste signalen, per stuk met: wat het is, waarom het werkt, hoe je het detecteert, en een kant-en-klare openingszin."
+    },
+    "signals": [
+      {
+        "number": "1",
+        "title": "Funding-ronde opgehaald",
+        "what": "Een bedrijf haalt seed, Series A, B of groeikapitaal op.",
+        "why": "Er is vers budget, er wordt opgeschaald, en er moeten snel beslissingen worden genomen. Bedrijven die net funding ophalen investeren actief in tooling, processen en mensen.",
+        "how": "Clay monitort automatisch funding-rondes via Crunchbase-integratie. Stel een trigger in op bedrijven in je ICP die de afgelopen 30 dagen funding hebben opgehaald.",
+        "opening": "Gefeliciteerd met de funding-ronde. Bij vergelijkbare scale-ups in jullie branche zien we dat het salesproces het eerste knelpunt wordt bij opschalen \u2014 is dat herkenbaar?"
+      },
+      {
+        "number": "2",
+        "title": "Nieuwe sales- of marketinghire",
+        "what": "Een bedrijf neemt een nieuwe sales- of marketingmanager, -directeur of VP aan.",
+        "why": "Nieuwe hires willen snel scoren. Ze evalueren bestaande tooling, brengen nieuwe idee\u00ebn mee, en hebben budget om te investeren. De eerste 90 dagen zijn het venster waarin ze het meest openstaan.",
+        "how": "Clay trackt nieuwe hires via LinkedIn-data. Filter op functietitels als 'Head of Sales', 'Marketing Manager', 'VP Revenue' bij bedrijven in je ICP.",
+        "opening": "Zag dat je net als [functie] bij [bedrijf] bent gestart \u2014 gefeliciteerd. Andere sales leaders in jullie branche gebruiken signal-based outbound om sneller resultaat te boeken."
+      },
+      {
+        "number": "3",
+        "title": "Nieuwe CEO of CRO aangesteld",
+        "what": "Er is een wisseling op C-level, specifiek CEO, CRO of COO.",
+        "why": "Nieuw leiderschap betekent nieuwe strategie. Een nieuwe CEO of CRO herbeoordeelt bestaande leveranciers, processen en prioriteiten. Dit is het moment waarop budgetten verschuiven.",
+        "how": "LinkedIn (handmatig of via Clay). Zet alerts op bedrijven in je ICP voor C-level wisselingen.",
+        "opening": "Met een nieuwe CRO aan het roer verandert er vaak veel in korte tijd. Bij vergelijkbare bedrijven hielpen we het nieuwe leiderschapsteam om binnen 6 maanden hun salesproces te stroomlijnen."
+      },
+      {
+        "number": "4",
+        "title": "Bedrijf bezoekt je website",
+        "what": "Een bedrijf bezoekt je website \u2014 specifiek pagina's als pricing, case studies of productpagina's.",
+        "why": "Ze zijn actief aan het ori\u00ebnteren. Dit is first-party intent data \u2014 het sterkste signaal dat er is, want ze zoeken jou al op.",
+        "how": "Leadinfo is de go-to voor Nederlandse bedrijven. Het identificeert 35-40% van B2B-verkeer in de Benelux. Cookieloos, AVG-proof, en vanaf \u20ac69/maand.",
+        "opening": "We helpen B2B-bedrijven met het opzetten van een schaalbaar salesproces. Gezien jullie focus op groei \u2014 is dit iets dat op dit moment speelt?",
+        "note": "Let op: verwijs nooit naar het websitebezoek zelf in je bericht. Dat voelt creepy. Gebruik het signaal om je timing te bepalen, niet als gespreksopener."
+      },
+      {
+        "number": "5",
+        "title": "Technologie-adoptie of -wissel",
+        "what": "Een bedrijf implementeert nieuwe software of stapt over van de ene tool naar de andere.",
+        "why": "Technologie-wisselingen betekenen dat er actief wordt ge\u00ebvalueerd. Als een bedrijf van tool A naar tool B switcht, is de kans groot dat ze ook aanpalende tools heroverwegen.",
+        "how": "Clay integreert met BuiltWith voor technografie-data. Je kunt triggers instellen op specifieke technologie-adopties of -wisselingen.",
+        "opening": "Zag dat jullie recent een nieuwe tool zijn gaan gebruiken. Bedrijven die deze stap maken lopen vaak tegen specifieke uitdagingen aan \u2014 wij helpen dat op te lossen."
+      },
+      {
+        "number": "6",
+        "title": "LinkedIn-engagement met je content",
+        "what": "Een prospect liked, deelt of becommentarieert je LinkedIn-posts of bedrijfspagina.",
+        "why": "Ze kennen je al. Er is naamsbekendheid en een eerste vorm van vertrouwen. Een connectieverzoek of DM voelt daardoor niet koud maar als een logisch vervolg.",
+        "how": "LinkedIn Sales Navigator (Advanced) toont engagement met je content per saved lead en account.",
+        "opening": "Bedankt voor je reactie op mijn post over signal-based outbound. Ik ben benieuwd \u2014 is dit iets dat bij jullie speelt?"
+      },
+      {
+        "number": "7",
+        "title": "Zoekt op relevante keywords (intent data)",
+        "what": "Een bedrijf zoekt actief op onderwerpen die gerelateerd zijn aan jouw oplossing.",
+        "why": "Ze zitten actief in een ori\u00ebntatifase. Dit is klassieke third-party intent data.",
+        "how": "Bombora is de marktleider maar kost $30.000-$100.000 per jaar en is primair US-focused. Voor NL MKB is dit signaal vaak niet kosteneffectief. Gebruik Google Search Console + Leadinfo als gratis alternatief.",
+        "opening": "Ik zag dat jullie thema hoog op de agenda staat. Bij vergelijkbare bedrijven hielpen we met het stroomlijnen van hun salesproces \u2014 past het om daar kort over te sparren?"
+      },
+      {
+        "number": "8",
+        "title": "Negatieve reviews over interne cultuur",
+        "what": "Een bedrijf krijgt negatieve Glassdoor-reviews over sales-cultuur, hoog verloop, of gebrek aan tooling.",
+        "why": "Dit signaleert interne problemen die jouw oplossing mogelijk kan adresseren. Hoog sales-verloop? Misschien ontbreekt er goede tooling of training.",
+        "how": "Handmatig monitoren van Glassdoor bij bedrijven in je ICP. Clay kan Glassdoor-data scrapen en filteren op relevante keywords.",
+        "opening": "Ik werk veel met salesteams in jullie branche die worstelen met het structureren van hun salesproces. Herkenbaar bij jullie?",
+        "note": "Let op: verwijs nooit naar de Glassdoor-reviews zelf. Gebruik het inzicht, niet de bron."
+      },
+      {
+        "number": "9",
+        "title": "Nieuwe markt of vestiging",
+        "what": "Een bedrijf opent een nieuw kantoor, betreedt een nieuwe markt, of lanceert in een nieuw land.",
+        "why": "Groei naar nieuwe markten cre\u00ebert directe behoeften: lokale leadgeneratie, nieuwe processen, partnerships, en marktkennis.",
+        "how": "KvK-mutaties voor Nederlandse bedrijven. LinkedIn bedrijfspagina's voor internationale expansie. Clay kan bedrijfsupdates monitoren.",
+        "opening": "Gefeliciteerd met de stap naar de nieuwe markt. Andere bedrijven in jullie branche die dezelfde stap maakten liepen tegen specifieke salesuitdagingen aan \u2014 iets dat jullie ook bezig houdt?"
+      },
+      {
+        "number": "10",
+        "title": "Prospect opent je e-mails herhaaldelijk",
+        "what": "Een prospect opent dezelfde e-mail 3+ keer, of opent meerdere e-mails in je sequence.",
+        "why": "Herhaaldelijk openen betekent interesse. Ze twijfelen, delen het intern, of wachten op het juiste moment.",
+        "how": "E-mailtools als Instantly, Lemlist of HubSpot tracken opens. Filter op prospects die 3+ keer openen maar niet reageren.",
+        "opening": "Ik wilde even checken of mijn vorige mail relevant was \u2014 ik snap dat de timing niet altijd past. Is het salesproces iets dat nu of later speelt?"
+      }
+    ],
+    "howToStart": {
+      "title": "Hoe begin je?",
+      "p1": "Je hoeft niet alle 10 signalen tegelijk te monitoren. Kies er 2-3 die het meest relevant zijn voor jouw ICP en branche, en bouw daar campagnes omheen.",
+      "p2": "De makkelijkste start: **signaal 4 (websitebezoek via Leadinfo)** en **signaal 2 (nieuwe hires via Clay)**. Beide zijn betaalbaar, makkelijk op te zetten, en leveren direct resultaten."
+    },
+    "inlineCta": {
+      "title": "Wil je weten hoe je dit opzet?",
+      "desc": "Lees hoe je in 5 stappen overstapt naar signal-based outbound, of bekijk welke tools je nodig hebt.",
+      "ctaPrimary": "De 5 stappen",
+      "ctaSecondary": "Tools vergelijken"
+    },
+    "relatedLabel": "/ Gerelateerde artikelen",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "Wat is signal-based outbound? De complete gids",
+        "excerpt": "Alles over signal-based selling: wat het is, welke signalen er zijn, en hoe je het opzet.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koude-acquisitie-naar-signal-based-outbound",
+        "title": "Van koude acquisitie naar signal-based outbound in 5 stappen",
+        "excerpt": "In 5 concrete stappen van cold outbound naar signal-based selling.",
+        "tag": "Outbound Strategy",
+        "readTime": "9 min"
+      },
+      {
+        "href": "/blog/intent-data-nederland-mkb",
+        "title": "Intent data voor het Nederlandse MKB: wat werkt echt?",
+        "excerpt": "Eerlijk overzicht: wat werkt voor NL MKB en wat niet.",
+        "tag": "Intent Data",
+        "readTime": "7 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Klaar om je outbound te transformeren?",
+      "desc": "Plan een gesprek. We kijken samen hoe signal-based outbound past bij jouw situatie.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogTools": {
+    "metadata": {
+      "title": "Clay, Apollo, Leadinfo: de tools achter signal-based outbound",
+      "description": "Vergelijking van sales tools per categorie: signaaldetectie, prospecting, websitebezoek-identificatie en outbound. Met actuele prijzen."
+    },
+    "hero": {
+      "tag": "Sales Tools",
+      "title": "Clay, Apollo, Leadinfo: de tools achter signal-based outbound",
+      "readTime": "11 min leestijd"
+    },
+    "intro": "Je weet wat signal-based outbound is en welke koopsignalen je kunt gebruiken. Maar welke tools heb je nodig? In dit artikel vergelijk ik de belangrijkste tools per categorie \u2014 met actuele prijzen, tips en valkuilen.",
+    "categoriesTitle": "De 5 categorie\u00ebn die je nodig hebt",
+    "categoriesIntro": "Signal-based outbound draait niet om \u00e9\u00e9n tool maar om een stack. Je hebt vijf lagen nodig: signaaldetectie, prospecting-data, websitebezoek-identificatie, outbound-uitvoering en orchestratie.",
+    "tools": [
+      {
+        "category": "1. Signal monitoring & enrichment",
+        "categoryDesc": "De spil van je signal-based setup. Hier detecteer je koopsignalen en verrijk je contactdata.",
+        "entries": [
+          {
+            "name": "Clay",
+            "what": "Clay monitort koopsignalen (nieuwe hires, funding, tech-wisselingen), verrijkt contactdata via 150+ databronnen, en stuurt die data door naar je outbound-tools. Clay's 'waterfall enrichment' probeert automatisch meerdere databronnen als de eerste geen resultaat geeft.",
+            "pricing": [
+              "Starter: $134/maand (24.000 credits/jaar)",
+              "Explorer: $314/maand (120.000 credits/jaar) \u2014 meest populair",
+              "Pro: $720/maand \u2014 voor grotere teams"
+            ],
+            "forWho": "B2B-teams die serieus willen opschalen met signal-based outbound. Clay vereist een learning curve van 1-2 weken, maar is daarna een force multiplier.",
+            "tip": "Start met de Explorer-tier. De Starter heeft geen AI formula generator, en die heb je nodig voor aangepaste verrijkingen.",
+            "pitfall": "Credits gaan snel op als je te breed filtert. Begin met een specifiek ICP-segment en breid pas uit als je weet welke signalen converteren."
+          }
+        ]
+      },
+      {
+        "category": "2. Prospecting & data",
+        "categoryDesc": "Contactdata en LinkedIn-intelligence. De basis voor je outreach.",
+        "entries": [
+          {
+            "name": "Apollo",
+            "what": "Apollo combineert een database van 275+ miljoen contacten met ingebouwde sequencing. Je kunt zoeken, filteren, verrijken \u00e9n direct mailen vanuit \u00e9\u00e9n platform.",
+            "pricing": [
+              "Free: 10.000 e-mailcredits/maand, 5 mobiele credits",
+              "Basic: $49/gebruiker/maand (jaarlijks) \u2014 onbeperkte sequences",
+              "Professional: $79/gebruiker/maand \u2014 ingebouwde dialer",
+              "Organization: $119/gebruiker/maand (min. 3 gebruikers)"
+            ],
+            "forWho": "Founders en kleine salesteams die een alles-in-\u00e9\u00e9n willen voor prospecting + outreach. Apollo's free tier is de beste gratis optie op de markt.",
+            "tip": "Gebruik Apollo voor de data en combineer het met Clay voor signaaldetectie. Apollo's ingebouwde sequencing is prima voor starters.",
+            "pitfall": "Mobiele nummers en exportcredits zijn apart gelimiteerd. Check hoeveel je er maandelijks nodig hebt voordat je een tier kiest."
+          },
+          {
+            "name": "LinkedIn Sales Navigator",
+            "what": "Geavanceerd zoeken in LinkedIn's database, saved leads met alerts, en (in de Advanced-editie) buyer intent signalen.",
+            "pricing": [
+              "Core: $99,99/maand (of $79,99 bij jaarlijkse betaling)",
+              "Advanced: $179,99/maand (of $139,99 jaarlijks) \u2014 buyer intent, TeamLink",
+              "Advanced Plus: custom pricing, vanaf ~$1.600/jaar per seat"
+            ],
+            "forWho": "Iedereen die B2B-outbound doet. Sales Nav is niet optioneel \u2014 het is essentieel. De Core-editie volstaat voor de meesten.",
+            "tip": "Combineer Sales Nav met Clay. Clay kan LinkedIn-data pullen en verrijken, waardoor je het beste van beide werelden hebt.",
+            "pitfall": "Let op de BTW \u2014 die komt bovenop de genoemde prijzen en kan 21% extra zijn. InMail-credits (50/maand bij Core) zijn snel op."
+          }
+        ]
+      },
+      {
+        "category": "3. Websitebezoek-identificatie",
+        "categoryDesc": "Wie bezoekt je website? Dit is first-party intent data in z'n puurste vorm.",
+        "entries": [
+          {
+            "name": "Leadinfo",
+            "what": "Identificeert welke bedrijven je website bezoeken. Nederlands, AVG-proof, cookieloos. Identificeert 35-40% van B2B-verkeer in de Benelux \u2014 het hoogste in de EU-markt.",
+            "pricing": [
+              "Vanaf \u20ac69/maand",
+              "ISO 27001-gecertificeerd",
+              "70+ integraties, binnen 5 minuten live"
+            ],
+            "forWho": "Nederlandse en Benelux-gerichte B2B-bedrijven.",
+            "tip": "Koppel Leadinfo direct aan je CRM (HubSpot, Salesforce) zodat websitebezoeken automatisch bij het juiste account terechtkomen.",
+            "pitfall": "Leadinfo toont bedrijven, geen individuen. Je moet zelf de juiste contactpersoon vinden \u2014 daar is Clay of Apollo handig voor."
+          },
+          {
+            "name": "Leadfeeder (via Dealfront)",
+            "what": "Vergelijkbaar met Leadinfo, maar met bredere internationale dekking via Dealfront's data-ecosysteem.",
+            "pricing": [
+              "Vanaf \u20ac139/maand",
+              "Free tier: 100 bedrijven/maand, 7 dagen history"
+            ],
+            "forWho": "Teams met internationale klanten buiten de Benelux.",
+            "tip": "Voor NL-focus \u2192 Leadinfo. Voor internationaal \u2192 Leadfeeder. Beide tegelijk draaien is zelden nodig.",
+            "pitfall": "Websitebezoek-data is pas waardevol als je genoeg traffic hebt. Onder 500 unieke bezoekers per maand levert het weinig bruikbare leads op."
+          }
+        ]
+      },
+      {
+        "category": "4. Outbound execution",
+        "categoryDesc": "De tools waarmee je je berichten verstuurt. E-mail, LinkedIn, multichannel.",
+        "entries": [
+          {
+            "name": "Instantly",
+            "what": "Cold email op schaal met onbeperkte mailboxen en ingebouwde warmup. De beste prijs-kwaliteitverhouding voor pure email outbound.",
+            "pricing": [
+              "Growth: $47/maand \u2014 5.000 emails/maand, onbeperkte accounts",
+              "Hypergrowth: $97/maand \u2014 100.000 emails/maand, A/B-testing"
+            ],
+            "forWho": "Teams die volume draaien via e-mail.",
+            "tip": "Instantly is g\u00e9\u00e9n prospecting-tool. Koppel het aan Clay of Apollo voor je data. Instantly doet \u00e9\u00e9n ding goed: emails versturen met hoge deliverability.",
+            "pitfall": "Lead-credits voor de ingebouwde database kosten extra. Gebruik Apollo of Clay voor data, Instantly alleen voor verzending."
+          },
+          {
+            "name": "Lemlist",
+            "what": "Multichannel outreach: e-mail + LinkedIn + calls, met AI-personalisatie.",
+            "pricing": [
+              "Email Pro: $69/gebruiker/maand",
+              "Multichannel Expert: $79-99/gebruiker/maand \u2014 LinkedIn-automatie, calls, AI"
+            ],
+            "forWho": "Teams die multichannel willen vanuit \u00e9\u00e9n tool. Lemlist's LinkedIn-automatie is een plus ten opzichte van Instantly.",
+            "tip": "Lemlist is sterk in multichannel. Als je alleen email nodig hebt, is Instantly goedkoper.",
+            "pitfall": "Per-user pricing tikt aan bij grotere teams. Credits vervallen maandelijks zonder rollover."
+          },
+          {
+            "name": "La Growth Machine (LGM)",
+            "what": "Multichannel sequences via LinkedIn, e-mail en X (Twitter), met visuele workflow builder. Populair in de Europese markt.",
+            "pricing": [
+              "Basic: \u20ac60/maand per identity \u2014 LinkedIn + e-mail, 3 campagnes",
+              "Pro: \u20ac120/maand per identity \u2014 + calls, A/B-testing",
+              "Ultimate: \u20ac180/maand per identity \u2014 onbeperkte campagnes"
+            ],
+            "forWho": "Teams die visuele workflows willen bouwen en X als kanaal willen toevoegen.",
+            "tip": "LGM is sterk in visuele campaign builders. Goed voor teams die processen visueel willen opbouwen.",
+            "pitfall": "LGM rekent per 'identity' (1 LinkedIn + 1 e-mail). Bij meerdere SDR's loopt dat snel op."
+          }
+        ]
+      },
+      {
+        "category": "5. Orchestratie",
+        "categoryDesc": "De lijm tussen je tools. Verbindt Clay, je CRM, je outbound-tool en je signaalmonitoring tot \u00e9\u00e9n workflow.",
+        "entries": [
+          {
+            "name": "n8n",
+            "what": "Open-source workflow automation. Self-hosted of cloud. Krachtig maar technischer dan Make.",
+            "pricing": [
+              "Self-hosted: gratis",
+              "Cloud: vanaf $24/maand"
+            ],
+            "forWho": "Technische teams die maximale flexibiliteit willen.",
+            "tip": "n8n is de krachtigste optie als je zelf kunt hosten. Volledige controle over je data en workflows.",
+            "pitfall": "Vereist technische kennis. Niet geschikt als je geen developer in het team hebt."
+          },
+          {
+            "name": "Make (voorheen Integromat)",
+            "what": "Visuele workflow builder. Gebruiksvriendelijker dan n8n, met een groot ecosysteem aan integraties.",
+            "pricing": [
+              "Free tier beschikbaar",
+              "Betaald vanaf $10,59/maand"
+            ],
+            "forWho": "Non-technische teams die tools moeten verbinden zonder te coderen.",
+            "tip": "Start met Make als je tools moet verbinden die geen native integratie hebben. De visuele builder is intuïtief.",
+            "pitfall": "Complex workflows kunnen snel credits verbruiken. Monitor je usage."
+          },
+          {
+            "name": "HubSpot (Free CRM)",
+            "what": "Gratis CRM met workflows, contactbeheer en basis-automatisering. De gratis tier is verrassend compleet voor kleine teams.",
+            "pricing": [
+              "Free CRM: \u20ac0",
+              "Starter: vanaf \u20ac20/maand",
+              "Professional: vanaf \u20ac890/maand"
+            ],
+            "forWho": "Iedereen. HubSpot Free is de beste gratis CRM voor B2B.",
+            "tip": "Start met HubSpot Free als CRM. Voeg Make toe als je tools moet verbinden die geen native integratie hebben.",
+            "pitfall": "De jump van Free naar Professional is groot (\u20ac0 \u2192 \u20ac890/maand). Plan vooruit welke features je echt nodig hebt."
+          }
+        ]
+      }
+    ],
+    "minimalStack": {
+      "title": "De minimale stack: onder \u20ac500/maand",
+      "intro": "Voor een founder of klein team dat wil starten met signal-based outbound:",
+      "rows": [
+        { "tool": "Clay (Explorer)", "function": "Signaaldetectie + enrichment", "cost": "~\u20ac290/maand" },
+        { "tool": "Apollo (Free)", "function": "Prospecting-data", "cost": "\u20ac0" },
+        { "tool": "Instantly (Growth)", "function": "Email-verzending", "cost": "~\u20ac43/maand" },
+        { "tool": "HubSpot (Free)", "function": "CRM", "cost": "\u20ac0" },
+        { "tool": "Totaal", "function": "", "cost": "~\u20ac333/maand" }
+      ],
+      "conclusion": "Dit geeft je signaaldetectie, dataverrijking, email-outbound en een CRM. Voldoende om te starten en te valideren welke signalen werken."
+    },
+    "premiumStack": {
+      "title": "De premium stack: onder \u20ac1.000/maand",
+      "intro": "Als je weet dat signal-based outbound werkt en wilt opschalen:",
+      "rows": [
+        { "tool": "Clay (Explorer)", "function": "Signaaldetectie + enrichment", "cost": "~\u20ac290/maand" },
+        { "tool": "Apollo (Basic)", "function": "Prospecting-data + sequences", "cost": "~\u20ac45/maand" },
+        { "tool": "Leadinfo", "function": "Websitebezoek-identificatie", "cost": "~\u20ac69/maand" },
+        { "tool": "Sales Nav (Core)", "function": "LinkedIn-intelligence", "cost": "~\u20ac92/maand" },
+        { "tool": "Instantly (Hypergrowth)", "function": "Email op schaal", "cost": "~\u20ac89/maand" },
+        { "tool": "Make (betaald)", "function": "Orchestratie", "cost": "~\u20ac10/maand" },
+        { "tool": "HubSpot (Free)", "function": "CRM", "cost": "\u20ac0" },
+        { "tool": "Totaal", "function": "", "cost": "~\u20ac595/maand" }
+      ],
+      "conclusion": "Ruim onder de \u20ac1.000, en je hebt een complete stack voor signaaldetectie, prospecting, websitebezoek, multichannel outreach en automatisering."
+    },
+    "dontStartAll": {
+      "title": "Begin niet met alles tegelijk",
+      "p1": "De valkuil is om alle tools tegelijk aan te schaffen en er vervolgens 20% van te gebruiken. Start met de minimale stack, valideer je eerste signaaltype, en voeg pas tools toe als je weet wat werkt.",
+      "p2": "De meeste succesvolle signal-based teams die ik ken zijn begonnen met Clay + \u00e9\u00e9n outbound-tool. Na 2-3 maanden wisten ze welke signalen converteerden, en pas toen breidden ze uit. Die volgorde scheelt je honderden euro's aan tools die je nog niet nodig hebt."
+    },
+    "inlineCta": {
+      "title": "Welke signalen moet je monitoren?",
+      "desc": "Ontdek welke koopsignalen het meest relevant zijn voor jouw ICP, of lees de complete gids over signal-based outbound.",
+      "ctaPrimary": "10 koopsignalen",
+      "ctaSecondary": "De complete gids"
+    },
+    "relatedLabel": "/ Gerelateerde artikelen",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "Wat is signal-based outbound? De complete gids",
+        "excerpt": "Alles over signal-based selling: wat het is, welke signalen er zijn, en hoe je het opzet.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 koopsignalen die je morgen kunt gebruiken",
+        "excerpt": "De 10 krachtigste buyer signals met detectiemethode en openingszin.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/intent-data-nederland-mkb",
+        "title": "Intent data voor het Nederlandse MKB: wat werkt echt?",
+        "excerpt": "Eerlijk overzicht: wat werkt voor NL MKB en wat niet.",
+        "tag": "Intent Data",
+        "readTime": "7 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Klaar om je outbound te transformeren?",
+      "desc": "Plan een gesprek. We kijken samen welke tools passen bij jouw situatie en budget.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogIntentData": {
+    "metadata": {
+      "title": "Intent data voor het Nederlandse MKB: wat werkt echt?",
+      "description": "Eerlijk overzicht van intent data tools: wat werkt voor het Nederlandse MKB en wat niet. Bombora, 6sense, G2 vs. Leadinfo, Clay, LinkedIn."
+    },
+    "hero": {
+      "tag": "Intent Data",
+      "title": "Intent data voor het Nederlandse MKB: wat werkt echt?",
+      "readTime": "7 min leestijd"
+    },
+    "intro": "De meeste content over intent data is geschreven voor Amerikaanse enterprise-bedrijven met zes- tot zevencijferige marketingbudgetten. Dit artikel niet. Hier lees je wat intent data w\u00e9l en niet oplevert voor het Nederlandse MKB \u2014 eerlijk, zonder verkooppraatje.",
+    "whatIs": {
+      "title": "Wat is intent data?",
+      "p1": "Intent data is informatie die aangeeft dat een bedrijf actief ge\u00efnteresseerd is in een bepaald onderwerp, product of oplossing. Het idee: als je weet dat een bedrijf aan het ori\u00ebnteren is op jouw categorie, kun je ze benaderen voordat ze bij de concurrent uitkomen.",
+      "p2": "Er zijn twee soorten:",
+      "firstPartyTitle": "First-party intent data",
+      "firstPartyDesc": "Gedrag dat je zelf meet: websitebezoeken, email-opens, content-downloads, demo-aanvragen. Dit is data die je al hebt (of makkelijk kunt verzamelen) via je eigen website en tools.",
+      "thirdPartyTitle": "Third-party intent data",
+      "thirdPartyDesc": "Gedrag dat externe partijen meten: welke onderwerpen een bedrijf researcht op het bredere web, welke reviews ze lezen, welke vergelijkingspagina's ze bezoeken. Aanbieders als Bombora, 6sense en G2 verkopen deze data.",
+      "p3": "Het verschil in betrouwbaarheid is groot. First-party data is concreet \u2014 iemand bezoekt jouw pricing-pagina, dat is een hard signaal. Third-party data is een proxy \u2014 een bedrijf leest ergens een artikel over 'CRM-implementatie', en dat wordt vertaald naar een intent-score."
+    },
+    "doesntWork": {
+      "title": "Wat NIET werkt voor het Nederlandse MKB",
+      "intro": "Hier wordt het ongemakkelijk. De drie grootste namen in intent data zijn voor de meeste Nederlandse MKB-bedrijven simpelweg niet relevant.",
+      "items": [
+        {
+          "name": "Bombora",
+          "desc": "Marktleider in third-party intent data. Monitort content-consumptie op 5.000+ B2B-websites en vertaalt dat naar 'Company Surge' scores per onderwerp.",
+          "problem": "Start bij $30.000/jaar, gemiddeld contract ~$58.000/jaar. Jaarcontract verplicht. Het netwerk is primair Amerikaans \u2014 de overlap met Nederlandse B2B-websites is minimaal."
+        },
+        {
+          "name": "6sense",
+          "desc": "Combineert intent data met predictive analytics en account-based marketing. Krachtig platform \u2014 voor enterprise.",
+          "problem": "Mediaan-klant betaalt $55.000/jaar. Enterprise tot $250.000-$400.000/jaar exclusief implementatiekosten ($10.000-$50.000). Vereist een dedicated RevOps-persoon."
+        },
+        {
+          "name": "G2 intent data",
+          "desc": "Buyer intent data op basis van wie jouw productpagina, reviews en vergelijkingen bekijkt op G2.com.",
+          "problem": "Nederlandse B2B-kopers gebruiken G2 amper. Het platform is dominant in Noord-Amerika. Signaalvolumes uit Nederland zijn te laag voor bruikbare data."
+        }
+      ]
+    },
+    "doesWork": {
+      "title": "Wat WEL werkt voor het Nederlandse MKB",
+      "intro": "Het goede nieuws: er zijn alternatieven die beter passen bij de Nederlandse markt, en ze kosten een fractie van bovenstaande opties.",
+      "items": [
+        {
+          "name": "Leadinfo: websitebezoek als first-party intent",
+          "desc": "Leadinfo identificeert welke bedrijven je website bezoeken \u2014 en dat is de meest directe vorm van intent data die er is. Nederlands, AVG-proof, cookieloos, 35-40% identificatie van B2B-verkeer in de Benelux. Vanaf \u20ac69/maand, geen jaarcontract.",
+          "why": "Je ziet welk bedrijf, welke pagina's, hoe vaak, en hoe lang. Filter op je ICP en je hebt een dagelijkse lijst van warme leads."
+        },
+        {
+          "name": "LinkedIn Sales Navigator: buyer intent ingebouwd",
+          "desc": "Sales Navigator Advanced bevat buyer intent signalen: welke contacten bij je saved accounts je bedrijfspagina bezoeken, je content liken, of InMails accepteren. Met 180+ signalen bouwt het een intent-score per account. Vanaf $139,99/maand (jaarlijks).",
+          "why": "Aangezien vrijwel elk Nederlands B2B-bedrijf actief is op LinkedIn, is de datasample hier w\u00e9l groot genoeg."
+        },
+        {
+          "name": "Clay triggers: event-based intent",
+          "desc": "Clay monitort concrete events die intent signaleren: nieuwe hires, funding-rondes, technologie-wisselingen, persberichten. Dit is geen statistische intent-score maar een observeerbaar feit. Clay Explorer kost $314/maand.",
+          "why": "Je hoeft geen score te interpreteren. Er is geen 'medium intent' label \u2014 je ziet dat bedrijf X vorige week een VP Sales heeft aangenomen. Concreet, verifieerbaar, en direct bruikbaar."
+        },
+        {
+          "name": "Eigen first-party data via HubSpot",
+          "desc": "HubSpot (gratis CRM) trackt wie je emails opent, welke pagina's ze bezoeken (met tracking code), en hoe ze door je funnel bewegen. Dit is first-party intent data die je al hebt maar waarschijnlijk niet genoeg gebruikt.",
+          "why": "Combineer HubSpot-data met Leadinfo en je hebt een compleet beeld: welke bedrijven bezoeken je site (Leadinfo) en wat doen bekende contacten (HubSpot). Kosten: \u20ac69/maand + \u20ac0."
+        }
+      ]
+    },
+    "truth": {
+      "title": "De eerlijke waarheid",
+      "p1": "De intent data-industrie is gebouwd op de belofte dat je kunt weten wie er klaar is om te kopen. Voor Amerikaanse enterprise-bedrijven met enorme doelmarkten en zes-cijferige budgetten werkt dat model. Voor het Nederlandse MKB is de realiteit anders.",
+      "highlight": "First-party data + event-based triggers > dure third-party intent data.",
+      "p2": "Je eigen websitebezoek-data (Leadinfo) vertelt je meer dan een Bombora Company Surge score ooit zal doen voor de Nederlandse markt. LinkedIn-engagement van je doelgroep is een sterker signaal dan een G2-vergelijkingspagina die je prospect nooit heeft bezocht.",
+      "p3": "De bedrijven die het beste presteren met signal-based outbound in Nederland gebruiken geen Bombora of 6sense. Ze combineren Leadinfo + Clay + LinkedIn Sales Nav + hun eigen HubSpot-data. Totaalkosten: \u20ac400-600/maand. Dat is 10x goedkoper dan het instaptarief van Bombora \u2014 en relevanter voor de Nederlandse markt."
+    },
+    "startWith": {
+      "title": "Begin met wat je hebt",
+      "intro": "Voordat je investeert in welke intent data tool dan ook, doe dit:",
+      "conclusion": "De meeste MKB-bedrijven ontdekken dat ze al op een berg intent data zitten die ze niet gebruiken. Begin daar.",
+      "closing": "En als je merkt dat die basis werkt \u2014 dat websitebezoek-data daadwerkelijk leidt tot meetings, dat email-engagement correleert met deals \u2014 dan pas is het moment om te investeren in Clay voor schaal en automatisering. Niet eerder."
+    },
+    "startSteps": [
+      "**Check je HubSpot** (of ander CRM): wie opent je emails, wie bezoekt je site, wie zit er al in je pipeline maar is stil gevallen?",
+      "**Installeer Leadinfo** (30 dagen gratis): kijk hoeveel bedrijven je website bezoeken die in je ICP passen",
+      "**Gebruik LinkedIn Sales Nav** om te zien wie er engaged is met je content",
+      "**Pas daarna** overweeg je Clay voor geautomatiseerde signaaldetectie"
+    ],
+    "inlineCta": {
+      "title": "Wil je meer weten over signal-based outbound?",
+      "desc": "Lees de complete gids over signal-based outbound, of bekijk welke tools je nodig hebt.",
+      "ctaPrimary": "De complete gids",
+      "ctaSecondary": "Tools vergelijken"
+    },
+    "relatedLabel": "/ Gerelateerde artikelen",
+    "related": [
+      {
+        "href": "/blog/signal-based-outbound",
+        "title": "Wat is signal-based outbound? De complete gids",
+        "excerpt": "Alles over signal-based selling: wat het is, welke signalen er zijn, en hoe je het opzet.",
+        "tag": "Signal-Based Outbound",
+        "readTime": "12 min"
+      },
+      {
+        "href": "/blog/koopsignalen-b2b-outbound",
+        "title": "10 koopsignalen die je morgen kunt gebruiken",
+        "excerpt": "De 10 krachtigste buyer signals met detectiemethode en openingszin.",
+        "tag": "Buyer Signals",
+        "readTime": "10 min"
+      },
+      {
+        "href": "/blog/tools-signal-based-outbound",
+        "title": "Clay, Apollo, Leadinfo: de tools achter signal-based outbound",
+        "excerpt": "Vergelijking van sales tools per categorie met actuele prijzen.",
+        "tag": "Sales Tools",
+        "readTime": "11 min"
+      }
+    ],
+    "footerCta": {
+      "title": "Klaar om je outbound te transformeren?",
+      "desc": "Plan een gesprek. We kijken samen welke intent data-strategie past bij jouw situatie.",
       "cta": "Plan een gesprek"
     }
   }

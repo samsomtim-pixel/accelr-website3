@@ -25,6 +25,11 @@ export async function generateMetadata({
 }
 
 const postHrefs = [
+  "/blog/signal-based-outbound",
+  "/blog/koude-acquisitie-naar-signal-based-outbound",
+  "/blog/koopsignalen-b2b-outbound",
+  "/blog/tools-signal-based-outbound",
+  "/blog/intent-data-nederland-mkb",
   "/blog/waarom-eerste-sales-hire-mislukt",
   "/blog/fractional-head-of-sales-nederland",
 ] as const;
@@ -59,8 +64,8 @@ export default async function BlogPage() {
               </div>
             </FadeIn>
 
-            <div className="mt-16 mx-auto max-w-4xl">
-              <div className="grid gap-8 md:grid-cols-2">
+            <div className="mt-16">
+              <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
                 {posts.map((post, i) => (
                   <FadeIn key={postHrefs[i]} delay={i * 0.1}>
                     <Link

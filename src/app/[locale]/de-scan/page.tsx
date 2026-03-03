@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 import { ArrowRight, ShieldCheck, ChevronDown } from "lucide-react";
+import AiHighlights from "@/components/AiHighlights";
 
 export async function generateMetadata({
   params,
@@ -38,6 +39,7 @@ export default async function DeScanPage() {
   const week1Items = t.raw("tijdlijn.week1.items") as string[];
   const week2Items = t.raw("tijdlijn.week2.items") as string[];
   const faqItems = t.raw("faq.items") as Array<{ q: string; a: string }>;
+  const aiItems = t.raw("aiHighlights.items") as Array<{ title: string; desc: string }>;
 
   return (
     <>
@@ -158,6 +160,13 @@ export default async function DeScanPage() {
             </FadeIn>
           </div>
         </section>
+
+        {/* ─── AI HIGHLIGHTS ─── */}
+        <AiHighlights
+          label={t("aiHighlights.label")}
+          title={t("aiHighlights.title")}
+          items={aiItems}
+        />
 
         {/* ─── Hoe het werkt (tijdlijn) ─── */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">

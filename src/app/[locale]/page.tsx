@@ -14,7 +14,6 @@ import {
   Compass,
   Database,
   Send,
-  Cpu,
   BookOpen,
   Check,
   X as XIcon,
@@ -23,6 +22,7 @@ import {
   Wrench,
   User,
   Linkedin,
+  Sparkles,
 } from "lucide-react";
 
 const P = PILLAR_COLORS;
@@ -32,14 +32,13 @@ const keuzeIcons = [Search, Wrench, User];
 const keuzeHrefs = ["/de-scan", "#bouwblokken", "/expertise/fractional-head-of-sales"];
 const keuzeBadgeCheck = [true, false, false];
 
-const bouwIcons = [Search, Compass, Send, Database, BookOpen, Cpu];
+const bouwIcons = [Search, Compass, Send, Database, BookOpen];
 const bouwHrefs = [
   "/de-scan",
   "/sales-strategie",
   "/outbound-leadgeneratie",
   "/crm-implementatie",
   "/sales-enablement",
-  "/ai-sales-automation",
 ];
 const bouwAccents = [
   P.strategy.color,
@@ -47,7 +46,6 @@ const bouwAccents = [
   P.process.color,
   P.process.color,
   P.people.color,
-  P.ai.color,
 ];
 
 const resultatenLinks = [
@@ -110,7 +108,9 @@ export default async function HomePage() {
     title: string;
     badge: string;
     desc: string;
+    aiText: string;
   }>;
+  const layerLabels = t.raw("bouwblokken.layerLabels") as string[];
   const resultaatCards = t.raw("resultaten.cards") as Array<{
     name: string;
     subtitle: string;
@@ -408,45 +408,179 @@ export default async function HomePage() {
               </p>
             </FadeIn>
 
-            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {bouwCards.map((card, i) => {
-                const Icon = bouwIcons[i];
-                return (
-                  <FadeIn key={card.title} delay={i * 0.08}>
-                    <Link href={bouwHrefs[i]} className="block h-full">
-                      <div
-                        className="card-light h-full flex flex-col overflow-hidden"
-                        style={{ borderTop: `4px solid ${bouwAccents[i]}` }}
-                      >
-                        <div className="flex items-center justify-between">
-                          <Icon size={24} className="text-accent-teal" />
-                          <span
-                            className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
-                            style={{
-                              color: bouwAccents[i],
-                              backgroundColor: `${bouwAccents[i]}15`,
-                            }}
-                          >
-                            {card.badge}
+            {/* Laag 1 — FUNDAMENT */}
+            <div className="mt-12">
+              <p className="text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4">
+                {layerLabels[0]}
+              </p>
+              <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
+                {bouwCards.slice(0, 2).map((card, i) => {
+                  const Icon = bouwIcons[i];
+                  return (
+                    <FadeIn key={card.title} delay={i * 0.08}>
+                      <Link href={bouwHrefs[i]} className="block h-full">
+                        <div
+                          className="card-light h-full flex flex-col overflow-hidden"
+                          style={{ borderTop: `4px solid ${bouwAccents[i]}` }}
+                        >
+                          <div className="flex items-center justify-between">
+                            <Icon size={24} className="text-accent-teal" />
+                            <span
+                              className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
+                              style={{
+                                color: bouwAccents[i],
+                                backgroundColor: `${bouwAccents[i]}15`,
+                              }}
+                            >
+                              {card.badge}
+                            </span>
+                          </div>
+                          <p className="mt-4 font-display text-lg font-semibold text-text-dark">
+                            {card.title}
+                          </p>
+                          <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
+                            {card.desc}
+                          </p>
+                          <p className="mt-2 flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
+                            <Sparkles size={14} className="shrink-0" />
+                            {card.aiText}
+                          </p>
+                          <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
+                            {t("bouwblokken.ontdekMeer")} <ArrowRight size={14} />
                           </span>
                         </div>
-                        <p className="mt-4 font-display text-lg font-semibold text-text-dark">
-                          {card.title}
-                        </p>
-                        <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
-                          {card.desc}
-                        </p>
-                        <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
-                          {t("bouwblokken.ontdekMeer") ?? "Ontdek meer"} <ArrowRight size={14} />
-                        </span>
-                      </div>
-                    </Link>
-                  </FadeIn>
-                );
-              })}
+                      </Link>
+                    </FadeIn>
+                  );
+                })}
+              </div>
             </div>
 
+            {/* Laag 2 — BOUWEN */}
+            <div className="mt-12">
+              <p className="text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4">
+                {layerLabels[1]}
+              </p>
+              <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
+                {bouwCards.slice(2, 4).map((card, idx) => {
+                  const i = idx + 2;
+                  const Icon = bouwIcons[i];
+                  return (
+                    <FadeIn key={card.title} delay={i * 0.08}>
+                      <Link href={bouwHrefs[i]} className="block h-full">
+                        <div
+                          className="card-light h-full flex flex-col overflow-hidden"
+                          style={{ borderTop: `4px solid ${bouwAccents[i]}` }}
+                        >
+                          <div className="flex items-center justify-between">
+                            <Icon size={24} className="text-accent-teal" />
+                            <span
+                              className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
+                              style={{
+                                color: bouwAccents[i],
+                                backgroundColor: `${bouwAccents[i]}15`,
+                              }}
+                            >
+                              {card.badge}
+                            </span>
+                          </div>
+                          <p className="mt-4 font-display text-lg font-semibold text-text-dark">
+                            {card.title}
+                          </p>
+                          <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
+                            {card.desc}
+                          </p>
+                          <p className="mt-2 flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
+                            <Sparkles size={14} className="shrink-0" />
+                            {card.aiText}
+                          </p>
+                          <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
+                            {t("bouwblokken.ontdekMeer")} <ArrowRight size={14} />
+                          </span>
+                        </div>
+                      </Link>
+                    </FadeIn>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Laag 3 — OPTIMALISEREN */}
+            <div className="mt-12">
+              <p className="text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4">
+                {layerLabels[2]}
+              </p>
+              <div className="grid gap-6 grid-cols-1">
+                {bouwCards.slice(4, 5).map((card) => {
+                  const i = 4;
+                  const Icon = bouwIcons[i];
+                  return (
+                    <FadeIn key={card.title} delay={i * 0.08}>
+                      <Link href={bouwHrefs[i]} className="block h-full">
+                        <div
+                          className="card-light h-full flex flex-col overflow-hidden"
+                          style={{ borderTop: `4px solid ${bouwAccents[i]}` }}
+                        >
+                          <div className="flex items-center justify-between">
+                            <Icon size={24} className="text-accent-teal" />
+                            <span
+                              className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
+                              style={{
+                                color: bouwAccents[i],
+                                backgroundColor: `${bouwAccents[i]}15`,
+                              }}
+                            >
+                              {card.badge}
+                            </span>
+                          </div>
+                          <p className="mt-4 font-display text-lg font-semibold text-text-dark">
+                            {card.title}
+                          </p>
+                          <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
+                            {card.desc}
+                          </p>
+                          <p className="mt-2 flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
+                            <Sparkles size={14} className="shrink-0" />
+                            {card.aiText}
+                          </p>
+                          <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
+                            {t("bouwblokken.ontdekMeer")} <ArrowRight size={14} />
+                          </span>
+                        </div>
+                      </Link>
+                    </FadeIn>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Fractional Head of Sales — overkoepelend */}
             <FadeIn delay={0.5}>
+              <Link href="/expertise/fractional-head-of-sales" className="block mt-12">
+                <div
+                  className="rounded-2xl p-6 text-center transition-all duration-300 hover:shadow-md"
+                  style={{
+                    backgroundColor: P.result.bg,
+                    border: `1px solid ${P.result.border}`,
+                  }}
+                >
+                  <p
+                    className="text-[10px] font-bold uppercase tracking-wider"
+                    style={{ color: P.result.color }}
+                  >
+                    {t("bouwblokken.fractional.label")}
+                  </p>
+                  <p className="mt-2 font-display text-lg font-bold text-text-dark">
+                    {t("bouwblokken.fractional.title")}
+                  </p>
+                  <p className="mt-1 text-sm text-text-dark-secondary">
+                    {t("bouwblokken.fractional.desc")}
+                  </p>
+                </div>
+              </Link>
+            </FadeIn>
+
+            <FadeIn delay={0.6}>
               <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary">
                 {t("bouwblokken.note")}
               </p>

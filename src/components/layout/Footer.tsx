@@ -46,10 +46,11 @@ export default async function Footer() {
             <ul className="space-y-3">
               {[
                 { href: "/de-scan" as const, label: t("expertiseItems.deScan") },
-                { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
+                { href: "/sales-strategie" as const, label: t("expertiseItems.strategieGtm") },
                 { href: "/outbound-leadgeneratie" as const, label: t("expertiseItems.outboundLeadgen") },
-                { href: "/ai-sales-automation" as const, label: t("expertiseItems.aiAutomation") },
-                { href: "/score" as const, label: t("expertiseItems.salesMaturityScore") },
+                { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
+                { href: "/sales-enablement" as const, label: t("expertiseItems.salesEnablement") },
+                { href: "/expertise/fractional-head-of-sales" as const, label: t("expertiseItems.fractional") },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link
