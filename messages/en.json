@@ -532,7 +532,7 @@
   "deScan": {
     "metadata": {
       "title": "De Scan\u2122 | Sales Operation Diagnosis",
-      "description": "Sales diagnosis in 2 weeks. Score across 10 dimensions, opportunities with euro value, action plan. \u20ac3,500 fixed. Not satisfied? Money back."
+      "description": "Sales diagnosis in 2 weeks. Score across 11 dimensions (1-5 maturity model), opportunities with euro value, action plan. \u20ac3,500 fixed. Not satisfied? Money back."
     },
     "hero": {
       "label": "/ Always step 1",
@@ -551,32 +551,63 @@
       "desc2": "De Scan provides the answer. Not with opinions, with data."
     },
     "dimensies": {
-      "label": "/ 10 Dimensions",
-      "title": "I audit your sales operation across 10 dimensions",
-      "subtitle": "Each dimension scores 1-10.",
-      "items": [
-        { "num": 1, "name": "Strategy", "question": "How sharp is your ICP? Does your positioning hold up?" },
-        { "num": 2, "name": "Process", "question": "Do you have a documented sales process? Is it being followed?" },
-        { "num": 3, "name": "Pipeline", "question": "How predictable is your revenue?" },
-        { "num": 4, "name": "CRM", "question": "Do you use a CRM? How is your data quality?" },
-        { "num": 5, "name": "Outbound", "question": "Do you do active outbound? With what results?" },
-        { "num": 6, "name": "Enablement", "question": "Does your team have playbooks, scripts, training?" },
-        { "num": 7, "name": "AI & Tech Readiness", "question": "What tools do you use? How ready are you to deploy AI?" },
-        { "num": 8, "name": "Team", "question": "Do you have the right people in the right roles?" },
-        { "num": 9, "name": "Data", "question": "Which KPIs do you track? How accurate is your forecast?" },
-        { "num": 10, "name": "Leadership", "question": "Who manages sales? Is there accountability?" }
+      "label": "/ 11 Dimensions",
+      "title": "I audit your sales operation across 11 dimensions in 5 categories",
+      "subtitle": "Each dimension is scored on our 5-level Sales Maturity Model — from Ad Hoc to Optimized.",
+      "categories": [
+        {
+          "label": "A",
+          "name": "Strategy & Market",
+          "items": [
+            { "num": 1, "name": "Strategy", "question": "How sharp is your ICP? Does your positioning hold up?" },
+            { "num": 2, "name": "Pipeline", "question": "How predictable is your revenue?" },
+            { "num": 3, "name": "Marketing & Inbound", "question": "How well do marketing and sales align? How do leads come in?" }
+          ]
+        },
+        {
+          "label": "B",
+          "name": "Sales Execution",
+          "items": [
+            { "num": 4, "name": "Process", "question": "Do you have a documented sales process? Is it being followed?" },
+            { "num": 5, "name": "Outbound", "question": "Do you do active outbound? With what results?" },
+            { "num": 6, "name": "Enablement", "question": "Does your team have playbooks, scripts, training?" }
+          ]
+        },
+        {
+          "label": "C",
+          "name": "Customer & Growth",
+          "items": [
+            { "num": 7, "name": "Customer & Retention", "question": "How do you retain customers? Is there structured account management and upsell?" }
+          ]
+        },
+        {
+          "label": "D",
+          "name": "Infrastructure",
+          "items": [
+            { "num": 8, "name": "CRM & Data", "question": "Do you use a CRM? How is your data quality? Which KPIs do you track?" },
+            { "num": 9, "name": "AI & Tech Readiness", "question": "What tools do you use? How ready are you to deploy AI?" }
+          ]
+        },
+        {
+          "label": "E",
+          "name": "People & Leadership",
+          "items": [
+            { "num": 10, "name": "Team", "question": "Do you have the right people in the right roles?" },
+            { "num": 11, "name": "Leadership", "question": "Who manages sales? Is there accountability?" }
+          ]
+        }
       ]
     },
     "deliverables": {
       "label": "/ Deliverables",
       "title": "What you get",
       "items": [
-        "Sales Maturity Score, score across 10 dimensions (1-10)",
-        "2-3 in-depth interviews (founder, sales, marketing)",
+        "Sales Maturity Score across 11 dimensions (1-5) with radar chart",
+        "Pre-assessment + 2-3 in-depth interviews (founder, sales, marketing)",
         "CRM & pipeline audit (or gap analysis if there's no CRM)",
         "AI & tech readiness check",
         "Top 3-5 opportunities with estimated euro value",
-        "Prioritized 90-day action plan",
+        "30-day quick wins + prioritized 90-day action plan",
         "Recommendation per opportunity: DIY / with Accelr / outsource",
         "Live presentation of findings (never just by email)"
       ]
@@ -586,7 +617,7 @@
       "title": "How AI enhances this",
       "items": [
         { "title": "Data analysis", "desc": "AI analyzes your CRM data, website metrics and pipeline to identify patterns you'd miss manually." },
-        { "title": "Benchmarking", "desc": "Compare your scores across all 10 dimensions against industry averages using AI-driven models." },
+        { "title": "Benchmarking", "desc": "Compare your scores across all 11 dimensions against industry averages. With every scan, our benchmark database grows." },
         { "title": "Opportunity detection", "desc": "AI calculates the euro value of each optimization opportunity, so you prioritize based on impact." }
       ]
     },
@@ -596,8 +627,9 @@
       "week1": {
         "label": "/ Week 1",
         "items": [
+          "Pre-assessment questionnaire (upfront)",
           "Intake meeting and briefing",
-          "Interviews with founder, sales and marketing",
+          "Interviews with founder, sales and marketing/ops",
           "CRM & data analysis",
           "Market & competitor review"
         ]
@@ -636,7 +668,15 @@
         },
         {
           "q": "How do I prepare?",
-          "a": "At minimum: access to your CRM (if you have one), and availability for a 60-90 minute interview. I handle the rest."
+          "a": "You'll receive a short pre-assessment questionnaire (15 minutes) to fill out upfront. Beyond that: access to your CRM (if you have one) and availability for 2-3 interviews. I handle the rest."
+        },
+        {
+          "q": "What is the Sales Maturity Model?",
+          "a": "Each dimension is scored on a scale of 1 to 5: from Ad Hoc (no structure) to Optimized (scalable and self-sustaining). This is the industry standard for maturity assessments and gives you an immediate, clear picture of where you stand."
+        },
+        {
+          "q": "Why 11 dimensions and not fewer?",
+          "a": "Because your sales operation consists of more than just the sales conversation. From strategy to customer retention, from CRM to AI readiness — every dimension you don't measure is a blind spot. The 11 dimensions are validated against 9 international sales frameworks and cover everything that matters."
         }
       ]
     },

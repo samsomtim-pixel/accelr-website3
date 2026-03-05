@@ -532,7 +532,7 @@
   "deScan": {
     "metadata": {
       "title": "De Scan\u2122 | Diagnose van je salesoperatie",
-      "description": "Salesdiagnose in 2 weken. Score op 10 dimensies, kansen met euro-waarde, actieplan. \u20ac3.500 vast. Niet tevreden? Geld terug."
+      "description": "Salesdiagnose in 2 weken. Score op 11 dimensies (1-5 maturity model), kansen met euro-waarde, actieplan. \u20ac3.500 vast. Niet tevreden? Geld terug."
     },
     "hero": {
       "label": "/ Altijd stap 1",
@@ -551,32 +551,63 @@
       "desc2": "De Scan geeft antwoord. Niet met meningen, met data."
     },
     "dimensies": {
-      "label": "/ 10 Dimensies",
-      "title": "Ik doorlicht je salesoperatie op 10 dimensies",
-      "subtitle": "Elke dimensie scoort 1-10.",
-      "items": [
-        { "num": 1, "name": "Strategy", "question": "Hoe scherp is je ICP? Klopt je positionering?" },
-        { "num": 2, "name": "Process", "question": "Heb je een gedocumenteerd salesproces? Wordt het gevolgd?" },
-        { "num": 3, "name": "Pipeline", "question": "Hoe voorspelbaar is je omzet?" },
-        { "num": 4, "name": "CRM", "question": "Gebruik je een CRM? Hoe is de datakwaliteit?" },
-        { "num": 5, "name": "Outbound", "question": "Doe je actief outbound? Met welk resultaat?" },
-        { "num": 6, "name": "Enablement", "question": "Heeft je team playbooks, scripts, training?" },
-        { "num": 7, "name": "AI & Tech Readiness", "question": "Welke tools gebruik je? Hoe klaar ben je om AI in te zetten?" },
-        { "num": 8, "name": "Team", "question": "Heb je de juiste mensen op de juiste plek?" },
-        { "num": 9, "name": "Data", "question": "Welke KPI's track je? Hoe accuraat is je forecast?" },
-        { "num": 10, "name": "Leadership", "question": "Wie stuurt de sales aan? Is er accountability?" }
+      "label": "/ 11 Dimensies",
+      "title": "Ik doorlicht je salesoperatie op 11 dimensies in 5 categorieën",
+      "subtitle": "Elke dimensie scoort op ons 5-niveau Sales Maturity Model — van Ad Hoc tot Geoptimaliseerd.",
+      "categories": [
+        {
+          "label": "A",
+          "name": "Strategie & Markt",
+          "items": [
+            { "num": 1, "name": "Strategy", "question": "Hoe scherp is je ICP? Klopt je positionering?" },
+            { "num": 2, "name": "Pipeline", "question": "Hoe voorspelbaar is je omzet?" },
+            { "num": 3, "name": "Marketing & Inbound", "question": "Hoe sluiten marketing en sales op elkaar aan? Hoe komen leads binnen?" }
+          ]
+        },
+        {
+          "label": "B",
+          "name": "Sales Execution",
+          "items": [
+            { "num": 4, "name": "Process", "question": "Heb je een gedocumenteerd salesproces? Wordt het gevolgd?" },
+            { "num": 5, "name": "Outbound", "question": "Doe je actief outbound? Met welk resultaat?" },
+            { "num": 6, "name": "Enablement", "question": "Heeft je team playbooks, scripts, training?" }
+          ]
+        },
+        {
+          "label": "C",
+          "name": "Klant & Groei",
+          "items": [
+            { "num": 7, "name": "Customer & Retention", "question": "Hoe behoud je klanten? Is er structureel account management en upsell?" }
+          ]
+        },
+        {
+          "label": "D",
+          "name": "Infrastructuur",
+          "items": [
+            { "num": 8, "name": "CRM & Data", "question": "Gebruik je een CRM? Hoe is de datakwaliteit? Welke KPI's track je?" },
+            { "num": 9, "name": "AI & Tech Readiness", "question": "Welke tools gebruik je? Hoe klaar ben je om AI in te zetten?" }
+          ]
+        },
+        {
+          "label": "E",
+          "name": "Mensen & Leiderschap",
+          "items": [
+            { "num": 10, "name": "Team", "question": "Heb je de juiste mensen op de juiste plek?" },
+            { "num": 11, "name": "Leadership", "question": "Wie stuurt de sales aan? Is er accountability?" }
+          ]
+        }
       ]
     },
     "deliverables": {
       "label": "/ Deliverables",
       "title": "Wat je krijgt",
       "items": [
-        "Sales Maturity Score, score op 10 dimensies (1-10)",
-        "2-3 diepte-interviews (founder, sales, marketing)",
+        "Sales Maturity Score op 11 dimensies (1-5) met radardiagram",
+        "Pre-assessment + 2-3 diepte-interviews (founder, sales, marketing)",
         "CRM & pipeline doorlichting (of gap-analyse als er geen CRM is)",
         "AI & tech readiness check",
         "Top 3-5 kansen met geschatte euro-waarde",
-        "Geprioriteerd 90-dagen actieplan",
+        "30-dagen quick wins + geprioriteerd 90-dagen actieplan",
         "Advies per kans: zelf doen / met Accelr / outsourcen",
         "Live presentatie van bevindingen (nooit alleen per mail)"
       ]
@@ -586,7 +617,7 @@
       "title": "Hoe AI dit versterkt",
       "items": [
         { "title": "Data-analyse", "desc": "AI analyseert je CRM-data, website-metrics en pipeline en identificeert patronen die je handmatig mist." },
-        { "title": "Benchmarking", "desc": "Vergelijk je scores op alle 10 dimensies met branchegemiddelden via AI-gedreven modellen." },
+        { "title": "Benchmarking", "desc": "Vergelijk je scores op alle 11 dimensies met branchegemiddelden. Na elke scan groeit onze benchmark-database." },
         { "title": "Kansen-detectie", "desc": "AI berekent de euro-waarde van elke optimalisatiekans, zodat je prioriteert op impact." }
       ]
     },
@@ -596,8 +627,9 @@
       "week1": {
         "label": "/ Week 1",
         "items": [
+          "Pre-assessment vragenlijst (vooraf)",
           "Intakegesprek en briefing",
-          "Interviews met founder, sales en marketing",
+          "Interviews met founder, sales en marketing/ops",
           "CRM & data analyse",
           "Markt- en concurrentie review"
         ]
@@ -636,7 +668,15 @@
         },
         {
           "q": "Hoe bereid ik me voor?",
-          "a": "Minimaal: toegang tot je CRM (als je er een hebt), en beschikbaarheid voor een interview van 60-90 minuten. Ik regel de rest."
+          "a": "Je ontvangt een korte pre-assessment vragenlijst (15 minuten) die je vooraf invult. Verder: toegang tot je CRM (als je er een hebt) en beschikbaarheid voor 2-3 interviews. Ik regel de rest."
+        },
+        {
+          "q": "Wat is het Sales Maturity Model?",
+          "a": "Elke dimensie wordt gescoord op een schaal van 1 tot 5: van Ad Hoc (geen structuur) tot Geoptimaliseerd (schaalbaar en zelfstandig draaiend). Dit is de industriestandaard voor maturity assessments en geeft je direct een helder beeld van waar je staat."
+        },
+        {
+          "q": "Waarom 11 dimensies en niet minder?",
+          "a": "Omdat je salesoperatie uit meer bestaat dan alleen het verkoopgesprek. Van strategie tot klantbehoud, van CRM tot AI-readiness — elke dimensie die je niet meet, is een blinde vlek. De 11 dimensies zijn gevalideerd tegen 9 internationale sales frameworks en dekken alles wat ertoe doet."
         }
       ]
     },

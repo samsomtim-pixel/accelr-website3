@@ -30,10 +30,10 @@ export async function generateMetadata({
 export default async function DeScanPage() {
   const t = await getTranslations("deScan");
 
-  const dimensionItems = t.raw("dimensies.items") as Array<{
-    num: number;
+  const dimensionCategories = t.raw("dimensies.categories") as Array<{
+    label: string;
     name: string;
-    question: string;
+    items: Array<{ num: number; name: string; question: string }>;
   }>;
   const deliverableItems = t.raw("deliverables.items") as string[];
   const week1Items = t.raw("tijdlijn.week1.items") as string[];
@@ -103,7 +103,7 @@ export default async function DeScanPage() {
           </div>
         </section>
 
-        {/* ─── 10 dimensies ─── */}
+        {/* ─── 11 dimensies in 5 categorieën ─── */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -118,16 +118,33 @@ export default async function DeScanPage() {
               </div>
             </FadeIn>
 
-            <div className="mx-auto mt-12 max-w-3xl space-y-3">
-              {dimensionItems.map((d, i) => (
-                <FadeIn key={d.num} delay={i * 0.05}>
-                  <div className="flex items-start gap-4 rounded-2xl border border-border-light-mode bg-bg-light p-4 transition-all duration-300 hover:shadow-md hover:shadow-black/5">
-                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent-teal/10 font-display text-sm font-bold text-accent-teal">
-                      {d.num}
-                    </span>
-                    <div>
-                      <p className="font-display font-semibold text-text-dark">{d.name}</p>
-                      <p className="text-sm text-text-dark-secondary">{d.question}</p>
+            <div className="mx-auto mt-12 max-w-3xl space-y-8">
+              {dimensionCategories.map((cat, catIdx) => (
+                <FadeIn key={cat.label} delay={catIdx * 0.1}>
+                  <div>
+                    <div className="mb-3 flex items-center gap-2">
+                      <span className="inline-flex h-7 w-7 items-center justify-center rounded-md bg-accent-teal-dark font-display text-xs font-bold text-white">
+                        {cat.label}
+                      </span>
+                      <span className="font-display text-sm font-semibold text-accent-teal-dark uppercase tracking-wide">
+                        {cat.name}
+                      </span>
+                    </div>
+                    <div className="space-y-3">
+                      {cat.items.map((d) => (
+                        <div
+                          key={d.num}
+                          className="flex items-start gap-4 rounded-2xl border border-border-light-mode bg-bg-light p-4 transition-all duration-300 hover:shadow-md hover:shadow-black/5"
+                        >
+                          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent-teal/10 font-display text-sm font-bold text-accent-teal">
+                            {d.num}
+                          </span>
+                          <div>
+                            <p className="font-display font-semibold text-text-dark">{d.name}</p>
+                            <p className="text-sm text-text-dark-secondary">{d.question}</p>
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </FadeIn>
