@@ -201,7 +201,7 @@ export default async function DeBouwPage() {
           </div>
         </section>
 
-        {/* ─── Bouwblok details ─── */}
+        {/* ─── Ook los beschikbaar ─── */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -210,6 +210,9 @@ export default async function DeBouwPage() {
                 <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
                   {t("bouwblokken.title")}
                 </h2>
+                <p className="mt-4 text-text-dark-secondary">
+                  {t("bouwblokken.subtitle")}
+                </p>
               </div>
             </FadeIn>
 
@@ -232,6 +235,12 @@ export default async function DeBouwPage() {
                 </FadeIn>
               ))}
             </div>
+
+            <FadeIn delay={0.4}>
+              <p className="mx-auto mt-8 max-w-2xl text-center text-sm font-medium text-text-dark-muted">
+                {t("bouwblokken.priceNote")}
+              </p>
+            </FadeIn>
           </div>
         </section>
 
@@ -246,13 +255,16 @@ export default async function DeBouwPage() {
                 <p className="mt-4 text-lg text-text-dark-secondary">
                   {t("ctaFooter.desc")}
                 </p>
+                <p className="mt-2 text-sm font-semibold text-accent-teal-dark">
+                  {t("ctaFooter.scanNote")}
+                </p>
                 <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                   <Link href="/de-scan" className="btn-primary">
-                    <span className="btn-label">{tc("startMetDeScan")}</span>
+                    <span className="btn-label">{t("ctaFooter.ctaScan")}</span>
                     <span className="btn-arrow"><ArrowRight size={16} /></span>
                   </Link>
                   <Link href="/contact" className="btn-secondary-dark">
-                    {tc("planKennismaking")}
+                    {t("ctaFooter.ctaContact")}
                   </Link>
                 </div>
               </div>

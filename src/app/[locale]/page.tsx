@@ -86,14 +86,6 @@ export default async function HomePage() {
     extra: string | null;
     cta: string;
   }>;
-  const bouwPakketten = t.raw("bouwblokken.pakketten") as Array<{
-    title: string;
-    price: string;
-    priceSuffix: string;
-    duration: string;
-    highlight?: boolean;
-    items: string[];
-  }>;
   const resultaatCards = t.raw("resultaten.cards") as Array<{
     name: string;
     subtitle: string;
@@ -105,16 +97,6 @@ export default async function HomePage() {
     fulltime: string;
     interim: string;
     accelr: string;
-  }>;
-  const investmentModels = t.raw("investering.models") as Array<{
-    title: string;
-    price: string;
-    priceSuffix: string;
-    duration: string;
-    result: string;
-    uren: string;
-    garantie: boolean;
-    scanIncluded: string;
   }>;
   const voorJouItems = t.raw("voorWie.voorJou") as string[];
   const nietVoorJouItems = t.raw("voorWie.nietVoorJouItems") as string[];
@@ -378,72 +360,7 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 6 — BOUWBLOKKEN (PAKKETTEN) ═══ */}
-        <section id="bouwblokken" className="bg-bg-light py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <p className="section-label-dark">{t("bouwblokken.label")}</p>
-              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                {t("bouwblokken.title")}
-              </h2>
-              <p className="mt-4 max-w-2xl text-text-dark-secondary">
-                {t("bouwblokken.subtitle")}
-              </p>
-            </FadeIn>
-
-            <div className="mx-auto mt-12 max-w-5xl grid gap-6 md:grid-cols-3">
-              {bouwPakketten.map((pkg, i) => (
-                <FadeIn key={pkg.title} delay={i * 0.1}>
-                  <div
-                    className={`relative h-full rounded-2xl border p-6 sm:p-8 flex flex-col ${
-                      pkg.highlight
-                        ? "border-accent-teal ring-2 ring-accent-teal/20 bg-accent-teal/5"
-                        : "border-border-light-mode bg-white"
-                    }`}
-                  >
-                    {pkg.highlight && (
-                      <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-accent-teal-dark px-3 py-1 text-xs font-bold text-white">
-                        {t("bouwblokken.popular")}
-                      </span>
-                    )}
-                    <h3 className="font-display text-xl font-bold text-text-dark">
-                      {pkg.title}
-                    </h3>
-                    <div className="mt-4 flex items-baseline gap-2">
-                      <span className="font-display text-3xl font-bold text-accent-teal-dark">
-                        {pkg.price}
-                      </span>
-                      <span className="text-sm text-text-dark-muted">{pkg.priceSuffix}</span>
-                    </div>
-                    <p className="mt-2 text-sm text-text-dark-muted">{pkg.duration}</p>
-
-                    <ul className="mt-6 space-y-3 flex-1">
-                      {pkg.items.map((item) => (
-                        <li key={item} className="flex items-start gap-3 text-sm text-text-dark-secondary">
-                          <Check size={16} className="mt-0.5 shrink-0 text-accent-teal-dark" strokeWidth={3} />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-
-                    <Link href="/de-bouw" className="mt-8 block w-full btn-primary text-center">
-                      <span className="btn-label">{t("bouwblokken.cta")}</span>
-                      <span className="btn-arrow"><ArrowRight size={16} /></span>
-                    </Link>
-                  </div>
-                </FadeIn>
-              ))}
-            </div>
-
-            <FadeIn delay={0.4}>
-              <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary">
-                {t("bouwblokken.note")}
-              </p>
-            </FadeIn>
-          </div>
-        </section>
-
-        {/* ═══ SECTIE 7 — RESULTATEN ═══ */}
+        {/* ═══ SECTIE 6 — RESULTATEN ═══ */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -621,91 +538,7 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 9 — INVESTERING ═══ */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <p className="section-label-dark">{t("investering.label")}</p>
-              <h2 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                {t("investering.title")}
-              </h2>
-            </FadeIn>
-
-            <div className="mt-12 grid gap-6 sm:grid-cols-3">
-              {investmentModels.map((model, i) => (
-                <FadeIn key={model.title} delay={i * 0.1}>
-                  <div
-                    className={`card-light h-full flex flex-col ${i === 2 ? "ring-2 ring-accent-teal/40" : ""}`}
-                  >
-                    <p className="font-display text-lg font-bold text-text-dark">
-                      {model.title}
-                    </p>
-
-                    <p className="mt-4 text-2xl font-bold text-accent-teal-dark">
-                      {model.price}
-                      <span className="text-sm font-normal text-text-dark-secondary">
-                        {" "}
-                        {model.priceSuffix}
-                      </span>
-                    </p>
-
-                    <div className="mt-6 space-y-4 flex-1">
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          {t("investering.labels.doorlooptijd")}
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.duration}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          {t("investering.labels.watJeKrijgt")}
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.result}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          {t("investering.labels.uren")}
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.uren}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          {t("investering.labels.geldTerugGarantie")}
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.garantie ? (
-                            <span className="flex items-center gap-1 text-accent-teal-dark font-semibold">
-                              <Check size={14} strokeWidth={3} />{" "}
-                              {t("investering.labels.ja")}
-                            </span>
-                          ) : (
-                            "\u2014"
-                          )}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs font-medium uppercase tracking-wider text-text-dark-muted">
-                          {t("investering.labels.inclusiefDeScan")}
-                        </p>
-                        <p className="mt-1 text-sm text-text-dark">
-                          {model.scanIncluded}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </FadeIn>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ═══ SECTIE 10 — OVER TIM ═══ */}
+        {/* ═══ SECTIE 9 — OVER TIM ═══ */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>

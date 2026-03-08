@@ -1585,7 +1585,7 @@
       "label": "De Bouw",
       "title": "Van diagnose naar",
       "titleHighlight": "werkende infrastructuur",
-      "subtitle": "In 6 tot 16 weken bouw ik een salesinfrastructuur die past bij jouw groeifase. Geen losse projecten, maar een samenhangend systeem van strategie, processen, tools en enablement.",
+      "subtitle": "Na De Scan weet je waar je staat. In De Bouw vertaal ik dat naar een werkende salesinfrastructuur in 6 tot 16 weken. Geen losse projecten, maar een samenhangend systeem van strategie, processen, tools en enablement.",
       "cta": "Start met De Scan"
     },
     "pakketten": {
@@ -1664,8 +1664,10 @@
       ]
     },
     "bouwblokken": {
-      "label": "De bouwblokken",
-      "title": "De expertise achter elk pakket",
+      "label": "Ook los beschikbaar",
+      "title": "Individuele bouwblokken",
+      "subtitle": "Weet je precies wat je nodig hebt? Individuele bouwblokken zijn ook los af te nemen.",
+      "priceNote": "Vanaf \u20ac5.000 per bouwblok",
       "items": [
         {
           "title": "Sales Strategie & GTM",
@@ -1686,8 +1688,11 @@
       ]
     },
     "ctaFooter": {
-      "title": "Klaar om jouw salesinfrastructuur te bouwen?",
-      "desc": "Start met De Scan om te bepalen welk pakket het beste bij jouw situatie past, of plan direct een gesprek."
+      "title": "Niet zeker welk pakket past?",
+      "desc": "Start met De Scan \u2014 een diepgaande analyse van je huidige salesorganisatie. Op basis daarvan adviseer ik welk pakket het beste past.",
+      "scanNote": "De Scan \u2014 \u20ac3.500 vast, geld-terug garantie",
+      "ctaScan": "Start met De Scan",
+      "ctaContact": "Plan een kennismaking"
     }
   },
   "blog": {

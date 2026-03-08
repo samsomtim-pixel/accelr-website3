@@ -1585,7 +1585,7 @@
       "label": "The Build",
       "title": "From diagnosis to",
       "titleHighlight": "working infrastructure",
-      "subtitle": "In 6 to 16 weeks, I build a sales infrastructure tailored to your growth stage. No isolated projects, but a cohesive system of strategy, processes, tools, and enablement.",
+      "subtitle": "After The Scan, you know where you stand. In The Build, I translate that into a working sales infrastructure in 6 to 16 weeks. No isolated projects, but a cohesive system of strategy, processes, tools, and enablement.",
       "cta": "Start with The Scan"
     },
     "pakketten": {
@@ -1664,8 +1664,10 @@
       ]
     },
     "bouwblokken": {
-      "label": "The building blocks",
-      "title": "The expertise behind each package",
+      "label": "Also available individually",
+      "title": "Individual building blocks",
+      "subtitle": "Know exactly what you need? Individual building blocks can also be purchased separately.",
+      "priceNote": "Starting from \u20ac5,000 per building block",
       "items": [
         {
           "title": "Sales Strategy & GTM",
@@ -1686,8 +1688,11 @@
       ]
     },
     "ctaFooter": {
-      "title": "Ready to build your sales infrastructure?",
-      "desc": "Start with The Scan to determine which package fits your situation best, or book a call directly."
+      "title": "Not sure which package fits?",
+      "desc": "Start with The Scan \u2014 an in-depth analysis of your current sales organization. Based on the results, I\u2019ll advise which package is the best fit.",
+      "scanNote": "The Scan \u2014 \u20ac3,500 fixed fee, money-back guarantee",
+      "ctaScan": "Start with The Scan",
+      "ctaContact": "Book an intro call"
     }
   },
   "blog": {
