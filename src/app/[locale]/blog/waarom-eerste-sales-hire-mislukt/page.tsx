@@ -161,7 +161,7 @@ export default async function BlogPost() {
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                       <Link
-                        href="/expertise/fractional-head-of-sales"
+                        href="/de-motor"
                         className="btn-secondary-dark"
                       >
                         {t("inlineCta.ctaFractional")}

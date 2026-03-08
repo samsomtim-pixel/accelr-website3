@@ -4,19 +4,22 @@
     "siteDescription": "B2B sales consultancy voor tech-founders. Van founder-led sales naar een schaalbare sales infrastructuur met CRM implementatie, B2B leadgeneratie en bewezen salesprocessen."
   },
   "nav": {
+    "diensten": "Diensten",
     "expertise": "Expertise",
     "methode": "Methode",
     "overTim": "Over Tim",
     "blog": "Blog",
     "contact": "Plan een gesprek",
-    "expertiseItems": {
+    "dienstenItems": {
       "deScan": "De Scan\u2122",
+      "deBouw": "De Bouw",
+      "deMotor": "De Motor"
+    },
+    "expertiseItems": {
       "strategieGtm": "Strategie & GTM",
-      "crmSalesproces": "CRM & Salesproces",
       "outboundLeadgen": "Outbound & Leadgen",
-      "salesEnablement": "Sales Enablement",
-      "aiAutomation": "AI & Automation",
-      "fractional": "Fractional Head of Sales"
+      "crmSalesproces": "CRM & Salesproces",
+      "salesEnablement": "Sales Enablement"
     }
   },
   "footer": {
@@ -28,14 +31,18 @@
       "overTim": "Over Tim",
       "blog": "Blog"
     },
+    "diensten": "Diensten",
+    "dienstenItems": {
+      "deScan": "De Scan",
+      "deBouw": "De Bouw",
+      "deMotor": "De Motor"
+    },
     "expertise": "Expertise",
     "expertiseItems": {
-      "deScan": "De Scan",
       "strategieGtm": "Strategie & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
       "crmSalesproces": "CRM & Salesproces",
-      "salesEnablement": "Sales Enablement",
-      "fractional": "Fractional Head of Sales"
+      "salesEnablement": "Sales Enablement"
     },
     "contact": "Contact",
     "planGesprek": "Plan een gesprek",
@@ -67,15 +74,15 @@
   },
   "home": {
     "metadata": {
-      "title": "Fractional Head of Sales voor B2B founders | Accelr",
+      "title": "B2B Sales Consultancy voor Tech-Founders | Accelr",
       "description": "B2B sales consultancy voor tech-founders. Van ad-hoc sales naar een schaalbare sales infrastructuur. Sales uitbesteden, CRM implementatie en B2B leadgeneratie in Nederland."
     },
     "hero": {
       "title": "Je salesgroei hangt af van jou. Dat is het probleem.",
-      "subtitle": "B2B sales consultancy die werkt. Ik bouw je sales infrastructuur, strategie, proces en team, zodat groei niet meer van jou alleen afhangt. Van diagnose tot B2B leadgeneratie en operationeel salesleiderschap.",
-      "drieluik1": "/ Sales Diagnose",
-      "drieluik2": "/ Projectmatig bouwen",
-      "drieluik3": "/ Fractional Head of Sales",
+      "subtitle": "Ik ontwerp, bouw en onderhoud AI-gedreven salesinfrastructuur voor B2B tech-bedrijven. Van diagnose tot doorlopend partnerschap, zodat groei niet meer van jou alleen afhangt.",
+      "drieluik1": "/ De Scan \u2014 Diagnose",
+      "drieluik2": "/ De Bouw \u2014 Implementatie",
+      "drieluik3": "/ De Motor \u2014 Doorlopend partnerschap",
       "cta": "Plan een kennismaking",
       "ctaSecondary": "Start met De Scan",
       "ctaSubtext": "30 minuten \u00b7 Geen verplichtingen \u00b7 Je loopt weg met 3 concrete actiepunten."
@@ -122,17 +129,17 @@
           "cta": "Bekijk de bouwblokken"
         },
         {
-          "title": "Fractional Head of Sales",
-          "subtitle": "Parttime commercieel leider",
-          "body": "Ik word je parttime commercieel leider. 1-2 dagen per week, minimaal 6 maanden. Inclusief diagnose en alles wat nodig is.",
-          "details": "Min. 6 maanden",
+          "title": "De Motor",
+          "subtitle": "Doorlopend partnerschap",
+          "body": "Ik word je doorlopend commercieel partner. Structureel salesleiderschap, coaching en optimalisatie. Flexibel op- en afschaalbaar.",
+          "details": "Min. 3 maanden",
           "badge": "Vast maandelijks retainer",
-          "price": "Vanaf \u20ac4.000/maand",
+          "price": "Vanaf \u20ac2.500/maand",
           "extra": null,
-          "cta": "Meer over Fractional"
+          "cta": "Meer over De Motor"
         }
       ],
-      "note": "Niet zeker wat je nodig hebt? Start met De Scan. Bij een Fractional traject zit de diagnose in de eerste maand, je betaalt De Scan niet apart."
+      "note": "Niet zeker wat je nodig hebt? Start met De Scan. Bij een Motor-traject wordt De Scan verrekend met de eerste maand."
     },
     "formule": {
       "label": "/ Het framework",
@@ -146,49 +153,59 @@
       "cta": "Ontdek de volledige aanpak"
     },
     "bouwblokken": {
-      "label": "/ Bouwblokken",
-      "title": "Wat ik bouw",
-      "subtitle": "Dit zijn de onderdelen die ik inzet, op projectbasis of doorlopend.",
-      "layerLabels": ["FUNDAMENT", "BOUWEN", "OPTIMALISEREN"],
-      "cards": [
+      "label": "/ De Bouw",
+      "title": "Drie pakketten, \u00e9\u00e9n werkend systeem",
+      "subtitle": "Elk pakket combineert bouwblokken tot een samenhangend systeem. Geen losse projecten, maar ge\u00efntegreerde implementatie.",
+      "popular": "Meest gekozen",
+      "cta": "Bekijk alle pakketten",
+      "pakketten": [
         {
-          "title": "De Scan\u2122",
-          "badge": "DIAGNOSE",
-          "desc": "Volledige doorlichting van je salesoperatie. Scores op 10 dimensies, geprioriteerde roadmap, harde cijfers.",
-          "aiText": "AI-powered: data-analyse en benchmarking"
+          "title": "Fundament",
+          "price": "\u20ac7.500",
+          "priceSuffix": "eenmalig",
+          "duration": "6\u20138 weken",
+          "highlight": false,
+          "items": [
+            "Sales Strategie & GTM",
+            "CRM Implementatie & Inrichting",
+            "Basis rapportages & dashboards",
+            "Playbook template"
+          ]
         },
         {
-          "title": "Strategie & GTM",
-          "badge": "STRATEGIE",
-          "desc": "ICP, positionering, go-to-market plan, pricing. Het strategisch fundament op basis van data, niet onderbuikgevoel.",
-          "aiText": "AI-powered: ICP-modellering en marktanalyse"
+          "title": "Groeimachine",
+          "price": "\u20ac12.500",
+          "priceSuffix": "eenmalig",
+          "duration": "8\u201312 weken",
+          "highlight": true,
+          "items": [
+            "Sales Strategie & GTM",
+            "CRM Implementatie & Inrichting",
+            "Outbound & Leadgeneratie",
+            "Sales Enablement",
+            "AI-gedreven workflows",
+            "Complete playbooks"
+          ]
         },
         {
-          "title": "Outbound & Leadgen",
-          "badge": "PROCES",
-          "desc": "Signal-based prospecting die de juiste prospects benadert op het juiste moment. LinkedIn, e-mail en telefoon in \u00e9\u00e9n systeem.",
-          "aiText": "AI-powered: koopsignalen detecteren, verrijken en converteren"
-        },
-        {
-          "title": "CRM & Salesproces",
-          "badge": "PROCES",
-          "desc": "CRM dat je team echt gebruikt. Pipeline-dashboards, automatische updates, lead scoring. Geen data-invoer meer.",
-          "aiText": "AI-powered: enrichment, scoring en automatisering"
-        },
-        {
-          "title": "Sales Enablement",
-          "badge": "PEOPLE",
-          "desc": "Playbooks op basis van wat werkt, call-analyse, coaching en onboarding. Je team wordt elke week beter.",
-          "aiText": "AI-powered: conversation intelligence en automatische playbook-updates"
+          "title": "Transformatie",
+          "price": "\u20ac17.500",
+          "priceSuffix": "eenmalig",
+          "duration": "12\u201316 weken",
+          "highlight": false,
+          "items": [
+            "Sales Strategie & GTM",
+            "CRM Implementatie & Inrichting",
+            "Outbound & Leadgeneratie",
+            "Sales Enablement",
+            "AI & Automation",
+            "Dedicated projectleider",
+            "Hiring support & onboarding",
+            "Volledige playbooks & training"
+          ]
         }
       ],
-      "ontdekMeer": "Ontdek meer",
-      "fractional": {
-        "label": "OVERKOEPELEND",
-        "title": "Fractional Head of Sales",
-        "desc": "Bewaakt alle lagen doorlopend. 1-2 dagen/week."
-      },
-      "note": "Bij De Scan analyseer ik alle lagen. Bij De Bouw werk ik aan specifieke onderdelen. Als Fractional Head of Sales bewaak ik het geheel doorlopend."
+      "note": "Alle prijzen excl. BTW. Niet zeker welk pakket? Start met De Scan voor een gefundeerd advies."
     },
     "resultaten": {
       "label": "/ Resultaten",
@@ -219,7 +236,7 @@
         "zelfDoen": "Zelf doen",
         "fulltimeHos": "Fulltime HoS",
         "interim": "Interim",
-        "accelrFractional": "Accelr Fractional"
+        "accelrFractional": "Accelr Motor"
       },
       "rows": [
         {
@@ -227,7 +244,7 @@
           "zelf": "\u20ac0 + opportunity",
           "fulltime": "\u20ac150K-\u20ac220K",
           "interim": "\u20ac120K-\u20ac180K",
-          "accelr": "\u20ac48K-\u20ac96K"
+          "accelr": "\u20ac30K-\u20ac60K"
         },
         {
           "aspect": "Commitment",
@@ -306,14 +323,14 @@
           "scanIncluded": "Apart (of vooraf gedaan)"
         },
         {
-          "title": "Fractional Head of Sales",
-          "price": "Vanaf \u20ac4.000",
+          "title": "De Motor",
+          "price": "Vanaf \u20ac2.500",
           "priceSuffix": "/maand",
-          "duration": "Min. 6 maanden",
-          "result": "Commercieel leiderschap + alle bouwblokken + team coaching + wekelijks overleg",
-          "uren": "8-16 uur/week (1-2 dagen)",
+          "duration": "Min. 3 maanden",
+          "result": "Doorlopend salesleiderschap + optimalisatie + coaching + wekelijks overleg",
+          "uren": "Flexibel (Light/Standard/Intensive)",
           "garantie": false,
-          "scanIncluded": "Eerste maand = diagnose"
+          "scanIncluded": "Verrekend met eerste maand"
         }
       ],
       "labels": {
@@ -359,20 +376,20 @@
       "title": "Veelgestelde vragen",
       "items": [
         {
-          "q": "Wat is een Fractional Head of Sales?",
-          "a": "Een Fractional Head of Sales is een ervaren commercieel leider die 1-2 dagen per week meebouwt aan je salesorganisatie. Je krijgt strategisch leiderschap en hands-on execution zonder de kosten van een fulltime hire (\u20ac150K+/jaar). In Amerika is dit model al gangbaar, in Nederland begint het net."
+          "q": "Wat is De Motor?",
+          "a": "De Motor is een doorlopend partnerschap waarbij ik je salesoperatie blijf optimaliseren en aansturen. Beschikbaar in drie niveaus (Light, Standard, Intensive) zodat je precies de intensiteit kiest die past bij jouw fase. Het kost een fractie van een fulltime Head of Sales (\u20ac150K+/jaar)."
         },
         {
           "q": "Waarom beginnen met De Scan?",
           "a": "Van de founders die ik spreek denkt 80% dat het probleem \"meer leads\" is. Na De Scan blijkt het bijna altijd een proces-, CRM- of kwalificatieprobleem te zijn. De Scan voorkomt dat je geld uitgeeft aan de verkeerde oplossing. Ben je het niet eens met de bevindingen? Dan krijg je je geld terug."
         },
         {
-          "q": "Hoe verschilt Fractional van Interim?",
-          "a": "Een interim manager vult een gat en houdt de operatie draaiende. Een Fractional Head of Sales is gericht op versnelling: bouwen, team ontwikkelen en structuur neerzetten. Het kost 60-70% minder dan een fulltime hire, en het doel is een fundament bouwen zodat je kunt schalen."
+          "q": "Wat is het verschil tussen De Bouw en De Motor?",
+          "a": "De Bouw is projectmatig: ik bouw je salesinfrastructuur in 6-16 weken en lever op. De Motor is doorlopend: ik blijf je systeem aansturen, optimaliseren en je team coachen. Veel klanten starten met De Bouw en schakelen daarna door naar De Motor."
         },
         {
           "q": "Hoe snel resultaten?",
-          "a": "De Scan levert binnen 2-3 weken een helder beeld op. Bij een Bouw-project zijn de eerste onderdelen binnen 4-6 weken operationeel. Bij een Fractional traject heb je na 90 dagen een ingericht CRM en gedocumenteerd proces, na 3-4 maanden zie je pipeline-impact, en structurele groei volgt na 6+ maanden. Eerlijk: duurzame resultaten kosten tijd."
+          "a": "De Scan levert binnen 2-3 weken een helder beeld op. Bij een Bouw-pakket zijn de eerste onderdelen binnen 4-6 weken operationeel. Bij De Motor zie je na 90 dagen een ingericht CRM en gedocumenteerd proces, na 3-4 maanden pipeline-impact, en structurele groei na 6+ maanden. Eerlijk: duurzame resultaten kosten tijd."
         }
       ]
     },
@@ -386,7 +403,7 @@
   "methode": {
     "metadata": {
       "title": "De Accelr Methode\u2122, Diagnose \u2192 Build \u2192 Run",
-      "description": "Van ad-hoc sales naar een schaalbaar systeem. 10 dimensies, 4 fases, werkende systemen die van jou zijn."
+      "description": "Van ad-hoc sales naar een schaalbaar systeem. 11 dimensies, 4 fases, werkende systemen die van jou zijn."
     },
     "hero": {
       "label": "/ De Accelr Methode\u2122",
@@ -437,8 +454,8 @@
           "desc": "Je kiest specifieke pilaren om aan te werken. Projectmatig, afgebakend."
         },
         {
-          "title": "Fractional Head of Sales",
-          "desc": "Alle pilaren, doorlopend, met mij als eigenaar. Continue optimalisatie."
+          "title": "De Motor",
+          "desc": "Alle pilaren, doorlopend, met mij als partner. Continue optimalisatie en aansturing."
         }
       ]
     },
@@ -447,7 +464,7 @@
       "items": [
         {
           "num": "/01",
-          "title": "Sales Maturity Score op 10 dimensies",
+          "title": "Sales Maturity Score op 11 dimensies",
           "desc": "Een volledige doorlichting van je salesoperatie. Geen meningen, meetbare scores per dimensie met concrete verbeterpunten."
         },
         {
@@ -507,8 +524,8 @@
         },
         {
           "num": "/04",
-          "title": "Doorlopend: Runnen & Opschalen",
-          "desc": "Een systeem zonder leiderschap verwatert binnen 3 maanden. Ik blijf als je fractional Head of Sales, niet adviseren, maar aansturen.",
+          "title": "De Motor \u2014 Doorlopend partnerschap",
+          "desc": "Een systeem zonder aansturing verwatert binnen 3 maanden. Met De Motor blijf ik je salesoperatie aansturen en optimaliseren.",
           "items": [
             "Wekelijkse pipeline reviews & forecasting",
             "Sales coaching & 1-op-1 begeleiding",
@@ -516,7 +533,7 @@
             "Kwartaal-reviews met strategische bijsturing",
             "Eerste sales hire: roldefinitie, onboarding, coaching"
           ],
-          "details": "1-2 dagen per week \u00b7 Min. 3 maanden \u00b7 Daarna maandelijks opzegbaar",
+          "details": "Light (\u20ac2.500/mnd) \u00b7 Standard (\u20ac4.000/mnd) \u00b7 Intensive (\u20ac5.000/mnd)",
           "note": "Het doel is dat je me niet meer nodig hebt. Dat is geen falen, dat is het plan."
         }
       ]
@@ -841,6 +858,11 @@
           "num": "/04",
           "title": "Pricing & Deal Structuur",
           "desc": "Wat vraag je, hoe presenteer je het, en hoe structureer je deals? Pricing die past bij je markt, je waardepropositie en je salesproces."
+        },
+        {
+          "num": "/05",
+          "title": "Competitive Intelligence",
+          "desc": "Wie zijn je concurrenten? Hoe positioneren zij zich? Wat zijn hun prijzen? Een systematische analyse zodat je je altijd kunt differentiëren."
         }
       ]
     },
@@ -929,6 +951,16 @@
           "num": "/04",
           "title": "Integraties",
           "desc": "Je CRM verbonden met je email, calendar, outbound tools en marketing automation. E\u00e9n bron van waarheid."
+        },
+        {
+          "num": "/05",
+          "title": "E-signatures & Proposals",
+          "desc": "Geïntegreerde offertes en digitale handtekeningen via PandaDoc of GetAccept. Sluit deals sneller met professionele proposals direct vanuit je CRM."
+        },
+        {
+          "num": "/06",
+          "title": "Website Visitor Identification",
+          "desc": "Weet welke bedrijven je website bezoeken en wat ze bekijken. Dealfront integratie voor warme leads die direct in je CRM pipeline terechtkomen."
         }
       ]
     },
@@ -1022,6 +1054,11 @@
           "num": "/05",
           "title": "AI-Targeting & Personalisatie",
           "desc": "ICP-gebaseerde lijsten via Clay en Apollo. AI-enrichment combineert 6+ databronnen per prospect. Elke outreach is gepersonaliseerd op basis van het specifieke signaal \u2014 niet op basis van een template."
+        },
+        {
+          "num": "/06",
+          "title": "Telefonie & Call Sequences",
+          "desc": "Cold calling is niet dood, maar het moet slim. Belscripts, call sequences en conversation intelligence zodat elk gesprek beter wordt."
         }
       ]
     },
@@ -1114,6 +1151,11 @@
           "num": "/04",
           "title": "Training & Coaching",
           "desc": "Hands-on training voor je team op de nieuwe tools en frameworks. Geen eenmalige workshop, een trainingsprogramma dat beklijft."
+        },
+        {
+          "num": "/05",
+          "title": "Sales Knowledge Base",
+          "desc": "Een centrale plek waar al je saleskennis samenkomt. Product specs, case studies, concurrentie-info en best practices, doorzoekbaar en altijd up-to-date."
         }
       ]
     },
@@ -1389,6 +1431,265 @@
       "cta": "Plan een gesprek"
     }
   },
+  "deMotor": {
+    "metadata": {
+      "title": "De Motor | Doorlopend Sales Partnership",
+      "description": "Doorlopend sales partnership. Campagne-optimalisatie, pipeline reviews, tool-onderhoud en strategisch sparren. Vanaf \u20ac2.500/maand."
+    },
+    "hero": {
+      "label": "/ De Motor",
+      "title": "Je systeem draait. Nu moet het blijven",
+      "titleHighlight": "presteren.",
+      "subtitle": "Doorlopend sales partnership. Ik houd je AI-salesysteem scherp: campagne-optimalisatie, pipeline reviews, tool-onderhoud en strategisch sparren.",
+      "price": "Vanaf \u20ac2.500",
+      "priceNote": "/maand \u00b7 Min. 3 maanden",
+      "cta": "Plan een gesprek",
+      "ctaSecondary": "Start met De Scan"
+    },
+    "probleem": {
+      "label": "/ Het probleem",
+      "title": "Zonder onderhoud verwatert elk systeem binnen 3 maanden.",
+      "desc": "Je hebt een CRM, outbound engine en playbooks. Maar wie optimaliseert de campagnes? Wie checkt deliverability? Wie fixt het als Clay een update doet? Zonder onderhoud verwatert elk systeem binnen 3 maanden."
+    },
+    "tiers": {
+      "label": "/ Drie niveaus",
+      "title": "Kies het niveau dat bij je past",
+      "subtitle": "Van operationeel onderhoud tot strategisch sales leadership.",
+      "popular": "Meest gekozen",
+      "cta": "Plan een gesprek",
+      "cards": [
+        {
+          "title": "Light",
+          "price": "\u20ac2.500",
+          "priceSuffix": "/maand",
+          "hours": "4 uur/week",
+          "highlight": false,
+          "features": [
+            "Maandelijkse campagne-optimalisatie",
+            "Tool-onderhoud en updates",
+            "Deliverability monitoring",
+            "Maandelijkse rapportage",
+            "Prioriteit-support (response binnen 8 uur)"
+          ]
+        },
+        {
+          "title": "Standard",
+          "price": "\u20ac4.000",
+          "priceSuffix": "/maand",
+          "hours": "6-8 uur/week",
+          "highlight": true,
+          "features": [
+            "Alles uit Light, plus:",
+            "Wekelijkse pipeline reviews",
+            "Sales coaching en 1-op-1 begeleiding",
+            "Kwartaal-reviews met strategische bijsturing",
+            "A/B testing op messaging en targeting"
+          ]
+        },
+        {
+          "title": "Intensive",
+          "price": "\u20ac5.000",
+          "priceSuffix": "/maand",
+          "hours": "8-10 uur/week",
+          "highlight": false,
+          "features": [
+            "Alles uit Standard, plus:",
+            "Strategisch sales leadership (fractional HoS functie)",
+            "Eerste sales hire: roldefinitie, onboarding, coaching",
+            "Revenue forecasting en board-ready rapportage",
+            "Doorlopende AI-automation ontwikkeling"
+          ]
+        }
+      ]
+    },
+    "vergelijking": {
+      "label": "/ Vergelijking",
+      "title": "Wat zit er in elk niveau?",
+      "headers": {
+        "light": "Light",
+        "standard": "Standard",
+        "intensive": "Intensive"
+      },
+      "rows": [
+        { "aspect": "Uren/week", "light": "4 uur", "standard": "6-8 uur", "intensive": "8-10 uur" },
+        { "aspect": "Campagne-optimalisatie", "light": "Maandelijks", "standard": "Wekelijks", "intensive": "Wekelijks" },
+        { "aspect": "Pipeline reviews", "light": "\u2014", "standard": "Wekelijks", "intensive": "Wekelijks" },
+        { "aspect": "Sales coaching", "light": "\u2014", "standard": "1-op-1 begeleiding", "intensive": "1-op-1 + team" },
+        { "aspect": "Strategisch leadership", "light": "\u2014", "standard": "\u2014", "intensive": "Fractional HoS functie" },
+        { "aspect": "Sales hiring support", "light": "\u2014", "standard": "\u2014", "intensive": "Roldefinitie + onboarding" },
+        { "aspect": "Rapportage", "light": "Maandelijks", "standard": "Kwartaal-reviews", "intensive": "Board-ready forecasting" },
+        { "aspect": "Investering/jaar", "light": "\u20ac30K", "standard": "\u20ac48K", "intensive": "\u20ac60K" }
+      ]
+    },
+    "voorWie": {
+      "label": "/ Fit check",
+      "title": "Voor wie is De Motor?",
+      "voorWieTitle": "De Motor is voor jou als...",
+      "voorWieItems": [
+        "Je De Bouw hebt doorlopen en het systeem wil laten draaien",
+        "Je een werkend CRM, outbound engine of playbooks hebt",
+        "Je geen fulltime sales leader nodig hebt maar wel operationeel onderhoud",
+        "Je wil dat iemand de campagnes, tools en pipeline bewaakt"
+      ],
+      "nietVoorWieTitle": "De Motor is NIET voor jou als...",
+      "nietVoorWieItems": [
+        "Je nog geen fundament hebt (begin met De Scan)",
+        "Je geen CRM of salesproces hebt (begin met De Bouw)",
+        "Je dagelijkse fulltime aanwezigheid nodig hebt",
+        "Je alleen een eenmalig advies zoekt"
+      ]
+    },
+    "voorwaarden": {
+      "label": "/ Voorwaarden",
+      "title": "Hoe het werkt",
+      "items": [
+        "Minimaal 3 maanden commitment",
+        "Maandelijks opzegbaar na minimumperiode",
+        "De Motor is beschikbaar na afronding van De Scan of De Bouw",
+        "Geen setupkosten \u2014 we starten direct met optimalisatie"
+      ]
+    },
+    "faq": {
+      "label": "/ FAQ",
+      "items": [
+        {
+          "q": "Wat is het verschil tussen De Motor en een Fractional Head of Sales?",
+          "a": "De Motor Intensive is in feite een Fractional Head of Sales. Het verschil is dat De Motor ook in lichtere varianten beschikbaar is voor bedrijven die geen strategisch leiderschap nodig hebben maar wel operationeel onderhoud."
+        },
+        {
+          "q": "Kan ik De Motor afnemen zonder eerst De Bouw te doen?",
+          "a": "Ja, maar ik begin altijd met De Scan om te bepalen of je systeem klaar is voor onderhoud of eerst gebouwd moet worden."
+        },
+        {
+          "q": "Wat als ik meer uren nodig heb dan het Intensive pakket?",
+          "a": "Dan bespreken we een maatwerk-arrangement. Voor bedrijven die meer dan 10 uur per week nodig hebben, is een fulltime Head of Sales waarschijnlijk een betere optie."
+        },
+        {
+          "q": "Hoe snel kan ik starten?",
+          "a": "Na De Scan of een intakegesprek kan De Motor binnen 1-2 weken starten. Er is geen lange opstarttijd."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Klaar om je salesmotor draaiende te houden?",
+      "desc": "Plan een gesprek om te bespreken welk Motor-niveau bij jouw situatie past.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "deBouw": {
+    "metadata": {
+      "title": "De Bouw | Accelr",
+      "description": "Van scan-resultaat naar werkende salesinfrastructuur. Kies het pakket dat past bij jouw ambitie: Fundament, Groeimachine of Transformatie."
+    },
+    "hero": {
+      "label": "De Bouw",
+      "title": "Van diagnose naar",
+      "titleHighlight": "werkende infrastructuur",
+      "subtitle": "In 6 tot 16 weken bouw ik een salesinfrastructuur die past bij jouw groeifase. Geen losse projecten, maar een samenhangend systeem van strategie, processen, tools en enablement.",
+      "cta": "Start met De Scan"
+    },
+    "pakketten": {
+      "label": "Drie pakketten",
+      "title": "Kies het pakket dat past bij jouw ambitie",
+      "subtitle": "Elk pakket is een combinatie van bouwblokken die samen een werkend systeem vormen. Geen losse modules \u2014 alles is ge\u00efntegreerd.",
+      "popular": "Meest gekozen",
+      "cta": "Plan een gesprek",
+      "note": "Alle prijzen zijn exclusief BTW. Betaling in 2 termijnen: 50% bij start, 50% bij oplevering. Maatwerkpakketten zijn mogelijk op aanvraag.",
+      "cards": [
+        {
+          "title": "Fundament",
+          "price": "\u20ac7.500",
+          "priceSuffix": "eenmalig",
+          "duration": "6\u20138 weken",
+          "highlight": false,
+          "bouwblokken": [
+            "Sales Strategie & GTM",
+            "CRM Implementatie & Inrichting",
+            "Basis rapportages & dashboards",
+            "Playbook template"
+          ]
+        },
+        {
+          "title": "Groeimachine",
+          "price": "\u20ac12.500",
+          "priceSuffix": "eenmalig",
+          "duration": "8\u201312 weken",
+          "highlight": true,
+          "bouwblokken": [
+            "Sales Strategie & GTM",
+            "CRM Implementatie & Inrichting",
+            "Outbound & Leadgeneratie",
+            "Sales Enablement",
+            "AI-gedreven workflows",
+            "Complete playbooks"
+          ]
+        },
+        {
+          "title": "Transformatie",
+          "price": "\u20ac17.500",
+          "priceSuffix": "eenmalig",
+          "duration": "12\u201316 weken",
+          "highlight": false,
+          "bouwblokken": [
+            "Sales Strategie & GTM",
+            "CRM Implementatie & Inrichting",
+            "Outbound & Leadgeneratie",
+            "Sales Enablement",
+            "AI & Automation",
+            "Dedicated projectleider",
+            "Hiring support & onboarding",
+            "Volledige playbooks & training"
+          ]
+        }
+      ]
+    },
+    "matrix": {
+      "label": "Vergelijking",
+      "title": "Wat zit er in elk pakket?",
+      "headers": {
+        "bouwblok": "Bouwblok",
+        "fundament": "Fundament",
+        "groeimachine": "Groeimachine",
+        "transformatie": "Transformatie"
+      },
+      "rows": [
+        { "name": "Sales Strategie & GTM", "fundament": true, "groeimachine": true, "transformatie": true },
+        { "name": "CRM Implementatie", "fundament": true, "groeimachine": true, "transformatie": true },
+        { "name": "Outbound & Leadgeneratie", "fundament": false, "groeimachine": true, "transformatie": true },
+        { "name": "Sales Enablement", "fundament": false, "groeimachine": true, "transformatie": true },
+        { "name": "AI & Automation", "fundament": false, "groeimachine": false, "transformatie": true },
+        { "name": "Playbooks & Training", "fundament": false, "groeimachine": true, "transformatie": true },
+        { "name": "Hiring Support", "fundament": false, "groeimachine": false, "transformatie": true },
+        { "name": "Dedicated Projectleider", "fundament": false, "groeimachine": false, "transformatie": true }
+      ]
+    },
+    "bouwblokken": {
+      "label": "De bouwblokken",
+      "title": "De expertise achter elk pakket",
+      "items": [
+        {
+          "title": "Sales Strategie & GTM",
+          "desc": "ICP-definitie, positionering, pricing, go-to-market plan en competitive intelligence. De basis onder elke succesvolle salesbeweging."
+        },
+        {
+          "title": "Outbound & Leadgeneratie",
+          "desc": "Multi-channel outbound met AI-gedreven personalisatie, signal-based targeting en geautomatiseerde sequences die resultaat opleveren."
+        },
+        {
+          "title": "CRM & Salesproces",
+          "desc": "HubSpot of Pipedrive implementatie met custom pipelines, automations, rapportages en integraties die je team \u00e9cht gebruikt."
+        },
+        {
+          "title": "Sales Enablement",
+          "desc": "Playbooks, call scripts, email templates, objection handling en onboarding materiaal. Alles wat je team nodig heeft om te presteren."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Klaar om jouw salesinfrastructuur te bouwen?",
+      "desc": "Start met De Scan om te bepalen welk pakket het beste bij jouw situatie past, of plan direct een gesprek."
+    }
+  },
   "blog": {
     "metadata": {
       "title": "Blog | Inzichten over B2B sales",
@@ -1607,7 +1908,7 @@
   "score": {
     "metadata": {
       "title": "Sales Maturity Score, Check je salesmotor",
-      "description": "10 dimensies. E\u00e9n score. Weet waar je salesmotor vastloopt en wat de logische volgende stap is."
+      "description": "11 dimensies. E\u00e9n score. Weet waar je salesmotor vastloopt en wat de logische volgende stap is."
     },
     "form": {
       "label": "/ Sales Maturity Score",

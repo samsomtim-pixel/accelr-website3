@@ -4,19 +4,22 @@
     "siteDescription": "B2B sales consultancy for tech founders. From founder-led sales to scalable sales infrastructure. CRM implementation, B2B lead generation and proven sales processes."
   },
   "nav": {
+    "diensten": "Services",
     "expertise": "Expertise",
     "methode": "Method",
     "overTim": "About Tim",
     "blog": "Blog",
     "contact": "Book a call",
-    "expertiseItems": {
+    "dienstenItems": {
       "deScan": "De Scan\u2122",
+      "deBouw": "The Build",
+      "deMotor": "The Engine"
+    },
+    "expertiseItems": {
       "strategieGtm": "Strategy & GTM",
-      "crmSalesproces": "CRM & Sales Process",
       "outboundLeadgen": "Outbound & Leadgen",
-      "salesEnablement": "Sales Enablement",
-      "aiAutomation": "AI & Automation",
-      "fractional": "Fractional Head of Sales"
+      "crmSalesproces": "CRM & Sales Process",
+      "salesEnablement": "Sales Enablement"
     }
   },
   "footer": {
@@ -28,14 +31,18 @@
       "overTim": "About Tim",
       "blog": "Blog"
     },
+    "diensten": "Services",
+    "dienstenItems": {
+      "deScan": "De Scan",
+      "deBouw": "The Build",
+      "deMotor": "The Engine"
+    },
     "expertise": "Expertise",
     "expertiseItems": {
-      "deScan": "De Scan",
       "strategieGtm": "Strategy & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
       "crmSalesproces": "CRM & Sales Process",
-      "salesEnablement": "Sales Enablement",
-      "fractional": "Fractional Head of Sales"
+      "salesEnablement": "Sales Enablement"
     },
     "contact": "Contact",
     "planGesprek": "Book a call",
@@ -67,15 +74,15 @@
   },
   "home": {
     "metadata": {
-      "title": "Fractional Head of Sales for B2B founders | Accelr",
+      "title": "B2B Sales Consultancy for Tech-Founders | Accelr",
       "description": "Accelr helps B2B tech-founders go from ad-hoc sales to a scalable, AI-driven commercial system. Diagnosis, implementation and leadership."
     },
     "hero": {
       "title": "Your sales growth depends on you. That's the problem.",
-      "subtitle": "I build the sales foundation, strategy, process and team, so growth no longer depends on you alone. From diagnosis to operational sales leadership.",
-      "drieluik1": "/ Sales Diagnosis",
-      "drieluik2": "/ Project-based building",
-      "drieluik3": "/ Fractional Head of Sales",
+      "subtitle": "I design, build, and maintain AI-driven sales infrastructure for B2B tech companies. From diagnosis to ongoing partnership, so growth no longer depends on you alone.",
+      "drieluik1": "/ The Scan \u2014 Diagnosis",
+      "drieluik2": "/ The Build \u2014 Implementation",
+      "drieluik3": "/ The Engine \u2014 Ongoing partnership",
       "cta": "Book an introductory call",
       "ctaSecondary": "Start with De Scan",
       "ctaSubtext": "30 minutes \u00b7 No obligations \u00b7 You'll walk away with 3 concrete action points."
@@ -122,17 +129,17 @@
           "cta": "View the building blocks"
         },
         {
-          "title": "Fractional Head of Sales",
-          "subtitle": "Part-time commercial leader",
-          "body": "I become your part-time commercial leader. 1-2 days per week, minimum 6 months. Includes diagnosis and everything that's needed.",
-          "details": "Min. 6 months",
+          "title": "The Engine",
+          "subtitle": "Ongoing partnership",
+          "body": "I become your ongoing commercial partner. Structural sales leadership, coaching and optimization. Flexibly scalable up or down.",
+          "details": "Min. 3 months",
           "badge": "Fixed monthly retainer",
-          "price": "From \u20ac4,000/month",
+          "price": "From \u20ac2,500/month",
           "extra": null,
-          "cta": "More about Fractional"
+          "cta": "More about The Engine"
         }
       ],
-      "note": "Not sure what you need? Start with De Scan. For a Fractional engagement, the diagnosis is included in the first month, you don't pay for De Scan separately."
+      "note": "Not sure what you need? Start with De Scan. For an Engine engagement, the Scan cost is offset against the first month."
     },
     "formule": {
       "label": "/ The framework",
@@ -146,49 +153,59 @@
       "cta": "Discover the full approach"
     },
     "bouwblokken": {
-      "label": "/ Building blocks",
-      "title": "What I build",
-      "subtitle": "These are the components I deploy, on a project basis or ongoing.",
-      "layerLabels": ["FOUNDATION", "BUILD", "OPTIMIZE"],
-      "cards": [
+      "label": "/ The Build",
+      "title": "Three packages, one working system",
+      "subtitle": "Each package combines building blocks into a cohesive system. No isolated projects, but integrated implementation.",
+      "popular": "Most popular",
+      "cta": "View all packages",
+      "pakketten": [
         {
-          "title": "De Scan\u2122",
-          "badge": "DIAGNOSIS",
-          "desc": "Complete audit of your sales operation. Scores across 10 dimensions, prioritized roadmap, hard numbers.",
-          "aiText": "AI-powered: data analysis and benchmarking"
+          "title": "Foundation",
+          "price": "\u20ac7,500",
+          "priceSuffix": "one-time",
+          "duration": "6\u20138 weeks",
+          "highlight": false,
+          "items": [
+            "Sales Strategy & GTM",
+            "CRM Implementation & Setup",
+            "Basic reports & dashboards",
+            "Playbook template"
+          ]
         },
         {
-          "title": "Strategy & GTM",
-          "badge": "STRATEGY",
-          "desc": "ICP, positioning, go-to-market plan, pricing. Strategic foundation based on data, not gut feeling.",
-          "aiText": "AI-powered: ICP modeling and market analysis"
+          "title": "Growth Engine",
+          "price": "\u20ac12,500",
+          "priceSuffix": "one-time",
+          "duration": "8\u201312 weeks",
+          "highlight": true,
+          "items": [
+            "Sales Strategy & GTM",
+            "CRM Implementation & Setup",
+            "Outbound & Lead Generation",
+            "Sales Enablement",
+            "AI-powered workflows",
+            "Complete playbooks"
+          ]
         },
         {
-          "title": "Outbound & Leadgen",
-          "badge": "PROCESS",
-          "desc": "Signal-based prospecting that reaches the right prospects at the right moment. LinkedIn, email, and phone in one system.",
-          "aiText": "AI-powered: detect, enrich and convert buying signals"
-        },
-        {
-          "title": "CRM & Sales Process",
-          "badge": "PROCESS",
-          "desc": "CRM your team actually uses. Pipeline dashboards, automatic updates, lead scoring. No more manual data entry.",
-          "aiText": "AI-powered: enrichment, scoring, and automation"
-        },
-        {
-          "title": "Sales Enablement",
-          "badge": "PEOPLE",
-          "desc": "Playbooks based on what works, call analysis, coaching, and onboarding. Your team gets better every week.",
-          "aiText": "AI-powered: conversation intelligence and automatic playbook updates"
+          "title": "Transformation",
+          "price": "\u20ac17,500",
+          "priceSuffix": "one-time",
+          "duration": "12\u201316 weeks",
+          "highlight": false,
+          "items": [
+            "Sales Strategy & GTM",
+            "CRM Implementation & Setup",
+            "Outbound & Lead Generation",
+            "Sales Enablement",
+            "AI & Automation",
+            "Dedicated project lead",
+            "Hiring support & onboarding",
+            "Complete playbooks & training"
+          ]
         }
       ],
-      "ontdekMeer": "Discover more",
-      "fractional": {
-        "label": "OVERARCHING",
-        "title": "Fractional Head of Sales",
-        "desc": "Oversees all layers on an ongoing basis. 1-2 days/week."
-      },
-      "note": "During De Scan, I analyze all layers. During De Bouw, I work on specific components. As Fractional Head of Sales, I oversee everything on an ongoing basis."
+      "note": "All prices excl. VAT. Not sure which package? Start with De Scan for an informed recommendation."
     },
     "resultaten": {
       "label": "/ Results",
@@ -219,7 +236,7 @@
         "zelfDoen": "Do it yourself",
         "fulltimeHos": "Full-time HoS",
         "interim": "Interim",
-        "accelrFractional": "Accelr Fractional"
+        "accelrFractional": "Accelr Motor"
       },
       "rows": [
         {
@@ -227,7 +244,7 @@
           "zelf": "\u20ac0 + opportunity cost",
           "fulltime": "\u20ac150K-\u20ac220K",
           "interim": "\u20ac120K-\u20ac180K",
-          "accelr": "\u20ac48K-\u20ac96K"
+          "accelr": "\u20ac30K-\u20ac60K"
         },
         {
           "aspect": "Commitment",
@@ -306,14 +323,14 @@
           "scanIncluded": "Separate (or completed beforehand)"
         },
         {
-          "title": "Fractional Head of Sales",
-          "price": "From \u20ac4,000",
+          "title": "The Engine",
+          "price": "From \u20ac2,500",
           "priceSuffix": "/month",
-          "duration": "Min. 6 months",
-          "result": "Commercial leadership + all building blocks + team coaching + weekly check-ins",
-          "uren": "8-16 hours/week (1-2 days)",
+          "duration": "Min. 3 months",
+          "result": "Ongoing sales leadership + optimization + coaching + weekly check-ins",
+          "uren": "Flexible (Light/Standard/Intensive)",
           "garantie": false,
-          "scanIncluded": "First month = diagnosis"
+          "scanIncluded": "Offset against first month"
         }
       ],
       "labels": {
@@ -359,20 +376,20 @@
       "title": "Frequently asked questions",
       "items": [
         {
-          "q": "What is a Fractional Head of Sales?",
-          "a": "A Fractional Head of Sales is an experienced commercial leader who works 1-2 days per week to build your sales organization. You get strategic leadership and hands-on execution without the cost of a full-time hire (\u20ac150K+/year). This model has been mainstream in the US for years; in the Netherlands, it's just getting started."
+          "q": "What is The Engine?",
+          "a": "The Engine is an ongoing partnership where I continue to optimize and steer your sales operation. Available in three levels (Light, Standard, Intensive) so you choose exactly the intensity that fits your phase. It costs a fraction of a full-time Head of Sales (\u20ac150K+/year)."
         },
         {
           "q": "Why start with De Scan?",
           "a": "Of the founders I speak with, 80% think the problem is \"more leads.\" After De Scan, it almost always turns out to be a process, CRM or qualification issue. De Scan prevents you from spending money on the wrong solution. Disagree with the findings? You get your money back."
         },
         {
-          "q": "How does Fractional differ from Interim?",
-          "a": "An interim manager fills a gap and keeps operations running. A Fractional Head of Sales focuses on acceleration: building, team development and establishing structure. It costs 60-70% less than a full-time hire, and the goal is to build a foundation so you can scale."
+          "q": "What's the difference between The Build and The Engine?",
+          "a": "The Build is project-based: I build your sales infrastructure in 6-16 weeks and deliver it. The Engine is ongoing: I keep steering your system, optimizing and coaching your team. Many clients start with The Build and then transition to The Engine."
         },
         {
           "q": "How quickly will I see results?",
-          "a": "De Scan delivers a clear picture within 2-3 weeks. With a Build project, the first components are operational within 4-6 weeks. With a Fractional engagement, you'll have a configured CRM and documented process after 90 days, pipeline impact after 3-4 months, and structural growth after 6+ months. Honestly: lasting results take time."
+          "a": "De Scan delivers a clear picture within 2-3 weeks. With a Build package, the first components are operational within 4-6 weeks. With The Engine, you'll have a configured CRM and documented process after 90 days, pipeline impact after 3-4 months, and structural growth after 6+ months. Honestly: lasting results take time."
         }
       ]
     },
@@ -386,7 +403,7 @@
   "methode": {
     "metadata": {
       "title": "The Accelr Method\u2122 | Diagnosis \u2192 Build \u2192 Run",
-      "description": "From ad-hoc sales to a scalable system. 10 dimensions, 4 phases, working systems that belong to you."
+      "description": "From ad-hoc sales to a scalable system. 11 dimensions, 4 phases, working systems that belong to you."
     },
     "hero": {
       "label": "/ The Accelr Method\u2122",
@@ -437,8 +454,8 @@
           "desc": "You choose specific pillars to work on. Project-based, scoped."
         },
         {
-          "title": "Fractional Head of Sales",
-          "desc": "All pillars, ongoing, with me as the owner. Continuous optimization."
+          "title": "The Engine",
+          "desc": "All pillars, ongoing, with me as your partner. Continuous optimization and management."
         }
       ]
     },
@@ -447,7 +464,7 @@
       "items": [
         {
           "num": "/01",
-          "title": "Sales Maturity Score across 10 dimensions",
+          "title": "Sales Maturity Score across 11 dimensions",
           "desc": "A complete audit of your sales operation. No opinions, measurable scores per dimension with concrete improvement points."
         },
         {
@@ -483,7 +500,7 @@
           "title": "Week 1-2: Scanning",
           "desc": "I start with a 60-minute kickoff to map goals, systems and constraints. Then in-depth interviews with founder, sales and marketing follow. I audit your CRM (or lack thereof), analyze your pipeline, check your tech stack and assess your AI readiness.",
           "result": "Result:",
-          "resultDesc": "Sales Maturity Score across 10 dimensions. A clear picture of where you stand, and where the money is.",
+          "resultDesc": "Sales Maturity Score across 11 dimensions. A clear picture of where you stand, and where the money is.",
           "price": "\u20ac3,500 fixed \u00b7 Not satisfied? Money back. No conditions."
         },
         {
@@ -507,8 +524,8 @@
         },
         {
           "num": "/04",
-          "title": "Ongoing: Running & Scaling",
-          "desc": "A system without leadership deteriorates within 3 months. I stay on as your Fractional Head of Sales, not advising, but managing.",
+          "title": "The Engine \u2014 Ongoing partnership",
+          "desc": "A system without management deteriorates within 3 months. With The Engine, I continue steering and optimizing your sales operation.",
           "items": [
             "Weekly pipeline reviews & forecasting",
             "Sales coaching & 1-on-1 guidance",
@@ -516,7 +533,7 @@
             "Quarterly reviews with strategic adjustments",
             "First sales hire: role definition, onboarding, coaching"
           ],
-          "details": "1-2 days per week \u00b7 Min. 3 months \u00b7 Monthly cancellable thereafter",
+          "details": "Light (\u20ac2,500/mo) \u00b7 Standard (\u20ac4,000/mo) \u00b7 Intensive (\u20ac5,000/mo)",
           "note": "The goal is that you no longer need me. That's not failure, that's the plan."
         }
       ]
@@ -841,6 +858,11 @@
           "num": "/04",
           "title": "Pricing & Deal Structure",
           "desc": "What do you charge, how do you present it, and how do you structure deals? Pricing that fits your market, your value proposition and your sales process."
+        },
+        {
+          "num": "/05",
+          "title": "Competitive Intelligence",
+          "desc": "Who are your competitors? How do they position themselves? What are their prices? A systematic analysis so you can always differentiate."
         }
       ]
     },
@@ -929,6 +951,16 @@
           "num": "/04",
           "title": "Integrations",
           "desc": "Your CRM connected to your email, calendar, outbound tools and marketing automation. One source of truth."
+        },
+        {
+          "num": "/05",
+          "title": "E-signatures & Proposals",
+          "desc": "Integrated proposals and digital signatures via PandaDoc or GetAccept. Close deals faster with professional proposals directly from your CRM."
+        },
+        {
+          "num": "/06",
+          "title": "Website Visitor Identification",
+          "desc": "Know which companies visit your website and what they're viewing. Dealfront integration for warm leads that go directly into your CRM pipeline."
         }
       ]
     },
@@ -1022,6 +1054,11 @@
           "num": "/05",
           "title": "AI Targeting & Personalization",
           "desc": "ICP-based lists via Clay and Apollo. AI enrichment combines 6+ data sources per prospect. Every outreach is personalized based on the specific signal \u2014 not based on a template."
+        },
+        {
+          "num": "/06",
+          "title": "Phone & Call Sequences",
+          "desc": "Cold calling isn't dead, but it needs to be smart. Call scripts, call sequences, and conversation intelligence so every call gets better."
         }
       ]
     },
@@ -1114,6 +1151,11 @@
           "num": "/04",
           "title": "Training & Coaching",
           "desc": "Hands-on training for your team on the new tools and frameworks. Not a one-time workshop, a training program that sticks."
+        },
+        {
+          "num": "/05",
+          "title": "Sales Knowledge Base",
+          "desc": "A central place where all your sales knowledge comes together. Product specs, case studies, competitive intel, and best practices, searchable and always up to date."
         }
       ]
     },
@@ -1389,6 +1431,265 @@
       "cta": "Book a call"
     }
   },
+  "deMotor": {
+    "metadata": {
+      "title": "De Motor | Ongoing Sales Partnership",
+      "description": "Ongoing sales partnership. Campaign optimization, pipeline reviews, tool maintenance and strategic sparring. From \u20ac2,500/month."
+    },
+    "hero": {
+      "label": "/ De Motor",
+      "title": "Your system is running. Now it needs to keep",
+      "titleHighlight": "performing.",
+      "subtitle": "Ongoing sales partnership. I keep your AI sales system sharp: campaign optimization, pipeline reviews, tool maintenance and strategic sparring.",
+      "price": "From \u20ac2,500",
+      "priceNote": "/month \u00b7 Min. 3 months",
+      "cta": "Book a call",
+      "ctaSecondary": "Start with De Scan"
+    },
+    "probleem": {
+      "label": "/ The problem",
+      "title": "Without maintenance, every system deteriorates within 3 months.",
+      "desc": "You have a CRM, outbound engine and playbooks. But who optimizes the campaigns? Who checks deliverability? Who fixes things when Clay pushes an update? Without maintenance, every system deteriorates within 3 months."
+    },
+    "tiers": {
+      "label": "/ Three levels",
+      "title": "Choose the level that fits",
+      "subtitle": "From operational maintenance to strategic sales leadership.",
+      "popular": "Most popular",
+      "cta": "Book a call",
+      "cards": [
+        {
+          "title": "Light",
+          "price": "\u20ac2,500",
+          "priceSuffix": "/month",
+          "hours": "4 hours/week",
+          "highlight": false,
+          "features": [
+            "Monthly campaign optimization",
+            "Tool maintenance and updates",
+            "Deliverability monitoring",
+            "Monthly reporting",
+            "Priority support (response within 8 hours)"
+          ]
+        },
+        {
+          "title": "Standard",
+          "price": "\u20ac4,000",
+          "priceSuffix": "/month",
+          "hours": "6-8 hours/week",
+          "highlight": true,
+          "features": [
+            "Everything from Light, plus:",
+            "Weekly pipeline reviews",
+            "Sales coaching and 1-on-1 guidance",
+            "Quarterly reviews with strategic adjustments",
+            "A/B testing on messaging and targeting"
+          ]
+        },
+        {
+          "title": "Intensive",
+          "price": "\u20ac5,000",
+          "priceSuffix": "/month",
+          "hours": "8-10 hours/week",
+          "highlight": false,
+          "features": [
+            "Everything from Standard, plus:",
+            "Strategic sales leadership (fractional HoS function)",
+            "First sales hire: role definition, onboarding, coaching",
+            "Revenue forecasting and board-ready reporting",
+            "Ongoing AI automation development"
+          ]
+        }
+      ]
+    },
+    "vergelijking": {
+      "label": "/ Comparison",
+      "title": "What\u2019s included in each level?",
+      "headers": {
+        "light": "Light",
+        "standard": "Standard",
+        "intensive": "Intensive"
+      },
+      "rows": [
+        { "aspect": "Hours/week", "light": "4 hours", "standard": "6-8 hours", "intensive": "8-10 hours" },
+        { "aspect": "Campaign optimization", "light": "Monthly", "standard": "Weekly", "intensive": "Weekly" },
+        { "aspect": "Pipeline reviews", "light": "\u2014", "standard": "Weekly", "intensive": "Weekly" },
+        { "aspect": "Sales coaching", "light": "\u2014", "standard": "1-on-1 guidance", "intensive": "1-on-1 + team" },
+        { "aspect": "Strategic leadership", "light": "\u2014", "standard": "\u2014", "intensive": "Fractional HoS function" },
+        { "aspect": "Sales hiring support", "light": "\u2014", "standard": "\u2014", "intensive": "Role definition + onboarding" },
+        { "aspect": "Reporting", "light": "Monthly", "standard": "Quarterly reviews", "intensive": "Board-ready forecasting" },
+        { "aspect": "Investment/year", "light": "\u20ac30K", "standard": "\u20ac48K", "intensive": "\u20ac60K" }
+      ]
+    },
+    "voorWie": {
+      "label": "/ Fit check",
+      "title": "Who is De Motor for?",
+      "voorWieTitle": "De Motor is for you if...",
+      "voorWieItems": [
+        "You\u2019ve completed De Bouw and want to keep the system running",
+        "You have a working CRM, outbound engine or playbooks",
+        "You don\u2019t need a full-time sales leader but do need operational maintenance",
+        "You want someone to manage campaigns, tools and pipeline"
+      ],
+      "nietVoorWieTitle": "De Motor is NOT for you if...",
+      "nietVoorWieItems": [
+        "You don\u2019t have a foundation yet (start with De Scan)",
+        "You don\u2019t have a CRM or sales process (start with De Bouw)",
+        "You need daily full-time presence",
+        "You\u2019re only looking for one-time advice"
+      ]
+    },
+    "voorwaarden": {
+      "label": "/ Terms",
+      "title": "How it works",
+      "items": [
+        "Minimum 3 months commitment",
+        "Monthly cancellable after minimum period",
+        "De Motor is available after completing De Scan or De Bouw",
+        "No setup costs \u2014 we start directly with optimization"
+      ]
+    },
+    "faq": {
+      "label": "/ FAQ",
+      "items": [
+        {
+          "q": "What\u2019s the difference between De Motor and a Fractional Head of Sales?",
+          "a": "De Motor Intensive is essentially a Fractional Head of Sales. The difference is that De Motor is also available in lighter variants for companies that don\u2019t need strategic leadership but do need operational maintenance."
+        },
+        {
+          "q": "Can I get De Motor without doing De Bouw first?",
+          "a": "Yes, but I always start with De Scan to determine whether your system is ready for maintenance or needs to be built first."
+        },
+        {
+          "q": "What if I need more hours than the Intensive package?",
+          "a": "Then we discuss a custom arrangement. For companies that need more than 10 hours per week, a full-time Head of Sales is probably a better option."
+        },
+        {
+          "q": "How quickly can I start?",
+          "a": "After De Scan or an intake meeting, De Motor can start within 1-2 weeks. There\u2019s no lengthy onboarding period."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Ready to keep your sales engine running?",
+      "desc": "Book a call to discuss which Motor level fits your situation.",
+      "cta": "Book a call"
+    }
+  },
+  "deBouw": {
+    "metadata": {
+      "title": "The Build | Accelr",
+      "description": "From scan results to a working sales infrastructure. Choose the package that matches your ambition: Foundation, Growth Engine, or Transformation."
+    },
+    "hero": {
+      "label": "The Build",
+      "title": "From diagnosis to",
+      "titleHighlight": "working infrastructure",
+      "subtitle": "In 6 to 16 weeks, I build a sales infrastructure tailored to your growth stage. No isolated projects, but a cohesive system of strategy, processes, tools, and enablement.",
+      "cta": "Start with The Scan"
+    },
+    "pakketten": {
+      "label": "Three packages",
+      "title": "Choose the package that matches your ambition",
+      "subtitle": "Each package is a combination of building blocks that together form a working system. No loose modules \u2014 everything is integrated.",
+      "popular": "Most popular",
+      "cta": "Book a call",
+      "note": "All prices exclude VAT. Payment in 2 installments: 50% at start, 50% at delivery. Custom packages available on request.",
+      "cards": [
+        {
+          "title": "Foundation",
+          "price": "\u20ac7,500",
+          "priceSuffix": "one-time",
+          "duration": "6\u20138 weeks",
+          "highlight": false,
+          "bouwblokken": [
+            "Sales Strategy & GTM",
+            "CRM Implementation & Setup",
+            "Basic reports & dashboards",
+            "Playbook template"
+          ]
+        },
+        {
+          "title": "Growth Engine",
+          "price": "\u20ac12,500",
+          "priceSuffix": "one-time",
+          "duration": "8\u201312 weeks",
+          "highlight": true,
+          "bouwblokken": [
+            "Sales Strategy & GTM",
+            "CRM Implementation & Setup",
+            "Outbound & Lead Generation",
+            "Sales Enablement",
+            "AI-powered workflows",
+            "Complete playbooks"
+          ]
+        },
+        {
+          "title": "Transformation",
+          "price": "\u20ac17,500",
+          "priceSuffix": "one-time",
+          "duration": "12\u201316 weeks",
+          "highlight": false,
+          "bouwblokken": [
+            "Sales Strategy & GTM",
+            "CRM Implementation & Setup",
+            "Outbound & Lead Generation",
+            "Sales Enablement",
+            "AI & Automation",
+            "Dedicated project lead",
+            "Hiring support & onboarding",
+            "Complete playbooks & training"
+          ]
+        }
+      ]
+    },
+    "matrix": {
+      "label": "Comparison",
+      "title": "What\u2019s included in each package?",
+      "headers": {
+        "bouwblok": "Building block",
+        "fundament": "Foundation",
+        "groeimachine": "Growth Engine",
+        "transformatie": "Transformation"
+      },
+      "rows": [
+        { "name": "Sales Strategy & GTM", "fundament": true, "groeimachine": true, "transformatie": true },
+        { "name": "CRM Implementation", "fundament": true, "groeimachine": true, "transformatie": true },
+        { "name": "Outbound & Lead Generation", "fundament": false, "groeimachine": true, "transformatie": true },
+        { "name": "Sales Enablement", "fundament": false, "groeimachine": true, "transformatie": true },
+        { "name": "AI & Automation", "fundament": false, "groeimachine": false, "transformatie": true },
+        { "name": "Playbooks & Training", "fundament": false, "groeimachine": true, "transformatie": true },
+        { "name": "Hiring Support", "fundament": false, "groeimachine": false, "transformatie": true },
+        { "name": "Dedicated Project Lead", "fundament": false, "groeimachine": false, "transformatie": true }
+      ]
+    },
+    "bouwblokken": {
+      "label": "The building blocks",
+      "title": "The expertise behind each package",
+      "items": [
+        {
+          "title": "Sales Strategy & GTM",
+          "desc": "ICP definition, positioning, pricing, go-to-market plan, and competitive intelligence. The foundation under every successful sales motion."
+        },
+        {
+          "title": "Outbound & Lead Generation",
+          "desc": "Multi-channel outbound with AI-powered personalization, signal-based targeting, and automated sequences that deliver results."
+        },
+        {
+          "title": "CRM & Sales Process",
+          "desc": "HubSpot or Pipedrive implementation with custom pipelines, automations, reporting, and integrations your team will actually use."
+        },
+        {
+          "title": "Sales Enablement",
+          "desc": "Playbooks, call scripts, email templates, objection handling, and onboarding materials. Everything your team needs to perform."
+        }
+      ]
+    },
+    "ctaFooter": {
+      "title": "Ready to build your sales infrastructure?",
+      "desc": "Start with The Scan to determine which package fits your situation best, or book a call directly."
+    }
+  },
   "blog": {
     "metadata": {
       "title": "Blog | B2B Sales Insights",
@@ -1607,12 +1908,12 @@
   "score": {
     "metadata": {
       "title": "Sales Maturity Score | Check your sales engine",
-      "description": "10 dimensions. One score. Know where your sales engine stalls and what the logical next step is."
+      "description": "11 dimensions. One score. Know where your sales engine stalls and what the logical next step is."
     },
     "form": {
       "label": "/ Sales Maturity Score",
       "title": "Where does your sales engine stand?",
-      "subtitle": "Score yourself across 10 dimensions. You'll get immediate insight into your strengths and areas for improvement.",
+      "subtitle": "Score yourself across 11 dimensions. You'll get immediate insight into your strengths and areas for improvement.",
       "submit": "View my score",
       "averageScore": "Average score:"
     },

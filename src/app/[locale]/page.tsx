@@ -11,10 +11,6 @@ import { PILLAR_COLORS } from "@/lib/constants";
 import {
   ArrowRight,
   Search,
-  Compass,
-  Database,
-  Send,
-  BookOpen,
   Check,
   X as XIcon,
   ChevronDown,
@@ -22,31 +18,16 @@ import {
   Wrench,
   User,
   Linkedin,
-  Sparkles,
 } from "lucide-react";
 
 const P = PILLAR_COLORS;
 
 /* Icons/hrefs/accents that can't live in JSON */
 const keuzeIcons = [Search, Wrench, User];
-const keuzeHrefs = ["/de-scan", "#bouwblokken", "/expertise/fractional-head-of-sales"];
+const keuzeHrefs = ["/de-scan", "/de-bouw", "/de-motor"];
 const keuzeBadgeCheck = [true, false, false];
 
-const bouwIcons = [Search, Compass, Send, Database, BookOpen];
-const bouwHrefs = [
-  "/de-scan",
-  "/sales-strategie",
-  "/outbound-leadgeneratie",
-  "/crm-implementatie",
-  "/sales-enablement",
-];
-const bouwAccents = [
-  P.strategy.color,
-  P.strategy.color,
-  P.process.color,
-  P.process.color,
-  P.people.color,
-];
+/* bouwblokken icons/hrefs removed — now uses package cards */
 
 const resultatenLinks = [
   "https://www.aethogenix.com/",
@@ -64,7 +45,8 @@ const techTools = [
   "Apollo",
   "Lemlist",
   "ChatGPT",
-  "Salesforce",
+  "Dealfront",
+  "PandaDoc",
   "Pipedrive",
   "LinkedIn Sales Nav",
   "Notion",
@@ -104,13 +86,14 @@ export default async function HomePage() {
     extra: string | null;
     cta: string;
   }>;
-  const bouwCards = t.raw("bouwblokken.cards") as Array<{
+  const bouwPakketten = t.raw("bouwblokken.pakketten") as Array<{
     title: string;
-    badge: string;
-    desc: string;
-    aiText: string;
+    price: string;
+    priceSuffix: string;
+    duration: string;
+    highlight?: boolean;
+    items: string[];
   }>;
-  const layerLabels = t.raw("bouwblokken.layerLabels") as string[];
   const resultaatCards = t.raw("resultaten.cards") as Array<{
     name: string;
     subtitle: string;
@@ -395,7 +378,7 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ═══ SECTIE 6 — BOUWBLOKKEN ═══ */}
+        {/* ═══ SECTIE 6 — BOUWBLOKKEN (PAKKETTEN) ═══ */}
         <section id="bouwblokken" className="bg-bg-light py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -408,179 +391,51 @@ export default async function HomePage() {
               </p>
             </FadeIn>
 
-            {/* Laag 1 — FUNDAMENT */}
-            <div className="mt-12">
-              <p className="text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4">
-                {layerLabels[0]}
-              </p>
-              <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
-                {bouwCards.slice(0, 2).map((card, i) => {
-                  const Icon = bouwIcons[i];
-                  return (
-                    <FadeIn key={card.title} delay={i * 0.08}>
-                      <Link href={bouwHrefs[i]} className="block h-full">
-                        <div
-                          className="card-light h-full flex flex-col overflow-hidden"
-                          style={{ borderTop: `4px solid ${bouwAccents[i]}` }}
-                        >
-                          <div className="flex items-center justify-between">
-                            <Icon size={24} className="text-accent-teal" />
-                            <span
-                              className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
-                              style={{
-                                color: bouwAccents[i],
-                                backgroundColor: `${bouwAccents[i]}15`,
-                              }}
-                            >
-                              {card.badge}
-                            </span>
-                          </div>
-                          <p className="mt-4 font-display text-lg font-semibold text-text-dark">
-                            {card.title}
-                          </p>
-                          <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
-                            {card.desc}
-                          </p>
-                          <p className="mt-2 flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
-                            <Sparkles size={14} className="shrink-0" />
-                            {card.aiText}
-                          </p>
-                          <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
-                            {t("bouwblokken.ontdekMeer")} <ArrowRight size={14} />
-                          </span>
-                        </div>
-                      </Link>
-                    </FadeIn>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Laag 2 — BOUWEN */}
-            <div className="mt-12">
-              <p className="text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4">
-                {layerLabels[1]}
-              </p>
-              <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
-                {bouwCards.slice(2, 4).map((card, idx) => {
-                  const i = idx + 2;
-                  const Icon = bouwIcons[i];
-                  return (
-                    <FadeIn key={card.title} delay={i * 0.08}>
-                      <Link href={bouwHrefs[i]} className="block h-full">
-                        <div
-                          className="card-light h-full flex flex-col overflow-hidden"
-                          style={{ borderTop: `4px solid ${bouwAccents[i]}` }}
-                        >
-                          <div className="flex items-center justify-between">
-                            <Icon size={24} className="text-accent-teal" />
-                            <span
-                              className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
-                              style={{
-                                color: bouwAccents[i],
-                                backgroundColor: `${bouwAccents[i]}15`,
-                              }}
-                            >
-                              {card.badge}
-                            </span>
-                          </div>
-                          <p className="mt-4 font-display text-lg font-semibold text-text-dark">
-                            {card.title}
-                          </p>
-                          <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
-                            {card.desc}
-                          </p>
-                          <p className="mt-2 flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
-                            <Sparkles size={14} className="shrink-0" />
-                            {card.aiText}
-                          </p>
-                          <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
-                            {t("bouwblokken.ontdekMeer")} <ArrowRight size={14} />
-                          </span>
-                        </div>
-                      </Link>
-                    </FadeIn>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Laag 3 — OPTIMALISEREN */}
-            <div className="mt-12">
-              <p className="text-xs font-medium uppercase tracking-widest text-gray-400 dark:text-gray-500 mb-4">
-                {layerLabels[2]}
-              </p>
-              <div className="grid gap-6 grid-cols-1">
-                {bouwCards.slice(4, 5).map((card) => {
-                  const i = 4;
-                  const Icon = bouwIcons[i];
-                  return (
-                    <FadeIn key={card.title} delay={i * 0.08}>
-                      <Link href={bouwHrefs[i]} className="block h-full">
-                        <div
-                          className="card-light h-full flex flex-col overflow-hidden"
-                          style={{ borderTop: `4px solid ${bouwAccents[i]}` }}
-                        >
-                          <div className="flex items-center justify-between">
-                            <Icon size={24} className="text-accent-teal" />
-                            <span
-                              className="rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-wider"
-                              style={{
-                                color: bouwAccents[i],
-                                backgroundColor: `${bouwAccents[i]}15`,
-                              }}
-                            >
-                              {card.badge}
-                            </span>
-                          </div>
-                          <p className="mt-4 font-display text-lg font-semibold text-text-dark">
-                            {card.title}
-                          </p>
-                          <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
-                            {card.desc}
-                          </p>
-                          <p className="mt-2 flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400">
-                            <Sparkles size={14} className="shrink-0" />
-                            {card.aiText}
-                          </p>
-                          <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-accent-teal">
-                            {t("bouwblokken.ontdekMeer")} <ArrowRight size={14} />
-                          </span>
-                        </div>
-                      </Link>
-                    </FadeIn>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Fractional Head of Sales — overkoepelend */}
-            <FadeIn delay={0.5}>
-              <Link href="/expertise/fractional-head-of-sales" className="block mt-12">
-                <div
-                  className="rounded-2xl p-6 text-center transition-all duration-300 hover:shadow-md"
-                  style={{
-                    backgroundColor: P.result.bg,
-                    border: `1px solid ${P.result.border}`,
-                  }}
-                >
-                  <p
-                    className="text-[10px] font-bold uppercase tracking-wider"
-                    style={{ color: P.result.color }}
+            <div className="mx-auto mt-12 max-w-5xl grid gap-6 md:grid-cols-3">
+              {bouwPakketten.map((pkg, i) => (
+                <FadeIn key={pkg.title} delay={i * 0.1}>
+                  <div
+                    className={`relative h-full rounded-2xl border p-6 sm:p-8 flex flex-col ${
+                      pkg.highlight
+                        ? "border-accent-teal ring-2 ring-accent-teal/20 bg-accent-teal/5"
+                        : "border-border-light-mode bg-white"
+                    }`}
                   >
-                    {t("bouwblokken.fractional.label")}
-                  </p>
-                  <p className="mt-2 font-display text-lg font-bold text-text-dark">
-                    {t("bouwblokken.fractional.title")}
-                  </p>
-                  <p className="mt-1 text-sm text-text-dark-secondary">
-                    {t("bouwblokken.fractional.desc")}
-                  </p>
-                </div>
-              </Link>
-            </FadeIn>
+                    {pkg.highlight && (
+                      <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-accent-teal-dark px-3 py-1 text-xs font-bold text-white">
+                        {t("bouwblokken.popular")}
+                      </span>
+                    )}
+                    <h3 className="font-display text-xl font-bold text-text-dark">
+                      {pkg.title}
+                    </h3>
+                    <div className="mt-4 flex items-baseline gap-2">
+                      <span className="font-display text-3xl font-bold text-accent-teal-dark">
+                        {pkg.price}
+                      </span>
+                      <span className="text-sm text-text-dark-muted">{pkg.priceSuffix}</span>
+                    </div>
+                    <p className="mt-2 text-sm text-text-dark-muted">{pkg.duration}</p>
 
-            <FadeIn delay={0.6}>
+                    <ul className="mt-6 space-y-3 flex-1">
+                      {pkg.items.map((item) => (
+                        <li key={item} className="flex items-start gap-3 text-sm text-text-dark-secondary">
+                          <Check size={16} className="mt-0.5 shrink-0 text-accent-teal-dark" strokeWidth={3} />
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+
+                    <Link href="/de-bouw" className="mt-8 block w-full btn-primary text-center">
+                      <span className="btn-label">{t("bouwblokken.cta")}</span>
+                      <span className="btn-arrow"><ArrowRight size={16} /></span>
+                    </Link>
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
+
+            <FadeIn delay={0.4}>
               <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-text-dark-secondary">
                 {t("bouwblokken.note")}
               </p>

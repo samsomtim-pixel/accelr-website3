@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const tools = ["HubSpot", "Pipedrive", "Salesforce", "Make", "n8n", "Notion"];
+const tools = ["HubSpot", "Pipedrive", "Salesforce", "Make", "n8n", "Notion", "PandaDoc", "GetAccept", "Dealfront"];
 
 export default async function CrmImplementatiePage() {
   const t = await getTranslations("crmImplementatie");

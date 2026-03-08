@@ -12,8 +12,8 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/de-bouw",
-        destination: "/methode#bouw",
+        source: "/expertise/fractional-head-of-sales",
+        destination: "/de-motor",
         permanent: true,
       },
       {

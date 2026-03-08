@@ -18,15 +18,14 @@ export default async function Footer() {
             </p>
           </div>
 
-          {/* Navigatie */}
+          {/* Diensten */}
           <div>
-            <p className="section-label mb-4">/ {t("navigation")}</p>
+            <p className="section-label mb-4">/ {t("diensten")}</p>
             <ul className="space-y-3">
               {[
-                { href: "/" as const, label: t("navItems.home") },
-                { href: "/methode" as const, label: t("navItems.methode") },
-                { href: "/over-tim" as const, label: t("navItems.overTim") },
-                { href: "/blog" as const, label: t("navItems.blog") },
+                { href: "/de-scan" as const, label: t("dienstenItems.deScan") },
+                { href: "/de-bouw" as const, label: t("dienstenItems.deBouw") },
+                { href: "/de-motor" as const, label: t("dienstenItems.deMotor") },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link
@@ -45,12 +44,32 @@ export default async function Footer() {
             <p className="section-label mb-4">/ Expertise</p>
             <ul className="space-y-3">
               {[
-                { href: "/de-scan" as const, label: t("expertiseItems.deScan") },
                 { href: "/sales-strategie" as const, label: t("expertiseItems.strategieGtm") },
                 { href: "/outbound-leadgeneratie" as const, label: t("expertiseItems.outboundLeadgen") },
                 { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
                 { href: "/sales-enablement" as const, label: t("expertiseItems.salesEnablement") },
-                { href: "/expertise/fractional-head-of-sales" as const, label: t("expertiseItems.fractional") },
+              ].map((item) => (
+                <li key={item.href + item.label}>
+                  <Link
+                    href={item.href}
+                    className="text-sm text-text-secondary transition-colors hover:text-accent-teal"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Navigatie */}
+          <div>
+            <p className="section-label mb-4">/ {t("navigation")}</p>
+            <ul className="space-y-3">
+              {[
+                { href: "/" as const, label: t("navItems.home") },
+                { href: "/methode" as const, label: t("navItems.methode") },
+                { href: "/over-tim" as const, label: t("navItems.overTim") },
+                { href: "/blog" as const, label: t("navItems.blog") },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link
@@ -87,21 +106,6 @@ export default async function Footer() {
               <li className="text-text-muted">{t("location")}</li>
             </ul>
           </div>
-
-          {/* Juridisch */}
-          <div>
-            <p className="section-label mb-4">/ {t("legal")}</p>
-            <ul className="space-y-3">
-              <li>
-                <Link
-                  href="/privacy"
-                  className="text-sm text-text-secondary transition-colors hover:text-accent-teal"
-                >
-                  {t("privacy")}
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="divider mt-16 mb-8" />
@@ -110,9 +114,17 @@ export default async function Footer() {
           <p className="text-xs text-text-muted">
             &copy; {new Date().getFullYear()} Accelr. {t("copyright")}
           </p>
-          <p className="text-xs text-text-muted">
-            Your Sales Growth Partner
-          </p>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/privacy"
+              className="text-xs text-text-muted transition-colors hover:text-accent-teal"
+            >
+              {t("privacy")}
+            </Link>
+            <p className="text-xs text-text-muted">
+              Your Sales Growth Partner
+            </p>
+          </div>
         </div>
       </div>
     </footer>

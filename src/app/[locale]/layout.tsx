@@ -101,8 +101,8 @@ export default async function LocaleLayout({
                   name: "Accelr",
                   description:
                     locale === "nl"
-                      ? "B2B sales consultancy en fractional Head of Sales voor tech-founders. Sales infrastructuur, CRM implementatie, B2B leadgeneratie en sales uitbesteden in Nederland."
-                      : "B2B sales consultancy and fractional Head of Sales for tech founders. Sales infrastructure, CRM implementation, B2B lead generation in the Netherlands.",
+                      ? "B2B sales consultancy voor tech-founders. Van diagnose tot doorlopend partnerschap. Sales infrastructuur, CRM implementatie, B2B leadgeneratie en AI-gedreven salesprocessen in Nederland."
+                      : "B2B sales consultancy for tech founders. From diagnosis to ongoing partnership. Sales infrastructure, CRM implementation, B2B lead generation and AI-driven sales processes in the Netherlands.",
                   url: "https://accelr.nl",
                   email: "tim@accelr.nl",
                   address: {

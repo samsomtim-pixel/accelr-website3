@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const tools = ["Notion", "HubSpot", "Loom", "Google Workspace", "Miro"];
+const tools = ["Notion", "HubSpot", "PLAUD", "Google Workspace", "Miro", "Firefly.ai", "Claude"];
 
 export default async function SalesEnablementPage() {
   const t = await getTranslations("salesEnablement");

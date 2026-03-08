@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const tools = ["Clay", "Apollo", "LinkedIn Sales Nav", "HubSpot", "Notion"];
+const tools = ["Clay", "Apollo", "LinkedIn Sales Nav", "HubSpot", "Dealfront", "Notion"];
 
 export default async function SalesStrategiePage() {
   const t = await getTranslations("salesStrategie");
