@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/crm-implementatie", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/outbound-leadgeneratie", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/sales-enablement", priority: 0.8, changeFrequency: "monthly" as const },
-    { path: "/ai-sales-automation", priority: 0.8, changeFrequency: "monthly" as const },
+    { path: "/ai-automation", priority: 0.8, changeFrequency: "monthly" as const },
     { path: "/de-motor", priority: 0.9, changeFrequency: "weekly" as const },
     { path: "/de-bouw", priority: 0.9, changeFrequency: "weekly" as const },
     { path: "/blog", priority: 0.7, changeFrequency: "weekly" as const },

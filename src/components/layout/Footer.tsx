@@ -48,6 +48,7 @@ export default async function Footer() {
                 { href: "/outbound-leadgeneratie" as const, label: t("expertiseItems.outboundLeadgen") },
                 { href: "/crm-implementatie" as const, label: t("expertiseItems.crmSalesproces") },
                 { href: "/sales-enablement" as const, label: t("expertiseItems.salesEnablement") },
+                { href: "/ai-automation" as const, label: t("expertiseItems.aiAutomation") },
               ].map((item) => (
                 <li key={item.href + item.label}>
                   <Link

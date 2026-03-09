@@ -32,6 +32,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/ai-sales-automation",
+        destination: "/ai-automation",
+        permanent: true,
+      },
+      {
         source: "/over-ons",
         destination: "/over-tim",
         permanent: true,

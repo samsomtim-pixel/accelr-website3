@@ -19,7 +19,8 @@
       "strategieGtm": "Strategy & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
       "crmSalesproces": "CRM & Sales Process",
-      "salesEnablement": "Sales Enablement"
+      "salesEnablement": "Sales Enablement",
+      "aiAutomation": "AI & Automation"
     }
   },
   "footer": {
@@ -42,7 +43,8 @@
       "strategieGtm": "Strategy & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
       "crmSalesproces": "CRM & Sales Process",
-      "salesEnablement": "Sales Enablement"
+      "salesEnablement": "Sales Enablement",
+      "aiAutomation": "AI & Automation"
     },
     "contact": "Contact",
     "planGesprek": "Book a call",
@@ -1205,81 +1207,124 @@
   },
   "aiAutomation": {
     "metadata": {
-      "title": "AI Sales Automation for B2B",
-      "description": "AI structurally integrated into your sales process. Clay, Make, n8n, Apollo. No experiments, working systems."
+      "title": "AI & Automation | Accelr",
+      "description": "An integrated automation layer that runs through your entire sales process. From lead research to conversation analysis to pipeline forecasting."
     },
     "hero": {
-      "label": "/ AI & Automation",
-      "title": "AI that actually sells.",
-      "subtitle": "No ChatGPT experiments. Structural AI integration into your sales process that measurably generates more pipeline and revenue.",
-      "cta": "Start with De Scan"
+      "label": "/ AI & AUTOMATION",
+      "title": "AI that makes your sales team faster, smarter, and sharper.",
+      "subtitle": "No standalone AI tools that nobody uses. An integrated automation layer that runs through your entire sales process \u2014 from lead research to conversation analysis to pipeline forecasting.",
+      "cta": "Start with The Scan"
     },
     "probleem": {
-      "title": "Most companies use AI as a toy.",
+      "title": "Isolated experiments, not a system.",
       "paragraphs": [
-        "A prompt in ChatGPT. A list from Apollo. An automation that runs once and then breaks.",
-        "The problem isn't the technology, it's the implementation. AI only works when it's structurally embedded in your sales process: from prospecting to personalization to follow-up. Not as a standalone tool, but as part of a working system.",
-        "That's what I build. AI-driven sales infrastructure that runs without you having to write every prompt yourself."
+        "You\u2019ve tried ChatGPT for your emails. Maybe tested an AI tool for leads. But they\u2019re isolated experiments, not connected to your CRM, your pipeline, or your process. The result: another tool added, no improvement in outcomes.",
+        "AI only works when it\u2019s embedded in your sales process. Not as a toy, but as infrastructure."
       ]
     },
     "deliverables": {
-      "title": "What I build",
+      "title": "What you get",
       "items": [
         {
           "num": "/01",
-          "title": "AI Prospecting Engine",
-          "desc": "Automatically find and enrich your ideal customers with Clay and Apollo. Company data, contact details, technographics and intent signals, without manual searching."
+          "title": "AI-Powered Lead Research",
+          "desc": "Automatically find and enrich your ideal prospects. Firmographics, technographics, hiring signals, funding data \u2014 combined from 80+ data sources. No more manual searching."
         },
         {
           "num": "/02",
-          "title": "Workflow Automation",
-          "desc": "Make and n8n workflows that connect your CRM, email tools and prospecting. Incoming leads are automatically enriched, scored and routed."
+          "title": "Signal-Based Priority Scoring",
+          "desc": "Automatic monitoring of buying signals: funding rounds, new hires, technology changes, website visits. Prospects ready to buy now rise to the top of your list. You always call the right lead at the right time."
         },
         {
           "num": "/03",
-          "title": "AI Personalization",
-          "desc": "Outbound messages that don't read like spam. AI-generated personalization based on company data, LinkedIn activity and tech stack. At scale, in your tone of voice."
+          "title": "AI Email Drafts & Messaging",
+          "desc": "Personalized outreach based on the specific buying signal per prospect. No templates, no generic AI emails. Every message is relevant because it responds to what\u2019s happening at that prospect."
         },
         {
           "num": "/04",
-          "title": "Prompt Libraries & Templates",
-          "desc": "A library of tested prompts for your team: discovery questions, email variants, objection handling, lead research. Ready for daily use."
+          "title": "Conversation Intelligence",
+          "desc": "Every conversation is automatically transcribed and analyzed. Per call you get: summary, pain points, buying signals, action items, and coaching feedback. Without typing a single note. Automatically in your CRM."
+        },
+        {
+          "num": "/05",
+          "title": "Predictive Lead Scoring",
+          "desc": "AI scores leads based on engagement, ICP fit, and signal strength. Multiple signals at once? That prospect goes to the top. No gut feeling, data."
+        },
+        {
+          "num": "/06",
+          "title": "Workflow Automation & Integrations",
+          "desc": "Automatic data flow between all your tools. Lead comes in \u2192 gets enriched \u2192 into your CRM \u2192 outreach sequence starts \u2192 reply classification \u2192 CRM update \u2192 task created. No manual work. Everything talks to everything."
+        },
+        {
+          "num": "/07",
+          "title": "Sales Knowledge Base",
+          "desc": "A searchable brain that remembers everything: past conversations, objections, competitive intel, pricing history, client context. After 6 months, the system knows more about your clients than you do."
+        }
+      ]
+    },
+    "aiChange": {
+      "label": "/ The impact",
+      "title": "What AI changes in your sales process",
+      "cards": [
+        {
+          "title": "80% less admin",
+          "desc": "Most of what a salesperson does isn\u2019t selling. Entering data, finding leads, writing emails, updating the CRM. AI takes this over so your team can do what it\u2019s good at: building relationships and closing deals."
+        },
+        {
+          "title": "Better decisions with data",
+          "desc": "Which lead do you call first? Which channel converts best? When do you follow up? AI analyzes your pipeline and provides answers based on patterns, not gut feeling."
+        },
+        {
+          "title": "Scale without extra people",
+          "desc": "With the right automations, a team of 3 can do the work of 8. Not by working harder, but by working smarter. AI is the multiplier that strengthens every other component."
         }
       ]
     },
     "steps": {
       "title": "How it works",
       "items": [
-        { "num": "/01", "title": "Audit current stack", "desc": "What do you have, what's missing, what isn't working?" },
-        { "num": "/02", "title": "Architecture design", "desc": "Which tools, which flows, which triggers" },
-        { "num": "/03", "title": "Build & test", "desc": "I configure, integrate and test everything" },
-        { "num": "/04", "title": "Training & handover", "desc": "Your team can run it themselves" }
+        { "num": "/01", "title": "Audit", "desc": "Review current tools and workflows. What do you use? What works? What\u2019s manual that could be automated?" },
+        { "num": "/02", "title": "Design", "desc": "Design automation architecture. Which flows, which triggers, which integrations between your systems." },
+        { "num": "/03", "title": "Build", "desc": "Build workflows, configure integrations, train AI models on your data and processes. Test until it works." },
+        { "num": "/04", "title": "Optimize", "desc": "Monitor, debug, improve. Which automations perform? Where does it break? Continuous iteration." }
       ]
     },
     "voorJou": [
-      "You've bought tools but nobody makes them work",
-      "You want to use AI but don't know where to start",
-      "Your prospecting is manual and takes too much time",
-      "Your outbound messages are generic and don't convert"
+      "You use AI tools but they\u2019re not connected to your sales process",
+      "Your team spends more time on admin than on selling",
+      "You want to scale without immediately hiring more people",
+      "You have tools but they don\u2019t talk to each other",
+      "You want your CRM to update itself",
+      "You want to know which lead to call tomorrow, without searching yourself"
     ],
     "faq": [
       {
-        "q": "Do I need to already have AI tools?",
-        "a": "No. I select and implement the right tools for your situation. De Scan maps out what you need."
+        "q": "Isn\u2019t this just connecting a few tools together?",
+        "a": "No. It\u2019s designing an architecture that fits your sales process, selecting the right components, configuring, integrating, and optimizing them. The difference between \u201cI have an AI tool\u201d and \u201cmy entire sales process is AI-native\u201d is enormous."
       },
       {
-        "q": "What does this cost?",
-        "a": "Depends on scope. Typically \u20ac3,000-\u20ac8,000 as part of a larger engagement. De Scan determines the exact scope and price."
+        "q": "Which tools are used?",
+        "a": "That depends on your situation, budget, and existing stack. I work with best-in-class tools per function and always choose what fits best \u2014 not what yields the highest margin. The Scan maps out which tools you need."
       },
       {
-        "q": "Can my team maintain this themselves?",
-        "a": "Yes, that's the goal. I build it, document it, and train your team. The system is yours."
+        "q": "How long does it take to set up?",
+        "a": "The AI & Automation layer is typically built alongside a Build engagement (4\u201312 weeks). Standalone automation projects can be done in 2\u20134 weeks."
+      },
+      {
+        "q": "What if something breaks?",
+        "a": "Automations require maintenance. APIs change, tools update, volumes grow. That\u2019s why The Motor exists \u2014 ongoing maintenance and optimization of your system."
+      },
+      {
+        "q": "What does the tooling cost per month?",
+        "a": "The minimum viable stack for an SMB costs \u20ac250\u2013\u20ac500/month in licenses. A comprehensive stack with all capabilities runs \u20ac1,000\u2013\u20ac1,500/month. I advise what you need, nothing more."
       }
     ],
     "cta": {
-      "title": "Curious what AI can do for your sales?",
-      "desc": "De Scan maps out where AI delivers the most value in your specific situation. Concrete opportunities, no vague promises.",
-      "ctaLabel": "Start with De Scan, \u20ac3,500"
+      "title": "AI is the multiplier. But only when the foundation is right.",
+      "desc": "The Scan maps out which automations have the most impact for your sales process.",
+      "ctaLabel": "Start with The Scan \u2014 \u20ac3,500",
+      "subtitle": "AI & Automation is included in The Growth Engine and The Transformation."
     }
   },
   "fractional": {

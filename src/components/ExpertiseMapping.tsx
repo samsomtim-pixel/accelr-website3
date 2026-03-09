@@ -42,6 +42,15 @@ const expertiseCards = [
     href: "/sales-enablement" as const,
     color: P.people.color,
   },
+  {
+    badge: "TECHNOLOGIE",
+    title: "AI & Automation",
+    desc: "De automatiseringslaag die door alle bouwblokken heen loopt. Van lead research tot workflow automation tot conversation intelligence.",
+    aiText: "AI-powered: de technologielaag die elk ander onderdeel versterkt",
+    packages: "Groeimachine \u00b7 Transformatie",
+    href: "/ai-automation" as const,
+    color: P.ai.color,
+  },
 ];
 
 export default function ExpertiseMapping() {
@@ -54,7 +63,7 @@ export default function ExpertiseMapping() {
             De expertise achter elk pakket
           </h2>
           <p className="mt-4 max-w-2xl text-text-dark-secondary">
-            Vier expertisegebieden die in verschillende combinaties terugkomen in onze pakketten. AI is de rode draad door alles heen.
+            Vijf expertisegebieden die in verschillende combinaties terugkomen in onze pakketten. AI & Automation is de rode draad door alles heen.
           </p>
         </FadeIn>
 

@@ -15,19 +15,21 @@ export async function generateMetadata(): Promise<Metadata> {
       title: t("metadata.title"),
       description: t("metadata.description"),
       images: [{ url: "https://accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
-      url: "https://accelr.nl/ai-sales-automation",
+      url: "https://accelr.nl/ai-automation",
     },
   };
 }
 
-const tools = ["Clay", "Apollo", "Make", "n8n", "OpenAI", "Instantly", "HubSpot"];
-
-export default async function AiSalesAutomationPage() {
+export default async function AiAutomationPage() {
   const t = await getTranslations("aiAutomation");
   const tc = await getTranslations("common");
 
   const deliverables = t.raw("deliverables.items") as Array<{
     num: string;
+    title: string;
+    desc: string;
+  }>;
+  const aiChangeCards = t.raw("aiChange.cards") as Array<{
     title: string;
     desc: string;
   }>;
@@ -95,7 +97,7 @@ export default async function AiSalesAutomationPage() {
           </div>
         </section>
 
-        {/* ─── SECTIE 3: WAT IK BOUW ─── */}
+        {/* ─── SECTIE 3: WAT JE KRIJGT ─── */}
         <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
@@ -132,8 +134,35 @@ export default async function AiSalesAutomationPage() {
           </div>
         </section>
 
-        {/* ─── SECTIE 4: HOE HET WERKT ─── */}
+        {/* ─── SECTIE 4: WAT AI VERANDERT ─── */}
         <section className="bg-bg-light py-20 sm:py-28 lg:py-32">
+          <div className="container-wide">
+            <FadeIn>
+              <p className="section-label-dark">{t("aiChange.label")}</p>
+              <h3 className="mt-4 font-display text-3xl font-bold text-text-dark sm:text-4xl">
+                {t("aiChange.title")}
+              </h3>
+            </FadeIn>
+
+            <div className="mt-12 grid gap-6 sm:grid-cols-3">
+              {aiChangeCards.map((card, i) => (
+                <FadeIn key={card.title} delay={i * 0.1}>
+                  <div className="card-light h-full flex flex-col">
+                    <h4 className="font-display text-lg font-bold text-text-dark">
+                      {card.title}
+                    </h4>
+                    <p className="mt-3 flex-1 text-sm text-text-dark-secondary leading-relaxed">
+                      {card.desc}
+                    </p>
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ─── SECTIE 5: HOE HET WERKT ─── */}
+        <section className="bg-white py-20 sm:py-28 lg:py-32">
           <div className="container-wide">
             <FadeIn>
               <h3 className="font-display text-3xl font-bold text-text-dark sm:text-4xl">
@@ -154,27 +183,6 @@ export default async function AiSalesAutomationPage() {
                     <p className="mt-2 text-sm text-text-dark-secondary">
                       {step.desc}
                     </p>
-                  </div>
-                </FadeIn>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ─── SECTIE 5: TOOLS ─── */}
-        <section className="bg-white py-20 sm:py-28 lg:py-32">
-          <div className="container-wide">
-            <FadeIn>
-              <h3 className="font-display text-3xl font-bold text-text-dark sm:text-4xl">
-                {tc("toolsDieIkGebruik")}
-              </h3>
-            </FadeIn>
-
-            <div className="mt-12 flex flex-wrap gap-3">
-              {tools.map((tool, i) => (
-                <FadeIn key={tool} delay={i * 0.05}>
-                  <div className="rounded-full border border-border-light-mode bg-bg-light px-6 py-3 font-display text-sm font-semibold text-text-dark">
-                    {tool}
                   </div>
                 </FadeIn>
               ))}
@@ -260,7 +268,7 @@ export default async function AiSalesAutomationPage() {
                 </div>
 
                 <p className="mt-4 text-sm text-text-dark-muted">
-                  {tc("deScanBepaalt")}
+                  {t("cta.subtitle")}
                 </p>
               </div>
             </FadeIn>

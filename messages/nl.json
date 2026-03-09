@@ -19,7 +19,8 @@
       "strategieGtm": "Strategie & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
       "crmSalesproces": "CRM & Salesproces",
-      "salesEnablement": "Sales Enablement"
+      "salesEnablement": "Sales Enablement",
+      "aiAutomation": "AI & Automation"
     }
   },
   "footer": {
@@ -42,7 +43,8 @@
       "strategieGtm": "Strategie & GTM",
       "outboundLeadgen": "Outbound & Leadgen",
       "crmSalesproces": "CRM & Salesproces",
-      "salesEnablement": "Sales Enablement"
+      "salesEnablement": "Sales Enablement",
+      "aiAutomation": "AI & Automation"
     },
     "contact": "Contact",
     "planGesprek": "Plan een gesprek",
@@ -1205,81 +1207,124 @@
   },
   "aiAutomation": {
     "metadata": {
-      "title": "AI Sales Automation voor B2B",
-      "description": "AI structureel ge\u00efntegreerd in je salesproces. Clay, Make, n8n, Apollo. Geen experimenten, werkende systemen."
+      "title": "AI & Automation | Accelr",
+      "description": "Een ge\u00efntegreerde automatiseringslaag die door je hele salesproces loopt. Van lead research tot gesprekanalyse tot pipeline forecasting."
     },
     "hero": {
-      "label": "/ AI & Automation",
-      "title": "AI die daadwerkelijk verkoopt.",
-      "subtitle": "Geen ChatGPT-experimenten. Structurele AI-integratie in je salesproces die meetbaar meer pipeline en omzet oplevert.",
+      "label": "/ AI & AUTOMATION",
+      "title": "AI die je salesteam sneller, slimmer en scherper maakt.",
+      "subtitle": "Geen losse AI-tools die niemand gebruikt. Een ge\u00efntegreerde automatiseringslaag die door je hele salesproces loopt \u2014 van lead research tot gesprekanalyse tot pipeline forecasting.",
       "cta": "Start met De Scan"
     },
     "probleem": {
-      "title": "De meeste bedrijven gebruiken AI als speeltje.",
+      "title": "Losse experimenten, geen systeem.",
       "paragraphs": [
-        "Een prompt in ChatGPT. Een lijstje uit Apollo. Een automation die \u00e9\u00e9n keer draait en dan breekt.",
-        "Het probleem is niet de technologie, het is de implementatie. AI werkt alleen als het structureel is ingebed in je salesproces: van prospecting tot personalisatie tot opvolging. Niet als losse tool, maar als onderdeel van een werkend systeem.",
-        "Dat is wat ik bouw. AI-gedreven sales infrastructuur die draait zonder dat jij elke prompt zelf hoeft te schrijven."
+        "Je hebt ChatGPT geprobeerd voor je mails. Misschien een AI-tool getest voor leads. Maar het zijn losse experimenten, niet verbonden met je CRM, je pipeline of je proces. Het resultaat: nog een tool erbij, geen verbetering in resultaat.",
+        "AI werkt alleen als het is ingebed in je salesproces. Niet als speeltje, maar als infrastructuur."
       ]
     },
     "deliverables": {
-      "title": "Wat ik bouw",
+      "title": "Wat je krijgt",
       "items": [
         {
           "num": "/01",
-          "title": "AI Prospecting Engine",
-          "desc": "Automatisch je ideale klanten vinden en verrijken met Clay en Apollo. Bedrijfsdata, contactgegevens, technographics en intent signals, zonder handmatig zoeken."
+          "title": "AI-Powered Lead Research",
+          "desc": "Automatisch je ideale prospects vinden en verrijken. Firmographics, technographics, hiring signals, funding data \u2014 gecombineerd uit 80+ databronnen. Geen handmatig zoeken meer."
         },
         {
           "num": "/02",
-          "title": "Workflow Automation",
-          "desc": "Make en n8n workflows die je CRM, email tools en prospecting met elkaar verbinden. Leads die binnenkomen worden automatisch verrijkt, gescoord en gerouteerd."
+          "title": "Signal-Based Priority Scoring",
+          "desc": "Automatische monitoring van koopsignalen: funding-rondes, nieuwe hires, technologie-wijzigingen, websitebezoeken. Prospects die nu klaar zijn om te kopen komen bovenaan je lijst. Je belt altijd de juiste lead op het juiste moment."
         },
         {
           "num": "/03",
-          "title": "AI-Personalisatie",
-          "desc": "Outbound berichten die niet lezen als spam. AI-gegenereerde personalisatie op basis van bedrijfsdata, LinkedIn activiteit en technische stack. Op schaal, in jouw tone of voice."
+          "title": "AI Email Drafts & Messaging",
+          "desc": "Gepersonaliseerde outreach op basis van het specifieke koopsignaal per prospect. Geen templates, geen generieke AI-mails. Elk bericht is relevant omdat het reageert op wat er bij die prospect gebeurt."
         },
         {
           "num": "/04",
-          "title": "Prompt Libraries & Templates",
-          "desc": "Een bibliotheek van geteste prompts voor je team: discovery vragen, email varianten, objection handling, lead research. Klaar voor dagelijks gebruik."
+          "title": "Conversation Intelligence",
+          "desc": "Elk gesprek wordt automatisch getranscribeerd en geanalyseerd. Per call krijg je: samenvatting, pijnpunten, koopsignalen, actiepunten en coaching feedback. Zonder dat je een notitie hoeft te tikken. Automatisch in je CRM."
+        },
+        {
+          "num": "/05",
+          "title": "Predictive Lead Scoring",
+          "desc": "AI scoort leads op basis van engagement, ICP-fit en signaalsterkte. Meerdere signalen tegelijk? Die prospect gaat naar de top. Geen buikgevoel, data."
+        },
+        {
+          "num": "/06",
+          "title": "Workflow Automation & Koppelingen",
+          "desc": "Automatische dataflow tussen al je tools. Lead komt binnen \u2192 wordt verrijkt \u2192 in je CRM \u2192 outreach sequence start \u2192 reply classificatie \u2192 CRM update \u2192 taak aangemaakt. Zonder handmatig werk. Alles praat met alles."
+        },
+        {
+          "num": "/07",
+          "title": "Sales Knowledge Base",
+          "desc": "Een doorzoekbaar brein dat alles onthoudt: eerdere gesprekken, bezwaren, competitieve intel, pricing history, klantcontext. Na 6 maanden weet het systeem meer over je klanten dan jij."
+        }
+      ]
+    },
+    "aiChange": {
+      "label": "/ De impact",
+      "title": "Wat AI verandert in je salesproces",
+      "cards": [
+        {
+          "title": "80% minder admin",
+          "desc": "Het meeste wat een salesperson doet is niet verkopen. Data invoeren, leads zoeken, mails schrijven, CRM bijwerken. AI neemt dit over zodat je team kan doen waar het goed in is: relaties bouwen en deals closen."
+        },
+        {
+          "title": "Betere beslissingen met data",
+          "desc": "Welke lead bel je eerst? Welk kanaal converteert het best? Wanneer volg je op? AI analyseert je pipeline en geeft antwoorden op basis van patronen, niet onderbuikgevoel."
+        },
+        {
+          "title": "Schaal zonder extra mensen",
+          "desc": "Met de juiste automations kan een team van 3 het werk doen van 8. Niet door harder te werken, maar door slimmer te werken. AI is de multiplier die elk ander onderdeel versterkt."
         }
       ]
     },
     "steps": {
       "title": "Hoe het werkt",
       "items": [
-        { "num": "/01", "title": "Audit huidige stack", "desc": "Wat heb je, wat mist er, wat werkt niet?" },
-        { "num": "/02", "title": "Architectuur ontwerp", "desc": "Welke tools, welke flows, welke triggers" },
-        { "num": "/03", "title": "Bouwen & testen", "desc": "Ik configureer, integreer en test alles" },
-        { "num": "/04", "title": "Training & overdracht", "desc": "Je team kan het zelf runnen" }
+        { "num": "/01", "title": "Audit", "desc": "Huidige tools en workflows doorlichten. Wat gebruik je? Wat werkt? Wat is handmatig dat geautomatiseerd kan?" },
+        { "num": "/02", "title": "Ontwerp", "desc": "Automatiseringsarchitectuur ontwerpen. Welke flows, welke triggers, welke koppelingen tussen je systemen." },
+        { "num": "/03", "title": "Bouw", "desc": "Workflows bouwen, koppelingen configureren, AI-modellen trainen op je data en processen. Testen tot het werkt." },
+        { "num": "/04", "title": "Optimaliseer", "desc": "Monitoren, debuggen, verbeteren. Welke automations presteren? Waar breekt het? Continue iteratie." }
       ]
     },
     "voorJou": [
-      "Je hebt tools gekocht maar niemand maakt ze werkend",
-      "Je wilt AI inzetten maar weet niet waar te beginnen",
-      "Je prospecting is handmatig en kost te veel tijd",
-      "Je outbound berichten zijn generiek en converteren niet"
+      "Je gebruikt AI-tools maar ze zijn niet verbonden met je salesproces",
+      "Je team besteedt meer tijd aan admin dan aan verkopen",
+      "Je wilt schalen zonder direct mensen aan te nemen",
+      "Je hebt tools maar ze praten niet met elkaar",
+      "Je wilt dat je CRM zichzelf bijhoudt",
+      "Je wilt weten welke lead je morgen moet bellen, zonder zelf te zoeken"
     ],
     "faq": [
       {
-        "q": "Moet ik al AI tools hebben?",
-        "a": "Nee. Ik selecteer en implementeer de juiste tools voor jouw situatie. De Scan brengt in kaart wat je nodig hebt."
+        "q": "Is dit niet gewoon een paar tools aan elkaar knopen?",
+        "a": "Nee. Het is een architectuur ontwerpen die past bij jouw salesproces, de juiste componenten selecteren, configureren, integreren en optimaliseren. Het verschil tussen \u201cik heb een AI-tool\u201d en \u201cmijn hele salesproces is AI-native\u201d is enorm."
       },
       {
-        "q": "Wat kost dit?",
-        "a": "Afhankelijk van scope. Typisch \u20ac3.000-\u20ac8.000 als onderdeel van een groter traject. De Scan bepaalt de exacte scope en prijs."
+        "q": "Welke tools worden er gebruikt?",
+        "a": "Dat hangt af van je situatie, budget en bestaande stack. Ik werk met best-in-class tools per functie en kies altijd wat het beste past \u2014 niet wat de hoogste marge oplevert. De Scan brengt in kaart welke tools je nodig hebt."
       },
       {
-        "q": "Kan mijn team dit zelf onderhouden?",
-        "a": "Ja, dat is het doel. Ik bouw het, documenteer het, en train je team. Het systeem is van jou."
+        "q": "Hoe lang duurt het om dit op te zetten?",
+        "a": "De AI & Automation laag wordt typisch meegebouwd in een De Bouw traject (4\u201312 weken). Standalone automation-projecten kunnen in 2\u20134 weken."
+      },
+      {
+        "q": "Wat als er iets breekt?",
+        "a": "Automations vereisen onderhoud. API\u2019s veranderen, tools updaten, volumes groeien. Daarom bestaat De Motor \u2014 doorlopend onderhoud en optimalisatie van je systeem."
+      },
+      {
+        "q": "Wat kost de tooling per maand?",
+        "a": "De minimum viable stack voor een MKB-bedrijf kost \u20ac250\u2013\u20ac500/maand aan licenties. Een uitgebreide stack met alle capabilities zit op \u20ac1.000\u2013\u20ac1.500/maand. Ik adviseer wat je nodig hebt, niet meer."
       }
     ],
     "cta": {
-      "title": "Benieuwd wat AI voor jouw sales kan betekenen?",
-      "desc": "De Scan brengt in kaart waar AI het meeste oplevert in jouw specifieke situatie. Concrete kansen, geen vage beloftes.",
-      "ctaLabel": "Start met De Scan, \u20ac3.500"
+      "title": "AI is de multiplier. Maar alleen als het fundament klopt.",
+      "desc": "De Scan brengt in kaart welke automations het meeste impact hebben voor jouw salesproces.",
+      "ctaLabel": "Start met De Scan \u2014 \u20ac3.500",
+      "subtitle": "AI & Automation zit in De Groeimachine en De Transformatie."
     }
   },
   "fractional": {
