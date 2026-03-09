@@ -17,6 +17,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/expertise",
+        destination: "/methode",
+        permanent: true,
+      },
+      {
         source: "/het-partnerschap",
         destination: "/methode#partnerschap",
         permanent: true,
