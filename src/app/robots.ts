@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/api/",
     },
-    sitemap: "https://accelr.nl/sitemap.xml",
+    sitemap: "https://www.accelr.nl/sitemap.xml",
   };
 }

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://accelr.nl";
+  const baseUrl = "https://www.accelr.nl";
 
   const pages = [
     { path: "/", priority: 1.0, changeFrequency: "weekly" as const },

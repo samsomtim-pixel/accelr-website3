@@ -20,8 +20,8 @@ export async function generateMetadata({
     openGraph: {
       title: `${t("title")} | Accelr`,
       description: t("intro"),
-      images: [{ url: "https://accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
-      url: "https://accelr.nl/privacy",
+      images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
+      url: "https://www.accelr.nl/privacy",
     },
   };
 }
@@ -109,7 +109,7 @@ export default async function PrivacyPage() {
                   </dt>
                   <dd className="mt-1 text-sm font-medium text-text-dark">
                     <a
-                      href="https://accelr.nl"
+                      href="https://www.accelr.nl"
                       className="transition-colors hover:text-accent-teal-dark"
                     >
                       accelr.nl

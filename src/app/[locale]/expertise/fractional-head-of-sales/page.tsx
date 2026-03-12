@@ -14,8 +14,8 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: t("metadata.title"),
       description: t("metadata.description"),
-      images: [{ url: "https://accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
-      url: "https://accelr.nl/expertise/fractional-head-of-sales",
+      images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
+      url: "https://www.accelr.nl/expertise/fractional-head-of-sales",
     },
   };
 }

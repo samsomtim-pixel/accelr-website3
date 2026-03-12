@@ -20,8 +20,8 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      images: [{ url: "https://accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
-      url: "https://accelr.nl/de-motor",
+      images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
+      url: "https://www.accelr.nl/de-motor",
     },
   };
 }

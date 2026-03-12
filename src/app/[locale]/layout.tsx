@@ -15,7 +15,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "metadata" });
 
   return {
-    metadataBase: new URL("https://accelr.nl"),
+    metadataBase: new URL("https://www.accelr.nl"),
     title: {
       default: t("siteTitle"),
       template: "%s | Accelr",
@@ -27,7 +27,7 @@ export async function generateMetadata({
       siteName: "Accelr",
       images: [
         {
-          url: "https://accelr.nl/images/og-default.png",
+          url: "https://www.accelr.nl/images/og-default.png",
           width: 1200,
           height: 630,
           alt: "Accelr - Your Sales Growth Partner",
@@ -40,8 +40,8 @@ export async function generateMetadata({
     },
     alternates: {
       languages: {
-        nl: "https://accelr.nl",
-        en: "https://accelr.nl/en",
+        nl: "https://www.accelr.nl",
+        en: "https://www.accelr.nl/en",
       },
     },
   };
@@ -73,12 +73,12 @@ export default async function LocaleLayout({
               "@graph": [
                 {
                   "@type": "Organization",
-                  "@id": "https://accelr.nl/#organization",
+                  "@id": "https://www.accelr.nl/#organization",
                   name: "Accelr",
-                  url: "https://accelr.nl",
+                  url: "https://www.accelr.nl",
                   logo: {
                     "@type": "ImageObject",
-                    url: "https://accelr.nl/images/og-accelr.png",
+                    url: "https://www.accelr.nl/images/og-accelr.png",
                   },
                   founder: {
                     "@type": "Person",
@@ -97,13 +97,13 @@ export default async function LocaleLayout({
                 },
                 {
                   "@type": "LocalBusiness",
-                  "@id": "https://accelr.nl/#localbusiness",
+                  "@id": "https://www.accelr.nl/#localbusiness",
                   name: "Accelr",
                   description:
                     locale === "nl"
                       ? "B2B sales consultancy voor tech-founders. Van diagnose tot doorlopend partnerschap. Sales infrastructuur, CRM implementatie, B2B leadgeneratie en AI-gedreven salesprocessen in Nederland."
                       : "B2B sales consultancy for tech founders. From diagnosis to ongoing partnership. Sales infrastructure, CRM implementation, B2B lead generation and AI-driven sales processes in the Netherlands.",
-                  url: "https://accelr.nl",
+                  url: "https://www.accelr.nl",
                   email: "tim@accelr.nl",
                   address: {
                     "@type": "PostalAddress",
@@ -118,11 +118,11 @@ export default async function LocaleLayout({
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://accelr.nl/#website",
-                  url: "https://accelr.nl",
+                  "@id": "https://www.accelr.nl/#website",
+                  url: "https://www.accelr.nl",
                   name: "Accelr",
                   publisher: {
-                    "@id": "https://accelr.nl/#organization",
+                    "@id": "https://www.accelr.nl/#organization",
                   },
                   inLanguage: ["nl-NL", "en-US"],
                 },
