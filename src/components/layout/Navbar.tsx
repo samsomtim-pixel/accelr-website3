@@ -64,23 +64,14 @@ function LanguageSwitch() {
   );
 }
 
-type DropdownKey = "diensten" | "expertise";
-
 export default function Navbar() {
   const t = useTranslations("nav");
   const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<DropdownKey | null>(null);
-  const [mobileDienstenOpen, setMobileDienstenOpen] = useState(false);
+  const [expertiseOpen, setExpertiseOpen] = useState(false);
   const [mobileExpertiseOpen, setMobileExpertiseOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-
-  const dienstenItems = [
-    { href: "/de-scan" as const, label: t("dienstenItems.deScan") },
-    { href: "/de-bouw" as const, label: t("dienstenItems.deBouw") },
-    { href: "/de-motor" as const, label: t("dienstenItems.deMotor") },
-  ];
 
   const expertiseItems = [
     { href: "/sales-strategie" as const, label: t("expertiseItems.strategieGtm") },
@@ -105,16 +96,12 @@ export default function Navbar() {
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setActiveDropdown(null);
+        setExpertiseOpen(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
-  function toggleDropdown(key: DropdownKey) {
-    setActiveDropdown((prev) => (prev === key ? null : key));
-  }
 
   return (
     <nav
@@ -134,55 +121,26 @@ export default function Navbar() {
 
         {/* Desktop */}
         <div className="hidden items-center gap-8 md:flex" ref={dropdownRef}>
-          {/* Diensten dropdown */}
-          <div className="relative">
-            <button
-              onClick={() => toggleDropdown("diensten")}
-              className="flex items-center gap-1 text-[13px] font-medium uppercase tracking-wider text-text-dark-secondary transition-colors duration-200 hover:text-accent-teal-dark dark:text-gray-400 dark:hover:text-accent-teal"
-            >
-              {t("diensten")}
-              <ChevronDown
-                size={14}
-                className={`transition-transform duration-200 ${activeDropdown === "diensten" ? "rotate-180" : ""}`}
-              />
-            </button>
-
-            {activeDropdown === "diensten" && (
-              <div className="absolute left-0 top-full mt-3 w-56 rounded-xl border border-border-light-mode bg-white p-2 shadow-lg dark:border-[#2A2A2A] dark:bg-[#0A0A0A]">
-                {dienstenItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setActiveDropdown(null)}
-                    className="block rounded-lg px-4 py-2.5 text-sm text-text-dark-secondary transition-colors hover:bg-bg-light hover:text-text-dark dark:text-gray-400 dark:hover:bg-[#1A1A1A] dark:hover:text-white"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
-
           {/* Expertise dropdown */}
           <div className="relative">
             <button
-              onClick={() => toggleDropdown("expertise")}
+              onClick={() => setExpertiseOpen((prev) => !prev)}
               className="flex items-center gap-1 text-[13px] font-medium uppercase tracking-wider text-text-dark-secondary transition-colors duration-200 hover:text-accent-teal-dark dark:text-gray-400 dark:hover:text-accent-teal"
             >
               {t("expertise")}
               <ChevronDown
                 size={14}
-                className={`transition-transform duration-200 ${activeDropdown === "expertise" ? "rotate-180" : ""}`}
+                className={`transition-transform duration-200 ${expertiseOpen ? "rotate-180" : ""}`}
               />
             </button>
 
-            {activeDropdown === "expertise" && (
+            {expertiseOpen && (
               <div className="absolute left-0 top-full mt-3 w-64 rounded-xl border border-border-light-mode bg-white p-2 shadow-lg dark:border-[#2A2A2A] dark:bg-[#0A0A0A]">
                 {expertiseItems.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
-                    onClick={() => setActiveDropdown(null)}
+                    onClick={() => setExpertiseOpen(false)}
                     className="block rounded-lg px-4 py-2.5 text-sm text-text-dark-secondary transition-colors hover:bg-bg-light hover:text-text-dark dark:text-gray-400 dark:hover:bg-[#1A1A1A] dark:hover:text-white"
                   >
                     {item.label}
@@ -233,32 +191,6 @@ export default function Navbar() {
       {open && (
         <div className="border-t border-border-light-mode bg-white md:hidden dark:border-[#2A2A2A] dark:bg-[#0A0A0A]">
           <div className="container-wide flex flex-col gap-4 py-8">
-            {/* Diensten accordion */}
-            <button
-              onClick={() => setMobileDienstenOpen(!mobileDienstenOpen)}
-              className="flex items-center justify-between text-lg font-medium text-text-dark-secondary transition-colors hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
-            >
-              {t("diensten")}
-              <ChevronDown
-                size={18}
-                className={`transition-transform duration-200 ${mobileDienstenOpen ? "rotate-180" : ""}`}
-              />
-            </button>
-            {mobileDienstenOpen && (
-              <div className="flex flex-col gap-3 pl-4 border-l-2 border-accent-teal/20">
-                {dienstenItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setOpen(false)}
-                    className="text-base text-text-dark-secondary transition-colors hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </div>
-            )}
-
             {/* Expertise accordion */}
             <button
               onClick={() => setMobileExpertiseOpen(!mobileExpertiseOpen)}
