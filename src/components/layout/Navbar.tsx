@@ -173,10 +173,8 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile: theme toggle + hamburger */}
-        <div className="flex items-center gap-2 md:hidden">
-          <LanguageSwitch />
-          <ThemeToggle />
+        {/* Mobile: hamburger only */}
+        <div className="flex items-center md:hidden">
           <button
             onClick={() => setOpen(!open)}
             className="flex h-10 w-10 items-center justify-center text-text-dark-secondary hover:text-text-dark dark:text-gray-400 dark:hover:text-white"
