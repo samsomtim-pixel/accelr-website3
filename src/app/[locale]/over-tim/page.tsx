@@ -15,6 +15,8 @@ const trajectenLinks = [
   "https://www.aethogenix.com/",
   null,
   "https://stablagency.com/",
+  null,
+  null,
 ];
 
 export async function generateMetadata({

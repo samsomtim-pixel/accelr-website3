@@ -33,6 +33,8 @@ const resultatenLinks = [
   "https://www.aethogenix.com/",
   null,
   "https://stablagency.com/",
+  null,
+  null,
 ];
 
 /* ─── Tool logos for marquee ─── */
