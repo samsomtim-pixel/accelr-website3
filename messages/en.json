@@ -116,7 +116,7 @@
           "body": "I analyze your complete sales operation: process, team, tooling and data. You receive a report with hard numbers, a priority list and a concrete roadmap.",
           "details": "Timeline: 2-3 weeks",
           "badge": "Always the first step",
-          "price": "\u20ac3,500 fixed",
+          "price": "\u20ac5,000 fixed \u00b7 custom scope possible",
           "extra": "Money-back guarantee",
           "cta": "More about De Scan"
         },
@@ -126,7 +126,7 @@
           "body": "I build specific components of your sales infrastructure. CRM setup, outbound engine, playbooks, AI automations, scoped and results-driven.",
           "details": "Based on Scan results or your own brief",
           "badge": "Project-based, scoped",
-          "price": "From \u20ac7,500 per project",
+          "price": "Price on request",
           "extra": null,
           "cta": "View the building blocks"
         },
@@ -136,7 +136,7 @@
           "body": "I become your ongoing commercial partner. Structural sales leadership, coaching and optimization. Flexibly scalable up or down.",
           "details": "Min. 3 months",
           "badge": "Fixed monthly retainer",
-          "price": "From \u20ac2,500/month",
+          "price": "Price on request",
           "extra": null,
           "cta": "More about The Engine"
         }
@@ -163,8 +163,8 @@
       "pakketten": [
         {
           "title": "Foundation",
-          "price": "\u20ac7,500",
-          "priceSuffix": "one-time",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "6\u20138 weeks",
           "highlight": false,
           "items": [
@@ -176,8 +176,8 @@
         },
         {
           "title": "Growth Engine",
-          "price": "\u20ac12,500",
-          "priceSuffix": "one-time",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "8\u201312 weeks",
           "highlight": true,
           "items": [
@@ -191,8 +191,8 @@
         },
         {
           "title": "Transformation",
-          "price": "\u20ac17,500",
-          "priceSuffix": "one-time",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "12\u201316 weeks",
           "highlight": false,
           "items": [
@@ -252,13 +252,6 @@
       },
       "rows": [
         {
-          "aspect": "Cost/year",
-          "zelf": "\u20ac0 + opportunity cost",
-          "fulltime": "\u20ac150K-\u20ac220K",
-          "interim": "\u20ac120K-\u20ac180K",
-          "accelr": "\u20ac30K-\u20ac60K"
-        },
-        {
           "aspect": "Commitment",
           "zelf": "None",
           "fulltime": "12+ months",
@@ -282,7 +275,7 @@
         {
           "aspect": "Risk",
           "zelf": "N/A",
-          "fulltime": "High (\u20ac80K+)",
+          "fulltime": "High",
           "interim": "Medium",
           "accelr": "Low (Scan first)"
         },
@@ -316,8 +309,8 @@
       "models": [
         {
           "title": "De Scan\u2122",
-          "price": "\u20ac3,500",
-          "priceSuffix": "fixed",
+          "price": "\u20ac5,000",
+          "priceSuffix": "fixed \u00b7 custom scope possible",
           "duration": "2-3 weeks",
           "result": "47-point diagnosis, prioritized roadmap, scan report with hard numbers",
           "uren": "~8 hours total",
@@ -326,8 +319,8 @@
         },
         {
           "title": "De Bouw",
-          "price": "From \u20ac7,500",
-          "priceSuffix": "per project",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "4-12 weeks",
           "result": "Working component: configured CRM, running outbound, playbook, or AI automation",
           "uren": "Project-dependent",
@@ -336,8 +329,8 @@
         },
         {
           "title": "The Engine",
-          "price": "From \u20ac2,500",
-          "priceSuffix": "/month",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "Min. 3 months",
           "result": "Ongoing sales leadership + optimization + coaching + weekly check-ins",
           "uren": "Flexible (Light/Standard/Intensive)",
@@ -389,7 +382,7 @@
       "items": [
         {
           "q": "What is The Engine?",
-          "a": "The Engine is an ongoing partnership where I continue to optimize and steer your sales operation. Available in three levels (Light, Standard, Intensive) so you choose exactly the intensity that fits your phase. It costs a fraction of a full-time Head of Sales (\u20ac150K+/year)."
+          "a": "The Engine is an ongoing partnership where I continue to optimize and steer your sales operation. Available in three levels (Light, Standard, Intensive) so you choose exactly the intensity that fits your phase. It costs a fraction of the cost of a full-time Head of Sales."
         },
         {
           "q": "Why start with De Scan?",
@@ -408,7 +401,7 @@
     "ctaFooter": {
       "title": "Ready to professionalize your sales?",
       "cta": "Book a no-obligation call",
-      "scanNote": "Or start with De Scan, \u20ac3,500 fixed, money-back guarantee.",
+      "scanNote": "Or start with De Scan, \u20ac5,000 fixed, money-back guarantee.",
       "location": "Haarlem, The Netherlands"
     }
   },
@@ -513,7 +506,7 @@
           "desc": "I start with a 60-minute kickoff to map goals, systems and constraints. Then in-depth interviews with founder, sales and marketing follow. I audit your CRM (or lack thereof), analyze your pipeline, check your tech stack and assess your AI readiness.",
           "result": "Result:",
           "resultDesc": "Sales Maturity Score across 11 dimensions. A clear picture of where you stand, and where the money is.",
-          "price": "\u20ac3,500 fixed \u00b7 Not satisfied? Money back. No conditions."
+          "price": "\u20ac5,000 fixed \u00b7 custom scope possible \u00b7 Not satisfied? Money back. No conditions."
         },
         {
           "num": "/02",
@@ -532,7 +525,7 @@
             "+ Team enablement + hiring \u2192 6-8 weeks"
           ],
           "overdracht": "Everything is delivered working, documented and handed over. The system is yours.",
-          "price": "Typical investment: \u20ac5,000 \u2013 \u20ac20,000 depending on scope."
+          "price": "Price on request, depending on scope."
         },
         {
           "num": "/04",
@@ -545,7 +538,7 @@
             "Quarterly reviews with strategic adjustments",
             "First sales hire: role definition, onboarding, coaching"
           ],
-          "details": "Light (\u20ac2,500/mo) \u00b7 Standard (\u20ac4,000/mo) \u00b7 Intensive (\u20ac5,000/mo)",
+          "details": "Light \u00b7 Standard \u00b7 Intensive (price on request)",
           "note": "The goal is that you no longer need me. That's not failure, that's the plan."
         }
       ]
@@ -554,22 +547,22 @@
       "title": "Ready to build your sales engine?",
       "cta": "Start with De Scan",
       "ctaSecondary": "Book an introductory call",
-      "scanNote": "\u20ac3,500 fixed \u00b7 Money-back guarantee \u00b7 Results in 2 weeks",
+      "scanNote": "\u20ac5,000 fixed \u00b7 Money-back guarantee \u00b7 Results in 2 weeks",
       "location": "Haarlem, The Netherlands"
     }
   },
   "deScan": {
     "metadata": {
       "title": "De Scan\u2122 | Sales Operation Diagnosis",
-      "description": "Sales diagnosis in 2 weeks. Score across 11 dimensions (1-5 maturity model), opportunities with euro value, action plan. \u20ac3,500 fixed. Not satisfied? Money back."
+      "description": "Sales diagnosis in 2 weeks. Score across 11 dimensions (1-5 maturity model), opportunities with euro value, action plan. \u20ac5,000 fixed. Not satisfied? Money back."
     },
     "hero": {
       "label": "/ Always step 1",
       "title": "De Scan: know where you're leaving money on the table,",
       "titleHighlight": "and how much.",
       "subtitle": "A professional audit of your sales operation. In 1-2 weeks, I map everything out and deliver an action plan with prioritized opportunities and euro value.",
-      "price": "\u20ac3,500",
-      "priceNote": "fixed \u00b7 No surprises",
+      "price": "\u20ac5,000",
+      "priceNote": "fixed \u00b7 custom scope possible \u00b7 No surprises",
       "cta": "Book your Scan"
     },
     "probleem": {
@@ -929,7 +922,7 @@
     "cta": {
       "title": "First the foundation. Then build.",
       "desc": "De Scan maps out whether your strategy holds up, and where the biggest opportunities are to sell more effectively.",
-      "ctaLabel": "Start with De Scan, \u20ac3,500"
+      "ctaLabel": "Start with De Scan, \u20ac5,000"
     }
   },
   "crmImplementatie": {
@@ -1027,7 +1020,7 @@
     "cta": {
       "title": "From spreadsheet to working system.",
       "desc": "De Scan maps out what you need: CRM selection, setup, or optimization of what you already have.",
-      "ctaLabel": "Start with De Scan, \u20ac3,500"
+      "ctaLabel": "Start with De Scan, \u20ac5,000"
     }
   },
   "outbound": {
@@ -1129,7 +1122,7 @@
     "cta": {
       "title": "From cold lists to signal-based pipeline.",
       "desc": "De Scan maps out which signals and channels deliver the most for your market.",
-      "ctaLabel": "Start with De Scan, \u20ac3,500"
+      "ctaLabel": "Start with De Scan, \u20ac5,000"
     }
   },
   "salesEnablement": {
@@ -1222,7 +1215,7 @@
     "cta": {
       "title": "Give your team the structure to win.",
       "desc": "De Scan maps out where your sales process breaks down and which enablement components have the most impact.",
-      "ctaLabel": "Start with De Scan, \u20ac3,500"
+      "ctaLabel": "Start with De Scan, \u20ac5,000"
     }
   },
   "aiAutomation": {
@@ -1337,13 +1330,13 @@
       },
       {
         "q": "What does the tooling cost per month?",
-        "a": "The minimum viable stack for an SMB costs \u20ac250\u2013\u20ac500/month in licenses. A comprehensive stack with all capabilities runs \u20ac1,000\u2013\u20ac1,500/month. I advise what you need, nothing more."
+        "a": "The minimum viable stack for an SMB consists of a handful of licenses at market rates. A comprehensive stack with all capabilities runs higher. I advise what you need, nothing more."
       }
     ],
     "cta": {
       "title": "AI is the multiplier. But only when the foundation is right.",
       "desc": "The Scan maps out which automations have the most impact for your sales process.",
-      "ctaLabel": "Start with The Scan \u2014 \u20ac3,500",
+      "ctaLabel": "Start with The Scan \u2014 \u20ac5,000",
       "subtitle": "AI & Automation is included in The Growth Engine and The Transformation."
     }
   },
@@ -1374,14 +1367,8 @@
       },
       "rows": [
         {
-          "aspect": "Cost/year",
-          "fulltime": "\u20ac150K-\u20ac220K",
-          "interim": "\u20ac120K-\u20ac180K",
-          "accelr": "\u20ac48K-\u20ac96K"
-        },
-        {
           "aspect": "Mismatch risk",
-          "fulltime": "\u20ac80K+ (6 months salary + recruitment)",
+          "fulltime": "High",
           "interim": "Medium (contract)",
           "accelr": "Low (monthly)"
         },
@@ -1463,8 +1450,8 @@
     "investering": {
       "label": "/ Investment",
       "title": "The investment",
-      "price": "From \u20ac4,000",
-      "priceSuffix": "/month",
+      "price": "Price on request",
+      "priceSuffix": "",
       "features": [
         "1-2 days per week (8-16 hours)",
         "Minimum 6 months commitment",
@@ -1499,15 +1486,15 @@
   "deMotor": {
     "metadata": {
       "title": "De Motor | Ongoing Sales Partnership",
-      "description": "Ongoing sales partnership. Campaign optimization, pipeline reviews, tool maintenance and strategic sparring. From \u20ac2,500/month."
+      "description": "Ongoing sales partnership. Campaign optimization, pipeline reviews, tool maintenance and strategic sparring."
     },
     "hero": {
       "label": "/ De Motor",
       "title": "Your system is running. Now it needs to keep",
       "titleHighlight": "performing.",
       "subtitle": "Ongoing sales partnership. I keep your AI sales system sharp: campaign optimization, pipeline reviews, tool maintenance and strategic sparring.",
-      "price": "From \u20ac2,500",
-      "priceNote": "/month \u00b7 Min. 3 months",
+      "price": "Price on request",
+      "priceNote": "Min. 3 months",
       "cta": "Book a call",
       "ctaSecondary": "Start with De Scan"
     },
@@ -1525,8 +1512,8 @@
       "cards": [
         {
           "title": "Light",
-          "price": "\u20ac2,500",
-          "priceSuffix": "/month",
+          "price": "Price on request",
+          "priceSuffix": "",
           "hours": "4 hours/week",
           "highlight": false,
           "features": [
@@ -1539,8 +1526,8 @@
         },
         {
           "title": "Standard",
-          "price": "\u20ac4,000",
-          "priceSuffix": "/month",
+          "price": "Price on request",
+          "priceSuffix": "",
           "hours": "6-8 hours/week",
           "highlight": true,
           "features": [
@@ -1553,8 +1540,8 @@
         },
         {
           "title": "Intensive",
-          "price": "\u20ac5,000",
-          "priceSuffix": "/month",
+          "price": "Price on request",
+          "priceSuffix": "",
           "hours": "8-10 hours/week",
           "highlight": false,
           "features": [
@@ -1582,8 +1569,7 @@
         { "aspect": "Sales coaching", "light": "\u2014", "standard": "1-on-1 guidance", "intensive": "1-on-1 + team" },
         { "aspect": "Strategic leadership", "light": "\u2014", "standard": "\u2014", "intensive": "Fractional HoS function" },
         { "aspect": "Sales hiring support", "light": "\u2014", "standard": "\u2014", "intensive": "Role definition + onboarding" },
-        { "aspect": "Reporting", "light": "Monthly", "standard": "Quarterly reviews", "intensive": "Board-ready forecasting" },
-        { "aspect": "Investment/year", "light": "\u20ac30K", "standard": "\u20ac48K", "intensive": "\u20ac60K" }
+        { "aspect": "Reporting", "light": "Monthly", "standard": "Quarterly reviews", "intensive": "Board-ready forecasting" }
       ]
     },
     "voorWie": {
@@ -1659,12 +1645,12 @@
       "subtitle": "Each package is a combination of building blocks that together form a working system. No loose modules \u2014 everything is integrated.",
       "popular": "Most popular",
       "cta": "Book a call",
-      "note": "All prices exclude VAT. Payment in 2 installments: 50% at start, 50% at delivery. Custom packages available on request.",
+      "note": "Custom packages available on request.",
       "cards": [
         {
           "title": "Foundation",
-          "price": "\u20ac7,500",
-          "priceSuffix": "one-time",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "6\u20138 weeks",
           "highlight": false,
           "bouwblokken": [
@@ -1676,8 +1662,8 @@
         },
         {
           "title": "Growth Engine",
-          "price": "\u20ac12,500",
-          "priceSuffix": "one-time",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "8\u201312 weeks",
           "highlight": true,
           "bouwblokken": [
@@ -1691,8 +1677,8 @@
         },
         {
           "title": "Transformation",
-          "price": "\u20ac17,500",
-          "priceSuffix": "one-time",
+          "price": "Price on request",
+          "priceSuffix": "",
           "duration": "12\u201316 weeks",
           "highlight": false,
           "bouwblokken": [
@@ -1732,7 +1718,7 @@
       "label": "Also available individually",
       "title": "Individual building blocks",
       "subtitle": "Know exactly what you need? Individual building blocks can also be purchased separately.",
-      "priceNote": "Starting from \u20ac5,000 per building block",
+      "priceNote": "Price per building block on request",
       "items": [
         {
           "title": "Sales Strategy & GTM",
@@ -1755,7 +1741,7 @@
     "ctaFooter": {
       "title": "Not sure which package fits?",
       "desc": "Start with The Scan \u2014 an in-depth analysis of your current sales organization. Based on the results, I\u2019ll advise which package is the best fit.",
-      "scanNote": "The Scan \u2014 \u20ac3,500 fixed fee, money-back guarantee",
+      "scanNote": "The Scan \u2014 \u20ac5,000 fixed fee, money-back guarantee",
       "ctaScan": "Start with The Scan",
       "ctaContact": "Book an intro call"
     }
@@ -2078,8 +2064,8 @@
       },
       "cta": {
         "desc": "This is a quick scan. The professional Scan audits everything with interviews, data analysis and euro value per opportunity.",
-        "price": "\u20ac3,500",
-        "priceNote": "fixed \u00b7 Not satisfied? Money back.",
+        "price": "\u20ac5,000",
+        "priceNote": "fixed \u00b7 custom scope possible \u00b7 Not satisfied? Money back.",
         "ctaLabel": "Book your Scan",
         "retake": "Fill in again"
       }
@@ -2478,7 +2464,7 @@
       "title": "What does it cost?",
       "intro": "The cost comparison:",
       "options": [
-        { "title": "Fractional Head of Sales", "price": "\u20ac4,000 - \u20ac8,000/month", "desc": "1-2 days per week, minimum 6 months", "highlight": true },
+        { "title": "Fractional Head of Sales", "price": "Price on request", "desc": "1-2 days per week, minimum 6 months", "highlight": true },
         { "title": "Full-time Head of Sales", "price": "\u20ac150,000 - \u20ac220,000/year", "desc": "Salary + employer costs + bonus + onboarding", "highlight": false },
         { "title": "Interim sales manager", "price": "\u20ac120,000 - \u20ac180,000/year", "desc": "5 days per week, often short-term focus", "highlight": false }
       ],
