@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<!--
+  KroonCo presentatie — Accelr
+  Bediening:
+    →  / Space  — volgende slide
+    ←           — vorige slide
+    ESC         — overzicht (alle slides)
+    F           — fullscreen
+    S           — speaker notes (niet gebruikt in deze versie)
+    .           — pauzeer / zwart scherm
+-->
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accelr — KroonCo</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css" id="theme" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --black: #000000;
+      --white: #FFFFFF;
+      --gray: #6B7280;
+      --gray-light: #E5E7EB;
+      --gray-soft: #F9FAFB;
+      --green: #10B981;
+      --green-dark: #059669;
+    }
+
+    html, body {
+      background: var(--white);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .reveal {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-weight: 400;
+      color: var(--black);
+      background: var(--white);
+    }
+
+    .reveal .slides {
+      text-align: left;
+    }
+
+    .reveal .slides section {
+      padding: 0 60px;
+      height: 100%;
+      box-sizing: border-box;
+    }
+
+    /* Typography */
+    .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+      color: var(--black);
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      text-transform: none;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      margin: 0 0 24px 0;
+    }
+
+    .reveal h1 {
+      font-size: 76px;
+      font-weight: 800;
+    }
+
+    .reveal h2 {
+      font-size: 56px;
+      font-weight: 800;
+    }
+
+    .reveal h3 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    .reveal p {
+      font-size: 22px;
+      line-height: 1.5;
+      color: var(--gray);
+      margin: 0 0 16px 0;
+      font-weight: 400;
+    }
+
+    .reveal strong {
+      color: var(--black);
+      font-weight: 600;
+    }
+
+    /* Logo */
+    .logo {
+      position: absolute;
+      top: 40px;
+      left: 60px;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--black);
+      letter-spacing: -0.02em;
+      z-index: 10;
+    }
+
+    .logo .dot {
+      color: var(--green);
+    }
+
+    /* Section label "/ LABEL" */
+    .section-label {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--green);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 32px;
+      display: block;
+    }
+
+    /* Cover */
+    .cover-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%;
+      padding: 0;
+    }
+
+    .cover-label {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--green);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 24px;
+    }
+
+    .cover-name {
+      font-size: 88px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1;
+      color: var(--black);
+      margin: 0;
+    }
+
+    .cover-company {
+      font-size: 32px;
+      font-weight: 400;
+      color: var(--gray);
+      margin-top: 8px;
+    }
+
+    .cover-logo {
+      position: absolute;
+      top: 40px;
+      left: 60px;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--black);
+      letter-spacing: -0.02em;
+    }
+
+    .cover-logo .dot {
+      color: var(--green);
+    }
+
+    .cover-meta {
+      position: absolute;
+      bottom: 40px;
+      left: 60px;
+      font-size: 14px;
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    .cover-meta div:first-child {
+      color: var(--black);
+      font-weight: 600;
+    }
+
+    /* Headline body wrapper */
+    .headline-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      max-width: 1100px;
+    }
+
+    .headline-wrap p.lead {
+      font-size: 24px;
+      line-height: 1.5;
+      color: var(--gray);
+      max-width: 880px;
+      margin-top: 8px;
+    }
+
+    /* Bullet list (slide 2) */
+    .reveal ul.bullet-list {
+      list-style: none !important;
+      padding: 0;
+      margin: 16px 0 0 0;
+      max-width: 900px;
+      display: block;
+    }
+
+    .reveal ul.bullet-list li {
+      font-size: 24px;
+      line-height: 1.5;
+      color: var(--gray);
+      padding: 10px 0 10px 28px;
+      position: relative;
+      list-style: none !important;
+      list-style-type: none !important;
+    }
+
+    .reveal ul.bullet-list li::marker {
+      content: "";
+      display: none;
+    }
+
+    .reveal ul.bullet-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 22px;
+      width: 8px;
+      height: 8px;
+      background: var(--green);
+      border-radius: 50%;
+    }
+
+    /* Slide 3, five blocks */
+    .blocks-five {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px 60px;
+      margin-top: 40px;
+    }
+
+    .block-item {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .block-num {
+      font-size: 44px;
+      font-weight: 700;
+      color: var(--green);
+      line-height: 1;
+      min-width: 70px;
+      letter-spacing: -0.02em;
+    }
+
+    .block-body h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--black);
+      margin: 4px 0 8px 0;
+      line-height: 1.2;
+    }
+
+    .block-body p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: var(--gray);
+      margin: 0;
+    }
+
+    .block-five-fifth {
+      grid-column: 1 / -1;
+      max-width: calc(50% - 30px);
+    }
+
+    /* Slide 4 — formula */
+    .framework-wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .formula {
+      font-size: 48px;
+      font-weight: 700;
+      color: var(--black);
+      letter-spacing: -0.02em;
+      margin: 40px 0 28px 0;
+      line-height: 1.3;
+    }
+
+    .formula .accent {
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .formula-note {
+      font-size: 20px;
+      color: var(--gray);
+      max-width: 760px;
+      line-height: 1.5;
+    }
+
+    /* Pill row */
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 36px;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 10px 18px;
+      border: 1px solid var(--gray-light);
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--black);
+      background: var(--white);
+    }
+
+    /* Facts row */
+    .facts {
+      display: flex;
+      gap: 48px;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--gray-light);
+    }
+
+    .fact {
+      font-size: 15px;
+      color: var(--gray);
+    }
+
+    .fact strong {
+      color: var(--black);
+      font-weight: 600;
+    }
+
+    /* Slide 5 — De Scan, website style */
+    .scan-hero {
+      max-width: 1100px;
+      margin-top: 4px;
+    }
+
+    .scan-hero h2 {
+      font-size: 52px;
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+      margin-bottom: 18px;
+    }
+
+    .scan-hero .scan-sub {
+      font-size: 18px;
+      line-height: 1.55;
+      color: var(--gray);
+      max-width: 880px;
+      margin: 0 0 28px 0;
+    }
+
+    .dimensions-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 24px;
+      margin-top: 16px;
+    }
+
+    .dim-cat {
+      padding-top: 14px;
+      border-top: 2px solid var(--black);
+    }
+
+    .dim-cat-letter {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--green);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .dim-cat-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--black);
+      margin-bottom: 14px;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    .dim-item {
+      display: flex;
+      gap: 8px;
+      align-items: baseline;
+      font-size: 13px;
+      color: var(--gray);
+      padding: 4px 0;
+      line-height: 1.3;
+    }
+
+    .dim-num {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--gray-light);
+      min-width: 18px;
+    }
+
+    .deliverables {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--gray-light);
+    }
+
+    .deliverable {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--black);
+      font-weight: 500;
+    }
+
+    .deliverable::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      background: var(--green);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* Slide 6, scan opener */
+    .scan-opener {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 24px;
+      align-items: center;
+      padding: 22px 24px;
+      margin-top: 32px;
+      border: 2px solid var(--green);
+      border-radius: 14px;
+      background: rgba(16, 185, 129, 0.04);
+    }
+
+    .scan-opener-num {
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--green);
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+
+    .scan-opener-body h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--black);
+      margin: 0 0 4px 0;
+      letter-spacing: -0.01em;
+    }
+
+    .scan-opener-body p {
+      font-size: 14px;
+      color: var(--gray);
+      margin: 0;
+      line-height: 1.45;
+    }
+
+    .scan-opener-tag {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--green);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 6px 12px;
+      border: 1px solid var(--green);
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    /* Slide 6, six block grid */
+    .blocks-six {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px 40px;
+      margin-top: 28px;
+    }
+
+    .block-six {
+      padding: 24px 0;
+      border-top: 1px solid var(--gray-light);
+    }
+
+    .block-six-num {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--green);
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+
+    .block-six h4 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--black);
+      margin: 0 0 8px 0;
+      line-height: 1.2;
+    }
+
+    .block-six p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--gray);
+      margin: 0;
+    }
+
+    /* Slide 7 — characteristics */
+    .characteristics {
+      display: flex;
+      gap: 48px;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--gray-light);
+    }
+
+    .characteristic {
+      font-size: 16px;
+      color: var(--black);
+      font-weight: 600;
+      flex: 1;
+    }
+
+    /* Slide 7 — Motor tiers */
+    .motor-intro {
+      font-size: 18px;
+      line-height: 1.55;
+      color: var(--gray);
+      max-width: 900px;
+      margin: 0 0 28px 0;
+    }
+
+    .tiers {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 8px;
+    }
+
+    .tier {
+      border: 1px solid var(--gray-light);
+      border-radius: 14px;
+      padding: 24px 22px;
+      background: var(--white);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tier.featured {
+      border: 2px solid var(--green);
+      box-shadow: 0 8px 24px rgba(16, 185, 129, 0.08);
+    }
+
+    .tier-badge {
+      position: absolute;
+      top: -10px;
+      left: 22px;
+      background: var(--green);
+      color: var(--white);
+      font-size: 10px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .tier-name {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--black);
+      margin: 0 0 4px 0;
+      letter-spacing: -0.01em;
+    }
+
+    .tier-hours {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--green);
+      margin-bottom: 18px;
+      letter-spacing: 0.02em;
+    }
+
+    .tier-features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      flex: 1;
+    }
+
+    .reveal ul.tier-features {
+      list-style: none !important;
+    }
+
+    .reveal ul.tier-features li {
+      font-size: 13px;
+      line-height: 1.4;
+      color: var(--gray);
+      padding: 6px 0 6px 20px;
+      position: relative;
+      list-style: none !important;
+    }
+
+    .reveal ul.tier-features li::marker {
+      content: "";
+      display: none;
+    }
+
+    .reveal ul.tier-features li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 12px;
+      width: 6px;
+      height: 6px;
+      background: var(--green);
+      border-radius: 50%;
+    }
+
+    .reveal ul.tier-features li.builds-on {
+      color: var(--black);
+      font-weight: 600;
+      padding-left: 0;
+      margin-bottom: 4px;
+    }
+
+    .reveal ul.tier-features li.builds-on::before {
+      display: none;
+    }
+
+    .motor-terms {
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px solid var(--gray-light);
+      font-size: 13px;
+      color: var(--gray);
+    }
+
+    .motor-terms strong {
+      color: var(--black);
+      font-weight: 600;
+    }
+
+    /* Slide 8 — value blocks */
+    .value-blocks {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin-top: 40px;
+    }
+
+    .value-block {
+      padding: 28px 0 0 0;
+      border-top: 2px solid var(--black);
+    }
+
+    .value-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--green);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+    }
+
+    .value-block h4 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--black);
+      margin: 0 0 14px 0;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+    }
+
+    .value-block p {
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--gray);
+      margin: 0;
+    }
+
+    .next-step {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 14px;
+      color: var(--gray);
+    }
+
+    .next-step strong {
+      color: var(--black);
+      font-weight: 600;
+    }
+
+    /* Hide slide numbers on cover and last slide */
+    .reveal .slide-number {
+      background: transparent;
+      color: var(--gray);
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      right: 24px;
+      bottom: 16px;
+    }
+
+    .reveal[data-slide-no="0"] .slide-number,
+    .reveal[data-slide-no="7"] .slide-number {
+      display: none !important;
+    }
+
+    /* Controls / progress */
+    .reveal .progress {
+      color: var(--green);
+      height: 2px;
+    }
+
+    .reveal .controls {
+      color: var(--gray);
+    }
+
+    /* Subkopje */
+    .sub {
+      font-size: 22px;
+      color: var(--gray);
+      font-weight: 400;
+      margin-top: -16px;
+      margin-bottom: 24px;
+    }
+
+    .body-text {
+      font-size: 20px;
+      line-height: 1.55;
+      color: var(--gray);
+      max-width: 880px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- SLIDE 1 — COVER -->
+      <section data-slide-no="0" class="no-number">
+        <div class="cover-logo">accelr<span class="dot">.</span></div>
+        <div class="cover-wrap">
+          <div class="cover-label">/ VOOR</div>
+          <h1 class="cover-name">Rik Kroon</h1>
+          <div class="cover-company">KroonCo</div>
+        </div>
+        <div class="cover-meta">
+          <div>Tim Samsom</div>
+          <div>Mei 2026</div>
+        </div>
+      </section>
+
+      <!-- SLIDE 2 — HET PROBLEEM -->
+      <section>
+        <div class="logo">accelr<span class="dot">.</span></div>
+        <div class="headline-wrap">
+          <div class="section-label">/ HET PROBLEEM</div>
+          <h2>Je salesgroei hangt af van jou.<br/>Dat is het probleem.</h2>
+          <ul class="bullet-list">
+            <li>Klanten komen via jou en alle deals lopen via jou.</li>
+            <li>Een vakantie betekent stilstaan en</li>
+            <li>Schalen kost vooral jouw uren.</li>
+            <li>Dat werkt tot een bepaalde omvang. Daarna is het een structureel probleem.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SLIDE 3 — HERKENBAAR -->
+      <section>
+        <div class="logo">accelr<span class="dot">.</span></div>
+        <div style="padding-top: 90px;">
+          <div class="section-label">/ HERKENBAAR?</div>
+          <h2 style="font-size: 44px;">Vijf situaties waar groei vastloopt</h2>
+
+          <div class="blocks-five">
+            <div class="block-item">
+              <div class="block-num">01</div>
+              <div class="block-body">
+                <h4>Ik ben de bottleneck</h4>
+                <p>Alle deals lopen via jou. Klanten willen jou aan tafel. Sales-team werkt prima zolang jij erbij bent, daarna niet.</p>
+              </div>
+            </div>
+
+            <div class="block-item">
+              <div class="block-num">02</div>
+              <div class="block-body">
+                <h4>Sales aannemen is een gok</h4>
+                <p>Vorige keer mislukt of werkt nu niet zoals gehoopt. Zonder fundament weet niemand wat goed werk is. Een hire zonder systeem is een dure mismatch.</p>
+              </div>
+            </div>
+
+            <div class="block-item">
+              <div class="block-num">03</div>
+              <div class="block-body">
+                <h4>Tools en AI zonder proces</h4>
+                <p>HubSpot draait, ChatGPT is open, agents lopen. Maar niemand gebruikt het gestructureerd. 95% van AI-pilots levert geen meetbare impact, niet door de tools, door de afwezige inbedding.</p>
+              </div>
+            </div>
+
+            <div class="block-item">
+              <div class="block-num">04</div>
+              <div class="block-body">
+                <h4>Onvoorspelbare pipeline</h4>
+                <p>Goede maand, slechte maand. Pipeline-cijfers wisselen zonder verklaring. Forecasting is een gevoel, geen discipline. Geen idee waar de €200K aan deals over 90 dagen vandaan moet komen.</p>
+              </div>
+            </div>
+
+            <div class="block-item block-five-fifth">
+              <div class="block-num">05</div>
+              <div class="block-body">
+                <h4>Opschalen vraagt een systeem, geen uren</h4>
+                <p>Meer omzet betekent nu meer werk voor jou. Dat is geen schaalbaar pad. Verdubbelen door dubbel zo hard werken is geen ondernemerschap, dat is uitputting.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 4 — HET FRAMEWORK -->
+      <section>
+        <div class="logo">accelr<span class="dot">.</span></div>
+        <div class="framework-wrap">
+          <div class="section-label">/ HET FRAMEWORK</div>
+          <h2>Eén systeem, vier hefbomen</h2>
+
+          <div class="formula">
+            Strategie <span class="accent">→</span> <span class="accent">(</span>Proces <span class="accent">×</span> People<span class="accent">)</span> <span class="accent">×</span> AI <span class="accent">=</span> Schaalbare groei
+          </div>
+
+          <p class="formula-note">Drie pijlers die elkaar versterken. AI is de multiplier. Als één pijler ontbreekt, vermenigvuldig je nul.</p>
+        </div>
+      </section>
+
+      <!-- SLIDE 6 — DE BOUW -->
+      <section>
+        <div class="logo">accelr<span class="dot">.</span></div>
+        <div style="padding-top: 70px;">
+          <div class="section-label">/ PROJECTMATIG</div>
+          <h2>De Bouw</h2>
+          <div class="sub">Specifieke onderdelen, afgebakend en resultaatgericht</div>
+
+          <div class="scan-opener">
+            <div class="scan-opener-num">00</div>
+            <div class="scan-opener-body">
+              <h4>De Scan</h4>
+              <p>Gratis strategiegesprek van 90 minuten. We kijken naar pipeline, sales-proces, knelpunten en waar AI helpt. Je loopt weg met drie concrete actiepunten.</p>
+            </div>
+          </div>
+
+          <div class="blocks-six">
+            <div class="block-six">
+              <div class="block-six-num">01</div>
+              <h4>Strategie &amp; GTM</h4>
+              <p>Positionering, ICP, propositie, waardepropositie</p>
+            </div>
+            <div class="block-six">
+              <div class="block-six-num">02</div>
+              <h4>Fundament</h4>
+              <p>Sales-proces, CRM-inrichting (HubSpot), forecasting-discipline</p>
+            </div>
+            <div class="block-six">
+              <div class="block-six-num">03</div>
+              <h4>Outbound &amp; Leadgen</h4>
+              <p>Lead-research, sequences, multi-channel outbound</p>
+            </div>
+            <div class="block-six">
+              <div class="block-six-num">04</div>
+              <h4>AI &amp; Automation</h4>
+              <p>Workflows, agents, AI-tools in dagelijkse praktijk</p>
+            </div>
+            <div class="block-six">
+              <div class="block-six-num">05</div>
+              <h4>Playbooks</h4>
+              <p>Sales-scripts, onboarding, kennisborging</p>
+            </div>
+            <div class="block-six">
+              <div class="block-six-num">06</div>
+              <h4>Sales Enablement</h4>
+              <p>Coaching, training, hire-begeleiding</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 7 — DE MOTOR -->
+      <section>
+        <div class="logo">accelr<span class="dot">.</span></div>
+        <div style="padding-top: 110px;">
+          <div class="section-label">/ DOORLOPEND</div>
+          <h2>De Motor</h2>
+          <div class="sub">Doorlopend commercieel partnerschap</div>
+
+          <p class="body-text">Ik word je structurele commercieel partner. Salesleiderschap, coaching en optimalisatie, één tot twee dagen per week. Flexibel op- en afschaalbaar.</p>
+
+          <div class="characteristics">
+            <div class="characteristic">Structureel salesleiderschap</div>
+            <div class="characteristic">1-2 dagen per week</div>
+            <div class="characteristic">Flexibel op- en afschaalbaar</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 8 — VOOR KROONCO -->
+      <section data-slide-no="7" class="no-number">
+        <div class="logo">accelr<span class="dot">.</span></div>
+        <div style="padding-top: 90px;">
+          <div class="section-label">/ VOOR KROONCO</div>
+          <h2 style="font-size: 44px;">Drie waarde-blokken voor jouw situatie</h2>
+
+          <div class="value-blocks">
+            <div class="value-block">
+              <div class="value-label">/ GROEI NU</div>
+              <h4>Sales-systeem dat werkt zonder jou</h4>
+              <p>Klanten komen nu via netwerk en mond-tot-mond. Voorspelbaar maken door pipeline-discipline, outbound-fundament en CRM-data. Eerste hires die kunnen draaien omdat het systeem ze ondersteunt, niet jij persoonlijk.</p>
+            </div>
+
+            <div class="value-block">
+              <div class="value-label">/ VERKOOPBAARHEID LATER</div>
+              <h4>Commerciële overdraagbaarheid</h4>
+              <p>Terugkerende omzet zichtbaar, sales-data betrouwbaar, klantrelaties niet uitsluitend bij jou. Dat verhoogt direct de exit-multiple wanneer je daar klaar voor bent.</p>
+            </div>
+
+            <div class="value-block">
+              <div class="value-label">/ VOOR JOU PERSOONLIJK</div>
+              <h4>Uit de bottleneck</h4>
+              <p>Ruimte om strategisch te werken aan groei en toekomst. Een commerciële tegenhanger die mee-denkt op jouw niveau, geen junior om aan te sturen.</p>
+            </div>
+          </div>
+
+          <div class="next-step">
+            <strong>Volgende stap:</strong> De Scan, 90 minuten, helder beeld waar we staan.
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      width: 1600,
+      height: 900,
+      margin: 0.04,
+      controls: true,
+      progress: true,
+      slideNumber: 'c/t',
+      hash: true,
+      transition: 'fade',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade'
+    });
+
+    // Hide slide number on cover (index 0) and last slide
+    Reveal.on('slidechanged', function(event) {
+      const slideNumberEl = document.querySelector('.reveal .slide-number');
+      if (!slideNumberEl) return;
+      const idx = event.indexh;
+      const total = Reveal.getTotalSlides();
+      if (idx === 0 || idx === total - 1) {
+        slideNumberEl.style.display = 'none';
+      } else {
+        slideNumberEl.style.display = '';
+      }
+    });
+
+    // Initial check
+    Reveal.on('ready', function(event) {
+      const slideNumberEl = document.querySelector('.reveal .slide-number');
+      if (!slideNumberEl) return;
+      if (event.indexh === 0) slideNumberEl.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
