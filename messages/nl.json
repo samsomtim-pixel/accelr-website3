@@ -116,7 +116,7 @@
           "body": "Ik analyseer je complete salesoperatie: proces, team, tooling en data. Je krijgt een rapport met harde cijfers, een prioriteitenlijst en een concrete roadmap.",
           "details": "Doorlooptijd: 2-3 weken",
           "badge": "Altijd de eerste stap",
-          "price": "\u20ac3.500 vast",
+          "price": "\u20ac5.000 vast \u00b7 maatwerk mogelijk",
           "extra": "Geld-terug-garantie",
           "cta": "Meer over De Scan"
         },
@@ -126,7 +126,7 @@
           "body": "Ik bouw specifieke onderdelen van je salesinfrastructuur. CRM-inrichting, outbound-machine, playbooks, AI-automations, afgebakend en resultaatgericht.",
           "details": "Op basis van Scan-resultaten of eigen briefing",
           "badge": "Projectmatig, afgebakend",
-          "price": "Vanaf \u20ac7.500 per project",
+          "price": "Prijs op aanvraag",
           "extra": null,
           "cta": "Bekijk de bouwblokken"
         },
@@ -136,7 +136,7 @@
           "body": "Ik word je doorlopend commercieel partner. Structureel salesleiderschap, coaching en optimalisatie. Flexibel op- en afschaalbaar.",
           "details": "Min. 3 maanden",
           "badge": "Vast maandelijks retainer",
-          "price": "Vanaf \u20ac2.500/maand",
+          "price": "Prijs op aanvraag",
           "extra": null,
           "cta": "Meer over De Motor"
         }
@@ -163,8 +163,8 @@
       "pakketten": [
         {
           "title": "Fundament",
-          "price": "\u20ac7.500",
-          "priceSuffix": "eenmalig",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "6\u20138 weken",
           "highlight": false,
           "items": [
@@ -176,8 +176,8 @@
         },
         {
           "title": "Groeimachine",
-          "price": "\u20ac12.500",
-          "priceSuffix": "eenmalig",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "8\u201312 weken",
           "highlight": true,
           "items": [
@@ -191,8 +191,8 @@
         },
         {
           "title": "Transformatie",
-          "price": "\u20ac17.500",
-          "priceSuffix": "eenmalig",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "12\u201316 weken",
           "highlight": false,
           "items": [
@@ -252,13 +252,6 @@
       },
       "rows": [
         {
-          "aspect": "Kosten/jaar",
-          "zelf": "\u20ac0 + opportunity",
-          "fulltime": "\u20ac150K-\u20ac220K",
-          "interim": "\u20ac120K-\u20ac180K",
-          "accelr": "\u20ac30K-\u20ac60K"
-        },
-        {
           "aspect": "Commitment",
           "zelf": "Geen",
           "fulltime": "12+ mnd",
@@ -282,7 +275,7 @@
         {
           "aspect": "Risico",
           "zelf": "N.v.t.",
-          "fulltime": "Hoog (\u20ac80K+)",
+          "fulltime": "Hoog",
           "interim": "Medium",
           "accelr": "Laag (Scan eerst)"
         },
@@ -316,8 +309,8 @@
       "models": [
         {
           "title": "De Scan\u2122",
-          "price": "\u20ac3.500",
-          "priceSuffix": "vast",
+          "price": "\u20ac5.000",
+          "priceSuffix": "vast \u00b7 maatwerk mogelijk",
           "duration": "2-3 weken",
           "result": "47-punts diagnose, geprioriteerde roadmap, scan-rapport met harde cijfers",
           "uren": "~8 uur totaal",
@@ -326,8 +319,8 @@
         },
         {
           "title": "De Bouw",
-          "price": "Vanaf \u20ac7.500",
-          "priceSuffix": "per project",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "4-12 weken",
           "result": "Werkend onderdeel: ingericht CRM, draaiende outbound, playbook, of AI-automation",
           "uren": "Projectafhankelijk",
@@ -336,8 +329,8 @@
         },
         {
           "title": "De Motor",
-          "price": "Vanaf \u20ac2.500",
-          "priceSuffix": "/maand",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "Min. 3 maanden",
           "result": "Doorlopend salesleiderschap + optimalisatie + coaching + wekelijks overleg",
           "uren": "Flexibel (Light/Standard/Intensive)",
@@ -389,7 +382,7 @@
       "items": [
         {
           "q": "Wat is De Motor?",
-          "a": "De Motor is een doorlopend partnerschap waarbij ik je salesoperatie blijf optimaliseren en aansturen. Beschikbaar in drie niveaus (Light, Standard, Intensive) zodat je precies de intensiteit kiest die past bij jouw fase. Het kost een fractie van een fulltime Head of Sales (\u20ac150K+/jaar)."
+          "a": "De Motor is een doorlopend partnerschap waarbij ik je salesoperatie blijf optimaliseren en aansturen. Beschikbaar in drie niveaus (Light, Standard, Intensive) zodat je precies de intensiteit kiest die past bij jouw fase. Het kost een fractie van de kosten van een fulltime Head of Sales."
         },
         {
           "q": "Waarom beginnen met De Scan?",
@@ -408,7 +401,7 @@
     "ctaFooter": {
       "title": "Klaar om je sales te professionaliseren?",
       "cta": "Plan een vrijblijvend gesprek",
-      "scanNote": "Of start met De Scan, \u20ac3.500 vast, geld-terug-garantie.",
+      "scanNote": "Of start met De Scan, \u20ac5.000 vast, geld-terug-garantie.",
       "location": "Haarlem, Nederland"
     }
   },
@@ -513,7 +506,7 @@
           "desc": "Ik begin met een kickoff van 60 minuten om doelen, systemen en beperkingen in kaart te brengen. Daarna volgen diepte-interviews met founder, sales en marketing. Ik doorlicht je CRM (of het gebrek daaraan), analyseer je pipeline, check je tech stack en beoordeel je AI-readiness.",
           "result": "Resultaat:",
           "resultDesc": "Sales Maturity Score op 10 dimensies. Een helder beeld van waar je staat, en waar het geld ligt.",
-          "price": "\u20ac3.500 vast \u00b7 Niet tevreden? Geld terug. Geen voorwaarden."
+          "price": "\u20ac5.000 vast \u00b7 maatwerk mogelijk \u00b7 Niet tevreden? Geld terug. Geen voorwaarden."
         },
         {
           "num": "/02",
@@ -532,7 +525,7 @@
             "+ Team enablement + hiring \u2192 6-8 weken"
           ],
           "overdracht": "Alles wordt werkend opgeleverd, gedocumenteerd en overgedragen. Het systeem is van jou.",
-          "price": "Typische investering: \u20ac5.000 \u2013 \u20ac20.000 afhankelijk van scope."
+          "price": "Prijs op aanvraag, afhankelijk van scope."
         },
         {
           "num": "/04",
@@ -545,7 +538,7 @@
             "Kwartaal-reviews met strategische bijsturing",
             "Eerste sales hire: roldefinitie, onboarding, coaching"
           ],
-          "details": "Light (\u20ac2.500/mnd) \u00b7 Standard (\u20ac4.000/mnd) \u00b7 Intensive (\u20ac5.000/mnd)",
+          "details": "Light \u00b7 Standard \u00b7 Intensive (prijs op aanvraag)",
           "note": "Het doel is dat je me niet meer nodig hebt. Dat is geen falen, dat is het plan."
         }
       ]
@@ -554,22 +547,22 @@
       "title": "Klaar om je salesmotor te bouwen?",
       "cta": "Start met De Scan",
       "ctaSecondary": "Plan een kennismaking",
-      "scanNote": "\u20ac3.500 vast \u00b7 Geld-terug garantie \u00b7 Resultaat in 2 weken",
+      "scanNote": "\u20ac5.000 vast \u00b7 Geld-terug garantie \u00b7 Resultaat in 2 weken",
       "location": "Haarlem, Nederland"
     }
   },
   "deScan": {
     "metadata": {
       "title": "De Scan\u2122 | Diagnose van je salesoperatie",
-      "description": "Salesdiagnose in 2 weken. Score op 11 dimensies (1-5 maturity model), kansen met euro-waarde, actieplan. \u20ac3.500 vast. Niet tevreden? Geld terug."
+      "description": "Salesdiagnose in 2 weken. Score op 11 dimensies (1-5 maturity model), kansen met euro-waarde, actieplan. \u20ac5.000 vast. Niet tevreden? Geld terug."
     },
     "hero": {
       "label": "/ Altijd stap 1",
       "title": "De Scan: weet waar je geld laat liggen,",
       "titleHighlight": "en hoeveel.",
       "subtitle": "Een professionele doorlichting van je salesoperatie. In 1-2 weken breng ik alles in kaart en lever ik een actieplan op met geprioriteerde kansen en euro-waarde.",
-      "price": "\u20ac3.500",
-      "priceNote": "vast \u00b7 Geen verrassingen",
+      "price": "\u20ac5.000",
+      "priceNote": "vast \u00b7 maatwerk mogelijk \u00b7 Geen verrassingen",
       "cta": "Plan je Scan"
     },
     "probleem": {
@@ -929,7 +922,7 @@
     "cta": {
       "title": "Eerst de basis. Dan bouwen.",
       "desc": "De Scan brengt in kaart of je strategie klopt, en waar de grootste kansen liggen om scherper te verkopen.",
-      "ctaLabel": "Start met De Scan, \u20ac3.500"
+      "ctaLabel": "Start met De Scan, \u20ac5.000"
     }
   },
   "crmImplementatie": {
@@ -1027,7 +1020,7 @@
     "cta": {
       "title": "Van spreadsheet naar werkend systeem.",
       "desc": "De Scan brengt in kaart wat je nodig hebt, CRM selectie, inrichting, of optimalisatie van wat je al hebt.",
-      "ctaLabel": "Start met De Scan, \u20ac3.500"
+      "ctaLabel": "Start met De Scan, \u20ac5.000"
     }
   },
   "outbound": {
@@ -1129,7 +1122,7 @@
     "cta": {
       "title": "Van koude lijsten naar signal-based pipeline.",
       "desc": "De Scan brengt in kaart welke signalen en kanalen het meeste opleveren voor jouw markt.",
-      "ctaLabel": "Start met De Scan, \u20ac3.500"
+      "ctaLabel": "Start met De Scan, \u20ac5.000"
     }
   },
   "salesEnablement": {
@@ -1222,7 +1215,7 @@
     "cta": {
       "title": "Geef je team de structuur om te winnen.",
       "desc": "De Scan brengt in kaart waar je salesproces hapert en welke enablement-onderdelen het meeste impact hebben.",
-      "ctaLabel": "Start met De Scan, \u20ac3.500"
+      "ctaLabel": "Start met De Scan, \u20ac5.000"
     }
   },
   "aiAutomation": {
@@ -1337,13 +1330,13 @@
       },
       {
         "q": "Wat kost de tooling per maand?",
-        "a": "De minimum viable stack voor een MKB-bedrijf kost \u20ac250\u2013\u20ac500/maand aan licenties. Een uitgebreide stack met alle capabilities zit op \u20ac1.000\u2013\u20ac1.500/maand. Ik adviseer wat je nodig hebt, niet meer."
+        "a": "De minimum viable stack voor een MKB-bedrijf bestaat uit een handvol licenties tegen marktconforme tarieven. Een uitgebreide stack met alle capabilities zit hoger. Ik adviseer wat je nodig hebt, niet meer."
       }
     ],
     "cta": {
       "title": "AI is de multiplier. Maar alleen als het fundament klopt.",
       "desc": "De Scan brengt in kaart welke automations het meeste impact hebben voor jouw salesproces.",
-      "ctaLabel": "Start met De Scan \u2014 \u20ac3.500",
+      "ctaLabel": "Start met De Scan \u2014 \u20ac5.000",
       "subtitle": "AI & Automation zit in De Groeimachine en De Transformatie."
     }
   },
@@ -1374,14 +1367,8 @@
       },
       "rows": [
         {
-          "aspect": "Kosten/jaar",
-          "fulltime": "\u20ac150K-\u20ac220K",
-          "interim": "\u20ac120K-\u20ac180K",
-          "accelr": "\u20ac48K-\u20ac96K"
-        },
-        {
           "aspect": "Risico bij mis-match",
-          "fulltime": "\u20ac80K+ (6 mnd salaris + werving)",
+          "fulltime": "Hoog",
           "interim": "Medium (contract)",
           "accelr": "Laag (maandelijks)"
         },
@@ -1463,8 +1450,8 @@
     "investering": {
       "label": "/ Investering",
       "title": "De investering",
-      "price": "Vanaf \u20ac4.000",
-      "priceSuffix": "/maand",
+      "price": "Prijs op aanvraag",
+      "priceSuffix": "",
       "features": [
         "1-2 dagen per week (8-16 uur)",
         "Minimaal 6 maanden commitment",
@@ -1499,15 +1486,15 @@
   "deMotor": {
     "metadata": {
       "title": "De Motor | Doorlopend Sales Partnership",
-      "description": "Doorlopend sales partnership. Campagne-optimalisatie, pipeline reviews, tool-onderhoud en strategisch sparren. Vanaf \u20ac2.500/maand."
+      "description": "Doorlopend sales partnership. Campagne-optimalisatie, pipeline reviews, tool-onderhoud en strategisch sparren."
     },
     "hero": {
       "label": "/ De Motor",
       "title": "Je systeem draait. Nu moet het blijven",
       "titleHighlight": "presteren.",
       "subtitle": "Doorlopend sales partnership. Ik houd je AI-salesysteem scherp: campagne-optimalisatie, pipeline reviews, tool-onderhoud en strategisch sparren.",
-      "price": "Vanaf \u20ac2.500",
-      "priceNote": "/maand \u00b7 Min. 3 maanden",
+      "price": "Prijs op aanvraag",
+      "priceNote": "Min. 3 maanden",
       "cta": "Plan een gesprek",
       "ctaSecondary": "Start met De Scan"
     },
@@ -1525,8 +1512,8 @@
       "cards": [
         {
           "title": "Light",
-          "price": "\u20ac2.500",
-          "priceSuffix": "/maand",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "hours": "4 uur/week",
           "highlight": false,
           "features": [
@@ -1539,8 +1526,8 @@
         },
         {
           "title": "Standard",
-          "price": "\u20ac4.000",
-          "priceSuffix": "/maand",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "hours": "6-8 uur/week",
           "highlight": true,
           "features": [
@@ -1553,8 +1540,8 @@
         },
         {
           "title": "Intensive",
-          "price": "\u20ac5.000",
-          "priceSuffix": "/maand",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "hours": "8-10 uur/week",
           "highlight": false,
           "features": [
@@ -1582,8 +1569,7 @@
         { "aspect": "Sales coaching", "light": "\u2014", "standard": "1-op-1 begeleiding", "intensive": "1-op-1 + team" },
         { "aspect": "Strategisch leadership", "light": "\u2014", "standard": "\u2014", "intensive": "Fractional HoS functie" },
         { "aspect": "Sales hiring support", "light": "\u2014", "standard": "\u2014", "intensive": "Roldefinitie + onboarding" },
-        { "aspect": "Rapportage", "light": "Maandelijks", "standard": "Kwartaal-reviews", "intensive": "Board-ready forecasting" },
-        { "aspect": "Investering/jaar", "light": "\u20ac30K", "standard": "\u20ac48K", "intensive": "\u20ac60K" }
+        { "aspect": "Rapportage", "light": "Maandelijks", "standard": "Kwartaal-reviews", "intensive": "Board-ready forecasting" }
       ]
     },
     "voorWie": {
@@ -1659,12 +1645,12 @@
       "subtitle": "Elk pakket is een combinatie van bouwblokken die samen een werkend systeem vormen. Geen losse modules \u2014 alles is ge\u00efntegreerd.",
       "popular": "Meest gekozen",
       "cta": "Plan een gesprek",
-      "note": "Alle prijzen zijn exclusief BTW. Betaling in 2 termijnen: 50% bij start, 50% bij oplevering. Maatwerkpakketten zijn mogelijk op aanvraag.",
+      "note": "Maatwerkpakketten zijn mogelijk op aanvraag.",
       "cards": [
         {
           "title": "Fundament",
-          "price": "\u20ac7.500",
-          "priceSuffix": "eenmalig",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "6\u20138 weken",
           "highlight": false,
           "bouwblokken": [
@@ -1676,8 +1662,8 @@
         },
         {
           "title": "Groeimachine",
-          "price": "\u20ac12.500",
-          "priceSuffix": "eenmalig",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "8\u201312 weken",
           "highlight": true,
           "bouwblokken": [
@@ -1691,8 +1677,8 @@
         },
         {
           "title": "Transformatie",
-          "price": "\u20ac17.500",
-          "priceSuffix": "eenmalig",
+          "price": "Prijs op aanvraag",
+          "priceSuffix": "",
           "duration": "12\u201316 weken",
           "highlight": false,
           "bouwblokken": [
@@ -1732,7 +1718,7 @@
       "label": "Ook los beschikbaar",
       "title": "Individuele bouwblokken",
       "subtitle": "Weet je precies wat je nodig hebt? Individuele bouwblokken zijn ook los af te nemen.",
-      "priceNote": "Vanaf \u20ac5.000 per bouwblok",
+      "priceNote": "Prijs per bouwblok op aanvraag",
       "items": [
         {
           "title": "Sales Strategie & GTM",
@@ -1755,7 +1741,7 @@
     "ctaFooter": {
       "title": "Niet zeker welk pakket past?",
       "desc": "Start met De Scan \u2014 een diepgaande analyse van je huidige salesorganisatie. Op basis daarvan adviseer ik welk pakket het beste past.",
-      "scanNote": "De Scan \u2014 \u20ac3.500 vast, geld-terug garantie",
+      "scanNote": "De Scan \u2014 \u20ac5.000 vast, geld-terug garantie",
       "ctaScan": "Start met De Scan",
       "ctaContact": "Plan een kennismaking"
     }
@@ -2078,8 +2064,8 @@
       },
       "cta": {
         "desc": "Dit is een quick-scan. De professionele Scan doorlicht alles met interviews, data-analyse en euro-waarde per kans.",
-        "price": "\u20ac3.500",
-        "priceNote": "vast \u00b7 Niet tevreden? Geld terug.",
+        "price": "\u20ac5.000",
+        "priceNote": "vast \u00b7 maatwerk mogelijk \u00b7 Niet tevreden? Geld terug.",
         "ctaLabel": "Plan je Scan",
         "retake": "Opnieuw invullen"
       }
@@ -2478,7 +2464,7 @@
       "title": "Wat kost het?",
       "intro": "De kostenvergelijking:",
       "options": [
-        { "title": "Fractional Head of Sales", "price": "\u20ac4.000 - \u20ac8.000/maand", "desc": "1-2 dagen per week, minimaal 6 maanden", "highlight": true },
+        { "title": "Fractional Head of Sales", "price": "Prijs op aanvraag", "desc": "1-2 dagen per week, minimaal 6 maanden", "highlight": true },
         { "title": "Fulltime Head of Sales", "price": "\u20ac150.000 - \u20ac220.000/jaar", "desc": "Salaris + werkgeverslasten + bonus + onboarding", "highlight": false },
         { "title": "Interim sales manager", "price": "\u20ac120.000 - \u20ac180.000/jaar", "desc": "5 dagen per week, vaak korte termijn focus", "highlight": false }
       ],
