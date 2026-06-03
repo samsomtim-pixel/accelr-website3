@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
 import { routing } from "@/i18n/routing";
 import ThemeProvider from "@/components/ThemeProvider";
 import CookieBanner from "@/components/CookieBanner";
@@ -162,6 +163,7 @@ export default async function LocaleLayout({
           <CookieBanner />
         </NextIntlClientProvider>
         <ApolloTracker />
+        <Analytics />
       </body>
     </html>
   );
