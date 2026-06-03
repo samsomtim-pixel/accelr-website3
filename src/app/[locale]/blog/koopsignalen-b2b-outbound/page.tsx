@@ -9,6 +9,7 @@ import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 import RelatedArticles from "@/components/RelatedArticles";
 import { ArrowRight } from "lucide-react";
+import RelatedServices from "@/components/RelatedServices";
 
 export async function generateMetadata({
   params,
@@ -197,6 +198,11 @@ export default async function BlogPost({ params }: { params: Promise<{ locale: s
 
         {/* Related Articles */}
         <RelatedArticles label={t("relatedLabel")} articles={related} />
+
+        <RelatedServices
+          label={__locale === "en" ? "/ RELATED SERVICES" : "/ RELEVANTE DIENSTEN"}
+          services={[{ href: "/outbound-leadgeneratie", title: __locale === "en" ? "Outbound lead generation" : "Outbound leadgeneratie", desc: __locale === "en" ? "Signal-based outbound that books meetings." : "Signal-based outbound dat afspraken oplevert." }, { href: "/de-scan", title: __locale === "en" ? "The Scan" : "De Scan", desc: __locale === "en" ? "A full sales operation diagnosis." : "Doorlichting van je salesoperatie." }]}
+        />
 
         {/* Footer CTA */}
         <section className="bg-white py-20 sm:py-28">

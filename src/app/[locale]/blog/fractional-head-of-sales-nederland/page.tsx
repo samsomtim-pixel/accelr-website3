@@ -8,6 +8,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 import { ArrowRight, CheckCircle2, XCircle } from "lucide-react";
+import RelatedServices from "@/components/RelatedServices";
 
 export async function generateMetadata({
   params,
@@ -261,6 +262,11 @@ export default async function BlogPost({ params }: { params: Promise<{ locale: s
             </div>
           </div>
         </section>
+
+        <RelatedServices
+          label={__locale === "en" ? "/ RELATED SERVICES" : "/ RELEVANTE DIENSTEN"}
+          services={[{ href: "/de-motor", title: __locale === "en" ? "The Engine" : "De Motor", desc: __locale === "en" ? "Ongoing Fractional Head of Sales partnership." : "Doorlopend Fractional Head of Sales partnership." }, { href: "/de-scan", title: __locale === "en" ? "The Scan" : "De Scan", desc: __locale === "en" ? "A full sales operation diagnosis." : "Doorlichting van je salesoperatie." }]}
+        />
 
         {/* Footer CTA */}
         <section className="bg-white py-20 sm:py-28">
