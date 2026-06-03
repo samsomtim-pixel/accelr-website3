@@ -5,6 +5,7 @@ import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import ThemeProvider from "@/components/ThemeProvider";
 import CookieBanner from "@/components/CookieBanner";
+import ApolloTracker from "@/components/ApolloTracker";
 
 export async function generateMetadata({
   params,
@@ -160,6 +161,7 @@ export default async function LocaleLayout({
           <ThemeProvider>{children}</ThemeProvider>
           <CookieBanner />
         </NextIntlClientProvider>
+        <ApolloTracker />
       </body>
     </html>
   );
