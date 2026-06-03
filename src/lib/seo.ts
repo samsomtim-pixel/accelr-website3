@@ -58,3 +58,20 @@ export function buildAlternates(path: string, locale: Locale) {
 export function ogLocale(locale: Locale): "nl_NL" | "en_US" {
   return locale === "en" ? "en_US" : "nl_NL";
 }
+
+/**
+ * All blog post slugs that exist in src/app/[locale]/blog/<slug>/page.tsx.
+ * Used by the sitemap and by structured data helpers so we have one
+ * source of truth.
+ */
+export const BLOG_SLUGS = [
+  "signal-based-outbound",
+  "koude-acquisitie-naar-signal-based-outbound",
+  "koopsignalen-b2b-outbound",
+  "tools-signal-based-outbound",
+  "intent-data-nederland-mkb",
+  "waarom-eerste-sales-hire-mislukt",
+  "fractional-head-of-sales-nederland",
+] as const;
+
+export type BlogSlug = (typeof BLOG_SLUGS)[number];
