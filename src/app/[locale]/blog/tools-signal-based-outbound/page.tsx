@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
@@ -12,18 +13,18 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({
-    locale,
-    namespace: "blogTools.metadata",
-  });
+  const { locale } = (await params) as { locale: Locale };
+  const t = await getTranslations({ locale, namespace: "blogTools.metadata" });
 
   return {
+    alternates: buildAlternates("/blog/tools-signal-based-outbound", locale),
     title: t("title"),
     description: t("description"),
     openGraph: {
       title: t("title"),
       description: t("description"),
+      url: pageUrl("/blog/tools-signal-based-outbound", locale),
+      locale: ogLocale(locale),
       images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
     },
   };

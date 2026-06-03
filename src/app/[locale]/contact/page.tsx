@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
 import { getTranslations } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -14,15 +15,18 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const t = await getTranslations({ locale, namespace: "contact.metadata" });
 
   return {
+    alternates: buildAlternates("/contact", locale),
     title: t("title"),
     description: t("description"),
     openGraph: {
       title: `${t("title")} | Accelr`,
       description: t("description"),
+      url: pageUrl("/contact", locale),
+      locale: ogLocale(locale),
       images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
     },
   };

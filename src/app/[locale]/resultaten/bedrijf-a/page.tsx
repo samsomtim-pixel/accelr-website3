@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { ArrowRight, ArrowLeft } from "lucide-react";
@@ -11,15 +12,18 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const t = await getTranslations({ locale, namespace: "resultaten" });
 
   return {
+    alternates: buildAlternates("/resultaten/bedrijf-a", locale),
     title: `Case Study: ${t("caseStudyA.name")} | ${t("caseStudyA.headline")} | Accelr`,
     description: t("caseStudyA.headline"),
     openGraph: {
       title: `Case Study: ${t("caseStudyA.name")} | Accelr`,
       description: t("caseStudyA.headline"),
+      url: pageUrl("/resultaten/bedrijf-a", locale),
+      locale: ogLocale(locale),
       images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
     },
   };

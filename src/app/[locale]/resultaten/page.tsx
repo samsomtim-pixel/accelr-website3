@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { ArrowRight, TrendingUp, Users, Zap } from "lucide-react";
@@ -11,17 +12,19 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = (await params) as { locale: Locale };
   const t = await getTranslations({ locale, namespace: "resultaten.metadata" });
 
   return {
+    alternates: buildAlternates("/resultaten", locale),
     title: t("title"),
     description: t("description"),
     openGraph: {
       title: t("title"),
       description: t("description"),
+      url: pageUrl("/resultaten", locale),
+      locale: ogLocale(locale),
       images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
-      url: "https://www.accelr.nl/resultaten",
     },
   };
 }

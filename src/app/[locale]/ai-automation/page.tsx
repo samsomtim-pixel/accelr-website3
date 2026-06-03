@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
@@ -6,16 +7,24 @@ import Footer from "@/components/layout/Footer";
 import FadeIn from "@/components/FadeIn";
 import { ArrowRight, ChevronDown } from "lucide-react";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("aiAutomation");
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = (await params) as { locale: Locale };
+  const t = await getTranslations({ locale, namespace: "aiAutomation" });
+
   return {
+    alternates: buildAlternates("/ai-automation", locale),
     title: t("metadata.title"),
     description: t("metadata.description"),
     openGraph: {
       title: t("metadata.title"),
       description: t("metadata.description"),
+      url: pageUrl("/ai-automation", locale),
+      locale: ogLocale(locale),
       images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
-      url: "https://www.accelr.nl/ai-automation",
     },
   };
 }
