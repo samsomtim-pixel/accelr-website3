@@ -11,7 +11,7 @@
     "blog": "Blog",
     "contact": "Book a call",
     "dienstenItems": {
-      "deScan": "De Scan\u2122",
+      "deScan": "De Scan™",
       "deBouw": "The Build",
       "deMotor": "The Engine"
     },
@@ -82,12 +82,12 @@
     "hero": {
       "title": "Your sales growth depends on you. That's the problem.",
       "subtitle": "I design, build, and maintain AI-driven sales infrastructure for B2B tech companies. From diagnosis to ongoing partnership, so growth no longer depends on you alone.",
-      "drieluik1": "/ The Scan \u2014 Diagnosis",
-      "drieluik2": "/ The Build \u2014 Implementation",
-      "drieluik3": "/ The Engine \u2014 Ongoing partnership",
+      "drieluik1": "/ The Scan — Diagnosis",
+      "drieluik2": "/ The Build — Implementation",
+      "drieluik3": "/ The Engine — Ongoing partnership",
       "cta": "Book an introductory call",
       "ctaSecondary": "Start with De Scan",
-      "ctaSubtext": "30 minutes \u00b7 No obligations \u00b7 You'll walk away with 3 concrete action points."
+      "ctaSubtext": "30 minutes · No obligations · You'll walk away with 3 concrete action points."
     },
     "toolTicker": {
       "label": "/ Tools & Technologies"
@@ -111,12 +111,12 @@
       "subtitle": "Every engagement starts with diagnosis. Then we decide together how deeply I get involved.",
       "cards": [
         {
-          "title": "De Scan\u2122",
+          "title": "De Scan™",
           "subtitle": "One-time diagnosis",
           "body": "I analyze your complete sales operation: process, team, tooling and data. You receive a report with hard numbers, a priority list and a concrete roadmap.",
           "details": "Timeline: 2-3 weeks",
           "badge": "Always the first step",
-          "price": "\u20ac5,000 fixed \u00b7 custom scope possible",
+          "price": "€5,000 fixed · custom scope possible",
           "extra": "Money-back guarantee",
           "cta": "More about De Scan"
         },
@@ -165,7 +165,7 @@
           "title": "Foundation",
           "price": "Price on request",
           "priceSuffix": "",
-          "duration": "6\u20138 weeks",
+          "duration": "6–8 weeks",
           "highlight": false,
           "items": [
             "Sales Strategy & GTM",
@@ -178,7 +178,7 @@
           "title": "Growth Engine",
           "price": "Price on request",
           "priceSuffix": "",
-          "duration": "8\u201312 weeks",
+          "duration": "8–12 weeks",
           "highlight": true,
           "items": [
             "Sales Strategy & GTM",
@@ -193,7 +193,7 @@
           "title": "Transformation",
           "price": "Price on request",
           "priceSuffix": "",
-          "duration": "12\u201316 weeks",
+          "duration": "12–16 weeks",
           "highlight": false,
           "items": [
             "Sales Strategy & GTM",
@@ -216,7 +216,7 @@
       "cards": [
         {
           "name": "Aethogenix",
-          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "subtitle": "Pharma · Medical Cannabis",
           "deed": "Developed positioning, ICP & GTM plan. Deployed as Fractional Head of Sales to establish the commercial foundation."
         },
         {
@@ -231,12 +231,12 @@
         },
         {
           "name": "FairChain Workforce",
-          "subtitle": "Recruitment \u00b7 Workforce Solutions",
+          "subtitle": "Recruitment · Workforce Solutions",
           "deed": "Fully mapped the ICP, selected the right target audience, developed the call script and structurally joined the cold outreach calls."
         },
         {
           "name": "Flower Power DOO",
-          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "subtitle": "Pharma · Medical Cannabis",
           "deed": "Developed positioning and brand setup. Built GTM strategy for the European medical cannabis market."
         }
       ]
@@ -282,8 +282,8 @@
         {
           "aspect": "Knowledge transfer",
           "zelf": "N/A",
-          "fulltime": "\u2014",
-          "interim": "\u2014",
+          "fulltime": "—",
+          "interim": "—",
           "accelr": "Built-in"
         },
         {
@@ -308,9 +308,9 @@
       "title": "What does it cost?",
       "models": [
         {
-          "title": "De Scan\u2122",
-          "price": "\u20ac5,000",
-          "priceSuffix": "fixed \u00b7 custom scope possible",
+          "title": "De Scan™",
+          "price": "€5,000",
+          "priceSuffix": "fixed · custom scope possible",
           "duration": "2-3 weeks",
           "result": "47-point diagnosis, prioritized roadmap, scan report with hard numbers",
           "uren": "~8 hours total",
@@ -364,14 +364,14 @@
       "nietVoorJou": "Not for you",
       "voorJou": [
         "B2B SaaS, tech or IT services company",
-        "\u20ac1M-\u20ac10M revenue, 10-80 employees",
+        "€1M-€10M revenue, 10-80 employees",
         "Technical founder who is (still) selling personally",
         "Just made a first sales hire, or the first one failed",
         "Looking for a system, not a consultant"
       ],
       "nietVoorJouItems": [
         "B2C or e-commerce",
-        "<\u20ac500K revenue (focus on product-market fit)",
+        "<€500K revenue (focus on product-market fit)",
         "Looking for someone to \"take over\" without your involvement",
         "Working team of 10+ (you need a full-time HoS)"
       ]
@@ -401,18 +401,18 @@
     "ctaFooter": {
       "title": "Ready to professionalize your sales?",
       "cta": "Book a no-obligation call",
-      "scanNote": "Or start with De Scan, \u20ac5,000 fixed, money-back guarantee.",
+      "scanNote": "Or start with De Scan, €5,000 fixed, money-back guarantee.",
       "location": "Haarlem, The Netherlands"
     }
   },
   "methode": {
     "metadata": {
-      "title": "The Accelr Method\u2122 | Diagnosis \u2192 Build \u2192 Run",
+      "title": "The Accelr Method™ | Diagnosis → Build → Run",
       "description": "From ad-hoc sales to a scalable system. 11 dimensions, 4 phases, working systems that belong to you."
     },
     "hero": {
-      "label": "/ The Accelr Method\u2122",
-      "title": "The Accelr Method\u2122",
+      "label": "/ The Accelr Method™",
+      "title": "The Accelr Method™",
       "subtitle": "Three pillars, one multiplier. One system that keeps your sales engine running, even when you're not there.",
       "cta": "Start with De Scan",
       "ctaSecondary": "Book an introductory call"
@@ -439,11 +439,31 @@
         "bron": "Source"
       },
       "rows": [
-        { "pijler": "Strategy", "effect": "Foundation for everything", "bron": "\u2014" },
-        { "pijler": "Process", "effect": "+12pp win rate", "bron": "CSO Insights (12+ years, 1,000+ companies)" },
-        { "pijler": "People", "effect": "2\u00d7 more selling time", "bron": "Bain & Company, 2025" },
-        { "pijler": "AI", "effect": "1.3\u00d7 more revenue growth", "bron": "Salesforce (n=5,500)" },
-        { "pijler": "Combined", "effect": "107% total growth", "bron": "Compound effect" }
+        {
+          "pijler": "Strategy",
+          "effect": "Foundation for everything",
+          "bron": "—"
+        },
+        {
+          "pijler": "Process",
+          "effect": "+12pp win rate",
+          "bron": "CSO Insights (12+ years, 1,000+ companies)"
+        },
+        {
+          "pijler": "People",
+          "effect": "2× more selling time",
+          "bron": "Bain & Company, 2025"
+        },
+        {
+          "pijler": "AI",
+          "effect": "1.3× more revenue growth",
+          "bron": "Salesforce (n=5,500)"
+        },
+        {
+          "pijler": "Combined",
+          "effect": "107% total growth",
+          "bron": "Compound effect"
+        }
       ]
     },
     "toepassing": {
@@ -491,7 +511,7 @@
       "typischProfiel": "Typical profile",
       "profielItems": [
         "B2B SaaS, tech or IT services",
-        "\u20ac500K \u2013 \u20ac20M revenue",
+        "€500K – €20M revenue",
         "5-50 employees",
         "Founder does 80%+ of the sales",
         "Existing clients, recurring revenue"
@@ -506,7 +526,7 @@
           "desc": "I start with a 60-minute kickoff to map goals, systems and constraints. Then in-depth interviews with founder, sales and marketing follow. I audit your CRM (or lack thereof), analyze your pipeline, check your tech stack and assess your AI readiness.",
           "result": "Result:",
           "resultDesc": "Sales Maturity Score across 11 dimensions. A clear picture of where you stand, and where the money is.",
-          "price": "\u20ac5,000 fixed \u00b7 custom scope possible \u00b7 Not satisfied? Money back. No conditions."
+          "price": "€5,000 fixed · custom scope possible · Not satisfied? Money back. No conditions."
         },
         {
           "num": "/02",
@@ -520,16 +540,16 @@
           "desc": "I build what the plan calls for. No standard packages, only what you need.",
           "typischeTrajecten": "Typical timelines",
           "trajectItems": [
-            "CRM foundation + sales process \u2192 3-4 weeks",
-            "+ Outbound engine + AI tooling \u2192 4-6 weeks",
-            "+ Team enablement + hiring \u2192 6-8 weeks"
+            "CRM foundation + sales process → 3-4 weeks",
+            "+ Outbound engine + AI tooling → 4-6 weeks",
+            "+ Team enablement + hiring → 6-8 weeks"
           ],
           "overdracht": "Everything is delivered working, documented and handed over. The system is yours.",
           "price": "Price on request, depending on scope."
         },
         {
           "num": "/04",
-          "title": "The Engine \u2014 Ongoing partnership",
+          "title": "The Engine — Ongoing partnership",
           "desc": "A system without management deteriorates within 3 months. With The Engine, I continue steering and optimizing your sales operation.",
           "items": [
             "Weekly pipeline reviews & forecasting",
@@ -538,7 +558,7 @@
             "Quarterly reviews with strategic adjustments",
             "First sales hire: role definition, onboarding, coaching"
           ],
-          "details": "Light \u00b7 Standard \u00b7 Intensive (price on request)",
+          "details": "Light · Standard · Intensive (price on request)",
           "note": "The goal is that you no longer need me. That's not failure, that's the plan."
         }
       ]
@@ -547,22 +567,22 @@
       "title": "Ready to build your sales engine?",
       "cta": "Start with De Scan",
       "ctaSecondary": "Book an introductory call",
-      "scanNote": "\u20ac5,000 fixed \u00b7 Money-back guarantee \u00b7 Results in 2 weeks",
+      "scanNote": "€5,000 fixed · Money-back guarantee · Results in 2 weeks",
       "location": "Haarlem, The Netherlands"
     }
   },
   "deScan": {
     "metadata": {
-      "title": "De Scan\u2122 | Sales Operation Diagnosis",
-      "description": "Sales diagnosis in 2 weeks. Score across 11 dimensions (1-5 maturity model), opportunities with euro value, action plan. \u20ac5,000 fixed. Not satisfied? Money back."
+      "title": "De Scan™ | Sales Operation Diagnosis",
+      "description": "Sales diagnosis in 2 weeks. Score across 11 dimensions (1-5 maturity model), opportunities with euro value, action plan. €5,000 fixed. Not satisfied? Money back."
     },
     "hero": {
       "label": "/ Always step 1",
       "title": "De Scan: know where you're leaving money on the table,",
       "titleHighlight": "and how much.",
       "subtitle": "A professional audit of your sales operation. In 1-2 weeks, I map everything out and deliver an action plan with prioritized opportunities and euro value.",
-      "price": "\u20ac5,000",
-      "priceNote": "fixed \u00b7 custom scope possible \u00b7 No surprises",
+      "price": "€5,000",
+      "priceNote": "fixed · custom scope possible · No surprises",
       "cta": "Book your Scan"
     },
     "probleem": {
@@ -581,41 +601,85 @@
           "label": "A",
           "name": "Strategy & Market",
           "items": [
-            { "num": 1, "name": "Strategy", "question": "How sharp is your ICP? Does your positioning hold up?" },
-            { "num": 2, "name": "Pipeline", "question": "How predictable is your revenue?" },
-            { "num": 3, "name": "Marketing & Inbound", "question": "How well do marketing and sales align? How do leads come in?" }
+            {
+              "num": 1,
+              "name": "Strategy",
+              "question": "How sharp is your ICP? Does your positioning hold up?"
+            },
+            {
+              "num": 2,
+              "name": "Pipeline",
+              "question": "How predictable is your revenue?"
+            },
+            {
+              "num": 3,
+              "name": "Marketing & Inbound",
+              "question": "How well do marketing and sales align? How do leads come in?"
+            }
           ]
         },
         {
           "label": "B",
           "name": "Sales Execution",
           "items": [
-            { "num": 4, "name": "Process", "question": "Do you have a documented sales process? Is it being followed?" },
-            { "num": 5, "name": "Outbound", "question": "Do you do active outbound? With what results?" },
-            { "num": 6, "name": "Enablement", "question": "Does your team have playbooks, scripts, training?" }
+            {
+              "num": 4,
+              "name": "Process",
+              "question": "Do you have a documented sales process? Is it being followed?"
+            },
+            {
+              "num": 5,
+              "name": "Outbound",
+              "question": "Do you do active outbound? With what results?"
+            },
+            {
+              "num": 6,
+              "name": "Enablement",
+              "question": "Does your team have playbooks, scripts, training?"
+            }
           ]
         },
         {
           "label": "C",
           "name": "Customer & Growth",
           "items": [
-            { "num": 7, "name": "Customer & Retention", "question": "How do you retain customers? Is there structured account management and upsell?" }
+            {
+              "num": 7,
+              "name": "Customer & Retention",
+              "question": "How do you retain customers? Is there structured account management and upsell?"
+            }
           ]
         },
         {
           "label": "D",
           "name": "Infrastructure",
           "items": [
-            { "num": 8, "name": "CRM & Data", "question": "Do you use a CRM? How is your data quality? Which KPIs do you track?" },
-            { "num": 9, "name": "AI & Tech Readiness", "question": "What tools do you use? How ready are you to deploy AI?" }
+            {
+              "num": 8,
+              "name": "CRM & Data",
+              "question": "Do you use a CRM? How is your data quality? Which KPIs do you track?"
+            },
+            {
+              "num": 9,
+              "name": "AI & Tech Readiness",
+              "question": "What tools do you use? How ready are you to deploy AI?"
+            }
           ]
         },
         {
           "label": "E",
           "name": "People & Leadership",
           "items": [
-            { "num": 10, "name": "Team", "question": "Do you have the right people in the right roles?" },
-            { "num": 11, "name": "Leadership", "question": "Who manages sales? Is there accountability?" }
+            {
+              "num": 10,
+              "name": "Team",
+              "question": "Do you have the right people in the right roles?"
+            },
+            {
+              "num": 11,
+              "name": "Leadership",
+              "question": "Who manages sales? Is there accountability?"
+            }
           ]
         }
       ]
@@ -638,9 +702,18 @@
       "label": "/ AI in De Scan",
       "title": "How AI enhances this",
       "items": [
-        { "title": "Data analysis", "desc": "AI analyzes your CRM data, website metrics and pipeline to identify patterns you'd miss manually." },
-        { "title": "Benchmarking", "desc": "Compare your scores across all 11 dimensions against industry averages. With every scan, our benchmark database grows." },
-        { "title": "Opportunity detection", "desc": "AI calculates the euro value of each optimization opportunity, so you prioritize based on impact." }
+        {
+          "title": "Data analysis",
+          "desc": "AI analyzes your CRM data, website metrics and pipeline to identify patterns you'd miss manually."
+        },
+        {
+          "title": "Benchmarking",
+          "desc": "Compare your scores across all 11 dimensions against industry averages. With every scan, our benchmark database grows."
+        },
+        {
+          "title": "Opportunity detection",
+          "desc": "AI calculates the euro value of each optimization opportunity, so you prioritize based on impact."
+        }
       ]
     },
     "tijdlijn": {
@@ -728,7 +801,7 @@
       "learnings": [
         "Setting up sales processes where there were none",
         "CRM implementation and pipeline management",
-        "Closing deals from \u20ac10K to \u20ac500K+ with enterprise clients",
+        "Closing deals from €10K to €500K+ with enterprise clients",
         "Managing teams and building commercial operations",
         "The reality that 80% of sales success comes from the system, not the talent"
       ],
@@ -776,7 +849,7 @@
       "cards": [
         {
           "name": "Aethogenix",
-          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "subtitle": "Pharma · Medical Cannabis",
           "deed": "Developed positioning, ICP & GTM plan. Deployed as Fractional Head of Sales to establish the commercial foundation."
         },
         {
@@ -791,19 +864,19 @@
         },
         {
           "name": "FairChain Workforce",
-          "subtitle": "Recruitment \u00b7 Workforce Solutions",
+          "subtitle": "Recruitment · Workforce Solutions",
           "deed": "Fully mapped the ICP, selected the right target audience, developed the call script and structurally joined the cold outreach calls."
         },
         {
           "name": "Flower Power DOO",
-          "subtitle": "Pharma \u00b7 Medical Cannabis",
+          "subtitle": "Pharma · Medical Cannabis",
           "deed": "Developed positioning and brand setup. Built GTM strategy for the European medical cannabis market."
         }
       ]
     },
     "cta": {
       "cta": "Book an introductory call",
-      "ctaSubtext": "30 minutes \u00b7 No obligation \u00b7 Honest advice"
+      "ctaSubtext": "30 minutes · No obligation · Honest advice"
     }
   },
   "contact": {
@@ -884,10 +957,26 @@
     "steps": {
       "title": "How it works",
       "items": [
-        { "num": "/01", "title": "Analysis", "desc": "Audit current clients, market and competition" },
-        { "num": "/02", "title": "Sharpen ICP", "desc": "Define best-fit profile based on data" },
-        { "num": "/03", "title": "Build strategy", "desc": "GTM plan, positioning, pricing" },
-        { "num": "/04", "title": "Activate", "desc": "Translate into campaigns, content and sales" }
+        {
+          "num": "/01",
+          "title": "Analysis",
+          "desc": "Audit current clients, market and competition"
+        },
+        {
+          "num": "/02",
+          "title": "Sharpen ICP",
+          "desc": "Define best-fit profile based on data"
+        },
+        {
+          "num": "/03",
+          "title": "Build strategy",
+          "desc": "GTM plan, positioning, pricing"
+        },
+        {
+          "num": "/04",
+          "title": "Activate",
+          "desc": "Translate into campaigns, content and sales"
+        }
       ]
     },
     "voorJou": [
@@ -914,15 +1003,24 @@
       "label": "/ AI in Strategy",
       "title": "How AI enhances this",
       "items": [
-        { "title": "ICP modeling", "desc": "AI analyzes your existing customer data to find patterns in your best-fit clients. No gut feeling — data." },
-        { "title": "Market analysis", "desc": "AI-driven competitive and market research at scale. Faster and deeper than what's possible manually." },
-        { "title": "Messaging optimization", "desc": "Test and optimize your positioning with AI-generated variants based on proven frameworks." }
+        {
+          "title": "ICP modeling",
+          "desc": "AI analyzes your existing customer data to find patterns in your best-fit clients. No gut feeling — data."
+        },
+        {
+          "title": "Market analysis",
+          "desc": "AI-driven competitive and market research at scale. Faster and deeper than what's possible manually."
+        },
+        {
+          "title": "Messaging optimization",
+          "desc": "Test and optimize your positioning with AI-generated variants based on proven frameworks."
+        }
       ]
     },
     "cta": {
       "title": "First the foundation. Then build.",
       "desc": "De Scan maps out whether your strategy holds up, and where the biggest opportunities are to sell more effectively.",
-      "ctaLabel": "Start with De Scan, \u20ac5,000"
+      "ctaLabel": "Start with De Scan, €5,000"
     }
   },
   "crmImplementatie": {
@@ -940,7 +1038,7 @@
       "title": "70% of CRM implementations fail.",
       "paragraphs": [
         "Not because the CRM is bad. But because nobody sets it up properly. The pipeline doesn't make sense. The fields are confusing. The dashboards show the wrong data. And after three months, your team works around it instead of in it.",
-        "The result: you have a CRM that costs \u20ac500/month and a spreadsheet you still actually use.",
+        "The result: you have a CRM that costs €500/month and a spreadsheet you still actually use.",
         "I set up your CRM so it works for how your team sells, not the other way around."
       ]
     },
@@ -982,10 +1080,26 @@
     "steps": {
       "title": "How it works",
       "items": [
-        { "num": "/01", "title": "Audit", "desc": "Audit current CRM (or lack thereof)" },
-        { "num": "/02", "title": "Design", "desc": "Pipeline, fields, automations, dashboards" },
-        { "num": "/03", "title": "Migration", "desc": "Transfer and clean up data" },
-        { "num": "/04", "title": "Training", "desc": "Train the team on the new system" }
+        {
+          "num": "/01",
+          "title": "Audit",
+          "desc": "Audit current CRM (or lack thereof)"
+        },
+        {
+          "num": "/02",
+          "title": "Design",
+          "desc": "Pipeline, fields, automations, dashboards"
+        },
+        {
+          "num": "/03",
+          "title": "Migration",
+          "desc": "Transfer and clean up data"
+        },
+        {
+          "num": "/04",
+          "title": "Training",
+          "desc": "Train the team on the new system"
+        }
       ]
     },
     "voorJou": [
@@ -1012,15 +1126,24 @@
       "label": "/ AI in CRM",
       "title": "How AI enhances this",
       "items": [
-        { "title": "Data enrichment", "desc": "AI automatically enriches contacts with firmographic and technographic data via Clay and Apollo. Always up to date." },
-        { "title": "Automatic scoring", "desc": "AI scores and prioritizes leads based on behavior, engagement and ICP fit. Your team always calls the right lead." },
-        { "title": "Pipeline forecasting", "desc": "AI-driven forecasting that's more accurate than spreadsheets. Know what your pipeline is worth and when deals will close." }
+        {
+          "title": "Data enrichment",
+          "desc": "AI automatically enriches contacts with firmographic and technographic data via Clay and Apollo. Always up to date."
+        },
+        {
+          "title": "Automatic scoring",
+          "desc": "AI scores and prioritizes leads based on behavior, engagement and ICP fit. Your team always calls the right lead."
+        },
+        {
+          "title": "Pipeline forecasting",
+          "desc": "AI-driven forecasting that's more accurate than spreadsheets. Know what your pipeline is worth and when deals will close."
+        }
       ]
     },
     "cta": {
       "title": "From spreadsheet to working system.",
       "desc": "De Scan maps out what you need: CRM selection, setup, or optimization of what you already have.",
-      "ctaLabel": "Start with De Scan, \u20ac5,000"
+      "ctaLabel": "Start with De Scan, €5,000"
     }
   },
   "outbound": {
@@ -1037,7 +1160,7 @@
     "probleem": {
       "title": "Cold outbound is dead. Smart outbound isn't.",
       "paragraphs": [
-        "The first customers came through your network. That worked, until it wasn't enough anymore. So you tried outbound: a list of 1,000 companies, generic emails, low response. It felt like spam \u2014 because it was. 95% of that list had no need at that moment.",
+        "The first customers came through your network. That worked, until it wasn't enough anymore. So you tried outbound: a list of 1,000 companies, generic emails, low response. It felt like spam — because it was. 95% of that list had no need at that moment.",
         "The problem isn't outbound. The problem is timing and relevance. The companies that do grow with outbound do it differently: they reach prospects at the moment they show a buying signal. A new funding round. A sales hire. A technology switch. A visit to your website.",
         "This is called signal-based outbound, and it's the difference between a 2% and 8% reply rate."
       ]
@@ -1058,7 +1181,7 @@
         {
           "num": "/03",
           "title": "LinkedIn Outreach",
-          "desc": "Connection strategy and message sequences based on signals. Prospect just posted about a sales challenge? That's your opening \u2014 not a generic pitch."
+          "desc": "Connection strategy and message sequences based on signals. Prospect just posted about a sales challenge? That's your opening — not a generic pitch."
         },
         {
           "num": "/04",
@@ -1068,7 +1191,7 @@
         {
           "num": "/05",
           "title": "AI Targeting & Personalization",
-          "desc": "ICP-based lists via Clay and Apollo. AI enrichment combines 6+ data sources per prospect. Every outreach is personalized based on the specific signal \u2014 not based on a template."
+          "desc": "ICP-based lists via Clay and Apollo. AI enrichment combines 6+ data sources per prospect. Every outreach is personalized based on the specific signal — not based on a template."
         },
         {
           "num": "/06",
@@ -1080,10 +1203,26 @@
     "steps": {
       "title": "How it works",
       "items": [
-        { "num": "/01", "title": "Define ICP & signals", "desc": "Who are your best-fit customers? Which buying signals are relevant? We define your ICP and the triggers." },
-        { "num": "/02", "title": "Set up infra & monitoring", "desc": "Domains, tooling, warmup. Plus: Clay workflows that monitor funding, hiring and tech changes." },
-        { "num": "/03", "title": "Build campaigns", "desc": "A campaign per signal type: different messaging for funding than for a sales hire. Relevance is everything." },
-        { "num": "/04", "title": "Test, measure, optimize", "desc": "A/B tests on messaging and timing. Which signals convert best? Data-driven iteration." }
+        {
+          "num": "/01",
+          "title": "Define ICP & signals",
+          "desc": "Who are your best-fit customers? Which buying signals are relevant? We define your ICP and the triggers."
+        },
+        {
+          "num": "/02",
+          "title": "Set up infra & monitoring",
+          "desc": "Domains, tooling, warmup. Plus: Clay workflows that monitor funding, hiring and tech changes."
+        },
+        {
+          "num": "/03",
+          "title": "Build campaigns",
+          "desc": "A campaign per signal type: different messaging for funding than for a sales hire. Relevance is everything."
+        },
+        {
+          "num": "/04",
+          "title": "Test, measure, optimize",
+          "desc": "A/B tests on messaging and timing. Which signals convert best? Data-driven iteration."
+        }
       ]
     },
     "voorJou": [
@@ -1103,7 +1242,7 @@
       },
       {
         "q": "Isn't this just cold outbound with a different name?",
-        "a": "No. Cold outbound reaches everyone on a list. Signal-based outbound only reaches prospects who are signaling a need right now. The difference is in timing and relevance \u2014 and you see it directly in the results."
+        "a": "No. Cold outbound reaches everyone on a list. Signal-based outbound only reaches prospects who are signaling a need right now. The difference is in timing and relevance — and you see it directly in the results."
       },
       {
         "q": "How quickly is it up and running?",
@@ -1114,15 +1253,24 @@
       "label": "/ AI in Outbound",
       "title": "How AI enhances this",
       "items": [
-        { "title": "Signal monitoring", "desc": "Clay automatically monitors funding rounds, hiring, tech changes and website visits. You know who's open right now, without manual searching." },
-        { "title": "AI personalization per signal", "desc": "Every message is written based on the specific buying signal. Prospect raised funding? Different messaging than someone hiring a sales manager." },
-        { "title": "Lead scoring on signal strength", "desc": "AI combines all signal types into one score. Multiple signals at once? That prospect goes to the top of your list." }
+        {
+          "title": "Signal monitoring",
+          "desc": "Clay automatically monitors funding rounds, hiring, tech changes and website visits. You know who's open right now, without manual searching."
+        },
+        {
+          "title": "AI personalization per signal",
+          "desc": "Every message is written based on the specific buying signal. Prospect raised funding? Different messaging than someone hiring a sales manager."
+        },
+        {
+          "title": "Lead scoring on signal strength",
+          "desc": "AI combines all signal types into one score. Multiple signals at once? That prospect goes to the top of your list."
+        }
       ]
     },
     "cta": {
       "title": "From cold lists to signal-based pipeline.",
       "desc": "De Scan maps out which signals and channels deliver the most for your market.",
-      "ctaLabel": "Start with De Scan, \u20ac5,000"
+      "ctaLabel": "Start with De Scan, €5,000"
     }
   },
   "salesEnablement": {
@@ -1177,10 +1325,26 @@
     "steps": {
       "title": "How it works",
       "items": [
-        { "num": "/01", "title": "Analysis", "desc": "Map current sales process and bottlenecks" },
-        { "num": "/02", "title": "Develop", "desc": "Build playbook, frameworks and materials" },
-        { "num": "/03", "title": "Train", "desc": "Train team on new approach" },
-        { "num": "/04", "title": "Embed", "desc": "Anchor in daily practice and CRM" }
+        {
+          "num": "/01",
+          "title": "Analysis",
+          "desc": "Map current sales process and bottlenecks"
+        },
+        {
+          "num": "/02",
+          "title": "Develop",
+          "desc": "Build playbook, frameworks and materials"
+        },
+        {
+          "num": "/03",
+          "title": "Train",
+          "desc": "Train team on new approach"
+        },
+        {
+          "num": "/04",
+          "title": "Embed",
+          "desc": "Anchor in daily practice and CRM"
+        }
       ]
     },
     "voorJou": [
@@ -1207,33 +1371,42 @@
       "label": "/ AI in Enablement",
       "title": "How AI enhances this",
       "items": [
-        { "title": "Conversation intelligence", "desc": "AI analyzes calls and identifies winning patterns, objections and coaching moments. Automatically, after every call." },
-        { "title": "Playbook updates", "desc": "Playbooks that update themselves based on what works. New objections, winning talk tracks and best practices are automatically added." },
-        { "title": "Real-time coaching", "desc": "AI provides coaching suggestions based on call analysis. Your reps improve every week without extra management time." }
+        {
+          "title": "Conversation intelligence",
+          "desc": "AI analyzes calls and identifies winning patterns, objections and coaching moments. Automatically, after every call."
+        },
+        {
+          "title": "Playbook updates",
+          "desc": "Playbooks that update themselves based on what works. New objections, winning talk tracks and best practices are automatically added."
+        },
+        {
+          "title": "Real-time coaching",
+          "desc": "AI provides coaching suggestions based on call analysis. Your reps improve every week without extra management time."
+        }
       ]
     },
     "cta": {
       "title": "Give your team the structure to win.",
       "desc": "De Scan maps out where your sales process breaks down and which enablement components have the most impact.",
-      "ctaLabel": "Start with De Scan, \u20ac5,000"
+      "ctaLabel": "Start with De Scan, €5,000"
     }
   },
   "aiAutomation": {
     "metadata": {
-      "title": "AI & Automation | Accelr",
+      "title": "AI & Automation for your sales process",
       "description": "An integrated automation layer that runs through your entire sales process. From lead research to conversation analysis to pipeline forecasting."
     },
     "hero": {
       "label": "/ AI & AUTOMATION",
       "title": "AI that makes your sales team faster, smarter, and sharper.",
-      "subtitle": "No standalone AI tools that nobody uses. An integrated automation layer that runs through your entire sales process \u2014 from lead research to conversation analysis to pipeline forecasting.",
+      "subtitle": "No standalone AI tools that nobody uses. An integrated automation layer that runs through your entire sales process — from lead research to conversation analysis to pipeline forecasting.",
       "cta": "Start with The Scan"
     },
     "probleem": {
       "title": "Isolated experiments, not a system.",
       "paragraphs": [
-        "You\u2019ve tried ChatGPT for your emails. Maybe tested an AI tool for leads. But they\u2019re isolated experiments, not connected to your CRM, your pipeline, or your process. The result: another tool added, no improvement in outcomes.",
-        "AI only works when it\u2019s embedded in your sales process. Not as a toy, but as infrastructure."
+        "You’ve tried ChatGPT for your emails. Maybe tested an AI tool for leads. But they’re isolated experiments, not connected to your CRM, your pipeline, or your process. The result: another tool added, no improvement in outcomes.",
+        "AI only works when it’s embedded in your sales process. Not as a toy, but as infrastructure."
       ]
     },
     "deliverables": {
@@ -1242,7 +1415,7 @@
         {
           "num": "/01",
           "title": "AI-Powered Lead Research",
-          "desc": "Automatically find and enrich your ideal prospects. Firmographics, technographics, hiring signals, funding data \u2014 combined from 80+ data sources. No more manual searching."
+          "desc": "Automatically find and enrich your ideal prospects. Firmographics, technographics, hiring signals, funding data — combined from 80+ data sources. No more manual searching."
         },
         {
           "num": "/02",
@@ -1252,7 +1425,7 @@
         {
           "num": "/03",
           "title": "AI Email Drafts & Messaging",
-          "desc": "Personalized outreach based on the specific buying signal per prospect. No templates, no generic AI emails. Every message is relevant because it responds to what\u2019s happening at that prospect."
+          "desc": "Personalized outreach based on the specific buying signal per prospect. No templates, no generic AI emails. Every message is relevant because it responds to what’s happening at that prospect."
         },
         {
           "num": "/04",
@@ -1267,7 +1440,7 @@
         {
           "num": "/06",
           "title": "Workflow Automation & Integrations",
-          "desc": "Automatic data flow between all your tools. Lead comes in \u2192 gets enriched \u2192 into your CRM \u2192 outreach sequence starts \u2192 reply classification \u2192 CRM update \u2192 task created. No manual work. Everything talks to everything."
+          "desc": "Automatic data flow between all your tools. Lead comes in → gets enriched → into your CRM → outreach sequence starts → reply classification → CRM update → task created. No manual work. Everything talks to everything."
         },
         {
           "num": "/07",
@@ -1282,7 +1455,7 @@
       "cards": [
         {
           "title": "80% less admin",
-          "desc": "Most of what a salesperson does isn\u2019t selling. Entering data, finding leads, writing emails, updating the CRM. AI takes this over so your team can do what it\u2019s good at: building relationships and closing deals."
+          "desc": "Most of what a salesperson does isn’t selling. Entering data, finding leads, writing emails, updating the CRM. AI takes this over so your team can do what it’s good at: building relationships and closing deals."
         },
         {
           "title": "Better decisions with data",
@@ -1297,36 +1470,52 @@
     "steps": {
       "title": "How it works",
       "items": [
-        { "num": "/01", "title": "Audit", "desc": "Review current tools and workflows. What do you use? What works? What\u2019s manual that could be automated?" },
-        { "num": "/02", "title": "Design", "desc": "Design automation architecture. Which flows, which triggers, which integrations between your systems." },
-        { "num": "/03", "title": "Build", "desc": "Build workflows, configure integrations, train AI models on your data and processes. Test until it works." },
-        { "num": "/04", "title": "Optimize", "desc": "Monitor, debug, improve. Which automations perform? Where does it break? Continuous iteration." }
+        {
+          "num": "/01",
+          "title": "Audit",
+          "desc": "Review current tools and workflows. What do you use? What works? What’s manual that could be automated?"
+        },
+        {
+          "num": "/02",
+          "title": "Design",
+          "desc": "Design automation architecture. Which flows, which triggers, which integrations between your systems."
+        },
+        {
+          "num": "/03",
+          "title": "Build",
+          "desc": "Build workflows, configure integrations, train AI models on your data and processes. Test until it works."
+        },
+        {
+          "num": "/04",
+          "title": "Optimize",
+          "desc": "Monitor, debug, improve. Which automations perform? Where does it break? Continuous iteration."
+        }
       ]
     },
     "voorJou": [
-      "You use AI tools but they\u2019re not connected to your sales process",
+      "You use AI tools but they’re not connected to your sales process",
       "Your team spends more time on admin than on selling",
       "You want to scale without immediately hiring more people",
-      "You have tools but they don\u2019t talk to each other",
+      "You have tools but they don’t talk to each other",
       "You want your CRM to update itself",
       "You want to know which lead to call tomorrow, without searching yourself"
     ],
     "faq": [
       {
-        "q": "Isn\u2019t this just connecting a few tools together?",
-        "a": "No. It\u2019s designing an architecture that fits your sales process, selecting the right components, configuring, integrating, and optimizing them. The difference between \u201cI have an AI tool\u201d and \u201cmy entire sales process is AI-native\u201d is enormous."
+        "q": "Isn’t this just connecting a few tools together?",
+        "a": "No. It’s designing an architecture that fits your sales process, selecting the right components, configuring, integrating, and optimizing them. The difference between “I have an AI tool” and “my entire sales process is AI-native” is enormous."
       },
       {
         "q": "Which tools are used?",
-        "a": "That depends on your situation, budget, and existing stack. I work with best-in-class tools per function and always choose what fits best \u2014 not what yields the highest margin. The Scan maps out which tools you need."
+        "a": "That depends on your situation, budget, and existing stack. I work with best-in-class tools per function and always choose what fits best — not what yields the highest margin. The Scan maps out which tools you need."
       },
       {
         "q": "How long does it take to set up?",
-        "a": "The AI & Automation layer is typically built alongside a Build engagement (4\u201312 weeks). Standalone automation projects can be done in 2\u20134 weeks."
+        "a": "The AI & Automation layer is typically built alongside a Build engagement (4–12 weeks). Standalone automation projects can be done in 2–4 weeks."
       },
       {
         "q": "What if something breaks?",
-        "a": "Automations require maintenance. APIs change, tools update, volumes grow. That\u2019s why The Motor exists \u2014 ongoing maintenance and optimization of your system."
+        "a": "Automations require maintenance. APIs change, tools update, volumes grow. That’s why The Motor exists — ongoing maintenance and optimization of your system."
       },
       {
         "q": "What does the tooling cost per month?",
@@ -1336,7 +1525,7 @@
     "cta": {
       "title": "AI is the multiplier. But only when the foundation is right.",
       "desc": "The Scan maps out which automations have the most impact for your sales process.",
-      "ctaLabel": "Start with The Scan \u2014 \u20ac5,000",
+      "ctaLabel": "Start with The Scan — €5,000",
       "subtitle": "AI & Automation is included in The Growth Engine and The Transformation."
     }
   },
@@ -1434,14 +1623,14 @@
       "title": "Who this works for",
       "voorWieTitle": "Who this works for",
       "voorWieItems": [
-        "B2B SaaS/tech/IT, \u20ac1M-\u20ac10M revenue",
+        "B2B SaaS/tech/IT, €1M-€10M revenue",
         "Technical founder who still sells personally",
         "At least 2 people in sales (or ambition to build a team)",
         "Willing to delegate authority"
       ],
       "nietVoorWieTitle": "When this does NOT work",
       "nietVoorWieItems": [
-        "<\u20ac500K revenue (too early, focus on PMF)",
+        "<€500K revenue (too early, focus on PMF)",
         "Not willing to share data and CRM",
         "Daily full-time presence needed",
         "Looking for an agency to \"take over\""
@@ -1465,15 +1654,15 @@
       "caseStudies": [
         {
           "title": "Company A",
-          "result": "\u20ac1.8M \u2192 \u20ac2.6M ARR (+44%)"
+          "result": "€1.8M → €2.6M ARR (+44%)"
         },
         {
           "title": "Company B",
-          "result": "\u20ac600K untapped potential, Upsell +262%"
+          "result": "€600K untapped potential, Upsell +262%"
         },
         {
           "title": "Company C",
-          "result": "\u20ac2.5M \u2192 \u20ac4.1M ARR (+64%)"
+          "result": "€2.5M → €4.1M ARR (+64%)"
         }
       ]
     },
@@ -1556,20 +1745,55 @@
     },
     "vergelijking": {
       "label": "/ Comparison",
-      "title": "What\u2019s included in each level?",
+      "title": "What’s included in each level?",
       "headers": {
         "light": "Light",
         "standard": "Standard",
         "intensive": "Intensive"
       },
       "rows": [
-        { "aspect": "Hours/week", "light": "4 hours", "standard": "6-8 hours", "intensive": "8-10 hours" },
-        { "aspect": "Campaign optimization", "light": "Monthly", "standard": "Weekly", "intensive": "Weekly" },
-        { "aspect": "Pipeline reviews", "light": "\u2014", "standard": "Weekly", "intensive": "Weekly" },
-        { "aspect": "Sales coaching", "light": "\u2014", "standard": "1-on-1 guidance", "intensive": "1-on-1 + team" },
-        { "aspect": "Strategic leadership", "light": "\u2014", "standard": "\u2014", "intensive": "Fractional HoS function" },
-        { "aspect": "Sales hiring support", "light": "\u2014", "standard": "\u2014", "intensive": "Role definition + onboarding" },
-        { "aspect": "Reporting", "light": "Monthly", "standard": "Quarterly reviews", "intensive": "Board-ready forecasting" }
+        {
+          "aspect": "Hours/week",
+          "light": "4 hours",
+          "standard": "6-8 hours",
+          "intensive": "8-10 hours"
+        },
+        {
+          "aspect": "Campaign optimization",
+          "light": "Monthly",
+          "standard": "Weekly",
+          "intensive": "Weekly"
+        },
+        {
+          "aspect": "Pipeline reviews",
+          "light": "—",
+          "standard": "Weekly",
+          "intensive": "Weekly"
+        },
+        {
+          "aspect": "Sales coaching",
+          "light": "—",
+          "standard": "1-on-1 guidance",
+          "intensive": "1-on-1 + team"
+        },
+        {
+          "aspect": "Strategic leadership",
+          "light": "—",
+          "standard": "—",
+          "intensive": "Fractional HoS function"
+        },
+        {
+          "aspect": "Sales hiring support",
+          "light": "—",
+          "standard": "—",
+          "intensive": "Role definition + onboarding"
+        },
+        {
+          "aspect": "Reporting",
+          "light": "Monthly",
+          "standard": "Quarterly reviews",
+          "intensive": "Board-ready forecasting"
+        }
       ]
     },
     "voorWie": {
@@ -1577,17 +1801,17 @@
       "title": "Who is De Motor for?",
       "voorWieTitle": "De Motor is for you if...",
       "voorWieItems": [
-        "You\u2019ve completed De Bouw and want to keep the system running",
+        "You’ve completed De Bouw and want to keep the system running",
         "You have a working CRM, outbound engine or playbooks",
-        "You don\u2019t need a full-time sales leader but do need operational maintenance",
+        "You don’t need a full-time sales leader but do need operational maintenance",
         "You want someone to manage campaigns, tools and pipeline"
       ],
       "nietVoorWieTitle": "De Motor is NOT for you if...",
       "nietVoorWieItems": [
-        "You don\u2019t have a foundation yet (start with De Scan)",
-        "You don\u2019t have a CRM or sales process (start with De Bouw)",
+        "You don’t have a foundation yet (start with De Scan)",
+        "You don’t have a CRM or sales process (start with De Bouw)",
         "You need daily full-time presence",
-        "You\u2019re only looking for one-time advice"
+        "You’re only looking for one-time advice"
       ]
     },
     "voorwaarden": {
@@ -1597,15 +1821,15 @@
         "Minimum 3 months commitment",
         "Monthly cancellable after minimum period",
         "De Motor is available after completing De Scan or De Bouw",
-        "No setup costs \u2014 we start directly with optimization"
+        "No setup costs — we start directly with optimization"
       ]
     },
     "faq": {
       "label": "/ FAQ",
       "items": [
         {
-          "q": "What\u2019s the difference between De Motor and a Fractional Head of Sales?",
-          "a": "De Motor Intensive is essentially a Fractional Head of Sales. The difference is that De Motor is also available in lighter variants for companies that don\u2019t need strategic leadership but do need operational maintenance."
+          "q": "What’s the difference between De Motor and a Fractional Head of Sales?",
+          "a": "De Motor Intensive is essentially a Fractional Head of Sales. The difference is that De Motor is also available in lighter variants for companies that don’t need strategic leadership but do need operational maintenance."
         },
         {
           "q": "Can I get De Motor without doing De Bouw first?",
@@ -1617,7 +1841,7 @@
         },
         {
           "q": "How quickly can I start?",
-          "a": "After De Scan or an intake meeting, De Motor can start within 1-2 weeks. There\u2019s no lengthy onboarding period."
+          "a": "After De Scan or an intake meeting, De Motor can start within 1-2 weeks. There’s no lengthy onboarding period."
         }
       ]
     },
@@ -1629,7 +1853,7 @@
   },
   "deBouw": {
     "metadata": {
-      "title": "The Build | Accelr",
+      "title": "The Build | Packages for your sales infrastructure",
       "description": "From scan results to a working sales infrastructure. Choose the package that matches your ambition: Foundation, Growth Engine, or Transformation."
     },
     "hero": {
@@ -1642,7 +1866,7 @@
     "pakketten": {
       "label": "Three packages",
       "title": "Choose the package that matches your ambition",
-      "subtitle": "Each package is a combination of building blocks that together form a working system. No loose modules \u2014 everything is integrated.",
+      "subtitle": "Each package is a combination of building blocks that together form a working system. No loose modules — everything is integrated.",
       "popular": "Most popular",
       "cta": "Book a call",
       "note": "Custom packages available on request.",
@@ -1651,7 +1875,7 @@
           "title": "Foundation",
           "price": "Price on request",
           "priceSuffix": "",
-          "duration": "6\u20138 weeks",
+          "duration": "6–8 weeks",
           "highlight": false,
           "bouwblokken": [
             "Sales Strategy & GTM",
@@ -1664,7 +1888,7 @@
           "title": "Growth Engine",
           "price": "Price on request",
           "priceSuffix": "",
-          "duration": "8\u201312 weeks",
+          "duration": "8–12 weeks",
           "highlight": true,
           "bouwblokken": [
             "Sales Strategy & GTM",
@@ -1679,7 +1903,7 @@
           "title": "Transformation",
           "price": "Price on request",
           "priceSuffix": "",
-          "duration": "12\u201316 weeks",
+          "duration": "12–16 weeks",
           "highlight": false,
           "bouwblokken": [
             "Sales Strategy & GTM",
@@ -1696,7 +1920,7 @@
     },
     "matrix": {
       "label": "Comparison",
-      "title": "What\u2019s included in each package?",
+      "title": "What’s included in each package?",
       "headers": {
         "bouwblok": "Building block",
         "fundament": "Foundation",
@@ -1704,14 +1928,54 @@
         "transformatie": "Transformation"
       },
       "rows": [
-        { "name": "Sales Strategy & GTM", "fundament": true, "groeimachine": true, "transformatie": true },
-        { "name": "CRM Implementation", "fundament": true, "groeimachine": true, "transformatie": true },
-        { "name": "Outbound & Lead Generation", "fundament": false, "groeimachine": true, "transformatie": true },
-        { "name": "Sales Enablement", "fundament": false, "groeimachine": true, "transformatie": true },
-        { "name": "AI & Automation", "fundament": false, "groeimachine": false, "transformatie": true },
-        { "name": "Playbooks & Training", "fundament": false, "groeimachine": true, "transformatie": true },
-        { "name": "Hiring Support", "fundament": false, "groeimachine": false, "transformatie": true },
-        { "name": "Dedicated Project Lead", "fundament": false, "groeimachine": false, "transformatie": true }
+        {
+          "name": "Sales Strategy & GTM",
+          "fundament": true,
+          "groeimachine": true,
+          "transformatie": true
+        },
+        {
+          "name": "CRM Implementation",
+          "fundament": true,
+          "groeimachine": true,
+          "transformatie": true
+        },
+        {
+          "name": "Outbound & Lead Generation",
+          "fundament": false,
+          "groeimachine": true,
+          "transformatie": true
+        },
+        {
+          "name": "Sales Enablement",
+          "fundament": false,
+          "groeimachine": true,
+          "transformatie": true
+        },
+        {
+          "name": "AI & Automation",
+          "fundament": false,
+          "groeimachine": false,
+          "transformatie": true
+        },
+        {
+          "name": "Playbooks & Training",
+          "fundament": false,
+          "groeimachine": true,
+          "transformatie": true
+        },
+        {
+          "name": "Hiring Support",
+          "fundament": false,
+          "groeimachine": false,
+          "transformatie": true
+        },
+        {
+          "name": "Dedicated Project Lead",
+          "fundament": false,
+          "groeimachine": false,
+          "transformatie": true
+        }
       ]
     },
     "bouwblokken": {
@@ -1740,8 +2004,8 @@
     },
     "ctaFooter": {
       "title": "Not sure which package fits?",
-      "desc": "Start with The Scan \u2014 an in-depth analysis of your current sales organization. Based on the results, I\u2019ll advise which package is the best fit.",
-      "scanNote": "The Scan \u2014 \u20ac5,000 fixed fee, money-back guarantee",
+      "desc": "Start with The Scan — an in-depth analysis of your current sales organization. Based on the results, I’ll advise which package is the best fit.",
+      "scanNote": "The Scan — €5,000 fixed fee, money-back guarantee",
       "ctaScan": "Start with The Scan",
       "ctaContact": "Book an intro call"
     }
@@ -1789,7 +2053,7 @@
       },
       {
         "title": "Why your first sales hire fails (and how to prevent it)",
-        "excerpt": "You have product-market fit, revenue is growing, time for that first sales hire. But 6 months later: no results, \u20ac100K+ spent. I see this pattern in 80% of the founders I speak with.",
+        "excerpt": "You have product-market fit, revenue is growing, time for that first sales hire. But 6 months later: no results, €100K+ spent. I see this pattern in 80% of the founders I speak with.",
         "tag": "Sales Strategy",
         "readTime": "6 min"
       },
@@ -1813,9 +2077,9 @@
     },
     "backLink": "Back to all results",
     "caseStudyA": {
-      "badge": "B2B SaaS \u00b7 HR-tech \u00b7 22 employees",
+      "badge": "B2B SaaS · HR-tech · 22 employees",
       "name": "[Company A]",
-      "headline": "\u20ac1.8M \u2192 \u20ac2.6M ARR (+44%) in 9 months",
+      "headline": "€1.8M → €2.6M ARR (+44%) in 9 months",
       "highlights": [
         "Win rate +55%, deal size +33%, sales cycle -42%",
         "HubSpot restructured, 6-step sales process, outbound engine built",
@@ -1844,41 +2108,81 @@
       "maand5Items": [
         "Weekly pipeline reviews installed",
         "SDR #1 hired and onboarded",
-        "AI automations: lead scoring, Fireflies \u2192 CRM integration",
-        "Founder involvement: 70% \u2192 20% of deals"
+        "AI automations: lead scoring, Fireflies → CRM integration",
+        "Founder involvement: 70% → 20% of deals"
       ],
       "resultatenTitle": "Results",
-      "tableHeaders": { "metric": "Metric", "voor": "Before", "na": "After", "verschil": "Change" },
+      "tableHeaders": {
+        "metric": "Metric",
+        "voor": "Before",
+        "na": "After",
+        "verschil": "Change"
+      },
       "tableRows": [
-        { "metric": "Pipeline/month", "voor": "Unknown", "na": "\u20ac380K", "verschil": "\u2014" },
-        { "metric": "Average deal size", "voor": "\u20ac18K", "na": "\u20ac24K", "verschil": "+33%" },
-        { "metric": "Win rate", "voor": "~20%", "na": "31%", "verschil": "+55%" },
-        { "metric": "Lead-to-close time", "voor": "90 days", "na": "52 days", "verschil": "-42%" },
-        { "metric": "Deals per month", "voor": "2-3", "na": "5-6", "verschil": "+100%" },
-        { "metric": "Founder in deals", "voor": "70%", "na": "20%", "verschil": "-71%" },
-        { "metric": "ARR", "voor": "\u20ac1.8M", "na": "\u20ac2.6M", "verschil": "+44%" }
+        {
+          "metric": "Pipeline/month",
+          "voor": "Unknown",
+          "na": "€380K",
+          "verschil": "—"
+        },
+        {
+          "metric": "Average deal size",
+          "voor": "€18K",
+          "na": "€24K",
+          "verschil": "+33%"
+        },
+        {
+          "metric": "Win rate",
+          "voor": "~20%",
+          "na": "31%",
+          "verschil": "+55%"
+        },
+        {
+          "metric": "Lead-to-close time",
+          "voor": "90 days",
+          "na": "52 days",
+          "verschil": "-42%"
+        },
+        {
+          "metric": "Deals per month",
+          "voor": "2-3",
+          "na": "5-6",
+          "verschil": "+100%"
+        },
+        {
+          "metric": "Founder in deals",
+          "voor": "70%",
+          "na": "20%",
+          "verschil": "-71%"
+        },
+        {
+          "metric": "ARR",
+          "voor": "€1.8M",
+          "na": "€2.6M",
+          "verschil": "+44%"
+        }
       ],
       "quoteDetailed": "Tim forced us to honestly look at our pipeline. Confronting, 40% of deals weren't even in the CRM. After 3 months, we had real visibility into our funnel for the first time. After 6 months, it ran without me.",
       "quoteAuthor": "[Name]",
       "quoteRole": "Founder [Company A]"
     },
     "caseStudyB": {
-      "badge": "IT services \u00b7 35 employees",
+      "badge": "IT services · 35 employees",
       "name": "[Company B]",
-      "headline": "\u20ac600K untapped potential found, Upsell +262%",
+      "headline": "€600K untapped potential found, Upsell +262%",
       "highlights": [
         "Salesforce adoption from 15% to 92%, forecast accuracy 78%",
-        "New business engine: \u20ac0 to \u20ac220K per month",
-        "Client portfolio analysis revealed \u20ac600K hidden opportunities"
+        "New business engine: €0 to €220K per month",
+        "Client portfolio analysis revealed €600K hidden opportunities"
       ],
-      "quote": "The wake-up call we needed. We were sitting on \u20ac600K in potential we didn't see.",
+      "quote": "The wake-up call we needed. We were sitting on €600K in potential we didn't see.",
       "uitdaging": "The challenge",
-      "uitdagingDesc": "An IT services company with \u20ac3.2M revenue and 35 employees. Sales ran entirely on existing clients and inbound. No active new business. Salesforce had been purchased but adoption was at 15%. No pipeline overview, no forecasting, no structured upsell. Management knew there was more potential, but not how much.",
+      "uitdagingDesc": "An IT services company with €3.2M revenue and 35 employees. Sales ran entirely on existing clients and inbound. No active new business. Salesforce had been purchased but adoption was at 15%. No pipeline overview, no forecasting, no structured upsell. Management knew there was more potential, but not how much.",
       "aanpak": "The approach",
       "scanTitle": "De Scan (6 weeks)",
       "scanItems": [
         "Salesforce audit: 85% of accounts incomplete, no opportunity tracking",
-        "Client portfolio analysis: \u20ac600K untapped cross-sell and upsell potential identified",
+        "Client portfolio analysis: €600K untapped cross-sell and upsell potential identified",
         "No defined sales process, everything ad-hoc",
         "Team assessment: 3 account managers, no pipeline ownership"
       ],
@@ -1891,20 +2195,45 @@
       ],
       "resultatenTitle": "Results",
       "tableRows": [
-        { "metric": "Salesforce adoption", "voor": "15%", "na": "92%", "verschil": "+513%" },
-        { "metric": "Upsell/cross-sell", "voor": "Ad-hoc", "na": "Structured", "verschil": "+262%" },
-        { "metric": "New business per month", "voor": "\u20ac0", "na": "\u20ac220K", "verschil": "\u2014" },
-        { "metric": "Pipeline visibility", "voor": "None", "na": "Real-time dashboard", "verschil": "\u2014" },
-        { "metric": "Forecast accuracy", "voor": "0%", "na": "78%", "verschil": "\u2014" }
+        {
+          "metric": "Salesforce adoption",
+          "voor": "15%",
+          "na": "92%",
+          "verschil": "+513%"
+        },
+        {
+          "metric": "Upsell/cross-sell",
+          "voor": "Ad-hoc",
+          "na": "Structured",
+          "verschil": "+262%"
+        },
+        {
+          "metric": "New business per month",
+          "voor": "€0",
+          "na": "€220K",
+          "verschil": "—"
+        },
+        {
+          "metric": "Pipeline visibility",
+          "voor": "None",
+          "na": "Real-time dashboard",
+          "verschil": "—"
+        },
+        {
+          "metric": "Forecast accuracy",
+          "voor": "0%",
+          "na": "78%",
+          "verschil": "—"
+        }
       ],
-      "quoteDetailed": "The wake-up call we needed. We were sitting on \u20ac600K in potential we didn't see. Tim made it visible and built a system to harvest it.",
+      "quoteDetailed": "The wake-up call we needed. We were sitting on €600K in potential we didn't see. Tim made it visible and built a system to harvest it.",
       "quoteAuthor": "[Name]",
       "quoteRole": "Director [Company B]"
     },
     "caseStudyC": {
-      "badge": "B2B SaaS \u00b7 Supply chain \u00b7 18 employees",
+      "badge": "B2B SaaS · Supply chain · 18 employees",
       "name": "[Company C]",
-      "headline": "\u20ac2.5M \u2192 \u20ac4.1M ARR (+64%) in 12 months",
+      "headline": "€2.5M → €4.1M ARR (+64%) in 12 months",
       "highlights": [
         "Pipeline +244%, win rate +61%, sales cycle -43%",
         "Full HubSpot implementation, AI lead scoring, outbound engine",
@@ -1912,12 +2241,12 @@
       ],
       "quote": "The problem wasn't the person, it was the system. Tim built the foundation first.",
       "uitdaging": "The challenge",
-      "uitdagingDesc": "A B2B SaaS company in supply chain with \u20ac2.5M ARR. The founder had just hired a VP Sales who left after 4 months, \u20ac120K loss including opportunity cost. The team of 3 AEs operated without a system. No CRM discipline, no forecasting, no structured sales process. The founder was considering a second hire but wanted to fix the foundation first.",
+      "uitdagingDesc": "A B2B SaaS company in supply chain with €2.5M ARR. The founder had just hired a VP Sales who left after 4 months, €120K loss including opportunity cost. The team of 3 AEs operated without a system. No CRM discipline, no forecasting, no structured sales process. The founder was considering a second hire but wanted to fix the foundation first.",
       "aanpak": "The approach",
       "opdracht": "Fractional Head of Sales, 12 months",
       "maand1Title": "Month 1, Diagnosis",
       "maand1Items": [
-        "CRM audit: Pipedrive \u2192 HubSpot migration necessary",
+        "CRM audit: Pipedrive → HubSpot migration necessary",
         "No standardized sales cycle",
         "Team skills assessment conducted"
       ],
@@ -1943,13 +2272,48 @@
       ],
       "resultatenTitle": "Results",
       "tableRows": [
-        { "metric": "ARR", "voor": "\u20ac2.5M", "na": "\u20ac4.1M", "verschil": "+64%" },
-        { "metric": "Pipeline per month", "voor": "\u20ac180K", "na": "\u20ac620K", "verschil": "+244%" },
-        { "metric": "Win rate", "voor": "18%", "na": "29%", "verschil": "+61%" },
-        { "metric": "Sales cycle", "voor": "120 days", "na": "68 days", "verschil": "-43%" },
-        { "metric": "Team size", "voor": "3 AEs", "na": "3 AEs + 1 SDR + HoS", "verschil": "\u2014" },
-        { "metric": "Founder in deals", "voor": "60%", "na": "5%", "verschil": "-92%" },
-        { "metric": "Cost vs full-time VP", "voor": "\u2014", "na": "\u2014", "verschil": "60% cheaper" }
+        {
+          "metric": "ARR",
+          "voor": "€2.5M",
+          "na": "€4.1M",
+          "verschil": "+64%"
+        },
+        {
+          "metric": "Pipeline per month",
+          "voor": "€180K",
+          "na": "€620K",
+          "verschil": "+244%"
+        },
+        {
+          "metric": "Win rate",
+          "voor": "18%",
+          "na": "29%",
+          "verschil": "+61%"
+        },
+        {
+          "metric": "Sales cycle",
+          "voor": "120 days",
+          "na": "68 days",
+          "verschil": "-43%"
+        },
+        {
+          "metric": "Team size",
+          "voor": "3 AEs",
+          "na": "3 AEs + 1 SDR + HoS",
+          "verschil": "—"
+        },
+        {
+          "metric": "Founder in deals",
+          "voor": "60%",
+          "na": "5%",
+          "verschil": "-92%"
+        },
+        {
+          "metric": "Cost vs full-time VP",
+          "voor": "—",
+          "na": "—",
+          "verschil": "60% cheaper"
+        }
       ],
       "quoteDetailed": "The problem wasn't the person, it was the system. Tim built the foundation first and then found the right HoS to take it over. I could never have done that myself.",
       "quoteAuthor": "[Name]",
@@ -2052,20 +2416,44 @@
       "top3": "Top 3 areas of attention",
       "scoreLegenda": "Score legend",
       "levels": {
-        "urgent": { "label": "Urgent", "desc": "Your sales engine has fundamental gaps. You're leaving significant money on the table." },
-        "opbouwfase": { "label": "Building phase", "desc": "There are basic elements but the system lacks structure and consistency." },
-        "groeipotentieel": { "label": "Growth potential", "desc": "Good foundation, but there's room for optimization and scaling." },
-        "optimalisatie": { "label": "Optimization", "desc": "Strong foundation. Focus on fine-tuning and maximizing efficiency." }
+        "urgent": {
+          "label": "Urgent",
+          "desc": "Your sales engine has fundamental gaps. You're leaving significant money on the table."
+        },
+        "opbouwfase": {
+          "label": "Building phase",
+          "desc": "There are basic elements but the system lacks structure and consistency."
+        },
+        "groeipotentieel": {
+          "label": "Growth potential",
+          "desc": "Good foundation, but there's room for optimization and scaling."
+        },
+        "optimalisatie": {
+          "label": "Optimization",
+          "desc": "Strong foundation. Focus on fine-tuning and maximizing efficiency."
+        }
       },
       "legendItems": {
-        "urgent": { "range": "<4", "label": "Urgent", "desc": "You're leaving money on the table" },
-        "groei": { "range": "4-6", "label": "Growth potential", "desc": "Room for improvement" },
-        "optim": { "range": "7+", "label": "Optimization", "desc": "Fine-tuning and scaling" }
+        "urgent": {
+          "range": "<4",
+          "label": "Urgent",
+          "desc": "You're leaving money on the table"
+        },
+        "groei": {
+          "range": "4-6",
+          "label": "Growth potential",
+          "desc": "Room for improvement"
+        },
+        "optim": {
+          "range": "7+",
+          "label": "Optimization",
+          "desc": "Fine-tuning and scaling"
+        }
       },
       "cta": {
         "desc": "This is a quick scan. The professional Scan audits everything with interviews, data analysis and euro value per opportunity.",
-        "price": "\u20ac5,000",
-        "priceNote": "fixed \u00b7 custom scope possible \u00b7 Not satisfied? Money back.",
+        "price": "€5,000",
+        "priceNote": "fixed · custom scope possible · Not satisfied? Money back.",
         "ctaLabel": "Book your Scan",
         "retake": "Fill in again"
       }
@@ -2108,11 +2496,26 @@
         "colPurpose": "Purpose",
         "colBasis": "Legal basis (GDPR)",
         "rows": [
-          { "doel": "Answering your question or request", "grondslag": "Legitimate interest" },
-          { "doel": "Scheduling a meeting via Calendly", "grondslag": "Contract performance" },
-          { "doel": "Improving our website", "grondslag": "Legitimate interest" },
-          { "doel": "Analyzing website usage", "grondslag": "Consent (cookies)" },
-          { "doel": "Sending relevant updates (only with consent)", "grondslag": "Consent" }
+          {
+            "doel": "Answering your question or request",
+            "grondslag": "Legitimate interest"
+          },
+          {
+            "doel": "Scheduling a meeting via Calendly",
+            "grondslag": "Contract performance"
+          },
+          {
+            "doel": "Improving our website",
+            "grondslag": "Legitimate interest"
+          },
+          {
+            "doel": "Analyzing website usage",
+            "grondslag": "Consent (cookies)"
+          },
+          {
+            "doel": "Sending relevant updates (only with consent)",
+            "grondslag": "Consent"
+          }
         ],
         "noSelling": "We never sell your data to third parties."
       },
@@ -2148,30 +2551,69 @@
         "colPurpose": "Purpose",
         "colLocation": "Location",
         "rows": [
-          { "partij": "Calendly", "doel": "Scheduling meetings", "locatie": "US (EU Standard Contractual Clauses)" },
-          { "partij": "Vercel", "doel": "Website hosting & analytics", "locatie": "US (EU Standard Contractual Clauses)" },
-          { "partij": "HubSpot", "doel": "CRM and contact management", "locatie": "US (EU Standard Contractual Clauses)" }
+          {
+            "partij": "Calendly",
+            "doel": "Scheduling meetings",
+            "locatie": "US (EU Standard Contractual Clauses)"
+          },
+          {
+            "partij": "Vercel",
+            "doel": "Website hosting & analytics",
+            "locatie": "US (EU Standard Contractual Clauses)"
+          },
+          {
+            "partij": "HubSpot",
+            "doel": "CRM and contact management",
+            "locatie": "US (EU Standard Contractual Clauses)"
+          }
         ],
         "dpa": "Data processing agreements have been concluded with all processors in accordance with the GDPR."
       },
       "retention": {
         "title": "6. Retention periods",
         "items": [
-          { "label": "Contact details", "term": "maximum 2 years after last contact" },
-          { "label": "Analytical data", "term": "maximum 26 months (anonymized)" },
-          { "label": "Email correspondence", "term": "maximum 2 years" }
+          {
+            "label": "Contact details",
+            "term": "maximum 2 years after last contact"
+          },
+          {
+            "label": "Analytical data",
+            "term": "maximum 26 months (anonymized)"
+          },
+          {
+            "label": "Email correspondence",
+            "term": "maximum 2 years"
+          }
         ]
       },
       "rights": {
         "title": "7. Your rights",
         "desc": "Under the GDPR, you have the following rights:",
         "items": [
-          { "right": "Access", "desc": "Request what data we have about you" },
-          { "right": "Correction", "desc": "Have incorrect data corrected" },
-          { "right": "Deletion", "desc": "Have your data deleted" },
-          { "right": "Restriction", "desc": "Temporarily stop processing" },
-          { "right": "Portability", "desc": "Receive your data in a common format" },
-          { "right": "Objection", "desc": "Object to processing based on legitimate interest" }
+          {
+            "right": "Access",
+            "desc": "Request what data we have about you"
+          },
+          {
+            "right": "Correction",
+            "desc": "Have incorrect data corrected"
+          },
+          {
+            "right": "Deletion",
+            "desc": "Have your data deleted"
+          },
+          {
+            "right": "Restriction",
+            "desc": "Temporarily stop processing"
+          },
+          {
+            "right": "Portability",
+            "desc": "Receive your data in a common format"
+          },
+          {
+            "right": "Objection",
+            "desc": "Object to processing based on legitimate interest"
+          }
         ],
         "sendRequest": "Send your request to",
         "responseTime": "We respond within 30 days.",
@@ -2210,7 +2652,7 @@
     "cards": {
       "deScan": {
         "label": "DIAGNOSIS",
-        "title": "De Scan\u2122",
+        "title": "De Scan™",
         "desc": "Diagnoses all pillars. Output = strategy + action plan."
       },
       "strategie": {
@@ -2219,22 +2661,22 @@
         "desc": "ICP, positioning, GTM, pricing. The foundation."
       },
       "outbound": {
-        "label": "PROCESS \u00b7 LAYER 1",
+        "label": "PROCESS · LAYER 1",
         "title": "Outbound & Leadgen",
         "desc": "Pipeline generation engine"
       },
       "crm": {
-        "label": "PROCESS \u00b7 LAYER 2+3",
+        "label": "PROCESS · LAYER 2+3",
         "title": "CRM & Sales Process",
         "desc": "Execution + Measurement"
       },
       "enablement": {
-        "label": "PEOPLE \u00b7 LAYER 1+2",
+        "label": "PEOPLE · LAYER 1+2",
         "title": "Sales Enablement",
         "desc": "Enablement + Visibility"
       },
       "ai": {
-        "label": "\u00d7 AI",
+        "label": "× AI",
         "title": "AI & Automation",
         "desc": "Automation + Intelligence + Analytics"
       }
@@ -2276,7 +2718,7 @@
             "LinkedIn sequences",
             "Call structure",
             "Multi-channel orchestration",
-            "Lead qualification (MQL \u2192 SQL)"
+            "Lead qualification (MQL → SQL)"
           ]
         },
         {
@@ -2344,8 +2786,8 @@
       "cta": "Sales Enablement"
     },
     "ai": {
-      "title": "\u00d7 AI Multiplier",
-      "subtitle": "accelerates everything from 1\u00d7 to 3-5\u00d7",
+      "title": "× AI Multiplier",
+      "subtitle": "accelerates everything from 1× to 3-5×",
       "layers": [
         {
           "title": "Layer 1: Automation",
@@ -2384,14 +2826,14 @@
   "blogSalesHire": {
     "metadata": {
       "title": "Why your first sales hire fails (and how to prevent it)",
-      "description": "Wasted \u20ac100K+ on a sales hire that doesn't work? This is why it goes wrong, and what you need to build first."
+      "description": "Wasted €100K+ on a sales hire that doesn't work? This is why it goes wrong, and what you need to build first."
     },
     "hero": {
       "tag": "Sales Strategy",
       "title": "Why your first sales hire fails",
       "readTime": "6 min read"
     },
-    "intro": "You have product-market fit. Revenue is growing. Time for that first sales hire. But 6 months later: no results, \u20ac100K+ spent, and you're back to selling yourself. I see this pattern in 80% of the founders I speak with.",
+    "intro": "You have product-market fit. Revenue is growing. Time for that first sales hire. But 6 months later: no results, €100K+ spent, and you're back to selling yourself. I see this pattern in 80% of the founders I speak with.",
     "pattern": {
       "title": "The pattern",
       "p1": "You have product-market fit. Revenue is growing. You think:",
@@ -2399,10 +2841,22 @@
       "p2": "You hire someone. After 3-6 months: no results.",
       "p3": "Because:",
       "items": [
-        { "bold": "No CRM process", "rest": ", no pipeline, no clear stages" },
-        { "bold": "No playbook", "rest": ", no scripts, no discovery flow" },
-        { "bold": "No onboarding", "rest": ", \"Just start calling\"" },
-        { "bold": "No defined ICP", "rest": ", \"Anyone who pays is a good customer\"" }
+        {
+          "bold": "No CRM process",
+          "rest": ", no pipeline, no clear stages"
+        },
+        {
+          "bold": "No playbook",
+          "rest": ", no scripts, no discovery flow"
+        },
+        {
+          "bold": "No onboarding",
+          "rest": ", \"Just start calling\""
+        },
+        {
+          "bold": "No defined ICP",
+          "rest": ", \"Anyone who pays is a good customer\""
+        }
       ],
       "conclusion": "The sales hire doesn't fail due to lack of talent, but due to lack of system."
     },
@@ -2410,11 +2864,26 @@
       "title": "What you need to build first",
       "intro": "Before making that first sales hire, you need this in place:",
       "items": [
-        { "title": "1. Defined ICP and buyer persona", "desc": "Who are your best customers? Which titles? Which company sizes? Which pain points?" },
-        { "title": "2. CRM set up with pipeline stages", "desc": "What steps does a deal go through? From first contact to closed-won. What is the definition of each stage?" },
-        { "title": "3. Discovery and demo scripts", "desc": "What questions do you ask? What do you show in your demo? How do you handle objections?" },
-        { "title": "4. Onboarding checklist", "desc": "What does someone need to learn in week 1, 2, 3, 4? Which tools? Which processes?" },
-        { "title": "5. First 3 months KPIs", "desc": "How many calls? How many demos? What is success in month 1, 2, 3?" }
+        {
+          "title": "1. Defined ICP and buyer persona",
+          "desc": "Who are your best customers? Which titles? Which company sizes? Which pain points?"
+        },
+        {
+          "title": "2. CRM set up with pipeline stages",
+          "desc": "What steps does a deal go through? From first contact to closed-won. What is the definition of each stage?"
+        },
+        {
+          "title": "3. Discovery and demo scripts",
+          "desc": "What questions do you ask? What do you show in your demo? How do you handle objections?"
+        },
+        {
+          "title": "4. Onboarding checklist",
+          "desc": "What does someone need to learn in week 1, 2, 3, 4? Which tools? Which processes?"
+        },
+        {
+          "title": "5. First 3 months KPIs",
+          "desc": "How many calls? How many demos? What is success in month 1, 2, 3?"
+        }
       ]
     },
     "solution": {
@@ -2450,7 +2919,7 @@
       "title": "What is a Fractional Head of Sales?",
       "p1": "A Fractional Head of Sales is an experienced sales leader who works part-time (usually 1-2 days per week) to build and lead your commercial strategy and organization.",
       "p2": "Compare it to a fractional CFO or CMO: senior expertise, without the cost of a full-time hire.",
-      "p3": "In the US, more than 120,000 companies work with fractional executives. In Europe, the model is growing fast, especially at B2B tech companies between \u20ac1M-\u20ac10M revenue.",
+      "p3": "In the US, more than 120,000 companies work with fractional executives. In Europe, the model is growing fast, especially at B2B tech companies between €1M-€10M revenue.",
       "boxTitle": "What does a Fractional Head of Sales do?",
       "boxItems": [
         "Builds your sales funnel and CRM process",
@@ -2464,9 +2933,24 @@
       "title": "What does it cost?",
       "intro": "The cost comparison:",
       "options": [
-        { "title": "Fractional Head of Sales", "price": "Price on request", "desc": "1-2 days per week, minimum 6 months", "highlight": true },
-        { "title": "Full-time Head of Sales", "price": "\u20ac150,000 - \u20ac220,000/year", "desc": "Salary + employer costs + bonus + onboarding", "highlight": false },
-        { "title": "Interim sales manager", "price": "\u20ac120,000 - \u20ac180,000/year", "desc": "5 days per week, often short-term focus", "highlight": false }
+        {
+          "title": "Fractional Head of Sales",
+          "price": "Price on request",
+          "desc": "1-2 days per week, minimum 6 months",
+          "highlight": true
+        },
+        {
+          "title": "Full-time Head of Sales",
+          "price": "€150,000 - €220,000/year",
+          "desc": "Salary + employer costs + bonus + onboarding",
+          "highlight": false
+        },
+        {
+          "title": "Interim sales manager",
+          "price": "€120,000 - €180,000/year",
+          "desc": "5 days per week, often short-term focus",
+          "highlight": false
+        }
       ],
       "conclusion": "Fractional is **60-70% cheaper** than full-time or interim, but you still get senior-level expertise."
     },
@@ -2474,18 +2958,18 @@
       "title": "When is it smart?",
       "intro": "A Fractional Head of Sales is smart if:",
       "items": [
-        "You're between **\u20ac1M-\u20ac10M revenue**",
+        "You're between **€1M-€10M revenue**",
         "Your founder sells personally and wants to **systematize** it",
         "You've just made your **first sales hire** (or that one failed)",
         "You have **no sales system**: no CRM, no playbook, no pipeline",
-        "You want to **grow to \u20ac5M-\u20ac20M** but don't know how"
+        "You want to **grow to €5M-€20M** but don't know how"
       ]
     },
     "whenNot": {
       "title": "When is it NOT smart?",
       "intro": "Fractional is not the right choice if:",
       "items": [
-        "You're under **\u20ac500K revenue**, focus on product-market fit first",
+        "You're under **€500K revenue**, focus on product-market fit first",
         "You already have a **sales team of 5+**, then you need full-time leadership",
         "You want someone who **will also sell**, fractional is strategic, not execution",
         "You're not willing to **delegate authority**, a fractional needs to be able to decide"
@@ -2495,9 +2979,18 @@
       "title": "How does it work at Accelr?",
       "intro": "At Accelr, I work in phases:",
       "phases": [
-        { "title": "Month 1: Diagnosis", "desc": "We do De Scan. I map your funnel, tooling, ICP and processes. You get a roadmap with priorities." },
-        { "title": "Month 2-3: Building", "desc": "We build the foundation: CRM, playbook, scripts, ICP, onboarding, KPI dashboard. Everything you need to scale." },
-        { "title": "Month 4+: Running & Optimizing", "desc": "We train your team, manage KPIs, optimize the funnel. I stay available 1-2 days per week for coaching, strategy and decisions." }
+        {
+          "title": "Month 1: Diagnosis",
+          "desc": "We do De Scan. I map your funnel, tooling, ICP and processes. You get a roadmap with priorities."
+        },
+        {
+          "title": "Month 2-3: Building",
+          "desc": "We build the foundation: CRM, playbook, scripts, ICP, onboarding, KPI dashboard. Everything you need to scale."
+        },
+        {
+          "title": "Month 4+: Running & Optimizing",
+          "desc": "We train your team, manage KPIs, optimize the funnel. I stay available 1-2 days per week for coaching, strategy and decisions."
+        }
       ],
       "duration": "Minimum duration: **6 months**. After that you can scale up to full-time, scale down, or continue with fractional, depending on what you need."
     },
@@ -2525,19 +3018,19 @@
     },
     "intro": {
       "p1": "You have a solid ICP. You have the tooling. You send hundreds of emails every week. And yet: 2% reply rate, a handful of meetings, and the feeling that you're spamming.",
-      "p2": "The problem isn't outbound. The problem is that you're reaching the wrong people at the wrong time. Signal-based outbound solves this. Instead of working through a cold list, you only approach prospects who show a buying signal \u2014 a sign that they're now open to what you offer.",
+      "p2": "The problem isn't outbound. The problem is that you're reaching the wrong people at the wrong time. Signal-based outbound solves this. Instead of working through a cold list, you only approach prospects who show a buying signal — a sign that they're now open to what you offer.",
       "p3": "The result: higher response rates, better conversations, and a pipeline that doesn't depend on luck. In this guide, I explain what signal-based outbound is, which signals exist, how to set it up, and why it's the logical next step for B2B companies."
     },
     "traditional": {
       "title": "Why traditional outbound keeps getting worse",
       "p1": "The traditional approach: build a list, write an email, start a sequence, and hope that a few of those 500-1,000 contacts respond. The problem is that of those 1,000 companies, maybe 3-5% have a relevant need at that moment.",
-      "p2": "Decision-makers receive an average of 15 cold emails per week. 71% are ignored due to irrelevance. Google has lowered the spam threshold to 0.1% \u2014 meaning 1-2 complaints per 1,000 emails can damage your domain.",
+      "p2": "Decision-makers receive an average of 15 cold emails per week. 71% are ignored due to irrelevance. Google has lowered the spam threshold to 0.1% — meaning 1-2 complaints per 1,000 emails can damage your domain.",
       "p3": "The average reply rate on B2B cold emails has dropped to 4-5%. But the top 10% of outbound campaigns still achieve 8-12%. The difference? Timing and relevance. And that's exactly what signal-based outbound is about."
     },
     "whatIs": {
       "title": "What is signal-based outbound?",
       "p1": "Instead of reaching everyone and hoping the timing is right, you monitor buying signals and only approach prospects who indicate they're open. A buying signal is any observable behavior or event that suggests a company currently has a need you can fill.",
-      "p2": "You go from 'cold calling 500 companies' to 'warm approaching 20 companies that are ready now.' That sounds like less volume, but it delivers more results \u2014 because every conversation is relevant.",
+      "p2": "You go from 'cold calling 500 companies' to 'warm approaching 20 companies that are ready now.' That sounds like less volume, but it delivers more results — because every conversation is relevant.",
       "compareTitle": "The difference in the opening:",
       "coldExample": "Hi, I'm Tim from Accelr. We help B2B companies with their sales process. Would you be open to a quick chat?",
       "signalExample": "I noticed you're looking for a Sales Manager. In my experience, that's often the moment when companies also review their sales process and tooling. Sound familiar?",
@@ -2546,86 +3039,186 @@
     "signalTypes": {
       "title": "The three types of buying signals",
       "intro": "Not all signals are equal. There are three categories, each with their own strength and reliability.",
-      "triggersTitle": "1. Trigger signals \u2014 events that create a need",
+      "triggersTitle": "1. Trigger signals — events that create a need",
       "triggersDesc": "These are concrete, observable events that indicate a company is in motion. They're the strongest because they represent a factual change.",
       "triggers": [
-        { "signal": "Funding round raised", "source": "Crunchbase, Clay" },
-        { "signal": "New sales or marketing hire", "source": "LinkedIn, Clay" },
-        { "signal": "New management (CEO, CRO)", "source": "LinkedIn, Clay" },
-        { "signal": "Technology switch", "source": "BuiltWith via Clay" },
-        { "signal": "New market or office", "source": "Chamber of Commerce, LinkedIn" }
+        {
+          "signal": "Funding round raised",
+          "source": "Crunchbase, Clay"
+        },
+        {
+          "signal": "New sales or marketing hire",
+          "source": "LinkedIn, Clay"
+        },
+        {
+          "signal": "New management (CEO, CRO)",
+          "source": "LinkedIn, Clay"
+        },
+        {
+          "signal": "Technology switch",
+          "source": "BuiltWith via Clay"
+        },
+        {
+          "signal": "New market or office",
+          "source": "Chamber of Commerce, LinkedIn"
+        }
       ],
-      "intentTitle": "2. Intent signals \u2014 behavior suggesting buying intent",
+      "intentTitle": "2. Intent signals — behavior suggesting buying intent",
       "intentDesc": "These signals show that a company is actively exploring. Less concrete than triggers, but they provide a strong directional sense.",
       "intent": [
-        { "signal": "Website visits (your site)", "source": "Leadinfo, Leadfeeder" },
-        { "signal": "LinkedIn engagement", "source": "Sales Navigator" },
-        { "signal": "Search behavior on relevant topics", "source": "Bombora, G2 (US-focused)" }
+        {
+          "signal": "Website visits (your site)",
+          "source": "Leadinfo, Leadfeeder"
+        },
+        {
+          "signal": "LinkedIn engagement",
+          "source": "Sales Navigator"
+        },
+        {
+          "signal": "Search behavior on relevant topics",
+          "source": "Bombora, G2 (US-focused)"
+        }
       ],
-      "engagementTitle": "3. Engagement signals \u2014 interaction with your outreach",
+      "engagementTitle": "3. Engagement signals — interaction with your outreach",
       "engagementDesc": "These are reactions to your own communication. They confirm interest and indicate the right moment for a follow-up.",
       "engagement": [
-        { "signal": "Email opens and clicks", "source": "Instantly, HubSpot" },
-        { "signal": "LinkedIn profile visits after outreach", "source": "Sales Navigator" },
-        { "signal": "Content downloads", "source": "HubSpot" }
+        {
+          "signal": "Email opens and clicks",
+          "source": "Instantly, HubSpot"
+        },
+        {
+          "signal": "LinkedIn profile visits after outreach",
+          "source": "Sales Navigator"
+        },
+        {
+          "signal": "Content downloads",
+          "source": "HubSpot"
+        }
       ]
     },
     "practice": {
       "title": "What signal-based outbound looks like in practice",
       "intro": "Let's make it concrete. This is what a typical signal-based workflow looks like:",
       "steps": [
-        { "step": "Step 1: Define ICP", "desc": "You sharply define which companies you want to reach \u2014 not just firmographically (industry, size) but also on behavior (growth stage, tech stack, hiring patterns)." },
-        { "step": "Step 2: Set up monitoring", "desc": "You configure Clay to automatically monitor triggers: new hires, funding rounds, tech switches. Leadinfo captures website visits. Sales Navigator tracks LinkedIn engagement." },
-        { "step": "Step 3: Signal arrives", "desc": "A company in your ICP hires a new Head of Sales. Clay detects this automatically and enriches the contact with email, phone number and company data." },
-        { "step": "Step 4: Automatic enrichment", "desc": "Clay's waterfall enrichment tries multiple data sources to find the best contact details. The result: a fully enriched profile, ready for outreach." },
-        { "step": "Step 5: Personalized outreach", "desc": "The enriched contact automatically goes to your outbound tool (Instantly, Lemlist) with a personalized message referencing the signal. Timing and relevance in one." }
+        {
+          "step": "Step 1: Define ICP",
+          "desc": "You sharply define which companies you want to reach — not just firmographically (industry, size) but also on behavior (growth stage, tech stack, hiring patterns)."
+        },
+        {
+          "step": "Step 2: Set up monitoring",
+          "desc": "You configure Clay to automatically monitor triggers: new hires, funding rounds, tech switches. Leadinfo captures website visits. Sales Navigator tracks LinkedIn engagement."
+        },
+        {
+          "step": "Step 3: Signal arrives",
+          "desc": "A company in your ICP hires a new Head of Sales. Clay detects this automatically and enriches the contact with email, phone number and company data."
+        },
+        {
+          "step": "Step 4: Automatic enrichment",
+          "desc": "Clay's waterfall enrichment tries multiple data sources to find the best contact details. The result: a fully enriched profile, ready for outreach."
+        },
+        {
+          "step": "Step 5: Personalized outreach",
+          "desc": "The enriched contact automatically goes to your outbound tool (Instantly, Lemlist) with a personalized message referencing the signal. Timing and relevance in one."
+        }
       ]
     },
     "stack": {
       "title": "The tech stack behind signal-based outbound",
-      "intro": "You don't need an enterprise budget. With the right combination of tools, you can set up signal-based outbound for less than \u20ac500 per month.",
+      "intro": "You don't need an enterprise budget. With the right combination of tools, you can set up signal-based outbound for less than €500 per month.",
       "colFunction": "Function",
       "colPrice": "From",
       "tools": [
-        { "name": "Clay", "function": "Signal detection + enrichment", "price": "\u20ac290/mo" },
-        { "name": "Apollo", "function": "Contact data + prospecting", "price": "Free" },
-        { "name": "LinkedIn Sales Nav", "function": "Engagement + intent", "price": "\u20ac80/mo" },
-        { "name": "Instantly / Lemlist", "function": "Email outbound", "price": "\u20ac43/mo" },
-        { "name": "Leadinfo", "function": "Website visitor identification", "price": "\u20ac69/mo" },
-        { "name": "n8n / Make", "function": "Orchestration", "price": "Free/\u20ac10/mo" },
-        { "name": "HubSpot", "function": "CRM", "price": "Free" }
+        {
+          "name": "Clay",
+          "function": "Signal detection + enrichment",
+          "price": "€290/mo"
+        },
+        {
+          "name": "Apollo",
+          "function": "Contact data + prospecting",
+          "price": "Free"
+        },
+        {
+          "name": "LinkedIn Sales Nav",
+          "function": "Engagement + intent",
+          "price": "€80/mo"
+        },
+        {
+          "name": "Instantly / Lemlist",
+          "function": "Email outbound",
+          "price": "€43/mo"
+        },
+        {
+          "name": "Leadinfo",
+          "function": "Website visitor identification",
+          "price": "€69/mo"
+        },
+        {
+          "name": "n8n / Make",
+          "function": "Orchestration",
+          "price": "Free/€10/mo"
+        },
+        {
+          "name": "HubSpot",
+          "function": "CRM",
+          "price": "Free"
+        }
       ],
-      "conclusion": "Total investment for a minimal stack: under \u20ac500 per month. That's a fraction of what traditional intent data providers like Bombora charge \u2014 and more relevant for the Dutch market."
+      "conclusion": "Total investment for a minimal stack: under €500 per month. That's a fraction of what traditional intent data providers like Bombora charge — and more relevant for the Dutch market."
     },
     "whyNow": {
       "title": "Why this is relevant now for B2B companies",
-      "p1": "Three developments make signal-based outbound accessible now. First: the tooling has become affordable. Clay, Apollo and Instantly were either unavailable or enterprise-only two years ago. Now you can run a complete stack for less than \u20ac500 per month.",
+      "p1": "Three developments make signal-based outbound accessible now. First: the tooling has become affordable. Clay, Apollo and Instantly were either unavailable or enterprise-only two years ago. Now you can run a complete stack for less than €500 per month.",
       "p2": "Second: buyers expect relevance. B2B buyers do 70% of their research before they want to talk to sales. A generic message about 'having a quick chat' no longer works. Signal-based outbound gives you the context to be relevant from the first touchpoint.",
-      "p3": "Third: AI makes it scalable. Tools like Clay use AI to detect signals, enrich data and personalize messages. What used to require a team of 5 SDRs, you can now set up with 1-2 people \u2014 provided you have the right tools and processes."
+      "p3": "Third: AI makes it scalable. Tools like Clay use AI to detect signals, enrich data and personalize messages. What used to require a team of 5 SDRs, you can now set up with 1-2 people — provided you have the right tools and processes."
     },
     "pitfalls": {
       "title": "The pitfalls of signal-based outbound",
       "intro": "Signal-based outbound is not a magic bullet. These are the most common mistakes:",
       "items": [
-        { "title": "Monitoring too many signals at once", "desc": "Start with 2-3 signals most relevant to your ICP. Only expand when you know which signals convert. More signals means more noise \u2014 not more results." },
-        { "title": "Using the signal as an excuse for a bad message", "desc": "A signal gives you the right to approach someone, but your message still needs to be relevant and valuable. 'I saw you raised funding, want a demo?' is not signal-based outbound \u2014 that's spam with an excuse." },
-        { "title": "Ignoring your own data", "desc": "Most companies sit on a mountain of first-party intent data they don't use. Who opens your emails? Who visits your website? Start there before investing in third-party tools." },
-        { "title": "Not building a feedback loop", "desc": "If you don't measure which signals actually lead to meetings and deals, you're optimizing on gut feeling. Build simple tracking per signal type: reply rate, meeting rate, pipeline value." }
+        {
+          "title": "Monitoring too many signals at once",
+          "desc": "Start with 2-3 signals most relevant to your ICP. Only expand when you know which signals convert. More signals means more noise — not more results."
+        },
+        {
+          "title": "Using the signal as an excuse for a bad message",
+          "desc": "A signal gives you the right to approach someone, but your message still needs to be relevant and valuable. 'I saw you raised funding, want a demo?' is not signal-based outbound — that's spam with an excuse."
+        },
+        {
+          "title": "Ignoring your own data",
+          "desc": "Most companies sit on a mountain of first-party intent data they don't use. Who opens your emails? Who visits your website? Start there before investing in third-party tools."
+        },
+        {
+          "title": "Not building a feedback loop",
+          "desc": "If you don't measure which signals actually lead to meetings and deals, you're optimizing on gut feeling. Build simple tracking per signal type: reply rate, meeting rate, pipeline value."
+        }
       ]
     },
     "howToStart": {
       "title": "How to get started",
       "intro": "You don't need to set up everything at once. Here's a realistic timeline:",
       "timeline": [
-        { "period": "Week 1-2", "desc": "Define your ICP sharply (firmographic + behavioral). Choose 2-3 signals. Create a Clay account and configure your first triggers." },
-        { "period": "Week 3-4", "desc": "Build your first campaigns per signal type. Start with one channel (email). Measure opens, replies and meetings." },
-        { "period": "Month 2-3", "desc": "Analyze which signals convert. Stop what doesn't work. Add a second channel (LinkedIn). Refine your messages based on data." },
-        { "period": "Month 4+", "desc": "Automate what works. Add Leadinfo for website visits. Connect everything to your CRM. Scale with the signals that deliver proven results." }
+        {
+          "period": "Week 1-2",
+          "desc": "Define your ICP sharply (firmographic + behavioral). Choose 2-3 signals. Create a Clay account and configure your first triggers."
+        },
+        {
+          "period": "Week 3-4",
+          "desc": "Build your first campaigns per signal type. Start with one channel (email). Measure opens, replies and meetings."
+        },
+        {
+          "period": "Month 2-3",
+          "desc": "Analyze which signals convert. Stop what doesn't work. Add a second channel (LinkedIn). Refine your messages based on data."
+        },
+        {
+          "period": "Month 4+",
+          "desc": "Automate what works. Add Leadinfo for website visits. Connect everything to your CRM. Scale with the signals that deliver proven results."
+        }
       ]
     },
     "core": {
       "title": "The core",
-      "p1": "Signal-based outbound is about one fundamental shift: from 'who fits my ICP?' to 'who has a need right now?' That shift changes everything \u2014 your timing, your message, your conversion rate, and ultimately your pipeline.",
+      "p1": "Signal-based outbound is about one fundamental shift: from 'who fits my ICP?' to 'who has a need right now?' That shift changes everything — your timing, your message, your conversion rate, and ultimately your pipeline.",
       "p2": "The technology is here. The tools are affordable. The only question is whether you're willing to stop volume-blasting and start listening to signals."
     },
     "inlineCta": {
@@ -2674,23 +3267,23 @@
       "title": "From cold outreach to signal-based outbound in 5 steps",
       "readTime": "9 min read"
     },
-    "intro": "Cold outreach delivers less and less. The average reply rate on cold emails has dropped to 4-5% \u2014 and that number drops every year. Time for a different approach. In this article, I show you in 5 concrete steps how to switch to signal-based outbound.",
+    "intro": "Cold outreach delivers less and less. The average reply rate on cold emails has dropped to 4-5% — and that number drops every year. Time for a different approach. In this article, I show you in 5 concrete steps how to switch to signal-based outbound.",
     "whyWorse": {
       "title": "Why cold outreach keeps getting worse",
       "p1": "The numbers don't lie. The average reply rate on B2B cold emails dropped from 8.5% in 2019 to 7% in 2023 and further to about 4-5% in 2025. Every year it gets worse, and there are three hard reasons.",
-      "p2": "**Overflowing inboxes.** Decision-makers receive an average of 15 cold emails per week. 71% are ignored due to irrelevance. Your competitor sends the same template to the same list \u2014 and you're drowning together in the inbox.",
+      "p2": "**Overflowing inboxes.** Decision-makers receive an average of 15 cold emails per week. 71% are ignored due to irrelevance. Your competitor sends the same template to the same list — and you're drowning together in the inbox.",
       "p3": "**Stricter spam filters.** Google has lowered the spam threshold to 0.1%. That means: 1-2 complaints per 1,000 emails and your domain is in trouble. Apple's Mail Privacy Protection and Outlook's new filtering don't help either.",
-      "p4": "**Buyer behavior has changed.** B2B buyers do 70% of their research before they want to talk to sales. They expect relevance. A generic message about 'having a quick chat' no longer works \u2014 it irritates.",
+      "p4": "**Buyer behavior has changed.** B2B buyers do 70% of their research before they want to talk to sales. They expect relevance. A generic message about 'having a quick chat' no longer works — it irritates.",
       "p5": "The top 10% of outbound campaigns still achieve 8-12% reply rates. The difference? Timing and relevance. And that's exactly what signal-based outbound is about."
     },
     "whatIs": {
       "title": "What is signal-based outbound?",
       "p1": "Instead of buying a list and sending everyone the same message, you flip it: you wait for a signal indicating someone is open to your solution, and only then do you reach out.",
-      "p2": "Those signals \u2014 also called buying signals or buyer signals \u2014 are concrete, observable events: a company raises funding, hires a new sales manager, visits your website, or switches technology. When you respond to something that just happened, your outreach doesn't feel like spam but like relevant help."
+      "p2": "Those signals — also called buying signals or buyer signals — are concrete, observable events: a company raises funding, hires a new sales manager, visits your website, or switches technology. When you respond to something that just happened, your outreach doesn't feel like spam but like relevant help."
     },
     "step1": {
       "title": "Step 1: Define your ICP more sharply",
-      "intro": "Most companies have an ICP that's too broad. 'B2B SaaS companies with 50-500 employees' is not an ICP \u2014 it's a market. For signal-based outbound you need to be sharper, because you'll build campaigns per signal type.",
+      "intro": "Most companies have an ICP that's too broad. 'B2B SaaS companies with 50-500 employees' is not an ICP — it's a market. For signal-based outbound you need to be sharper, because you'll build campaigns per signal type.",
       "firmographic": "**Firmographic:** revenue, number of employees, industry, location, growth stage. This is the foundation you probably already have.",
       "behavioral": "**Behavioral:** this is where most companies fall short. Add: what technology do they use? Are they growing? Are they investing in sales and marketing?",
       "items": [
@@ -2733,14 +3326,14 @@
     },
     "step3": {
       "title": "Step 3: Set up your monitoring",
-      "intro": "Now it gets technical \u2014 but not complicated. You need three layers.",
+      "intro": "Now it gets technical — but not complicated. You need three layers.",
       "layer1": "**Layer 1: Signal detection with Clay**",
       "layer1Desc": "Clay is the hub of your signal-based setup. You build 'tables' that automatically monitor triggers: new hires on LinkedIn, funding rounds via Crunchbase, technology changes via BuiltWith. Clay checks 150+ data sources and automatically enriches with company and contact data.",
       "layer2": "**Layer 2: Website visits with Leadinfo**",
       "layer2Desc": "Leadinfo (Dutch, GDPR-compliant) shows which companies visit your website. Not who exactly, but which company, which pages, how often. Connect this to your ICP filter and you have a daily list of warm leads.",
       "layer3": "**Layer 3: LinkedIn engagement with Sales Navigator**",
       "layer3Desc": "LinkedIn Sales Navigator (Advanced edition) has buyer intent built in. You see which contacts at your saved accounts visit your company page, like your posts, or accept your InMails.",
-      "conclusion": "The combination of these three \u2014 Clay for events, Leadinfo for website visits, Sales Nav for LinkedIn engagement \u2014 gives you a complete picture of which companies are ready now."
+      "conclusion": "The combination of these three — Clay for events, Leadinfo for website visits, Sales Nav for LinkedIn engagement — gives you a complete picture of which companies are ready now."
     },
     "step4": {
       "title": "Step 4: Build campaigns per signal type",
@@ -2750,7 +3343,7 @@
           "signal": "Funding signal",
           "timing": "Within 1-2 weeks of the announcement",
           "channel": "Email + LinkedIn",
-          "opening": "Saw that you just raised funding \u2014 congratulations. At similar scale-ups in your industry, we see that the sales process is often the first bottleneck when scaling.",
+          "opening": "Saw that you just raised funding — congratulations. At similar scale-ups in your industry, we see that the sales process is often the first bottleneck when scaling.",
           "cadence": "1 email, 1 LinkedIn message, 1 follow-up after 5 days"
         },
         {
@@ -2764,7 +3357,7 @@
           "signal": "New hire signal",
           "timing": "2-4 weeks after start date (let them settle in)",
           "channel": "LinkedIn connection + email",
-          "opening": "Congratulations on your new role. Other sales leaders in your industry use signal-based outbound to deliver results faster \u2014 sound familiar?",
+          "opening": "Congratulations on your new role. Other sales leaders in your industry use signal-based outbound to deliver results faster — sound familiar?",
           "cadence": "LinkedIn connection, after acceptance 1 message, 1 follow-up email"
         }
       ],
@@ -2772,7 +3365,7 @@
     },
     "step5": {
       "title": "Step 5: Measure and optimize",
-      "intro": "Signal-based outbound is not 'set and forget.' You need to measure which signals actually convert \u2014 not just to replies, but to meetings and deals.",
+      "intro": "Signal-based outbound is not 'set and forget.' You need to measure which signals actually convert — not just to replies, but to meetings and deals.",
       "metricsLabel": "Measure per signal type:",
       "metrics": [
         "Reply rate (target: >10%)",
@@ -2806,11 +3399,11 @@
         "**Measure for 4 weeks** and evaluate",
         "**Only then add signal 2 and 3**"
       ],
-      "closing": "The difference between cold outreach and signal-based outbound isn't the technology \u2014 it's the mindset. You stop sending to everyone and start listening to who is ready."
+      "closing": "The difference between cold outreach and signal-based outbound isn't the technology — it's the mindset. You stop sending to everyone and start listening to who is ready."
     },
     "inlineCta": {
       "title": "Want to set up signal-based outbound?",
-      "desc": "We help B2B companies build a complete outbound engine \u2014 from ICP to campaign setup.",
+      "desc": "We help B2B companies build a complete outbound engine — from ICP to campaign setup.",
       "ctaPrimary": "View Outbound & Leadgen",
       "ctaSecondary": "Start with De Scan"
     },
@@ -2861,16 +3454,88 @@
       "p2": "Below are the 10 most powerful signals, each with: what it is, why it works, how to detect it, and a ready-to-use opening line."
     },
     "signals": [
-      { "number": "1", "title": "Funding round raised", "what": "A company raises seed, Series A, B or growth capital.", "why": "There's fresh budget, they're scaling up, and decisions need to be made quickly. Companies that just raised funding actively invest in tooling, processes and people.", "how": "Clay automatically monitors funding rounds via Crunchbase integration. Set a trigger for companies in your ICP that raised funding in the past 30 days.", "opening": "Congratulations on the funding round. At similar scale-ups in your industry, we see that the sales process becomes the first bottleneck when scaling \u2014 does that sound familiar?" },
-      { "number": "2", "title": "New sales or marketing hire", "what": "A company hires a new sales or marketing manager, director or VP.", "why": "New hires want to prove themselves quickly. They evaluate existing tooling, bring new ideas, and have budget to invest. The first 90 days are the window when they're most open.", "how": "Clay tracks new hires via LinkedIn data. Filter on job titles like 'Head of Sales', 'Marketing Manager', 'VP Revenue' at companies in your ICP.", "opening": "Saw that you just started as [title] at [company] \u2014 congratulations. Other sales leaders in your industry use signal-based outbound to deliver results faster." },
-      { "number": "3", "title": "New CEO or CRO appointed", "what": "There's a C-level change, specifically CEO, CRO or COO.", "why": "New leadership means new strategy. A new CEO or CRO re-evaluates existing vendors, processes and priorities. This is when budgets shift.", "how": "LinkedIn (manually or via Clay). Set alerts on companies in your ICP for C-level changes.", "opening": "With a new CRO at the helm, a lot often changes in a short time. At similar companies, we helped the new leadership team streamline their sales process within 6 months." },
-      { "number": "4", "title": "Company visits your website", "what": "A company visits your website \u2014 specifically pages like pricing, case studies or product pages.", "why": "They're actively exploring. This is first-party intent data \u2014 the strongest signal there is, because they're already looking for you.", "how": "Leadinfo is the go-to for Dutch companies. It identifies 35-40% of B2B traffic in the Benelux. Cookieless, GDPR-compliant, and from \u20ac69/month.", "opening": "We help B2B companies set up a scalable sales process. Given your focus on growth \u2014 is this something that's on your radar right now?", "note": "Note: never refer to the website visit itself in your message. That feels creepy. Use the signal to determine your timing, not as a conversation opener." },
-      { "number": "5", "title": "Technology adoption or switch", "what": "A company implements new software or switches from one tool to another.", "why": "Technology switches mean active evaluation is happening. If a company switches from tool A to tool B, there's a good chance they're also reconsidering adjacent tools.", "how": "Clay integrates with BuiltWith for technographic data. You can set triggers on specific technology adoptions or switches.", "opening": "Noticed you recently started using a new tool. Companies making this move often run into specific challenges \u2014 we help solve those." },
-      { "number": "6", "title": "LinkedIn engagement with your content", "what": "A prospect likes, shares or comments on your LinkedIn posts or company page.", "why": "They already know you. There's brand awareness and an initial form of trust. A connection request or DM therefore doesn't feel cold but like a logical next step.", "how": "LinkedIn Sales Navigator (Advanced) shows engagement with your content per saved lead and account.", "opening": "Thanks for your reaction on my post about signal-based outbound. I'm curious \u2014 is this something that's relevant at your company?" },
-      { "number": "7", "title": "Searching relevant keywords (intent data)", "what": "A company actively searches for topics related to your solution.", "why": "They're actively in an exploration phase. This is classic third-party intent data.", "how": "Bombora is the market leader but costs $30,000-$100,000 per year and is primarily US-focused. For Dutch SMBs, use Google Search Console + Leadinfo as a free alternative.", "opening": "I noticed this topic is high on your agenda. At similar companies, we helped streamline their sales process \u2014 would it be worth a quick chat?" },
-      { "number": "8", "title": "Negative reviews about internal culture", "what": "A company gets negative Glassdoor reviews about sales culture, high turnover, or lack of tooling.", "why": "This signals internal problems that your solution might address. High sales turnover? Maybe proper tooling or training is missing.", "how": "Manually monitor Glassdoor at companies in your ICP. Clay can scrape Glassdoor data and filter on relevant keywords.", "opening": "I work a lot with sales teams in your industry that struggle with structuring their sales process. Sound familiar?", "note": "Note: never refer to the Glassdoor reviews themselves. Use the insight, not the source." },
-      { "number": "9", "title": "New market or office", "what": "A company opens a new office, enters a new market, or launches in a new country.", "why": "Growth into new markets creates direct needs: local lead generation, new processes, partnerships, and market knowledge.", "how": "Chamber of Commerce mutations for Dutch companies. LinkedIn company pages for international expansion. Clay can monitor company updates.", "opening": "Congratulations on the move to the new market. Other companies in your industry that made the same move ran into specific sales challenges \u2014 something you're dealing with too?" },
-      { "number": "10", "title": "Prospect opens your emails repeatedly", "what": "A prospect opens the same email 3+ times, or opens multiple emails in your sequence.", "why": "Repeated opening means interest. They're hesitating, sharing internally, or waiting for the right moment.", "how": "Email tools like Instantly, Lemlist or HubSpot track opens. Filter on prospects who open 3+ times but don't respond.", "opening": "I wanted to check if my previous email was relevant \u2014 I understand the timing isn't always right. Is the sales process something that's relevant now or later?" }
+      {
+        "number": "1",
+        "title": "Funding round raised",
+        "what": "A company raises seed, Series A, B or growth capital.",
+        "why": "There's fresh budget, they're scaling up, and decisions need to be made quickly. Companies that just raised funding actively invest in tooling, processes and people.",
+        "how": "Clay automatically monitors funding rounds via Crunchbase integration. Set a trigger for companies in your ICP that raised funding in the past 30 days.",
+        "opening": "Congratulations on the funding round. At similar scale-ups in your industry, we see that the sales process becomes the first bottleneck when scaling — does that sound familiar?"
+      },
+      {
+        "number": "2",
+        "title": "New sales or marketing hire",
+        "what": "A company hires a new sales or marketing manager, director or VP.",
+        "why": "New hires want to prove themselves quickly. They evaluate existing tooling, bring new ideas, and have budget to invest. The first 90 days are the window when they're most open.",
+        "how": "Clay tracks new hires via LinkedIn data. Filter on job titles like 'Head of Sales', 'Marketing Manager', 'VP Revenue' at companies in your ICP.",
+        "opening": "Saw that you just started as [title] at [company] — congratulations. Other sales leaders in your industry use signal-based outbound to deliver results faster."
+      },
+      {
+        "number": "3",
+        "title": "New CEO or CRO appointed",
+        "what": "There's a C-level change, specifically CEO, CRO or COO.",
+        "why": "New leadership means new strategy. A new CEO or CRO re-evaluates existing vendors, processes and priorities. This is when budgets shift.",
+        "how": "LinkedIn (manually or via Clay). Set alerts on companies in your ICP for C-level changes.",
+        "opening": "With a new CRO at the helm, a lot often changes in a short time. At similar companies, we helped the new leadership team streamline their sales process within 6 months."
+      },
+      {
+        "number": "4",
+        "title": "Company visits your website",
+        "what": "A company visits your website — specifically pages like pricing, case studies or product pages.",
+        "why": "They're actively exploring. This is first-party intent data — the strongest signal there is, because they're already looking for you.",
+        "how": "Leadinfo is the go-to for Dutch companies. It identifies 35-40% of B2B traffic in the Benelux. Cookieless, GDPR-compliant, and from €69/month.",
+        "opening": "We help B2B companies set up a scalable sales process. Given your focus on growth — is this something that's on your radar right now?",
+        "note": "Note: never refer to the website visit itself in your message. That feels creepy. Use the signal to determine your timing, not as a conversation opener."
+      },
+      {
+        "number": "5",
+        "title": "Technology adoption or switch",
+        "what": "A company implements new software or switches from one tool to another.",
+        "why": "Technology switches mean active evaluation is happening. If a company switches from tool A to tool B, there's a good chance they're also reconsidering adjacent tools.",
+        "how": "Clay integrates with BuiltWith for technographic data. You can set triggers on specific technology adoptions or switches.",
+        "opening": "Noticed you recently started using a new tool. Companies making this move often run into specific challenges — we help solve those."
+      },
+      {
+        "number": "6",
+        "title": "LinkedIn engagement with your content",
+        "what": "A prospect likes, shares or comments on your LinkedIn posts or company page.",
+        "why": "They already know you. There's brand awareness and an initial form of trust. A connection request or DM therefore doesn't feel cold but like a logical next step.",
+        "how": "LinkedIn Sales Navigator (Advanced) shows engagement with your content per saved lead and account.",
+        "opening": "Thanks for your reaction on my post about signal-based outbound. I'm curious — is this something that's relevant at your company?"
+      },
+      {
+        "number": "7",
+        "title": "Searching relevant keywords (intent data)",
+        "what": "A company actively searches for topics related to your solution.",
+        "why": "They're actively in an exploration phase. This is classic third-party intent data.",
+        "how": "Bombora is the market leader but costs $30,000-$100,000 per year and is primarily US-focused. For Dutch SMBs, use Google Search Console + Leadinfo as a free alternative.",
+        "opening": "I noticed this topic is high on your agenda. At similar companies, we helped streamline their sales process — would it be worth a quick chat?"
+      },
+      {
+        "number": "8",
+        "title": "Negative reviews about internal culture",
+        "what": "A company gets negative Glassdoor reviews about sales culture, high turnover, or lack of tooling.",
+        "why": "This signals internal problems that your solution might address. High sales turnover? Maybe proper tooling or training is missing.",
+        "how": "Manually monitor Glassdoor at companies in your ICP. Clay can scrape Glassdoor data and filter on relevant keywords.",
+        "opening": "I work a lot with sales teams in your industry that struggle with structuring their sales process. Sound familiar?",
+        "note": "Note: never refer to the Glassdoor reviews themselves. Use the insight, not the source."
+      },
+      {
+        "number": "9",
+        "title": "New market or office",
+        "what": "A company opens a new office, enters a new market, or launches in a new country.",
+        "why": "Growth into new markets creates direct needs: local lead generation, new processes, partnerships, and market knowledge.",
+        "how": "Chamber of Commerce mutations for Dutch companies. LinkedIn company pages for international expansion. Clay can monitor company updates.",
+        "opening": "Congratulations on the move to the new market. Other companies in your industry that made the same move ran into specific sales challenges — something you're dealing with too?"
+      },
+      {
+        "number": "10",
+        "title": "Prospect opens your emails repeatedly",
+        "what": "A prospect opens the same email 3+ times, or opens multiple emails in your sequence.",
+        "why": "Repeated opening means interest. They're hesitating, sharing internally, or waiting for the right moment.",
+        "how": "Email tools like Instantly, Lemlist or HubSpot track opens. Filter on prospects who open 3+ times but don't respond.",
+        "opening": "I wanted to check if my previous email was relevant — I understand the timing isn't always right. Is the sales process something that's relevant now or later?"
+      }
     ],
     "howToStart": {
       "title": "How to get started",
@@ -2923,7 +3588,7 @@
       "title": "Clay, Apollo, Leadinfo: the tools behind signal-based outbound",
       "readTime": "11 min read"
     },
-    "intro": "You know what signal-based outbound is and which buying signals you can use. But which tools do you need? In this article, I compare the most important tools per category \u2014 with current pricing, tips and pitfalls.",
+    "intro": "You know what signal-based outbound is and which buying signals you can use. But which tools do you need? In this article, I compare the most important tools per category — with current pricing, tips and pitfalls.",
     "categoriesTitle": "The 5 categories you need",
     "categoriesIntro": "Signal-based outbound isn't about one tool but a stack. You need five layers: signal detection, prospecting data, website visitor identification, outbound execution and orchestration.",
     "tools": [
@@ -2934,7 +3599,11 @@
           {
             "name": "Clay",
             "what": "Clay monitors buying signals (new hires, funding, tech switches), enriches contact data via 150+ data sources, and routes that data to your outbound tools. Clay's 'waterfall enrichment' automatically tries multiple data sources if the first one doesn't return results.",
-            "pricing": ["Starter: $134/month (24,000 credits/year)", "Explorer: $314/month (120,000 credits/year) \u2014 most popular", "Pro: $720/month \u2014 for larger teams"],
+            "pricing": [
+              "Starter: $134/month (24,000 credits/year)",
+              "Explorer: $314/month (120,000 credits/year) — most popular",
+              "Pro: $720/month — for larger teams"
+            ],
             "forWho": "B2B teams serious about scaling with signal-based outbound. Clay requires a 1-2 week learning curve, but is a force multiplier after that.",
             "tip": "Start with the Explorer tier. The Starter doesn't have the AI formula generator, which you need for custom enrichments.",
             "pitfall": "Credits run out fast if you filter too broadly. Start with a specific ICP segment and only expand when you know which signals convert."
@@ -2948,7 +3617,12 @@
           {
             "name": "Apollo",
             "what": "Apollo combines a database of 275+ million contacts with built-in sequencing. You can search, filter, enrich and email directly from one platform.",
-            "pricing": ["Free: 10,000 email credits/month, 5 mobile credits", "Basic: $49/user/month (annual) \u2014 unlimited sequences", "Professional: $79/user/month \u2014 built-in dialer", "Organization: $119/user/month (min. 3 users)"],
+            "pricing": [
+              "Free: 10,000 email credits/month, 5 mobile credits",
+              "Basic: $49/user/month (annual) — unlimited sequences",
+              "Professional: $79/user/month — built-in dialer",
+              "Organization: $119/user/month (min. 3 users)"
+            ],
             "forWho": "Founders and small sales teams wanting an all-in-one for prospecting + outreach. Apollo's free tier is the best free option on the market.",
             "tip": "Use Apollo for data and combine it with Clay for signal detection. Apollo's built-in sequencing is fine for starters.",
             "pitfall": "Mobile numbers and export credits are separately limited. Check how many you need monthly before choosing a tier."
@@ -2956,10 +3630,14 @@
           {
             "name": "LinkedIn Sales Navigator",
             "what": "Advanced search in LinkedIn's database, saved leads with alerts, and (in the Advanced edition) buyer intent signals.",
-            "pricing": ["Core: $99.99/month (or $79.99 with annual billing)", "Advanced: $179.99/month (or $139.99 annual) \u2014 buyer intent, TeamLink", "Advanced Plus: custom pricing, from ~$1,600/year per seat"],
-            "forWho": "Everyone doing B2B outbound. Sales Nav isn't optional \u2014 it's essential. The Core edition suffices for most.",
+            "pricing": [
+              "Core: $99.99/month (or $79.99 with annual billing)",
+              "Advanced: $179.99/month (or $139.99 annual) — buyer intent, TeamLink",
+              "Advanced Plus: custom pricing, from ~$1,600/year per seat"
+            ],
+            "forWho": "Everyone doing B2B outbound. Sales Nav isn't optional — it's essential. The Core edition suffices for most.",
             "tip": "Combine Sales Nav with Clay. Clay can pull and enrich LinkedIn data, giving you the best of both worlds.",
-            "pitfall": "Watch out for VAT \u2014 it's on top of the listed prices and can be 21% extra. InMail credits (50/month on Core) run out fast."
+            "pitfall": "Watch out for VAT — it's on top of the listed prices and can be 21% extra. InMail credits (50/month on Core) run out fast."
           }
         ]
       },
@@ -2969,18 +3647,25 @@
         "entries": [
           {
             "name": "Leadinfo",
-            "what": "Identifies which companies visit your website. Dutch, GDPR-compliant, cookieless. Identifies 35-40% of B2B traffic in the Benelux \u2014 the highest in the EU market.",
-            "pricing": ["From \u20ac69/month", "ISO 27001 certified", "70+ integrations, live within 5 minutes"],
+            "what": "Identifies which companies visit your website. Dutch, GDPR-compliant, cookieless. Identifies 35-40% of B2B traffic in the Benelux — the highest in the EU market.",
+            "pricing": [
+              "From €69/month",
+              "ISO 27001 certified",
+              "70+ integrations, live within 5 minutes"
+            ],
             "forWho": "Dutch and Benelux-focused B2B companies.",
             "tip": "Connect Leadinfo directly to your CRM (HubSpot, Salesforce) so website visits automatically land at the right account.",
-            "pitfall": "Leadinfo shows companies, not individuals. You need to find the right contact person yourself \u2014 that's where Clay or Apollo comes in."
+            "pitfall": "Leadinfo shows companies, not individuals. You need to find the right contact person yourself — that's where Clay or Apollo comes in."
           },
           {
             "name": "Leadfeeder (via Dealfront)",
             "what": "Similar to Leadinfo, but with broader international coverage via Dealfront's data ecosystem.",
-            "pricing": ["From \u20ac139/month", "Free tier: 100 companies/month, 7 days history"],
+            "pricing": [
+              "From €139/month",
+              "Free tier: 100 companies/month, 7 days history"
+            ],
             "forWho": "Teams with international clients outside the Benelux.",
-            "tip": "For NL focus \u2192 Leadinfo. For international \u2192 Leadfeeder. Running both simultaneously is rarely needed.",
+            "tip": "For NL focus → Leadinfo. For international → Leadfeeder. Running both simultaneously is rarely needed.",
             "pitfall": "Website visit data is only valuable when you have enough traffic. Below 500 unique visitors per month, it yields too few usable leads."
           }
         ]
@@ -2992,7 +3677,10 @@
           {
             "name": "Instantly",
             "what": "Cold email at scale with unlimited mailboxes and built-in warmup. The best value for pure email outbound.",
-            "pricing": ["Growth: $47/month \u2014 5,000 emails/month, unlimited accounts", "Hypergrowth: $97/month \u2014 100,000 emails/month, A/B testing"],
+            "pricing": [
+              "Growth: $47/month — 5,000 emails/month, unlimited accounts",
+              "Hypergrowth: $97/month — 100,000 emails/month, A/B testing"
+            ],
             "forWho": "Teams running volume via email.",
             "tip": "Instantly is NOT a prospecting tool. Connect it to Clay or Apollo for your data. Instantly does one thing well: sending emails with high deliverability.",
             "pitfall": "Lead credits for the built-in database cost extra. Use Apollo or Clay for data, Instantly only for sending."
@@ -3000,7 +3688,10 @@
           {
             "name": "Lemlist",
             "what": "Multichannel outreach: email + LinkedIn + calls, with AI personalization.",
-            "pricing": ["Email Pro: $69/user/month", "Multichannel Expert: $79-99/user/month \u2014 LinkedIn automation, calls, AI"],
+            "pricing": [
+              "Email Pro: $69/user/month",
+              "Multichannel Expert: $79-99/user/month — LinkedIn automation, calls, AI"
+            ],
             "forWho": "Teams wanting multichannel from one tool. Lemlist's LinkedIn automation is a plus compared to Instantly.",
             "tip": "Lemlist is strong in multichannel. If you only need email, Instantly is cheaper.",
             "pitfall": "Per-user pricing adds up with larger teams. Credits expire monthly without rollover."
@@ -3008,7 +3699,11 @@
           {
             "name": "La Growth Machine (LGM)",
             "what": "Multichannel sequences via LinkedIn, email and X (Twitter), with visual workflow builder. Popular in the European market.",
-            "pricing": ["Basic: \u20ac60/month per identity \u2014 LinkedIn + email, 3 campaigns", "Pro: \u20ac120/month per identity \u2014 + calls, A/B testing", "Ultimate: \u20ac180/month per identity \u2014 unlimited campaigns"],
+            "pricing": [
+              "Basic: €60/month per identity — LinkedIn + email, 3 campaigns",
+              "Pro: €120/month per identity — + calls, A/B testing",
+              "Ultimate: €180/month per identity — unlimited campaigns"
+            ],
             "forWho": "Teams wanting visual workflows and X as a channel.",
             "tip": "LGM is strong in visual campaign builders. Good for teams wanting to build processes visually.",
             "pitfall": "LGM charges per 'identity' (1 LinkedIn + 1 email). With multiple SDRs, that adds up quickly."
@@ -3022,7 +3717,10 @@
           {
             "name": "n8n",
             "what": "Open-source workflow automation. Self-hosted or cloud. Powerful but more technical than Make.",
-            "pricing": ["Self-hosted: free", "Cloud: from $24/month"],
+            "pricing": [
+              "Self-hosted: free",
+              "Cloud: from $24/month"
+            ],
             "forWho": "Technical teams wanting maximum flexibility.",
             "tip": "n8n is the most powerful option if you can self-host. Full control over your data and workflows.",
             "pitfall": "Requires technical knowledge. Not suitable if you don't have a developer on the team."
@@ -3030,7 +3728,10 @@
           {
             "name": "Make (formerly Integromat)",
             "what": "Visual workflow builder. More user-friendly than n8n, with a large ecosystem of integrations.",
-            "pricing": ["Free tier available", "Paid from $10.59/month"],
+            "pricing": [
+              "Free tier available",
+              "Paid from $10.59/month"
+            ],
             "forWho": "Non-technical teams needing to connect tools without coding.",
             "tip": "Start with Make if you need to connect tools that don't have native integrations. The visual builder is intuitive.",
             "pitfall": "Complex workflows can quickly consume credits. Monitor your usage."
@@ -3038,40 +3739,96 @@
           {
             "name": "HubSpot (Free CRM)",
             "what": "Free CRM with workflows, contact management and basic automation. The free tier is surprisingly complete for small teams.",
-            "pricing": ["Free CRM: \u20ac0", "Starter: from \u20ac20/month", "Professional: from \u20ac890/month"],
+            "pricing": [
+              "Free CRM: €0",
+              "Starter: from €20/month",
+              "Professional: from €890/month"
+            ],
             "forWho": "Everyone. HubSpot Free is the best free CRM for B2B.",
             "tip": "Start with HubSpot Free as CRM. Add Make if you need to connect tools without native integrations.",
-            "pitfall": "The jump from Free to Professional is large (\u20ac0 \u2192 \u20ac890/month). Plan ahead which features you truly need."
+            "pitfall": "The jump from Free to Professional is large (€0 → €890/month). Plan ahead which features you truly need."
           }
         ]
       }
     ],
     "minimalStack": {
-      "title": "The minimal stack: under \u20ac500/month",
+      "title": "The minimal stack: under €500/month",
       "intro": "For a founder or small team wanting to start with signal-based outbound:",
       "rows": [
-        { "tool": "Clay (Explorer)", "function": "Signal detection + enrichment", "cost": "~\u20ac290/month" },
-        { "tool": "Apollo (Free)", "function": "Prospecting data", "cost": "\u20ac0" },
-        { "tool": "Instantly (Growth)", "function": "Email sending", "cost": "~\u20ac43/month" },
-        { "tool": "HubSpot (Free)", "function": "CRM", "cost": "\u20ac0" },
-        { "tool": "Total", "function": "", "cost": "~\u20ac333/month" }
+        {
+          "tool": "Clay (Explorer)",
+          "function": "Signal detection + enrichment",
+          "cost": "~€290/month"
+        },
+        {
+          "tool": "Apollo (Free)",
+          "function": "Prospecting data",
+          "cost": "€0"
+        },
+        {
+          "tool": "Instantly (Growth)",
+          "function": "Email sending",
+          "cost": "~€43/month"
+        },
+        {
+          "tool": "HubSpot (Free)",
+          "function": "CRM",
+          "cost": "€0"
+        },
+        {
+          "tool": "Total",
+          "function": "",
+          "cost": "~€333/month"
+        }
       ],
       "conclusion": "This gives you signal detection, data enrichment, email outbound and a CRM. Enough to start and validate which signals work."
     },
     "premiumStack": {
-      "title": "The premium stack: under \u20ac1,000/month",
+      "title": "The premium stack: under €1,000/month",
       "intro": "When you know signal-based outbound works and want to scale:",
       "rows": [
-        { "tool": "Clay (Explorer)", "function": "Signal detection + enrichment", "cost": "~\u20ac290/month" },
-        { "tool": "Apollo (Basic)", "function": "Prospecting data + sequences", "cost": "~\u20ac45/month" },
-        { "tool": "Leadinfo", "function": "Website visitor identification", "cost": "~\u20ac69/month" },
-        { "tool": "Sales Nav (Core)", "function": "LinkedIn intelligence", "cost": "~\u20ac92/month" },
-        { "tool": "Instantly (Hypergrowth)", "function": "Email at scale", "cost": "~\u20ac89/month" },
-        { "tool": "Make (paid)", "function": "Orchestration", "cost": "~\u20ac10/month" },
-        { "tool": "HubSpot (Free)", "function": "CRM", "cost": "\u20ac0" },
-        { "tool": "Total", "function": "", "cost": "~\u20ac595/month" }
+        {
+          "tool": "Clay (Explorer)",
+          "function": "Signal detection + enrichment",
+          "cost": "~€290/month"
+        },
+        {
+          "tool": "Apollo (Basic)",
+          "function": "Prospecting data + sequences",
+          "cost": "~€45/month"
+        },
+        {
+          "tool": "Leadinfo",
+          "function": "Website visitor identification",
+          "cost": "~€69/month"
+        },
+        {
+          "tool": "Sales Nav (Core)",
+          "function": "LinkedIn intelligence",
+          "cost": "~€92/month"
+        },
+        {
+          "tool": "Instantly (Hypergrowth)",
+          "function": "Email at scale",
+          "cost": "~€89/month"
+        },
+        {
+          "tool": "Make (paid)",
+          "function": "Orchestration",
+          "cost": "~€10/month"
+        },
+        {
+          "tool": "HubSpot (Free)",
+          "function": "CRM",
+          "cost": "€0"
+        },
+        {
+          "tool": "Total",
+          "function": "",
+          "cost": "~€595/month"
+        }
       ],
-      "conclusion": "Well under \u20ac1,000, and you have a complete stack for signal detection, prospecting, website visits, multichannel outreach and automation."
+      "conclusion": "Well under €1,000, and you have a complete stack for signal detection, prospecting, website visits, multichannel outreach and automation."
     },
     "dontStartAll": {
       "title": "Don't start with everything at once",
@@ -3124,7 +3881,7 @@
       "title": "Intent data for Dutch SMBs: what actually works?",
       "readTime": "7 min read"
     },
-    "intro": "Most content about intent data is written for American enterprise companies with six- to seven-figure marketing budgets. Not this article. Here you'll read what intent data does and doesn't deliver for Dutch SMBs \u2014 honestly, without a sales pitch.",
+    "intro": "Most content about intent data is written for American enterprise companies with six- to seven-figure marketing budgets. Not this article. Here you'll read what intent data does and doesn't deliver for Dutch SMBs — honestly, without a sales pitch.",
     "whatIs": {
       "title": "What is intent data?",
       "p1": "Intent data is information indicating that a company is actively interested in a specific topic, product or solution. The idea: if you know a company is exploring your category, you can approach them before they end up at the competitor.",
@@ -3133,7 +3890,7 @@
       "firstPartyDesc": "Behavior you measure yourself: website visits, email opens, content downloads, demo requests. This is data you already have (or can easily collect) via your own website and tools.",
       "thirdPartyTitle": "Third-party intent data",
       "thirdPartyDesc": "Behavior that external parties measure: which topics a company researches on the broader web, which reviews they read, which comparison pages they visit. Providers like Bombora, 6sense and G2 sell this data.",
-      "p3": "The reliability difference is large. First-party data is concrete \u2014 someone visits your pricing page, that's a hard signal. Third-party data is a proxy \u2014 a company reads an article about 'CRM implementation' somewhere, and that gets translated into an intent score."
+      "p3": "The reliability difference is large. First-party data is concrete — someone visits your pricing page, that's a hard signal. Third-party data is a proxy — a company reads an article about 'CRM implementation' somewhere, and that gets translated into an intent score."
     },
     "doesntWork": {
       "title": "What DOESN'T work for Dutch SMBs",
@@ -3142,11 +3899,11 @@
         {
           "name": "Bombora",
           "desc": "Market leader in third-party intent data. Monitors content consumption on 5,000+ B2B websites and translates that into 'Company Surge' scores per topic.",
-          "problem": "Starts at $30,000/year, average contract ~$58,000/year. Annual contract required. The network is primarily American \u2014 overlap with Dutch B2B websites is minimal."
+          "problem": "Starts at $30,000/year, average contract ~$58,000/year. Annual contract required. The network is primarily American — overlap with Dutch B2B websites is minimal."
         },
         {
           "name": "6sense",
-          "desc": "Combines intent data with predictive analytics and account-based marketing. Powerful platform \u2014 for enterprise.",
+          "desc": "Combines intent data with predictive analytics and account-based marketing. Powerful platform — for enterprise.",
           "problem": "Median customer pays $55,000/year. Enterprise up to $250,000-$400,000/year excluding implementation costs ($10,000-$50,000). Requires a dedicated RevOps person."
         },
         {
@@ -3162,7 +3919,7 @@
       "items": [
         {
           "name": "Leadinfo: website visits as first-party intent",
-          "desc": "Leadinfo identifies which companies visit your website \u2014 and that's the most direct form of intent data there is. Dutch, GDPR-compliant, cookieless, 35-40% identification of B2B traffic in the Benelux. From \u20ac69/month, no annual contract.",
+          "desc": "Leadinfo identifies which companies visit your website — and that's the most direct form of intent data there is. Dutch, GDPR-compliant, cookieless, 35-40% identification of B2B traffic in the Benelux. From €69/month, no annual contract.",
           "why": "You see which company, which pages, how often, and how long. Filter on your ICP and you have a daily list of warm leads."
         },
         {
@@ -3173,12 +3930,12 @@
         {
           "name": "Clay triggers: event-based intent",
           "desc": "Clay monitors concrete events that signal intent: new hires, funding rounds, technology switches, press releases. This isn't a statistical intent score but an observable fact. Clay Explorer costs $314/month.",
-          "why": "You don't need to interpret a score. There's no 'medium intent' label \u2014 you see that company X hired a VP Sales last week. Concrete, verifiable, and immediately actionable."
+          "why": "You don't need to interpret a score. There's no 'medium intent' label — you see that company X hired a VP Sales last week. Concrete, verifiable, and immediately actionable."
         },
         {
           "name": "Own first-party data via HubSpot",
           "desc": "HubSpot (free CRM) tracks who opens your emails, which pages they visit (with tracking code), and how they move through your funnel. This is first-party intent data you already have but probably don't use enough.",
-          "why": "Combine HubSpot data with Leadinfo and you have a complete picture: which companies visit your site (Leadinfo) and what do known contacts do (HubSpot). Cost: \u20ac69/month + \u20ac0."
+          "why": "Combine HubSpot data with Leadinfo and you have a complete picture: which companies visit your site (Leadinfo) and what do known contacts do (HubSpot). Cost: €69/month + €0."
         }
       ]
     },
@@ -3187,13 +3944,13 @@
       "p1": "The intent data industry is built on the promise that you can know who's ready to buy. For American enterprise companies with huge target markets and six-figure budgets, that model works. For Dutch SMBs, the reality is different.",
       "highlight": "First-party data + event-based triggers > expensive third-party intent data.",
       "p2": "Your own website visit data (Leadinfo) tells you more than a Bombora Company Surge score ever will for the Dutch market. LinkedIn engagement from your target audience is a stronger signal than a G2 comparison page your prospect never visited.",
-      "p3": "The companies performing best with signal-based outbound in the Netherlands don't use Bombora or 6sense. They combine Leadinfo + Clay + LinkedIn Sales Nav + their own HubSpot data. Total cost: \u20ac400-600/month. That's 10x cheaper than Bombora's entry price \u2014 and more relevant for the Dutch market."
+      "p3": "The companies performing best with signal-based outbound in the Netherlands don't use Bombora or 6sense. They combine Leadinfo + Clay + LinkedIn Sales Nav + their own HubSpot data. Total cost: €400-600/month. That's 10x cheaper than Bombora's entry price — and more relevant for the Dutch market."
     },
     "startWith": {
       "title": "Start with what you have",
       "intro": "Before you invest in any intent data tool, do this:",
       "conclusion": "Most SMBs discover they're already sitting on a mountain of intent data they're not using. Start there.",
-      "closing": "And when you notice that foundation works \u2014 that website visit data actually leads to meetings, that email engagement correlates with deals \u2014 only then is it time to invest in Clay for scale and automation. Not sooner."
+      "closing": "And when you notice that foundation works — that website visit data actually leads to meetings, that email engagement correlates with deals — only then is it time to invest in Clay for scale and automation. Not sooner."
     },
     "startSteps": [
       "**Check your HubSpot** (or other CRM): who opens your emails, who visits your site, who's in your pipeline but has gone quiet?",

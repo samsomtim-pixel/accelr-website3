@@ -17,10 +17,10 @@ export async function generateMetadata({
 
   return {
     alternates: buildAlternates("/resultaten/bedrijf-c", locale),
-    title: `Case Study: ${t("caseStudyC.name")} | ${t("caseStudyC.headline")} | Accelr`,
+    title: `Case Study: ${t("caseStudyC.name")} | ${t("caseStudyC.headline")}`,
     description: t("caseStudyC.headline"),
     openGraph: {
-      title: `Case Study: ${t("caseStudyC.name")} | Accelr`,
+      title: `Case Study: ${t("caseStudyC.name")}`,
       description: t("caseStudyC.headline"),
       url: pageUrl("/resultaten/bedrijf-c", locale),
       locale: ogLocale(locale),
