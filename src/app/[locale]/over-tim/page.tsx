@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
+import JsonLd from "@/components/seo/JsonLd";
+import { personSchemaTim, breadcrumbSchema } from "@/lib/structured-data";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
@@ -42,8 +44,10 @@ export async function generateMetadata({
   };
 }
 
-export default async function OverTimPage() {
+export default async function OverTimPage({ params }: { params: Promise<{ locale: string }> }) {
   const t = await getTranslations("overTim");
+  const { locale: __localeStr } = (await params) as { locale: string };
+  const __locale: Locale = __localeStr === "en" ? "en" : "nl";
 
   const approachCards = t.raw("aanpak.cards") as Array<{
     title: string;
@@ -60,6 +64,7 @@ export default async function OverTimPage() {
 
   return (
     <>
+      <JsonLd data={[personSchemaTim(), breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Over Tim", path: "/over-tim" }], __locale)]} />
       <Navbar />
       <main className="pt-[72px]">
         {/* ─── Hero ─── */}

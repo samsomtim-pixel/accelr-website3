@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
+import JsonLd from "@/components/seo/JsonLd";
+import { blogPostingSchema, breadcrumbSchema } from "@/lib/structured-data";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
@@ -30,8 +32,10 @@ export async function generateMetadata({
   };
 }
 
-export default async function BlogPost() {
+export default async function BlogPost({ params }: { params: Promise<{ locale: string }> }) {
   const t = await getTranslations("blogSignalBased");
+  const { locale: __localeStr } = (await params) as { locale: string };
+  const __locale: Locale = __localeStr === "en" ? "en" : "nl";
 
   const triggerSignals = t.raw("signalTypes.triggers") as Array<{
     signal: string;
@@ -72,6 +76,7 @@ export default async function BlogPost() {
 
   return (
     <>
+      <JsonLd data={[blogPostingSchema({ slug: "signal-based-outbound", headline: t("metadata.title"), description: t("metadata.description"), locale: __locale }), breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Blog", path: "/blog" }, { name: t("metadata.title"), path: "/blog/signal-based-outbound" }], __locale)]} />
       <Navbar />
       <main className="pt-[72px]">
         {/* Hero */}

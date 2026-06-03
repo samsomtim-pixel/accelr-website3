@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
+import JsonLd from "@/components/seo/JsonLd";
+import { serviceSchema } from "@/lib/structured-data";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
@@ -62,6 +64,7 @@ export default async function DeBouwPage() {
 
   return (
     <>
+      <JsonLd data={serviceSchema({ name: t("metadata.title"), description: t("metadata.description"), path: "/de-bouw" })} />
       <Navbar />
       <main className="pt-[72px]">
         {/* ─── Hero ─── */}

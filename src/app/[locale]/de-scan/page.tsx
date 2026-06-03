@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
+import JsonLd from "@/components/seo/JsonLd";
+import { serviceSchema, faqPageSchema } from "@/lib/structured-data";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import Navbar from "@/components/layout/Navbar";
@@ -46,6 +48,7 @@ export default async function DeScanPage() {
 
   return (
     <>
+      <JsonLd data={[serviceSchema({ name: t("metadata.title"), description: t("metadata.description"), path: "/de-scan", priceEur: 5000 }), faqPageSchema(((): Array<{q:string;a:string}> => { const raw = t.raw("faq") as { items?: Array<{q:string;a:string}> } | Array<{q:string;a:string}>; return Array.isArray(raw) ? raw : (raw.items ?? []); })())]} />
       <Navbar />
       <main className="pt-[72px]">
         {/* ─── Hero ─── */}

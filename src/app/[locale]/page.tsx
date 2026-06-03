@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { buildAlternates, pageUrl, ogLocale, type Locale } from "@/lib/seo";
+import JsonLd from "@/components/seo/JsonLd";
+import { faqPageSchema } from "@/lib/structured-data";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
@@ -109,6 +111,7 @@ export default async function HomePage() {
 
   return (
     <>
+      <JsonLd data={faqPageSchema(t.raw("faq.items") as Array<{q:string;a:string}>)} />
       <Navbar />
       <main className="pt-[72px]">
         {/* ═══ SECTIE 1 — HERO ═══ */}
