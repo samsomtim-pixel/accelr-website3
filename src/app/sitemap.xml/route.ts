@@ -19,8 +19,10 @@ export const dynamic = "force-dynamic";
  * exact header set (no Content-Disposition), matching how other sites get the
  * formatted, collapsible XML tree in the browser.
  *
- * Output keeps the Google-recommended multilingual pattern: one <url> entry
- * per locale (NL and EN), each with the same hreflang alternate set.
+ * Each <url> entry carries only <loc>, <lastmod>, <changefreq> and <priority>.
+ * Priorities are derived from each page's internal inbound-link prominence
+ * (header nav, footer, homepage CTAs): the more a page is linked, the higher
+ * its priority.
  */
 
 type ChangeFrequency =
@@ -38,26 +40,35 @@ type PageConfig = {
   changeFrequency: ChangeFrequency;
 };
 
+// Priority reflects internal inbound-link prominence:
+//   /contact            -> 5 links (header CTA + footer + 3 homepage CTAs)
+//   /                   -> homepage / root (convention: highest)
+//   /de-scan            -> 4 links (footer + 3 homepage CTAs)
+//   /methode, /over-tim -> 3 links each (header + footer + homepage)
+//   expertise pages,
+//   /de-bouw, /de-motor,
+//   /blog               -> 2 links each (header/footer + homepage)
+//   /privacy            -> 1 link (footer only)
 const STATIC_PAGES: PageConfig[] = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
-  { path: "/methode", priority: 0.9, changeFrequency: "monthly" },
-  { path: "/over-tim", priority: 0.7, changeFrequency: "monthly" },
-  { path: "/resultaten", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/resultaten/bedrijf-a", priority: 0.7, changeFrequency: "monthly" },
-  { path: "/resultaten/bedrijf-b", priority: 0.7, changeFrequency: "monthly" },
-  { path: "/resultaten/bedrijf-c", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/contact", priority: 1.0, changeFrequency: "monthly" },
   { path: "/de-scan", priority: 0.9, changeFrequency: "weekly" },
-  { path: "/de-bouw", priority: 0.9, changeFrequency: "weekly" },
-  { path: "/de-motor", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/methode", priority: 0.9, changeFrequency: "monthly" },
+  { path: "/over-tim", priority: 0.9, changeFrequency: "monthly" },
+  { path: "/de-bouw", priority: 0.8, changeFrequency: "weekly" },
+  { path: "/de-motor", priority: 0.8, changeFrequency: "weekly" },
   { path: "/sales-strategie", priority: 0.8, changeFrequency: "monthly" },
   { path: "/crm-implementatie", priority: 0.8, changeFrequency: "monthly" },
   { path: "/outbound-leadgeneratie", priority: 0.8, changeFrequency: "monthly" },
   { path: "/sales-enablement", priority: 0.8, changeFrequency: "monthly" },
   { path: "/ai-automation", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/blog", priority: 0.7, changeFrequency: "weekly" },
+  { path: "/blog", priority: 0.8, changeFrequency: "weekly" },
+  { path: "/resultaten", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/resultaten/bedrijf-a", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/resultaten/bedrijf-b", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/resultaten/bedrijf-c", priority: 0.6, changeFrequency: "monthly" },
   { path: "/score", priority: 0.7, changeFrequency: "monthly" },
-  { path: "/contact", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/privacy", priority: 0.3, changeFrequency: "yearly" },
+  { path: "/privacy", priority: 0.7, changeFrequency: "yearly" },
 ];
 
 const BLOG_PAGES: PageConfig[] = BLOG_SLUGS.map((slug) => ({
@@ -82,32 +93,15 @@ function buildSitemap(): string {
   const urls: string[] = [];
 
   for (const page of ALL_PAGES) {
-    const nlHref = pageUrl(page.path, "nl");
-    const enHref = pageUrl(page.path, "en");
-
-    const alternates = [
-      { hreflang: "nl-NL", href: nlHref },
-      { hreflang: "en-US", href: enHref },
-      { hreflang: "x-default", href: nlHref },
-    ];
-
-    // One <url> entry per language version, each pointing to the same hreflang
-    // set — the Google-recommended pattern for multilingual sites.
-    for (const loc of [nlHref, enHref]) {
-      const links = alternates
-        .map(
-          (alt) =>
-            `<xhtml:link rel="alternate" hreflang="${alt.hreflang}" href="${escapeXml(alt.href)}"/>`,
-        )
-        .join("");
-
+    // One flat <url> entry per language version (NL and EN), each with only
+    // loc, lastmod, changefreq and priority.
+    for (const loc of [pageUrl(page.path, "nl"), pageUrl(page.path, "en")]) {
       urls.push(
-        `<url>` +
-          `<loc>${escapeXml(loc)}</loc>` +
-          links +
-          `<lastmod>${lastmod}</lastmod>` +
-          `<changefreq>${page.changeFrequency}</changefreq>` +
-          `<priority>${page.priority}</priority>` +
+        `<url>\n` +
+          `<loc>${escapeXml(loc)}</loc>\n` +
+          `<lastmod>${lastmod}</lastmod>\n` +
+          `<changefreq>${page.changeFrequency}</changefreq>\n` +
+          `<priority>${page.priority}</priority>\n` +
           `</url>`,
       );
     }
@@ -115,7 +109,7 @@ function buildSitemap(): string {
 
   return (
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     urls.join("\n") +
     `\n</urlset>\n`
   );
