@@ -1,5 +1,13 @@
 import { BLOG_SLUGS, pageUrl } from "@/lib/seo";
 
+// Force dynamic rendering so Vercel serves this from a live function instead of
+// its static prerender layer. The static layer injects a `Content-Disposition:
+// inline` header on prerendered `.xml` responses, which makes Chrome treat the
+// response as a downloadable file and skip its built-in XML pretty-print viewer
+// (rendering the sitemap as a raw "wall of text"). Serving dynamically gives us
+// full control of the response headers, with no Content-Disposition.
+export const dynamic = "force-dynamic";
+
 /**
  * Sitemap served via a custom route handler instead of Next.js's built-in
  * `sitemap.ts` metadata route.
