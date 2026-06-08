@@ -91,13 +91,18 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        // Crawler/XML files: security headers WITHOUT the CSP, so browsers can
-        // render the formatted sitemap.xml tree instead of raw text.
-        source: '/:file(sitemap\\.xml|robots\\.txt)',
-        headers: baseSecurityHeaders,
-      },
-      {
-        // Everything else: full security headers including the CSP.
+        // Everything except sitemap.xml/robots.txt gets the full security
+        // header set, including the CSP.
+        //
+        // sitemap.xml is intentionally NOT matched here: it is served by the
+        // custom route handler at src/app/sitemap.xml/route.ts, which sets its
+        // own minimal headers (Content-Type, X-Content-Type-Options,
+        // Cache-Control) and — critically — NO Content-Disposition header.
+        // Chrome treats any response carrying a Content-Disposition header as a
+        // downloadable "file" and skips its built-in XML pretty-print viewer,
+        // so adding the base security headers (or the CSP) here would reintroduce
+        // the raw "wall of text" rendering. Keeping the sitemap response lean
+        // matches how other sites get the formatted, collapsible XML tree.
         source: '/((?!sitemap\\.xml|robots\\.txt).*)',
         headers: [cspHeader, ...baseSecurityHeaders],
       },
