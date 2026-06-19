@@ -2062,6 +2062,30 @@
         "excerpt": "In the US, it's been mainstream for years. In the Netherlands, it's just starting. A Fractional Head of Sales is an experienced commercial leader who works part-time for your company. Everything you need to know.",
         "tag": "Sales Leadership",
         "readTime": "8 min"
+      },
+      {
+        "title": "Salesproces opzetten als founder: de 5 stappen die je in deze volgorde doet",
+        "excerpt": "Salesproces opzetten als B2B founder? Dit zijn de 5 stappen in de juiste volgorde. Praktisch, zonder consultants-fluff.",
+        "tag": "Sales Strategy",
+        "readTime": "8 min"
+      },
+      {
+        "title": "Sales uitbesteden of zelf doen? Een eerlijke afweging voor founders",
+        "excerpt": "Sales zelf doen, een hire aannemen of uitbesteden? De drie opties, de echte kosten en wanneer welke keuze werkt.",
+        "tag": "Sales Leadership",
+        "readTime": "6 min"
+      },
+      {
+        "title": "HubSpot of Pipedrive? De eerlijke keuze voor het MKB",
+        "excerpt": "HubSpot vs Pipedrive voor je MKB? De echte verschillen in prijs, opzet en schaalbaarheid — en de vraag die de keuze beslist.",
+        "tag": "CRM & Salesproces",
+        "readTime": "7 min"
+      },
+      {
+        "title": "Zes Claude-prompts die echte systemen bouwen",
+        "excerpt": "Zes AI-frameworks die verder gaan dan losse prompts: van een Personal Operating System tot een AI-voorstelmachine. Praktisch toe te passen.",
+        "tag": "AI & Productiviteit",
+        "readTime": "9 min"
       }
     ],
     "readArticle": "Read article"
@@ -3992,6 +4016,322 @@
       "title": "Ready to transform your outbound?",
       "desc": "Book a call. Let's look together at which intent data strategy fits your situation.",
       "cta": "Book a call"
+    }
+  },
+  "blogSalesproces": {
+    "metadata": {
+      "title": "Salesproces opzetten als founder: de 5 stappen die je in deze volgorde doet",
+      "description": "Salesproces opzetten als B2B founder? Dit zijn de 5 stappen in de juiste volgorde. Praktisch, zonder consultants-fluff."
+    },
+    "hero": {
+      "tag": "Sales Strategy",
+      "title": "Salesproces opzetten als founder",
+      "readTime": "8 min leestijd"
+    },
+    "intro": "De meeste founders beginnen met stap 4 of 5 — outbound en tooling — terwijl het fundament ontbreekt. Het resultaat: leads die nergens heen gaan en een pijplijn die niemand vertrouwt. Dit zijn de vijf stappen in de volgorde die wél werkt.",
+    "pattern": {
+      "title": "De volgorde is het werk",
+      "p1": "Founders slaan bijna altijd de eerste stappen over. Ze denken:",
+      "p1em": "\"We hebben gewoon meer leads nodig.\"",
+      "p2": "Dus ze kopen tooling en starten outbound. Maar zonder fundament lekt elke lead weg.",
+      "p3": "Want:",
+      "items": [
+        {
+          "bold": "Geen scherpe ICP",
+          "rest": ", dus je praat met iedereen en overtuigt niemand"
+        },
+        {
+          "bold": "Geen vastgelegd proces",
+          "rest": ", dus elke deal verloopt anders"
+        },
+        {
+          "bold": "Geen werkend CRM",
+          "rest": ", dus je pijplijn klopt niet"
+        },
+        {
+          "bold": "Geen meetpunten",
+          "rest": ", dus je weet niet wat je moet fixen"
+        }
+      ],
+      "conclusion": "Een salesproces faalt niet door te weinig leads, maar door een ontbrekend fundament."
+    },
+    "whatToBuild": {
+      "title": "De 5 stappen in de juiste volgorde",
+      "intro": "Bouw het in deze volgorde op — niet andersom:",
+      "items": [
+        {
+          "title": "Stap 1: Bepaal wie je beste klant is",
+          "desc": "Alles begint bij je ICP. Leg vast: bedrijfsgrootte, sector, fase, beslisser-rol, de top drie pijnpunten en drie kenmerken die een bad fit verraden."
+        },
+        {
+          "title": "Stap 2: Schrijf op hoe je nu verkoopt",
+          "desc": "Maak een ruwe proceskaart: lead binnen → kwalificatie → eerste gesprek → voorstel → closing. Je kunt niet verbeteren wat je niet ziet."
+        },
+        {
+          "title": "Stap 3: Zet een werkend CRM op",
+          "desc": "Nu pas een CRM, niet eerder. Met pipeline-stages die je team echt gebruikt. Kies HubSpot om te groeien, Pipedrive om snel te starten."
+        },
+        {
+          "title": "Stap 4: Bouw je outbound engine",
+          "desc": "Targeting (Apollo, Clay, LinkedIn), messaging (max 80 woorden, één pijn, één CTA) en een cadans van 5-7 touchpoints."
+        },
+        {
+          "title": "Stap 5: Meet en optimaliseer",
+          "desc": "Meet wekelijks: nieuwe leads, conversie per fase, gemiddelde doorlooptijd en dealgrootte. Die vier cijfers vertellen je waar het lekt."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Wanneer doe je dit zelf?",
+      "p1": "Bouw eerst het fundament, dan pas de groei.",
+      "p2": "Kun of wil je dit niet zelf? Dan leggen we het samen aan. Met De Scan zie je in 2-3 weken precies waar je staat en wat je als eerste moet fixen.",
+      "p3": "Dan jaag je niet op meer leads, maar bouw je een proces dat elke lead benut."
+    },
+    "inlineCta": {
+      "title": "Wil je weten waar jij staat?",
+      "desc": "Met De Scan krijg je een compleet overzicht van je sales funnel, tooling en processen — plus een roadmap met prioriteiten.",
+      "ctaScan": "Bekijk De Scan",
+      "ctaFractional": "De Motor"
+    },
+    "footerCta": {
+      "title": "Vragen over jouw situatie?",
+      "desc": "Plan een gesprek van 30 minuten. Gratis, geen verplichtingen. We kijken samen naar jouw salesproces.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogUitbesteden": {
+    "metadata": {
+      "title": "Sales uitbesteden of zelf doen? Een eerlijke afweging voor founders",
+      "description": "Sales zelf doen, een hire aannemen of uitbesteden? De drie opties, de echte kosten en wanneer welke keuze werkt."
+    },
+    "hero": {
+      "tag": "Sales Leadership",
+      "title": "Sales uitbesteden of zelf doen?",
+      "readTime": "6 min leestijd"
+    },
+    "intro": "Op een bepaald moment loopt elke founder vast op sales. Je hebt te veel leads om alles zelf te doen, maar te weinig zekerheid om blind iemand aan te nemen. Dit zijn je drie opties — en wanneer welke werkt.",
+    "pattern": {
+      "title": "Waarom zelf doen zo lang werkt",
+      "p1": "In het begin verkoopt de founder. En dat is goed:",
+      "p1em": "\"Niemand verkoopt jouw product beter dan jij.\"",
+      "p2": "Je kent het product, de klant en het verhaal. Maar het schaalt niet — jouw tijd is eindig.",
+      "p3": "Op een gegeven moment kost zelf verkopen je meer dan het oplevert. Dan zijn er drie routes:",
+      "items": [
+        {
+          "bold": "Eerste sales hire",
+          "rest": ": €60K-€90K per jaar, plus maanden inwerken en risico"
+        },
+        {
+          "bold": "Interim sales manager",
+          "rest": ": €120K-€180K per jaar equivalent, duur maar ervaren"
+        },
+        {
+          "bold": "Sales uitbesteden (fractional)",
+          "rest": ": ervaren capaciteit zonder vast contract"
+        }
+      ],
+      "conclusion": "De vraag is niet óf je opschaalt, maar via welke route — en wanneer."
+    },
+    "whatToBuild": {
+      "title": "Wanneer werkt welke keuze?",
+      "intro": "Match de keuze aan je fase:",
+      "items": [
+        {
+          "title": "Zelf doen",
+          "desc": "Zolang je nog zoekt naar product-market fit en het verhaal nog verandert. Niemand kan dat overnemen."
+        },
+        {
+          "title": "Een sales hire",
+          "desc": "Als je een bewezen proces hébt, een playbook kunt overdragen en de ramp-up tijd en het risico kunt dragen."
+        },
+        {
+          "title": "Sales uitbesteden",
+          "desc": "Als je product-market fit en omzet (€1M+) hebt, maar nog geen volledig salesteam wil opbouwen. Vaak 60-70% goedkoper dan een interim manager."
+        },
+        {
+          "title": "De vraag die het beslist",
+          "desc": "Heb je een proces om over te dragen? Zo nee, bouw dat eerst — anders faalt elke hire én elke uitbesteding."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Wat ik in de praktijk doe",
+      "p1": "Meestal begint het niet met een persoon, maar met een systeem.",
+      "p2": "Ik bouw eerst het fundament — ICP, proces, CRM, outbound — en draai het mee tot het werkt. Daarna kun je het overdragen aan een hire of het uitbesteed laten draaien.",
+      "p3": "Zo betaal je niet voor inwerken, maar voor resultaat."
+    },
+    "inlineCta": {
+      "title": "Niet zeker welke keuze past?",
+      "desc": "Met De Scan brengen we je situatie in kaart en zie je welke route het meeste oplevert voor jouw fase.",
+      "ctaScan": "Bekijk De Scan",
+      "ctaFractional": "De Motor"
+    },
+    "footerCta": {
+      "title": "Niet zeker of dit voor jou werkt?",
+      "desc": "Plan een gesprek van 30 minuten. We kijken samen naar jouw situatie en welke route past.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogHubspot": {
+    "metadata": {
+      "title": "HubSpot of Pipedrive? De eerlijke keuze voor het MKB",
+      "description": "HubSpot vs Pipedrive voor je MKB? De echte verschillen in prijs, opzet en schaalbaarheid — en de vraag die de keuze beslist."
+    },
+    "hero": {
+      "tag": "CRM & Salesproces",
+      "title": "HubSpot of Pipedrive?",
+      "readTime": "7 min leestijd"
+    },
+    "intro": "Bijna elke founder die een CRM kiest, twijfelt tussen HubSpot en Pipedrive. Beide zijn goed — maar ze zijn voor verschillende dingen gebouwd. De verkeerde keuze kost je maanden en honderden euro's per maand.",
+    "pattern": {
+      "title": "Twee filosofieën",
+      "p1": "Het verschil is geen feature-lijstje. Het is een filosofie:",
+      "p1em": "\"Verkooptool of commercieel systeem?\"",
+      "p2": "Pipedrive is gebouwd voor verkopers. HubSpot voor het hele commerciële systeem.",
+      "p3": "Dat zie je terug in alles:",
+      "items": [
+        {
+          "bold": "Pipedrive",
+          "rest": ": simpel, snel op te zetten, vanaf €14/gebruiker/mnd"
+        },
+        {
+          "bold": "HubSpot",
+          "rest": ": krachtig, breder, maar snel €400-800/mnd"
+        },
+        {
+          "bold": "Opzettijd",
+          "rest": ": Pipedrive in dagen, HubSpot in weken"
+        },
+        {
+          "bold": "Reikwijdte",
+          "rest": ": sales-only versus marketing, sales én service"
+        }
+      ],
+      "conclusion": "Geen van beide is 'beter'. Ze passen bij een andere fase en ambitie."
+    },
+    "whatToBuild": {
+      "title": "Welke past bij jou?",
+      "intro": "Kijk naar waar je nu staat én waar je heen wil:",
+      "items": [
+        {
+          "title": "Pipedrive: gebouwd voor verkopers",
+          "desc": "Sterk in een overzichtelijke pijplijn, snelle opzet en lage instapprijs (vanaf €14/gebruiker/mnd). Minder sterk in marketing automation en diepe rapportage."
+        },
+        {
+          "title": "HubSpot: gebouwd voor het hele systeem",
+          "desc": "Sterk als je marketing, sales en service wil verbinden. Minder sterk op je portemonnee: kosten lopen snel op naar €400-800/mnd."
+        },
+        {
+          "title": "De vraag die het beslist",
+          "desc": "Wil je alleen je sales-pijplijn beheren, of een compleet commercieel systeem bouwen? Dat antwoord kiest je CRM."
+        },
+        {
+          "title": "Een CRM is niets zonder inrichting",
+          "desc": "Welke tool je ook kiest: zonder goede pipeline-stages, velden en discipline wordt het een dure adressenlijst."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Wat ik in de praktijk zie",
+      "p1": "De meeste MKB-bedrijven hebben geen toolprobleem, maar een inrichtingsprobleem.",
+      "p2": "Kies Pipedrive als je snel wil starten en sales-gericht bent. Kies HubSpot als je wil groeien naar een geïntegreerd systeem en het budget hebt.",
+      "p3": "Maar besteed je energie vooral aan de inrichting — daar zit het rendement, niet in de tool zelf."
+    },
+    "inlineCta": {
+      "title": "Twijfel je over je CRM-keuze?",
+      "desc": "Met De Scan kijken we naar je proces en tooling en adviseren we welk CRM — en welke inrichting — bij jou past.",
+      "ctaScan": "Bekijk De Scan",
+      "ctaFractional": "De Motor"
+    },
+    "footerCta": {
+      "title": "Hulp nodig bij de keuze?",
+      "desc": "Plan een gesprek van 30 minuten. We kijken samen naar jouw proces en welk CRM past.",
+      "cta": "Plan een gesprek"
+    }
+  },
+  "blogClaudePrompts": {
+    "metadata": {
+      "title": "Zes Claude-prompts die echte systemen bouwen",
+      "description": "Zes AI-frameworks die verder gaan dan losse prompts: van een Personal Operating System tot een AI-voorstelmachine. Praktisch toe te passen."
+    },
+    "hero": {
+      "tag": "AI & Productiviteit",
+      "title": "Zes Claude-prompts die echte systemen bouwen",
+      "readTime": "9 min leestijd"
+    },
+    "intro": "De meeste AI-prompts blijven oppervlakkig: je stelt een vraag, je krijgt een antwoord, en daar blijft het bij. De échte waarde zit in frameworks die je elke dag draait. Hieronder zes prompts die systemen bouwen in plaats van losse antwoorden.",
+    "pattern": {
+      "title": "Van losse prompts naar systemen",
+      "p1": "Het verschil tussen een trucje en een tool is herhaling:",
+      "p1em": "\"Een prompt die je één keer gebruikt is een trucje. Een prompt die je elke dag draait is een systeem.\"",
+      "p2": "Praktische noot: deze prompts werken het best in het Engels. AI-modellen zijn daar nét wat scherper op.",
+      "p3": "De zes frameworks bestrijken je hele werkdag:",
+      "items": [
+        {
+          "bold": "Strategie & overzicht",
+          "rest": ": een Personal OS en een Strategic Life Audit"
+        },
+        {
+          "bold": "Intelligentie",
+          "rest": ": een dagelijkse Daily Brief over jouw markt"
+        },
+        {
+          "bold": "Creatie",
+          "rest": ": een Content Ideation Engine en een AI Proposal System"
+        },
+        {
+          "bold": "Gewoontes",
+          "rest": ": een gegamificeerd habit-dashboard"
+        }
+      ],
+      "conclusion": "De waarde zit niet in de losse prompt, maar in het systeem dat je eromheen draait."
+    },
+    "whatToBuild": {
+      "title": "De zes frameworks",
+      "intro": "Elk framework is een herbruikbaar systeem. Begin met één of twee:",
+      "items": [
+        {
+          "title": "1. Second Brain (Personal Operating System)",
+          "desc": "Een intelligentielaag bovenop je leven en business, opgedeeld in zeven modules: strategie, finance, communicatie, content, team, marktintelligentie en doelen. Je activeert een module met een commando."
+        },
+        {
+          "title": "2. Strategic Life Audit",
+          "desc": "Combineert een executive coach, een McKinsey-partner en een high-performance therapeut. Drie fases: deep discovery, de spiegel (jouw tegenstrijdigheden) en strategische analyse met een 90-dagen plan."
+        },
+        {
+          "title": "3. Daily Brief (Market Intelligence)",
+          "desc": "Een persoonlijke analist die elke ochtend een marktrapport levert over jouw domein — macro, kansen, katalysatoren en concrete ideeën — in een vast format."
+        },
+        {
+          "title": "4. Content Ideation Engine",
+          "desc": "Een contentstrateeg die jouw eerdere werk kent en vijf invalshoeken genereert, gerangschikt op verwachte performance. Kies er één en het levert een ruw script."
+        },
+        {
+          "title": "5. AI Proposal System",
+          "desc": "Een voorstelmachine die in jouw tone-of-voice complete offertes opbouwt: van executive summary en scope tot een investering in drie tiers."
+        },
+        {
+          "title": "6. Gamified Habit Dashboard",
+          "desc": "Laat Claude een interactief dashboard bouwen dat je dagelijkse routine gamificeert: punten, streaks, multipliers en levels — met een geheugen dat je data bewaart."
+        }
+      ]
+    },
+    "solution": {
+      "title": "Hoe je dit in de praktijk gebruikt",
+      "p1": "De rode draad is dat de waarde niet in losse prompts zit, maar in systemen die je elke dag draait.",
+      "p2": "Begin met één of twee frameworks die nú knellen. Bouw ze in je dagelijkse ritme in voor je de volgende toevoegt.",
+      "p3": "Een framework dat je niet gebruikt is net zo waardeloos als een feature die niemand opent."
+    },
+    "inlineCta": {
+      "title": "AI inzetten in je salesproces?",
+      "desc": "Bij Accelr combineren we AI-tooling met een bewezen salesstructuur. Met De Scan zie je waar AI jouw proces echt versnelt.",
+      "ctaScan": "Bekijk De Scan",
+      "ctaFractional": "De Motor"
+    },
+    "footerCta": {
+      "title": "Benieuwd wat AI voor jouw sales doet?",
+      "desc": "Plan een gesprek van 30 minuten. We laten zien waar AI in jouw proces het verschil maakt.",
+      "cta": "Plan een gesprek"
     }
   }
 }

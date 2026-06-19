@@ -48,6 +48,22 @@ export const BLOG_POST_DATES: Record<
     datePublished: "2026-02-27",
     dateModified: "2026-02-27",
   },
+  "salesproces-opzetten-founder": {
+    datePublished: "2026-06-19",
+    dateModified: "2026-06-19",
+  },
+  "sales-uitbesteden-of-zelf-doen": {
+    datePublished: "2026-06-19",
+    dateModified: "2026-06-19",
+  },
+  "hubspot-vs-pipedrive-mkb": {
+    datePublished: "2026-06-19",
+    dateModified: "2026-06-19",
+  },
+  "zes-claude-prompts-systemen": {
+    datePublished: "2026-06-19",
+    dateModified: "2026-06-19",
+  },
   "fractional-head-of-sales-nederland": {
     datePublished: "2026-02-27",
     dateModified: "2026-02-27",

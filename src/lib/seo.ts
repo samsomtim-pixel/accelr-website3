@@ -72,6 +72,10 @@ export const BLOG_SLUGS = [
   "intent-data-nederland-mkb",
   "waarom-eerste-sales-hire-mislukt",
   "fractional-head-of-sales-nederland",
+  "salesproces-opzetten-founder",
+  "sales-uitbesteden-of-zelf-doen",
+  "hubspot-vs-pipedrive-mkb",
+  "zes-claude-prompts-systemen",
 ] as const;
 
 export type BlogSlug = (typeof BLOG_SLUGS)[number];

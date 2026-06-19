@@ -37,6 +37,10 @@ const postHrefs = [
   "/blog/intent-data-nederland-mkb",
   "/blog/waarom-eerste-sales-hire-mislukt",
   "/blog/fractional-head-of-sales-nederland",
+  "/blog/salesproces-opzetten-founder",
+  "/blog/sales-uitbesteden-of-zelf-doen",
+  "/blog/hubspot-vs-pipedrive-mkb",
+  "/blog/zes-claude-prompts-systemen",
 ] as const;
 
 export default async function BlogPage() {
