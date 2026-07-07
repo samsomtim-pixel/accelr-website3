@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import ThemeProvider from "@/components/ThemeProvider";
 import CookieBanner from "@/components/CookieBanner";
 import ApolloTracker from "@/components/ApolloTracker";
+import LemlistTracker from "@/components/LemlistTracker";
 
 export async function generateMetadata({
   params,
@@ -163,6 +164,7 @@ export default async function LocaleLayout({
           <CookieBanner />
         </NextIntlClientProvider>
         <ApolloTracker />
+        <LemlistTracker />
         <Analytics />
       </body>
     </html>
