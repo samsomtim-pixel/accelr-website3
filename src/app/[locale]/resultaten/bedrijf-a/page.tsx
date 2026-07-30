@@ -17,11 +17,11 @@ export async function generateMetadata({
 
   return {
     alternates: buildAlternates("/resultaten/bedrijf-a", locale),
-    title: `Case Study: ${t("caseStudyA.name")} | ${t("caseStudyA.headline")}`,
-    description: t("caseStudyA.headline"),
+    title: t("caseStudyA.metadata.title"),
+    description: t("caseStudyA.metadata.description"),
     openGraph: {
-      title: `Case Study: ${t("caseStudyA.name")}`,
-      description: t("caseStudyA.headline"),
+      title: t("caseStudyA.metadata.title"),
+      description: t("caseStudyA.metadata.description"),
       url: pageUrl("/resultaten/bedrijf-a", locale),
       locale: ogLocale(locale),
       images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
@@ -56,9 +56,6 @@ export default async function BedrijfAPage() {
               <ArrowLeft className="w-4 h-4" />
               <span>{t("backLink")}</span>
             </Link>
-            <div className="inline-block px-3 py-1 bg-accent-teal-dark/10 text-accent-teal-dark text-sm font-medium rounded-full mb-6">
-              {t("caseStudyA.badge")}
-            </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-text-dark mb-6">
               {t("caseStudyA.name")}
             </h1>
@@ -215,6 +212,9 @@ export default async function BedrijfAPage() {
                   </tbody>
                 </table>
               </div>
+              <p className="mt-4 text-sm text-text-dark-muted">
+                {t("disclaimer")}
+              </p>
             </div>
           </FadeIn>
         </section>
@@ -227,11 +227,8 @@ export default async function BedrijfAPage() {
                 <blockquote className="text-xl md:text-2xl text-text-dark italic leading-relaxed mb-6">
                   &ldquo;{t("caseStudyA.quoteDetailed")}&rdquo;
                 </blockquote>
-                <div className="text-text-dark-secondary">
-                  <div className="font-medium text-text-dark">
-                    {t("caseStudyA.quoteAuthor")}
-                  </div>
-                  <div>{t("caseStudyA.quoteRole")}</div>
+                <div className="font-medium text-text-dark">
+                  {t("caseStudyA.quoteRole")}
                 </div>
               </div>
             </div>

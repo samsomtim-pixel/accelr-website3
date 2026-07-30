@@ -66,6 +66,9 @@ export default async function ResultatenPage() {
             <p className="text-xl md:text-2xl text-text-dark-secondary max-w-3xl">
               {t("hero.subtitle")}
             </p>
+            <p className="mt-4 text-sm text-text-dark-muted">
+              {t("disclaimer")}
+            </p>
           </FadeIn>
         </section>
 
@@ -80,9 +83,6 @@ export default async function ResultatenPage() {
                     <div className="card-light p-8 md:p-12 hover:shadow-2xl transition-all duration-300">
                       <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
                         <div className="flex-1">
-                          <div className="inline-block px-3 py-1 bg-accent-teal-dark/10 text-accent-teal-dark text-sm font-medium rounded-full mb-4">
-                            {t(`${cs.key}.badge`)}
-                          </div>
                           <h2 className="font-display text-3xl md:text-4xl text-text-dark mb-4">
                             {t(`${cs.key}.name`)}
                           </h2>

@@ -1653,15 +1653,15 @@
       "title": "Wat anderen bereikten",
       "caseStudies": [
         {
-          "title": "Bedrijfsnaam A",
+          "title": "B2B SaaS, HR-tech, 22 medewerkers",
           "result": "€1.8M → €2.6M ARR (+44%)"
         },
         {
-          "title": "Bedrijfsnaam B",
+          "title": "IT-dienstverlener, 35 medewerkers",
           "result": "€600K onbenut, Upsell +262%"
         },
         {
-          "title": "Bedrijfsnaam C",
+          "title": "B2B SaaS, supply chain, 18 medewerkers",
           "result": "€2.5M → €4.1M ARR (+64%)"
         }
       ]
@@ -2099,10 +2099,14 @@
       "title": "Resultaten",
       "subtitle": "Geen theorie. Dit is wat er gebeurt als je salesoperatie een systeem wordt."
     },
+    "disclaimer": "Cijfers uit echte trajecten. Bedrijfsnamen op verzoek van de klant geanonimiseerd.",
     "backLink": "Terug naar alle resultaten",
     "caseStudyA": {
-      "badge": "B2B SaaS · HR-tech · 22 medewerkers",
-      "name": "[Bedrijfsnaam A]",
+      "metadata": {
+        "title": "Case study: B2B SaaS HR-tech, van €1.8M naar €2.6M ARR",
+        "description": "Fractional Head of Sales bij een B2B SaaS HR-tech scale-up: ARR van €1.8M naar €2.6M (+44%) in 9 maanden, win rate +55%, sales cycle -42%."
+      },
+      "name": "B2B SaaS, HR-tech, 22 medewerkers",
       "headline": "€1.8M → €2.6M ARR (+44%) in 9 maanden",
       "highlights": [
         "Win rate +55%, deal size +33%, sales cycle -42%",
@@ -2187,12 +2191,14 @@
         }
       ],
       "quoteDetailed": "Tim dwong ons eerlijk te kijken naar onze pipeline. Confronterend, 40% van deals stond niet eens in het CRM. Na 3 maanden hadden we voor het eerst echt zicht op onze funnel. Na 6 maanden draaide het zonder mij.",
-      "quoteAuthor": "[Naam]",
-      "quoteRole": "Founder [Bedrijfsnaam A]"
+      "quoteRole": "Founder, B2B SaaS HR-tech"
     },
     "caseStudyB": {
-      "badge": "IT-dienstverlener · 35 medewerkers",
-      "name": "[Bedrijfsnaam B]",
+      "metadata": {
+        "title": "Case study: IT-dienstverlener, €600K onbenut potentieel, upsell +262%",
+        "description": "IT-dienstverlener (35 medewerkers): €600K onbenut cross-sell/upsell potentieel gevonden en geactiveerd. Salesforce-adoptie van 15% naar 92%, upsell +262%."
+      },
+      "name": "IT-dienstverlener, 35 medewerkers",
       "headline": "€600K onbenut potentieel gevonden, Upsell +262%",
       "highlights": [
         "Salesforce adoptie van 15% naar 92%, forecast accuracy 78%",
@@ -2218,6 +2224,12 @@
         "Wekelijkse pipeline reviews ingevoerd"
       ],
       "resultatenTitle": "Resultaten",
+      "tableHeaders": {
+        "metric": "Metric",
+        "voor": "Voor",
+        "na": "Na",
+        "verschil": "Verschil"
+      },
       "tableRows": [
         {
           "metric": "Salesforce adoptie",
@@ -2251,12 +2263,14 @@
         }
       ],
       "quoteDetailed": "De wake-up call die we nodig hadden. We zaten op €600K aan potentieel dat we niet zagen. Tim heeft het zichtbaar gemaakt en een systeem gebouwd om het te oogsten.",
-      "quoteAuthor": "[Naam]",
-      "quoteRole": "Directeur [Bedrijfsnaam B]"
+      "quoteRole": "Directeur, IT-dienstverlener"
     },
     "caseStudyC": {
-      "badge": "B2B SaaS · Supply chain · 18 medewerkers",
-      "name": "[Bedrijfsnaam C]",
+      "metadata": {
+        "title": "Case study: B2B SaaS supply chain, van €2.5M naar €4.1M ARR",
+        "description": "Fractional Head of Sales bij een B2B SaaS supply chain scale-up: ARR van €2.5M naar €4.1M (+64%) in 12 maanden, pipeline +244%, win rate +61%."
+      },
+      "name": "B2B SaaS, supply chain, 18 medewerkers",
       "headline": "€2.5M → €4.1M ARR (+64%) in 12 maanden",
       "highlights": [
         "Pipeline +244%, win rate +61%, sales cycle -43%",
@@ -2295,6 +2309,12 @@
         "Succesvolle overdracht afgerond"
       ],
       "resultatenTitle": "Resultaten",
+      "tableHeaders": {
+        "metric": "Metric",
+        "voor": "Voor",
+        "na": "Na",
+        "verschil": "Verschil"
+      },
       "tableRows": [
         {
           "metric": "ARR",
@@ -2340,8 +2360,7 @@
         }
       ],
       "quoteDetailed": "Het probleem was niet de persoon, maar het systeem. Tim heeft eerst het fundament gebouwd en daarna de juiste HoS gevonden om het over te nemen. Dat had ik zelf nooit kunnen doen.",
-      "quoteAuthor": "[Naam]",
-      "quoteRole": "CTO & Co-founder [Bedrijfsnaam C]"
+      "quoteRole": "Founder, B2B SaaS supply chain"
     },
     "cta": {
       "title": "Herkenbaar? Plan een gesprek.",

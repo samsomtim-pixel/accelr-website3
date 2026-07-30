@@ -17,11 +17,11 @@ export async function generateMetadata({
 
   return {
     alternates: buildAlternates("/resultaten/bedrijf-b", locale),
-    title: `Case Study: ${t("caseStudyB.name")} | ${t("caseStudyB.headline")}`,
-    description: t("caseStudyB.headline"),
+    title: t("caseStudyB.metadata.title"),
+    description: t("caseStudyB.metadata.description"),
     openGraph: {
-      title: `Case Study: ${t("caseStudyB.name")}`,
-      description: t("caseStudyB.headline"),
+      title: t("caseStudyB.metadata.title"),
+      description: t("caseStudyB.metadata.description"),
       url: pageUrl("/resultaten/bedrijf-b", locale),
       locale: ogLocale(locale),
       images: [{ url: "https://www.accelr.nl/images/og-default.png", width: 1200, height: 630, alt: "Accelr" }],
@@ -55,9 +55,6 @@ export default async function BedrijfBPage() {
               <ArrowLeft className="w-4 h-4" />
               <span>{t("backLink")}</span>
             </Link>
-            <div className="inline-block px-3 py-1 bg-accent-teal-dark/10 text-accent-teal-dark text-sm font-medium rounded-full mb-6">
-              {t("caseStudyB.badge")}
-            </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-text-dark mb-6">
               {t("caseStudyB.name")}
             </h1>
@@ -143,16 +140,16 @@ export default async function BedrijfBPage() {
                   <thead>
                     <tr className="border-b-2 border-gray-200">
                       <th className="text-left py-4 pr-4 font-display text-text-dark">
-                        {t("caseStudyA.tableHeaders.metric")}
+                        {t("caseStudyB.tableHeaders.metric")}
                       </th>
                       <th className="text-left py-4 px-4 font-display text-text-dark">
-                        {t("caseStudyA.tableHeaders.voor")}
+                        {t("caseStudyB.tableHeaders.voor")}
                       </th>
                       <th className="text-left py-4 px-4 font-display text-text-dark">
-                        {t("caseStudyA.tableHeaders.na")}
+                        {t("caseStudyB.tableHeaders.na")}
                       </th>
                       <th className="text-left py-4 pl-4 font-display text-accent-teal-dark">
-                        {t("caseStudyA.tableHeaders.verschil")}
+                        {t("caseStudyB.tableHeaders.verschil")}
                       </th>
                     </tr>
                   </thead>
@@ -177,6 +174,9 @@ export default async function BedrijfBPage() {
                   </tbody>
                 </table>
               </div>
+              <p className="mt-4 text-sm text-text-dark-muted">
+                {t("disclaimer")}
+              </p>
             </div>
           </FadeIn>
         </section>
@@ -189,11 +189,8 @@ export default async function BedrijfBPage() {
                 <blockquote className="text-xl md:text-2xl text-text-dark italic leading-relaxed mb-6">
                   &ldquo;{t("caseStudyB.quoteDetailed")}&rdquo;
                 </blockquote>
-                <div className="text-text-dark-secondary">
-                  <div className="font-medium text-text-dark">
-                    {t("caseStudyB.quoteAuthor")}
-                  </div>
-                  <div>{t("caseStudyB.quoteRole")}</div>
+                <div className="font-medium text-text-dark">
+                  {t("caseStudyB.quoteRole")}
                 </div>
               </div>
             </div>

@@ -1653,15 +1653,15 @@
       "title": "What others achieved",
       "caseStudies": [
         {
-          "title": "Company A",
+          "title": "B2B SaaS, HR-tech, 22 employees",
           "result": "€1.8M → €2.6M ARR (+44%)"
         },
         {
-          "title": "Company B",
+          "title": "IT services provider, 35 employees",
           "result": "€600K untapped potential, Upsell +262%"
         },
         {
-          "title": "Company C",
+          "title": "B2B SaaS, supply chain, 18 employees",
           "result": "€2.5M → €4.1M ARR (+64%)"
         }
       ]
@@ -2099,10 +2099,14 @@
       "title": "Results",
       "subtitle": "No theory. This is what happens when your sales operation becomes a system."
     },
+    "disclaimer": "Figures from real engagements. Company names anonymized at the client's request.",
     "backLink": "Back to all results",
     "caseStudyA": {
-      "badge": "B2B SaaS · HR-tech · 22 employees",
-      "name": "[Company A]",
+      "metadata": {
+        "title": "Case study: B2B SaaS HR-tech, from €1.8M to €2.6M ARR",
+        "description": "Fractional Head of Sales for a B2B SaaS HR tech scale-up: ARR grew from €1.8M to €2.6M (+44%) in 9 months, win rate +55%, sales cycle -42%."
+      },
+      "name": "B2B SaaS, HR-tech, 22 employees",
       "headline": "€1.8M → €2.6M ARR (+44%) in 9 months",
       "highlights": [
         "Win rate +55%, deal size +33%, sales cycle -42%",
@@ -2187,12 +2191,14 @@
         }
       ],
       "quoteDetailed": "Tim forced us to honestly look at our pipeline. Confronting, 40% of deals weren't even in the CRM. After 3 months, we had real visibility into our funnel for the first time. After 6 months, it ran without me.",
-      "quoteAuthor": "[Name]",
-      "quoteRole": "Founder [Company A]"
+      "quoteRole": "Founder, B2B SaaS HR-tech"
     },
     "caseStudyB": {
-      "badge": "IT services · 35 employees",
-      "name": "[Company B]",
+      "metadata": {
+        "title": "Case study: IT services provider, €600K untapped potential, upsell +262%",
+        "description": "IT services provider (35 employees): €600K untapped cross-sell/upsell potential found and activated. Salesforce adoption from 15% to 92%, upsell +262%."
+      },
+      "name": "IT services provider, 35 employees",
       "headline": "€600K untapped potential found, Upsell +262%",
       "highlights": [
         "Salesforce adoption from 15% to 92%, forecast accuracy 78%",
@@ -2218,6 +2224,12 @@
         "Weekly pipeline reviews introduced"
       ],
       "resultatenTitle": "Results",
+      "tableHeaders": {
+        "metric": "Metric",
+        "voor": "Before",
+        "na": "After",
+        "verschil": "Change"
+      },
       "tableRows": [
         {
           "metric": "Salesforce adoption",
@@ -2251,12 +2263,14 @@
         }
       ],
       "quoteDetailed": "The wake-up call we needed. We were sitting on €600K in potential we didn't see. Tim made it visible and built a system to harvest it.",
-      "quoteAuthor": "[Name]",
-      "quoteRole": "Director [Company B]"
+      "quoteRole": "Director, IT services provider"
     },
     "caseStudyC": {
-      "badge": "B2B SaaS · Supply chain · 18 employees",
-      "name": "[Company C]",
+      "metadata": {
+        "title": "Case study: B2B SaaS supply chain, from €2.5M to €4.1M ARR",
+        "description": "Fractional Head of Sales for a B2B SaaS supply chain scale-up: ARR grew from €2.5M to €4.1M (+64%) in 12 months, pipeline +244%, win rate +61%."
+      },
+      "name": "B2B SaaS, supply chain, 18 employees",
       "headline": "€2.5M → €4.1M ARR (+64%) in 12 months",
       "highlights": [
         "Pipeline +244%, win rate +61%, sales cycle -43%",
@@ -2295,6 +2309,12 @@
         "Successful handover completed"
       ],
       "resultatenTitle": "Results",
+      "tableHeaders": {
+        "metric": "Metric",
+        "voor": "Before",
+        "na": "After",
+        "verschil": "Change"
+      },
       "tableRows": [
         {
           "metric": "ARR",
@@ -2340,8 +2360,7 @@
         }
       ],
       "quoteDetailed": "The problem wasn't the person, it was the system. Tim built the foundation first and then found the right HoS to take it over. I could never have done that myself.",
-      "quoteAuthor": "[Name]",
-      "quoteRole": "CTO & Co-founder [Company C]"
+      "quoteRole": "Founder, B2B SaaS supply chain"
     },
     "cta": {
       "title": "Sound familiar? Book a call.",
