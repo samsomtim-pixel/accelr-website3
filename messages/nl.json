@@ -806,7 +806,8 @@
         "De realiteit dat 80% van sales-succes zit in het systeem, niet het talent"
       ],
       "patroon": "Wat ik keer op keer zag bij tech-founders: briljante producten, maar geen salesmotor. De founder doet alle sales zelf, er is geen proces, geen CRM, geen strategie. De groei hangt af van toeval en netwerk.",
-      "waarom": "Daarom startte ik Accelr."
+      "waarom": "Daarom startte ik Accelr.",
+      "finable": "Naast Accelr ben ik ook oprichter van <link>Finable</link>, een Finance-as-a-Service bedrijf voor groeiende organisaties. Met Finable bouw ik aan een alternatief voor het klassieke finance-hire model: een vast finance-team dat de dagelijkse finance-functie kan overnemen en versterken."
     },
     "aanpak": {
       "label": "/ Mijn aanpak",
@@ -871,6 +872,11 @@
           "name": "Flower Power DOO",
           "subtitle": "Pharma · Medical Cannabis",
           "deed": "Positionering en brand opzet uitgewerkt. GTM-strategie ontwikkeld voor de Europese medische cannabis markt."
+        },
+        {
+          "name": "Finable",
+          "subtitle": "Finance · Finance-as-a-Service",
+          "deed": "Finance-as-a-Service concept ontwikkeld en in de markt gezet. Positionering, propositie, website en go-to-market opgebouwd voor groeiende bedrijven."
         }
       ]
     },

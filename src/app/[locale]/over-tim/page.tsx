@@ -20,6 +20,7 @@ const trajectenLinks = [
   "https://stablagency.com/",
   null,
   null,
+  "https://www.finable.nl/",
 ];
 
 export async function generateMetadata({
@@ -136,6 +137,23 @@ export default async function OverTimPage({ params }: { params: Promise<{ locale
                   <p>{t("verhaal.patroon")}</p>
 
                   <p>{t("verhaal.waarom")}</p>
+
+                  {t.has("verhaal.finable") && (
+                    <p>
+                      {t.rich("verhaal.finable", {
+                        link: (chunks) => (
+                          <a
+                            href="https://www.finable.nl/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-accent-teal-dark hover:underline"
+                          >
+                            {chunks}
+                          </a>
+                        ),
+                      })}
+                    </p>
+                  )}
                 </div>
               </div>
             </FadeIn>
