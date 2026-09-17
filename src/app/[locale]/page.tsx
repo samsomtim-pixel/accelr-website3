@@ -38,6 +38,7 @@ const resultatenLinks = [
   "https://stablagency.com/",
   null,
   null,
+  "https://www.finable.nl/",
 ];
 
 /* ─── Tool logos for marquee ─── */
