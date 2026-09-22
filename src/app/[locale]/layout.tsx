@@ -37,8 +37,16 @@ export async function generateMetadata({
         },
       ],
     },
+    // The EN branch is deliberately kept out of the index. Search Console
+    // reported every /en/ URL as "Crawled - currently not indexed": Google was
+    // spending crawl budget there while only half of our NL sitemap URLs had
+    // been discovered. follow stays true, so link equity still flows and the
+    // pages remain reachable; only indexing is switched off.
+    //
+    // This is an allowlist on purpose: any locale other than "nl" is noindex,
+    // so a future locale stays out of the index until someone opts it in here.
     robots: {
-      index: true,
+      index: locale === "nl",
       follow: true,
     },
     alternates: {

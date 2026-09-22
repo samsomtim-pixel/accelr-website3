@@ -117,23 +117,27 @@ function buildSitemap(): string {
   const urls: string[] = [];
 
   for (const page of ALL_PAGES) {
-    // One flat <url> entry per language version (NL and EN). <lastmod> is
-    // emitted only when the page config carries a date; pages without one are
-    // published with no <lastmod> at all rather than a fabricated timestamp.
+    // One <url> entry per page, NL only. The EN branch is served with robots
+    // noindex (see src/app/[locale]/layout.tsx), and a sitemap should advertise
+    // only URLs we actually want indexed — submitting noindexed URLs wastes
+    // crawl budget on pages Google is told to drop. The EN pages stay reachable
+    // and keep their hreflang annotations; they are simply not submitted.
+    //
+    // <lastmod> is emitted only when the page config carries a date; pages
+    // without one are published with no <lastmod> at all rather than a
+    // fabricated timestamp.
     const lastmodTag = page.lastModified
       ? `<lastmod>${escapeXml(page.lastModified)}</lastmod>\n`
       : "";
 
-    for (const loc of [pageUrl(page.path, "nl"), pageUrl(page.path, "en")]) {
-      urls.push(
-        `<url>\n` +
-          `<loc>${escapeXml(loc)}</loc>\n` +
-          lastmodTag +
-          `<changefreq>${page.changeFrequency}</changefreq>\n` +
-          `<priority>${page.priority}</priority>\n` +
-          `</url>`,
-      );
-    }
+    urls.push(
+      `<url>\n` +
+        `<loc>${escapeXml(pageUrl(page.path, "nl"))}</loc>\n` +
+        lastmodTag +
+        `<changefreq>${page.changeFrequency}</changefreq>\n` +
+        `<priority>${page.priority}</priority>\n` +
+        `</url>`,
+    );
   }
 
   return (
