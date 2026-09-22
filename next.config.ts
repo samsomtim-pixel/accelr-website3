@@ -46,11 +46,9 @@ const nextConfig: NextConfig = {
         destination: "/methode#bouw",
         permanent: true,
       },
-      {
-        source: "/expertise/fractional-head-of-sales",
-        destination: "/de-motor",
-        permanent: true,
-      },
+      // NOTE: no redirect for /expertise/fractional-head-of-sales. That route
+      // has its own service page and must stay reachable in both locales. The
+      // bare /expertise index below still redirects, since no page exists there.
       {
         source: "/expertise",
         destination: "/methode",

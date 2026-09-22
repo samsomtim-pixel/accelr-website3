@@ -64,6 +64,8 @@ type PageConfig = {
 //   /de-bouw, /de-motor,
 //   /blog               -> 2 links each (header/footer + homepage)
 //   /privacy            -> 1 link (footer only)
+//   /expertise/fractional-head-of-sales
+//                       -> 1 link (from the fractional blog post)
 //
 // lastModified is maintained BY HAND. Each value below was seeded from the last
 // git commit touching that page's own file. Note that most page copy lives in
@@ -83,6 +85,7 @@ const STATIC_PAGES: PageConfig[] = [
   { path: "/outbound-leadgeneratie", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-06-03" },
   { path: "/sales-enablement", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-06-03" },
   { path: "/ai-automation", priority: 0.8, changeFrequency: "monthly", lastModified: "2026-06-03" },
+  { path: "/expertise/fractional-head-of-sales", priority: 0.7, changeFrequency: "monthly", lastModified: "2026-06-03" },
   { path: "/blog", priority: 0.8, changeFrequency: "weekly", lastModified: "2026-06-20" },
   { path: "/resultaten", priority: 0.7, changeFrequency: "monthly", lastModified: "2026-07-30" },
   { path: "/resultaten/bedrijf-a", priority: 0.6, changeFrequency: "monthly", lastModified: "2026-07-30" },
